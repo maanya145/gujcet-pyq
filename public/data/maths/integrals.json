@@ -1,0 +1,1099 @@
+{
+  "subject": "maths",
+  "chapter": "Integrals",
+  "total_questions": 91,
+  "questions": [
+    {
+      "year": 2006,
+      "number": 13,
+      "question": "Find $\\int e^{3 \\log x} (x^4 + 1)^{-1} dx$",
+      "options": {
+        "A": "$-\\log (x^4 + 1) + c$",
+        "B": "None of these",
+        "C": "$\\log (x^4 + 1) + c$",
+        "D": "$\\frac{1}{4} \\log (x^4 + 1) + c$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2006,
+      "number": 23,
+      "question": "$\\int e^{-2 \\log x} dx = ?$ (where $x \\ne 0$)",
+      "options": {
+        "A": "$-\\frac{1}{x} + c$",
+        "B": "$-\\frac{2}{x} + c$",
+        "C": "$\\frac{1}{x} + c$",
+        "D": "$\\frac{x^3}{3} + c$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2006,
+      "number": 24,
+      "question": "$\\int (\\sin^{-1} x + \\cos^{-1} x) dx = ?$",
+      "options": {
+        "A": "$x + c$",
+        "B": "$\\frac{\\pi x}{2} + c$",
+        "C": "Not possible",
+        "D": "$\\frac{\\pi x}{2} + c$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2006,
+      "number": 25,
+      "question": "$\\int \\frac{3 \\tan \\frac{x}{3} - \\tan^3 \\frac{x}{3}}{1 - 3 \\tan^2 \\frac{x}{3}} dx = ?$",
+      "options": {
+        "A": "$-\\log |\\cos x| + c$",
+        "B": "$\\sec^2 x + c$",
+        "C": "$\\log |\\tan x| + c$",
+        "D": "$-\\log |\\sec x| + c$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2006,
+      "number": 26,
+      "question": "$\\int_0^{\\pi/2} \\frac{(\\sin x)^{2006}}{(\\sin x)^{2006} + (\\cos x)^{2006}} dx = ?$",
+      "options": {
+        "A": "$\\frac{\\pi}{2}$",
+        "B": "None of these",
+        "C": "$2006 \\cdot (\\sin x)^{2007}$",
+        "D": "$\\frac{\\pi}{4}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2006,
+      "number": 27,
+      "question": "If $\\int_{\\sqrt{2}}^k \\frac{1}{x \\sqrt{x^2 - 1}} dx = \\frac{\\pi}{12}$, then what is the value of $k$ ?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "-2",
+        "D": "2"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2006,
+      "number": 28,
+      "question": "If $\\int_0^a f(x) dx = m$ and $f(x)$ is an even and continuous function defined on $[-a, a]$, then evaluate $\\int_{-a}^a f(x) dx$ ($a \\in R^+$)",
+      "options": {
+        "A": "$2m$",
+        "B": "0",
+        "C": "$m/2$",
+        "D": "$m$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2008,
+      "number": 32,
+      "question": "$\\int \\log x \\, dx = .......... + c ; x > 0.$",
+      "options": {
+        "A": "$\\frac{1}{x}$",
+        "B": "$x - \\log x$",
+        "C": "$-x(1 - \\log x)$",
+        "D": "$x \\log x$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 33,
+      "question": "$\\int \\frac{x \\sin x}{x \\cos x - \\sin x - 1} \\, dx = .......... + c.$",
+      "options": {
+        "A": "$\\log |x \\cos x - \\sin x - 1|$",
+        "B": "$-\\log |x \\cos x - \\sin x - 1|$",
+        "C": "$\\log |x \\sin x - \\cos x - 1|$",
+        "D": "$-\\log |x \\sin x - \\cos x - 1|$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 34,
+      "question": "$\\int f(x) \\, dx = .......... + c ; f(x) = \\begin{vmatrix} 2007 & 2008 \\\\ 2007x & 2008x \\end{vmatrix}$",
+      "options": {
+        "A": "$x$",
+        "B": "0",
+        "C": "constant",
+        "D": "not possible"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 35,
+      "question": "$\\int \\frac{1}{\\sqrt{(\\log 1/2)^2 - x^2}} \\, dx = .......... + c.$",
+      "options": {
+        "A": "$2 \\sin^{-1} \\left( \\frac{\\log 2}{x} \\right)$",
+        "B": "$-2 \\sin^{-1} \\left( \\frac{\\log 2}{x} \\right)$",
+        "C": "$-\\sin^{-1} \\left( \\frac{x}{\\log 2} \\right)$",
+        "D": "$\\sin^{-1} \\left( \\frac{x}{\\log 2} \\right)$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 36,
+      "question": "$\\int_{-4}^{4} \\frac{|x + 5|}{x + 5} \\, dx = ...............$",
+      "options": {
+        "A": "0",
+        "B": "8",
+        "C": "-8",
+        "D": "none of these"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 37,
+      "question": "$\\int_{0}^{\\pi/2} \\frac{2008^{\\sin x}}{2008^{\\sin x} + 2008^{\\cos x}} \\, dx = ...............$",
+      "options": {
+        "A": "$\\frac{\\pi}{2}$",
+        "B": "$\\frac{\\pi}{4}$",
+        "C": "$\\pi$",
+        "D": "0"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 38,
+      "question": "$\\int_{-1}^{1} \\frac{e^x + 1}{e^x - 1} \\, dx = ...............$",
+      "options": {
+        "A": "$\\log (e^2 + 1)$",
+        "B": "$\\log (e^2 - 1)$",
+        "C": "$\\log e$",
+        "D": "$\\log 1$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 32,
+      "question": "$\\int \\tan^{-1} x \\, dx = \\dots \\dots \\dots \\dots \\dots \\dots + c$",
+      "options": {
+        "A": "$x \\tan^{-1} x + \\frac{1}{2} \\log |1 + x^2|$",
+        "B": "$x \\tan^{-1} x - \\frac{1}{2} \\log |1 + x^2|$",
+        "C": "$\\frac{1}{1 + x^2}$",
+        "D": "$x \\tan^{-1} x + \\frac{1}{2} \\frac{\\tan^{-1} x}{1 + x^2}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2009,
+      "number": 33,
+      "question": "$\\int \\frac{f'(x)}{\\sqrt{f(x)}} \\, dx = \\dots \\dots \\dots \\dots \\dots \\dots + c$; $f(x) \\neq 0$",
+      "options": {
+        "A": "$2\\sqrt{f(x)}$",
+        "B": "$2 f(x)$",
+        "C": "$\\frac{1}{2} \\sqrt{f(x)}$",
+        "D": "$\\frac{1}{2} f(x)$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2009,
+      "number": 34,
+      "question": "$\\int [e^{a \\log x} + e^{x \\log a}] \\, dx = \\dots \\dots \\dots \\dots \\dots \\dots + c$; $a, x > 1$",
+      "options": {
+        "A": "$\\frac{e^{a \\log x}}{a \\log x} + \\frac{e^{x \\log a}}{x \\log a}$",
+        "B": "$\\frac{e^{a \\log x}}{a/x} + \\frac{e^{x \\log a}}{x}$",
+        "C": "$\\frac{x^{a+1}}{a+1} + \\frac{a^x}{\\log a}$",
+        "D": "$\\frac{x^{a-1}}{a-1} + a^x \\cdot \\log a$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2009,
+      "number": 35,
+      "question": "$\\int \\frac{\\sqrt{\\tan x}}{\\sin x \\cdot \\cos x} \\, dx = \\dots \\dots \\dots \\dots \\dots \\dots + c$; $x \\neq \\frac{k\\pi}{2}$ and $\\tan x > 0$.",
+      "options": {
+        "A": "$2\\sqrt{\\tan x}$",
+        "B": "$\\sqrt{\\tan x}$",
+        "C": "$\\frac{1}{2\\sqrt{\\tan x}}$",
+        "D": "$2\\sqrt{\\tan x}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2009,
+      "number": 36,
+      "question": "$\\int_2^k (2x + 1) \\, dx = 6$, then $k = \\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$-2$",
+        "B": "$3$",
+        "C": "$4$",
+        "D": "$-3$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2009,
+      "number": 37,
+      "question": "$\\int_{-1}^1 \\sin^3 x \\cos^2 x \\, dx = \\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$1$",
+        "B": "$0$",
+        "C": "$-1$",
+        "D": "None of these"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2009,
+      "number": 38,
+      "question": "$\\int_0^1 \\frac{1}{x + \\sqrt{x}} \\, dx = \\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$\\log 1$",
+        "B": "$\\log 2$",
+        "C": "$\\log 3$",
+        "D": "$\\log 4$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 32,
+      "question": "$\\int \\frac{e^{x-1} + x^{e-1}}{e^x + x^e} dx = ........ + c$",
+      "options": {
+        "A": "$\\log |e^x + x^e|$",
+        "B": "$e \\log |e^x + x^e|$",
+        "C": "$\\frac{1}{e} \\log |e^x + x^e|$",
+        "D": "$\\frac{1}{e} \\log |e^{x-1} + x^{e-1}|$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 33,
+      "question": "$\\int \\frac{x^3}{x-1} dx + \\int \\frac{1}{1-x} dx = ........ + c$",
+      "options": {
+        "A": "$\\frac{x}{6}(2x^2 - 3x + 6)$",
+        "B": "$\\frac{x}{6}(2x^2 + 3x + 6)$",
+        "C": "$\\frac{x}{3}(2x^2 - 3x + 6)$",
+        "D": "$\\frac{x}{3}(2x^2 + 3x + 6)$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 34,
+      "question": "$\\int \\frac{x^2}{(x^3 - 1)(x^3 + 4)} dx = ........ + c$",
+      "options": {
+        "A": "$\\frac{1}{15} \\log |\\frac{x^3 - 1}{x^3 + 4}|$",
+        "B": "$-\\log |\\frac{x^3}{x^3 - 1}|$",
+        "C": "$\\frac{1}{2} \\log |\\frac{(x^3 - 1)(x^3 + 4)}{x^3}|$",
+        "D": "$\\log |\\frac{x^3}{(x^3 - 1)(x^3 + 4)}|$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 35,
+      "question": "$\\int e^{e^{e^x}} \\cdot e^{e^x} \\cdot e^x dx = ....... + c$",
+      "options": {
+        "A": "$e^{e^x}$",
+        "B": "$\\frac{1}{2} e^2 \\cdot e^x$",
+        "C": "$e^{e^{e^x}}$",
+        "D": "$\\frac{1}{2} e^{e^x}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 36,
+      "question": "$\\int_{-\\pi/2}^{\\pi/2} \\frac{\\sin^3 x \\cdot \\cos^3 x}{\\cos^2 x - \\sin^2 x} dx = .................$",
+      "options": {
+        "A": "$\\frac{\\pi}{2}$",
+        "B": "$\\frac{\\pi}{4}$",
+        "C": "$0$",
+        "D": "$-\\pi$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 37,
+      "question": "$\\int_{0}^{\\pi/4} |\\sin x - \\cos x| dx = .................$",
+      "options": {
+        "A": "$\\sqrt{2} + 1$",
+        "B": "$\\sqrt{2} - 1$",
+        "C": "$0$",
+        "D": "$2\\sqrt{2}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 23,
+      "question": "$\\int \\frac{dx}{\\cos x \\sqrt{1 + \\cos 2x + \\sin 2x}} = $_____ + $C$; $0 < x < \\frac{\\pi}{4}$",
+      "options": {
+        "A": "$2 + \\sqrt{\\cot x}$",
+        "B": "$\\sqrt{\\tan x + 1}$",
+        "C": "$\\sqrt{2 + 2\\tan x}$",
+        "D": "$\\sqrt{2 + 2\\cot x}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 24,
+      "question": "If $\\int \\frac{\\sin 2x}{\\sin 5x \\sin 3x} dx = \\frac{1}{3} \\log |\\sin 3x| - \\frac{1}{5} \\log |f(x)| + C$, then $f(x) = $____.",
+      "options": {
+        "A": "$\\sin 5x$",
+        "B": "$\\sin 4x$",
+        "C": "$\\sin 2x$",
+        "D": "$\\sin 6x$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 32,
+      "question": "$\\int \\frac{dx}{x \\sqrt{x^{10} - x^2}}; x > 1 = $______ + $C$.",
+      "options": {
+        "A": "$\\frac{1}{4} \\log |\\sqrt{x^{10} - x^2} + x^2|$",
+        "B": "$\\frac{1}{2} \\log |x^{10} - x^2|$",
+        "C": "$-\\frac{1}{4} \\sec^{-1}(x^4)$",
+        "D": "$\\frac{1}{4} \\sec^{-1}(x^4)$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 33,
+      "question": "$\\int e^{\\sin x} (\\cos x - \\sec x \\tan x) dx = $____________ + $C$; $0 < x < \\frac{\\pi}{2}$.",
+      "options": {
+        "A": "$e^{\\sin x}(x - \\sec x)$",
+        "B": "$e^{\\sin x}(\\sec x - x)$",
+        "C": "$e^{\\sin x} x \\cos x$",
+        "D": "$e^{\\sin x}(x + \\sec x)$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 34,
+      "question": "$\\int \\sin(11x) \\cdot \\sin^9 x dx = $_____ + $C$.",
+      "options": {
+        "A": "$\\frac{\\sin(10x) \\cdot \\sin^{10} x}{10}$",
+        "B": "$\\frac{\\sin^{11} x}{11}$",
+        "C": "$\\frac{\\sin(9x) \\cdot \\sin^9 x}{9}$",
+        "D": "$\\frac{\\cos(10x) \\cdot \\cos^{10} x}{10}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 35,
+      "question": "$\\int_{-\\log 3}^{\\log 3} \\cot^{-1} \\left( \\frac{e^x - 1}{e^x + 1} \\right) dx = $_____",
+      "options": {
+        "A": "$\\frac{\\pi}{2} \\log 3$",
+        "B": "$\\pi \\log 3$",
+        "C": "0",
+        "D": "$\\pi \\log 9$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 36,
+      "question": "$\\int_0^{100\\pi} |\\cos x| dx = $______.",
+      "options": {
+        "A": "200",
+        "B": "100",
+        "C": "50",
+        "D": "0"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 37,
+      "question": "$\\int_0^{\\pi/2} (x - [\\sin x]) dx = $______.",
+      "options": {
+        "A": "$\\frac{\\pi^2}{8} - 2$",
+        "B": "$\\frac{\\pi^2}{4} - 1$",
+        "C": "$\\frac{\\pi^2}{8} - 1$",
+        "D": "$\\frac{\\pi^2}{8}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 2,
+      "question": "If $f'(x) = 2 - \\frac{5}{x^4}$ and $f(1) = \\frac{14}{3}$, then $f(-1) =$",
+      "options": {
+        "A": "$\\frac{11}{3}$",
+        "B": "$-\\frac{8}{3}$",
+        "C": "$-\\frac{14}{3}$",
+        "D": "0"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 3,
+      "question": "$\\int \\frac{\\cos \\alpha}{\\sin x \\cos(x - \\alpha)} dx = ................... + c$ where $0 < x < \\alpha < \\pi/2$ and $\\alpha$ - constant",
+      "options": {
+        "A": "$\\log |\\cot x + \\tan \\alpha|$",
+        "B": "$\\log |\\tan x + \\cot \\alpha|$",
+        "C": "$-\\log |\\tan x + \\cot \\alpha|$",
+        "D": "$-\\log |\\cot x + \\tan \\alpha|$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 4,
+      "question": "$\\int \\frac{e^{\\cot^{-1} x}}{1+x^2} (x^2 - x + 1) dx = ............. + c$",
+      "options": {
+        "A": "$x e^{\\cot^{-1} x}$",
+        "B": "$e^{\\cot^{-1} x}$",
+        "C": "$\\frac{e^{\\cot^{-1} x}}{1+x^2}$",
+        "D": "$-e^{\\cot^{-1} x}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 5,
+      "question": "$\\int_0^{\\pi/2} [x - [\\cos x]] dx = .......$ where $[t] =$ greatest integer less or equal to $t$",
+      "options": {
+        "A": "$\\frac{\\pi^2}{8} - \\frac{\\pi}{8}$",
+        "B": "$\\frac{\\pi^2}{8}$",
+        "C": "$\\frac{\\pi^2}{8} - 1$",
+        "D": "$\\frac{\\pi}{4}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 6,
+      "question": "If $\\int_{\\log_2}^a \\frac{e^x}{e^x - 1} dx = 2$, then $a =$",
+      "options": {
+        "A": "$2\\log 2$",
+        "B": "$\\log 2$",
+        "C": "$\\log 5$",
+        "D": "0"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 7,
+      "question": "$\\int_0^{\\sqrt{2}} \\sqrt{2-x^2} dx =$",
+      "options": {
+        "A": "$\\pi$",
+        "B": "$-\\frac{\\pi}{2}$",
+        "C": "0",
+        "D": "$\\frac{\\pi}{2}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 33,
+      "question": "$\\int x \\cdot e^{x^2 \\log 2} \\cdot e^{x^2} dx = ........ + c$",
+      "options": {
+        "A": "$\\frac{2^{x^2} \\cdot e^{x^2}}{1+\\log 2}$",
+        "B": "$\\frac{e^{x^2 \\log 2} \\cdot e^{x^2}}{\\log 2}$",
+        "C": "$\\frac{2^{x^2} \\cdot e^{x^2}}{2(1+\\log 2)}$",
+        "D": "$\\frac{(2e)^{x^2}}{\\log(2e)}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 34,
+      "question": "$\\int \\left( \\frac{1}{x-3} - \\frac{1}{x^2-3x} \\right) dx = ................ + c; x > 3$",
+      "options": {
+        "A": "$\\frac{1}{3} \\log \\left( \\frac{x}{x-3} \\right)$",
+        "B": "$\\frac{2}{3} \\log \\left( \\frac{x}{x-3} \\right)$",
+        "C": "$\\frac{2}{3} \\log (x(x-3))$",
+        "D": "$\\frac{1}{3} \\log (x(x-3))$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 4,
+      "question": "$\\int (2 + \\log x)(ex)^x dx = ........ + C; x > 1$.",
+      "options": {
+        "A": "$(ex)^x$",
+        "B": "$-(ex)^x$",
+        "C": "$x^x$",
+        "D": "$e^x x^x$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 5,
+      "question": "$\\int e^{\\sqrt{x}} dx = ....................+C; x > 0$",
+      "options": {
+        "A": "$2(\\sqrt{x}-1)e^{\\sqrt{x}}$",
+        "B": "$2(1-\\sqrt{x})e^{\\sqrt{x}}$",
+        "C": "$(1-\\sqrt{x})e^{\\sqrt{x}}$",
+        "D": "$(\\sqrt{x}-1)e^{\\sqrt{x}}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 6,
+      "question": "If $\\int \\frac{\\sin x}{\\sin(x-\\alpha)} dx = px - q \\log |\\sin(x-\\alpha)| + C$, then $pq = ................$",
+      "options": {
+        "A": "$-\\frac{1}{2} \\sin 2\\alpha$",
+        "B": "$\\frac{1}{2} \\sin 2\\alpha$",
+        "C": "$\\sin 2\\alpha$",
+        "D": "$-\\sin 2\\alpha$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 7,
+      "question": "$\\int_1^3 (\\frac{x^2+1}{4x})^{-1} dx = ......................$",
+      "options": {
+        "A": "$\\log 5$",
+        "B": "$\\log 25$",
+        "C": "$\\frac{1}{2} \\log 5$",
+        "D": "$\\log 100$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 8,
+      "question": "If $\\int_1^K (2x-3) = 12$, then $K = ............$",
+      "options": {
+        "A": "$-2$ and $5$",
+        "B": "$2$",
+        "C": "$5$",
+        "D": "$-5$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 9,
+      "question": "$\\int_{-\\pi/2}^{\\pi/2} \\frac{\\cos^2 2x}{1+25^x} dx = ...........$",
+      "options": {
+        "A": "$\\frac{\\pi}{4}$",
+        "B": "$\\frac{\\pi}{2}$",
+        "C": "$-\\frac{\\pi}{2}$",
+        "D": "$-\\frac{\\pi}{4}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 35,
+      "question": "If $\\int \\sin^{13} x \\cos^3 x dx = A \\sin^{14} x + B \\sin^{16} x + C$, then $A + B = ...........$",
+      "options": {
+        "A": "$\\frac{1}{110}$",
+        "B": "$\\frac{15}{112}$",
+        "C": "$\\frac{17}{112}$",
+        "D": "$\\frac{1}{112}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 36,
+      "question": "If $\\int \\frac{1+\\cos x}{\\cos x - \\cos^2 x} dx = \\log |\\sec x + \\tan x| - 2f'(x) + C$, then $f(x) = .............$",
+      "options": {
+        "A": "$2\\cot(\\frac{x}{2})$",
+        "B": "$-2\\cot(\\frac{x}{2})$",
+        "C": "$2\\log |\\sin(\\frac{x}{2})|$",
+        "D": "$-2\\log |\\sin(\\frac{x}{2})|$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 27,
+      "question": "If $\\int \\frac{x^4 + x^2 + 1}{x^2 + 1} dx = \\frac{x^3}{3} + f(x) + C$, then $f(1) = $ ___________.",
+      "options": {
+        "A": "0",
+        "B": "$\\frac{\\pi}{4}$",
+        "C": "$\\frac{\\pi}{2}$",
+        "D": "$\\frac{1}{2}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 28,
+      "question": "$\\int \\frac{x+100}{(x+101)^2} e^x dx = $ ____________ + C.",
+      "options": {
+        "A": "$\\frac{1}{x+101} e^x$",
+        "B": "$\\frac{x}{x+101} e^x$",
+        "C": "$\\frac{1}{x+100} e^x$",
+        "D": "$(x+101)e^x$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 29,
+      "question": "$\\int \\frac{\\sqrt{\\cot x}}{\\cos x \\sin x} dx = $ ____________ + C.",
+      "options": {
+        "A": "$-2\\sqrt{\\cot x}$",
+        "B": "$-2\\sqrt{\\tan x}$",
+        "C": "$2\\sqrt{\\cot x}$",
+        "D": "$\\frac{1}{\\sqrt{\\cot x}}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 30,
+      "question": "$\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\log \\left(\\frac{2019-x}{2019+x}\\right) dx = $ ____________.",
+      "options": {
+        "A": "$\\pi$",
+        "B": "0",
+        "C": "$\\frac{\\pi}{2}$",
+        "D": "1"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 31,
+      "question": "$\\int_{4}^{9} \\frac{\\sqrt{x}}{(30-x^{\\frac{3}{2}})^2} dx = $ _____________.",
+      "options": {
+        "A": "$\\frac{19}{66}$",
+        "B": "$\\frac{19}{33}$",
+        "C": "$\\frac{38}{99}$",
+        "D": "$\\frac{19}{99}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 32,
+      "question": "If $f(a+b-x) = f(x)$ then $\\int_{a}^{b} x f(x) dx$ is equal to ___________.",
+      "options": {
+        "A": "$\\frac{a+b}{2} \\int_{a}^{b} f(x) dx$",
+        "B": "$\\frac{a+b}{2} \\int_{a}^{b} f(b+x) dx$",
+        "C": "$\\frac{a+b}{2} \\int_{a}^{b} f(b-x) dx$",
+        "D": "$\\frac{b-a}{2} \\int_{a}^{b} f(x) dx$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 1,
+      "question": "$\\int \\frac{x^5+1}{x+1} dx = \\text{_______} + C$",
+      "options": {
+        "A": "$\\sum_{n=1}^{4} ((-1)^{n+1} \\cdot \\frac{x^n}{n})$",
+        "B": "$\\sum_{n=1}^{5} ((-1)^{n+1} \\cdot \\frac{x^n}{n})$",
+        "C": "$\\sum_{n=1}^{4} ((-1)^n \\cdot \\frac{x^n}{n})$",
+        "D": "$\\sum_{n=1}^{5} ((-1)^n \\cdot \\frac{x^n}{n})$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 2,
+      "question": "$\\int_{-1}^{1} \\cot^{-1} x \\, dx = \\text{_______}$",
+      "options": {
+        "A": "$0$",
+        "B": "$\\frac{\\pi}{2}$",
+        "C": "$\\pi$",
+        "D": "$2\\pi$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 3,
+      "question": "$\\int \\tan(\\frac{\\pi}{4}-x) \\cdot (2+2\\sin 2x) dx = \\text{_______} + C$",
+      "options": {
+        "A": "$\\sin 2x$",
+        "B": "$-\\sin 2x$",
+        "C": "$2\\sin 2x$",
+        "D": "$-2\\sin 2x$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2021,
+      "number": 4,
+      "question": "$\\int_{0}^{1} \\frac{dx}{(3x+2)+\\sqrt{3x+2}} = \\text{_______}$",
+      "options": {
+        "A": "$-\\frac{2}{3} \\log \\left| \\frac{\\sqrt{5}+1}{\\sqrt{2}+1} \\right|$",
+        "B": "$\\frac{2}{3} \\log \\left| \\frac{\\sqrt{5}+1}{\\sqrt{2}+1} \\right|$",
+        "C": "$2 \\log |\\sqrt{5}+1|$",
+        "D": "$\\frac{2}{3} \\log |\\sqrt{5}+1|$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 5,
+      "question": "If $\\int \\frac{\\cos 3x}{\\sin x} dx = p \\cos 2x + q \\log |\\sin x| + C$, then $p+q = \\text{_______}$",
+      "options": {
+        "A": "$0$",
+        "B": "$\\frac{3}{2}$",
+        "C": "$2$",
+        "D": "$\\frac{1}{2}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2021,
+      "number": 6,
+      "question": "$\\int e^x (2021 + \\tan x + \\tan^2 x) dx = \\text{_______} + C$",
+      "options": {
+        "A": "$(2021 + \\tan x)e^x$",
+        "B": "$(2020 + \\tan x)e^x$",
+        "C": "$(2020 + \\tan x)$",
+        "D": "$(2000 + \\tan x)e^x$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2022,
+      "number": 12,
+      "question": "$\\int e^{\\text{sin } x} \\text{sin } 2x \\, dx = $ ________ $+ C$.",
+      "options": {
+        "A": "$e^{\\text{sin } x}(\\text{sin } x + 1)$",
+        "B": "$2e^{\\text{sin } x}(\\text{sin } x - 1)$",
+        "C": "$2e^{\\text{sin } x}(\\text{sin } x + 1)$",
+        "D": "$e^{\\text{sin } x}(\\text{sin } x - 1)$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 13,
+      "question": "$\\int \\sqrt{\\frac{\\text{cos } x - \\text{cos}^3 x}{1 - \\text{cos}^3 x}} \\, dx = $ ________ $+ C$.",
+      "options": {
+        "A": "$\\frac{3}{2} \\text{cos}^{-1}(\\text{cos}^{3/2} x)$",
+        "B": "$-\\frac{2}{3} \\text{cos}^{-1}(\\text{cos}^{3/2} x)$",
+        "C": "$\\frac{3}{2} \\text{cos}^{-1}(\\text{cos}^{3/2} x)$",
+        "D": "$\\frac{2}{3} \\text{cos}^{-1}(\\text{cos}^{3/2} x)$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 14,
+      "question": "$\\int (x+1)(x+3)(x+2)^7 \\, dx = $ ________ $+ C$.",
+      "options": {
+        "A": "$\\frac{(x+3)^{10}}{10} + \\frac{(x+3)^8}{8}$",
+        "B": "$\\frac{(x+2)^{10}}{10} + \\frac{(x+2)^8}{8}$",
+        "C": "$\\frac{(x+3)^{10}}{10} - \\frac{(x+3)^8}{8}$",
+        "D": "$\\frac{(x+2)^{10}}{10} - \\frac{(x+2)^8}{8}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 15,
+      "question": "$\\int \\frac{x}{(x-1)(x-2)} \\, dx = $ ________ $+ C$.",
+      "options": {
+        "A": "$\\text{log}|(x-1)(x-2)|$",
+        "B": "$\\text{log}|\\frac{(x-2)^2}{x-1}|$",
+        "C": "$\\text{log}|\\frac{(x-1)^2}{x-2}|$",
+        "D": "$\\text{log}|\\frac{(x-1)^2}{x-2}|$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 16,
+      "question": "$\\int_{-\\pi/4}^{\\pi/4} \\text{sin}^2 x \\, dx = $ ________.",
+      "options": {
+        "A": "$\\frac{\\pi}{4}$",
+        "B": "$\\frac{\\pi}{4} - \\frac{1}{2}$",
+        "C": "$\\frac{\\pi}{4} - 1$",
+        "D": "$\\frac{\\pi}{4} + \\frac{1}{2}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 17,
+      "question": "$\\int_{-\\pi/2}^{\\pi/2} (x^{13} + x \\text{cos } x + \\text{tan}^{15} x + 1) \\, dx = $ ________.",
+      "options": {
+        "A": "$1$",
+        "B": "$2$",
+        "C": "$\\pi$",
+        "D": "$0$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 18,
+      "question": "If $f(a+b-x) = f(x)$ then $\\int_a^b x f(x) \\, dx = $ ________.",
+      "options": {
+        "A": "$\\frac{a+b}{2} \\int_a^b f(x) \\, dx$",
+        "B": "$\\frac{a+b}{2} \\int_a^b f(b+x) \\, dx$",
+        "C": "$\\frac{b-a}{2} \\int_a^b f(x) \\, dx$",
+        "D": "$\\frac{a+b}{2} \\int_a^b f(b-x) \\, dx$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 19,
+      "question": "$\\int_0^1 \\text{tan}^{-1}(\\frac{2x-1}{1+x-x^2}) \\, dx = $ ________.",
+      "options": {
+        "A": "$\\frac{\\pi}{4}$",
+        "B": "$0$",
+        "C": "$-1$",
+        "D": "$1$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 11,
+      "question": "If $\\int \\{\\cos^{-1} x - (1-x^2)^{-1/2}\\} K dx = K \\cdot \\cos^{-1} x + C$, then $K = \\dots$",
+      "options": {
+        "A": "$e^x$",
+        "B": "$-e^x$",
+        "C": "$e^{-x}$",
+        "D": "$e^{\\cos^{-1} x}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 12,
+      "question": "$\\int \\frac{\\tan x}{\\cos x(\\sec x - 1)(\\sec x - 2)} dx = \\dots + C$.",
+      "options": {
+        "A": "$\\log \\left| \\frac{\\sec x - 2}{\\sec x - 1} \\right|$",
+        "B": "$\\log \\left| \\frac{\\sec x + 2}{\\sec x - 1} \\right|$",
+        "C": "$\\log \\left| \\frac{\\csc x + 2}{\\csc x - 1} \\right|$",
+        "D": "$\\log \\left| \\frac{\\cos x + 1}{\\cos x - 2} \\right|$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 13,
+      "question": "$\\int x^{2019} \\cdot e^{x^{2020}} dx = \\dots + C$.",
+      "options": {
+        "A": "$\\frac{1}{2019} e^{x^{2019}}$",
+        "B": "$\\frac{1}{2020} e^{x^{2019}}$",
+        "C": "$e^{x^{2020}}$",
+        "D": "$\\frac{1}{2020} e^{x^{2020}}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 14,
+      "question": "$\\int_{\\pi/6}^{\\pi/3} \\frac{1}{1 + \\tan^4 x} dx = \\dots$",
+      "options": {
+        "A": "$\\pi/12$",
+        "B": "$\\pi/4$",
+        "C": "$\\pi/2$",
+        "D": "$\\pi/6$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 15,
+      "question": "$\\int_0^1 (0.001)^{x/3} \\cdot e^x dx = \\dots$",
+      "options": {
+        "A": "$\\frac{10-10e}{(1+\\log_e 10)}$",
+        "B": "$\\frac{10-e}{e(1-\\log_e 10)}$",
+        "C": "$\\frac{e-10}{10(1-\\log_e 10)}$",
+        "D": "$\\frac{e-10}{10(1+\\log_{10} e)}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 31,
+      "question": "$\\int \\frac{e^{2x} - 1}{e^{2x} + 1} dx = +C$",
+      "options": {
+        "A": "$\\log(e^{2x} - 1) + x$",
+        "B": "$\\log(e^{2x} + 1) - x$",
+        "C": "$\\log(e^{2x} + 1) + x$",
+        "D": "$\\log(e^{2x} - 1) - x$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 32,
+      "question": "$\\int \\frac{1}{4x - x^2} dx = C$",
+      "options": {
+        "A": "$\\sin^{-1} \\frac{x-2}{2}$",
+        "B": "$\\frac{1}{2} \\tan^{-1} \\frac{x-2}{2}$",
+        "C": "$\\log (x - 2) + \\sqrt{4x - x^2}$",
+        "D": "$\\frac{1}{4} \\log \\frac{x}{x-4}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 33,
+      "question": "$\\int \\frac{e^{2x} - 1}{e^{2x} + 1} dx = $ ______ + C",
+      "options": {
+        "A": "$\\log(e^{2x} - 1) - x$",
+        "B": "$\\log(e^{2x} - 1) + x$",
+        "C": "$\\log(e^{2x} + 1) + x$",
+        "D": "$\\log(e^{2x} + 1) - x$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 33,
+      "question": "$\\int e^x \\left( \\frac{1 + \\sin x}{1 + \\cos x} \\right) dx = ____ + C$",
+      "options": {
+        "A": "$e^x \\tan \\frac{x}{2}$",
+        "B": "$e^x \\tan x$",
+        "C": "$e^x \\cot \\frac{x}{2}$",
+        "D": "$e^x \\cot x$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 34,
+      "question": "$\\int \\frac{1}{\\sqrt{4x - x^2}} dx = $ ______ + C",
+      "options": {
+        "A": "$\\frac{1}{4} \\log \\left| \\frac{x}{x-4} \\right|$",
+        "B": "$\\sin^{-1}\\left(\\frac{x-2}{2}\\right)$",
+        "C": "$\\log(x-2) + \\sqrt{4x - x^2}$",
+        "D": "$\\frac{1}{2} \\tan^{-1}\\left(\\frac{x-2}{2}\\right)$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 34,
+      "question": "$\\int_{-\\pi/2}^{\\pi/2} (x^5 - x^3 \\cos x + \\sin^3 x - 3) dx =",
+      "options": {
+        "A": "$3\\pi$",
+        "B": "$-\\pi$",
+        "C": "$-3\\pi$",
+        "D": "0"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 35,
+      "question": "$\\int e^x \\left( \\frac{1 + \\sin x}{1 + \\cos x} \\right) dx = $ ______ + C",
+      "options": {
+        "A": "$e^x \\cot x$",
+        "B": "$e^x \\tan \\frac{x}{2}$",
+        "C": "$e^x \\cot \\frac{x}{2}$",
+        "D": "$e^x \\tan x$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 35,
+      "question": "$\\int_0^1 xe^x dx = ____$",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "e",
+        "D": "-1"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 36,
+      "question": "$\\int_{-\\pi/2}^{\\pi/2} (x^5 - x^3 \\cos x + \\sin^3 x - 3) dx = $ ______.",
+      "options": {
+        "A": "0",
+        "B": "$3\\pi$",
+        "C": "$-3\\pi$",
+        "D": "$-\\pi$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 37,
+      "question": "$\\int_0^1 x e^x dx = $ ______.",
+      "options": {
+        "A": "-1",
+        "B": "1",
+        "C": "e",
+        "D": "0"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 27,
+      "question": "If $\\int \\frac{3e^x - 5e^{-x}}{4e^x + 5e^{-x}} dx = px + q \\cdot \\log|4e^x + 5e^{-x}| + C$, then",
+      "options": {
+        "A": "$p = 1/8, q = -7/8$",
+        "B": "$p = 1/8, q = 7/8$",
+        "C": "$p = -1/8, q = -7/8$",
+        "D": "$p = -1/8, q = 7/8$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2025,
+      "number": 28,
+      "question": "$\\int e^{\\tan^{-1} x} \\left(\\frac{1+x+x^2}{1+x^2}\\right) dx = $ ____ $+ C$",
+      "options": {
+        "A": "$\\frac{e^{\\tan^{-1} x}}{x}$",
+        "B": "$\\frac{1+x^2}{x} \\cdot e^{\\tan^{-1} x}$",
+        "C": "$x \\cdot e^{\\tan^{-1} x}$",
+        "D": "$\\frac{x \\cdot e^{\\tan^{-1} x}}{1+x^2}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 29,
+      "question": "$\\int_0^{\\pi/4} \\sqrt{1 + \\sin 2x} dx = $ ____",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "1/2",
+        "D": "0"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 30,
+      "question": "$\\int \\frac{dx}{\\sqrt{4x - 9x^2}} = $ ____ $+ C$",
+      "options": {
+        "A": "$\\frac{1}{3} \\sin^{-1} \\left(\\frac{9x-2}{2}\\right)$",
+        "B": "$\\frac{1}{9} \\sin^{-1} \\left(\\frac{3x-2}{2}\\right)$",
+        "C": "$\\frac{1}{9} \\sin^{-1} \\left(\\frac{2x-3}{3}\\right)$",
+        "D": "$\\frac{1}{2} \\sin^{-1} \\left(\\frac{9x-3}{2}\\right)$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 31,
+      "question": "If $\\int \\tan^{-1} x dx = Ax \\cdot \\tan^{-1} x + B \\log(1+x^2) + C$ then, $A + B = $ ____",
+      "options": {
+        "A": "-1",
+        "B": "1/2",
+        "C": "1",
+        "D": "-1/2"
+      },
+      "answer": "B"
+    }
+  ]
+}

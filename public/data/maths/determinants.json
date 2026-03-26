@@ -1,0 +1,355 @@
+{
+  "subject": "maths",
+  "chapter": "Determinants",
+  "total_questions": 29,
+  "questions": [
+    {
+      "year": 2017,
+      "number": 15,
+      "question": "If the area of the triangle with vertices $(2, 5), (7, k)$ and $(3, 1)$ is 10, then find the value of $k$.",
+      "options": {
+        "A": "-5 or 35",
+        "B": "5 or -35",
+        "C": "15 or -5",
+        "D": "-5 or -25"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 16,
+      "question": "If $k = p + q + r$, then the value of $\\begin{vmatrix} k+r & p & q \\\\ r & k+p & q \\\\ r & p & k+q \\end{vmatrix}$ is ______.",
+      "options": {
+        "A": "$2k^2$",
+        "B": "$2k^3$",
+        "C": "$k^3$",
+        "D": "$3k^2$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 17,
+      "question": "If maximum and minimum values of $D = \\begin{vmatrix} 1 & -\\cos\\theta & -1 \\\\ \\cos\\theta & 1 & -\\cos\\theta \\\\ 1 & \\cos\\theta & 1 \\end{vmatrix}$ are $p$ and $q$ respectively, then the value of $2p + 3q$ is _____.",
+      "options": {
+        "A": "16",
+        "B": "6",
+        "C": "14",
+        "D": "8"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 25,
+      "question": "If $x^4 + y^4 + z^4 = 0$ then $\\begin{vmatrix} 1 & xy & yz \\\\ zx & 1 & xy \\\\ yz & zx & 1 \\end{vmatrix} = ...........$ (where $x, y, z \\in R$)",
+      "options": {
+        "A": "$x+y+z+3$",
+        "B": "$xyz+2$",
+        "C": "1",
+        "D": "0"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 26,
+      "question": "$\\begin{vmatrix} 10! & 11! & 12! \\\\ 11! & 12! & 13! \\\\ 12! & 13! & 14! \\end{vmatrix} = .............$",
+      "options": {
+        "A": "$2(10! \\cdot 11! \\cdot 12!)$",
+        "B": "$2(10! \\cdot 13!)$",
+        "C": "$-2(10! \\cdot 11! \\cdot 12!)$",
+        "D": "$2(10! \\cdot 12! \\cdot 13!)$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 27,
+      "question": "If $s = p+q+r$, then value of $\\begin{vmatrix} s+r & p & q \\\\ r & s+p & q \\\\ r & p & s+q \\end{vmatrix}$ is .............",
+      "options": {
+        "A": "$2s^3$",
+        "B": "$2s^2$",
+        "C": "$s^3$",
+        "D": "$3s^3$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 27,
+      "question": "$\\begin{vmatrix} \\sin^2 \\theta & \\cos^2 \\theta \\\\ -\\cos^2 \\theta & \\sin^2 \\theta \\end{vmatrix} = ...................$",
+      "options": {
+        "A": "$\\cos 2\\theta$",
+        "B": "$\\frac{1}{2}(1-\\sin^2 2\\theta)$",
+        "C": "$\\frac{1}{2}(1+\\cos^2 2\\theta)$",
+        "D": "$\\frac{1}{2}\\sin^2 2\\theta$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 28,
+      "question": "If $\\begin{vmatrix} 1! & 2! & 3! \\\\ 2! & 3! & 4! \\\\ 3! & 4! & 5! \\end{vmatrix} = 2016K$, then $K = ...............$",
+      "options": {
+        "A": "$24$",
+        "B": "$\\frac{1}{24}$",
+        "C": "$84$",
+        "D": "$\\frac{1}{84}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 29,
+      "question": "If $\\begin{vmatrix} 1+x & 1 & 1 \\\\ 1+y & 1+2y & 1 \\\\ 1+z & 1+z & 1+3z \\end{vmatrix} = 10Kxyz(3 + \\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z})$, then $K=...........$ (Where $xyz \\neq 0; 3 + \\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} \\neq 0$).",
+      "options": {
+        "A": "$\\frac{1}{5}$",
+        "B": "$5$",
+        "C": "$2$",
+        "D": "$1$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 16,
+      "question": "If $A = \\begin{bmatrix} 0 & 1 & 2 \\\\ 1 & 2 & 3 \\\\ 3 & 1 & 1 \\end{bmatrix}$ and inverse of $A$ is $\\frac{1}{2} \\begin{bmatrix} 1 & -1 & 1 \\\\ -8 & 6 & -2 \\\\ x & -3 & 1 \\end{bmatrix}$ then $x = $ ____________.",
+      "options": {
+        "A": "5",
+        "B": "3",
+        "C": "2",
+        "D": "4"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 17,
+      "question": "Let $f(t) = \\begin{vmatrix} \\cos t & t & 1 \\\\ 2\\tan t & t & 2t \\\\ \\tan t & t & t \\end{vmatrix}$. Then $\\lim_{t \\to 0} \\frac{f(t)}{t^2}$ is equal to ____________.",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "-1",
+        "D": "0"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 18,
+      "question": "If $x, y \\in R$ and $\\begin{vmatrix} (a^x+a^{-x})^2 & (a^x-a^{-x})^2 & 1 \\\\ (b^x+b^{-x})^2 & (b^x-b^{-x})^2 & 1 \\\\ (c^x+c^{-x})^2 & (c^x-c^{-x})^2 & 1 \\end{vmatrix} = 2y + 6$, then $y = $ ______________.",
+      "options": {
+        "A": "0",
+        "B": "3",
+        "C": "-3",
+        "D": "6"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 19,
+      "question": "For $\\Delta ABC$, the value of $\\begin{vmatrix} 0 & \\sin A & \\tan B \\\\ -\\sin(B+C) & 0 & \\cos C \\\\ \\tan(A+C) & -\\cos C & 0 \\end{vmatrix} = $ ____________.",
+      "options": {
+        "A": "-1",
+        "B": "0",
+        "C": "1",
+        "D": "$\\sin A \\cos C$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 31,
+      "question": "$A(1, 3), B(0, 0)$ and $C(k, 0)$ are vertices of $\\Delta ABC$. If area of $\\Delta ABC$ is $3$ units, then $k$ is",
+      "options": {
+        "A": "$2$",
+        "B": "$0$",
+        "C": "$-2$",
+        "D": "$\\pm 2$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 32,
+      "question": "If $2 \\begin{vmatrix} \\sin(A+B) & \\cos(A+B) \\\\ \\cos(A-B) & \\sin(A-B) \\end{vmatrix} + \\sqrt{3} = 0$, then $A = \\text{_______}$",
+      "options": {
+        "A": "$\\frac{\\pi}{6}$",
+        "B": "$\\frac{\\pi}{3}$",
+        "C": "$\\frac{\\pi}{12}$",
+        "D": "$\\frac{\\pi}{4}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2021,
+      "number": 33,
+      "question": "For $\\begin{vmatrix} 2 & 3 & 5 \\\\ 1 & 0 & 7 \\\\ -1 & -2 & 4 \\end{vmatrix}$, the sum of minor and cofactor of $7 = \\text{_______}$",
+      "options": {
+        "A": "$0$",
+        "B": "$2$",
+        "C": "$-2$",
+        "D": "$-1$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 37,
+      "question": "For real numbers $x, y, z$ such that $x \\neq y \\neq z$, $\\begin{vmatrix} x & x^2 & 1+x^3 \\\\ y & y^2 & 1+y^3 \\\\ z & z^2 & 1+z^3 \\end{vmatrix} = 0$ and $\\begin{vmatrix} 1 & x & x^2 \\\\ 1 & y & y^2 \\\\ 1 & z & z^2 \\end{vmatrix} \\neq 0$ then $xyz = $ ________.",
+      "options": {
+        "A": "$2$",
+        "B": "$-1$",
+        "C": "$0$",
+        "D": "$1$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 38,
+      "question": "If $a, b, c$ are measurements of sides of $\\Delta ABC$ and $\\begin{vmatrix} a & b & c \\\\ b & c & a \\\\ c & a & b \\end{vmatrix} = 0$ then $\\text{sin}^2 A + \\text{sin}^2 B + \\text{sin}^2 C = $ ________.",
+      "options": {
+        "A": "$\\frac{13}{4}$",
+        "B": "$\\frac{9}{4}$",
+        "C": "$\\frac{15}{4}$",
+        "D": "$\\frac{11}{4}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 39,
+      "question": "If $A = \\begin{bmatrix} 2 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 3 \\end{bmatrix}$ then sum of all the elements of $A^{-1} = $ ________.",
+      "options": {
+        "A": "$6$",
+        "B": "$-6$",
+        "C": "$0$",
+        "D": "$\\frac{11}{6}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 1,
+      "question": "$\\begin{vmatrix} \\sin \\frac{11\\pi}{36} & \\cos \\frac{11\\pi}{36} \\\\ \\sin \\frac{2\\pi}{9} & \\cos \\frac{2\\pi}{9} \\end{vmatrix} = \\dots$",
+      "options": {
+        "A": "$\\cos \\frac{\\pi}{12}$",
+        "B": "$\\sin \\frac{2\\pi}{9}$",
+        "C": "$\\cos \\frac{5\\pi}{12}$",
+        "D": "$\\sin \\frac{7\\pi}{12}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 2,
+      "question": "If $A(K, 1)$, $B(2, 4)$ and $C(1, 1)$ are the vertices of the $\\Delta ABC$, such that area of the $\\Delta ABC$ is $6$ unit, then $K = \\dots$",
+      "options": {
+        "A": "$-5$ and $3$",
+        "B": "$5$ and $-3$",
+        "C": "$3$ and $-1$",
+        "D": "$5$ and $3$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 21,
+      "question": "If area of $\\Delta PQR$ is 3 sq. units with vertices $P(k, 1), Q(2, 4)$ and $R(1, 1)$. Then value of k is ____.",
+      "options": {
+        "A": "-3, 1",
+        "B": "0, 2",
+        "C": "-1, 3",
+        "D": "1, 3"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 23,
+      "question": "If area of $\\Delta PQR$ is 3 sq. units with vertices $P(k, 1), Q(2, 4)$ and $R(1, 1)$. Then value of k is ______.",
+      "options": {
+        "A": "1, 3",
+        "B": "-3, 1",
+        "C": "-1, 3",
+        "D": "0, 2"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 23,
+      "question": "If $A = \\begin{bmatrix} 2 & -4 \\\\ -3 & 6 \\end{bmatrix}$ then $A^{-1} = ____$.",
+      "options": {
+        "A": "$\\frac{1}{24} \\begin{bmatrix} -2 & 4 \\\\ 3 & -6 \\end{bmatrix}$",
+        "B": "$\\frac{1}{24} \\begin{bmatrix} 6 & 4 \\\\ 3 & 2 \\end{bmatrix}$",
+        "C": "$\\frac{1}{24} \\begin{bmatrix} -6 & 4 \\\\ 3 & -2 \\end{bmatrix}$",
+        "D": "Does not exist"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 24,
+      "question": "If $\\begin{vmatrix} 2017 & 2018 \\\\ 2019 & 2020 \\end{vmatrix} + \\begin{vmatrix} 2021 & 2022 \\\\ 2023 & 2024 \\end{vmatrix} = 2k$, then $k^3 = $ ______.",
+      "options": {
+        "A": "-64",
+        "B": "-8",
+        "C": "0",
+        "D": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 25,
+      "question": "If $A = \\begin{bmatrix} 2 & -4 \\\\ -3 & 6 \\end{bmatrix}$ then $A^{-1} = $ ______.",
+      "options": {
+        "A": "Does not exist",
+        "B": "$\\frac{1}{24} \\begin{bmatrix} -2 & 4 \\\\ 3 & -6 \\end{bmatrix}$",
+        "C": "$\\frac{1}{24} \\begin{bmatrix} -6 & 4 \\\\ 3 & -2 \\end{bmatrix}$",
+        "D": "$\\frac{1}{24} \\begin{bmatrix} 6 & 4 \\\\ 3 & 2 \\end{bmatrix}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 14,
+      "question": "$\\begin{vmatrix} \\cos^2 \\theta & -\\sin^2 \\theta \\\\ \\sin^2 \\theta & \\cos^2 \\theta \\end{vmatrix} = $ ____",
+      "options": {
+        "A": "$\\frac{1}{2} - \\frac{1}{2} \\cos^2 2\\theta$",
+        "B": "$\\frac{1}{4} (3 + \\cos 4\\theta)$",
+        "C": "$1 + \\frac{1}{2} \\sin^2 2\\theta$",
+        "D": "$1 + 2 \\sin^2 \\theta \\cdot \\cos^2 \\theta$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2025,
+      "number": 15,
+      "question": "Let A be an invertible square matrix of order $3 \\times 3$. Then $|(\\text{adj} A) \\cdot A|$ is ____",
+      "options": {
+        "A": "$3|A|$",
+        "B": "$|A|^2$",
+        "C": "$|A|^3$",
+        "D": "$|A|$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 16,
+      "question": "Find the area of a triangle given that midpoints of its sides are $(2, 7), (1, 1)$ and $(10, 8)$.",
+      "options": {
+        "A": "$\\frac{47}{4}$",
+        "B": "47",
+        "C": "94",
+        "D": "$\\frac{47}{2}$"
+      },
+      "answer": null
+    }
+  ]
+}

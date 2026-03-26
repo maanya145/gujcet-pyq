@@ -1,0 +1,451 @@
+{
+  "subject": "chemistry",
+  "chapter": "Alcohols, Phenols and Ethers",
+  "total_questions": 37,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 48,
+      "question": "Which observation will be given by $\\text{CH}_3 - \\text{C}(\\text{CH}_3)_2 - \\text{CH}_2\\text{OH}$",
+      "options": {
+        "A": "Oily drops are separated",
+        "B": "Solution becomes milky",
+        "C": "Reaction does not take place",
+        "D": "Coloured layer"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2007,
+      "number": 66,
+      "question": "What will be the bond angle $\\text{C}-\\text{O}-\\text{H}$ in alcohol if hybridisation of C and O atom possess $sp^3$ hybridisation?",
+      "options": {
+        "A": "$109^\\circ 28'$",
+        "B": "$111^\\circ 42'$",
+        "C": "$109^\\circ$",
+        "D": "$108^\\circ 30'$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2008,
+      "number": 67,
+      "question": "Which two of the following statements are correct for Phenol ? (1) Phenol is more acidic than alcohol. (2) Phenol is used in production of melamine plastic. (3) Phenol gives violet colour with neutral Ferric chloride solution. (4) Phenol when heated with acetyl chloride gives Phenetole.",
+      "options": {
+        "A": "Statements (1) and (3).",
+        "B": "Statements (2) and (3).",
+        "C": "Statements (1) and (4).",
+        "D": "Statements (3) and (4)."
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 69,
+      "question": "Which product will be obtained by Grignard reaction, when Formaldehyde reacts with Ethyl magnesium iodide ?",
+      "options": {
+        "A": "2 - Propanol",
+        "B": "1- Propanol",
+        "C": "Ethanol",
+        "D": "2 - Methyl, 2 - Propanol"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 67,
+      "question": "What is the formula of tertiary butyl alcohol ?",
+      "options": {
+        "A": "$(\\text{CH}_3)_3\\text{C-OH}$",
+        "B": "$\\text{CH}_3\\text{-CH(OH)-CH}_2\\text{-CH}_3$",
+        "C": "$\\text{CH}_3\\text{-(CH}_2)_2\\text{OH}$",
+        "D": "$\\text{CH}_3\\text{-CH(CH}_3\\text{)-CH}_2\\text{-OH}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 68,
+      "question": "Salicyldehyde is obtained when Phenol is heated with $\\text{CHCl}_3$ and aqueous $\\text{NaOH}$. This reaction is known by which name ?",
+      "options": {
+        "A": "Kolbe - Schmitt reaction",
+        "B": "Reimer Tiemann reaction",
+        "C": "Hoffmann's reaction",
+        "D": "Carbyl amine reaction"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 69,
+      "question": "What is the hybridisation of Carbon and Oxygen in electronic structure of Ether ?",
+      "options": {
+        "A": "$sp^2 \\text{ and } sp^2$",
+        "B": "$sp \\text{ and } sp$",
+        "C": "$sp^3 \\text{ and } sp^3$",
+        "D": "$sp^3 \\text{ and } sp^2$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 67,
+      "question": "Hybridisation shown by Carbon and Oxygen of $-\\text{OH}$ group in Phenol are respectively ............",
+      "options": {
+        "A": "$sp^2, sp^2$",
+        "B": "$sp^3, sp^3$",
+        "C": "$sp, sp^2$",
+        "D": "$sp^2, sp^3$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2011,
+      "number": 68,
+      "question": "Chlorobenzene $\\xrightarrow{\\text{Reaction X}}$ Phenol $\\xrightarrow{\\text{Reaction Y}}$ Salicylaldehyde. X and Y reactions are respectively .......",
+      "options": {
+        "A": "Fries rearrangement and Kolbe-Schmitt.",
+        "B": "Cumene and Reimer-Tiemann.",
+        "C": "Dow and Reimer-Tiemann.",
+        "D": "Dow and Friedel-Craft."
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 56,
+      "question": "Which of the following alcohol has highest solubility in water?",
+      "options": {
+        "A": "Secondary butyl alcohol",
+        "B": "Tertiary butyl alcohol",
+        "C": "Ethelene glycol",
+        "D": "Glycerol"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2014,
+      "number": 57,
+      "question": "In which of the following reactions of alcohol there is no cleavage of $\\text{C}-\\text{O}$ bond?",
+      "options": {
+        "A": "Oxidation reaction of alcohol",
+        "B": "Dehydration reaction of alcohol",
+        "C": "Reduction reaction of alcohol",
+        "D": "Reaction of alcohol with phosphorous tribromide"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 48,
+      "question": "Which reagent is used for bromination of methyl phenyl ether?",
+      "options": {
+        "A": "\\text{Br}_2 / \\text{CH}_3\\text{COOH}",
+        "B": "\\text{Br}_2 / \\text{Red P}",
+        "C": "\\text{Br}_2 / \\text{FeBr}_3",
+        "D": "\\text{HBr} / \\Delta"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 49,
+      "question": "Which of the following acid does not have -COOH group?",
+      "options": {
+        "A": "Picric acid",
+        "B": "Ethanoic acid",
+        "C": "Benzoic acid",
+        "D": "Salicylic acid"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 50,
+      "question": "Which of the following statement is not correct?",
+      "options": {
+        "A": "Phenol is neutralised by sodium carbonate",
+        "B": "Phenol is used to prepare analgesic drugs",
+        "C": "Solubility of phenol in water is more than that of chlorobenzene",
+        "D": "Boiling point of o-nitrophenol is lower than that of p-nitrophenol"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 64,
+      "question": "Which products are obtained when phenyl ethanoate reacts in presence of $\\text{Anh.AlCl}_3$?",
+      "options": {
+        "A": "o-Ethoxy acetophenone and p-Ethoxy acetophenone",
+        "B": "o-Hydroxy acetophenone and p-Hydroxy acetophenone",
+        "C": "o-Methyl acetophenone and p-Methyl acetophenone",
+        "D": "o-Methoxy acetophenone and p-Methoxy acetophenone"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 65,
+      "question": "How many gram of ethanol is required in the reaction with Na metal in order to give 560 ml. dihydrogen gas at STP?",
+      "options": {
+        "A": "11.5",
+        "B": "1.15",
+        "C": "4.6",
+        "D": "2.3"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 66,
+      "question": "The IUPAC name of the product obtained by the oxidation of phenol with the help of chromic acid is",
+      "options": {
+        "A": "Cyclo hexa-2,4-diene-1,4-diol",
+        "B": "Cyclo hexa-2,4-diene-1,4-dione",
+        "C": "Cyclo hexa-2,5-diene-1,4-diol",
+        "D": "Cyclo hexa-2,5-diene-1,4-dione"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 56,
+      "question": "Which of the organic products of the following reactions has the least boiling point?",
+      "options": {
+        "A": "$\\text{CH}_3 - \\text{CH}_2 - \\text{CHO} \\xrightarrow{\\text{NaBH}_4, \\text{H}_2\\text{O}}$",
+        "B": "$\\text{CH}_3 - \\text{C} - \\text{CH}_3 \\xrightarrow{\\text{NaBH}_4, \\text{H}_2\\text{O}}$",
+        "C": "$\\text{CH}_3 - \\text{CH}_2 - \\text{COOH} \\xrightarrow{\\text{LiAlH}_4, \\text{H}_2\\text{O}}$",
+        "D": "$\\text{CH}_3 - \\text{CH} = \\text{CH}_2 \\xrightarrow{(\\text{BH}_3)_2, \\text{H}_2\\text{O}_2, \\text{OH}^-}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 57,
+      "question": "Which is the final product obtained by the reaction of a grignard reagent ethyl Magnesium bromide with propanone?",
+      "options": {
+        "A": "$\\text{Pentane} - 2 - \\text{ol}$",
+        "B": "$2 - \\text{Methyl} - \\text{butane} - 2 - \\text{ol}$",
+        "C": "$\\text{Pentane} - 1 - \\text{ol}$",
+        "D": "$3 - \\text{Methyl} - \\text{butane} - 2 - \\text{ol}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 70,
+      "question": "Which of the following alcohol has the highest boiling point?",
+      "options": {
+        "A": "Butan - 1 -ol",
+        "B": "Propan - 2 -ol",
+        "C": "2 - Methyl propan - 2 -ol",
+        "D": "Butan - 2 -ol"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 71,
+      "question": "Which of the major product obtained by hydrolysis of compound formed by reaction between formaldehyde and ethyl magnesium bromide?",
+      "options": {
+        "A": "2 - Methyl - propan - 2 - ol",
+        "B": "Propan - 1 - ol",
+        "C": "Propan - 2 - ol",
+        "D": "Ethan - 1 - ol"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 72,
+      "question": "Give the IUPAC name for methyl salicylate.",
+      "options": {
+        "A": "Methyl - 3 - hydroxy benzoate",
+        "B": "Methyl - 2 - hydroxy benzoate",
+        "C": "2' - hydroxy benzoic acid",
+        "D": "Methoxy benzoic acid"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 42,
+      "question": "Which of the following has highest boiling point?",
+      "options": {
+        "A": "Ethoxy ethane",
+        "B": "n-Butane",
+        "C": "Pentanal",
+        "D": "Pentan-1-ol"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 43,
+      "question": "Which reagent is required to convert cyclohexanol to cyclohexanone?",
+      "options": {
+        "A": "$\\text{O}_3 / \\text{H}_2\\text{O} - \\text{Zn dust}$",
+        "B": "PCC",
+        "C": "Anhydrous $\\text{CrO}_3$",
+        "D": "DIBAL - H"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 51,
+      "question": "From following, IUPAC name of compound [Diagram] is?",
+      "options": {
+        "A": "2-ethoxy-1, 1-dimethyl cyclohexane",
+        "B": "5-ethoxy-6, 6-dimethyl cyclohexane",
+        "C": "1-ethoxy-2, 2-dimethyl cyclohexane",
+        "D": "1-ethoxy-6, 6-dimethyl cyclohexane"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 52,
+      "question": "Which Grignard reagent gives 2-methylpropan-1-ol with reaction with methanal?",
+      "options": {
+        "A": "$\\text{CH}_3 - \\text{CH}_2 - \\text{CH}_2 - \\text{Mg} - \\text{X}$",
+        "B": "$\\text{CH}_3 - \\text{CH}(\\text{CH}_3) - \\text{Mg} - \\text{X}$",
+        "C": "$\\text{CH}_3 - \\text{CH} = \\text{CH} - \\text{Mg} - \\text{X}$",
+        "D": "$\\text{CH}_3 - \\text{CH} - \\text{CH}_2 - \\text{Mg} - \\text{X}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 53,
+      "question": "Which compound having maximum value of pKa from following?",
+      "options": {
+        "A": "$o - \\text{O}_2\\text{N} - \\text{C}_6\\text{H}_4 - \\text{OH}$",
+        "B": "$p - \\text{O}_2\\text{N} - \\text{C}_6\\text{H}_4 - \\text{OH}$",
+        "C": "$m - \\text{O}_2\\text{N} - \\text{C}_6\\text{H}_4 - \\text{OH}$",
+        "D": "$\\text{C}_6\\text{H}_5\\text{OH}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 52,
+      "question": "Which method is used to prepare salicylic acid from phenol?",
+      "options": {
+        "A": "Stephen reaction",
+        "B": "Kolbe's reaction",
+        "C": "Etard reaction",
+        "D": "Reimer-Tiemann reaction"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 78,
+      "question": "How much gram of ethanol is required to obtain 280 ml dihydrogen at S.T.P. by reaction of $\\text{C}_2\\text{H}_5\\text{OH}$ with Na-Metal? (Mol. wt. of ethanol = 46 g/mol).",
+      "options": {
+        "A": "2.3",
+        "B": "4.6",
+        "C": "1.15",
+        "D": "0.575"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 79,
+      "question": "Which product is obtained between reaction of $\\text{CH}_3\\text{ONa}$ and $(\\text{CH}_3)_3 \\text{CBr}$?",
+      "options": {
+        "A": "Only Ether",
+        "B": "Only Alkene",
+        "C": "Both alkene and ether",
+        "D": "Alcohol"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 80,
+      "question": "Which of the following alcohol undergo dehydration reaction with Cu (Copper) metal at 573 K temperature?",
+      "options": {
+        "A": "Secondary and Tertiary",
+        "B": "Primary & Secondary",
+        "C": "Primary and Tertiary",
+        "D": "Only Tertiary"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 45,
+      "question": "Predict the major product of acid catalysed dehydration of butan-1-ol.",
+      "options": {
+        "A": "$2\text{CH}_2 = \text{CH}_2$",
+        "B": "$\text{CH}_3 - \text{C}(\text{CH}_3) = \text{CH}_2$",
+        "C": "$\text{CH}_3 - \text{CH} = \text{CH} - \text{CH}_3$",
+        "D": "$\text{CH}_3 - \text{CH}_2 - \text{CH} = \text{CH}_2$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2024,
+      "number": 46,
+      "question": "Give the major product formed by heating $\text{CH}_3 - \text{CH}_2 - \text{CH}_2 - \text{O} - \text{C}(\text{CH}_3)_2 - \text{CH}_2 - \text{CH}_3$ with HI.",
+      "options": {
+        "A": "$\text{CH}_3 - \text{CH}_2 - \text{CH}_2 - \text{OH} + \text{CH}_3 - \text{CH}_2 - \text{C}(\text{CH}_3)_2 - \text{I}$",
+        "B": "$\text{CH}_3 - \text{CH}_2 - \text{CH}_2 - \text{OI} + \text{CH}_3 - \text{CH}_2 - \text{CH}(\text{CH}_3)_2$",
+        "C": "$\text{CH}_3 - \text{CH}_3 + \text{I} - \text{CH}_2 - \text{O} - \text{C}(\text{CH}_3)_2 - \text{CH}_2 - \text{CH}_3$",
+        "D": "$\text{CH}_3\text{CH}_2\text{CH}_2\text{I} + \text{CH}_3 - \text{CH}_2 - \text{C}(\text{CH}_3)_2 - \text{OH}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2024,
+      "number": 47,
+      "question": "Arrange the following compounds in decreasing order of their acidic strength. (i) Phenol (ii) p-Nitrophenol (iii) p-Methylphenol",
+      "options": {
+        "A": "(ii) > (iii) > (i)",
+        "B": "(iii) > (i) > (ii)",
+        "C": "(i) > (ii) > (iii)",
+        "D": "(ii) > (i) > (iii)"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 57,
+      "question": "Identify $R', R''$ and $R'''$ for the following reaction: $R'\\text{C}(=O)R'' \\xrightarrow{(i) R'''\\text{MgX}, (ii) \\text{H}_2\\text{O}} 2-\\text{methylbutane}-2-\\text{ol}$",
+      "options": {
+        "A": "$R'=C_2H_5, R''=C_2H_5, R'''=CH_3$",
+        "B": "$R'=CH_3, R''=C_2H_5, R'''=CH_3$",
+        "C": "$R'=C_2H_5, R''=CH_3, R'''=C_2H_5$",
+        "D": "$R'=CH_3, R''=CH_3, R'''=CH_3$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 58,
+      "question": "$\\text{C}_6\\text{H}_6 + X \\xrightarrow{\\text{anhydrous AlCl}_3} \\text{Isopropylbenzene} \\xrightarrow{(i) \\text{O}_2, (ii) \\text{H}^+} Y + Z$. In this reaction X, Y and Z are ____ respectively.",
+      "options": {
+        "A": "$\\text{CH}_3\\text{CH}_2\\text{Cl}, \\text{C}_6\\text{H}_5\\text{OH}, \\text{CH}_3\\text{COCH}_3$",
+        "B": "$\\text{CH}_3\\text{CH}_2\\text{Cl}, \\text{C}_6\\text{H}_4(\\text{OH})_2, \\text{CH}_3\\text{CHO}$",
+        "C": "$\\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{Cl}, \\text{C}_6\\text{H}_5\\text{OH}, \\text{CH}_3\\text{COCH}_3$",
+        "D": "$\\text{CH}_3-\\text{CH}-\\text{CH}_3, \\text{C}_6\\text{H}_5\\text{CHO}, \\text{CH}_3\\text{COCH}_3$ (with Cl attached to middle C)"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 60,
+      "question": "$\\text{Ethanol} \\xrightarrow{\\text{H}_2\\text{SO}_4, 413\\text{ K}} \\text{diethyl ether}$. The above reaction is which type?",
+      "options": {
+        "A": "Substitution nucleophilic bimolecular",
+        "B": "Substitution electrophilic bimolecular",
+        "C": "Substitution nucleophilic unimolecular",
+        "D": "Substitution electrophilic unimolecular"
+      },
+      "answer": "A"
+    }
+  ]
+}

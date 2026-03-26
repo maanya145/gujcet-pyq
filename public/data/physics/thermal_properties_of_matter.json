@@ -1,0 +1,19 @@
+{
+  "subject": "physics",
+  "chapter": "Thermal Properties of Matter",
+  "total_questions": 1,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 5,
+      "question": "If the earth did not have atmosphere, the temperature would be",
+      "options": {
+        "A": "none",
+        "B": "less",
+        "C": "more",
+        "D": "same"
+      },
+      "answer": "B"
+    }
+  ]
+}

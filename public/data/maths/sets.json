@@ -1,0 +1,19 @@
+{
+  "subject": "maths",
+  "chapter": "Sets",
+  "total_questions": 1,
+  "questions": [
+    {
+      "year": 2006,
+      "number": 16,
+      "question": "If $\\{x / |\\frac{1}{3x+2}| \\le \\frac{1}{5}; x \\in R - \\{-\\frac{2}{3}\\}\\}$, then what is the complement set of this set ?",
+      "options": {
+        "A": "$(1, \\infty)$",
+        "B": "$(-\\infty, 1)$",
+        "C": "$R - (1, \\infty)$",
+        "D": "$R - (-\\infty, 1)$"
+      },
+      "answer": null
+    }
+  ]
+}

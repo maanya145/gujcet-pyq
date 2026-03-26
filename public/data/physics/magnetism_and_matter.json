@@ -1,0 +1,379 @@
+{
+  "subject": "physics",
+  "chapter": "Magnetism and Matter",
+  "total_questions": 31,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 1,
+      "question": "Domain formation is the necessary feature of",
+      "options": {
+        "A": "all of the above",
+        "B": "ferromagnetism",
+        "C": "paramagnetism",
+        "D": "diamagnetism"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2007,
+      "number": 37,
+      "question": "A bar magnet of magnetic moment $\\vec{M}$ is placed in a magnetic field of induction $\\vec{B}$. The torque exerted on it is",
+      "options": {
+        "A": "$-\\vec{B} \\cdot \\vec{M}$",
+        "B": "$\\vec{M} \\times \\vec{B}$",
+        "C": "$-\\vec{M} \\cdot \\vec{B}$",
+        "D": "$\\vec{M} \\cdot \\vec{B}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2008,
+      "number": 14,
+      "question": "At a given place on the Earth, the angle between the Magnetic meridian and the Geographic meridian is called ......",
+      "options": {
+        "A": "Magnetic latitude",
+        "B": "Magnetic dip",
+        "C": "Magnetic longitude",
+        "D": "Magnetic declination"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 20,
+      "question": "There are $2.0 \\times 10^{24}$ molecular dipoles in a paramagnetic salt. Each has dipole moment $1.5 \\times 10^{-23} \\text{ Am}^2$. Find maximum (saturation) magnetization in the specimen.",
+      "options": {
+        "A": "20 $\\text{Am}^2$",
+        "B": "30 $\\text{Am}^2$",
+        "C": "200 $\\text{Am}^2$",
+        "D": "50 $\\text{Am}^2$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 14,
+      "question": "Which of the following is represented by the area enclosed by a hysteresis loop ($B - H$ curve)?",
+      "options": {
+        "A": "Retentivity",
+        "B": "Susceptibility",
+        "C": "Permeability",
+        "D": "Heat energy lost per unit volume in the sample."
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 15,
+      "question": "In which direction, the magnetic field on the axis at a distance $z$ from the centre of the bar magnet would be ?",
+      "options": {
+        "A": "In the direction of the magnetic dipole moment ($\\vec{M}$) of the magnet.",
+        "B": "In the opposite direction of the magnetic dipole moment ($\\vec{M}$) of the magnet.",
+        "C": "In the perpendicular direction of the magnetic moment ($\\vec{M}$) of the magnet.",
+        "D": "Its direction depends on the magnitude of the magnetic moment ($\\vec{M}$) of the magnet."
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 11,
+      "question": "A magnetic wire of dipole moment $4\\pi\\text{ Am}^2$ is bent in the form of semi-circle. The new magnetic moment is .......",
+      "options": {
+        "A": "$4\\pi\\text{ Am}^2$",
+        "B": "$8\\pi\\text{ Am}^2$",
+        "C": "$4\\text{ Am}^2$",
+        "D": "None of these"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2011,
+      "number": 14,
+      "question": "The magnetic field due to short bar magnet of magnetic dipole moment M and length $2l$, on the axis at a distance $z$ (where $z >> l$) from the centre of the magnet is given by formula ......",
+      "options": {
+        "A": "$\\frac{\\mu_0M}{4\\pi z^3}\\hat{M}$",
+        "B": "$\\frac{2\\mu_0M}{4\\pi z^3}\\hat{M}$",
+        "C": "$\\frac{4\\pi M}{\\mu_0 z^3}\\hat{M}$",
+        "D": "$\\frac{\\mu_0M}{2\\pi z^3}\\hat{M}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 15,
+      "question": "Resultant force acting on a diamagnetic material in a magnetic field is in direction .............",
+      "options": {
+        "A": "from stronger to the weaker part of the magnetic field.",
+        "B": "from weaker to the stronger part of the magnetic field.",
+        "C": "perpendicular to the magnetic field.",
+        "D": "in the direction making $60^{\\circ}$ to the magnetic field."
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 20,
+      "question": "A bar magnet is placed in the position of stable equilibrium in a uniform magnetic field of induction B. If it is rotated through an angle $180^{\\circ}$, then the work done is ............. (M = Magnetic Dipole moment of Bar magnet)",
+      "options": {
+        "A": "MB",
+        "B": "$2\\text{ MB}$",
+        "C": "$\\frac{\\text{MB}}{2}$",
+        "D": "Zero"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 13,
+      "question": "The magnetic susceptibility of a paramagnetic material is $1.0 \\times 10^{-5}$ at $27^\\circ \\text{ C}$ temperature. Then, at what temperature its magnetic susceptibility would be $1.5 \\times 10^{-5}$?",
+      "options": {
+        "A": "$18^\\circ \\text{ C}$",
+        "B": "$200^\\circ \\text{ C}$",
+        "C": "$-73^\\circ \\text{ C}$",
+        "D": "$-18^\\circ \\text{ C}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 14,
+      "question": "The Earth's magnetic field at some place on magnetic equator of Earth is $0.5 \\times 10^{-4} \\text{ T}$. Consider the radius of Earth at that place as $6400 \\text{ km}$. Then, magnetic dipole moment of the Earth is ________ $\\text{ Am}^2$ ($\\mu_0 = 4\\pi \\times 10^{-7} \\text{ TmA}^{-1}$)",
+      "options": {
+        "A": "$1.05 \\times 10^{23}$",
+        "B": "$1.31 \\times 10^{23}$",
+        "C": "$1.15 \\times 10^{23}$",
+        "D": "$1.62 \\times 10^{23}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 31,
+      "question": "The effective length of a magnet is $31.4\\text{ cm}$ and its pole strength is $0.8\\text{ Am}$. The magnetic moment, if it is bent in the form of a semicircle is ________ $\\text{Am}^2$.",
+      "options": {
+        "A": "1.2",
+        "B": "1.6",
+        "C": "0.16",
+        "D": "0.12"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "number": 35,
+      "question": "At a place on Earth, the vertical component of Earth's magnetic field is $\\sqrt{3}$ times its horizontal component. The angle of dip at this place is ________.",
+      "options": {
+        "A": "60^{\\circ}",
+        "B": "30^{\\circ}",
+        "C": "45^{\\circ}",
+        "D": "0^{\\circ}"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 22,
+      "question": "$\\mu_0$ is permeability of vacuum, $\\chi_m$ is susceptibility then permeability of material is",
+      "options": {
+        "A": "$\\mu = \\mu_0(1 + \\chi_m)$",
+        "B": "$\\mu = \\mu_0(\\chi_m - 1)$",
+        "C": "$\\mu = \\mu_0(1 - \\chi_m)$",
+        "D": "$\\mu = \\mu_0(1 + \\chi_m)$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 13,
+      "question": "A substance is placed in a non uniform magnetic field. It experience weak force towards the strong field. The substance is ____ type.",
+      "options": {
+        "A": "Ferromagnetic",
+        "B": "Diamagnetic",
+        "C": "Paramagnetic",
+        "D": "None of these"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 14,
+      "question": "The relation between $B_v$, $B_h$ and $B$ is ____",
+      "options": {
+        "A": "$\\frac{B_v}{B_h} = B$",
+        "B": "$B = B_h \\cdot B_v$",
+        "C": "$B^2 = B_h^2 + B_v^2$",
+        "D": "$\\frac{B_h}{B_v} = B$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 27,
+      "question": "The gyromagnetic ratio of an electron =........... specific charge of an electron.",
+      "options": {
+        "A": "4",
+        "B": "$\\frac{1}{2}$",
+        "C": "2",
+        "D": "1"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 28,
+      "question": "Alnico is an alloy of.................",
+      "options": {
+        "A": "Al, As, P, Pt",
+        "B": "Al, Ni, As, P",
+        "C": "Al, Ni, Cu, Co",
+        "D": "Al, Ni, Cu, P"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 27,
+      "question": "In India, declination at Delhi is ........",
+      "options": {
+        "A": "$0^\\circ 41\\text{ W}$",
+        "B": "$0^\\circ 41\\text{ E}$",
+        "C": "$0^\\circ 58\\text{ E}$",
+        "D": "$0^\\circ 58\\text{ W}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 28,
+      "question": "The relative permeability in a core of a solenoid is $400$. The windings of a solenoid are insulated from the core and carry a current of $2\\text{ A}$. If the number of turns is $1000$ per meter. Then magnetic intensity inside the core of solenoid is ....... $\\text{A/m}$",
+      "options": {
+        "A": "$2 \\times 10^3$",
+        "B": "$2.5 \\times 10^{-3}$",
+        "C": "$2.5 \\times 10^3$",
+        "D": "$2 \\times 10^{-3}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 35,
+      "question": "At certain place on the surface of the earth, horizontal component of earth's magnetic field is same as vertical component of earth magnetic field, then what will be angle of dip at that place?",
+      "options": {
+        "A": "$30^\\circ$",
+        "B": "$60^\\circ$",
+        "C": "$45^\\circ$",
+        "D": "$90^\\circ$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 36,
+      "question": "What is the magnitude of the equatorial fields due to a bar magnet of length $5.0\\text{ cm}$ at a distance $75\\text{ cm}$ from its mid point? The magnetic moment of the bar magnet is $0.75\\text{ Am}^2$.",
+      "options": {
+        "A": "$3.2 \\times 10^{-7}\\text{ T}$",
+        "B": "$1.78 \\times 10^{-7}\\text{ T}$",
+        "C": "$6.4 \\times 10^{-7}\\text{ T}$",
+        "D": "$3.56 \\times 10^{-7}\\text{ T}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 37,
+      "question": "A solenoid has a core of a material with relative permeability $400$. The windings of the solenoid are insulated from the core and carry a current of $1\\text{ A}$. If the number of turns is $1000\\text{ per metre}$, find magnetic field (B) ________ T. ($\\mu_0 = 4\\pi \\times 10^{-7}\\text{ SI}$)",
+      "options": {
+        "A": "$1.6\\pi \\times 10^{+2}$",
+        "B": "$16\\pi \\times 10^2$",
+        "C": "$16\\pi \\times 10^{-2}$",
+        "D": "$0.16\\pi \\times 10^{-2}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 38,
+      "question": "A short bar magnet placed with its axis at $30^\\circ$ with a uniform external magnetic field of $0.25\\text{ T}$ experiences a torque of magnitude equal to $4.5 \\times 10^{-2}\\text{ J}$. What is the magnitude of magnetic moment of the magnet?",
+      "options": {
+        "A": "$0.36\\text{ J T}^{-1}$",
+        "B": "$0.036\\text{ J T}^{-1}$",
+        "C": "$3.6\\text{ J T}^{-1}$",
+        "D": "$36\\text{ J T}^{-1}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 26,
+      "question": "A bar magnet having pole strength $q_m$ and magnetic moment $m$ is divided into two equal parts along its length. The new pole strength is ________ and the magnetic moment is ________ respectively.",
+      "options": {
+        "A": "$q_m, \\frac{m}{2}$",
+        "B": "$\\frac{q_m}{2}, m$",
+        "C": "$\\frac{q_m}{2}, \\frac{m}{2}$",
+        "D": "$q_m, m$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 27,
+      "question": "A solenoid has a core of a material with relative permeability 400. The windings of solenoid are insulated from the core and carry a current of 2 A. If the number of turns is 1000 per metre, the magnetic field B inside the solenoid is ________ T.",
+      "options": {
+        "A": "1.5",
+        "B": "1.0",
+        "C": "1.8",
+        "D": "2.0"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 31,
+      "question": "$\\frac{\\text{Vs}}{\\text{Am}}$ is the unit of which physical quantity?",
+      "options": {
+        "A": "$\\chi_m$",
+        "B": "$\\mu_0$",
+        "C": "$\\chi_e$",
+        "D": "$\\epsilon_0$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2024,
+      "number": 33,
+      "question": "A solenoid has a core of a material with relative permeability $400$. The windings of the solenoid are insulated from the core and carry a current of $2\\text{A}$. If the number of turns is $1000$ per meter then the value of magnetic intensity will be ________.",
+      "options": {
+        "A": "$8 \\times 10^{-5}\\text{ Am}^{-1}$",
+        "B": "$2 \\times 10^3\\text{ Am}^{-1}$",
+        "C": "$2 \\times 10^{-3}\\text{ Am}^{-1}$",
+        "D": "$8 \\times 10^5\\text{ Am}^{-1}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 34,
+      "question": "A short bar magnet placed with its axis at $30^\\circ$ with a uniform external magnetic field of $0.5\\text{T}$ experiences a torque of magnitude equal to $4.5 \\times 10^{-2}\\text{J}$. Then the magnitude of magnetic moment of the magnet will be ________.",
+      "options": {
+        "A": "$18 \\times 10^{-2}\\text{ JT}^{-1}$",
+        "B": "$36 \\times 10^{-2}\\text{ JT}^{-1}$",
+        "C": "$1.8 \\times 10^2\\text{ JT}^{-1}$",
+        "D": "$3.6 \\times 10^2\\text{ JT}^{-1}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 37,
+      "question": "A paramagnetic substance is placed in a non-uniform magnetic field, then",
+      "options": {
+        "A": "perform continuous rotation",
+        "B": "to move from a region of weak magnetic field to strong magnetic field",
+        "C": "remain stationary",
+        "D": "to move from a region of strong magnetic field to weak magnetic field"
+      },
+      "answer": "B"
+    }
+  ]
+}

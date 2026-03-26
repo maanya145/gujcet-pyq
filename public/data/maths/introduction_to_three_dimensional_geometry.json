@@ -1,0 +1,19 @@
+{
+  "subject": "maths",
+  "chapter": "Introduction to Three Dimensional Geometry",
+  "total_questions": 1,
+  "questions": [
+    {
+      "year": 2008,
+      "number": 2,
+      "question": "The distance between the points $(-115, 105)$ and $(100, 105)$ is -",
+      "options": {
+        "A": "215",
+        "B": "15",
+        "C": "-15",
+        "D": "-215"
+      },
+      "answer": "A"
+    }
+  ]
+}

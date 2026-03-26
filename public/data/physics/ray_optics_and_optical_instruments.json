@@ -1,0 +1,643 @@
+{
+  "subject": "physics",
+  "chapter": "Ray Optics and Optical Instruments",
+  "total_questions": 53,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 7,
+      "question": "A wavelength of a monochromatic light in vacuum is $\\lambda$. It travels from vacuum to a medium of absolute refractive index $\\mu$. The ratio of wavelength of the incident and refracted wave is .................",
+      "options": {
+        "A": "$\\mu^2 : 1$",
+        "B": "$1 : 1$",
+        "C": "$\\mu : 1$",
+        "D": "$1 : \\mu$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2007,
+      "number": 8,
+      "question": "An object is placed at a distance of $40\\text{ cm}$ in front of a concave mirror of focal length $20\\text{ cm}$. The image produced is",
+      "options": {
+        "A": "real, inverted and smaller in size",
+        "B": "real, inverted and of same size",
+        "C": "real and erect",
+        "D": "virtual and inverted"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2008,
+      "number": 27,
+      "question": "The diameter of the lens of a telescope is 0.61 m. Wave-length of light is 5000 $\\text{\\AA}$. The resolution power of the telescope is -",
+      "options": {
+        "A": "$2 \\times 10^6$",
+        "B": "$10^6$",
+        "C": "$2 \\times 10^4$",
+        "D": "$2 \\times 10^2$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 22,
+      "question": "A real object is placed at a distance $f$ from the pole of a convex mirror, in front of the convex mirror. If focal length of the mirror is $f$, then distance of the image from the pole of the mirror is ............",
+      "options": {
+        "A": "$\\frac{f}{2}$",
+        "B": "$\\frac{f}{4}$",
+        "C": "$2f$",
+        "D": "$4f$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 23,
+      "question": "For a prism of refractive index $1.732$, the angle of minimum deviation is equal to the angle of prism. Then the angle of the prism is ............",
+      "options": {
+        "A": "$60^\\circ$",
+        "B": "$70^\\circ$",
+        "C": "$50^\\circ$",
+        "D": "None of these"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 24,
+      "question": "A convex lens is immersed in a liquid, whose refractive index is equal to the refractive index of the material of the lens. Then its focal length will ............",
+      "options": {
+        "A": "become zero",
+        "B": "increase",
+        "C": "decrease",
+        "D": "become infinite"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 26,
+      "question": "An astronomical telescope has objective and eye-piece lenses of powers $0.5 \\text{ D}$ and $20 \\text{ D}$ respectively. What will be its magnifying power ?",
+      "options": {
+        "A": "$10$",
+        "B": "$20$",
+        "C": "$30$",
+        "D": "$40$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 21,
+      "question": "Refractive index of the material of a prism is $1.5$. If $\\delta_m = A$, what will be a value of angle of the given prism ? (where $\\delta_m = \\text{minimum deviation; A = angle of prism}$)",
+      "options": {
+        "A": "$82.8^{\\circ}$",
+        "B": "$41.4^{\\circ}$",
+        "C": "$48.6^{\\circ}$",
+        "D": "$90^{\\circ}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 22,
+      "question": "Where should a person stand straight from the pole of a convex mirror of focal length $2.0\\text{ m}$ on its axis so that the image formed become half of his original height ?",
+      "options": {
+        "A": "$-2.60\\text{ m}$",
+        "B": "$-4.0\\text{ m}$",
+        "C": "$-0.5\\text{ m}$",
+        "D": "$-2.0\\text{ m}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2011,
+      "number": 24,
+      "question": "A transparent plastic bag filled with air forms a concave lens. Now, if this bag is completely immersed in water, then it behaves as ........",
+      "options": {
+        "A": "Divergent lens",
+        "B": "Convergent lens",
+        "C": "Equilateral prism",
+        "D": "Rectangular slab"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 25,
+      "question": "A microscope is focussed on an ink mark on the top of a table. If we place a glass slab of $3\\text{ cm}$ thick on it, how should the microscope be moved to focus the ink spot again ? The refractive index of glass is $1.5$.",
+      "options": {
+        "A": "$2\\text{ cm upwards}$",
+        "B": "$2\\text{ cm downwards}$",
+        "C": "$1\\text{ cm upwards}$",
+        "D": "$1\\text{ cm downwards}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 27,
+      "question": "Given figures show the arrangements of two lenses. The radii of curvature of all the curved surfaces are same. The ratio of the equivalent focal length of combinations P, Q and R is ......... [Diagram]",
+      "options": {
+        "A": "$1 : 1 : 1$",
+        "B": "$1 : 1 : -1$",
+        "C": "$2 : 1 : 1$",
+        "D": "$2 : 1 : 2$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 16,
+      "question": "The time taken by the sunlight to reach the bottom of a tank of depth $4.5 \\text{ m}$ filled completely with water is ________ $\\text{ ns}$. The refractive index of water is $4/3$.",
+      "options": {
+        "A": "$2$",
+        "B": "$20$",
+        "C": "$1.5$",
+        "D": "$200$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 17,
+      "question": "A plano convex lens fits exactly into plano concave lens as shown in figure. Their plane surfaces are parallel to each other. If the lens are made of different materials of refractive indices $1.6$ & $1.5$ respectively. If $R$ is the radius of curvature of curved surfaces of lenses. Then the focal length of the combination. [Diagram]",
+      "options": {
+        "A": "$\\frac{R}{6.2}$",
+        "B": "$\\frac{R}{0.2}$",
+        "C": "$\\frac{R}{3.1}$",
+        "D": "$\\frac{R}{0.1}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "number": 13,
+      "question": "Angle of minimum deviation for a prism of refractive index $1.5$ is equal to the angle of prism of given prism. Then the angle of prism is ________. $(\\sin 48^{\\circ}36' = 0.75)$",
+      "options": {
+        "A": "80^{\\circ}",
+        "B": "41^{\\circ}24'",
+        "C": "60^{\\circ}",
+        "D": "82^{\\circ}48'"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "number": 14,
+      "question": "A ray of light passes from a medium A having refractive index $1.6$ to the medium B having refractive index $1.5$. The value of critical angle of medium A is ________.",
+      "options": {
+        "A": "\\sin^{-1}\\sqrt{\\frac{16}{15}}",
+        "B": "\\sin^{-1}(\\frac{16}{15})",
+        "C": "\\sin^{-1}(\\frac{1}{2})",
+        "D": "\\sin^{-1}(\\frac{15}{16})"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "number": 15,
+      "question": "The power of plane mirror is ________.",
+      "options": {
+        "A": "0",
+        "B": "\\infty",
+        "C": "2D",
+        "D": "4D"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 24,
+      "question": "For the astronomical telescope, the focal length of objective lens is $f_0$ and the eye piece lens is $f_e$. Then the tube length of the telescope is _____.",
+      "options": {
+        "A": "$L \\ge f_0 - f_e$",
+        "B": "$L \\ge f_0 + f_e$",
+        "C": "$L < f_0 + f_e$",
+        "D": "$L \\le f_0 - f_e$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 25,
+      "question": "Time taken by the sunlight to pass through a slab of 4 cm and refractive index 1.5 is _____ s.",
+      "options": {
+        "A": "$2 \\times 10^{10}$",
+        "B": "$2 \\times 10^{-8}$",
+        "C": "$2 \\times 10^8$",
+        "D": "$2 \\times 10^{-10}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 26,
+      "question": "A convex lens of focal length 12.5 cm is used as a simple microscope. When the image is formed at infinite, Magnification is _____ (Near point for the normal vision is 25 cm).",
+      "options": {
+        "A": "25",
+        "B": "2.5",
+        "C": "2.0",
+        "D": "1.0"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 15,
+      "question": "Two thin lenses of focal length $f_1$ and $f_2$ are in contact and coaxial. The power of the combination is ____",
+      "options": {
+        "A": "$\\frac{f_1f_2}{f_1 + f_2}$",
+        "B": "$\\frac{f_1 + f_2}{2}$",
+        "C": "$\\frac{1}{f_1f_2}$",
+        "D": "$\\frac{f_1 + f_2}{f_1f_2}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 17,
+      "question": "A small angled prism of refractive index $1.6$ gives a deviation of $3.6^\\circ$. The angle of prism is ___",
+      "options": {
+        "A": "$5^\\circ$",
+        "B": "$6^\\circ$",
+        "C": "$7^\\circ$",
+        "D": "$8^\\circ$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 18,
+      "question": "A plano convex lens is made of material having refractive index $1.5$. The radius of curvature of curved surface is $60\\text{ cm}$. The focal length of the lens is ____ $\\text{cm}$",
+      "options": {
+        "A": "$60$",
+        "B": "$120$",
+        "C": "$-60$",
+        "D": "$-120$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 2,
+      "question": "The ratio of resolving power of telescope, when lights of wavelenghts $4400 \\text{ Å}$ and $5500 \\text{ Å}$ are used, is ........",
+      "options": {
+        "A": "5 : 4",
+        "B": "9 : 1",
+        "C": "4 : 5",
+        "D": "16 : 25"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 29,
+      "question": "The focal length of a thin lens made from the material of refractive index 1.5 is $15 \\text{ cm}$. When it is placed in a liquid of refractive index $\\frac{4}{3}$, its focal length will be ...............cm.",
+      "options": {
+        "A": "60",
+        "B": "78.23",
+        "C": "50",
+        "D": "80.31"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 30,
+      "question": "Time taken by the sunlight to pass through a slab of $4 \\text{ cm}$ and refractive index 1.5 is ............... sec.",
+      "options": {
+        "A": "$2 \\times 10^{11}$",
+        "B": "$2 \\times 10^{-10}$",
+        "C": "$2 \\times 10^{-11}$",
+        "D": "$2 \\times 10^{-8}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 31,
+      "question": "If the tube length of astronomical telescope is $96 \\text{ cm}$ and magnifying power is 15 for normal setting then the focal length of the objective is ........... cm.",
+      "options": {
+        "A": "92",
+        "B": "105",
+        "C": "90",
+        "D": "100"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 2,
+      "question": "For what distance is ray optics a good approximation when the aperture is $4\\text{ mm}$ wide & the wavelength is $500\\text{ nm}$?",
+      "options": {
+        "A": "$32\\text{ m}$",
+        "B": "$18\\text{ m}$",
+        "C": "$8\\text{ m}$",
+        "D": "$6\\text{ m}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 3,
+      "question": "Resolving power of microscope is",
+      "options": {
+        "A": "$\\frac{2\\lambda}{1.22\\sin\\beta}$",
+        "B": "$\\frac{1.22n}{2\\lambda\\sin\\beta}$",
+        "C": "$\\frac{1.22n\\sin\\beta}{2\\lambda}$",
+        "D": "$\\frac{1.22\\lambda}{2n\\sin\\beta}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2020,
+      "number": 38,
+      "question": "For glass lens $f = +50\\text{ cm}$. Then power of lens is .........",
+      "options": {
+        "A": "$-2\\text{ D}$",
+        "B": "$+0.02\\text{ D}$",
+        "C": "$+2\\text{ D}$",
+        "D": "$-0.02\\text{ D}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 39,
+      "question": "A lens ($n = 1.5$) is placed in a liquid. To make it disappear, the value of $n$ of liquid should be .......",
+      "options": {
+        "A": "$n < 1.5$",
+        "B": "$n = 1.5$",
+        "C": "$n > 1.5$",
+        "D": "Any $n$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 40,
+      "question": "What is the type of nature of image formed for an object placed an axis of concave mirror between pole & centre?",
+      "options": {
+        "A": "Virtual, erect & diminished",
+        "B": "Real, inverted & diminished",
+        "C": "Real, inverted & magnified",
+        "D": "Virtual, erect & magnified"
+      },
+      "answer": "C, D"
+    },
+    {
+      "year": 2021,
+      "number": 5,
+      "question": "Glass prism having a refractive index $\\mu$, placed in a air, for that angle of minimum deviation of prism is same as angle of prism. Then what is value of angle of prism?",
+      "options": {
+        "A": "$2\\cos^{-1}(\\mu/2)$",
+        "B": "$2\\cos^{-1}(\\mu)$",
+        "C": "$\\cos^{-1}(\\mu/2)$",
+        "D": "$\\cos^{-1}(\\mu)$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 6,
+      "question": "The radii of curvature of the faces of a double convex lens are $10\\text{ cm}$ and $15\\text{ cm}$. Its focal length is $12\\text{ cm}$. What is the refractive index of material of lens?",
+      "options": {
+        "A": "1.33",
+        "B": "1.62",
+        "C": "1.50",
+        "D": "2.42"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 7,
+      "question": "Find equivalent focal length due to combination of two convex lens are in contact having a focal length both of them $30\\text{ cm}$.",
+      "options": {
+        "A": "15 cm",
+        "B": "30 cm",
+        "C": "20 cm",
+        "D": "40 cm"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 8,
+      "question": "A tank is filled with water to a height of $16\\text{ cm}$. Find the apparent depth of a needle lying at the bottom of the tank is measured by a microscope. Refractive index of water ($\\mu_w$) is $4/3$.",
+      "options": {
+        "A": "9.4 cm",
+        "B": "12.0 cm",
+        "C": "10.6 cm",
+        "D": "8.0 cm"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 7,
+      "question": "Light from a point source in air falls on a spherical glass surface ($n = 1.5$ and radius of curvature $= 20\\text{ cm}$). The distance of the light source from the glass surface is $100\\text{ cm}$. Find the image distance.",
+      "options": {
+        "A": "$-100\\text{ cm}$",
+        "B": "$-200\\text{ cm}$",
+        "C": "$200\\text{ cm}$",
+        "D": "$100\\text{ cm}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 8,
+      "question": "Double - convex lenses are to be manufactured from a glass of refractive index $1.5$ with both faces of the same radius of curvature. What is the radius of curvature required if the focal length is to be $20\\text{ cm}$?",
+      "options": {
+        "A": "$44\\text{ cm}$",
+        "B": "$2.2\\text{ cm}$",
+        "C": "$22\\text{ cm}$",
+        "D": "$4.4\\text{ cm}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 9,
+      "question": "What is the focal length of a convex lens of focal length $30\\text{ cm}$ in contact with a concave lens of focal length $10\\text{ cm}$? [Ignore thickness of lens]",
+      "options": {
+        "A": "$-15\\text{ cm}$",
+        "B": "$-40\\text{ cm}$",
+        "C": "$-20\\text{ cm}$",
+        "D": "$-30\\text{ cm}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 36,
+      "question": "The refractive index of air with respect to vacuum is ________.",
+      "options": {
+        "A": "1.0029",
+        "B": "1",
+        "C": "1.00029",
+        "D": "1.029"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 37,
+      "question": "A lens of power $-4.0$ Diopter. It means ________.",
+      "options": {
+        "A": "Concave lens of focal length $-25.0 \\text{ cm}$",
+        "B": "Concave lens of focal length $-0.25 \\text{ cm}$",
+        "C": "Convex lens of focal length $+0.25 \\text{ cm}$",
+        "D": "Convex lens of focal length $+25.0 \\text{ cm}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 38,
+      "question": "The earth takes 24 h to rotate once about its axis. How much time does the Sun takes to shift by 1 minute viewed from the earth.",
+      "options": {
+        "A": "4 minutes",
+        "B": "40 s",
+        "C": "4 s",
+        "D": "40 minutes"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 39,
+      "question": "For what distance a ray optics a good approximation when the aperture is 6 mm wide and the wavelength is $6000 \\text{Å}$?",
+      "options": {
+        "A": "50 m",
+        "B": "60 m",
+        "C": "40 m",
+        "D": "10 m"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 40,
+      "question": "Monochromatic light of wavelength 480 nm is incident from air to glass surface. Refractive index of glass is 1.5. The ratio of the frequency of the incident and refracted light is ________.",
+      "options": {
+        "A": "2:1",
+        "B": "1:2",
+        "C": "4:1",
+        "D": "1:1"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 3,
+      "question": "For plane mirror focal length is ________ m.",
+      "options": {
+        "A": "$\\infty$",
+        "B": "$-1$",
+        "C": "$0$",
+        "D": "$1$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 4,
+      "question": "A rays coming from an object which is situated at $\\infty$ distance in air and falls on a spherical glass surface ($n = 1.5$). Then the distance of image will be ________ R is the radius of curvature of a spherical glass.",
+      "options": {
+        "A": "$1.5R$",
+        "B": "$R$",
+        "C": "$3R$",
+        "D": "$2R$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 5,
+      "question": "For a thin prism, the angle of prism is $4^\\circ$ having refractive index $1.6$, then the angle of minimum deviation will be ________.",
+      "options": {
+        "A": "$0.4^\\circ$",
+        "B": "$2.0^\\circ$",
+        "C": "$2.4^\\circ$",
+        "D": "$1.6^\\circ$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 6,
+      "question": "Consider a refracting telescope whose objective has a focal length of $1\\text{m}$ and the eyepiece a focal length of $1\\text{cm}$, then magnifying power of this telescope will be ________.",
+      "options": {
+        "A": "$100$",
+        "B": "$50$",
+        "C": "$200$",
+        "D": "$1$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 9,
+      "question": "The refractive index of glass is $1.6$ then the speed of light in glass will be ________ speed of light in vacuum is $3.0 \\times 10^8\\text{ ms}^{-1}$.",
+      "options": {
+        "A": "$1.48 \\times 10^8\\text{ ms}^{-1}$",
+        "B": "$1.66 \\times 10^8\\text{ ms}^{-1}$",
+        "C": "$1.22 \\times 10^8\\text{ ms}^{-1}$",
+        "D": "$1.88 \\times 10^8\\text{ ms}^{-1}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 5,
+      "question": "The speed of light in a medium is $200 \\times 10^8 \\text{ cm/s}$. Refractive index of a medium is ________ ($c = 3 \\times 10^8 \\text{ m/s}$).",
+      "options": {
+        "A": "2.42",
+        "B": "1.0",
+        "C": "1.5",
+        "D": "1.33"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 6,
+      "question": "What is the power of combination of convex lens and concave lens of equal focal length 25 cm?",
+      "options": {
+        "A": "Zero",
+        "B": "25D",
+        "C": "Infinite",
+        "D": "8D"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 7,
+      "question": "At what angle of incidence should a ray of light incident on a face of an equilateral prism of minimum angle of deviation is $46^\\circ$?",
+      "options": {
+        "A": "$35^\\circ$",
+        "B": "$38^\\circ$",
+        "C": "$40^\\circ$",
+        "D": "$53^\\circ$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 8,
+      "question": "If the tube-length (L) of a compound microscope increases, then its magnification ________.",
+      "options": {
+        "A": "First increases and then decreases",
+        "B": "Increases",
+        "C": "Remains constant",
+        "D": "Decreases"
+      },
+      "answer": "B"
+    }
+  ]
+}

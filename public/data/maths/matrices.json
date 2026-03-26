@@ -1,0 +1,319 @@
+{
+  "subject": "maths",
+  "chapter": "Matrices",
+  "total_questions": 26,
+  "questions": [
+    {
+      "year": 2017,
+      "number": 18,
+      "question": "If $A = \\begin{bmatrix} 1 & 4 & 4 \\\\ 4 & 1 & 4 \\\\ 4 & 4 & 1 \\end{bmatrix}$, then $A^2 - 6A = $____.",
+      "options": {
+        "A": "$27 I_3$",
+        "B": "$5 I_3$",
+        "C": "$20 I_3$",
+        "D": "$30 I_3$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 19,
+      "question": "If $[2 \\; 3 \\; 4] \\begin{bmatrix} 1 & 3 \\\\ 2 & 4 \\\\ 5 & 2 \\end{bmatrix} \\begin{bmatrix} x \\\\ x \\end{bmatrix} = 0$, then $x = $______.",
+      "options": {
+        "A": "$\\frac{7}{3}$",
+        "B": "$\\frac{5}{3}$",
+        "C": "$-\\frac{5}{3}$",
+        "D": "$-\\frac{7}{3}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 28,
+      "question": "If $A = \\begin{bmatrix} 1 & 1 \\\\ 0 & 1 \\end{bmatrix}$ and $B = \\text{\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_}$ then $AB = BA$, where $B \\neq I$",
+      "options": {
+        "A": "$\\begin{bmatrix} x & y \\\\ 0 & x \\end{bmatrix}$",
+        "B": "$\\begin{bmatrix} x & x \\\\ y & 0 \\end{bmatrix}$",
+        "C": "$\\begin{bmatrix} x & y \\\\ 0 & y \\end{bmatrix}$",
+        "D": "$\\begin{bmatrix} x & 0 \\\\ y & y \\end{bmatrix}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 29,
+      "question": "If $A = \\begin{bmatrix} 3 & 3 & 3 \\\\ 3 & 3 & 3 \\\\ 3 & 3 & 3 \\end{bmatrix}$, then $A^3 =$",
+      "options": {
+        "A": "81 A",
+        "B": "27 A",
+        "C": "243 A",
+        "D": "729 A"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 30,
+      "question": "If the inverse of the matrix $A = \\begin{bmatrix} 1 & 2 & 2 \\\\ 2 & 1 & 2 \\\\ 2 & 2 & 1 \\end{bmatrix}$ is $\\frac{1}{5} \\begin{bmatrix} -3 & 2 & 2 \\\\ 2 & -3 & \\alpha \\\\ 2 & 2 & -3 \\end{bmatrix}$, then, $a = .............$",
+      "options": {
+        "A": "$3$",
+        "B": "$2$",
+        "C": "$4$",
+        "D": "$-2$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 31,
+      "question": "Matrix $A_r = \\begin{bmatrix} r & r-1 \\\\ r-1 & r \\end{bmatrix}; r=1, 2, 3, .......$. If $\\sum_{r=1}^{100} |A_r| = (\\sqrt{10})^K$, then $K = .......$; $(|A_r| = \\det(A_r))$.",
+      "options": {
+        "A": "$2$",
+        "B": "$4$",
+        "C": "$6$",
+        "D": "$8$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 14,
+      "question": "If $A = \\begin{bmatrix} a & b \\\\ c & -a \\end{bmatrix}$ is such that $A^2 = I$ then ____________.",
+      "options": {
+        "A": "$a^2 - bc + 1 = 0$",
+        "B": "$1 + a^2 + bc = 0$",
+        "C": "$1 + a^2 - bc = 0$",
+        "D": "$1 - a^2 - bc = 0$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 15,
+      "question": "If $A$ is a square matrix such that $A^2 = I$ then $(A-I)^3 + (A+I)^3 - 7A$ is equal to ____________.",
+      "options": {
+        "A": "$I + A$",
+        "B": "$I - A$",
+        "C": "$A$",
+        "D": "$3A$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 28,
+      "question": "If $AB = \\begin{bmatrix} -6 & 26 \\\\ -1 & 19 \\end{bmatrix}$ and $11 B^{-1} = \\begin{bmatrix} 5 & -3 \\\\ 2 & 1 \\end{bmatrix}$, then $A = \\text{_______}$.",
+      "options": {
+        "A": "$\\begin{bmatrix} -2 & 4 \\\\ 3 & -2 \\end{bmatrix}$",
+        "B": "$\\begin{bmatrix} 2 & 4 \\\\ 3 & 2 \\end{bmatrix}$",
+        "C": "$\\begin{bmatrix} 2 & -4 \\\\ -3 & 2 \\end{bmatrix}$",
+        "D": "$\\begin{bmatrix} -2 & 4 \\\\ 3 & 2 \\end{bmatrix}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2021,
+      "number": 29,
+      "question": "If $A = \\begin{bmatrix} 4 & 0 & 0 \\\\ 0 & 3 & 0 \\\\ 0 & 0 & 2 \\end{bmatrix}$ and $B = \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 3 \\end{bmatrix}$, then $(A+B)^{-1} = \\text{_______}$.",
+      "options": {
+        "A": "$\\frac{1}{25} I_3$",
+        "B": "$-\\frac{1}{5} I_3$",
+        "C": "$\\frac{1}{5} I_3$",
+        "D": "$-\\frac{1}{25} I_3$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2021,
+      "number": 30,
+      "question": "If $A = \\begin{bmatrix} 1 & 5 \\\\ 6 & 7 \\end{bmatrix}$ and $B = \\begin{bmatrix} 1 & 0 \\\\ 1 & 1 \\end{bmatrix}$, then which one of the following is incorrect.",
+      "options": {
+        "A": "$(AB)' = A'B'$",
+        "B": "$A \\cdot \\text{adj } A = |A| I$",
+        "C": "$(A+B)' = B' + A'$",
+        "D": "$(AB)^{-1} = B^{-1} \\cdot A^{-1}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 35,
+      "question": "If $A = \\begin{bmatrix} \\text{cos } \\theta & \\text{sin } \\theta \\\\ -\\text{sin } \\theta & \\text{cos } \\theta \\end{bmatrix}$ then $A^3 = $ ________.",
+      "options": {
+        "A": "$\\begin{bmatrix} \\text{cos } 3\\theta & \\text{sin } 3\\theta \\\\ -\\text{cos } 3\\theta & \\text{sin } 3\\theta \\end{bmatrix}$",
+        "B": "$\\begin{bmatrix} -\\text{cos } 3\\theta & \\text{sin } 3\\theta \\\\ \\text{sin } 3\\theta & \\text{cos } 3\\theta \\end{bmatrix}$",
+        "C": "$\\begin{bmatrix} \\text{cos } 3\\theta & \\text{sin } 3\\theta \\\\ -\\text{sin } 3\\theta & \\text{cos } 3\\theta \\end{bmatrix}$",
+        "D": "$\\begin{bmatrix} \\text{cos } 3\\theta & -\\text{sin } 3\\theta \\\\ -\\text{sin } 3\\theta & \\text{cos } 3\\theta \\end{bmatrix}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 36,
+      "question": "If $A = \\begin{bmatrix} 1 & -1 & 1 \\\\ 2 & 1 & -3 \\\\ 1 & 1 & 1 \\end{bmatrix}, 10B = \\begin{bmatrix} 4 & 2 & 2 \\\\ -5 & 0 & \\alpha \\\\ 1 & -2 & 3 \\end{bmatrix}$ and $B$ is inverse of $A$ then $\\alpha = $ ________.",
+      "options": {
+        "A": "$10$",
+        "B": "$9$",
+        "C": "$3$",
+        "D": "$5$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 38,
+      "question": "If $\\begin{bmatrix} x+y & -2 \\\\ 7+z & x-y \\end{bmatrix} = \\begin{bmatrix} -7 & -2 \\\\ 5 & 0 \\end{bmatrix}$, then $2x + 4y + 2z = \\dots$",
+      "options": {
+        "A": "$-9$",
+        "B": "$17$",
+        "C": "$-25$",
+        "D": "$-14$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 39,
+      "question": "If $A = \\begin{bmatrix} 1 & 2 \\end{bmatrix}$ and $B = \\begin{bmatrix} 3 \\\\ 4 \\end{bmatrix}$, then $(BA)' = \\dots$",
+      "options": {
+        "A": "$\\begin{bmatrix} 3 & 6 \\\\ 4 & 8 \\end{bmatrix}$",
+        "B": "$\\begin{bmatrix} 3 & 4 \\\\ 6 & 8 \\end{bmatrix}$",
+        "C": "$\\begin{bmatrix} 4 & 8 \\\\ 6 & 3 \\end{bmatrix}$",
+        "D": "$[11]$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 40,
+      "question": "If $A = \\begin{bmatrix} 0 & 0 & -5 \\\\ 0 & -5 & 0 \\\\ -5 & 0 & 0 \\end{bmatrix}$, then $A^2 = \\dots$",
+      "options": {
+        "A": "$-5 I$",
+        "B": "$5 A$",
+        "C": "$25 A$",
+        "D": "$25 I$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 18,
+      "question": "If A is square matrix such that $A^2 = A$, then $(I - A)^3 - (I + A)^2 =$",
+      "options": {
+        "A": "$2(I - A)$",
+        "B": "$I - A$",
+        "C": "$I$",
+        "D": "$0$"
+      },
+      "answer": "E"
+    },
+    {
+      "year": 2024,
+      "number": 19,
+      "question": "If $A = \\begin{bmatrix} \\sin \\alpha & -\\cos \\alpha \\\\ \\cos \\alpha & \\sin \\alpha \\end{bmatrix}$ and $A + A' = I$, then the value of $\\cos \\alpha$ is ____",
+      "options": {
+        "A": "$1/2$",
+        "B": "$\\sqrt{3}/2$",
+        "C": "-1",
+        "D": "0"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 20,
+      "question": "If A is square matrix such that $A^2 = A$, then $(I - A)^3 - (I + A)^2 = $ ______.",
+      "options": {
+        "A": "0",
+        "B": "$2(I - A)$",
+        "C": "I",
+        "D": "$I - A$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 20,
+      "question": "If $A = \\begin{bmatrix} 0 & 0 & -1 \\\\ 0 & -1 & 0 \\\\ -1 & 0 & 0 \\end{bmatrix}$ then $I + A^2 = ____$.",
+      "options": {
+        "A": "0",
+        "B": "$I + A$",
+        "C": "A",
+        "D": "$2I$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 21,
+      "question": "If $A = \\begin{bmatrix} \\sin \\alpha & -\\cos \\alpha \\\\ \\cos \\alpha & \\sin \\alpha \\end{bmatrix}$ and $A + A' = I$, then the value of $\\cos \\alpha$ is ______.",
+      "options": {
+        "A": "0",
+        "B": "$\\frac{1}{2}$",
+        "C": "-1",
+        "D": "$\\frac{\\sqrt{3}}{2}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 22,
+      "question": "If $A = \\begin{bmatrix} 0 & 0 & -1 \\\\ 0 & -1 & 0 \\\\ -1 & 0 & 0 \\end{bmatrix}$ then $I + A^2 = $ ______.",
+      "options": {
+        "A": "2I",
+        "B": "0",
+        "C": "A",
+        "D": "$I + A$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 22,
+      "question": "If $\\begin{bmatrix} 2017 & 2018 \\\\ 2019 & 2020 \\end{bmatrix} + \\begin{bmatrix} 2021 & 2022 \\\\ 2023 & 2024 \\end{bmatrix} = 2k$, then $k^3 =$",
+      "options": {
+        "A": "-8",
+        "B": "8",
+        "C": "0",
+        "D": "-64"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 17,
+      "question": "If the matrix $\\begin{bmatrix} x & x^2+3x & 5 \\\\ -2x-6 & x^2 & -4x-2 \\\\ 5 & x^2+2 & x^3 \\end{bmatrix}$ is a symmetric matrix, then the value of $x$ is ____",
+      "options": {
+        "A": "-2",
+        "B": "3, 2",
+        "C": "-3",
+        "D": "-3, -2"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 18,
+      "question": "If $A = \\begin{bmatrix} 0 & 1 \\\\ 1 & 0 \\end{bmatrix}$, then $(A + I)^3 + (A - I)^3 = $ ____",
+      "options": {
+        "A": "$8A$",
+        "B": "$8I$",
+        "C": "$6A$",
+        "D": "$6I$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 19,
+      "question": "For matrix $A = \\begin{bmatrix} 2 & 3 \\\\ 4 & 5 \\end{bmatrix}$, if $A^2 - 2I = KA$ then $K = $ ____",
+      "options": {
+        "A": "-5",
+        "B": "5",
+        "C": "-7",
+        "D": "7"
+      },
+      "answer": "D"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "subject": "maths",
+  "total_chapters": 18,
+  "total_questions": 557,
+  "chapters": [
+    {
+      "chapter": "Integrals",
+      "file": "integrals.json",
+      "total_questions": 91,
+      "years": [
+        2006,
+        2008,
+        2009,
+        2011,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Application of Derivatives",
+      "file": "application_of_derivatives.json",
+      "total_questions": 49,
+      "years": [
+        2006,
+        2008,
+        2009,
+        2011,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Three Dimensional Geometry",
+      "file": "three_dimensional_geometry.json",
+      "total_questions": 48,
+      "years": [
+        2006,
+        2008,
+        2009,
+        2011,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Continuity and Differentiability",
+      "file": "continuity_and_differentiability.json",
+      "total_questions": 47,
+      "years": [
+        2006,
+        2008,
+        2009,
+        2011,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Vector Algebra",
+      "file": "vector_algebra.json",
+      "total_questions": 44,
+      "years": [
+        2006,
+        2008,
+        2009,
+        2011,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Differential Equations",
+      "file": "differential_equations.json",
+      "total_questions": 33,
+      "years": [
+        2006,
+        2008,
+        2009,
+        2011,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Probability",
+      "file": "probability.json",
+      "total_questions": 30,
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Determinants",
+      "file": "determinants.json",
+      "total_questions": 29,
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Application of Integrals",
+      "file": "application_of_integrals.json",
+      "total_questions": 28,
+      "years": [
+        2011,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Conic Sections",
+      "file": "conic_sections.json",
+      "total_questions": 28,
+      "years": [
+        2006,
+        2008,
+        2009,
+        2011
+      ]
+    },
+    {
+      "chapter": "Inverse Trigonometric Functions",
+      "file": "inverse_trigonometric_functions.json",
+      "total_questions": 28,
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Matrices",
+      "file": "matrices.json",
+      "total_questions": 26,
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Relations and Functions",
+      "file": "relations_and_functions.json",
+      "total_questions": 26,
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Straight Lines",
+      "file": "straight_lines.json",
+      "total_questions": 19,
+      "years": [
+        2006,
+        2008,
+        2009,
+        2011
+      ]
+    },
+    {
+      "chapter": "Limits and Derivatives",
+      "file": "limits_and_derivatives.json",
+      "total_questions": 15,
+      "years": [
+        2006,
+        2008,
+        2009,
+        2011
+      ]
+    },
+    {
+      "chapter": "Linear Programming",
+      "file": "linear_programming.json",
+      "total_questions": 14,
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Introduction to Three Dimensional Geometry",
+      "file": "introduction_to_three_dimensional_geometry.json",
+      "total_questions": 1,
+      "years": [
+        2008
+      ]
+    },
+    {
+      "chapter": "Sets",
+      "file": "sets.json",
+      "total_questions": 1,
+      "years": [
+        2006
+      ]
+    }
+  ]
+}

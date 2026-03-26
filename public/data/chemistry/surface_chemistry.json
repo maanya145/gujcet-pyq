@@ -1,0 +1,343 @@
+{
+  "subject": "chemistry",
+  "chapter": "Surface Chemistry",
+  "total_questions": 28,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 52,
+      "question": "The physical states of dispersing phase and dispersion medium in colloid like pesticide spray respectively are",
+      "options": {
+        "A": "Solid, gas",
+        "B": "Gas, liquid",
+        "C": "Liquid, gas",
+        "D": "Liquid, solid"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2007,
+      "number": 79,
+      "question": "Peptisation is the process in which .............",
+      "options": {
+        "A": "Suspension is converted into true solution.",
+        "B": "Precipitates dissolve to give true solution.",
+        "C": "Colloid particles gets settled as precipitates.",
+        "D": "Precipitates are converted into colloid."
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2007,
+      "number": 80,
+      "question": "The coagulating power of an electrolyte for arsenious sulphide sol decreases in the order,",
+      "options": {
+        "A": "$\\text{Al}^{3+} > \\text{Ba}^{2+} > \\text{Na}^+$",
+        "B": "$\\text{Cl}^- > \\text{SO}_4^{2-} > \\text{PO}_4^{3-}$",
+        "C": "$\\text{PO}_4^{3-} > \\text{Cl}^- > \\text{SO}_4^{2-}$",
+        "D": "$\\text{Na}^+ > \\text{Al}^{3+} > \\text{Ba}^{2+}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2008,
+      "number": 53,
+      "question": "Which type of phenomenon is seen when coloured dye is removed from solution of sugar by charcoal ?",
+      "options": {
+        "A": "Adsorption",
+        "B": "Absorption",
+        "C": "Absorption and Adsorption both.",
+        "D": "None of these."
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 54,
+      "question": "Which type of graph gives straight line in Langmuir adsorption isotherm ?",
+      "options": {
+        "A": "$\\frac{m}{x} \\rightarrow \\frac{1}{p}$",
+        "B": "$\\frac{x}{m} \\rightarrow \\frac{1}{p}$",
+        "C": "$\\log_{10} \\frac{x}{m} \\rightarrow p$",
+        "D": "$\\log_{10} \\frac{x}{m} \\rightarrow \\frac{1}{p}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 54,
+      "question": "From the following, which is not a surface phenomenon ?",
+      "options": {
+        "A": "Water and its vapour in a closed vessel.",
+        "B": "Heterogeneous catalysis.",
+        "C": "Crystallisation.",
+        "D": "Corrosion."
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 55,
+      "question": "From the following, which is not an emulsifier ?",
+      "options": {
+        "A": "Soap",
+        "B": "Gum",
+        "C": "Milk",
+        "D": "Agar"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 54,
+      "question": "Which of the following has maximum coagulation power with Ferric hydroxide Sol ?",
+      "options": {
+        "A": "Cryolite",
+        "B": "$\\text{K}_2\\text{C}_2\\text{O}_4$",
+        "C": "$\\text{K}_3[\\text{Fe(CN)}_6]$",
+        "D": "$\\text{K}_4[\\text{Fe(CN)}_6]$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2014,
+      "number": 62,
+      "question": "Which of the following statement is incorrect for physical adsorption?",
+      "options": {
+        "A": "Monomolecular layer forms on the adsorbent",
+        "B": "It is instantaneous",
+        "C": "Less activation energy is required for it",
+        "D": "Generally it results at low temperature and adsorption decreases with increase in temperature"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 63,
+      "question": "Name the catalyst [X] for the reaction, $\\text{CO}_{(g)} + \\text{H}_{2(g)} \\xrightarrow{[X]} \\text{HCHO}_{(g)}$.",
+      "options": {
+        "A": "$\\text{Ni}$",
+        "B": "$\\text{Cu}$",
+        "C": "$\\text{Cu} / \\text{ZnO}$",
+        "D": "$\\text{Cu} / \\text{Cr}_2\\text{O}_3$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 54,
+      "question": "At given temperature and pressure adsorption of which gas of the following will take place the most?",
+      "options": {
+        "A": "Di oxygen $\\text{O}_2$",
+        "B": "Di hydrogen $\\text{H}_2$",
+        "C": "Ammonia $\\text{NH}_3$",
+        "D": "Di nitrogen $\\text{N}_2$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "number": 55,
+      "question": "Which type of colloid is the dissolution of sulphur ($\\text{S}_8$)?",
+      "options": {
+        "A": "Micelle",
+        "B": "Associated colloid",
+        "C": "Multimolecular colloid",
+        "D": "Macromolecular colloid"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "number": 56,
+      "question": "For Adsorption phenomenon,",
+      "options": {
+        "A": "\\Delta H = -ve, \\Delta S = +ve",
+        "B": "\\Delta H = +ve, \\Delta S = -ve",
+        "C": "\\Delta H = -ve, \\Delta S = -ve",
+        "D": "\\Delta H = +ve, \\Delta S = +ve"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 70,
+      "question": "The values of slope and intercept in the graph of Freundlich adsorption isotherm at 25°C temperature are 0.5 and 0.4771 respectively. What will be the proportion of adsorption at 4 bar pressure?",
+      "options": {
+        "A": "12",
+        "B": "6",
+        "C": "24",
+        "D": "3"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 71,
+      "question": "In which emulsion coloured droplets are obtained when oil soluble dye is added to it?",
+      "options": {
+        "A": "Cod liver oil",
+        "B": "Cold cream",
+        "C": "Hair cream",
+        "D": "Milk"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 62,
+      "question": "During electrophoresis of colloidal sol of $\\text{Fe(OH)}_3$, the colloidal particles",
+      "options": {
+        "A": "Move towards anode",
+        "B": "Move towards cathode",
+        "C": "Move towards anode and cathode both",
+        "D": "Do not move"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 63,
+      "question": "In manufacturing of sulphuric acid in presence of platinum catalyst, which metal impurity acts as catalytic poison?",
+      "options": {
+        "A": "$\\text{Cu}$",
+        "B": "$\\text{Cr}$",
+        "C": "$\\text{Fe}$",
+        "D": "$\\text{V}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 76,
+      "question": "The formation of association of colloidal particles by addition of electrolyte to form an insoluble precipitate is called___.",
+      "options": {
+        "A": "Micelle",
+        "B": "Coagulation",
+        "C": "Emulsification",
+        "D": "Flocculation"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 77,
+      "question": "Which of the following reaction is used to prepare colloidal sol by double decomposition?",
+      "options": {
+        "A": "FeCl3 + 3H2O $\\rightarrow$ Fe(OH)3 + 3HCl",
+        "B": "SO2 + 2H2S $\\rightarrow$ 3S + 2H2O",
+        "C": "2AuCl3 + 3HCHO + 3H2O $\\rightarrow$ 2Au + 3HCOOH + 6HCl",
+        "D": "As2O3 + 3H2S $\\rightarrow$ As2S + 3H2O"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 66,
+      "question": "Which of the following is a reversible sol?",
+      "options": {
+        "A": "$\\text{As}_2\\text{S}_3$ sol",
+        "B": "Gelatin sol",
+        "C": "$\\text{Fe(OH)}_3$ sol",
+        "D": "Gold sol"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 75,
+      "question": "Which is Freundlich Adsorption isotherm? [Diagrams]",
+      "options": {
+        "A": "[Diagram A]",
+        "B": "[Diagram B]",
+        "C": "[Diagram C]",
+        "D": "[Diagram D]"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 76,
+      "question": "Which method is used to prepare colloids? $\\text{As}_2\\text{O}_3 + 3\\text{H}_2\\text{S} \\rightarrow \\text{As}_2\\text{S}_3(\\text{sol}) + 3\\text{H}_2\\text{O}$",
+      "options": {
+        "A": "Oxidation",
+        "B": "Hydrolysis",
+        "C": "Reduction",
+        "D": "Double decomposition"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 77,
+      "question": "Which of the following ions will have maximum flocculating power for coagulation of $\\text{As}_2\\text{S}_3$ sol?",
+      "options": {
+        "A": "$\\text{Na}^+$",
+        "B": "$\\text{Al}^{3+}$",
+        "C": "$\\text{Mg}^{2+}$",
+        "D": "$\\text{Ba}^{2+}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 75,
+      "question": "Which colloidal sol results, when highly diluted solution of $\\text{AgNO}_3$ is added to highly diluted KI solution?",
+      "options": {
+        "A": "$\\text{AgI/NO}_3^-$",
+        "B": "$\\text{AgI/K}^+$",
+        "C": "$\\text{AgI/Ag}^+$",
+        "D": "$\\text{AgI/I}^-$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 76,
+      "question": "Match the types of colloidal systems given in Column - I with the name given in Column - II. Column - I (i) Solid in liquid (ii) Liquid in solid (iii) Liquid in gas (iv) Gas in liquid Column - II (p) Aerosol (q) Foam (r) Sol (s) Gel",
+      "options": {
+        "A": "(i) $\\rightarrow$ (r), (ii) $\\rightarrow$ (s), (iii) $\\rightarrow$ (p), (iv) $\\rightarrow$ (q)",
+        "B": "(i) $\\rightarrow$ (s), (ii) $\\rightarrow$ (r), (iii) $\\rightarrow$ (p), (iv) $\\rightarrow$ (q)",
+        "C": "(i) $\\rightarrow$ (r), (ii) $\\rightarrow$ (s), (iii) $\\rightarrow$ (q), (iv) $\\rightarrow$ (p)",
+        "D": "(i) $\\rightarrow$ (p), (ii) $\\rightarrow$ (q), (iii) $\\rightarrow$ (r), (iv) $\\rightarrow$ (s)"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 77,
+      "question": "In which colloids both Lyophilic and Lyophobic parts present?",
+      "options": {
+        "A": "Micelle",
+        "B": "Gold sol",
+        "C": "Rubber sol",
+        "D": "Sol of $\\text{As}_2\\text{S}_3$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 64,
+      "question": "Which of the following statement is incorrect for physisorption?",
+      "options": {
+        "A": "It arises because of Van der Waal's Force",
+        "B": "It is reversible in nature",
+        "C": "It is not specific in nature",
+        "D": "High temperature is favourable for adsorption. It increases with increase in temperature"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 65,
+      "question": "Which is correct order of flocculating power in the coagulation of $\\text{As}_2\\text{S}_3$ Sol?",
+      "options": {
+        "A": "$\\text{PO}_4^{3-} > \\text{SO}_4^{2-} > \\text{Cl}^-$",
+        "B": "$\\text{Al}^{3+} > \\text{Ba}^{2+} > \\text{Na}^+$",
+        "C": "$\\text{Al}^{3+} < \\text{Ba}^{2+} < \\text{Na}^+$",
+        "D": "$\\text{PO}_4^{3-} < \\text{SO}_4^{2-} < \\text{Cl}^-$"
+      },
+      "answer": "B"
+    }
+  ]
+}

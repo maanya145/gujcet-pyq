@@ -1,0 +1,547 @@
+{
+  "subject": "physics",
+  "chapter": "Electrostatic Potential and Capacitance",
+  "total_questions": 45,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 26,
+      "question": "An electric dipole coinsides on Z-axis and its mid point is on origin of the co-ordinate system. The electric field at an axial point at a distance $z$ from origin is $\\vec{E}(z)$ and electric field at an equatorial point at a distance $y$ from origin is $\\vec{E}(y)$. Here $z = y >> a$, So $\\frac{|\\vec{E}(z)|}{|\\vec{E}(y)|} = ...............$",
+      "options": {
+        "A": "1",
+        "B": "4",
+        "C": "3",
+        "D": "2"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2007,
+      "number": 28,
+      "question": "An electric field is spread uniformly in Y-axis. Consider point A as origin point. The co-ordinates of point B are equal to $(0, 2)\\text{ m}$. The co-ordinates of point C are $(2, 0)\\text{ m}$. At points A, B and C, electric potentials are $V_A$, $V_B$ and $V_C$ respectively. From the following options which is correct?",
+      "options": {
+        "A": "$V_A = V_C < V_B$",
+        "B": "$V_A = V_B = V_C$",
+        "C": "$V_A = V_B > V_C$",
+        "D": "$V_A = V_C > V_B$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2007,
+      "number": 29,
+      "question": "To increase the charge on the plates of a capacitor means",
+      "options": {
+        "A": "to decrease the potential difference between the plates",
+        "B": "to decrease the capacitance of the capacitor",
+        "C": "to increase the capacitance of the capacitor",
+        "D": "to increase the potential difference between the plates"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2007,
+      "number": 31,
+      "question": "Work done in placing a charge of $8 \\times 10^{-18}\\text{ C}$ on a capacitor of capacitance $800\\text{ microfarad}$ is",
+      "options": {
+        "A": "$4 \\times 10^{-32}\\text{ J}$",
+        "B": "$32 \\times 10^{-32}\\text{ J}$",
+        "C": "$3.1 \\times 10^{-26}\\text{ J}$",
+        "D": "$16 \\times 10^{-32}\\text{ J}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2008,
+      "number": 3,
+      "question": "If 20 J of work has to be done to move an electric charge of 4 C from a point, where potential is 10 volt to another point, where potential is V volt, find the value of V.",
+      "options": {
+        "A": "5 volt",
+        "B": "15 volt",
+        "C": "2 volt",
+        "D": "70 volt"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 4,
+      "question": "Eight charges, each of magnitude q are placed at the vertices of a cube placed in vacuum. Electric potential at the centre of the cube due to this system of charges is ..... ($\\epsilon_0$ is permittivity of vacuum and a is length of each side of the cube)",
+      "options": {
+        "A": "Zero",
+        "B": "$\\frac{\\sqrt{3} q}{\\pi \\epsilon_0 a}$",
+        "C": "$\\frac{2q}{\\pi \\epsilon_0 a}$",
+        "D": "$\\frac{4q}{\\sqrt{3} \\pi \\epsilon_0 a}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 5,
+      "question": "64 small drops of water having same charge and same radius are combined to form one big drop. The ratio of capacitance of big drop to small drop is",
+      "options": {
+        "A": "4 : 1",
+        "B": "1 : 4",
+        "C": "2 : 1",
+        "D": "1 : 2"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 6,
+      "question": "Equivalent capacitance between X and Y point in the given figure is [Figure]",
+      "options": {
+        "A": "3 $\\mu$F",
+        "B": "1 $\\mu$F",
+        "C": "2 $\\mu$F",
+        "D": "4 $\\mu$F"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 1,
+      "question": "The potential energy of system of two equal negative point charges of $2 \\mu\\text{C}$ each held $1\\text{m}$ apart in air is ............... . $(k = 9 \\times 10^9 \\text{ SI unit})$",
+      "options": {
+        "A": "$3.6 \\times 10^{-3} \\text{ J}$",
+        "B": "$3.6 \\times 10^{-2} \\text{ J}$",
+        "C": "$36 \\text{ J}$",
+        "D": "$3.6 \\text{ J}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 4,
+      "question": "Consider three concentric shells of metal A, B and C are having radii $a$, $b$ and $c$ respectively as shown in the figure ($a < b < c$). Their surface charge densities are $\\sigma$, $-\\sigma$ and $\\sigma$ respectively. Calculate the electric potential on the surface of shell A. [Figure]",
+      "options": {
+        "A": "$\\frac{\\sigma}{\\epsilon_0} (a-b-c)$",
+        "B": "$\\frac{\\sigma}{\\epsilon_0} (a+b-c)$",
+        "C": "$\\frac{\\sigma}{\\epsilon_0} (a-b+c)$",
+        "D": "$\\frac{\\sigma}{\\epsilon_0} (a^2+b^2+c^2)$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 5,
+      "question": "A parallel plate capacitor having air as dielectric medium is charged by a potential difference of $V$ volt. After disconnecting the battery, the distance between the plates of the capacitor is increased using an insulated handle. As a result, potential difference between the plates ...........",
+      "options": {
+        "A": "does not change.",
+        "B": "decreases.",
+        "C": "increases.",
+        "D": "becomes zero."
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 6,
+      "question": "Two capacitors of capacitance $2\\mu\\text{F}$ and $4\\mu\\text{F}$ respectively are connected in series. The combination is connected across a potential difference of $10\\text{ V}$. The ratio of energies stored by capacitors will be .........",
+      "options": {
+        "A": "$2:1$",
+        "B": "$4:1$",
+        "C": "$1:\\sqrt{2}$",
+        "D": "$1:4$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 1,
+      "question": "A hollow metal sphere of radius $10\\text{ cm}$ is charged such that the potential on its surface becomes $80\\text{ volt}$. The potential at the centre of the sphere is ....",
+      "options": {
+        "A": "$80\\text{ volt}$",
+        "B": "$800\\text{ volt}$",
+        "C": "$8\\text{ volt}$",
+        "D": "Zero"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 2,
+      "question": "Charges $5\\text{ }\\mu\\text{C}$ and $10\\text{ }\\mu\\text{C}$ are placed $1\\text{ m}$ apart. Work done to bring these charges at a distance $0.5\\text{ m}$ from each other is ....... $(K = 9 \\times 10^9\\text{ S.I.})$",
+      "options": {
+        "A": "$9 \\times 10^4\\text{ J}$",
+        "B": "$18 \\times 10^4\\text{ J}$",
+        "C": "$45 \\times 10^{-2}\\text{ J}$",
+        "D": "$9 \\times 10^{-1}\\text{ J}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 3,
+      "question": "The unit of physical quantity obtained by the line integral of electric field is ...",
+      "options": {
+        "A": "$\\text{NC}^{-1}$",
+        "B": "$\\text{Vm}^{-1}$",
+        "C": "$\\text{JC}^{-1}$",
+        "D": "$\\text{C}^2\\text{N}^{-1}\\text{m}^{-2}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 5,
+      "question": "Two identical thin rings each of radius $R \\text{ m}$ are kept on the same axis at a distance of $R \\text{ m}$ apart. If the charges on them are $10 \\text{ C}$ and $5 \\text{ C}$ respectively, Calculate the work done in moving charge $q \\text{ C}$ from the center of one ring to that of another.",
+      "options": {
+        "A": "$\\frac{5q}{4\\pi\\epsilon_0 R} \\left[ \\frac{\\sqrt{2}-1}{2} \\right] \\text{ J}$",
+        "B": "$\\frac{5q}{4\\pi\\epsilon_0 R} \\left[ 1 - \\frac{1}{\\sqrt{2}} \\right] \\text{ J}$",
+        "C": "$\\frac{15q}{4\\pi\\epsilon_0 R} \\left[ \\frac{\\sqrt{2}-1}{\\sqrt{2}} \\right] \\text{ J}$",
+        "D": "$\\frac{10q}{4\\pi\\epsilon_0 R} \\left[ \\frac{\\sqrt{2}-1}{\\sqrt{2}} \\right] \\text{ J}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 6,
+      "question": "$Q$ amount of electric charge is present on the surface of a sphere having radius $R$. Then electrical potential energy of this system is ________.",
+      "options": {
+        "A": "$\\frac{KQ^2}{R}$",
+        "B": "$\\frac{KQ^2}{R^2}$",
+        "C": "$\\frac{1}{2} \\frac{KQ^2}{R}$",
+        "D": "$\\frac{1}{2} \\frac{KQ^2}{R^2}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "number": 1,
+      "question": "One moving electron when comes closer to other stationary electron, then its kinetic energy and potential energy respectively ________ and ________.",
+      "options": {
+        "A": "increases, increases",
+        "B": "increases, decreases",
+        "C": "decreases, increases",
+        "D": "decreases, decreases"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "number": 3,
+      "question": "Charges $1\\text{ }\\mu\\text{C}$ are placed at each of the four corners of a square of side $2\\sqrt{2}\\text{ m}$. The potential at the point of intersection of the diagonals is ________. $(K = 9 \\times 10^9\\text{ SI unit})$ [Diagram]",
+      "options": {
+        "A": "18 \\times 10^3\\text{ V",
+        "B": "1800 V",
+        "C": "18\\sqrt{2} \\times 10^3\\text{ V",
+        "D": "None of these"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 39,
+      "question": "27 identical drops of mercury are charged simultaneously with the same potential of $10\\text{ Volt}$. Assuming the drop to be spherical, if all the charged drops are made to combine to form one large drop, then its potential will be ________ $\\text{Volt}$.",
+      "options": {
+        "A": "40",
+        "B": "90",
+        "C": "160",
+        "D": "10"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 11,
+      "question": "The dimensional formula of capacitance is ____. Take Q as the dimension formula of charge.",
+      "options": {
+        "A": "$M^1L^{-2}T^{-2}Q^{-2}$",
+        "B": "$M^1L^2T^{-2}Q^{-2}$",
+        "C": "$M^1L^{-2}T^2Q^2$",
+        "D": "$M^{-1}L^{-2}T^2Q^2$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 12,
+      "question": "A uniform electric field is prevailing in X - direction in certain region. The co-ordinates of points $P, Q$, and $R$ are (0, 0), (2, 0) and (0, 2) respectively. Which of the following alternatives is true for the potentials at these points?",
+      "options": {
+        "A": "$V_P = V_Q, V_Q > V_Q$",
+        "B": "$V_P > V_Q, V_P = V_R$",
+        "C": "$V_P < V_R, V_Q = V_R$",
+        "D": "$V_P = V_Q, V_P > V_R$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 13,
+      "question": "An electric dipole of dipole moment $P$ is placed parallel to the uniform electric field of intensity $\\vec{E}$. On rotating it through 180°, the amount of work done is _______.",
+      "options": {
+        "A": "2PE",
+        "B": "Zero",
+        "C": "PE",
+        "D": "– 2PE"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 5,
+      "question": "On the axis and on the equator of an electric dipole for all points ____",
+      "options": {
+        "A": "On the axis $V = 0$ and on equator $V \\neq 0$",
+        "B": "On both of them $V = 0$",
+        "C": "On both of them $V \\neq 0$",
+        "D": "On the axis $V \\neq 0$ and on equator $V = 0$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 19,
+      "question": "In the figure [Diagram] area of each plate is $A$ and the distance between consecutive plates is as shown in the figure. What is the effective capacitance between points A & B.",
+      "options": {
+        "A": "$\\frac{4A\\epsilon_0}{d}$",
+        "B": "$\\frac{2A\\epsilon_0}{d}$",
+        "C": "$\\frac{3A\\epsilon_0}{d}$",
+        "D": "$\\frac{A\\epsilon_0}{d}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 20,
+      "question": "A moving positive charge approaches a negative charge. What will happen to the potential energy of the system?",
+      "options": {
+        "A": "May increase or decrease",
+        "B": "Will increase",
+        "C": "Will decrease",
+        "D": "Will remain constant"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 18,
+      "question": "The dimensional formula of Polarization P is .......",
+      "options": {
+        "A": "$M^1 L^{-2} A^1 T^1$",
+        "B": "$L^{-2} A^{-1} T^{-1}$",
+        "C": "$L^2 A^{-1} T^{-1}$",
+        "D": "$L^{-2} A^1 T^1$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 19,
+      "question": "If relative permittivity for any substance is $80$ then its electric susceptibility is ......",
+      "options": {
+        "A": "$7 \\times 10^{-10}$",
+        "B": "$7 \\times 10^{-9}$",
+        "C": "$79$",
+        "D": "$81 \\times 10^{-10}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 20,
+      "question": "$2\\text{ F}$ capacitor is connected with $50\\text{ V}$ supply & $3\\text{ F}$ capacitor is connected with $100\\text{ V}$ supply. Now after removing battery if two plates of same type of charges are placed to form new capacitor then potential difference is ............. $\\text{V}$.",
+      "options": {
+        "A": "$333$",
+        "B": "$80$",
+        "C": "$200$",
+        "D": "$75$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 26,
+      "question": "Which of the following option gives the Dimensional Formula of Electrical Potential?",
+      "options": {
+        "A": "$[M^{-1} L^2 T^{-3} A^1]$",
+        "B": "$[M^0 L^3 T^3 A^{-1}]$",
+        "C": "$[M^{-1} L^{-2} T^{-4} A^2]$",
+        "D": "$[M^1 L^2 T^{-3} A^{-1}]$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 27,
+      "question": "Find the equivalent capacitance between two points A & B, for given figure (electric circuit) [Capacitance of each capacitor is $C = 3\\mu\\text{F}$] [Diagram]",
+      "options": {
+        "A": "$1\\mu\\text{F}$",
+        "B": "$3\\mu\\text{F}$",
+        "C": "$2\\mu\\text{F}$",
+        "D": "$4\\mu\\text{F}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 28,
+      "question": "Which of the following option is the pair of polar molecules?",
+      "options": {
+        "A": "[H$_2$O, O$_2$]",
+        "B": "[HCl, H$_2$]",
+        "C": "[HCl, H$_2$O]",
+        "D": "[H$_2$, O$_2$]"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 28,
+      "question": "How will you connect 4 (four) capacitors, each of capacitance $4\\mu\\text{F}$ for having equivalent capacitance $1.6\\mu\\text{F}$?",
+      "options": {
+        "A": "Two in parallel and two in series",
+        "B": "All four in series",
+        "C": "All four in parallel",
+        "D": "Three in parallel and one in series"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 29,
+      "question": "A slab of material of dielectric constant $3$ has the same area as the plates of a parallel plate capacitor but has a thickness $(\\frac{3}{4})d$, where $d$ is the separation of the plates. What is the Electrical potential difference between the plates, when the slab is inserted between the plates? Initial electrical potential difference $V_0$.",
+      "options": {
+        "A": "$\\frac{V_0}{6}$",
+        "B": "$\\frac{V_0}{4}$",
+        "C": "$\\frac{V_0}{2}$",
+        "D": "$\\frac{V_0}{3}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 30,
+      "question": "A molecule of a substance has a permanent electric dipole moment of magnitude $10^{-29}\\text{ cm}$. $2\\text{ mole}$ of this substance is polarised (at low temperature) by applying a strong electrostatic field of magnitude $10^6\\text{ Vm}^{-1}$. What should be potential energy of its? [1 mole of the substance contains $6 \\times 10^{23}\\text{ molecules}$]",
+      "options": {
+        "A": "$-6\\text{ J}$",
+        "B": "$-12\\text{ J}$",
+        "C": "$12\\text{ J}$",
+        "D": "$6\\text{ J}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 16,
+      "question": "The potential at the point B in the given figure is ________ V. [Figure]",
+      "options": {
+        "A": "30",
+        "B": "50",
+        "C": "22",
+        "D": "25"
+      },
+      "answer": null
+    },
+    {
+      "year": 2023,
+      "number": 17,
+      "question": "A charge Q is placed at the centre of circle of radius 10 cm. Find the work done in moving a charge q between any two points lying on the arc of this circle.",
+      "options": {
+        "A": "KQq J",
+        "B": "$0.1 \\text{KQq J}$",
+        "C": "$0.5 \\text{KQq J}$",
+        "D": "0 J"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 18,
+      "question": "The dielectric strength of air is ________.",
+      "options": {
+        "A": "$3 \\times 10^9 \\text{V/cm}$",
+        "B": "$3 \\times 10^9 \\text{V/mm}$",
+        "C": "$3 \\times 10^9 \\text{V/μm}$",
+        "D": "$3 \\times 10^9 \\text{V/m}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2024,
+      "number": 22,
+      "question": "For an electric dipole an angle between $\\vec{E}$ and $\\vec{P}$ at a point on the equatorial plane is ________.",
+      "options": {
+        "A": "$45^\\circ$",
+        "B": "$180^\\circ$",
+        "C": "$0^\\circ$",
+        "D": "$90^\\circ$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 24,
+      "question": "If an electron is accelerated by a potential difference of $2.5\\text{V}$ it would gain energy of ________. (Take charge of electron $1 \\times 10^{-19}\\text{C}$)",
+      "options": {
+        "A": "$2.5\\text{ erg}$",
+        "B": "$2.5\\text{ MeV}$",
+        "C": "$2.5\\text{ eV}$",
+        "D": "$2.5\\text{ J}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 25,
+      "question": "A radius of spherical charged shell is $10\\text{ cm}$ and electric potential on its surface is $100\\text{ V}$, then the potential at $2\\text{ cm}$ from the centre of the shell will be ________.",
+      "options": {
+        "A": "$0\\text{ V}$",
+        "B": "$1\\text{ V}$",
+        "C": "$200\\text{ V}$",
+        "D": "$100\\text{ V}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 26,
+      "question": "A parallel plate capacitor with air between the plates has a capacitance of $4\\text{ pF}$. If the distance between the plates is reduced by half and the space between them is filled with a substance of dielectric constant $6$ then the value of capacitance will be ________.",
+      "options": {
+        "A": "$48\\text{ pF}$",
+        "B": "$24\\text{ pF}$",
+        "C": "$12\\text{ pF}$",
+        "D": "$98\\text{ pF}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 27,
+      "question": "As shown in figure charges $+q, +q, -q$ and $-q$ are placed on the vertices of square, each side length is $2l$. The electric potential at mid-point 'A' of charges $+q$ and $+q$ is ________. [Figure]",
+      "options": {
+        "A": "Zero",
+        "B": "$\\frac{2kq}{l}[1 + \\frac{1}{\\sqrt{5}}]$",
+        "C": "$\\frac{kq}{l}[1 - \\frac{1}{\\sqrt{5}}]$",
+        "D": "$\\frac{2kq}{l}[1 - \\frac{1}{\\sqrt{5}}]$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 28,
+      "question": "Charge $1.6 \\times 10^{-7}\\text{C}$ are distributed uniformly over the surface of spherical conductor of radius R. The ratio of electric potential inside the spherical conductor to the electric field on the surface is ________.",
+      "options": {
+        "A": "$1.6 \\times 10^{-7}\\text{R}^2$",
+        "B": "R",
+        "C": "$1.6 \\times 10^{-7}\\text{R}$",
+        "D": "$\\frac{1}{\\text{R}}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 29,
+      "question": "The potential difference between two plates of parallel plate capacitor is 2V. As shown in figure electrons are placed at point P and Q. So [Figure]",
+      "options": {
+        "A": "Electric forces acting on both the electrons are same.",
+        "B": "Electric force acting on the electron at point P is greater than the electron at point Q.",
+        "C": "Electric force acting on the electron at point P is less than the electron at point Q.",
+        "D": "Electric forces acting on both the electrons are zero."
+      },
+      "answer": "A"
+    }
+  ]
+}

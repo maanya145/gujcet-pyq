@@ -1,0 +1,571 @@
+{
+  "subject": "chemistry",
+  "chapter": "Electrochemistry",
+  "total_questions": 47,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 43,
+      "question": "$\\text{Ag}_{(s)} | \\text{Ag}^+_{(aq)}(0.01\\text{M}) || \\text{Ag}^+_{(aq)}(0.1\\text{M}) | \\text{Ag}_{(s)}$\n$E^0_{\\text{Ag}_{(s)} / \\text{Ag}_{(aq)}} = 0.80\\text{ Volt}$",
+      "options": {
+        "A": "Cell can not function as anode and cathode are of same metal",
+        "B": "$E_{\\text{cell}} = 0.0592\\text{V}$",
+        "C": "$E_{\\text{cell}} = 0.80\\text{V}$",
+        "D": "$E_{\\text{cell}} = 0.0296\\text{V}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2007,
+      "number": 53,
+      "question": "$E_{\\text{cell}} = 0.78\\text{ Volt}$ for the following cell.\n$\\text{Fe}_{(s)} | \\text{Fe}^{2+}_{(aq)}(x\\text{M}) || \\text{Cu}^{2+}_{(aq)}(0.01\\text{M}) | \\text{Cu}_{(s)}$\n$E^0_{\\text{Fe/Fe}^{2+}_{(aq)}} = 0.44\\text{V}, E^0_{\\text{Cu/Cu}^{2+}_{(aq)}} = -0.34\\text{V}$",
+      "options": {
+        "A": "$x$ cannot be predicted",
+        "B": "$x = 0.01\\text{M}$",
+        "C": "$x > 0.01\\text{M}$",
+        "D": "$x < 0.01\\text{M}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2007,
+      "number": 62,
+      "question": "How many Faradays are needed for reduction of $2.5\\text{ mole}$ of $\\text{Cr}_2\\text{O}_7^{2-}$ into $\\text{Cr}^{3+}$?",
+      "options": {
+        "A": "15",
+        "B": "12",
+        "C": "6",
+        "D": "3"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2007,
+      "number": 69,
+      "question": "What is the correct Nernst equation for reaction taking place in the following cell\n$\\text{Mg}_{(s)} | \\text{Mg}^{2+}_{(aq)} || \\text{Cl}^-_{(aq)} | \\text{Cl}_{2(g)}(1\\text{atm}) | \\text{Pt}$?",
+      "options": {
+        "A": "$E_{\\text{cell}} = E^0_{\\text{cell}} - \\frac{0.0592}{n} \\times \\log \\frac{[\\text{Cl}^-]^2}{[\\text{Mg}^{2+}]}$",
+        "B": "$E_{\\text{cell}} = E^0_{\\text{cell}} - \\frac{0.0592}{n} \\times \\log \\frac{[\\text{Mg}^{2+}]}{[\\text{Cl}^-]}$",
+        "C": "$E_{\\text{cell}} = E^0_{\\text{cell}} - \\frac{0.0592}{n} \\times \\log [\\text{Mg}^{2+}][\\text{Cl}^-]^2$",
+        "D": "$E_{\\text{cell}} = E^0_{\\text{cell}} - \\frac{0.0592}{n} \\times \\log \\frac{[\\text{Mg}^{2+}]}{[\\text{Cl}^-]^2}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2008,
+      "number": 48,
+      "question": "What will be the proportion of moles of metal (Cu : Ni : Ag) at Cathode according to the Second law of Faraday ?",
+      "options": {
+        "A": "2 : 2 : 1",
+        "B": "1 : 2 : 1",
+        "C": "1 : 1 : 2",
+        "D": "1 : 2 : 2"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 49,
+      "question": "Which Nernst equation is true to find out the potential of non-standard electro-chemical cell from the following ? $\\text{Fe}_{(s)} / \\text{Fe}^{2+}_{(aq. X M)} // \\text{I}^-_{(aq)} / \\text{I}_{2(s)} / \\text{Pt}$",
+      "options": {
+        "A": "$E_{\\text{cell}} = E^0_{\\text{cell}} - \\frac{0.0592}{n} \\log_{10} [\\text{Fe}^{2+}] [\\text{I}^-]^2$",
+        "B": "$E_{\\text{cell}} = E^0_{\\text{cell}} - \\frac{0.592}{n} \\log_{10} [\\text{Fe}^{2+}] [\\text{I}^-]^2$",
+        "C": "$E_{\\text{cell}} = E^0_{\\text{cell}} - \\frac{0.0592}{nF} \\log_{10} \\frac{[\\text{Fe}^{2+}] [\\text{I}^-]^2}{[\\text{Fe}] [\\text{I}_2]}$",
+        "D": "$E_{\\text{cell}} = E^0_{\\text{cell}} - \\frac{0.0592}{n} \\log_{10} [\\text{Fe}^{2+}] [\\text{I}^-]$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 11,
+      "question": "If $1 \\text{ A}$ of current is passed through $\\text{CuSO}_4$ solution for $10 \\text{ seconds}$, the number of Copper atoms deposited at the cathode will be ..........",
+      "options": {
+        "A": "$3.1 \\times 10^{19}$",
+        "B": "$1.6 \\times 10^{20}$",
+        "C": "$8 \\times 10^{19}$",
+        "D": "$6.2 \\times 10^{19}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 49,
+      "question": "The potential of the following cell is $0.34 \\text{ volt}$ at $25^\\circ\\text{C}$. Calculate the standard reduction potential of the Copper half cell. $\\text{Pt} / \\text{H}_2 (1 \\text{ atm}) / \\text{H}^+ (1 \\text{ M}) // \\text{Cu}^{2+} (1 \\text{ M}) / \\text{Cu}$",
+      "options": {
+        "A": "$+ 0.34 \\text{ volt}$",
+        "B": "$- 0.34 \\text{ volt}$",
+        "C": "$+ 3.4 \\text{ volt}$",
+        "D": "$- 3.4 \\text{ volt}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 50,
+      "question": "Which substance is obtained in the solution on electrolysis of aq. $\\text{CuSO}_4$ solution using graphite electrodes ?",
+      "options": {
+        "A": "$\\text{Cu(OH)}_2$",
+        "B": "$\\text{Na}_2\\text{SO}_4$",
+        "C": "$\\text{H}_2\\text{SO}_4$",
+        "D": "$\\text{H}_2\\text{O}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 51,
+      "question": "Use of Electrolysis is not done in ........",
+      "options": {
+        "A": "Production of $\\text{KOH}$.",
+        "B": "Purification of metals.",
+        "C": "Production of Water.",
+        "D": "Production of $\\text{Na}$."
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 49,
+      "question": "Two different electrolytic cells filled with molten $\\text{Cu(NO}_3)_2$ and molten $\\text{Al(NO}_3)_3$ respectively are connected in series. When electricity is passed $2.7\\text{ gram Al}$ is deposited on electrode. Calculate the weight of Cu deposited on cathode. [Cu = 63.5 ; Al = 27.0 gram . mol$^{-1}$ ]",
+      "options": {
+        "A": "$190.5\\text{ gram}$",
+        "B": "$9.525\\text{ gram}$",
+        "C": "$63.5\\text{ gram}$",
+        "D": "$31.75\\text{ gram}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 50,
+      "question": "Which of the following reactions is correct for a given electro chemical cell at $25^{\\circ}\\text{C}$ ? $\\text{Pt} / \\text{Br}_{2(g)} / \\text{Br}^-_{(aq)} // \\text{Cl}^-_{(aq)} / \\text{Cl}_{2(g)} / \\text{Pt}$.",
+      "options": {
+        "A": "$2\\text{Br}^-_{(aq)} + \\text{Cl}_{2(g)} \\rightarrow 2\\text{Cl}^-_{(aq)} + \\text{Br}_{2(g)}$",
+        "B": "$\\text{Br}_{2(g)} + 2\\text{Cl}^-_{(aq)} \\rightarrow 2\\text{Br}^-_{(aq)} + \\text{Cl}_{2(g)}$",
+        "C": "$\\text{Br}_{2(g)} + \\text{Cl}_{2(g)} \\rightarrow 2\\text{Br}^-_{(aq)} + 2\\text{Cl}^-_{(aq)}$",
+        "D": "$2\\text{Br}^-_{(aq)} + 2\\text{Cl}^-_{(aq)} \\rightarrow \\text{Br}_{2(g)} + \\text{Cl}_{2(g)}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 51,
+      "question": "What will be pH of aqueous solution of electrolyte in electrolytic cell during electrolysis of $\\text{CuSO}_4\\text{ (aq)}$ between graphite electrodes ?",
+      "options": {
+        "A": "$\\text{pH} = 14.0$",
+        "B": "$\\text{pH} > 7.0$",
+        "C": "$\\text{pH} < 7.0$",
+        "D": "$\\text{pH} = 7.0$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 46,
+      "question": "Which of the following will give $\\text{H}_{2(g)}$ at cathode and $\\text{O}_{2(g)}$ at anode on electrolysis using platinum electrodes?",
+      "options": {
+        "A": "molten $\\text{NaCl}$",
+        "B": "concentrated aq.solution of $\\text{NaCl}$",
+        "C": "dilute aq. solution of $\\text{NaCl}$",
+        "D": "solid $\\text{NaCl}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 47,
+      "question": "Which of the following statement is incorrect with respect to metallic or electronic conductivity?",
+      "options": {
+        "A": "metallic conductivity depends on the structure of metal and its characteristics",
+        "B": "metallic conductivity depends on the number of electrons in the valence shell of atom of metal",
+        "C": "The electrical conductivity of metal increases with increase in temperature",
+        "D": "There is no change in the structure of metal during electrical conduction"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 48,
+      "question": "Which of the following is concentration cell?",
+      "options": {
+        "A": "$\\text{Cu}_{(s)} / \\text{Cu}^{2+}_{(aq, 1M)} // \\text{Cu}^{2+}_{(aq, 1M)} / \\text{Cu}_{(s)}$",
+        "B": "$\\text{Cu}_{(s)} / \\text{Cu}^{2+}_{(aq, 0.5M)} // \\text{Cu}^{2+}_{(aq, 0.5M)} / \\text{Cu}_{(s)}$",
+        "C": "$\\text{Zn}_{(s)} / \\text{Zn}^{2+}_{(aq, 0.5M)} // \\text{Cu}^{2+}_{(aq, 0.1M)} / \\text{Cu}_{(s)}$",
+        "D": "$\\text{Pt} / \\text{H}_{2(g, 1bar)} / \\text{HCl}_{(aq, 0.002M)} // \\text{HCl}_{(aq, 0.005M)} / \\text{H}_{2(g, 1bar)} / \\text{Pt}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "number": 78,
+      "question": "The resulting solution obtained at the end of electrolysis of concentrated aqueous solution of $\\text{NaCl}$ ________.",
+      "options": {
+        "A": "turns blue litmus into red",
+        "B": "turns red litmus into blue",
+        "C": "remains colourless with phenolphthalein",
+        "D": "the colour of red or blue litmus does not change"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 79,
+      "question": "The value of $E^0_{red}$ for metal A, B and C are $0.34\\text{ Volt}, -0.80\\text{ Volt}$ and $-0.46\\text{ Volt}$ respectively. State the correct order for their ability to act as reducing agent.",
+      "options": {
+        "A": "A > B > C",
+        "B": "C > B > A",
+        "C": "B > C > A",
+        "D": "C > A > B"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "number": 80,
+      "question": "Two electrolytic cells containing molten solutions of Nickel chloride & Aluminium chloride are connected in series. If same amount of electric current is passed through them, what will be the weight of Nickel obtained when $18\\text{ gm}$ of Aluminium is obtained? (Al - $27\\text{ gm/mole}$, Ni - $58.5\\text{ gm/mole}$)",
+      "options": {
+        "A": "117 gm",
+        "B": "58.5 gm",
+        "C": "29.25 gm",
+        "D": "5.85 gm"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 54,
+      "question": "The graph of $\\sqrt{C} \\rightarrow \\Lambda_m$ for an aqueous solution of which substance is not obtained as a straight line?",
+      "options": {
+        "A": "HCl",
+        "B": "NaCN",
+        "C": "NaCl",
+        "D": "HCN"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 55,
+      "question": "Which option is incorrect for the working cell? $\\text{Pt|Cl}_{2(g)}(C_1)\\text{|Cl}^-(C_1)\\text{||Cl}^-(C_2)\\text{|Cl}_{2(g)}(C_2)\\text{|Pt}$",
+      "options": {
+        "A": "$\\Delta G = -\\text{ve}$",
+        "B": "$C_2 > C_1$",
+        "C": "$E^\\circ_{\\text{cell}} = 0$",
+        "D": "$C_1 > C_2$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 56,
+      "question": "The pH of the solution ___________ during the electrolysis of dilute aqueous solution of $\\text{CuSO}_4$.",
+      "options": {
+        "A": "First increases then decreases",
+        "B": "Decreases",
+        "C": "Remains constant",
+        "D": "Increases"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 46,
+      "question": "In which metal container, the aqueous solution of $\\text{CuSO}_4$ can be stored?",
+      "options": {
+        "A": "$\\text{Fe}$",
+        "B": "$\\text{Ni}$",
+        "C": "$\\text{Ag}$",
+        "D": "$\\text{Al}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 47,
+      "question": "For how much time, $10\\text{ ampere}$ electric current should be passed through a dilute aqueous $\\text{NiSO}_4$ solution during electrolysis using inert electrode, in order to get $5.85\\text{ gm}$ Nickel? [At. mass of $\\text{Ni} = 58.5\\text{gm}$]",
+      "options": {
+        "A": "$1930\\text{ sec.}$",
+        "B": "$3860\\text{ sec.}$",
+        "C": "$965\\text{ sec.}$",
+        "D": "$9650\\text{ sec.}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 48,
+      "question": "What will be the oxidation potential for the following hydrogen half cell at $1\\text{ bar}$ pressure and $25^\\circ\\text{C}$ temperature? $\\text{Pt} | \\text{H}_{2(g)} | \\text{HCl}_{(aq)} \\text{pH} = 3$",
+      "options": {
+        "A": "$0.177\\text{ V}$",
+        "B": "$0.188\\text{ V}$",
+        "C": "$0.059\\text{ V}$",
+        "D": "$0.000\\text{ V}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 60,
+      "question": "$\\text{Zn(s)} | \\text{Zn}^{2+}_{(aq)}(1\\text{M}) || \\text{Ni}^{2+}_{(aq)}(1\\text{M}) | \\text{Ni(s)}$. Which is incorrect for the above given cell?",
+      "options": {
+        "A": "Daniel cell",
+        "B": "Galvanic cell",
+        "C": "Voltaic cell",
+        "D": "Electrochemical cell"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 61,
+      "question": "If one mole electrons is passed through the solutions of $\\text{AlCl}_3$, $\\text{AgNO}_3$ and $\\text{MgSO}_4$, in what ratio Al, Ag and Mg will be deposited at the electrodes?",
+      "options": {
+        "A": "3 : 2 : 1",
+        "B": "1 : 2 : 3",
+        "C": "2 : 6 : 3",
+        "D": "3 : 6 : 2"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 60,
+      "question": "On the basis of the given following electrode potential, which one is the strongest reducing agent? $E^\\circ_{\\text{Cr}_2\\text{O}_7^{2-}|\\text{Cr}^{3+}} = 1.33\\text{ V}$, $E^\\circ_{\\text{MnO}_4^-|\\text{Mn}^{2+}} = 1.51\\text{ V}$, $E^\\circ_{\\text{Br}_2|\\text{Br}^-} = 1.09\\text{ V}$, $E^\\circ_{\\text{Zn}^{2+}|\\text{Zn}} = -0.76\\text{ V}$",
+      "options": {
+        "A": "$\\text{Mn}^{2+}$",
+        "B": "$\\text{Cr}^{3+}$",
+        "C": "$\\text{Br}^-$",
+        "D": "$\\text{Zn}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 61,
+      "question": "For which of the following electrolytes the graph of $\\lambda_m$ against $\\sqrt{C}$ gives negative slope.",
+      "options": {
+        "A": "Sodium acetate",
+        "B": "Acetic acid",
+        "C": "Ammonium hydroxide",
+        "D": "Water"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 62,
+      "question": "One electrolysis of aqueous solution of a halide of a metal ‘M’ by passing $1.5\\text{ ampere}$ current for $10\\text{ minutes}$ deposits $0.2938\\text{ g}$ of metal. If the atomic mass of the metal is $63\\text{ gm/mole}$, then what will be the formula of the metal halide?",
+      "options": {
+        "A": "$\\text{MCl}_3$",
+        "B": "$\\text{MCl}_2$",
+        "C": "$\\text{MCl}$",
+        "D": "$\\text{MCl}_4$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 69,
+      "question": "Which products are obtained during electrolysis of aqueous solution of sodium chloride?",
+      "options": {
+        "A": "NaOH, $\\text{O}_2$ and $\\text{H}_2$",
+        "B": "NaOH, Na and $\\text{H}_2$",
+        "C": "NaOH, $\\text{Cl}_2$ and $\\text{H}_2$",
+        "D": "Na, $\\text{Cl}_2$ and $\\text{H}_2$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 70,
+      "question": "Using the data given below find out the strongest reducing agent? $E^0_{\\text{Cr}_2\\text{O}_7^{2-}/\\text{Cr}^{3+}} = 1.33\\text{ V}$, $E^0_{\\text{Cl}_2/\\text{Cl}^-} = 1.36\\text{ V}$, $E^0_{\\text{MnO}_4^-/\\text{Mn}^{2+}} = 1.51\\text{ V}$, $E^0_{\\text{Cr}^{3+}/\\text{Cr}} = -0.74\\text{ V}$",
+      "options": {
+        "A": "$\\text{Cl}^-$",
+        "B": "$\\text{Cr}^{3+}$",
+        "C": "Cr",
+        "D": "$\\text{Mn}^{2+}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 71,
+      "question": "Which is symbolic representation for following cell reaction, $\\text{Mg}_{(s)} + \\text{Cl}_{2(g)} \\rightarrow \\text{Mg}^{2+}_{(aq)} + 2\\text{Cl}^-_{(aq)}$.",
+      "options": {
+        "A": "$\\text{Mg} | \\text{Mg}^{2+}_{(aq)} (1\\text{M}) || \\text{Cl}^-_{(aq)} (1\\text{M}) | \\text{Cl}_{2(g)} (1\\text{bar}) | \\text{Pt}$",
+        "B": "$\\text{Pt} | \\text{Cl}^-_{(aq)} (1\\text{M}) | \\text{Cl}_{2(g)} (1\\text{bar}) || \\text{Mg}^{2+}_{(aq)} (1\\text{M}) | \\text{Mg}$",
+        "C": "$\\text{Mg} | \\text{Mg}^{2+}_{(aq)} (1\\text{M}) || \\text{Cl}_{2(g)} (1\\text{bar}) | \\text{Cl}^-_{(aq)} (1\\text{M}) | \\text{Pt}$",
+        "D": "$\\text{Pt} | \\text{Cl}_{2(g)} (1\\text{bar}) | \\text{Cl}^-_{(aq)} (1\\text{M}) || \\text{Mg}^{2+}_{(aq)} (1\\text{M}) | \\text{Mg}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 70,
+      "question": "How much electricity in terms of Faraday is required for reduction of $2\\text{ mol}$ $\\text{Cr}_2\\text{O}_7^{2-}$ into $\\text{Cr}^{3+}$ in acidic medium?",
+      "options": {
+        "A": "12 F",
+        "B": "3 F",
+        "C": "6 F",
+        "D": "9 F"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 71,
+      "question": "Which is proper value of $x$ for the following to increase cell potential of $\\text{Zn}_{(s)} | \\text{Zn}^{2+}_{(xM)} || \\text{Cu}^{2+}_{(0.02M)} | \\text{Cu}_{(s)}$",
+      "options": {
+        "A": "$x = 0.02\\text{ M}$",
+        "B": "$x < 0.02\\text{ M}$",
+        "C": "$x > 0.02\\text{ M}$",
+        "D": "$x \\ge 0.02\\text{ M}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 72,
+      "question": "Which substance is used as oxidising agent in nickel-cadmium cell?",
+      "options": {
+        "A": "$\\text{Ni(OH)}_3$",
+        "B": "Cd",
+        "C": "Ni",
+        "D": "CdO"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 58,
+      "question": "Resistance of a conductivity cell filled with 0.1 M KCl solution is $100 \\, \\Omega$ and conductivity of solution is $1.29 \\text{ s/m}$. Then what will be the value of conductivity cell constant.",
+      "options": {
+        "A": "$1.29 \\text{ cm}^{-1}$",
+        "B": "$1.29 \\text{ m}^{-1}$",
+        "C": "$1.24 \\text{ cm}^{-1}$",
+        "D": "$0.248 \\text{ m}^{-1}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 59,
+      "question": "Which of the following is correct Nearst equation for the given electrochemical cell? $\\text{Mg(s)}|\\text{Mg}^{2+}_{\\text{(aq)}} (0.1\\text{M}) || \\text{Cl}^-_{\\text{(aq)}} (0.1\\text{M}) | \\text{Cl}_{2\\text{(g)}} (1\\text{bar}) | \\text{Pt(s)}$",
+      "options": {
+        "A": "$E_{\\text{cell}} = E^{\\circ}_{\\text{cell}} - \\frac{0.059}{2} \\log \\frac{[\\text{Cl}^-]^2}{[\\text{Mg}^{2+}]}$",
+        "B": "$E_{\\text{cell}} = E^{\\circ}_{\\text{cell}} - \\frac{0.059}{2} \\log \\frac{[\\text{Mg}^{2+}]}{[\\text{Cl}^-]^2}$",
+        "C": "$E_{\\text{cell}} = E^{\\circ}_{\\text{cell}} - \\frac{0.059}{2} \\log \\frac{1}{[\\text{Mg}^{2+}][\\text{Cl}^-]^2}$",
+        "D": "$E_{\\text{cell}} = E^{\\circ}_{\\text{cell}} - \\frac{0.059}{2} \\log [\\text{Mg}^{2+}][\\text{Cl}^-]^2$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 60,
+      "question": "Which of the following chemical reaction occur at anode during electrolysis of higher concentrated $\\text{H}_2\\text{SO}_4$ solution?",
+      "options": {
+        "A": "$2\\text{SO}_4^{2-}_{\\text{(aq)}} \\rightarrow \\text{S}_2\\text{O}_8^{2-}_{\\text{(aq)}} + 2\\text{e}^-$",
+        "B": "$2\\text{H}_2\\text{O}_{\\text{(l)}} \\rightarrow \\text{O}_{2\\text{(g)}} + 4\\text{H}^+_{\\text{(aq)}} + 4\\text{e}^-$",
+        "C": "$\\text{H}_2\\text{O}_{\\text{(l)}} + \\text{e}^- \\rightarrow \\frac{1}{2}\\text{H}_{2\\text{(g)}} + 2\\text{OH}^-_{\\text{(aq)}}$",
+        "D": "$\\text{S}_2\\text{O}_8^{2-}_{\\text{(aq)}} + 2\\text{e}^- \\rightarrow 2\\text{SO}_4^{2-}_{\\text{(aq)}}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 64,
+      "question": "Calculate the potential of hydrogen electrode in contact with a solution whose pH is 10.",
+      "options": {
+        "A": "+ 0.059 V",
+        "B": "- 0.059 V",
+        "C": "+ 0.59 V",
+        "D": "- 0.59 V"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 65,
+      "question": "Which of the statements for solution of electrolyte is not correct?",
+      "options": {
+        "A": "Conductivity of solution depends on the concentration of electrolyte",
+        "B": "Conductivity of solution depends on the nature of electrolyte",
+        "C": "Conductivity of solution does not depend upon temperature",
+        "D": "Conductivity of solution depends on the nature of solvent and its viscosity"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 66,
+      "question": "During the electrolysis of higher concentration of $\text{H}_2\text{SO}_4$, the product obtained at anode is ______.",
+      "options": {
+        "A": "$\text{O}_{2(g)}$",
+        "B": "$\text{S}_2\text{O}_{8(aq)}^{2-}$",
+        "C": "$\text{SO}_{2(g)}$",
+        "D": "$\text{SO}_{3(aq)}^{2-}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 67,
+      "question": "How much Faraday of electricity is required to reduce 1.5 mole $\text{KMnO}_4$ into $\text{MnO}_2$ in basic medium?",
+      "options": {
+        "A": "4.5 F",
+        "B": "7.5 F",
+        "C": "6.0 F",
+        "D": "3.0 F"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 77,
+      "question": "Which relation is correct for $\\Lambda^0_{m(\\text{H}_2\\text{O})}$?",
+      "options": {
+        "A": "$\\Lambda^0_{m(\\text{HCl})} + \\Lambda^0_{m(\\text{NH}_4\\text{Cl})} - \\Lambda^0_{m(\\text{NH}_4\\text{OH})}$",
+        "B": "$\\Lambda^0_{m(\\text{HCl})} + \\Lambda^0_{m(\\text{NaOH})} - \\Lambda^0_{m(\\text{NaCl})}$",
+        "C": "$\\Lambda^0_{m(\\text{HNO}_3)} + \\Lambda^0_{m(\\text{NaNO}_3)} - \\Lambda^0_{m(\\text{NaOH})}$",
+        "D": "$\\Lambda^0_{m(\\text{HNO}_3)} + \\Lambda^0_{m(\\text{Ba(OH)}_2)} - \\Lambda^0_{m(\\text{Ba(NO}_3)_2)}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 78,
+      "question": "For Daniell cell $E^0_{\\text{cell}} = 1.1 \\text{ V}$. How $K_c$ is represented for reaction occuring in Daniell cell?",
+      "options": {
+        "A": "$K_c = 10^{2.2/0.059}$",
+        "B": "$K_c = 10^{-0.059/1.1}$",
+        "C": "$K_c = 10^{-2.2/0.059}$",
+        "D": "$K_c = 10^{0.059/1.1}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 79,
+      "question": "For the given reaction how much quantity of electricity in Coulomb is required? $\\frac{2}{3} \\text{Al}_2\\text{O}_3 \\rightarrow \\frac{4}{3} \\text{Al} + \\text{O}_2$",
+      "options": {
+        "A": "$6 \\times 96500 \\text{ C}$",
+        "B": "$2 \\times 96500 \\text{ C}$",
+        "C": "$3 \\times 96500 \\text{ C}$",
+        "D": "$4 \\times 96500 \\text{ C}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 80,
+      "question": "Which statement is correct for $\\Delta G$ and $E_{\\text{cell}}$? (For cell reaction)",
+      "options": {
+        "A": "$\\Delta G$ is intensive and $E_{\\text{cell}}$ is extensive property.",
+        "B": "Both $\\Delta G$ and $E_{\\text{cell}}$ are intensive properties.",
+        "C": "$\\Delta G$ is extensive and $E_{\\text{cell}}$ is intensive property.",
+        "D": "Both $\\Delta G$ and $E_{\\text{cell}}$ are extensive properties."
+      },
+      "answer": "C"
+    }
+  ]
+}

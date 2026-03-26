@@ -1,0 +1,175 @@
+{
+  "subject": "maths",
+  "chapter": "Linear Programming",
+  "total_questions": 14,
+  "questions": [
+    {
+      "year": 2017,
+      "number": 28,
+      "question": "The corner points of the feasible region determined by the system of linear constraints are $(0, 10), (5, 5), (25, 20)$ and $(0, 30)$. Let $Z = px + qy$, where $p, q > 0$. Condition on $p$ and $q$ so that the maximum of $Z$ occurs at both the points $(25, 20)$ and $(0, 30)$ is _______.",
+      "options": {
+        "A": "$5p = 2q$",
+        "B": "$2p = 5q$",
+        "C": "$p = 2q$",
+        "D": "$q = 3p$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 38,
+      "question": "The corner points of the feasible region determined by the system of linear constraints are (0,10), (5,5), (15,15), (0,20). Let $Z = px + qy$ where $p, q > 0$. Condition on $p$ and $q$ so that the maximum of $z$ occurs at both the points (15,15) and (0,20) is",
+      "options": {
+        "A": "$p = 2q$",
+        "B": "$p = q$",
+        "C": "$q = 2p$",
+        "D": "$q = 3p$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 40,
+      "question": "The coordinates of the corner points of the bounded feasible region are $(10, 0), (2, 4), (1, 5)$ and $(0, 8)$. The maximum of objective function $z = 60x + 10y$ is ...................",
+      "options": {
+        "A": "$700$",
+        "B": "$600$",
+        "C": "$800$",
+        "D": "$110$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 5,
+      "question": "The maximum value of $Z = 3x + 4y$ subject to constraints $x + y \\leq 4, x \\geq 0, y \\geq 0$ is ________.",
+      "options": {
+        "A": "16",
+        "B": "12",
+        "C": "0",
+        "D": "not possible"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 19,
+      "question": "Minimise : $Z = 2x + 3y$, subject to constraints $2x + 4y \\leq 12, x + y \\leq 3, x \\geq 0$ and $y \\geq 0$.",
+      "options": {
+        "A": "$12$",
+        "B": "$9$",
+        "C": "$0$",
+        "D": "$6$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2022,
+      "number": 34,
+      "question": "Corner points of the feasible region of objective function $Z = 3x + 9y$ of a linear programming problem are $(0, 10), (5, 5), (15, 15)$ and $(0, 20)$. Minimum value of $Z$ is ________.",
+      "options": {
+        "A": "$70$",
+        "B": "$90$",
+        "C": "$50$",
+        "D": "$60$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 28,
+      "question": "The coordinates of the corner points of the bounded feasible region are $(0, 10)$, $(5, 5)$, $(15, 15)$ and $(0, 20)$. The maximum of the objective function $Z = 10x + 20y$ is :",
+      "options": {
+        "A": "$600$",
+        "B": "$550$",
+        "C": "$400$",
+        "D": "$450$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 29,
+      "question": "Minimise objective function $z = 3x + 2y$ subject to the constraints : $x + y \\geq 8, x + y \\leq 5, x \\geq 0, y \\geq 0$ is :",
+      "options": {
+        "A": "$15$",
+        "B": "$6$",
+        "C": "$24$",
+        "D": "No feasible region and hence no feasible solution"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 8,
+      "question": "The coordinates of the corner points of the bounded feasible region are $(0, 6), (3, 3), (9, 9), (0, 12)$. The maximum of the objective function $z = 6x + 12y$ is :",
+      "options": {
+        "A": "152",
+        "B": "162",
+        "C": "144",
+        "D": "166"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 9,
+      "question": "Minimise objective function $z = 7x + 3y$ subject to the constraints : $x + y \\leq 5, x + y \\geq 10, x \\geq 0, y \\geq 0$ is :",
+      "options": {
+        "A": "15",
+        "B": "35",
+        "C": "70",
+        "D": "No feasible region and hence no feasible solution"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 10,
+      "question": "The coordinates of the corner points of the bounded feasible region are $(0, 6), (3, 3), (9, 9), (0, 12)$. The maximum of the objective function $z = 6x + 12y$ is :",
+      "options": {
+        "A": "166",
+        "B": "152",
+        "C": "144",
+        "D": "162"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 11,
+      "question": "Minimise objective function $z = 7x + 3y$ subject to the constraints : $x + y \\leq 5, x + y \\geq 10, x \\geq 0, y \\geq 0$ is :",
+      "options": {
+        "A": "No feasible region and hence no feasible solution",
+        "B": "15",
+        "C": "70",
+        "D": "35"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 4,
+      "question": "The coordinates of the corner points of the bounded feasible region are $(0, 0), (0, 40), (20, 40), (60, 20), (60, 0)$. The maximum of the objective function $z = 40x + 30y$ is ____",
+      "options": {
+        "A": "2000",
+        "B": "3400",
+        "C": "2400",
+        "D": "3000"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 5,
+      "question": "The maximum value of $z = 5x + 3y$ subject to constraints $3x + 5y \\leq 15, x \\geq 0, y \\geq 0$ is :",
+      "options": {
+        "A": "10",
+        "B": "25",
+        "C": "0",
+        "D": "9"
+      },
+      "answer": "D"
+    }
+  ]
+}

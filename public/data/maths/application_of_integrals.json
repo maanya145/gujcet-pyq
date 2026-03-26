@@ -1,0 +1,343 @@
+{
+  "subject": "maths",
+  "chapter": "Application of Integrals",
+  "total_questions": 28,
+  "questions": [
+    {
+      "year": 2011,
+      "number": 38,
+      "question": "Find the area, if a curve $xy = 4$, bounded by the lines $x = 1$ and $x = 3$ and X-axis.",
+      "options": {
+        "A": "$\\log 12$",
+        "B": "$\\log 64$",
+        "C": "$\\log 81$",
+        "D": "$\\log 27$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 38,
+      "question": "Area bounded between two latus-rectum of the ellipse $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1; a > b$ is ______.",
+      "options": {
+        "A": "$2b(be + a \\sin^{-1} e)$",
+        "B": "$8b(be + a \\sin^{-1} e)$",
+        "C": "$b(be + a \\sin^{-1} e)$",
+        "D": "$4b(be + a \\sin^{-1} e)$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 39,
+      "question": "The area of the region bounded by the curves $f(x) = \\sin \\pi x$ and $X$-axis is _____ where $x \\in [-1, 2]$.",
+      "options": {
+        "A": "$8 \\pi$",
+        "B": "$\\frac{8}{\\pi}$",
+        "C": "$\\frac{6}{\\pi}$",
+        "D": "$6 \\pi$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 8,
+      "question": "Area of the region bounded by rays $|x|+y=1$ and X-axis is [Figure]",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "$1/2$",
+        "D": "$1/4$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 9,
+      "question": "If area bounded by the curves $x = ay^2$ and $y = ax^2$ is 1, then $a = ...... (a > 0)$",
+      "options": {
+        "A": "$1/3$",
+        "B": "$1/\\sqrt{3}$",
+        "C": "$1/2$",
+        "D": "$1/3$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 10,
+      "question": "The area bounded by curve $y = \\sin 2x$, $x=0$ to $x=\\pi$ and X-axis is ..................",
+      "options": {
+        "A": "$4$",
+        "B": "$1$",
+        "C": "$2$",
+        "D": "$\\frac{3}{2}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 11,
+      "question": "Area bounded by the ellipse $2x^2 + 3y^2 = 1$ is ...............",
+      "options": {
+        "A": "$\\frac{\\pi}{6}$",
+        "B": "$6\\pi$",
+        "C": "$\\frac{\\pi}{\\sqrt{6}}$",
+        "D": "$\\sqrt{6}\\pi$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 33,
+      "question": "The area of the parabola $y^2 = 4ax$ bounded by its latus rectum is ___________.",
+      "options": {
+        "A": "$\\frac{16}{3} a^2$",
+        "B": "$\\frac{4}{3} a^2$",
+        "C": "$\\frac{8}{3} a^2$",
+        "D": "$4a^2$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 34,
+      "question": "The area enclosed by the curve $x = 4\\cos \\theta, y = 3\\sin \\theta$ is ____________.",
+      "options": {
+        "A": "$4\\pi$",
+        "B": "$6\\pi$",
+        "C": "$8\\pi$",
+        "D": "$12\\pi$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 35,
+      "question": "The smallest area enclosed by circle $x^2 + y^2 = 4$ and line $x + y = 2$ is ____________.",
+      "options": {
+        "A": "$\\pi + 2$",
+        "B": "$\\pi - 2$",
+        "C": "$\\pi$",
+        "D": "$2\\pi$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 7,
+      "question": "If area bounded by the ellipse $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ is $\\frac{\\pi}{6}$, then equation of ellipse is",
+      "options": {
+        "A": "$\\frac{x^2}{4} + \\frac{y^2}{9} = 1$",
+        "B": "$4x^2 + 9y^2 = 1$",
+        "C": "$\\frac{x^2}{36} + y^2 = 1$",
+        "D": "$x^2 + y^2 = 36$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2021,
+      "number": 8,
+      "question": "Area of the region bounded by the curve $y^2 = 4x$, Y-axis and the line $y = 3$ is [Diagram]",
+      "options": {
+        "A": "$2$",
+        "B": "$\\frac{9}{3}$",
+        "C": "$\\frac{9}{4}$",
+        "D": "$\\frac{9}{2}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 9,
+      "question": "Area of the region bounded by the curve $y^2 = x$ and the lines $x = 1, x = 4$ and X-axis in the first quadrant is [Diagram]",
+      "options": {
+        "A": "$\\frac{14}{3}$",
+        "B": "$\\frac{7}{3}$",
+        "C": "$\\frac{28}{3}$",
+        "D": "$14$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 20,
+      "question": "The area of the region bounded by the two parabolas $y = x^2$ and $y^2 = x$ is ________.",
+      "options": {
+        "A": "$\\frac{3}{4}$",
+        "B": "$3$",
+        "C": "$\\frac{1}{2}$",
+        "D": "$\\frac{1}{3}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 21,
+      "question": "The area of the parabola $x^2 = 12y$ bounded by its latus rectum is ________.",
+      "options": {
+        "A": "$3$",
+        "B": "$\\frac{24}{3}$",
+        "C": "$24$",
+        "D": "$\\frac{8}{3}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 22,
+      "question": "The area of the region bounded by the curve $y^2 = 4x$ and the line $x = 3$ is ________.",
+      "options": {
+        "A": "$3\\sqrt{3}$",
+        "B": "$3\\sqrt{8}$",
+        "C": "$8$",
+        "D": "$8\\sqrt{3}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 16,
+      "question": "Area of the region bounded by the ellipse $9x^2 + 4y^2 = 1$ in the first quadrant is :",
+      "options": {
+        "A": "$\\pi/6$",
+        "B": "$\\pi/24$",
+        "C": "$3\\pi/2$",
+        "D": "$6\\pi$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 17,
+      "question": "Find the area of the region bounded by the line $y = 3 - x$, the X-axis and the ordinates $x = 2$ and $x = 5$.",
+      "options": {
+        "A": "$3$",
+        "B": "$1/2$",
+        "C": "$5/2$",
+        "D": "$3/2$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 18,
+      "question": "Area of the region enclosed by the parabola $y = x^2$ and the line $y = x + 2$ is :",
+      "options": {
+        "A": "$9/2$",
+        "B": "$11/2$",
+        "C": "$5/2$",
+        "D": "$7/2$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 36,
+      "question": "Area lying in the first quadrant and bounded by ellipse $9x^2 + 16y^2 = 1$ is ____",
+      "options": {
+        "A": "$\\frac{\\pi}{12}$",
+        "B": "$\\frac{\\pi}{48}$",
+        "C": "$12\\pi$",
+        "D": "$3\\pi$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 37,
+      "question": "Area of the region bounded by the curve $x^2 = 4y$, X-axis and the line $x = 3$ is ____.",
+      "options": {
+        "A": "$\\frac{9}{4}$",
+        "B": "2",
+        "C": "$\\frac{9}{3}$",
+        "D": "$\\frac{9}{2}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 38,
+      "question": "Area lying in the first quadrant and bounded by ellipse $9x^2 + 16y^2 = 1$ is ______.",
+      "options": {
+        "A": "$3\\pi$",
+        "B": "$\\frac{\\pi}{12}$",
+        "C": "$12\\pi$",
+        "D": "$\\frac{\\pi}{48}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 38,
+      "question": "The area bounded by the curve $y = \\cos x$ between $x = -\\pi/2$ and $x = \\pi/2$ is ____",
+      "options": {
+        "A": "1",
+        "B": "4",
+        "C": "0",
+        "D": "2"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 39,
+      "question": "Area of the region bounded by the curve $x^2 = 4y$, X-axis and the line $x = 3$ is ______.",
+      "options": {
+        "A": "$\\frac{9}{2}$",
+        "B": "$\\frac{9}{4}$",
+        "C": "$\\frac{9}{3}$",
+        "D": "2"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 40,
+      "question": "The area bounded by the curve $y = \\cos x$ between $x = -\\pi/2$ and $x = \\pi/2$ is ______.",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "0",
+        "D": "4"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 32,
+      "question": "The area bounded by the curve $y = \\sin x$ between $x = -\\pi/2$ and $x = \\pi/2$ is ____",
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "3",
+        "D": "1"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 33,
+      "question": "Area of the region bounded by the curve $x^2 = 4y$ and the line $y = 3$ is",
+      "options": {
+        "A": "$4\\sqrt{3}$",
+        "B": "$2\\sqrt{3}$",
+        "C": "$\\sqrt{3}$",
+        "D": "$3\\sqrt{3}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 34,
+      "question": "Area of the region bounded by the curve $y = x^3$, $x$-axis and the ordinates $x = -1$ and $x = 2$ is",
+      "options": {
+        "A": "$17/4$",
+        "B": "$19/4$",
+        "C": "$15/4$",
+        "D": "$9/4$"
+      },
+      "answer": "A"
+    }
+  ]
+}

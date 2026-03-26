@@ -1,0 +1,319 @@
+{
+  "subject": "chemistry",
+  "chapter": "The Solid State",
+  "total_questions": 26,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 50,
+      "question": "A metallic crystal having BCC type stacking pattern, what percentage of volume of this lattice is empty space?",
+      "options": {
+        "A": "68 %",
+        "B": "32 %",
+        "C": "26 %",
+        "D": "74 %"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2007,
+      "number": 51,
+      "question": "What is the energy gap between valence band and conduction band in crystal of insulators?",
+      "options": {
+        "A": "Both the bands are overlapped with each other",
+        "B": "Very small",
+        "C": "Infinite",
+        "D": "Very large"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2008,
+      "number": 43,
+      "question": "Which type of stacking pattern is found in Sodium chloride's crystal lattice ?",
+      "options": {
+        "A": "a-a-a",
+        "B": "a-b-a-b",
+        "C": "a-b-c-a-b-c",
+        "D": "None of these"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 43,
+      "question": "Arrangement of Sulphide ions in Zinc blende is .....",
+      "options": {
+        "A": "FCC",
+        "B": "BCC",
+        "C": "HCP",
+        "D": "Simple cubic"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 43,
+      "question": "The First order reflection ($n = 1$) from a crystal of the X-ray from a Copper anode tube ($\\lambda = 1.54\\text{ }\\text{\\AA}$) occurs at an angle of $45^{\\circ}$. What is the distance between the set of plane causing the diffraction ?",
+      "options": {
+        "A": "$0.1089\\text{ nm.}$",
+        "B": "$0.1089\\text{ m.}$",
+        "C": "$10.89\\text{ }\\text{\\AA}$",
+        "D": "$1.089 \\times 10^{-9}\\text{ m.}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 44,
+      "question": "If in a crystal lattice of a compound, each corner of a cube is enjoyed by Sodium, each edge of a cube has Oxygen and centre of cube is enjoyed by Tungsten (W), then give its formula.",
+      "options": {
+        "A": "$\\text{Na}_2\\text{WO}_4$",
+        "B": "$\\text{NaWO}_3$",
+        "C": "$\\text{Na}_3\\text{WO}_3$",
+        "D": "$\\text{Na}_2\\text{WO}_3$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 41,
+      "question": "The atoms of element 'Y' form hexagonal close packing and the atoms of element X occupies $2/3$ portion of the number of tetrahedral voids. Write the formula of the compound formed by X and Y.",
+      "options": {
+        "A": "$X_2 Y_3$",
+        "B": "$X_2 Y$",
+        "C": "$X_3 Y_4$",
+        "D": "$X_4 Y_3$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2014,
+      "number": 42,
+      "question": "What is the difference between the number of atoms per unit cell in face centred cube and the number of atoms per unit cell in body centred cube?",
+      "options": {
+        "A": "$2$",
+        "B": "$1$",
+        "C": "$4$",
+        "D": "$6$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 73,
+      "question": "Which of the following defect is seen in FeO?",
+      "options": {
+        "A": "Metal deficiency defect",
+        "B": "Metal excess defect",
+        "C": "Displacement defect",
+        "D": "Impurity defect"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 74,
+      "question": "Which of the following substance possess antiferromagnetic property?",
+      "options": {
+        "A": "\\text{CrO}_2",
+        "B": "\\text{Fe}_3\\text{O}_4",
+        "C": "\\text{H}_2\\text{O}",
+        "D": "\\text{MnO}"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 49,
+      "question": "A crystalline solid is made up of X and Y atoms, X atoms possesses CCP structure and Y atoms are arranged in tetrahedral voids. If all the atoms situated on a diagonal of one side are removed, what will be the molecular formula of the crystalline solid?",
+      "options": {
+        "A": "$X_3Y_2$",
+        "B": "$X_4Y_3$",
+        "C": "$X_2Y_3$",
+        "D": "$X_3Y_4$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2017,
+      "number": 50,
+      "question": "In which crystal system, the length of each edge (edge length) is same?",
+      "options": {
+        "A": "$\\text{BaSO}_4$",
+        "B": "HgS",
+        "C": "$\\text{CaSO}_4$",
+        "D": "ZnO"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 41,
+      "question": "If the edge length of a body centred unit cell is $400\\text{pm}$, what will be the approximate radius of the atom present in it? (in $\\text{pm}$)",
+      "options": {
+        "A": "$173$",
+        "B": "$141$",
+        "C": "$200$",
+        "D": "$924$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 42,
+      "question": "Which of the following is Ferromagnetic?",
+      "options": {
+        "A": "$\\text{MnO}$",
+        "B": "$\\text{CrO}_2$",
+        "C": "$\\text{O}_2$",
+        "D": "$\\text{Fe}_3\\text{O}_4$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 55,
+      "question": "What is the packing efficiency of arrangement in a body centred unit cell.",
+      "options": {
+        "A": "64.00%",
+        "B": "68.00%",
+        "C": "74.00%",
+        "D": "53.26%"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 56,
+      "question": "Which one of the following compounds show both Schottky and Frenkel defects?",
+      "options": {
+        "A": "KCl",
+        "B": "AgI",
+        "C": "AgBr",
+        "D": "AgCl"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 62,
+      "question": "At which temperature, ceramic materials behave as super conductors?",
+      "options": {
+        "A": "150 K",
+        "B": "200 K",
+        "C": "15 K",
+        "D": "0 K"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 55,
+      "question": "Which of the following statement is correct?",
+      "options": {
+        "A": "Amorphous solids are anisotropic in nature",
+        "B": "Silicon doped with Arsenic impurity is a p-type semiconductor",
+        "C": "In the unit cell of rhombic Sulphur, the axial distance are equal and the value of each axial angle is $90^\\circ$",
+        "D": "In MnO, all the domains are aligned in the same direction"
+      },
+      "answer": null
+    },
+    {
+      "year": 2020,
+      "number": 56,
+      "question": "What are the fractions of $\\text{Fe}^{2+}$ and $\\text{Fe}^{3+}$ in $\\text{Fe}_{0.93}\\text{O}$ respectively?",
+      "options": {
+        "A": "$0.85, 0.15$",
+        "B": "$0.93, 0.07$",
+        "C": "$0.75, 0.25$",
+        "D": "$0.80, 0.20$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 63,
+      "question": "Which is network solid from following?",
+      "options": {
+        "A": "SiC",
+        "B": "$\\text{I}_{2(s)}$",
+        "C": "$\\text{CO}_{2(s)}$",
+        "D": "$\\text{H}_2\\text{O}_{(s)}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 64,
+      "question": "The edge lengths of the unit cells in terms of the radius $r$ of spheres constitutin fcc, bcc and simple cubic unit cell are respectively __________.",
+      "options": {
+        "A": "$\\frac{4r}{\\sqrt{3}}, 2\\sqrt{2}r, 2r$",
+        "B": "$2r, 2\\sqrt{2}r, \\frac{4r}{\\sqrt{3}}$",
+        "C": "$2r, \\frac{4r}{\\sqrt{3}}, 2\\sqrt{2}r$",
+        "D": "$2\\sqrt{2}r, \\frac{4r}{\\sqrt{3}}, 2r$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 65,
+      "question": "Atoms of element X form hcp lattice and those of the element Y occupy $75\\%$ of tetrahedral voids. What is the formula of the compound formed by elements X and Y?",
+      "options": {
+        "A": "$\\text{X}_4\\text{Y}_3$",
+        "B": "$\\text{X}_3\\text{Y}_4$",
+        "C": "$\\text{X}_2\\text{Y}_3$",
+        "D": "$\\text{X}_3\\text{Y}_2$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 65,
+      "question": "Cell edge length in bcc, ccp and simple cubic unit cell is respectively as ________",
+      "options": {
+        "A": "$2r, \\frac{4r}{\\sqrt{3}}, 2\\sqrt{2}r$",
+        "B": "$2r, 2\\sqrt{2}r, \\frac{4r}{\\sqrt{3}}$",
+        "C": "$2\\sqrt{2}r, \\frac{4r}{\\sqrt{3}}, 2r$",
+        "D": "$\\frac{4r}{\\sqrt{3}}, 2\\sqrt{2}r, 2r$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 66,
+      "question": "Atoms of element N form hcp lattice and those of the element M occupy $1/3^{rd}$ of tetrahedral voids. What will be the formula of the compound formed by the element M and N?",
+      "options": {
+        "A": "$M_1N_3$",
+        "B": "$M_1N_2$",
+        "C": "$M_2N_3$",
+        "D": "$M_1N$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 53,
+      "question": "The correct order of the packing efficiency in different types of unit cell is ________.",
+      "options": {
+        "A": "fcc > bcc > simple cubic",
+        "B": "fcc < bcc < simple cubic",
+        "C": "fcc < bcc > simple cubic",
+        "D": "fcc = bcc > simple cubic"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 54,
+      "question": "Which of the following defect obtained by heating of zinc-oxide?",
+      "options": {
+        "A": "Impurity defect",
+        "B": "Metal deficiency defect",
+        "C": "Stoichiometric defect",
+        "D": "Metal excess defect"
+      },
+      "answer": "D"
+    }
+  ]
+}

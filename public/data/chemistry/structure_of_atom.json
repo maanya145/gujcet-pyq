@@ -1,0 +1,151 @@
+{
+  "subject": "chemistry",
+  "chapter": "Structure of Atom",
+  "total_questions": 12,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 54,
+      "question": "Which scientists diffracted the moving electron by using Ni metal crystal like X-rays?",
+      "options": {
+        "A": "Max Plank and Hemilton",
+        "B": "De-Broglie and Schrodinger",
+        "C": "Goudsmit and Uhlenbeck",
+        "D": "Davison and Germer"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2007,
+      "number": 70,
+      "question": "In a decay series, $^{206}_{82}\\text{Pb}$ is obtained at the end from $^{238}_{92}\\text{U}$. How many particles must have been emitted?",
+      "options": {
+        "A": "8",
+        "B": "7",
+        "C": "6",
+        "D": "5"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2007,
+      "number": 71,
+      "question": "The half life period of a radio active material is $15\\text{ minutes}$. What percentage of radioactivity of that material will remain after $45\\text{ minutes}$?",
+      "options": {
+        "A": "17.5 %",
+        "B": "15 %",
+        "C": "12.5 %",
+        "D": "10 %"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2008,
+      "number": 41,
+      "question": "The presence of unpaired electron in Phosphorus atom is explained by which principle ?",
+      "options": {
+        "A": "Pauli exclusion principle",
+        "B": "Auf-bau principle",
+        "C": "Heisenberg's principle",
+        "D": "Hund's rule"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 42,
+      "question": "If a cricket ball having mass of 200 gms is thrown with a speed of $3 \\times 10^3 \\text{ cm/sec}$, then calculate the wavelength related to it.",
+      "options": {
+        "A": "$1.104 \\times 10^{-32} \\text{ cm}$",
+        "B": "$2.2 \\times 10^{-27} \\text{ cm}$",
+        "C": "$1.104 \\times 10^{-33} \\text{ cm}$",
+        "D": "$1.104 \\times 10^{-27} \\text{ cm}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 63,
+      "question": "How many numbers of neutrons will be present in newly formed compound when two $\\alpha$ particles and one $\\beta$ particle are emitted from $^{244}_{94}\\text{M}$ ?",
+      "options": {
+        "A": "145",
+        "B": "146",
+        "C": "148",
+        "D": "150"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 64,
+      "question": "Find out the half life period of $^{14}_6\\text{C}$ whose decay constant is $2.25 \\times 10^{-4} \\text{ year}^{-1}$.",
+      "options": {
+        "A": "3000 years",
+        "B": "3080 years",
+        "C": "5730 years",
+        "D": "5780 years"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 41,
+      "question": "Which of the following is the correct form of \"Schrodinger wave equation\"?",
+      "options": {
+        "A": "$\\frac{\\partial^2\\psi}{\\partial x^2} + \\frac{\\partial^2\\psi}{\\partial y^2} + \\frac{\\partial^2\\psi}{\\partial z^2} + \\frac{8\\pi^2m}{h^2}(E-V)\\psi = 0$",
+        "B": "$\\frac{\\partial^2\\psi}{\\partial x^2} + \\frac{\\partial^2\\psi}{\\partial y^2} + \\frac{\\partial^2\\psi}{\\partial z^2} + \\frac{8\\pi^2m^2}{h^2}(E-V)\\psi = 0$",
+        "C": "$\\frac{\\partial^2\\psi}{\\partial x^2} + \\frac{\\partial^2\\psi}{\\partial y^2} + \\frac{\\partial^2\\psi}{\\partial z^2} + \\frac{8\\pi^2m}{h^2}(E-V) = 0$",
+        "D": "$\\frac{\\partial^2\\psi}{\\partial x^2} + \\frac{\\partial^2\\psi}{\\partial y^2} + \\frac{\\partial^2\\psi}{\\partial z^2} + \\frac{8\\pi^2}{h^2}(E-V)\\psi = 0$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 41,
+      "question": "Calculate the velocity of an electron having wavelength of $0.15\\text{ nm}$. Mass of an electron is $9.109 \\times 10^{-28}\\text{ grams}$. ($h = 6.626 \\times 10^{-27}\\text{ erg-second}$)",
+      "options": {
+        "A": "$2.062 \\times 10^{-8}\\text{ cm. sec.}^{-1}$",
+        "B": "$2.062 \\times 10^{-15}\\text{ cm. sec.}^{-1}$",
+        "C": "$2.062 \\times 10^{-10}\\text{ cm. sec.}^{-1}$",
+        "D": "$2.062 \\times 10^{-9}\\text{ cm. sec.}^{-1}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 42,
+      "question": "Which of the following is correct for number of electrons, number of orbitals and type of orbitals respectively in N orbit ?",
+      "options": {
+        "A": "$4, 4\\text{ and } 8$",
+        "B": "$4, 8\\text{ and } 16$",
+        "C": "$32, 16\\text{ and } 4$",
+        "D": "$4, 16\\text{ and } 32$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 63,
+      "question": "Which of the following ratio will give stability to daughter element, when radioactive parent element has less number of protons compared to number of neutrons ?",
+      "options": {
+        "A": "$\\frac{N+1}{Z+1}$",
+        "B": "$\\frac{N-1}{Z+1}$",
+        "C": "$\\frac{N-1}{Z-1}$",
+        "D": "$\\frac{N+1}{Z-1}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 64,
+      "question": "$^7_3\\text{Li} + A \\rightarrow ^4_2\\text{He} + B$. A and B are respectively .........",
+      "options": {
+        "A": "$(D, \\alpha)$",
+        "B": "$(\\alpha, n)$",
+        "C": "$(n, \\alpha)$",
+        "D": "$(P, \\alpha)$"
+      },
+      "answer": "D"
+    }
+  ]
+}

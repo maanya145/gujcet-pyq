@@ -1,0 +1,463 @@
+{
+  "subject": "physics",
+  "chapter": "Nuclei",
+  "total_questions": 38,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 15,
+      "question": "A nucleus at rest splits into two nuclear parts having same density and radii in the ratio $1 : 2$. Their velocities are in the ratio,",
+      "options": {
+        "A": "$2 : 1$",
+        "B": "$4 : 1$",
+        "C": "$6 : 1$",
+        "D": "$8 : 1$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2008,
+      "number": 34,
+      "question": "Complete the following nuclear reaction : $_4\\text{Be}^9 + _2\\text{He}^4 \\rightarrow _6\\text{C}^{12} + .......$",
+      "options": {
+        "A": "p (Proton)",
+        "B": "e (Electron)",
+        "C": "n (Neutron)",
+        "D": "$\\nu$ (Neutrino)"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 29,
+      "question": "If the radii of nuclei of $_{13}\\text{Al}^{27}$ and $_{30}\\text{Zn}^{64}$ are $R_1$ and $R_2$ respectively, then $\\frac{R_1}{R_2} = ...........$",
+      "options": {
+        "A": "$\\frac{64}{27}$",
+        "B": "$\\frac{3}{4}$",
+        "C": "$\\frac{27}{64}$",
+        "D": "$\\frac{4}{3}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 30,
+      "question": "The end product of the decay of $_{90}\\text{Th}^{232}$ is $_{82}\\text{Pb}^{208}$. The number of alpha and beta particles emitted are respectively ...............",
+      "options": {
+        "A": "$3, 3$",
+        "B": "$6, 0$",
+        "C": "$6, 4$",
+        "D": "$4, 6$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 63,
+      "question": "In a Decay series, $_{92}^{238}\\text{U}$ is obtained in the end to $_{82}^{206}\\text{Pb}$. How many $\\alpha$ and $\\beta$ particles must have been emitted ?",
+      "options": {
+        "A": "$6 \\alpha \\text{ and } 8 \\beta$",
+        "B": "$6 \\beta \\text{ and } 8 \\alpha$",
+        "C": "$6 \\beta \\text{ and } 6 \\alpha$",
+        "D": "$8 \\beta \\text{ and } 8 \\alpha$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 64,
+      "question": "$4n + 1$ series is known by which name ?",
+      "options": {
+        "A": "Uranium",
+        "B": "Thorium",
+        "C": "Neptunium",
+        "D": "Actinium"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 32,
+      "question": "The radioactivity of a sample is $I_1$ at a time $t_1$ and $I_2$ at a time $t_2$. If the half life of the sample is $\\tau_{1/2}$, then the number of nuclei that have disintegrated in the time $t_2 - t_1$ is proportional to ........",
+      "options": {
+        "A": "$I_1\\text{ }t_2 - I_2\\text{ }t_1$",
+        "B": "$I_1 - I_2$",
+        "C": "$\\frac{I_1 - I_2}{\\tau_{1/2}}$",
+        "D": "$(I_1 - I_2)\\text{ }\\tau_{1/2}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2014,
+      "number": 33,
+      "question": "In the radio active transformation $_Z X^A \\rightarrow _{Z+1} X_1^A \\rightarrow _{Z-1} X_2^{A-4} \\rightarrow _{Z-3} X_3^{A-8}$ Which are successively emitted radioactive radiations?",
+      "options": {
+        "A": "$\\alpha, \\beta^-, \\beta^-$",
+        "B": "$\\beta^-, \\alpha, \\beta^-$",
+        "C": "$\\beta^-, \\alpha, \\alpha$",
+        "D": "$\\alpha, \\beta^-, \\alpha$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 34,
+      "question": "The binding energy per nucleon of $_8 O^{16}$ is $7.97 \\text{ MeV}$ and that of $_8 O^{17}$ is $7.75 \\text{ MeV}$. The energy required to remove one neutron from $_8 O^{17}$ is ________ $\\text{ MeV}$.",
+      "options": {
+        "A": "$3.52$",
+        "B": "$3.62$",
+        "C": "$4.23$",
+        "D": "$7.86$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 35,
+      "question": "The half life of a radio active substance is $20 \\text{ days}$. If $2/3$ part of the substance has decayed in time $t_2$ and $1/3$ part of it has decayed in time $t_1$ then the time interval between $t_2$ and $t_1$ is $(t_2 - t_1) = $ ________.",
+      "options": {
+        "A": "$5 \\text{ days}$",
+        "B": "$10 \\text{ days}$",
+        "C": "$20 \\text{ days}$",
+        "D": "$40 \\text{ days}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "number": 24,
+      "question": "A radioactive element X disintegrates successively as under $X \\xrightarrow{\\beta^-} X_1 \\xrightarrow{\\alpha} X_2 \\xrightarrow{\\beta^-} X_3 \\xrightarrow{\\alpha} X_4$. If atomic number and atomic mass number of X are respectively $72$ and $180$, what are the corresponding values for $X_4$?",
+      "options": {
+        "A": "69, 172",
+        "B": "69, 176",
+        "C": "71, 176",
+        "D": "70, 172"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "number": 25,
+      "question": "The energy released by the fission of one uranium atom is $200\\text{ MeV}$. The number of fission per second required to produce $6.4\\text{ W}$ power is ________.",
+      "options": {
+        "A": "2 \\times 10^{11}",
+        "B": "10^{11}",
+        "C": "10^{10}",
+        "D": "2 \\times 10^{10}"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 26,
+      "question": "If by successive disintegration of $_{92}\\text{U}^{238}$, the final product obtained is $_{82}\\text{Pb}^{206}$, then how many number of $\\alpha$ and $\\beta$ particles are emitted?",
+      "options": {
+        "A": "6 and 8",
+        "B": "8 and 6",
+        "C": "12 and 6",
+        "D": "8 and 12"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 1,
+      "question": "Half life of radioactive element is 5 min. At the end of 20 min its ________% quantity is disintegrated.",
+      "options": {
+        "A": "6.25",
+        "B": "75",
+        "C": "25",
+        "D": "93.75"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 40,
+      "question": "In the given nuclear reaction $^9_4\\text{Be} + ^4_2\\text{He} \\rightarrow ^{12}_6\\text{C} + X$. $X$ represents",
+      "options": {
+        "A": "Neutron",
+        "B": "Proton",
+        "C": "Positron",
+        "D": "Electron"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 28,
+      "question": "The energy of the fast neutrons emitted in a nuclear fission reactor is approximately ___",
+      "options": {
+        "A": "$10\\text{ MeV}$",
+        "B": "$2\\text{ KeV}$",
+        "C": "$2\\text{ MeV}$",
+        "D": "$20\\text{ MeV}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 29,
+      "question": "In radioactive reaction $^A_Z X \\rightarrow ^{A}_{Z+1} X_1 \\rightarrow ^{A}_{Z+2} X_2 \\rightarrow ^{A-4}_{Z} X_3 \\rightarrow ^{A-4}_{Z+1} X_4$",
+      "options": {
+        "A": "$\\beta^-, \\beta^-, \\alpha, \\alpha$",
+        "B": "$\\beta^-, \\beta^-, \\beta^+, \\alpha$",
+        "C": "$\\beta^-, \\beta^-, \\beta^-, \\alpha$",
+        "D": "$\\beta^-, \\beta^-, \\alpha, \\beta^-$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 38,
+      "question": "If the half-life of a radioactive element is $10\\text{ hr}$, its average life = ____ $\\text{hr}$.",
+      "options": {
+        "A": "$14.4$",
+        "B": "$6.93$",
+        "C": "$1.44$",
+        "D": "$0.693$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 7,
+      "question": "For a radioactive element, $\\tau = ................... \\tau_{1/2}$.",
+      "options": {
+        "A": "1.44",
+        "B": "144",
+        "C": "693",
+        "D": "0.693"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 8,
+      "question": "For the following nuclear disintegration process $^{238}_{92}\\text{U} \\rightarrow ^{206}_{82}\\text{Pb} + x[^{4}_{2}\\text{He}] + 6[^{0}_{-1}\\text{e}]$, the value of $x$ is............",
+      "options": {
+        "A": "10",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 9,
+      "question": "If the radii of $^{64}_{30}\\text{Zn}$ and $^{27}_{13}\\text{Al}$ nuclei are $R_1$ and $R_2$ respectively then $\\frac{R_1}{R_2} = .......$",
+      "options": {
+        "A": "$\\frac{27}{64}$",
+        "B": "$\\frac{3}{4}$",
+        "C": "$\\frac{4}{3}$",
+        "D": "$\\frac{64}{27}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 9,
+      "question": "Calculate the energy equivalent of $1\\text{g}$ of substance",
+      "options": {
+        "A": "$9 \\times 10^{13}\\text{ J}$",
+        "B": "$4 \\times 10^{12}\\text{ J}$",
+        "C": "$6 \\times 10^{11}\\text{ J}$",
+        "D": "$7 \\times 10^{12}\\text{ J}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 10,
+      "question": "In which process neutron is converted into proton?",
+      "options": {
+        "A": "$\\beta^+$ decay",
+        "B": "$\\alpha$ decay",
+        "C": "$\\beta^-$ decay",
+        "D": "$\\gamma$ decay"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 17,
+      "question": "How many neutrons will produced for a given following nuclear fission reaction? $^1_0n + ^{235}_{92}\text{U} \\rightarrow ^{236}_{92}\text{U} \\rightarrow ^{144}_{56}\text{Ba} + ^{89}_{36}\text{Kr} + (?)^1_0n$",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "2",
+        "D": "4"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 18,
+      "question": "Half-life time of a radioactive element is $16\\text{ years}$. How much time will taken to reduce its activity $16\\text{ part}$?",
+      "options": {
+        "A": "8 years",
+        "B": "32 years",
+        "C": "16 years",
+        "D": "64 years"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 19,
+      "question": "What should be the ratio of neutron and proton for stability of heavy nucleus?",
+      "options": {
+        "A": "1:1",
+        "B": "3:2",
+        "C": "2:1",
+        "D": "2:3"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 19,
+      "question": "Given the following atomic masses: $^{238}_{92}\\text{U} = 238.05079\\text{ u}$, $^4_2\\text{He} = 4.00260\\text{ u}$, $^{234}_{90}\\text{Th} = 234.04363\\text{ u}$. Calculate the energy released during the alpha decay of $^{238}_{92}\\text{U}$. ($1\\text{ u} = 931.5\\text{ MeV/c}^2$)",
+      "options": {
+        "A": "$4.25\\text{ MeV}$",
+        "B": "$6.23\\text{ MeV}$",
+        "C": "$5.75\\text{ MeV}$",
+        "D": "$3.25\\text{ MeV}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 20,
+      "question": "A radioactive isotope has a half-life of $T\\text{ years}$. How long will it take the activity to reduce to $6.250\\%$?",
+      "options": {
+        "A": "$3\\text{ T}$",
+        "B": "$6\\text{ T}$",
+        "C": "$5\\text{ T}$",
+        "D": "$4\\text{ T}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 21,
+      "question": "The half-life of $^{90}_{38}\\text{Sr}$ is $28\\text{ years}$. What is the disintegration rate of $38\\text{g}$ of this isotope? [$N_A = 6.023 \\times 10^{23}\\text{ mol}^{-1}$]",
+      "options": {
+        "A": "$2.7 \\times 10^{14}\\text{ Bq}$",
+        "B": "$4.7 \\times 10^{14}\\text{ Bq}$",
+        "C": "$3.7 \\times 10^{14}\\text{ Bq}$",
+        "D": "$5.7 \\times 10^{14}\\text{ Bq}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2023,
+      "number": 7,
+      "question": "A radioactive isotope has a half-life of 2.5 years. How long will it take the activity to reduce to 1.5625%?",
+      "options": {
+        "A": "10 years",
+        "B": "5 years",
+        "C": "15 years",
+        "D": "20 years"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 8,
+      "question": "In proton-proton cycle in Sun the energy released when an electron & its antiparticle combines is ________.",
+      "options": {
+        "A": "$1.021 \\times 10^{-13} \\text{J}$",
+        "B": "$0.672 \\times 10^{-13} \\text{J}$",
+        "C": "$1.126 \\times 10^{-13} \\text{J}$",
+        "D": "$1.632 \\times 10^{-13} \\text{J}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2023,
+      "number": 9,
+      "question": "The ratio of half-life and average life for a radioactive sample is ________.",
+      "options": {
+        "A": "2.303",
+        "B": "$\\log(2)$",
+        "C": "$\\ln(2)$",
+        "D": "$e^2$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 16,
+      "question": "Some atomic species of the same element differing in mass are called ________.",
+      "options": {
+        "A": "Isotope",
+        "B": "Isotone",
+        "C": "Isomar",
+        "D": "Isobar"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 17,
+      "question": "Find the value of $x$ and $y$ from below given nuclear reaction $^{235}_{92}\text{U} + ^1_0\text{n} \\rightarrow ^{133}_{51}\text{Sb} + ^x_y\text{Nb} + 4^1_0\text{n}$",
+      "options": {
+        "A": "$(133, 41)$",
+        "B": "$(51, 95)$",
+        "C": "$(92, 1)$",
+        "D": "$(51, 99)$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 18,
+      "question": "The ratio of the nuclear radii of the $^1_1\text{H}$ and $^{27}_{13}\text{Al}$ is ________.",
+      "options": {
+        "A": "$3:5$",
+        "B": "$1:2$",
+        "C": "$2:1$",
+        "D": "$1:3$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 18,
+      "question": "Calculate the height of the potential barrier for a head on collision of two deuterons. (Radius of deuteron is 2 fm).",
+      "options": {
+        "A": "$7.2 \\times 10^{-19} \\text{ J}$",
+        "B": "$7.2 \\times 10^{-14} \\text{ J}$",
+        "C": "$3.6 \\times 10^{-19} \\text{ J}$",
+        "D": "$5.76 \\times 10^{-14} \\text{ J}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 19,
+      "question": "Choose correct option to complete the net effect of fusion reaction occurs in the Sun. $4_1^1\\text{H} + 2e^- \\rightarrow \\text{____} + 2v + 6\\gamma + \\text{____}$.",
+      "options": {
+        "A": "$_2^3\\text{He}, 5.49 \\text{ MeV}$",
+        "B": "$_2^4\\text{He}, 26.7 \\text{ MeV}$",
+        "C": "$_2^4\\text{He}, 22.86 \\text{ MeV}$",
+        "D": "$_2^3\\text{He}, 0.42 \\text{ MeV}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 20,
+      "question": "____ pair is called isotones.",
+      "options": {
+        "A": "$_{80}^{198}\\text{Hg}, _{79}^{197}\\text{Au}$",
+        "B": "$_1^3\\text{H}, _2^3\\text{He}$",
+        "C": "$_{82}^{214}\\text{Pb}, _{83}^{214}\\text{Bi}$",
+        "D": "$_6^{12}\\text{C}, _6^{14}\\text{C}$"
+      },
+      "answer": "C"
+    }
+  ]
+}

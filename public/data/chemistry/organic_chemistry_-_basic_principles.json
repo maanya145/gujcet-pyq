@@ -1,0 +1,91 @@
+{
+  "subject": "chemistry",
+  "chapter": "Organic Chemistry - Basic Principles",
+  "total_questions": 7,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 68,
+      "question": "The number of racemic mixture obtained by optical isomers of 2,3-dihydroxy butanal is :",
+      "options": {
+        "A": "Three",
+        "B": "Two",
+        "C": "One",
+        "D": "Zero"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2008,
+      "number": 65,
+      "question": "How many numbers of possible stereo-isomers are there of 2, 3, 4 tri chloro pentanoic acid ?",
+      "options": {
+        "A": "12",
+        "B": "8",
+        "C": "4",
+        "D": "16"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 66,
+      "question": "Which of the following stereo-isomer is very active in construction of blood vessels ?",
+      "options": {
+        "A": "(-) Nicotine",
+        "B": "(+) Adrenaline",
+        "C": "S - Ibuprofen",
+        "D": "(-) Thyroxine"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 65,
+      "question": "A molecule having 3 different chiral carbon atoms, how many stereo-isomers it will have?",
+      "options": {
+        "A": "$6$",
+        "B": "$9$",
+        "C": "$3$",
+        "D": "$8$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 66,
+      "question": "What is the structural formula of Fumaric acid ?",
+      "options": {
+        "A": "$\\text{H-C-COOH} \\parallel \\text{HOOC-C-H}$",
+        "B": "$\\text{H-C-COOH} \\parallel \\text{H-C-COOH}$",
+        "C": "$\\text{H}_3\\text{C-C-COOH} \\parallel \\text{H}_3\\text{C-C-COOH}$",
+        "D": "$\\text{H}_3\\text{C-C-COOH} \\parallel \\text{HOOC-C-CH}_3$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 65,
+      "question": "Which of the following compounds exhibit rotamers ?",
+      "options": {
+        "A": "$2\\text{ - butene}$",
+        "B": "Maleic acid",
+        "C": "Butane",
+        "D": "Fumeric acid"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 73,
+      "question": "The number of Sigma ($\\sigma$) and Pi ($\\pi$) covalent bonds respectively in Benzene nitrile are ........",
+      "options": {
+        "A": "$5, 13$",
+        "B": "$15, 3$",
+        "C": "$13, 5$",
+        "D": "$16, 2$"
+      },
+      "answer": "C"
+    }
+  ]
+}

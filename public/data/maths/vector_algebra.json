@@ -1,0 +1,535 @@
+{
+  "subject": "maths",
+  "chapter": "Vector Algebra",
+  "total_questions": 44,
+  "questions": [
+    {
+      "year": 2006,
+      "number": 3,
+      "question": "For non-zero vectors $\\vec{x}, \\vec{y} \\in R^3$ if $\\vec{x} \\cdot \\vec{y} = |\\vec{x}| \\cdot |\\vec{y}|$, then what is $\\vec{x} \\times \\vec{y} = ?$",
+      "options": {
+        "A": "$\\vec{0}$",
+        "B": "Unit vector",
+        "C": "$0$",
+        "D": "$|\\vec{x}| |\\vec{y}|$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2006,
+      "number": 5,
+      "question": "For the unit vectors $\\vec{a}$ and $\\vec{b}$, if $\\vec{a} + \\vec{b} = \\vec{0}$, then what is $\\vec{a} \\cdot \\vec{b}$ ?",
+      "options": {
+        "A": "-1",
+        "B": "2",
+        "C": "0",
+        "D": "1"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2006,
+      "number": 6,
+      "question": "What is the area of $\\Delta ABC$ if $\\vec{AB} = \\vec{i} + 2\\vec{j} + 3\\vec{k}$ and $\\vec{AC} = -3\\vec{i} + 2\\vec{j} + \\vec{k}$ in $\\Delta ABC$ ?",
+      "options": {
+        "A": "$3\\sqrt{5}$",
+        "B": "$\\frac{3}{2}\\sqrt{5}$",
+        "C": "45",
+        "D": "$5\\sqrt{3}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2006,
+      "number": 7,
+      "question": "What is the magnitude of the resultant force of the forces $(1, 2, -1)$ and $(-3, 0, 2)$ ?",
+      "options": {
+        "A": "5",
+        "B": "$\\sqrt{5}$",
+        "C": "9",
+        "D": "3"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2008,
+      "number": 13,
+      "question": "If $\\vec{x} = (1, 1, 2)$, $\\vec{y} = (1, 2, 1)$ and $\\vec{z} = (2, 1, 1)$, then find $\\vec{x} \\times (\\vec{y} \\times \\vec{z})$.",
+      "options": {
+        "A": "$(-5, 5, 0)$",
+        "B": "$(5, 5, 5)$",
+        "C": "$(5, 0, -5)$",
+        "D": "$(-5, -5, -5)$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 14,
+      "question": "Which of the following is not a unit vector?",
+      "options": {
+        "A": "$(\\frac{1}{\\sqrt{3}}, \\frac{-1}{\\sqrt{3}}, \\frac{1}{\\sqrt{3}})$",
+        "B": "$(\\cos \\alpha, 0, \\sin \\alpha)$",
+        "C": "$(1, 0, 0)$",
+        "D": "$(\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}})$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 15,
+      "question": "The position vectors of three vertices in order of a parallelogram are respectively $\\vec{i} + \\vec{j} + \\vec{k}$, $\\vec{i} + 3\\vec{j} + 5\\vec{k}$ and $7\\vec{i} + 9\\vec{j} + 11\\vec{k}$, then find out the position vector of its fourth vertex.",
+      "options": {
+        "A": "$6(\\vec{i} + \\vec{j} + \\vec{k})$",
+        "B": "$7(\\vec{i} + \\vec{j} + \\vec{k})$",
+        "C": "$2\\vec{i} - 4\\vec{k}$",
+        "D": "$6\\vec{i} + 8\\vec{j} + 10\\vec{k}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 16,
+      "question": "If one of the vertices of a parallelopiped is origin and its edges are $\\vec{OA}$, $\\vec{OB}$ and $\\vec{OC}$ where $A(4, 3, 1)$, $B(3, 1, 2)$ and $C(5, 2, 1)$, then find the volume of this parallelopiped.",
+      "options": {
+        "A": "8 units",
+        "B": "9 units",
+        "C": "10 units",
+        "D": "None of these"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 13,
+      "question": "$(\\vec{x} - \\vec{y}) \\times (\\vec{x} + \\vec{y}) = \\dots \\dots \\dots \\dots \\dots \\dots$, where $\\vec{x}, \\vec{y} \\in \\mathbb{R}^3$",
+      "options": {
+        "A": "$|\\vec{x}|^2 - |\\vec{y}|^2$",
+        "B": "$\\frac{1}{2}(\\vec{x} \\times \\vec{y})$",
+        "C": "$2(\\vec{x} \\times \\vec{y})$",
+        "D": "None of them"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2009,
+      "number": 14,
+      "question": "If $\\vec{x}$ and $\\vec{y}$ are unit vectors and $\\vec{x} \\cdot \\vec{y} = 0$, then $\\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$|\\vec{x} + \\vec{y}| = \\sqrt{3}$",
+        "B": "$|\\vec{x} + \\vec{y}| = \\sqrt{2}$",
+        "C": "$|\\vec{x} + \\vec{y}| = 1$",
+        "D": "$|\\vec{x} + \\vec{y}| = 2$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2009,
+      "number": 15,
+      "question": "If the angle between $\\vec{a}$ and $\\vec{b}$ $(\\vec{a}, \\vec{b} \\neq \\vec{0})$ is $\\frac{5\\pi}{6}$ and magnitude of projection of $\\vec{a}$ on $\\vec{b}$ is $6/\\sqrt{3}$, then $|\\vec{a}| = \\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$6$",
+        "B": "$\\frac{\\sqrt{3}}{2}$",
+        "C": "$12$",
+        "D": "$4$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2009,
+      "number": 16,
+      "question": "Find the area of $\\Delta ABC$ by using vectors, where A$(1, 1, 2)$, B$(2, 3, 5)$, C$(1, 3, 4)$.",
+      "options": {
+        "A": "$\\sqrt{3}$",
+        "B": "$\\frac{\\sqrt{3}}{2}$",
+        "C": "$4$",
+        "D": "None of them"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 13,
+      "question": "If $|\\vec{x}| = 13$ and direction angles of $\\vec{x}$ are $\\cos^{-1} \\frac{3}{13}$, $\\cos^{-1} \\frac{4}{13}$ and $\\cos^{-1} \\frac{12}{13}$, then find $\\vec{x}$.",
+      "options": {
+        "A": "$3\\vec{i} + 4\\vec{j} - 12\\vec{k}$",
+        "B": "$3\\vec{i} + 4\\vec{j} + 12\\vec{k}$",
+        "C": "$3\\vec{i} - 4\\vec{j} + 12\\vec{k}$",
+        "D": "$3\\vec{i} - 4\\vec{j} - 12\\vec{k}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 14,
+      "question": "In $\\mathbb{R}^2$, find the unit vector orthogonal to unit vector $\\vec{x} = (\\cos \\alpha, \\sin \\alpha)$.",
+      "options": {
+        "A": "$(\\cos \\alpha/2, \\sin \\alpha/2)$",
+        "B": "$(-\\cos \\alpha, -\\sin \\alpha)$",
+        "C": "$(-\\sin \\alpha, \\cos \\alpha)$",
+        "D": "$(\\cos \\alpha, \\sin \\alpha)$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 15,
+      "question": "If $\\vec{a} = 3\\vec{i} + 4\\vec{j} + \\vec{k}$ and $\\vec{b} = \\vec{i} + \\vec{j} - \\vec{k}$, then $\\text{Comp}_{\\vec{b}} \\vec{a} = .........$",
+      "options": {
+        "A": "$3\\sqrt{2}$",
+        "B": "$2\\sqrt{3}$",
+        "C": "$-3\\sqrt{2}$",
+        "D": "$-2\\sqrt{3}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 16,
+      "question": "By vector method, find the co-ordinates of a point which divides $\\vec{AB}$ from A in the ratio $-3 : 2$; where $A(1, 2, 3)$, $B(5, 6, 7)$.",
+      "options": {
+        "A": "$(13, 14, 15)$",
+        "B": "$(-13, -14, -15)$",
+        "C": "$(-13, 14, 15)$",
+        "D": "$(-13, -14, 15)$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 3,
+      "question": "If $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$ and $|\\vec{a}| = 3, |\\vec{b}| = 5, |\\vec{c}| = 7$ and $(\\vec{a}, \\vec{b}) = \\alpha$, then $\\alpha = $_____.",
+      "options": {
+        "A": "$\\frac{2\\pi}{3}$",
+        "B": "$\\frac{\\pi}{6}$",
+        "C": "$\\frac{\\pi}{3}$",
+        "D": "$\\frac{5\\pi}{6}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 4,
+      "question": "For $A(1, -2, 4), B(5, -1, 7), C(3, 6, -2), D(4, 5, -1)$, the projection of $\\vec{AB}$ on $\\vec{CD}$ is ______.",
+      "options": {
+        "A": "$(2\\sqrt{3}, -2\\sqrt{3}, 2\\sqrt{3})$",
+        "B": "$\\frac{3}{13}(4, 1, 3)$",
+        "C": "$(1, -1, 1)$",
+        "D": "$(2, -2, 2)$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 13,
+      "question": "If $\\vec{a}$ is unit vector, then $|\\vec{a} \\times \\hat{i}|^2 + |\\vec{a} \\times \\hat{j}|^2 + |\\vec{a} \\times \\hat{k}|^2 =$",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "2",
+        "D": "3"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 14,
+      "question": "If for unit vectors $\\vec{a}$ and $\\vec{b}$, $\\vec{a} + 2\\vec{b}$ and $5\\vec{a} - 4\\vec{b}$ are perpendicular to each other, then $(\\vec{a} \\wedge \\vec{b}) =$",
+      "options": {
+        "A": "$\\pi/3$",
+        "B": "$\\pi/4$",
+        "C": "$\\cos^{-1}(1/3)$",
+        "D": "$\\cos^{-1}(2/7)$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 15,
+      "question": "If $|\\vec{x}| = |\\vec{y}| = |\\vec{x}+\\vec{y}| = 1$, then $|\\vec{x}-\\vec{y}| = ..............$",
+      "options": {
+        "A": "$\\sqrt{2}$",
+        "B": "$1$",
+        "C": "$\\sqrt{3}$",
+        "D": "$3$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 16,
+      "question": "If $\\vec{x}$ is a vector in the direction of $(2, 2, -1)$ of magnitude 6 and $\\vec{y}$ is a vector in the direction of $(1, 1, -1)$ of magnitude $\\sqrt{3}$, then $|\\vec{x}+2\\vec{y}| = .............$",
+      "options": {
+        "A": "$40$",
+        "B": "$\\sqrt{17}$",
+        "C": "$\\sqrt{35}$",
+        "D": "$2\\sqrt{10}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 17,
+      "question": "The angle between two adjacent sides $\\vec{a}$ and $\\vec{b}$ of parallelogram is $\\frac{\\pi}{6}$. If $\\vec{a} = (2, -2, 1)$ and $|\\vec{b}| = 2|\\vec{a}|$, then area of this parallelogram is .............",
+      "options": {
+        "A": "$9$",
+        "B": "$\\frac{9}{2}$",
+        "C": "$18$",
+        "D": "$\\frac{3}{4}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 1,
+      "question": "If $|\\vec{a}| = 3$ then value of $|\\vec{a} \\times \\hat{i}|^2 + |\\vec{a} \\times \\hat{j}|^2 + |\\vec{a} \\times \\hat{k}|^2 = $ ____________.",
+      "options": {
+        "A": "9",
+        "B": "18",
+        "C": "27",
+        "D": "36"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 39,
+      "question": "If $\\vec{a} = 2\\hat{i} - \\hat{j} + \\hat{k}, \\vec{b} = \\hat{i} + \\hat{j} - 2\\hat{k}, \\vec{c} = \\hat{i} + 3\\hat{j} - \\hat{k}$, if $\\vec{a}$ is perpendicular to $\\lambda \\vec{b} + \\vec{c}$, then the value of $\\lambda$ is ____________.",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "-2",
+        "D": "3"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 40,
+      "question": "For three vectors $\\vec{a}, \\vec{b}, \\vec{c}$ satisfies $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$ and $|\\vec{a}| = 3, |\\vec{b}| = 4, |\\vec{c}| = 2$ then $\\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{c} + \\vec{c} \\cdot \\vec{a} = $ __________.",
+      "options": {
+        "A": "29",
+        "B": "$\\frac{29}{2}$",
+        "C": "$-\\frac{9}{2}$",
+        "D": "$-\\frac{29}{2}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 13,
+      "question": "If $\\vec{c}$ is the unit vector in the direction of sum of the vectors $\\vec{a} = 2\\hat{i} + 2\\hat{j} - 5\\hat{k}$ and $\\vec{b} = 2\\hat{i} + \\hat{j} + 3\\hat{k}$, then $|\\vec{c}| = \\text{_______}$",
+      "options": {
+        "A": "$\\frac{4}{\\sqrt{29}} \\hat{i} + \\frac{3}{\\sqrt{29}} \\hat{j} - \\frac{2}{\\sqrt{29}} \\hat{k}$",
+        "B": "$1$",
+        "C": "$0$",
+        "D": "$-1$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 14,
+      "question": "Let the vector $\\vec{a}$ and $\\vec{b}$ be such that $|\\vec{a}| = 3$ and $|\\vec{b}| = \\frac{\\sqrt{2}}{3}$, then $\\vec{a} \\times \\vec{b}$ is unit vector, if the angle between $\\vec{a}$ and $\\vec{b}$ is",
+      "options": {
+        "A": "$\\frac{\\pi}{6}$",
+        "B": "$\\frac{\\pi}{3}$",
+        "C": "$\\frac{\\pi}{4}$",
+        "D": "$\\frac{\\pi}{2}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 15,
+      "question": "The area of parallelogram whose adjacent sides are determined by the vectors $\\vec{a} = \\hat{i} - \\hat{j} + 3\\hat{k}$ and $\\vec{b} = 2\\hat{i} - 7\\hat{j} + \\hat{k}$ is",
+      "options": {
+        "A": "$15\\sqrt{2}$",
+        "B": "$15$",
+        "C": "$\\frac{15}{\\sqrt{2}}$",
+        "D": "$\\frac{15}{2}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 25,
+      "question": "If the vectors $\\hat{i} - \\hat{j} + \\hat{k}$, $3\\hat{i} + \\hat{j} + 2\\hat{k}$ and $\\hat{i} + \\lambda\\hat{j} - 3\\hat{k}$ are coplanar then $\\lambda = $ ________.",
+      "options": {
+        "A": "$15$",
+        "B": "$-15$",
+        "C": "$5$",
+        "D": "$\\frac{5}{3}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 26,
+      "question": "Let the vectors $\\vec{a}$ and $\\vec{b}$ be such that $|\\vec{a}| = 3$ and $|\\vec{b}| = \\frac{\\sqrt{2}}{3}$. If $\\vec{a} \\times \\vec{b}$ is a unit vector, then the angle between $\\vec{a}$ and $\\vec{b}$ is ________.",
+      "options": {
+        "A": "$\\frac{\\pi}{2}$",
+        "B": "$\\frac{\\pi}{4}$",
+        "C": "$\\frac{\\pi}{3}$",
+        "D": "$\\frac{\\pi}{6}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 27,
+      "question": "If $\\vec{a}, \\vec{b}, \\vec{c}$ are unit vectors such that $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$ then $\\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{c} + \\vec{c} \\cdot \\vec{a} = $ ________.",
+      "options": {
+        "A": "$-\\frac{1}{2}$",
+        "B": "$\\frac{3}{2}$",
+        "C": "$\\frac{1}{2}$",
+        "D": "$-\\frac{3}{2}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 22,
+      "question": "For any vector $\\vec{a} \\in \\mathbb{R}^3$, $|\\vec{a} \\times \\hat{i}|^2 + |\\vec{a} \\times \\hat{j}|^2 + |\\vec{a} \\times \\hat{k}|^2 = \\dots$",
+      "options": {
+        "A": "$2|\\vec{a}|^2$",
+        "B": "$|\\vec{a}|$",
+        "C": "$|\\vec{a}|^2$",
+        "D": "$3|\\vec{a}|^2$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 23,
+      "question": "For the vectors $\\vec{a} = \\hat{i} + \\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$, $(\\vec{a} + \\vec{b}) \\cdot (\\vec{a} - \\vec{b}) = \\dots$",
+      "options": {
+        "A": "$11$",
+        "B": "$-11$",
+        "C": "$5$",
+        "D": "$-5$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 24,
+      "question": "Let the vectors $\\vec{a}$ and $\\vec{b}$ be such that $|\\vec{a}| = 3$ and $|\\vec{b}| = \\frac{\\sqrt{2}}{3}$ and $\\vec{a} \\times \\vec{b}$ is a unit vector, then the angle between $\\vec{a}$ and $\\vec{b}$ is :",
+      "options": {
+        "A": "$\\pi/2$",
+        "B": "$\\pi/3$",
+        "C": "$\\pi/6$",
+        "D": "$\\pi/4$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 2,
+      "question": "The angle '$\\theta$' between the vectors $\\vec{a} = \\hat{i} - \\hat{j} + \\hat{k}$ and $\\vec{b} = \\hat{i} + \\hat{j} - \\hat{k}$ is ____",
+      "options": {
+        "A": "$\\cos^{-1}\\left(-\\frac{1}{3}\\right)$",
+        "B": "$\\cos^{-1}\\frac{1}{3}$",
+        "C": "$\\sin^{-1}\\frac{1}{3}$",
+        "D": "$\\sin^{-1}-\\frac{1}{3}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 3,
+      "question": "The area of a parallelogram, whose adjacent sides are given by the $\\vec{a} = 2\\hat{i} + 3\\hat{j} + 4\\hat{k}$ and $\\vec{b} = -\\hat{j} - 2\\hat{k}$, is ____.",
+      "options": {
+        "A": "$\\sqrt{6}$",
+        "B": "$2\\sqrt{6}$",
+        "C": "$24$",
+        "D": "$2\\sqrt{3}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 4,
+      "question": "The angle '$\\theta$' between the vectors $\\vec{a} = \\hat{i} - \\hat{j} + \\hat{k}$ and $\\vec{b} = \\hat{i} + \\hat{j} - \\hat{k}$ is ______.",
+      "options": {
+        "A": "$\\sin^{-1}\\left(-\\frac{1}{3}\\right)$",
+        "B": "$\\cos^{-1}\\left(-\\frac{1}{3}\\right)$",
+        "C": "$\\sin^{-1}\\frac{1}{3}$",
+        "D": "$\\cos^{-1}\\frac{1}{3}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 4,
+      "question": "The value of $\\hat{j} \\cdot \\hat{i} \\times \\hat{k} + \\hat{i} \\cdot \\hat{j} \\times \\hat{k} + \\hat{k} \\cdot \\hat{j} \\times \\hat{i} + \\hat{i} \\cdot \\hat{k} \\times \\hat{j}$ is ____",
+      "options": {
+        "A": "-2",
+        "B": "-1",
+        "C": "-3",
+        "D": "-4"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 5,
+      "question": "The area of a parallelogram, whose adjacent sides are given by the vectors $\\vec{a} = 2\\hat{i} + 3\\hat{j} + 4\\hat{k}$ and $\\vec{b} = -\\hat{j} - 2\\hat{k}$, is ______.",
+      "options": {
+        "A": "$2\\sqrt{3}$",
+        "B": "$\\sqrt{6}$",
+        "C": "24",
+        "D": "$2\\sqrt{6}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 6,
+      "question": "The value of $\\hat{j} \\cdot (\\hat{i} \\times \\hat{k}) + \\hat{i} \\cdot (\\hat{j} \\times \\hat{j}) + \\hat{k} \\cdot (\\hat{j} \\times \\hat{i}) + \\hat{i} \\cdot (\\hat{k} \\times \\hat{j})$ is ______.",
+      "options": {
+        "A": "-4",
+        "B": "-2",
+        "C": "-3",
+        "D": "-1"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 38,
+      "question": "$\\hat{i} \\cdot (\\hat{k} \\times \\hat{j}) + \\hat{j} \\cdot (\\hat{i} \\times \\hat{k}) + \\hat{k} \\cdot (\\hat{i} \\times \\hat{j}) = $ ____",
+      "options": {
+        "A": "-3",
+        "B": "1",
+        "C": "-1",
+        "D": "0"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 39,
+      "question": "A unit vector perpendicular to each of the vectors $(\\vec{a} + \\vec{b})$ and $(\\vec{a} - \\vec{b})$ is ____ where $\\vec{a} = \\hat{i} + \\hat{j} + \\hat{k}$ and $\\vec{b} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$",
+      "options": {
+        "A": "$-\\frac{1}{\\sqrt{6}}\\hat{i} + \\frac{2}{\\sqrt{6}}\\hat{j} - \\frac{1}{\\sqrt{6}}\\hat{k}$",
+        "B": "$-\\frac{1}{\\sqrt{12}}\\hat{i} + \\frac{2}{\\sqrt{12}}\\hat{j} - \\frac{1}{\\sqrt{12}}\\hat{k}$",
+        "C": "$\\frac{1}{\\sqrt{12}}\\hat{i} + \\frac{2}{\\sqrt{12}}\\hat{j} - \\frac{1}{\\sqrt{12}}\\hat{k}$",
+        "D": "$\\frac{1}{\\sqrt{6}}\\hat{i} + \\frac{2}{\\sqrt{6}}\\hat{j} + \\frac{1}{\\sqrt{6}}\\hat{k}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 40,
+      "question": "Area of a rectangle having vertices A, B, C and D with position vectors $-\\hat{i} + \\frac{1}{2}\\hat{j} + 4\\hat{k}$, $\\hat{i} + \\frac{1}{2}\\hat{j} + 4\\hat{k}$, $\\hat{i} - \\frac{1}{2}\\hat{j} + 4\\hat{k}$ and $-\\hat{i} - \\frac{1}{2}\\hat{j} + 4\\hat{k}$, respectively is ____",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "2",
+        "D": "1/2"
+      },
+      "answer": "C"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "subject": "chemistry",
+  "chapter": "Chemical Thermodynamics",
+  "total_questions": 6,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 45,
+      "question": "If $K < 1.0$, what will be the value of $\\Delta G^0$ of the following?",
+      "options": {
+        "A": "1.0",
+        "B": "Zero",
+        "C": "Negative",
+        "D": "Positive"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2008,
+      "number": 46,
+      "question": "Which one is true from the following for Isobaric process ?",
+      "options": {
+        "A": "$\\Delta q = 0$",
+        "B": "$\\Delta P = 0$",
+        "C": "$\\Delta E = 0$",
+        "D": "$\\Delta H = 0$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 47,
+      "question": "Which is included in thermodynamic equilibrium from the following?",
+      "options": {
+        "A": "Chemical equilibrium.",
+        "B": "Pressure equilibrium.",
+        "C": "Thermo equilibrium.",
+        "D": "All of these."
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 47,
+      "question": "What will be the value of $\\Delta G$ for ice at $8^\\circ\\text{C}$ temperature ?",
+      "options": {
+        "A": "Zero",
+        "B": "Positive",
+        "C": "Negative",
+        "D": "One"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 48,
+      "question": "A piece of ice kept at room temperature melts of its own. This reaction is governed by which law ?",
+      "options": {
+        "A": "Zeroth law of Thermodynamics",
+        "B": "Third law of Thermodynamics",
+        "C": "First law of Thermodynamics",
+        "D": "Second law of Thermodynamics"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 47,
+      "question": "A container of $1.0\\text{ lit.}$ capacity filled with $1.0\\text{ mole}$ of ideal gas is connected to an evacuated vessel of $9.0\\text{ lit.}$ Calculate change in Entropy. ($R = 1.987\\text{ Cal.}$)",
+      "options": {
+        "A": "$0.188\\text{ Cal. K}^{-1}\\text{ mol}^{-1}$",
+        "B": "$0.4576\\text{ Cal. K}^{-1}\\text{ mol}^{-1}$",
+        "C": "$4.576\\text{ Cal. K}^{-1}\\text{ mol}^{-1}$",
+        "D": "$4.366\\text{ Cal. K}^{-1}\\text{ mol}^{-1}$"
+      },
+      "answer": "C"
+    }
+  ]
+}

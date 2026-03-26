@@ -1,0 +1,571 @@
+{
+  "subject": "maths",
+  "chapter": "Continuity and Differentiability",
+  "total_questions": 47,
+  "questions": [
+    {
+      "year": 2006,
+      "number": 17,
+      "question": "$\\frac{d}{dx} [\\sec^{-1} e^{2x}] = ?$",
+      "options": {
+        "A": "$\\frac{2}{e^{4x} - 1}$",
+        "B": "$\\frac{2}{e^{2x} \\sqrt{e^{4x} - 1}}$",
+        "C": "$\\frac{1}{\\sqrt{1 - e^{4x}}}$",
+        "D": "$\\frac{1}{\\sqrt{1 - e^{4x} - 1}}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2006,
+      "number": 18,
+      "question": "$\\frac{d}{dx} [\\tan^{-1} (\\frac{x+a}{1-ax})] = ?$ (Where $x \\in R^+, a \\in R^+, ax < 1$)",
+      "options": {
+        "A": "$\\frac{1}{1+a^2x^2}$",
+        "B": "$\\frac{1}{1+a^2x^2}$",
+        "C": "$\\frac{1}{1+x^2}$",
+        "D": "$\\frac{-1}{1+x^2}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2006,
+      "number": 19,
+      "question": "$\\frac{d}{dx} [e^{\\sin^{-1} x + \\cos^{-1} x}] = ?$ (Where $|x| \\le 1$)",
+      "options": {
+        "A": "$\\frac{\\pi}{2}$",
+        "B": "$\\frac{\\pi}{2}$",
+        "C": "$e^{\\pi/2}$",
+        "D": "0"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2008,
+      "number": 25,
+      "question": "If $f'(x) = g'(x)$, then ......",
+      "options": {
+        "A": "$f(x) = g(x) + c$",
+        "B": "$f(x) \\cdot g(x) = c$",
+        "C": "$f(x) = g(x)$",
+        "D": "$f(x) = c \\cdot g(x)$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 26,
+      "question": "$\\frac{d}{dx}(\\frac{1}{x}) = .......... ; x \\neq 0$",
+      "options": {
+        "A": "1",
+        "B": "$\\frac{1}{x^2}$",
+        "C": "$-\\frac{1}{x^2}$",
+        "D": "not possible."
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 27,
+      "question": "$\\frac{d}{dx} [\\tan^{-1}(\\frac{a + x}{1 - ax})] = ............... ; a \\text{ is constant}, a, x \\in R^+; ax < 1.$",
+      "options": {
+        "A": "$\\frac{1}{1 + x^2}$",
+        "B": "$-\\frac{1}{1 + x^2}$",
+        "C": "$\\frac{a}{1 + x^2}$",
+        "D": "$-\\frac{a}{1 + x^2}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 28,
+      "question": "$y = a^x$, then $y_n = ............... ; a > 0, x \\in R.$",
+      "options": {
+        "A": "$a^x (\\log a)^n$",
+        "B": "$(a^x)^n \\cdot \\log a$",
+        "C": "$n a^x \\cdot \\log a$",
+        "D": "$a^{nx} \\cdot (\\log a)^n$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 25,
+      "question": "$\\frac{d}{dx} [\\cos x^{\\circ}] = \\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$-\\sin x^{\\circ}$",
+        "B": "$-\\frac{\\pi x}{180} \\sin x$",
+        "C": "$-\\frac{\\pi}{180} \\sin x^{\\circ}$",
+        "D": "$\\frac{\\pi}{180} \\sin x^{\\circ}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2009,
+      "number": 26,
+      "question": "$\\frac{d}{dx} [x^x + x^a + a^x + a^a] = \\dots \\dots \\dots \\dots \\dots \\dots$; $a$ is constant.",
+      "options": {
+        "A": "$x^x(1 + \\log x) + a \\cdot x^{a-1} + a^x \\log a$",
+        "B": "$x^x(1 + \\log x) + a^a(1 + \\log a) + a \\cdot x^{a-1} + a^x(1 + \\log a)$",
+        "C": "$x^x(1 + \\log x) + a \\cdot x^{a-1}$",
+        "D": "$x^x(1 + \\log x) + a^a(1 + \\log a)$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2009,
+      "number": 27,
+      "question": "$f(x) = |x - 3|$ is $\\dots \\dots \\dots \\dots \\dots \\dots$ at $x = 3$.",
+      "options": {
+        "A": "continuous and differentiable.",
+        "B": "discontinuous and differentiable.",
+        "C": "continuous and not differentiable",
+        "D": "discontinuous and not differentiable"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2009,
+      "number": 28,
+      "question": "$\\frac{d}{dx} [\\log_e e^{\\sin(x^2)}] = \\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$2 \\cos x$",
+        "B": "$2x \\cos(x^2)$",
+        "C": "$2 \\cos(x^2)$",
+        "D": "$2x \\cdot \\cos x$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 24,
+      "question": "If $f(x) = \\begin{cases} cx+1 & ; x \\leq 3 \\\\ cx^2-1 & ; x > 3 \\end{cases}$ is continuous at $x = 3$, then $c = .........$",
+      "options": {
+        "A": "$1/3$",
+        "B": "$2/3$",
+        "C": "$3/2$",
+        "D": "$3$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 25,
+      "question": "If $f'(x) = f(x)$, $f(0) = 1$, then $\\lim_{x \\to 0} \\frac{f(x)-1}{x} = ...............$",
+      "options": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$-1$",
+        "D": "$2$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 26,
+      "question": "$\\frac{d}{dx} [x^3(\\cos^{-1} x + \\sin^{-1} x)] = .........; |x| < 1$",
+      "options": {
+        "A": "$0$",
+        "B": "$\\frac{\\pi}{2} \\cdot x^3$",
+        "C": "$3x^2 \\cdot \\frac{\\pi}{2}$",
+        "D": "$3x^2$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 27,
+      "question": "$\\frac{d}{dx} [\\sin^{-1} \\frac{x}{a}] = .........; a < 0$ and $|\\frac{x}{a}| < 1$",
+      "options": {
+        "A": "$\\frac{1}{\\sqrt{a^2 - x^2}}$",
+        "B": "$\\frac{1}{\\sqrt{x^2 - a^2}}$",
+        "C": "$\\frac{-1}{\\sqrt{a^2 - x^2}}$",
+        "D": "$\\frac{-1}{\\sqrt{x^2 - a^2}}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 28,
+      "question": "If $\\pi < x < 2\\pi$, then $\\frac{d}{dx} [\\tan^{-1} (\\frac{1 - \\cos x}{1 + \\cos x})^{1/2}]$ is ...........",
+      "options": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$1/2$",
+        "D": "$-1/2$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 20,
+      "question": "$\\frac{d}{dx}(\\sqrt{3} \\sin(2x + \\frac{\\pi}{3}) + \\cos(2x + \\frac{\\pi}{3})) = $______.",
+      "options": {
+        "A": "$4 \\cos 2x$",
+        "B": "$-4 \\sin 2x$",
+        "C": "$4 \\sin 2x$",
+        "D": "$-4 \\cos 2x$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 22,
+      "question": "Function $f(x) = \\begin{cases} (\\log_2 x)^{\\log_x 8}; & x \\neq 1 \\\\ (k-1)^3; & x = 1 \\end{cases}$ is continuous at $x = 1$, then $k = $_____.",
+      "options": {
+        "A": "$e + 1$",
+        "B": "$e^{1/3}$",
+        "C": "$e^3$",
+        "D": "$e - 1$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 30,
+      "question": "$\\frac{d}{dx} \\log_{|x|} e = .....$",
+      "options": {
+        "A": "$\\frac{1}{(\\log x)^2}$",
+        "B": "$\\frac{1}{|x|}$",
+        "C": "$\\frac{-1}{x(\\log |x|)^2}$",
+        "D": "$e^x$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 31,
+      "question": "$\\frac{d}{dx} \\tan^{-1} \\left( \\frac{1-x}{1+x} \\right) =$",
+      "options": {
+        "A": "$\\frac{-1}{1+x^2}$",
+        "B": "$\\frac{1}{1+x^2}$",
+        "C": "$\\frac{2}{1+x^2}$",
+        "D": "$\\frac{-2}{1+x^2}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 32,
+      "question": "If $x = at^2, y = 2at$, then $\\frac{d^2x}{dy^2} = ....$",
+      "options": {
+        "A": "$-2at^3$",
+        "B": "$-1/t^2$",
+        "C": "$-1/(2at^3)$",
+        "D": "$1/(2a)$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 32,
+      "question": "$\\frac{d}{dx}(3\\cos(\\frac{\\pi}{6} + x^0) - 4\\cos^3(\\frac{\\pi}{6} + x^0)) = ...........$",
+      "options": {
+        "A": "$\\cos(3x^0)$",
+        "B": "$\\frac{\\pi}{60}\\cos(3x^0)$",
+        "C": "$\\frac{\\pi}{60}\\sin(3x^0)$",
+        "D": "$-\\frac{\\pi}{60}\\sin(3x^0)$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 33,
+      "question": "If $f(x) = 1+x+x^2+....+x^{1000}$, then $f'(-1) = ..........$",
+      "options": {
+        "A": "$-50$",
+        "B": "$-100$",
+        "C": "$-500$",
+        "D": "$500500$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 20,
+      "question": "If function $f(\\alpha) = \\begin{cases} \\frac{1-\\cos 6\\alpha}{36\\alpha^2} & \\text{if } \\alpha \\neq 0 \\\\ k & \\text{if } \\alpha = 0 \\end{cases}$ is continuous at $\\alpha = 0$ then $k = $ __________.",
+      "options": {
+        "A": "-1/2",
+        "B": "1",
+        "C": "1/2",
+        "D": "0"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 21,
+      "question": "If $y = \\sin^{-1}\\left(\\frac{2^{x+1}}{1+4^x}\\right)$ and $\\frac{dy}{dx} = \\frac{2^{x+1} \\log 2}{f(x)}$ then $f(0) = $ ____________.",
+      "options": {
+        "A": "0",
+        "B": "-2",
+        "C": "2",
+        "D": "$2 \\log 2$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 34,
+      "question": "$\\frac{d}{dx}(\\text{cosec}^{-1} e^x) = \\text{_______}$",
+      "options": {
+        "A": "$\\frac{1}{\\sqrt{e^{2x}-1}}$",
+        "B": "$\\frac{-1}{\\sqrt{e^{2x}-1}}$",
+        "C": "$\\sin^{-1}(e^x)$",
+        "D": "$\\frac{-e^x}{\\sqrt{e^{2x}-1}}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 35,
+      "question": "If $f(x) = 4x^3 + 3x^2 + 3x + 4; x \\neq 0$, then $\\frac{d}{dx}(x^3 \\cdot f(\\frac{1}{x})) = \\text{_______}$",
+      "options": {
+        "A": "$24x^5 + 15x^4 + 12x^3 + 12x^2$",
+        "B": "$\\frac{12}{x^2} + \\frac{6}{x} + 3$",
+        "C": "$\\frac{x^2}{12} + \\frac{x}{6} + \\frac{1}{3}$",
+        "D": "$12x^2 + 6x + 3$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 36,
+      "question": "$\\frac{d}{dx} [\\log(\\frac{1}{x}) + \\log(\\frac{1}{x^2}) + \\log(\\frac{1}{x^3})] = \\text{_______} ; x > 1$.",
+      "options": {
+        "A": "$-\\frac{6}{x}$",
+        "B": "$6x$",
+        "C": "$\\frac{6}{x}$",
+        "D": "$-6x$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 37,
+      "question": "If $x+1 = e^{-y}$, then $\\frac{d^2y}{dx^2} = \\text{_______}$",
+      "options": {
+        "A": "$(\\frac{dy}{dx})^3$",
+        "B": "$\\frac{dy}{dx}$",
+        "C": "$(\\frac{dy}{dx})^2$",
+        "D": "$-\\frac{dy}{dx}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 6,
+      "question": "If $y = 100e^{2x} + 200e^{-2x}$ and $\\frac{d^2y}{dx^2} = ay$ then $a =$ ________.",
+      "options": {
+        "A": "$4$",
+        "B": "$-4$",
+        "C": "$2$",
+        "D": "$0$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 7,
+      "question": "Function $f: [1.2, 1.9] \\to R, f(x) = [x]$, where $[x]$ denotes the greatest integer less than or equal to $x$. Then ________.",
+      "options": {
+        "A": "$f'(x) = 1$",
+        "B": "$f$ is not differentiable",
+        "C": "$f'(x) = 0$",
+        "D": "$f$ is not continuous function"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 8,
+      "question": "If $x = \\sqrt{10^{\\text{sin}^{-1}t}}, y = \\sqrt{10^{\\text{cos}^{-1}t}}$ then $\\frac{dy}{dx} =$ ________.",
+      "options": {
+        "A": "$-\\frac{x}{y}$",
+        "B": "$\\frac{y}{x}$",
+        "C": "$0$",
+        "D": "$-\\frac{y}{x}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 3,
+      "question": "$\\left\\{ \\frac{d}{dx} (x^x + x^{x+1} + x^{x+2}) \\right\\}_{x=e} = \\dots$",
+      "options": {
+        "A": "$e^e (1 + e^2 + 2e)$",
+        "B": "$e^e (3e^2 + 2e + 2)$",
+        "C": "$e^e (2e^2 + 4e + 3)$",
+        "D": "$e^e (1 + 4e + 2e^2)$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 4,
+      "question": "If $x = a \\cos \\theta$, $y = a \\sin \\theta$, then $\\frac{d^2y}{dx^2} = \\dots$ (where $a \\neq 0, \\theta \\neq k\\pi, k \\in \\mathbb{Z}$)",
+      "options": {
+        "A": "$-\\frac{1}{a} \\csc^2 \\theta \\sec \\theta$",
+        "B": "$\\frac{1}{a} \\cot^3 \\theta$",
+        "C": "$\\csc^2 \\theta$",
+        "D": "$-\\frac{1}{a} \\csc^3 \\theta$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 5,
+      "question": "If $y = \\sqrt{\\sin^{-1} x + y}$, then $\\frac{dy}{dx} = \\dots$ (where $x \\in (0, 1)$)",
+      "options": {
+        "A": "$\\frac{1}{(2y-1)\\sqrt{1-x^2}}$",
+        "B": "$\\frac{1}{(1-2y)\\sqrt{1-x^2}}$",
+        "C": "$\\frac{1}{(2y-1)\\sqrt{x^2-1}}$",
+        "D": "$\\frac{1}{(2y+1)\\sqrt{1-x^2}}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 24,
+      "question": "If function f is continuous at point $x = \\pi/2$ and $f(x) = \\begin{cases} \\frac{2k \\cos x}{\\pi - 2x} & , x \\neq \\pi/2 \\\\ 2024 & , x = \\pi/2 \\end{cases}$; then the value of k is ____.",
+      "options": {
+        "A": "1012",
+        "B": "506",
+        "C": "2024",
+        "D": "4048"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 25,
+      "question": "$\\frac{d}{dx}(e^{x \\log x} + e^3) = ____$.",
+      "options": {
+        "A": "$(1 + \\log x)$",
+        "B": "$x^x(1 + \\log x)$",
+        "C": "$x^x \\log x$",
+        "D": "$x^x(1 + \\log x) + e^3$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 26,
+      "question": "If function f is continuous at point $x = \\pi/2$ and $f(x) = \\begin{cases} \\frac{2k \\cos x}{\\pi - 2x} & , x \\neq \\pi/2 \\\\ 2024 & , x = \\pi/2 \\end{cases}$; then the value of k is ______.",
+      "options": {
+        "A": "4048",
+        "B": "1012",
+        "C": "2024",
+        "D": "506"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 26,
+      "question": "If $x = a(1 - \\cos \\theta), y = a(\\theta + \\sin \\theta)$ then $\\frac{dy}{dx} = ____$.",
+      "options": {
+        "A": "$\\cot \\theta/2$",
+        "B": "$\\tan \\theta/2$",
+        "C": "$-\\cot \\theta/2$",
+        "D": "$-\\tan \\theta/2$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 27,
+      "question": "$\\frac{d}{dx}(e^{x \\log x} + e^3) = $ ______.",
+      "options": {
+        "A": "$x^x(1 + \\log x) + e^3$",
+        "B": "$(1 + \\log x)$",
+        "C": "$x^x \\log x$",
+        "D": "$x^x(1 + \\log x)$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 27,
+      "question": "If $\\frac{d^2y}{dx^2} - my = 0$ satisfies for $y = 7\\sin x + 5 \\cos x$ then the value of m is ____",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "-1",
+        "D": "-2"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 28,
+      "question": "If $x = a(1 - \\cos \\theta), y = a(\\theta + \\sin \\theta)$ then $\\frac{dy}{dx} = $ ______.",
+      "options": {
+        "A": "$-\\tan \\theta/2$",
+        "B": "$\\cot \\theta/2$",
+        "C": "$-\\cot \\theta/2$",
+        "D": "$\\tan \\theta/2$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 29,
+      "question": "If $\\frac{d^2y}{dx^2} - my = 0$ satisfies for $y = 7 \\sin x + 5 \\cos x$ then the value of m is ______.",
+      "options": {
+        "A": "-2",
+        "B": "1",
+        "C": "-1",
+        "D": "0"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 20,
+      "question": "$\\frac{d}{dx}(5^{\\log x}) = $ ____",
+      "options": {
+        "A": "$\\log 5 \\cdot x^{\\log(5e)}$",
+        "B": "$\\log_x 5 \\cdot 5^{\\log x}$",
+        "C": "$\\log 5 \\cdot x^{\\log(\\frac{5}{e})}$",
+        "D": "$\\log 5 \\cdot 5^{\\log x}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 21,
+      "question": "If $x = a \\cos \\theta, y = a \\sin \\theta$, then $\\frac{d^2y}{dx^2} = $ ____ $(a \\neq 0; \\theta \\neq k\\pi, k \\in Z)$",
+      "options": {
+        "A": "$-\\frac{1}{a} \\csc^3 \\theta$",
+        "B": "$-\\frac{1}{a} \\csc^3 \\theta \\cdot \\sec \\theta$",
+        "C": "$\\frac{1}{a} \\cot^3 \\theta$",
+        "D": "$\\csc^2 \\theta$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 22,
+      "question": "$\\frac{d}{dx}[3 \\sin(60^\\circ - x^\\circ) - 4 \\cos^3(30^\\circ + x^\\circ)] = $ ____",
+      "options": {
+        "A": "$\\frac{\\pi}{60} \\sin(3x^\\circ)$",
+        "B": "$\\frac{\\pi}{60} \\sin(3x^\\circ)$",
+        "C": "$\\frac{\\pi}{60} \\cos(3x^\\circ)$",
+        "D": "$-\\frac{\\pi}{60} \\cos(3x^\\circ)$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 23,
+      "question": "If $f(x) = \\begin{cases} \\frac{x^3 + x^2 - 16x + 20}{(x-2)^2} & x \\neq 2 \\\\ k & x = 2 \\end{cases}$ is continuous at $x = 2$ then $k = $ ____",
+      "options": {
+        "A": "-7",
+        "B": "7",
+        "C": "-5",
+        "D": "5"
+      },
+      "answer": null
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "subject": "chemistry",
+  "chapter": "Some Basic Concepts of Chemistry",
+  "total_questions": 5,
+  "questions": [
+    {
+      "year": 2008,
+      "number": 58,
+      "question": "Find out the Normality of a solution, when 9.8 gms. of $\\text{H}_2\\text{SO}_4$ is dissolved in 500 ml solution.",
+      "options": {
+        "A": "0.4",
+        "B": "0.2",
+        "C": "0.8",
+        "D": "4.0"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 45,
+      "question": "How many grams of $\\text{NaOH}$ will be required to prepare $500 \\text{ gram}$ solution containing $10\\% \\text{ w/w NaOH}$ solution ?",
+      "options": {
+        "A": "$5.0 \\text{ grams}$",
+        "B": "$0.5 \\text{ grams}$",
+        "C": "$50 \\text{ grams}$",
+        "D": "$100 \\text{ grams}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 45,
+      "question": "How many grams of Sulphuric acid is to be dissolved to prepare $200\\text{ ml.}$ aqueous solution having concentration of $[\\text{H}_3\\text{O}^+]$ ions $1\\text{ M}$ at $25^{\\circ}\\text{C}$ temperature. [H=1, O=16, S=32 gram . mole$^{-1}$ ]",
+      "options": {
+        "A": "$4.9\\text{ gram}$",
+        "B": "$19.6\\text{ gram}$",
+        "C": "$9.8\\text{ gram}$",
+        "D": "$0.98\\text{ gram}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 43,
+      "question": "What is the normality of aqueous solution of $\\text{H}_2\\text{SO}_4$ having $\\text{pH} = 1$.",
+      "options": {
+        "A": "$0.1\\text{ N}$",
+        "B": "$0.05\\text{ N}$",
+        "C": "$1\\text{ N}$",
+        "D": "$0.5\\text{ N}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 80,
+      "question": "$1\\text{ mole}$ of metal ‘M’ reacts completely with alcohol to give $1.5\\text{ moles}$ of $\\text{H}_2$. Then what will be the valency of metal ‘M’?",
+      "options": {
+        "A": "$3$",
+        "B": "$4$",
+        "C": "$2$",
+        "D": "$1$"
+      },
+      "answer": "A"
+    }
+  ]
+}

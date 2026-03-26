@@ -1,0 +1,535 @@
+{
+  "subject": "physics",
+  "chapter": "Alternating Current",
+  "total_questions": 44,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 3,
+      "question": "A LCR series A.C circuit is tuned to resonance. The impedance of the circuit is now",
+      "options": {
+        "A": "$R$",
+        "B": "$[R^2 + (\\omega L - \\frac{1}{\\omega C})^2]^{1/2}$",
+        "C": "$[R^2 + (\\omega L)^2 + (\\frac{1}{\\omega C})^2]^{1/2}$",
+        "D": "$[R^2 + (\\omega L - \\frac{1}{\\omega C})^2]^{1/2}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2007,
+      "number": 4,
+      "question": "Resonance frequency of LCR series a.c. circuit is $f_0$. Now the capacitance is made 4 times, then the new resonance frequency will become",
+      "options": {
+        "A": "$\\frac{f_0}{4}$",
+        "B": "$2f_0$",
+        "C": "$f_0$",
+        "D": "$\\frac{f_0}{2}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2007,
+      "number": 39,
+      "question": "The dimensions of $RC$ are same as the dimensions of which of the following?",
+      "options": {
+        "A": "$RLC$",
+        "B": "$R/L$",
+        "C": "$LR$",
+        "D": "$L/R$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2008,
+      "number": 15,
+      "question": "In an A.C. circuit, a resistance of R ohm is connected in series with an inductor of self inductance L. If phase angle between voltage and current be 45°, the value of inductive reactance ($X_L$) will be equal to ......",
+      "options": {
+        "A": "$\\frac{R}{4}$",
+        "B": "$\\frac{R}{2}$",
+        "C": "R",
+        "D": "$\\frac{R}{8}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 17,
+      "question": "At time t = 0 second, voltage of an A.C. Generator starts from 0 V and becomes 2 V at time $t = \\frac{1}{100 \\pi}$ second. The voltage keeps on increasing up to 100 V, after which it starts to decrease. Find the frequency of the Generator.",
+      "options": {
+        "A": "100 Hz",
+        "B": "1 Hz",
+        "C": "2 Hz",
+        "D": "5 Hz"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 17,
+      "question": "In a series resonant circuit, the A. C. voltages across resistance $R$, inductor $L$ and capacitor $C$ are $5 \\text{ V}$, $10 \\text{ V}$ and $10 \\text{ V}$ respectively. The A.C. voltage applied to the circuit will be .........",
+      "options": {
+        "A": "$25 \\text{ V}$",
+        "B": "$20 \\text{ V}$",
+        "C": "$10 \\text{ V}$",
+        "D": "$5 \\text{ V}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 18,
+      "question": "What is the average power dissipation in an ideal capacitor in A.C. circuit ?",
+      "options": {
+        "A": "$\\frac{1}{2} CV^2$",
+        "B": "$CV^2$",
+        "C": "$2CV^2$",
+        "D": "Zero"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 19,
+      "question": "A coil has self inductance $L = 0.04 \\text{ H}$ and resistance $R = 12 \\Omega$. When it is connected to $220 \\text{ V}$, $50 \\text{ Hz}$ supply; what will be the current flowing through the coil ?",
+      "options": {
+        "A": "$12.7 \\text{ A}$",
+        "B": "$14.7 \\text{ A}$",
+        "C": "$11.7 \\text{ A}$",
+        "D": "$10.7 \\text{ A}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 20,
+      "question": "Find the time required for a $50\\text{Hz}$ alternating current to become its value from zero to the $rms$ value.",
+      "options": {
+        "A": "$2.5 \\text{ ms}$",
+        "B": "$5.0 \\text{ ms}$",
+        "C": "$10.0 \\text{ ms}$",
+        "D": "$15.0 \\text{ ms}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 18,
+      "question": "What should be the value of self inductance of an inductor that should be connected to $220\\text{ V}$, $50\\text{ Hz}$ supply so that a maximum current of $0.9\\text{ A}$ flows through it ?",
+      "options": {
+        "A": "$11\\text{ H}$",
+        "B": "$2\\text{ H}$",
+        "C": "$1.1\\text{ H}$",
+        "D": "$5\\text{ H}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 19,
+      "question": "The peak value of an alternating current is $5\\text{ A}$ and its frequency is $60\\text{ Hz}$. Find its rms value and time taken to reach the peak value of current starting from zero.",
+      "options": {
+        "A": "$3.536\\text{ A ; } 4.167\\text{ ms}$",
+        "B": "$3.536\\text{ A ; } 15\\text{ ms}$",
+        "C": "$6.07\\text{ A ; } 10\\text{ ms}$",
+        "D": "$2.536\\text{ A ; } 4.167\\text{ ms}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 23,
+      "question": "The output power in step-up transformer used in practice is ________.",
+      "options": {
+        "A": "Greater than the input power",
+        "B": "Equal to the input power",
+        "C": "Less than the input power",
+        "D": "None of these"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 24,
+      "question": "A lamp consumes only $50\\%$ of maximum power applied in an A.C. circuit. What will be the phase difference between applied voltage and circuit current?",
+      "options": {
+        "A": "$\\pi/6 \\text{ rad}$",
+        "B": "$\\pi/3 \\text{ rad}$",
+        "C": "$\\pi/4 \\text{ rad}$",
+        "D": "$\\pi/2 \\text{ rad}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 25,
+      "question": "An electric current has both D.C. and A.C. Components D.C. Component of $8 \\text{A}$ and A.C. Component is given as $I = 6 \\sin \\omega t$. So $I_{\\text{rms}}$ value of resultant current is ________.",
+      "options": {
+        "A": "$8.05 \\text{ A}$",
+        "B": "$9.05 \\text{ A}$",
+        "C": "$11.58 \\text{ A}$",
+        "D": "$13.58 \\text{ A}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 19,
+      "question": "A current of $\\frac{25}{\\pi}\\text{ Hz}$ frequency is passing through an A.C. circuit having series combination of $R = 100\\text{ }\\Omega$ and $L = 2\\text{ H}$, the phase difference between voltage and current is ________.",
+      "options": {
+        "A": "60^{\\circ}",
+        "B": "90^{\\circ}",
+        "C": "30^{\\circ}",
+        "D": "45^{\\circ}"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "number": 20,
+      "question": "In A.C. circuit having only capacitor, the current ________.",
+      "options": {
+        "A": "leads the voltage by \\frac{\\pi}{2} in phase",
+        "B": "lags behind the voltage by \\frac{\\pi}{2} in phase",
+        "C": "leads the voltage by \\pi in phase",
+        "D": "lags behind the voltage by \\pi in phase"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 21,
+      "question": "An alternating voltage given as $V = 100\\sqrt{2}\\sin 100t\\text{ volt}$ is applied to a capacitor of $1\\text{ }\\mu\\text{F}$. The current reading of the ammeter will be equal to ________ $\\text{mA}$.",
+      "options": {
+        "A": "20",
+        "B": "10",
+        "C": "40",
+        "D": "80"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 31,
+      "question": "In an AC circuit, current is 3 A and voltage 210 V and power is 63 W. The power factor is",
+      "options": {
+        "A": "0.11",
+        "B": "0.09",
+        "C": "0.08",
+        "D": "0.10"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 32,
+      "question": "For an A.C given by $I = 50 \\cos(100t + 45^\\circ)$A. The value of $I_{rms} = ______$ A.",
+      "options": {
+        "A": "Zero",
+        "B": "$50\\sqrt{2}$",
+        "C": "25",
+        "D": "$25\\sqrt{2}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 33,
+      "question": "An A.C voltage $V = 5 \\cos(1000t)$ V is applied to a L-R series circuit of inductance 3 mH and resistance 4 $\\Omega$. The value of maximum current in the circuit is _____ A.",
+      "options": {
+        "A": "0.8",
+        "B": "1.0",
+        "C": "5/7",
+        "D": "5/\\sqrt{7}"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 22,
+      "question": "A lamp consumes only $50\\%$ of maximum power in an A.C. circuit. What is the phase difference between the applied voltage and the circuit current?",
+      "options": {
+        "A": "$\\frac{\\pi}{6}$",
+        "B": "$\\frac{\\pi}{3}$",
+        "C": "$\\frac{\\pi}{4}$",
+        "D": "$\\frac{\\pi}{2}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 23,
+      "question": "A capacitor 'C' is connected across a D.C. source, the reactance of capacitor will be ___",
+      "options": {
+        "A": "LOW",
+        "B": "HIGH",
+        "C": "ZERO",
+        "D": "INFINITE"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 35,
+      "question": "A sinusoidal A.C. current flows through a resistor of resistance $10\\Omega$. If the peak current is $2\\text{A}$ flowing through the resistor then the power dissipated in ____ $\\text{W}$.",
+      "options": {
+        "A": "$10$",
+        "B": "$20$",
+        "C": "$30$",
+        "D": "$40$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 37,
+      "question": "If in an A.C., L-C series circuit $X_C > X_L$. Hence potential ..............",
+      "options": {
+        "A": "Lags behind the current by $\\pi$ in phase",
+        "B": "Leads the current by $\\frac{\\pi}{2}$ in phase",
+        "C": "Leads the current by $\\pi$ in phase",
+        "D": "Lags behind the current by $\\frac{\\pi}{2}$ in phase"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 38,
+      "question": "In L-C-R, A.C. series circuit, $L = 9\\text{H}$, $R = 10\\Omega$ & $C = 100\\mu\\text{F}$. Hence Q-factor of the circuit is .........",
+      "options": {
+        "A": "30",
+        "B": "35",
+        "C": "45",
+        "D": "25"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 32,
+      "question": "A bulb of $100\\text{ W}$ rating is connected with $220\\text{ V}$ supply. The resistance of bulb is .........",
+      "options": {
+        "A": "$484\\text{ m}^{-1}$",
+        "B": "$484\\text{ }\\Omega$",
+        "C": "$2.2\\text{ }\\Omega$",
+        "D": "$2.2 \\times 10^{-3}\\text{ m}^{-1}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 33,
+      "question": "A sine voltage having maximum value of $283\\text{ V}$ & frequency of $50\\text{ Hz}$ is applied to LCR series connection where $R = 3\\text{ }\\Omega$, $L = 25.48\\text{ mH}$ & $C = 796\\text{ }\\mu\\text{F}$. Then impedance is ........ at resonance condition.",
+      "options": {
+        "A": "$5$",
+        "B": "$15$",
+        "C": "$3$",
+        "D": "$4$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 34,
+      "question": "What is correct for real transformer?",
+      "options": {
+        "A": "$P_i > P_0$",
+        "B": "$P_i < P_0$",
+        "C": "$P_i = P_0$",
+        "D": "All are correct"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 1,
+      "question": "For LCR ac series circuits, $L = 25\\text{ mH}$, $R = 3\\Omega$, $C = 62.5\\text{ }\\mu\\text{F}$. What is the frequency of the sources at which resonance occurs?",
+      "options": {
+        "A": "127.39 Hz",
+        "B": "35.40 Hz",
+        "C": "100 Hz",
+        "D": "21 Hz"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 2,
+      "question": "For a series LCR circuit with $L = 2\\text{ H}$, $C = 18\\text{ }\\mu\\text{F}$ and $R = 10\\text{ }\\Omega$. What is the value Q-factor of this circuit?",
+      "options": {
+        "A": "22.22",
+        "B": "55.55",
+        "C": "44.44",
+        "D": "33.33"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 40,
+      "question": "A $50\\text{ }\\mu\\text{F}$ capacitor is connected to a $110\\text{ V}$, $60\\text{ Hz}$ ac supply. Determine the rms value of the current in the circuit.",
+      "options": {
+        "A": "5.2 A",
+        "B": "2.5 A",
+        "C": "3.8 A",
+        "D": "2.1 A"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 2,
+      "question": "For an ideal transformer, if $N_s > N_p$ then ________.",
+      "options": {
+        "A": "$V_s < V_p$",
+        "B": "$V_s > V_p$",
+        "C": "$V_s = V_p$",
+        "D": "None of these"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 3,
+      "question": "A charged $10\\mu\\text{F}$ capacitor is connected to a $16\\text{mH}$ inductor. What is the angular frequency of free oscillations of the circuit?",
+      "options": {
+        "A": "$250\\text{ rad s}^{-1}$",
+        "B": "$25\\text{ rad s}^{-1}$",
+        "C": "$1111\\text{ rad s}^{-1}$",
+        "D": "$2500\\text{ rad s}^{-1}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 31,
+      "question": "A pure inductor of 25.48 mH and a pure resistor of $8 \\, \\Omega$ are connected in series with an A.C. source of frequency 50 Hz. The phase difference between current (I) and voltage (V) in this circuit is ________.",
+      "options": {
+        "A": "$45^{\\circ}$",
+        "B": "$30^{\\circ}$",
+        "C": "$60^{\\circ}$",
+        "D": "$90^{\\circ}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 32,
+      "question": "The charge of the capacitor in L-C oscillatory circuit, when the energy associated with inductor and capacitor are equal, is ________. [$Q_0$ is the initial charge on the capacitor].",
+      "options": {
+        "A": "$\\frac{Q_0}{2}$",
+        "B": "$Q_0$",
+        "C": "$\\frac{Q_0}{\\sqrt{3}}$",
+        "D": "$\\frac{Q_0}{\\sqrt{2}}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 33,
+      "question": "The output of a stepdown transformer is measured to be 24V when connected to a 12 watt light bulb. The value of peak current ($I_m$) is ________ A.",
+      "options": {
+        "A": "1.41",
+        "B": "0.71",
+        "C": "2",
+        "D": "2.83"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 37,
+      "question": "A pure inductor of $50.0\\text{ mH}$ is connected to a source of $220\\text{ V}$. Then rms current in the circuit will be ________. The frequency of the source is $50\\text{Hz}$.",
+      "options": {
+        "A": "$21\\text{ A}$",
+        "B": "$7\\text{ A}$",
+        "C": "$14\\text{ A}$",
+        "D": "$28\\text{ A}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 38,
+      "question": "In LCR series a.c. circuit at resonance the value of power factor will be ________.",
+      "options": {
+        "A": "$\\infty$",
+        "B": "$1$",
+        "C": "$-1$",
+        "D": "$0$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 39,
+      "question": "If the primary coil of a transformer has $100$ turns and the secondary has $200$ turns. Then for a input of $220\\text{ V}$ at $10\\text{ A}$ find output current, in step up transformer.",
+      "options": {
+        "A": "$5.0\\text{ A}$",
+        "B": "$50.0\\text{ A}$",
+        "C": "$0.5\\text{ A}$",
+        "D": "$0.05\\text{ A}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 40,
+      "question": "For obtaining wattless current ________ is connected with a.c. supply.",
+      "options": {
+        "A": "Only R",
+        "B": "$R - L$ in series",
+        "C": "Only L",
+        "D": "$R - C$ in series"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 1,
+      "question": "What is the approximate percentage value of maximum voltage to its rms value in LCR AC circuit?",
+      "options": {
+        "A": "22.8%",
+        "B": "70.7%",
+        "C": "50%",
+        "D": "141.4%"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 2,
+      "question": "In which of the following AC circuit, we get the value of power factor 1 at resonance condition?",
+      "options": {
+        "A": "LCR series circuit",
+        "B": "CR series circuit",
+        "C": "Only inductor (L) circuit",
+        "D": "LR series circuit"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 3,
+      "question": "The output voltage of a step-down transformer is measured to be 24V, when connected to a 12 watt light bulb. The value of the peak current is ________.",
+      "options": {
+        "A": "2\\sqrt{2} \\text{ A}",
+        "B": "\\sqrt{2} \\text{ A}",
+        "C": "2 \\text{ A}",
+        "D": "\\frac{1}{\\sqrt{2}} \\text{ A}"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 40,
+      "question": "In an AC generator, induced emf $\\epsilon = 0$ at $t = 0$, then its value ________.",
+      "options": {
+        "A": "minimum at time $\\frac{2\\pi}{3\\omega}$",
+        "B": "minimum at time $\\frac{\\pi}{2\\omega}$",
+        "C": "maximum at time $\\frac{2\\pi}{\\omega}$",
+        "D": "maximum at time $\\frac{\\pi}{2\\omega}$"
+      },
+      "answer": "D"
+    }
+  ]
+}

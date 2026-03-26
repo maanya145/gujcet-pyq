@@ -1,0 +1,475 @@
+{
+  "subject": "chemistry",
+  "chapter": "Solutions",
+  "total_questions": 39,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 44,
+      "question": "Freezing point of urea solution is $-0.6^\\circ\\text{C}$. How much urea (M.W. $= 60\\text{ gm/mole}$) required to dissolved in $3\\text{ kg}$ water? ($K_f = 1.5^\\circ\\text{C kg mol}^{-1}$)",
+      "options": {
+        "A": "$3.6\\text{ gm}$",
+        "B": "$2.4\\text{ gm}$",
+        "C": "$7.2\\text{ gm}$",
+        "D": "$6.0\\text{ gm}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2007,
+      "number": 47,
+      "question": "Which of the following acts as best semipermeable membrane?",
+      "options": {
+        "A": "Parchment paper",
+        "B": "$\\text{Cu}_2[\\text{Fe}(\\text{CN})_6]$",
+        "C": "Plant cell wall",
+        "D": "Cellophane"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2008,
+      "number": 45,
+      "question": "Find out the osmotic pressure of 0.25 M aqueous solution of Urea at 27°C. ($R = 0.082 \\text{ Lit. atm./mol. K.}$, $R = 1.987 \\text{ Cal.}$)",
+      "options": {
+        "A": "0.615 atm",
+        "B": "6.15 atm",
+        "C": "61.5 atm",
+        "D": "0.0615 atm"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 46,
+      "question": "The increase in boiling point of a solution containing $0.6 \\text{ gram}$ Urea in $200 \\text{ gram}$ water is $0.50^\\circ\\text{C}$. Find the molal elevation constant.",
+      "options": {
+        "A": "$1.0 \\text{ K kg mole}^{-1}$",
+        "B": "$10 \\text{ K kg mol}$",
+        "C": "$10 \\text{ K gram mol}^{-1}$",
+        "D": "$10 \\text{ K kg mole}^{-1}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 46,
+      "question": "Choose the correct statement : When concentration of a salt solution is increased .......",
+      "options": {
+        "A": "Boiling point increases while vapour pressure decreases.",
+        "B": "Boiling point decreases while vapour pressure increases.",
+        "C": "Freezing point decreases while vapour pressure increases.",
+        "D": "Freezing point increases while vapour pressure decreases."
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 43,
+      "question": "What will be the value of molality for an aqueous solution of $10\\% \\text{ w/w}$ $\\text{NaOH}$. ($\\text{Na} = 23, \\text{O} = 16, \\text{H} = 1$)",
+      "options": {
+        "A": "$2.778$",
+        "B": "$5$",
+        "C": "$10$",
+        "D": "$2.5$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 44,
+      "question": "From the given graph at constant temperature, which gas has the least solubility? [Diagram]",
+      "options": {
+        "A": "gas - D",
+        "B": "gas - B",
+        "C": "gas - A",
+        "D": "gas - C"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 45,
+      "question": "If $10 \\text{ ml}$ of $0.1 \\text{ M}$ aqueous solution of $\\text{NaCl}$ is divided in to $1000 \\text{ drops}$ of equal volume, what will be the concentration of one drop?",
+      "options": {
+        "A": "$0.01 \\text{ M}$",
+        "B": "$0.10 \\text{ M}$",
+        "C": "$0.001 \\text{ M}$",
+        "D": "$0.0001 \\text{ M}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 75,
+      "question": "The boiling points for aqueous solutions of sucrose and urea are same at constant temperature. If $3\\text{ gm}$ of urea is dissolved in its $1\\text{ litre}$ solution, what is the weight of sucrose dissolved in its $1\\text{ litre}$ solution? [Urea - $60\\text{ gm/mole}$, sucrose = $342\\text{ gm/mole}$]",
+      "options": {
+        "A": "17.1 gram",
+        "B": "3.0 gram",
+        "C": "6.0 gram",
+        "D": "34.2 gram"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 76,
+      "question": "Which option is inconsistant for Raoult's law?",
+      "options": {
+        "A": "The change in heat of dilution for solution = 0",
+        "B": "Volume of liquid solvent + volume of liquid solute = volume of solution",
+        "C": "Solute does not undergo association in solution",
+        "D": "Solute undergoes dissociation in solution"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "number": 77,
+      "question": "Which colligative property is more useful to determine the molecular weight of the substances like proteins and polymers?",
+      "options": {
+        "A": "Elevation in boiling point",
+        "B": "Lowering of vapour pressure",
+        "C": "Depression of freezing point",
+        "D": "Osmotic pressure"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 51,
+      "question": "The depression in freezing point for 0.01 m aqueous solution of $\\text{K}_x\\text{[Fe(CN)}_6]$ is 0.0744 K. The molal depression constant for solvent is 1.86 K kg $\\text{mol}^{-1}$. If the solute undergoes complete dissociation, what is the correct molecular formula for the solute?",
+      "options": {
+        "A": "$\\text{K}_2\\text{[Fe(CN)}_6]$",
+        "B": "$\\text{K}_3\\text{[Fe(CN)}_6]$",
+        "C": "$\\text{K[Fe(CN)}_6]$",
+        "D": "$\\text{K}_4\\text{[Fe(CN)}_6]$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 52,
+      "question": "At certain temperature 1.6% solution of an unknown substance is isotonic with 2.4% solution of Urea. If both the solutions have the same solvent and both the solutions have same density 1 $\\text{gm/cm}^3$, what will be the molecular mass of unknown substance in $\\text{gm/mol}$.",
+      "options": {
+        "A": "30",
+        "B": "40",
+        "C": "80",
+        "D": "90"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 53,
+      "question": "Which of the following aqueous solution will have the boiling point 102.2°C? The molal elevation constant for water is 2.2 K kg $\\text{mol}^{-1}$.",
+      "options": {
+        "A": "1 m $\\text{CH}_3\\text{COOH}$",
+        "B": "1 m NaCl",
+        "C": "1 M NaCl",
+        "D": "1 m glucose"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 44,
+      "question": "Which of the following mixture is non-ideal solution?",
+      "options": {
+        "A": "Chlorobenzene and bromobenzene",
+        "B": "Benzene and toluene",
+        "C": "Chloroform and acetone",
+        "D": "Bromoethane and chloroethane"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 45,
+      "question": "Which solution is isotonic with $6\\%\\text{ w/v}$ aqueous solution of urea? [Mole mass of Urea = $60\\text{ gm. mol}^{-1}$]",
+      "options": {
+        "A": "$0.1\\text{ M NaCl}$",
+        "B": "$0.5\\text{ M NaCl}$",
+        "C": "$0.25\\text{ M NaCl}$",
+        "D": "$1\\text{ M NaCl}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 57,
+      "question": "Calculate Van't Hoff factor (i) for an aqueous solution of $\\text{K}_3[\\text{Fe}(\\text{CN})_6]$ having a degree of dissociation ($\\alpha$) equal to 0.778.",
+      "options": {
+        "A": "2.334",
+        "B": "0.222",
+        "C": "3.334",
+        "D": "4.334"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 58,
+      "question": "If molality of a solution is 0.05 and elevation in boiling point is $0.16 \\text{ K}$ then, what is the molal elevation constant of the solvent?",
+      "options": {
+        "A": "2.3",
+        "B": "2.2",
+        "C": "1.6",
+        "D": "3.2"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 59,
+      "question": "The value of which of the following unit of concentration will not change with the change in temperature?",
+      "options": {
+        "A": "Formality",
+        "B": "Normality",
+        "C": "Molality",
+        "D": "Molarity"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 57,
+      "question": "Maximum amount of a solid solute that can be dissolved in a specified amount of a given liquid solvent does not depend upon .......... (i) Temperature (ii) Nature of Solute (iii) Pressure (iv) Nature of Solvent",
+      "options": {
+        "A": "(ii)",
+        "B": "(i) & (iii)",
+        "C": "(ii) & (iv)",
+        "D": "(iii)"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 58,
+      "question": "The molality of aqueous solution of any solute having mole fraction $0.25$ is ........",
+      "options": {
+        "A": "$16.67\\text{ m}$",
+        "B": "$18.52\\text{ m}$",
+        "C": "$33.33\\text{ m}$",
+        "D": "$9.26\\text{ m}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 59,
+      "question": "The osmotic pressure of $0.5\\text{ M}$ aqueous solution of $\\text{CH}_3\\text{COOH}$ having $2\\text{pH}$ at temperature T is ......",
+      "options": {
+        "A": "$1.02\\text{ RT}$",
+        "B": "$0.051\\text{ RT}$",
+        "C": "$0.51\\text{ RT}$",
+        "D": "$0.102\\text{ RT}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 66,
+      "question": "Which of the following aqueous solutions should have the minimum boiling point?",
+      "options": {
+        "A": "0.1 M Urea",
+        "B": "0.1 M $\\text{K}_2\\text{SO}_4$",
+        "C": "0.1 M NaCl",
+        "D": "0.1 M $\\text{FeCl}_3$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2021,
+      "number": 67,
+      "question": "3.0 gram ethanoic acid in 50 gram benzene having __________ molality? (Atomic weights : H = 1, C = 12, O = 16).",
+      "options": {
+        "A": "0.1",
+        "B": "1.0",
+        "C": "0.6",
+        "D": "0.06"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 68,
+      "question": "Which method is used to remove salts from sea water?",
+      "options": {
+        "A": "Hydraulic washing",
+        "B": "Leaching",
+        "C": "Reverse osmosis",
+        "D": "Froth Floatation"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 67,
+      "question": "Calculate the mole fraction of aqueous solution of $1\\text{ molal}$ urea ($\\text{NH}_2\\text{CONH}_2$)",
+      "options": {
+        "A": "0.01878",
+        "B": "0.01768",
+        "C": "0.01800",
+        "D": "0.01698"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 68,
+      "question": "Value of Henry's constant $K_H$ ________.",
+      "options": {
+        "A": "no effect by changing temperature",
+        "B": "decreases with increase in temperature",
+        "C": "increases with increase in temperature",
+        "D": "first decreases and then increases by increase in temperature"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 69,
+      "question": "What is value of Van't Hoff factor (i) when $80\\%$ of $\\text{CaCl}_2$ dissociates?",
+      "options": {
+        "A": "2.70",
+        "B": "2.40",
+        "C": "3",
+        "D": "2.30"
+      },
+      "answer": null
+    },
+    {
+      "year": 2023,
+      "number": 55,
+      "question": "Which of the following aqueous solution has highest boiling point?",
+      "options": {
+        "A": "$0.1 \\text{ M KNO}_3$",
+        "B": "$0.1 \\text{ M urea}$",
+        "C": "$0.1 \\text{ M K}_4[\\text{Fe(CN)}_6]$",
+        "D": "$0.1 \\text{ M NH}_4\\text{NO}_3$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 56,
+      "question": "We have three aqueous solutions of $\\text{CH}_3\\text{COONa}$ labelled as A, B and C with concentration 0.1 M; 0.01 M and 0.001 M respectively. The value of Van't Hoff factor (i) for these solutions will be in order ________.",
+      "options": {
+        "A": "$i_A > i_B > i_C$",
+        "B": "$i_A < i_B < i_C$",
+        "C": "$i_A = i_B = i_C$",
+        "D": "$i_A < i_B > i_C$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 57,
+      "question": "What is the osmotic pressure ($\\pi$) of 0.02 M solution of NaCl?",
+      "options": {
+        "A": "0.01 RT",
+        "B": "0.02 RT",
+        "C": "0.04 RT",
+        "D": "0.002 RT"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 60,
+      "question": "Calculate the mass of Glucose ($\text{C}_6\text{H}_{12}\text{O}_6$) required in making 2.5 kg of 0.25 molal aqueous solution. [Atomic wt : H = 1, O = 16, C = 12 amu]",
+      "options": {
+        "A": "135.0 g",
+        "B": "107.65 g",
+        "C": "90.0 g",
+        "D": "112.5 g"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 61,
+      "question": "The vapour pressure of pure liquids 'P' and 'Q' are 450 and 750 mm of Hg respectively at 350 K. If total vapour pressure is 600 mm of Hg, the mole fractions of 'P' and 'Q' respectively will be ______ and ______.",
+      "options": {
+        "A": "0.7 and 0.3",
+        "B": "0.4 and 0.6",
+        "C": "0.6 and 0.4",
+        "D": "0.5 and 0.5"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 62,
+      "question": "The freezing point depression of 645 g of aqueous solution of ethylene glycol ($\text{C}_2\text{H}_6\text{O}_2$) is 2.25 K. Find weight of ethylene glycol in the solution. [$\text{K}_f = 1.86 \text{ K kg mol}^{-1}$; H = 1, C = 12, O = 16 amu]",
+      "options": {
+        "A": "45.0 g",
+        "B": "42.50 g",
+        "C": "48.375 g",
+        "D": "50 g"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 63,
+      "question": "Van't Hoff factor (i) for dilute aqueous solution of $\text{K}_4[\text{Fe}(\text{CN})_6]$, $\text{Fe}_4[\text{Fe}(\text{CN})_6]_3$ and $[\text{CoCl}_2(\text{en})_2]\text{Cl}$ are respectively ______, ______, ______.",
+      "options": {
+        "A": "2, 7, 5",
+        "B": "2, 5, 7",
+        "C": "5, 7, 2",
+        "D": "7, 5, 2"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 73,
+      "question": "What will be mass percentage of aqueous solution of $\\text{NaOH}$ in which mole fraction of $\\text{NaOH}$ is 0.2?",
+      "options": {
+        "A": "$64.86\\% \\text{ W/W}$",
+        "B": "$35.71\\% \\text{ W/W}$",
+        "C": "$23.38\\% \\text{ W/W}$",
+        "D": "$27.78\\% \\text{ W/W}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 74,
+      "question": "For which of the following mixture $\\Delta_{\\text{mix}} H > 0$?",
+      "options": {
+        "A": "$\\text{CHCl}_3 + \\text{CH}_3\\text{COCH}_3$",
+        "B": "$\\text{C}_6\\text{H}_5\\text{NH}_2 + \\text{C}_6\\text{H}_5\\text{OH}$",
+        "C": "$\\text{C}_2\\text{H}_5\\text{OH} + \\text{CH}_3\\text{COCH}_3$",
+        "D": "$\\text{C}_6\\text{H}_6 + \\text{C}_6\\text{H}_5\\text{CH}_3$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 75,
+      "question": "Which is the correct order for solubility of following compound in n-octane (at Identical Condition) I) Cyclohexane II) $\\text{KCl}$ III) $\\text{CH}_3\\text{OH}$ IV) $\\text{CH}_3\\text{CN}$",
+      "options": {
+        "A": "II < III < IV < I",
+        "B": "II < IV < III < I",
+        "C": "I < IV < III < II",
+        "D": "I < III < IV < II"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 76,
+      "question": "____ solution is hypertonic with reference to fluid inside the blood cell.",
+      "options": {
+        "A": "$0.8\\% \\text{ W/V NaCl}$",
+        "B": "$0.6\\% \\text{ W/V NaCl}$",
+        "C": "$0.9\\% \\text{ W/V NaCl}$",
+        "D": "$1.2\\% \\text{ W/V NaCl}$"
+      },
+      "answer": "A"
+    }
+  ]
+}

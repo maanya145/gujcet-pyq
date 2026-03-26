@@ -1,0 +1,19 @@
+{
+  "subject": "chemistry",
+  "chapter": "Chemical Bonding and Molecular Structure",
+  "total_questions": 1,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 67,
+      "question": "Which of the following is correct based on Molecular orbital theory for peroxide ion?",
+      "options": {
+        "A": "Its bond order is two and it is diamagnetic",
+        "B": "Its bond order is one and it is paramagnetic",
+        "C": "Its bond order is two and it is paramagnetic",
+        "D": "Its bond order is one and it is diamagnetic"
+      },
+      "answer": "D"
+    }
+  ]
+}

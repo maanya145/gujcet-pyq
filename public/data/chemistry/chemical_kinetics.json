@@ -1,0 +1,523 @@
+{
+  "subject": "chemistry",
+  "chapter": "Chemical Kinetics",
+  "total_questions": 43,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 41,
+      "question": "Unit of $K$ for third order reaction is .............",
+      "options": {
+        "A": "$(\\frac{\\text{Litre}}{\\text{Mole}})^2 \\cdot \\text{sec}^{-1}$",
+        "B": "$(\\frac{\\text{Mole}}{\\text{Litre}})^2 \\cdot \\text{sec}^{-1}$",
+        "C": "$(\\frac{\\text{Litre}}{\\text{Mole}})^{-1} \\cdot \\text{sec}^{-1}$",
+        "D": "$(\\frac{\\text{Mole}}{\\text{Litre}})^{-2} \\cdot \\text{sec}^{-1}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2007,
+      "number": 42,
+      "question": "A reaction is of the first order relative to $A$ and is of second order relative to $B$. What will be the effect on rate if the concentrations of $A$ and $B$ are doubled?",
+      "options": {
+        "A": "Velocity remains constant",
+        "B": "4 times",
+        "C": "2 times",
+        "D": "8 times"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2008,
+      "number": 50,
+      "question": "The order of a reaction for an esterification process is ....",
+      "options": {
+        "A": "First",
+        "B": "Zero",
+        "C": "Pseudo First order",
+        "D": "Second order"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 51,
+      "question": "Which equation is true to calculate the energy of activation, if the rate of reaction is doubled by increasing temperature from $T_1 \\text{ K}$ to $T_2 \\text{ K}$.",
+      "options": {
+        "A": "$\\log_{10} \\frac{K_2}{K_1} = \\frac{E_a}{2.303 R} \\left[ \\frac{1}{T_2} - \\frac{1}{T_1} \\right]$",
+        "B": "$\\log_{10} \\frac{K_1}{K_2} = \\frac{E_a}{2.303 R} \\left[ \\frac{1}{T_1} - \\frac{1}{T_2} \\right]$",
+        "C": "$\\log_{10} 2 = \\frac{E_a}{2.303 R} \\left[ \\frac{1}{T_1} - \\frac{1}{T_2} \\right]$",
+        "D": "$\\log_{10} \\frac{1}{2} = \\frac{E_a}{2.303} \\left[ \\frac{1}{T_2} - \\frac{1}{T_1} \\right]$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 52,
+      "question": "When plotted a graph of concentration $\\rightarrow$ Time for zero order reaction, then the value of Slope is -",
+      "options": {
+        "A": "$- 2.303 \\times K$",
+        "B": "$- \\frac{K}{2.303}$",
+        "C": "$- \\frac{E_a}{2.303 R}$",
+        "D": "- K"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 52,
+      "question": "For Fourth Order Reaction, what is the unit of $K$ ?",
+      "options": {
+        "A": "$(\\text{mole} / \\text{litre})^{-3}$",
+        "B": "$(\\text{mole} / \\text{litre})^{-3} \\text{ second}$",
+        "C": "$(\\text{mol} / \\text{litre})^{+3} \\text{ second}^{-1}$",
+        "D": "$(\\text{mole} / \\text{litre})^{-3} \\text{ second}^{-1}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 53,
+      "question": "What is the formula to find the value of $t_{1/2}$ for a Zero Order Reaction ?",
+      "options": {
+        "A": "$\\frac{0.693}{K}$",
+        "B": "$\\frac{[R]_0}{2K}$",
+        "C": "$\\frac{2K}{[R]_0}$",
+        "D": "$\\frac{K}{[R]_0}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 52,
+      "question": "For a First order reaction, the initial concentration of a reactant is $0.05\\text{ M}$. After $45\\text{ minutes}$ it is decreased by $0.015\\text{ M}$. Calculate half reaction time. $(t_{1/2})$",
+      "options": {
+        "A": "$87.42\\text{ min.}$",
+        "B": "$25.90\\text{ min.}$",
+        "C": "$78.72\\text{ min.}$",
+        "D": "$77.20\\text{ min.}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 53,
+      "question": "Give relation between half reaction time $(t_{1/2})$ and initial concentration of reactant for $(n - 1)$ order reaction.",
+      "options": {
+        "A": "$t_{1/2} \\propto [\\text{R}]_0$",
+        "B": "$t_{1/2} \\propto [\\text{R}]_0^{2-n}$",
+        "C": "$t_{1/2} \\propto [\\text{R}]_0^{n+1}$",
+        "D": "$t_{1/2} \\propto [\\text{R}]_0^{n-2}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 59,
+      "question": "The half life period for a first order reaction is ________.",
+      "options": {
+        "A": "Proportional to concentration",
+        "B": "Independent of concentration",
+        "C": "Inversely proportional to concentration",
+        "D": "Inversely proportional to the square of the concentration"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 60,
+      "question": "According to Arrhenius equation, the slope of $\\log k \\rightarrow \\frac{1}{\\text{T}}$ plot is ________.",
+      "options": {
+        "A": "$\\frac{-\\text{Ea}}{2.303}$",
+        "B": "$\\frac{-\\text{Ea}}{2.303\\text{R}}$",
+        "C": "$\\frac{-\\text{Ea}}{2.303\\text{RT}}$",
+        "D": "$\\frac{\\text{Ea}}{2.303\\text{RT}}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 61,
+      "question": "The value of rate constant for a first order reaction is $2.303 \\times 10^{-2} \\text{ sec}^{-1}$. What will be the time required to reduce the concentration to $1/10$ th of its initial concentration?",
+      "options": {
+        "A": "$10 \\text{ second}$",
+        "B": "$100 \\text{ second}$",
+        "C": "$2303 \\text{ second}$",
+        "D": "$230.3 \\text{ second}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 51,
+      "question": "Total order of reaction $X + Y \\rightarrow XY$ is 3. The order of reaction with respect to X is 2. State the differential rate equation for the reaction.",
+      "options": {
+        "A": "-\\frac{d[X]}{dt} = K[X]^2[Y]^1",
+        "B": "-\\frac{d[X]}{dt} = K[X]^1[Y]^1",
+        "C": "-\\frac{d[X]}{dt} = K[X]^2[Y]",
+        "D": "-\\frac{d[X]}{dt} = K[X][Y]^2"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "number": 52,
+      "question": "$X \\xrightarrow{\\text{Step-I}} Y \\xrightarrow{\\text{Step-II (slow)}} Z$ is a complex reaction. Total order of reaction is 2 and Step - II is slow step. What is molecularity of Step-II?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 53,
+      "question": "Reaction $3\\text{ClO}^- \\rightarrow \\text{ClO}_3^- + 2\\text{Cl}^-$ occurs in following two steps. (i) $\\text{ClO}^- + \\text{ClO}^- \\xrightarrow{K_1} \\text{ClO}_2^- + \\text{Cl}^-$ (Slow step) (ii) $\\text{ClO}_2^- + \\text{ClO}^- \\xrightarrow{K_2} \\text{ClO}_3^- + \\text{Cl}^-$ (Fast step) then the rate of given reaction = ________.",
+      "options": {
+        "A": "K_1[\\text{ClO}^-]",
+        "B": "K_1[\\text{ClO}^-]^2",
+        "C": "K_2[\\text{ClO}_2^-][\\text{ClO}^-]",
+        "D": "K_2[\\text{ClO}^-]^3"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 67,
+      "question": "At 298 K temperature the activation energy for the reaction $x_2 + y_2 \\rightarrow 2xy + 20$ kJ is 15 kJ. What will be the activation energy for the reaction $2xy \\rightarrow x_2 + y_2$?",
+      "options": {
+        "A": "– 15 kJ",
+        "B": "+ 35 kJ",
+        "C": "– 5 kJ",
+        "D": "– 35 kJ"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 68,
+      "question": "The half-life period for a radioactive substance is 15 minutes. How many grams of this radioactive substance is decayed from 50 gram of substance after one hour?",
+      "options": {
+        "A": "37.5",
+        "B": "25",
+        "C": "43.75",
+        "D": "46.875"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 69,
+      "question": "The rate constant value for a reaction is $1.75 \\times 10^2 \\text{ L}^2 \\text{ mol}^{-2} \\text{ sec}^{-1}$. The half-life period $t_{1/2} \\propto$ ____ .",
+      "options": {
+        "A": "$[R_0]^{-1}$",
+        "B": "$[R_0]^{-2}$",
+        "C": "$[R_0]^2$",
+        "D": "$[R_0]$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 59,
+      "question": "The units for the rate constant and the rate of reaction are same for a reaction. What will be the order of the reaction?",
+      "options": {
+        "A": "First",
+        "B": "Zero",
+        "C": "Second",
+        "D": "Third"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 60,
+      "question": "At $27^\\circ\\text{C}$ temperature, time required for $75\\%$ completion of a first order reaction is $20\\text{ seconds}$. What will be its rate constant?",
+      "options": {
+        "A": "$0.693\\text{ sec}^{-1}$",
+        "B": "$0.0693\\text{ sec}^{-1}$",
+        "C": "$0.693\\text{ sec}^{-1}\\text{ mole}^{-1}\\text{ lt}$",
+        "D": "$0.0693\\text{ sec}^{-1}\\text{ mole}^{-1}\\text{ lt}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 61,
+      "question": "Which statement is incorrect for a catalyst?",
+      "options": {
+        "A": "It decreases the activation energy of a reaction",
+        "B": "It increases the proportion of products in less time",
+        "C": "It does not affect the equilibrium constant",
+        "D": "It increases the free energy change for the reaction"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 73,
+      "question": "Instantaneous rate of reaction for the reaction $3A + 2B \\rightarrow 5C$ is ______",
+      "options": {
+        "A": "$+\\frac{1}{3} \\frac{d[A]}{dt} = -\\frac{1}{2} \\frac{d[B]}{dt} = -\\frac{1}{5} \\frac{d[C]}{dt}$",
+        "B": "$-\\frac{1}{3} \\frac{d[A]}{dt} = +\\frac{1}{2} \\frac{d[B]}{dt} = -\\frac{1}{5} \\frac{d[C]}{dt}$",
+        "C": "$-\\frac{1}{3} \\frac{d[A]}{dt} = -\\frac{1}{2} \\frac{d[B]}{dt} = +\\frac{1}{5} \\frac{d[C]}{dt}$",
+        "D": "$+\\frac{1}{3} \\frac{d[A]}{dt} = -\\frac{1}{2} \\frac{d[B]}{dt} = +\\frac{1}{5} \\frac{d[C]}{dt}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 74,
+      "question": "In a reaction $A \\rightarrow B$, if the concentration of reactant is increased by 9 times then rate of reaction increases 3 times. What is the order of reaction?",
+      "options": {
+        "A": "1/3",
+        "B": "1/2",
+        "C": "3",
+        "D": "2"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 75,
+      "question": "Which statement is incorrect for collision theory?",
+      "options": {
+        "A": "The reactant experiencing fruitful collisions are converted to products",
+        "B": "There must be certain minimum energy for the reactant experiencing collision",
+        "C": "The collision of the reactant molecules should be from any direction",
+        "D": "The collision between in the reacting molecules is essential"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 63,
+      "question": "In the presence of a catalyst, the heat evolved or absorbed during the reaction .......",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "May decrease or increases",
+        "D": "Remains unchanged"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 64,
+      "question": "Which of the following graph has intercept equal to zero?",
+      "options": {
+        "A": "$\\log \\frac{[R]_0}{[R]} \\to t$",
+        "B": "$\\log[R] \\to t$",
+        "C": "$\\log K \\to \\frac{1}{T}$",
+        "D": "$[R] \\to t$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 65,
+      "question": "Time required to decompose $\\text{SO}_2\\text{Cl}_2$ to half of its initial amount is $40\\text{ minutes}$. If the decomposition is a first order reaction, what will be the rate constant of the reaction?",
+      "options": {
+        "A": "$2.88 \\times 10^{-2}\\text{ s}^{-1}$",
+        "B": "$1.73 \\times 10^{-2}\\text{ s}^{-1}$",
+        "C": "$2.88 \\times 10^{-4}\\text{ s}^{-1}$",
+        "D": "$1.73 \\times 10^{-4}\\text{ s}^{-1}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 72,
+      "question": "For a reaction, $K = 4.5 \\times 10^{-4}\\text{ L mol}^{-1}\\text{ s}^{-1}$. What is order of reaction?",
+      "options": {
+        "A": "Zero",
+        "B": "Second",
+        "C": "First",
+        "D": "Third"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 73,
+      "question": "For first order reaction, the value of slope for graph of $\\log \\frac{[R]_0}{[R]} \\rightarrow t$ is __________.",
+      "options": {
+        "A": "$\\frac{K}{2.303}$",
+        "B": "$\\frac{2.303}{K}$",
+        "C": "-K",
+        "D": "$-\\frac{K}{2.303}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 74,
+      "question": "The rate constant for a first order reaction is $60\\text{ s}^{-1}$. How much second will it take to reduce the initial concentration of the reactant to its $1/16$th value?",
+      "options": {
+        "A": "$2.3 \\times 10^{-2}$",
+        "B": "$9.5 \\times 10^{-2}$",
+        "C": "$4.6 \\times 10^{-2}$",
+        "D": "$6.9 \\times 10^{-2}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 73,
+      "question": "What is the value of slope when graph plotted of $\\log \\frac{[R]_0}{[R]}$ Vs $t\\text{ (time)}$ for first order reaction?",
+      "options": {
+        "A": "$-\\frac{K}{2.303}$",
+        "B": "$\\frac{K}{2.303}$",
+        "C": "$-K$",
+        "D": "$\\frac{2.303}{K}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 74,
+      "question": "A reaction is first order with respect to a reactant A and second order with respect to reactant B. What is the effect of rate when concentration of both A and B increased by doubled?",
+      "options": {
+        "A": "Eight times",
+        "B": "Quadrupled",
+        "C": "Doubled",
+        "D": "Sixteen times"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 61,
+      "question": "For which of the following graph of first order reaction the value of slope will be $K/2.303$?",
+      "options": {
+        "A": "$\\log \\frac{[\\text{R}]_0}{[\\text{R}]} \\rightarrow t \\text{ (Time)}$",
+        "B": "$\\log \\frac{[\\text{R}]}{[\\text{R}]_0} \\rightarrow t \\text{ (Time)}$",
+        "C": "$\\ln \\frac{[\\text{R}]_0}{[\\text{R}]} \\rightarrow t \\text{ (Time)}$",
+        "D": "$\\ln \\frac{[\\text{R}]}{[\\text{R}]_0} \\rightarrow t \\text{ (Time)}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 62,
+      "question": "Which will be the unit of rate constant for the reaction having $\\text{Rate} = K[\\text{A}]^{1/2}.[\\text{B}]^{3/2}$?",
+      "options": {
+        "A": "$\\text{Second}^{-1}$",
+        "B": "$\\text{Mol/lit.Sec}^{-1}$",
+        "C": "$\\text{Mol}^{-1}\\text{.lit.Sec}^{-1}$",
+        "D": "$(\\text{Mol/lit})^2\\text{.Sec}^{-1}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 63,
+      "question": "A reaction is first order in terms of A and second order in terms of B. What will be the rate of reaction, if concentration of B is increased two times?",
+      "options": {
+        "A": "4-Times",
+        "B": "2-Times",
+        "C": "8-Times",
+        "D": "16-Times"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 68,
+      "question": "For any reaction the rate constant $\text{K} = 2.3 \times 10^{-5} \text{ mol}^{-3/2} \text{ L}^{3/2} \text{S}^{-1}$; then the order of reaction will be ______.",
+      "options": {
+        "A": "0.0 (zero)",
+        "B": "1.5",
+        "C": "0.5",
+        "D": "2.5"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 69,
+      "question": "Which of the following statements is incorrect for a reaction carried out in presence of catalyst?",
+      "options": {
+        "A": "Potential energy of reactants and products change",
+        "B": "Equilibrium constant of the reaction does not change",
+        "C": "There is no change in Gibbs energy of the reaction",
+        "D": "The activation energy of the reaction decreases"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 70,
+      "question": "Which of the following graphs is correct for a first order reaction $\text{R} \rightarrow \text{P}$?",
+      "options": {
+        "A": "$\text{log}[\text{R}]_0/[\text{R}]$ vs Time (linear)",
+        "B": "$t_{1/2}$ vs $[\text{R}]_0$ (linear decreasing)",
+        "C": "molar conc. [P] vs Time (exponential decay)",
+        "D": "$t_{1/2}$ vs $[\text{R}]_0$ (linear increasing)"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 71,
+      "question": "Reaction $2\text{A} \rightarrow \text{B} + 3\text{C}$ is zero order reaction. If $\text{K} = 3.5 \times 10^{-4} \text{ mol L}^{-1} \text{ S}^{-1}$; What will be the rate of production of 'C'?",
+      "options": {
+        "A": "$1.167 \times 10^{-4} \text{ mol L}^{-1} \text{ S}^{-1}$",
+        "B": "$10.5 \times 10^{-4} \text{ mol L}^{-1} \text{ S}^{-1}$",
+        "C": "$3.5 \times 10^{-4} \text{ mol L}^{-1} \text{ S}^{-1}$",
+        "D": "$7.0 \times 10^{-4} \text{ mol L}^{-1} \text{ S}^{-1}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 41,
+      "question": "Half life period for certain zero order reaction is $10\\text{ min}$. then how much time is required for this reaction to complete $100\\%$?",
+      "options": {
+        "A": "$20\\text{ min}$.",
+        "B": "$30\\text{ min}$.",
+        "C": "$60\\text{ min}$.",
+        "D": "$40\\text{ min}$."
+      },
+      "answer": null
+    },
+    {
+      "year": 2025,
+      "number": 42,
+      "question": "The half-life for radioactive decay of $^{14}\\text{C}$ is $5730\\text{ years}$. An archaeological artifact containing wood had only $80\\%$ of the $^{14}\\text{C}$ found in a living tree. Which is the correct formula for age $(t)$ of the sample?",
+      "options": {
+        "A": "$t = \\frac{0.3}{5730} \\log \\frac{20}{100}$",
+        "B": "$t = \\frac{5730}{0.3} \\log \\frac{100}{80}$",
+        "C": "$t = \\frac{0.3}{5730} \\log \\frac{100}{20}$",
+        "D": "$t = \\frac{5730}{0.3} \\log \\frac{80}{100}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2025,
+      "number": 43,
+      "question": "According to Arrhenius equation which of the following statement is correct?",
+      "options": {
+        "A": "Decrease in temperature or increase in Activation Energy will increase rate of reaction.",
+        "B": "Increase in temperature and increase in Activation Energy will increase rate of reaction.",
+        "C": "Increase in temperature or decrease in Activation Energy will increase rate of reaction.",
+        "D": "Decrease in temperature and decrease in Activation Energy will increase rate of reaction."
+      },
+      "answer": null
+    },
+    {
+      "year": 2025,
+      "number": 44,
+      "question": "Select correct reaction for the given rate. $\\text{rate} = -6 \\frac{d[A]}{dt} = -4 \\frac{d[B]}{dt} = 3 \\frac{d[C]}{dt} = 4 \\frac{d[D]}{dt}$",
+      "options": {
+        "A": "$2A + 3B \\rightarrow 4C + 3D$",
+        "B": "$6A + 4B \\rightarrow 3C + 4D$",
+        "C": "$3A + 2B \\rightarrow 3C + 4D$",
+        "D": "$3A + 2B \\rightarrow 4C + 3D$"
+      },
+      "answer": null
+    }
+  ]
+}

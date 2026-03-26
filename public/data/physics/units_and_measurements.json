@@ -1,0 +1,67 @@
+{
+  "subject": "physics",
+  "chapter": "Units and Measurements",
+  "total_questions": 5,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 6,
+      "question": "Write dimensional formula for the intensity of radiation.",
+      "options": {
+        "A": "$M^1L^0T^3$",
+        "B": "$M^1L^0T^{-3}$",
+        "C": "$M^1L^2T^{-2}$",
+        "D": "$M^1L^2T^{-3}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 25,
+      "question": "The dimensional formula of effective torsional constant of spring is..........",
+      "options": {
+        "A": "$M^0L^0T^0$",
+        "B": "$M^1L^2T^{-2}$",
+        "C": "$M^1L^2T^{-2}A^{-2}$",
+        "D": "$M^1L^2T^{-3}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 36,
+      "question": "The dimensional formula of JWL is ................. Take Q as the dimension of charge.",
+      "options": {
+        "A": "$M^1L^2T^{-2}Q^{-1}$",
+        "B": "$M^1L^2T^{-1}Q^{-2}$",
+        "C": "$M^1L^2T^{-2}Q^{-3}$",
+        "D": "$M^1L^2T^{-1}Q^{-1}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 25,
+      "question": "Dimensional formula of Electric flux = ________.",
+      "options": {
+        "A": "$M^1 L^{-3} T^{-3} A^{-1}$",
+        "B": "$M^1 L^3 T^3 A^{-1}$",
+        "C": "$M^1 L^3 T^{-3} A^{-1}$",
+        "D": "$M^{-1} L^3 T^{-3} A^{-1}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 10,
+      "question": "Js is the unit of ________ physical quantity.",
+      "options": {
+        "A": "Angular momentum",
+        "B": "Work function",
+        "C": "Moment of Inertia",
+        "D": "Rydberg constant"
+      },
+      "answer": "A"
+    }
+  ]
+}

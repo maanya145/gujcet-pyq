@@ -1,0 +1,31 @@
+{
+  "subject": "physics",
+  "chapter": "Motion in a Straight Line",
+  "total_questions": 2,
+  "questions": [
+    {
+      "year": 2006,
+      "number": 30,
+      "question": "A particle is moving with a uniform acceleration. If it covers a distance of 7.25 and 9.25 meters in 5th and 9th seconds respectively, then what is its initial velocity ?",
+      "options": {
+        "A": "5.5 m/s",
+        "B": "7 m/s",
+        "C": "10 m/s",
+        "D": "5 m/s"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 40,
+      "question": "A body projected in vertical direction attains maximum height $50$ m. Find its velocity at $25$ m. height.",
+      "options": {
+        "A": "$2\\sqrt{10}$ m/s",
+        "B": "$3\\sqrt{10}$ m/s",
+        "C": "$5\\sqrt{10}$ m/s",
+        "D": "$7\\sqrt{10}$ m/s"
+      },
+      "answer": "D"
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "subject": "physics",
+  "total_chapters": 19,
+  "total_questions": 605,
+  "chapters": [
+    {
+      "chapter": "Semiconductor Electronics",
+      "file": "semiconductor_electronics.json",
+      "total_questions": 67,
+      "years": [
+        2007,
+        2008,
+        2009,
+        2011,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Current Electricity",
+      "file": "current_electricity.json",
+      "total_questions": 53,
+      "years": [
+        2007,
+        2008,
+        2009,
+        2011,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Ray Optics and Optical Instruments",
+      "file": "ray_optics_and_optical_instruments.json",
+      "total_questions": 53,
+      "years": [
+        2007,
+        2008,
+        2009,
+        2011,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Electrostatic Potential and Capacitance",
+      "file": "electrostatic_potential_and_capacitance.json",
+      "total_questions": 45,
+      "years": [
+        2007,
+        2008,
+        2009,
+        2011,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Alternating Current",
+      "file": "alternating_current.json",
+      "total_questions": 44,
+      "years": [
+        2007,
+        2008,
+        2009,
+        2011,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Dual Nature of Radiation and Matter",
+      "file": "dual_nature_of_radiation_and_matter.json",
+      "total_questions": 44,
+      "years": [
+        2007,
+        2008,
+        2009,
+        2011,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Electric Charges and Fields",
+      "file": "electric_charges_and_fields.json",
+      "total_questions": 43,
+      "years": [
+        2007,
+        2008,
+        2009,
+        2011,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Moving Charges and Magnetism",
+      "file": "moving_charges_and_magnetism.json",
+      "total_questions": 42,
+      "years": [
+        2007,
+        2008,
+        2009,
+        2011,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2025
+      ]
+    },
+    {
+      "chapter": "Wave Optics",
+      "file": "wave_optics.json",
+      "total_questions": 39,
+      "years": [
+        2007,
+        2008,
+        2009,
+        2011,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Nuclei",
+      "file": "nuclei.json",
+      "total_questions": 38,
+      "years": [
+        2007,
+        2008,
+        2009,
+        2011,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Atoms",
+      "file": "atoms.json",
+      "total_questions": 35,
+      "years": [
+        2007,
+        2008,
+        2009,
+        2011,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Electromagnetic Induction",
+      "file": "electromagnetic_induction.json",
+      "total_questions": 34,
+      "years": [
+        2007,
+        2008,
+        2009,
+        2011,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Magnetism and Matter",
+      "file": "magnetism_and_matter.json",
+      "total_questions": 31,
+      "years": [
+        2007,
+        2008,
+        2009,
+        2011,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Electromagnetic Waves",
+      "file": "electromagnetic_waves.json",
+      "total_questions": 27,
+      "years": [
+        2007,
+        2009,
+        2011,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "chapter": "Units and Measurements",
+      "file": "units_and_measurements.json",
+      "total_questions": 5,
+      "years": [
+        2007,
+        2019,
+        2022,
+        2024
+      ]
+    },
+    {
+      "chapter": "Motion in a Straight Line",
+      "file": "motion_in_a_straight_line.json",
+      "total_questions": 2,
+      "years": [
+        2006,
+        2011
+      ]
+    },
+    {
+      "chapter": "Motion in a Plane",
+      "file": "motion_in_a_plane.json",
+      "total_questions": 1,
+      "years": [
+        2009
+      ]
+    },
+    {
+      "chapter": "Thermal Properties of Matter",
+      "file": "thermal_properties_of_matter.json",
+      "total_questions": 1,
+      "years": [
+        2007
+      ]
+    },
+    {
+      "chapter": "Waves",
+      "file": "waves.json",
+      "total_questions": 1,
+      "years": [
+        2015
+      ]
+    }
+  ]
+}

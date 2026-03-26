@@ -1,0 +1,367 @@
+{
+  "subject": "maths",
+  "chapter": "Probability",
+  "total_questions": 30,
+  "questions": [
+    {
+      "year": 2017,
+      "number": 25,
+      "question": "The probability distribution of a discrete random variable $X$ is given in the following table: $X=x: 0, 1, 2$; $P(x): 4C^3, 4C - 13C^2, 7C - 1$; $C > 0$ then $C = $___.",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "$\\frac{1}{4}$",
+        "D": "1 and $-\\frac{1}{4}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 26,
+      "question": "The probability function of a binomial distribution is $P(x) = \\binom{6}{x} p^x q^{6-x}, x = 0, 1, 2, \\dots, 6$. If $2P(2) = 3P(3)$, then $p = $______.",
+      "options": {
+        "A": "$\\frac{1}{3}$",
+        "B": "$\\frac{1}{4}$",
+        "C": "$\\frac{1}{2}$",
+        "D": "$\\frac{1}{5}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 27,
+      "question": "The mean and standard deviation of random variable $X$ are 10 and 5 respectively, then $E(\\frac{X - 15}{5})^2 = $______.",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "5"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 35,
+      "question": "What is the mean of $f(x) = 3x + 2$ where $x$ is a random variable with probability distribution [Table]",
+      "options": {
+        "A": "$15/2$",
+        "B": "$5/3$",
+        "C": "$5/2$",
+        "D": "$19/2$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 36,
+      "question": "The probability that an event A occurs in a single trial of an experiment is 0.3. Six independent trials of the experiment are performed. What is the variance of probability distribution of occurrence of event A?",
+      "options": {
+        "A": "0.18",
+        "B": "1.26",
+        "C": "12.6",
+        "D": "1.8"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 37,
+      "question": "The probability that A speaks truth is $4/5$, while this probability for B is $3/5$. The probability of at least one of them is true when asked to speak on an event is .........",
+      "options": {
+        "A": "$2/25$",
+        "B": "$23/25$",
+        "C": "$3/25$",
+        "D": "$4/25$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 37,
+      "question": "The probability that an event A occurs in a single trial of an experiment is 0.6. In the first three independent trials of the experiment, the probability that A occurs atleast once is ......",
+      "options": {
+        "A": "$0.930$",
+        "B": "$0.925$",
+        "C": "$0.936$",
+        "D": "$0.927$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 38,
+      "question": "If $6P(A) = 8P(B) = 14P(A \\cap B) = 1$, then $P(\\frac{A'}{B}) = ....$",
+      "options": {
+        "A": "$\\frac{3}{7}$",
+        "B": "$\\frac{3}{5}$",
+        "C": "$\\frac{4}{7}$",
+        "D": "$\\frac{2}{5}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 39,
+      "question": "The mean and variance of a random variable X having a binomial distribution are 6 and 3 respectively. The probability of variable X less than 2 is ........",
+      "options": {
+        "A": "$\\frac{13}{2048}$",
+        "B": "$\\frac{15}{4096}$",
+        "C": "$\\frac{13}{4096}$",
+        "D": "$\\frac{25}{2048}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 6,
+      "question": "If $A$ and $B$ are independent events such that $P(A) = p, P(B) = 2p$ and $P(\\text{Exactly one of } A \\text{ and } B) = \\frac{5}{9}$, then $p = $ ____________.",
+      "options": {
+        "A": "$\\frac{1}{3}, \\frac{5}{12}$",
+        "B": "$\\frac{1}{2}, \\frac{3}{4}$",
+        "C": "$\\frac{1}{12}, \\frac{5}{3}$",
+        "D": "$\\frac{2}{15}, \\frac{5}{12}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 7,
+      "question": "For the probability distribution $X: 1, 2, 3, 4$ and $P(X): \\frac{1}{10}, \\frac{1}{5}, \\frac{3}{10}, \\frac{2}{5}$, $E(X^2) = $ _________.",
+      "options": {
+        "A": "7",
+        "B": "5",
+        "C": "3",
+        "D": "10"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 8,
+      "question": "If $A$ and $B$ are any two events such that $P(A) + P(B) - P(A \\cap B) = P(A)$ then ________.",
+      "options": {
+        "A": "$P(A/B) = 1$",
+        "B": "$P(A/B) = 0$",
+        "C": "$P(B/A) = 0$",
+        "D": "$P(A/B) = 1$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 20,
+      "question": "If $P(A) = \\frac{6}{11}, P(B) = \\frac{5}{11}$ and $P(A \\cup B) = \\frac{7}{11}$, then $P(A/B) = \\text{_______}$",
+      "options": {
+        "A": "$\\frac{4}{5}$",
+        "B": "$\\frac{2}{3}$",
+        "C": "$\\frac{4}{11}$",
+        "D": "$\\frac{2}{11}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 21,
+      "question": "For two mutually exclusive events A and B if $P(A) = \\frac{1}{2}, P(A \\cup B) = \\frac{3}{5}$ and $P(B') = p$, then $p = \\text{_______}$",
+      "options": {
+        "A": "$\\frac{1}{5}$",
+        "B": "$\\frac{9}{10}$",
+        "C": "$\\frac{2}{5}$",
+        "D": "$\\frac{1}{10}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 22,
+      "question": "If A and B are two events such that $P(A) \\neq 0$ and $P(B/A) = 1$, then",
+      "options": {
+        "A": "$B \\subset A$",
+        "B": "$B = \\emptyset$",
+        "C": "$A = \\emptyset$",
+        "D": "$A \\subset B$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 31,
+      "question": "The mean number of heads in three tosses of a fair coin is ________.",
+      "options": {
+        "A": "$3.5$",
+        "B": "$0.5$",
+        "C": "$15$",
+        "D": "$1.5$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 32,
+      "question": "If for Bernoulli distribution $B(10, \\frac{1}{2})$, it is given that $P(X \\le 2) = m(\\frac{1}{2})^{10}$ then $m = $ ________.",
+      "options": {
+        "A": "$101$",
+        "B": "$55$",
+        "C": "$56$",
+        "D": "$46$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 33,
+      "question": "Probability that $A$ speaks truth is $\\frac{4}{5}$. A coin is tossed. $A$ reports that a head appears. The probability that actually there was head is ________.",
+      "options": {
+        "A": "$2/5$",
+        "B": "$4/5$",
+        "C": "$1/5$",
+        "D": "$1/2$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 30,
+      "question": "For independent events $A$ and $B$ $P(A) = P$; $P(B) = \\frac{1}{2}$ and $P(A \\cup B) = 3/5$, then $P = \\dots$",
+      "options": {
+        "A": "$1/10$",
+        "B": "$1/5$",
+        "C": "$1/2$",
+        "D": "$2/5$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 31,
+      "question": "If a fair coin is tossed $5$ times, then the probability of getting exactly $3$ heads is :",
+      "options": {
+        "A": "$5/16$",
+        "B": "$3/32$",
+        "C": "$1/32$",
+        "D": "$5/32$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 32,
+      "question": "If the probability distribution of $X$ is : [Table] then $\\text{Var}.(X) = \\dots$",
+      "options": {
+        "A": "$9/6$",
+        "B": "$21/6$",
+        "C": "$35/12$",
+        "D": "$35/3$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 10,
+      "question": "If, for independent events A and B, $P(A) = p, P(B) = \\frac{1}{2}$ and $P(A \\cup B) = \\frac{3}{5}$ are given then, the value of p is ____.",
+      "options": {
+        "A": "$\\frac{1}{10}$",
+        "B": "$\\frac{1}{5}$",
+        "C": "$\\frac{3}{5}$",
+        "D": "$\\frac{1}{3}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 11,
+      "question": "The probability of obtaining an even prime number on each die, when a pair of dice is rolled is :",
+      "options": {
+        "A": "$\\frac{1}{3}$",
+        "B": "0",
+        "C": "$\\frac{1}{12}$",
+        "D": "$\\frac{1}{36}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 12,
+      "question": "If, for independent events A and B, $P(A) = p, P(B) = \\frac{1}{2}$ and $P(A \\cup B) = \\frac{3}{5}$ are given then, the value of p is ______.",
+      "options": {
+        "A": "$\\frac{1}{3}$",
+        "B": "$\\frac{1}{10}$",
+        "C": "$\\frac{3}{5}$",
+        "D": "$\\frac{1}{5}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 12,
+      "question": "If A and B are two events such that $P(B) \\neq 0$ and $P(A | B) = 1$, then ____.",
+      "options": {
+        "A": "$B \\subset A$",
+        "B": "$A \\subset B$",
+        "C": "$A \\neq \\phi$",
+        "D": "$B \\neq \\phi$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 13,
+      "question": "The probability of obtaining an even prime number on each die, when a pair of dice is rolled is :",
+      "options": {
+        "A": "$\\frac{1}{36}$",
+        "B": "$\\frac{1}{3}$",
+        "C": "$\\frac{1}{12}$",
+        "D": "0"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 14,
+      "question": "If A and B are two events such that $P(B) \\neq 0$ and $P(A|B) = 1$, then ______.",
+      "options": {
+        "A": "$B \\neq \\phi$",
+        "B": "$B \\subset A$",
+        "C": "$A \\neq \\phi$",
+        "D": "$A \\subset B$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 6,
+      "question": "Two events E and F are independent. If $P(E) = \\frac{3}{5}$ and $P(F) = \\frac{3}{10}$ then $P(E'/F) + P(F'/E) = $ ____",
+      "options": {
+        "A": "$\\frac{1}{10}$",
+        "B": "$\\frac{11}{10}$",
+        "C": "$\\frac{9}{10}$",
+        "D": "$\\frac{10}{11}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 7,
+      "question": "Let A and B be two events such that $P(A) = \\frac{3}{8}, P(B) = \\frac{5}{8}$ and $P(A \\cup B) = \\frac{3}{4}$. Then $P(A'|B) - P(A|B) = $ ____",
+      "options": {
+        "A": "$\\frac{1}{5}$",
+        "B": "$\\frac{3}{5}$",
+        "C": "$\\frac{2}{5}$",
+        "D": "$\\frac{4}{5}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 8,
+      "question": "A man is known to speak truth 4 out of 5 times. He throws a die and reports that it is a six. The probability that actually there was a six is",
+      "options": {
+        "A": "$\\frac{5}{9}$",
+        "B": "$\\frac{4}{9}$",
+        "C": "$\\frac{5}{35}$",
+        "D": "$\\frac{4}{35}$"
+      },
+      "answer": "B"
+    }
+  ]
+}

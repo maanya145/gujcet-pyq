@@ -1,0 +1,19 @@
+{
+  "subject": "chemistry",
+  "chapter": "States of Matter",
+  "total_questions": 1,
+  "questions": [
+    {
+      "year": 2020,
+      "number": 67,
+      "question": "From the figure, in which of the following vessel, the pressure of the gas is the highest. [Temperature and volume of the gases are the same in each vessel]. [Diagram]",
+      "options": {
+        "A": "P",
+        "B": "Q",
+        "C": "R",
+        "D": "S"
+      },
+      "answer": "A"
+    }
+  ]
+}

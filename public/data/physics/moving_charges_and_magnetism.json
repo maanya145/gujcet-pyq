@@ -1,0 +1,511 @@
+{
+  "subject": "physics",
+  "chapter": "Moving Charges and Magnetism",
+  "total_questions": 42,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 32,
+      "question": "Two identical coils having same number of turns and carrying equal current have common centre and their planes are at right angles to each other. What is the ratio of magnitude of the resultant magnetic field at the centre and magnetic field due to one of the coils at the centre?",
+      "options": {
+        "A": "$\\sqrt{2} : 1$",
+        "B": "$1 : \\sqrt{2}$",
+        "C": "$2 : 1$",
+        "D": "$1 : 1$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2007,
+      "number": 33,
+      "question": "Current of $10\\text{ A}$ and $2\\text{ A}$ are passed through two parallel wires A and B respectively in opposite directions. If the wire A is infinitely long and length of the wire B is $2\\text{ m}$, the force acting on the conductor B which is situated at $10\\text{ cm}$ distance from A will be",
+      "options": {
+        "A": "$4\\pi \\times 10^{-7}\\text{ N}$",
+        "B": "$5 \\times 10^{-5}\\text{ N}$",
+        "C": "$8\\pi \\times 10^{-7}\\text{ N}$",
+        "D": "$8 \\times 10^{-5}\\text{ N}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2007,
+      "number": 35,
+      "question": "If velocity of an electron is $(2\\hat{i} + 3\\hat{j})\\text{ ms}^{-1}$ and it enters in the magnetic field of $4\\hat{k}\\text{ T}$, then",
+      "options": {
+        "A": "it will move in the opposite direction to the magnetic field",
+        "B": "it will move in the direction of the magnetic field",
+        "C": "its speed will change",
+        "D": "direction of its velocity will change"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2007,
+      "number": 36,
+      "question": "An electron having $182\\text{ eV}$ kinetic energy is moving on a circular path in a magnetic field of $10^{-4}\\text{ T}$. The speed of the electron is ...... (mass of electron $m = 9.1 \\times 10^{-31}\\text{ kg}$)",
+      "options": {
+        "A": "$8 \\times 10^7\\text{ ms}^{-1}$",
+        "B": "$16 \\times 10^7\\text{ ms}^{-1}$",
+        "C": "$4 \\times 10^7\\text{ ms}^{-1}$",
+        "D": "$32 \\times 10^{14}\\text{ ms}^{-1}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2007,
+      "number": 38,
+      "question": "To convert a galvanometer into an ammeter, we connect",
+      "options": {
+        "A": "high resistance in parallel with it",
+        "B": "high resistance in series with it",
+        "C": "low resistance in parallel with it",
+        "D": "low resistance in series with it"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2008,
+      "number": 12,
+      "question": "The deflection in Moving-coil Galvanometer falls from 50 divisions to 10 divisions, when a shunt of 12 $\\Omega$ is connected with it. The resistance of Galvanometer coil is",
+      "options": {
+        "A": "6 $\\Omega$",
+        "B": "48 $\\Omega$",
+        "C": "24 $\\Omega$",
+        "D": "12 $\\Omega$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 13,
+      "question": "A current flows in a conducting wire of length L. If we bend it in a circular form, its magnetic dipole moment would be ......",
+      "options": {
+        "A": "$\\frac{I^2 L}{4 \\pi}$",
+        "B": "$\\frac{I^2 L^2}{4 \\pi}$",
+        "C": "$\\frac{I L^2}{4 \\pi}$",
+        "D": "$\\frac{I L}{4 \\pi}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 9,
+      "question": "An electron and a proton of equal linear momentum enter in the direction perpendicular to uniform magnetic field. If the radii of their circular paths be $r_e$ and $r_p$ respectively, then $\\frac{r_e}{r_p}$ is equal to .......... $m_e = \\text{mass of electron}$, $m_p = \\text{mass of proton}$",
+      "options": {
+        "A": "$m_p/m_e$",
+        "B": "$1$",
+        "C": "$\\left(\\frac{m_p}{m_e}\\right)^{1/2}$",
+        "D": "$\\left(\\frac{m_e}{m_p}\\right)^{1/2}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 13,
+      "question": "An infinite straight current carrying conductor is bent in such a way that a circular loop is formed on it as shown in the figure. If the radius of the loop is $R$, the magnetic field at the centre of the loop is .......... [Figure]",
+      "options": {
+        "A": "Infinite",
+        "B": "Zero",
+        "C": "$\\frac{\\mu_0}{4\\pi} \\cdot \\frac{2I}{R} \\pi$",
+        "D": "$\\frac{\\mu_0}{4\\pi} \\cdot \\frac{2I}{R} (\\pi+1)$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 7,
+      "question": "To send $10\\%$ of main current through a Moving Coil Galvanometer of resistance $99\\text{ }\\Omega$, shunt required is .......",
+      "options": {
+        "A": "$9\\text{ }\\Omega$",
+        "B": "$11\\text{ }\\Omega$",
+        "C": "$10\\text{ }\\Omega$",
+        "D": "$9.9\\text{ }\\Omega$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 10,
+      "question": "For the galvanometer working as a voltmeter ________ is connected with the coil of the galvanometer.",
+      "options": {
+        "A": "high resistance in parallel",
+        "B": "high resistance in series",
+        "C": "low resistance in parallel",
+        "D": "low resistance in series"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 11,
+      "question": "The ratio of periods of $\\alpha$ - particle and proton moving on circular path in uniform magnetic field is ________.",
+      "options": {
+        "A": "$2:1$",
+        "B": "$1:2$",
+        "C": "$4:1$",
+        "D": "$1:4$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 12,
+      "question": "Two concentric rings are kept in the same plane. Number of turns in each ring is $25$. Their radii are $50 \\text{ cm}$ and $200 \\text{ cm}$ and they carry electric currents of $0.1 \\text{ A}$ and $0.2 \\text{ A}$ respectively, in mutually opposite directions. The magnitude of the magnetic field produced at their centre is ________ $\\text{ T}$.",
+      "options": {
+        "A": "$4 \\mu_0$",
+        "B": "$2 \\mu_0$",
+        "C": "$\\frac{10}{4} \\mu_0$",
+        "D": "$\\frac{5}{4} \\mu_0$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2014,
+      "number": 27,
+      "question": "The unit of permeability of Vacuum ($\\mu_0$) is ________.",
+      "options": {
+        "A": "$\\frac{\\text{N}}{\\text{A}}$",
+        "B": "$\\frac{\\text{N}}{\\text{A}^2}$",
+        "C": "$\\text{NA}$",
+        "D": "$\\frac{\\text{J}}{\\text{A}^2}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 32,
+      "question": "Equal currents are passing through two very long and straight parallel wires in the same direction. They will ________.",
+      "options": {
+        "A": "attract each other",
+        "B": "repel each other",
+        "C": "lean towards each other",
+        "D": "neither attract nor repel each other"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 34,
+      "question": "A galvanometer of resistance $50\\text{ }\\Omega$ is connected to a battery of $8\\text{ V}$ along with a resistance of $3950\\text{ }\\Omega$ in series. A full scale deflection of $30\\text{ div}$ is obtained in the galvanometer. In order to reduce this deflection to $15\\text{ division}$, the resistance in series should be ________ $\\text{ }\\Omega$.",
+      "options": {
+        "A": "1950",
+        "B": "7900",
+        "C": "2000",
+        "D": "7950"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 17,
+      "question": "Two very long straight wires are set parallel to each other. Each carries a current $I$ in the same direction and the separation between them is 2r. The intensity of magnetic field at point $P$ as shown in figure is _______. [Diagram]",
+      "options": {
+        "A": "$\\frac{3}{8} \\frac{\\mu_0 I}{\\pi r}$",
+        "B": "$\\frac{2\\mu_0 I}{\\pi r}$",
+        "C": "$\\frac{2}{3} \\frac{\\mu_0 I}{\\pi r}$",
+        "D": "$\\frac{\\mu_0 I}{2\\pi r}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 18,
+      "question": "The magnetic field due to a straight long conductor of uniform cross-section of radius $a$ and carrying a steady current is represented by [Diagram]",
+      "options": {
+        "A": "[Diagram A]",
+        "B": "[Diagram B]",
+        "C": "[Diagram C]",
+        "D": "[Diagram D]"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 19,
+      "question": "A proton is moving perpendicular to a uniform magnetic field of 2.5 tesla with 2 MeV kinetic energy. The force on proton is _____ N. (Mass of proton = $1.6 \\times 10^{-27}$ kg. Charge of proton = $1.6 \\times 10^{-19}$ C)",
+      "options": {
+        "A": "$8 \\times 10^{-12}$",
+        "B": "$8 \\times 10^{-11}$",
+        "C": "$3 \\times 10^{-11}$",
+        "D": "$3 \\times 10^{-10}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 20,
+      "question": "A particle of mass $m$ and charge $q$ is incident on XZ plane with velocity $v$ in a direction making angle $\\theta$ with a uniform magnetic field applied along X-axis. The nature of motion performed by the particle is",
+      "options": {
+        "A": "Circular",
+        "B": "Helical",
+        "C": "Parabola",
+        "D": "Straight line"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 9,
+      "question": "An electron having mass $9.1 \\times 10^{-31}\\text{ kg}$, charge $1.6 \\times 10^{-19}\\text{ C}$ and moving with the velocity of $10^6\\text{ m/s}$ enters a region where magnetic field exists. If it describes a circle of radius $0.2\\text{ m}$ then intensity of magnetic field must be ____ $\\times 10^{-5}\\text{ T}$.",
+      "options": {
+        "A": "$2.84$",
+        "B": "$5.65$",
+        "C": "$14.4$",
+        "D": "$1.32$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 10,
+      "question": "A galvanometer of resistance $50\\Omega$ giving full scale deflection for a current of $10\\text{ milliampere}$ is to be changed into a voltmeter of range $100\\text{V}$. A resistance of ____ $\\Omega$ has to be connected in series with the galvanometer.",
+      "options": {
+        "A": "$10000$",
+        "B": "$10025$",
+        "C": "$9950$",
+        "D": "$9975$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 11,
+      "question": "Two parallel very long straight wires carrying current of $5\\text{A}$ each are kept at a separation of $1\\text{m}$. If the currents are in the same direction, the force per unit length between them is ___ $\\text{N/m}$. ($\\mu_0 = 4\\pi \\times 10^{-7}\\text{ SI}$)",
+      "options": {
+        "A": "$5 \\times 10^{-5}$, repulsive",
+        "B": "$5 \\times 10^{-6}$, attractive",
+        "C": "$5 \\times 10^{-5}$, attractive",
+        "D": "$5 \\times 10^{-6}$, repulsive"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 12,
+      "question": "A very long straight wire of radius $r$ carries current $I$. Intensity of magnetic field $B$ at a point, lying at a perpendicular distance 'a' from the axis is $\\propto$ ___ . (where $a < r$)",
+      "options": {
+        "A": "$\\frac{1}{a}$",
+        "B": "$\\frac{1}{a^2}$",
+        "C": "$a^2$",
+        "D": "$a$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 26,
+      "question": "There are 50 turns per cm length in a very long solenoid. It carries a current of $2.5\\text{A}$. The magnetic field at its centre on the axis is ................. T.",
+      "options": {
+        "A": "$4\\pi \\times 10^{-3}$",
+        "B": "$2\\pi \\times 10^{-3}$",
+        "C": "$6\\pi \\times 10^{-3}$",
+        "D": "$5\\pi \\times 10^{-3}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 24,
+      "question": "The source of magnetic field is ....... & source of electric field is ...........",
+      "options": {
+        "A": "scalar, scalar",
+        "B": "vector, vector",
+        "C": "scalar, vector",
+        "D": "vector, scalar"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 25,
+      "question": "A coil having $10\\text{ Am}^2$ magnetic moment is placed in a vertical plane & is free to rotate about its horizontal axis coincides with its diameter. A uniform magnetic field of $2\\text{T}$ in the horizontal direction exists such that initially the axis of the coil is in the direction of the field. The coil rotates through an angle of $90^\\circ$ under the influence of magnetic field. The moment of inertia of coil is $0.1\\text{ kg m}^2$. What will be its angular speed?",
+      "options": {
+        "A": "$10\\text{ rad/s}$",
+        "B": "$5\\text{ rad/s}$",
+        "C": "$20\\text{ rad/s}$",
+        "D": "$40\\text{ rad/s}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 26,
+      "question": "$10\\text{ A}$ current is passing through a very long wire of radius $5\\text{ cm}$. Then magnetic field at a distance of $2\\text{ cm}$ insider from its curved surface is ........ $\\times 10^{-5}\\text{ T}$.",
+      "options": {
+        "A": "$6.7 \\times 10^{-5}$",
+        "B": "$2.4 \\times 10^{-5}$",
+        "C": "$2.4 \\times 10^5$",
+        "D": "$2.4$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 32,
+      "question": "Circular loop having radius $r$, carrying current $I$, produces magnetic field at the centre loop is $B$. What will be the magnetic dipole moment of this loop?",
+      "options": {
+        "A": "$\\frac{4\\pi Br^3}{\\mu_0}$",
+        "B": "$\\frac{2\\pi Br^3}{\\mu_0}$",
+        "C": "$\\frac{\\pi Br^3}{\\mu_0}$",
+        "D": "$\\frac{\\pi Br^3}{4\\mu_0}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 33,
+      "question": "The horizontal component of the earth's magnetic field at a certain place is $3.0 \\times 10^{-5}\\text{ T}$ and the direction of the field is from the geographic south to the geographic north. A very long straight conductor is carrying a steady current of $2\\text{A}$. What is the force per unit length on it when it is placed on a horizontal table and the direction of the current is east to west?",
+      "options": {
+        "A": "$3 \\times 10^{-5}\\text{ N/m}$",
+        "B": "$9 \\times 10^{-5}\\text{ N/m}$",
+        "C": "$6 \\times 10^{-5}\\text{ N/m}$",
+        "D": "$2 \\times 10^{-5}\\text{ N/m}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 34,
+      "question": "A solenoid of length $0.5\\text{ m}$ has a radius of $1\\text{ cm}$ and is made up of $1000\\text{ turns}$. It carries a current of $10\\text{A}$. What is the magnitude of the magnetic field inside the solenoid?",
+      "options": {
+        "A": "$6.28 \\times 10^{-3}\\text{ T}$",
+        "B": "$2.51 \\times 10^{-2}\\text{ T}$",
+        "C": "$1.71 \\times 10^{-2}\\text{ T}$",
+        "D": "$7.23 \\times 10^{-3}\\text{ T}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 34,
+      "question": "A solenoid of length $0.25\\text{ m}$ has a radius of $1\\text{ cm}$ and is made up of $500\\text{ turns}$. It carries a current of $2.5\\text{ A}$. What is the magnitude of the magnetic field inside the solenoid? ($\\mu_0 = 4\\pi \\times 10^{-7}\\text{ SI}$)",
+      "options": {
+        "A": "$6.28 \\times 10^{-3}\\text{ T}$",
+        "B": "$6.28 \\times 10^{-2}\\text{ T}$",
+        "C": "$6.28 \\times 10^{-4}\\text{ T}$",
+        "D": "$6.28 \\times 10^{-1}\\text{ T}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 35,
+      "question": "How the shunt wire should be ?",
+      "options": {
+        "A": "short and thin",
+        "B": "long and thin",
+        "C": "long and thick",
+        "D": "short and thick"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 36,
+      "question": "Two long and parallel straight wires A and B carrying currents of $10\\text{ A}$ and $4\\text{ A}$ in the same direction are separated by a distance of $2\\text{ cm}$. Estimate the force on a $4\\text{ cm}$ section of wire A. ($\\mu_0 = 4\\pi \\times 10^{-7}\\text{ SI}$)",
+      "options": {
+        "A": "$1.6 \\times 10^{-4}\\text{ N}$",
+        "B": "$1.6 \\times 10^{-5}\\text{ N}$",
+        "C": "$1.6 \\times 10^{-6}\\text{ N}$",
+        "D": "$1.6 \\times 10^{-3}\\text{ N}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 22,
+      "question": "An electron is projected with uniform velocity along the axis of current carrying long solenoid. Which of the following is true?",
+      "options": {
+        "A": "The electron path will be circular about the axis",
+        "B": "The electron will be accelerated along the axis",
+        "C": "The electron will experience a force at $45^{\\circ}$ to the axis and hence execute a helical path",
+        "D": "The electron will continue to move with uniform velocity along the axis of the solenoid"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 23,
+      "question": "An electron is moving at a speed of $3.2 \\times 10^7 \\text{ m/s}$ in a magnetic field of $12 \\times 10^{-4} \\text{ T}$ perpendicular to the direction of motion of electron. The radius of the path of the electron is ________ cm. $(e = 1.6 \\times 10^{-19} \\text{ C and } m_e = 9 \\times 10^{-31} \\text{ kg})$",
+      "options": {
+        "A": "30",
+        "B": "13",
+        "C": "15",
+        "D": "26"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 24,
+      "question": "A solenoid of length 0.5 m has a radius of 1 cm and is made up of 250 turns. It carries a current of 5 A. What is the magnitude of the magnetic field inside the solenoid?",
+      "options": {
+        "A": "$3.14 \\times 10^{-3} \\text{ T}$",
+        "B": "$6.28 \\times 10^{-3} \\text{ T}$",
+        "C": "$62.8 \\times 10^{-3} \\text{ T}$",
+        "D": "Zero"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 25,
+      "question": "The galvanometer has a resistance of $18 \\, \\Omega$. Calculate the value of shunt to increase the range of galvanometer by 10 times.",
+      "options": {
+        "A": "4 $\\Omega$",
+        "B": "1 $\\Omega$",
+        "C": "3 $\\Omega$",
+        "D": "2 $\\Omega$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 33,
+      "question": "The ratio of magnetic field at the centre of the ring of radius R to the point on the axis at a distance $2\\sqrt{2} \\text{ R}$ from its centre is ________.",
+      "options": {
+        "A": "27 : 1",
+        "B": "81 : 1",
+        "C": "1 : 9",
+        "D": "1 : $2\\sqrt{2}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 34,
+      "question": "The dimensional formula of current sensitivity of moving coil galvanometer is ________.",
+      "options": {
+        "A": "$[\\text{L}^2]$",
+        "B": "$[\\text{M}^1\\text{L}^2\\text{T}^{-2}\\text{A}^{-1}]$",
+        "C": "$[\\text{A}^{-1}]$",
+        "D": "$[\\text{M}^1\\text{L}^2\\text{T}^{-2}]$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 35,
+      "question": "The horizontal component of the Earth's magnetic field at a certain plate is $3 \\times 10^{-5}\\text{T}$ and the direction of the field is from the geographic South to the geographic North. A very long straight conductor is carrying a steady current of 1A. What is the force per unit length on it when it is placed on a horizontal table and the direction of current is South to North?",
+      "options": {
+        "A": "zero",
+        "B": "$1 \\times 10^{-5} \\text{ Nm}^{-1}$",
+        "C": "$6 \\times 10^{-5} \\text{ Nm}^{-1}$",
+        "D": "$9 \\times 10^{-5} \\text{ Nm}^{-1}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 36,
+      "question": "The magnetic field produced by a very long straight conducting wire of radius 'a' and carrying current I is B, then the graph of magnetic field (B) $\\rightarrow$ distance (r) (perpendicular to the axis of the wire) is ________. [Figure]",
+      "options": {
+        "A": "[Figure A]",
+        "B": "[Figure B]",
+        "C": "[Figure C]",
+        "D": "[Figure D]"
+      },
+      "answer": "D"
+    }
+  ]
+}

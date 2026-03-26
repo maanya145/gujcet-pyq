@@ -1,0 +1,475 @@
+{
+  "subject": "physics",
+  "chapter": "Wave Optics",
+  "total_questions": 39,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 10,
+      "question": "The limit of resolution of an optical instrument arises on account of",
+      "options": {
+        "A": "reflection",
+        "B": "diffraction",
+        "C": "polarization",
+        "D": "interference"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2007,
+      "number": 11,
+      "question": "Two waves coming from two coherent sources having different intensities interfere their ratio of maximum intensity to the minimum intensity is 25. The intensities of the sources are in the ratio",
+      "options": {
+        "A": "$25 : 1$",
+        "B": "$25 : 16$",
+        "C": "$9 : 4$",
+        "D": "$5 : 1$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2008,
+      "number": 21,
+      "question": "At what angle of incidence, the light reflected from a glass slab will become completely polarised. The angle of refraction at that incident angle is 33.6°.",
+      "options": {
+        "A": "56.4°",
+        "B": "46.4°",
+        "C": "90°",
+        "D": "0°"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 22,
+      "question": "A ray of light travelling in water is incident on a glass plate immersed in it. When the angle of incidence is 51°, the reflected ray is totally plane polarized, then find out the refractive index of Glass. [The refractive index of Water is 1.3 and $\\tan 51° = 1.235$]",
+      "options": {
+        "A": "1.605",
+        "B": "1.305",
+        "C": "1.33",
+        "D": "1.805"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 23,
+      "question": "In Fraunhoffer diffraction by a single slit, a position where first order minimum is formed by the wavelength of 9000 $\\text{\\AA}$, first order maximum is formed due to an unknown wavelength $\\lambda'$ is ....",
+      "options": {
+        "A": "6000 $\\text{\\AA}$",
+        "B": "4000 $\\text{\\AA}$",
+        "C": "8000 $\\text{\\AA}$",
+        "D": "2000 $\\text{\\AA}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 24,
+      "question": "In Young's experiment, the distance between two slits is halved and the distance between the screen and slit is made three times. Then width of the fringe",
+      "options": {
+        "A": "becomes 6 times.",
+        "B": "becomes 4 times.",
+        "C": "becomes half.",
+        "D": "remains the same."
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 25,
+      "question": "Ratio of intensities of two waves is given by 9 : 1. Then ratio of their amplitudes is .....",
+      "options": {
+        "A": "3 : 1",
+        "B": "2 : 1",
+        "C": "9 : 1",
+        "D": "1 : 9"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 26,
+      "question": "Which of the following undergoes largest diffraction ?",
+      "options": {
+        "A": "$\\gamma$-rays",
+        "B": "Ultra-violet light",
+        "C": "Infra-red light",
+        "D": "Radio waves"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 25,
+      "question": "In Young's double slit experiment, distance between two slits is $0.28 \\text{ mm}$ and distance between slits and screen is $1.4 \\text{ m}$. Distance between central bright fringe and third bright fringe is $0.9 \\text{ cm}$, what is the wavelength of light used ?",
+      "options": {
+        "A": "$6000 \\text{ \\AA}$",
+        "B": "$5000 \\text{ \\AA}$",
+        "C": "$4000 \\text{ \\AA}$",
+        "D": "$3000 \\text{ \\AA}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 27,
+      "question": "Which of the following cannot be polarized?",
+      "options": {
+        "A": "Ultra-sonic waves",
+        "B": "Radio-waves",
+        "C": "Ultra-violet rays",
+        "D": "X-rays"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 26,
+      "question": "A Young's double slit set up for interference is shifted from air to within water, then the fringe width ...........",
+      "options": {
+        "A": "Becomes infinite",
+        "B": "Decreases",
+        "C": "Increases",
+        "D": "Remain unchanged"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 15,
+      "question": "Antistokes lines is Raman Scattering are the lines of ________ frequency and ________ wavelength.",
+      "options": {
+        "A": "low, high",
+        "B": "low, low",
+        "C": "high, high",
+        "D": "high, low"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2014,
+      "number": 28,
+      "question": "In young's double slit experiment, if the width of $4^{\\text{th}}$ bright fringe is $2 \\times 10^{-2} \\text{ cm}$, then the width of $6^{\\text{th}}$ bright fringe will be ________ $\\text{ cm}$.",
+      "options": {
+        "A": "$10^{-2}$",
+        "B": "$3 \\times 10^{-2}$",
+        "C": "$2 \\times 10^{-2}$",
+        "D": "$1.5 \\times 10^{-2}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 29,
+      "question": "Unpolarized light falls first on polarizer (P) and then on analyzer (A). If the intensity of the transmitted light from the analyzer is $1/8$ th of the incident unpolarized light. What will be the angle between optic axes of P & A?",
+      "options": {
+        "A": "$30^\\circ$",
+        "B": "$45^\\circ$",
+        "C": "$0^\\circ$",
+        "D": "$60^\\circ$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2014,
+      "number": 30,
+      "question": "The diameter of the pupil of human eye is $2.5 \\text{ mm}$. Assuming the wave length of light used is $5000 \\ \\mathring{\\text{A}}$. What must be the minimum distance between two point like objects to be seen clearly if they are at a distance of $5 \\text{ m}$ from the eye?",
+      "options": {
+        "A": "$1.34 \\times 10^{-3} \\text{ m}$",
+        "B": "$1.22 \\times 10^{-3} \\text{ m}$",
+        "C": "$1.5 \\times 10^{-3} \\text{ m}$",
+        "D": "$1.6 \\times 10^{-3} \\text{ m}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 16,
+      "question": "Light waves travel from optically rarer medium to optically denser medium. Its velocity decreases because of change in ________.",
+      "options": {
+        "A": "wavelength",
+        "B": "frequency",
+        "C": "amplitude",
+        "D": "phase"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 28,
+      "question": "A plane polarized light is incident normally on a tourmaline plate. Its E vectors make an angle of $60^{\\circ}$ with the optic axis of the plate. Find the percentage difference between initial and final intensities.",
+      "options": {
+        "A": "50%",
+        "B": "25%",
+        "C": "75%",
+        "D": "90%"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "number": 29,
+      "question": "Light of wave length $\\lambda$ is incident on slit of width $d$. The resulting diffraction pattern is observed on a screen placed at distance $D$. The linear width of central maximum is equal to width of the slit, then $D = ________$.",
+      "options": {
+        "A": "\\frac{2\\lambda^2}{d}",
+        "B": "\\frac{d^2}{2\\lambda}",
+        "C": "\\frac{d}{\\lambda}",
+        "D": "\\frac{2\\lambda}{d}"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 7,
+      "question": "The shape of wave front at a very large distance from source is ______.",
+      "options": {
+        "A": "Circular",
+        "B": "Spherical",
+        "C": "Cylindrical",
+        "D": "Plane"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 23,
+      "question": "In Raman scattering, Stokes and Antistokes lines respectively represents lines with _____ and _____ wavelength.",
+      "options": {
+        "A": "Low, High",
+        "B": "High, High",
+        "C": "High, Low",
+        "D": "Low, Low"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 36,
+      "question": "In Young's double slit experiment, if the distance between two slits is equal to the wavelength of used light. Then the maximum number of bright fringes obtained on the screen will be",
+      "options": {
+        "A": "Infinite",
+        "B": "3",
+        "C": "7",
+        "D": "5"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 37,
+      "question": "If the wavelength of light used is 6000 Å. The angular resolution of telescope of objective lens having diameter 10 cm is _____ rad.",
+      "options": {
+        "A": "$7.52 \\times 10^{-6}$",
+        "B": "$6.10 \\times 10^{-6}$",
+        "C": "$6.55 \\times 10^{-6}$",
+        "D": "$7.32 \\times 10^{-6}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 16,
+      "question": "On decreasing the wavelength of incident light from $8000\\text{ Å}$ to $4000\\text{ Å}$. the intensity of the scattered light in Rayleih scattering will become ____ times the initial scattered intensity.",
+      "options": {
+        "A": "$16$",
+        "B": "$4$",
+        "C": "$2$",
+        "D": "$8$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 32,
+      "question": "Which of the following is wrong for interference fringes?",
+      "options": {
+        "A": "Distance between two consecutive fringes is constant",
+        "B": "All bright fringes are equally bright",
+        "C": "Fringes are due to limited portion of wave front",
+        "D": "Fringes are due to the use of coherent sources"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 33,
+      "question": "A ray of light travelling in impure water is incident on a glass plate immersed in it. When the angle of incidence is $51^\\circ$, the reflected ray is totally plane polarized. Given that refractive index of impure water is $1.4$. The refractive index of glass should be ____ ($\\tan 51^\\circ = 1.235$)",
+      "options": {
+        "A": "$1.53$",
+        "B": "$1.34$",
+        "C": "$1.64$",
+        "D": "$1.73$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 1,
+      "question": "The angular spread of central maximum, in diffraction pattern, does not depend on...........",
+      "options": {
+        "A": "Frequency of light",
+        "B": "Wavelength of light",
+        "C": "Width of slit",
+        "D": "The distance between the slit and source"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 3,
+      "question": "In Young's experiment fourth bright fringe produced by light of $5000 \\text{ Å}$ superposes on the fifth bright fringe of an unknown wavelength. the unknown wavelength is ............ $\\text{ Å}$.",
+      "options": {
+        "A": "8000",
+        "B": "5000",
+        "C": "6000",
+        "D": "4000"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 1,
+      "question": "The distance between two slits is $3\\text{ mm}$ & screen is placed at $2\\text{ m}$ distance. When blue-green light of wavelength $500\\text{ nm}$ is used then distance between two fringes will be?",
+      "options": {
+        "A": "$0.43\\text{ mm}$",
+        "B": "$0.33\\text{ mm}$",
+        "C": "$0.5\\text{ mm}$",
+        "D": "$0.4\\text{ mm}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 9,
+      "question": "Estimate the distance for which ray optics is good approximation for an aperture of $5\\text{ mm}$ and wavelength $500\\text{ nm}$?",
+      "options": {
+        "A": "40 m",
+        "B": "30 m",
+        "C": "50 m",
+        "D": "20 m"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 10,
+      "question": "The wavelength of light $500\\text{ nm}$ is used in a Young's double-slit experiment. The distance between the slits and screen is $100\\text{ cm}$ and the slits are separated by $1\\text{ mm}$. Then find distance between fifth ($5^{\\text{th}}$) and third ($3^{\\text{rd}}$) bright fringes.",
+      "options": {
+        "A": "1 mm",
+        "B": "3 mm",
+        "C": "2 mm",
+        "D": "4 mm"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 10,
+      "question": "Unpolarised light is incident on a plane glass surface. What should be the angle of incidence so that the reflected and refracted rays are perpendicular to each other?",
+      "options": {
+        "A": "$56^\\circ$",
+        "B": "$57^\\circ$",
+        "C": "$58^\\circ$",
+        "D": "$59^\\circ$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 11,
+      "question": "Two slits are made $3\\text{ millimetre (3 mm)}$ apart and the screen is placed $2\\text{ m}$ away. What is the fringe separation when blue-green light of wavelength $600\\text{ nm}$ is used?",
+      "options": {
+        "A": "$0.4\\text{ mm}$",
+        "B": "$0.6\\text{ mm}$",
+        "C": "$0.5\\text{ mm}$",
+        "D": "$0.7\\text{ mm}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 12,
+      "question": "Estimate the distance for which ray optics is good approximation for an aperture of $5\\text{ mm}$ and wavelength $500\\text{ nm}$.",
+      "options": {
+        "A": "$50\\text{ m}$",
+        "B": "$18\\text{ m}$",
+        "C": "$40\\text{ m}$",
+        "D": "$60\\text{ m}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 1,
+      "question": "Two slits are made 10 millimeter apart and the screen is placed 1.5 metre away. What is the fringe separation when a wavelength of $7000 \\text{Å}$ is used?",
+      "options": {
+        "A": "$105 \\text{μm}$",
+        "B": "$1.05 \\text{μm}$",
+        "C": "$10.5 \\text{μm}$",
+        "D": "$0.105 \\text{μm}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 7,
+      "question": "The phase difference between any two particle of a given wave front is ________ rad.",
+      "options": {
+        "A": "$\\pi/4$",
+        "B": "$0$",
+        "C": "$\\pi/2$",
+        "D": "$\\pi$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 8,
+      "question": "In a Young's double-slit experiment, the slits are separated by $0.28\\text{ mm}$ and the screen is placed $1.4\\text{ m}$ away. The distance between the central bright fringe and the fourth bright fringe is measured to be $1.2\\text{ cm}$. Then the wavelength of light used in the experiment is ________.",
+      "options": {
+        "A": "$500\\text{ nm}$",
+        "B": "$660\\text{ nm}$",
+        "C": "$600\\text{ nm}$",
+        "D": "$550\\text{ nm}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 9,
+      "question": "Two waves of same intensity $I_0$ emitted from two sources having same phase difference ($\\phi$). Due to superposition of two waves, the intensity of resultant wave is directly proportional to ________.",
+      "options": {
+        "A": "$\\sin^2(\\frac{\\phi}{2})$",
+        "B": "$\\sin^2 \\phi$",
+        "C": "$\\cos^2(\\frac{\\phi}{2})$",
+        "D": "$\\cos^2 \\phi$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 10,
+      "question": "For light diverging from a point source,",
+      "options": {
+        "A": "the intensity at the wavefront does not depend on the distance",
+        "B": "the intensity increases in proportion to the distance squared",
+        "C": "the wavefront is parabolic",
+        "D": "the wavefront is spherical"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 11,
+      "question": "In Young's double slit experiment, the slits are separated by 0.54 mm and the screen is placed 1.8m away. The distance between central bright fringe and sixth bright fringe is measured to be 1.2 cm. Determine the wavelength of light used in the experiment.",
+      "options": {
+        "A": "5000 $\\text{\\AA}$",
+        "B": "600 nm",
+        "C": "8000 nm",
+        "D": "800 nm"
+      },
+      "answer": "B"
+    }
+  ]
+}

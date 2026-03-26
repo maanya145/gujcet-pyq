@@ -1,0 +1,415 @@
+{
+  "subject": "physics",
+  "chapter": "Electromagnetic Induction",
+  "total_questions": 34,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 2,
+      "question": "A coil of self inductance $0.5\\text{ mH}$ carries a current of $2\\text{A}$. The energy stored in Joule is",
+      "options": {
+        "A": "1.0",
+        "B": "0.1",
+        "C": "0.5",
+        "D": "0.05"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2007,
+      "number": 40,
+      "question": "What is the self inductance of a coil which produces self induced emf of $5\\text{ V}$, when the current changes from $3\\text{ A}$ to $2\\text{ A}$ in one millisecond?",
+      "options": {
+        "A": "$5\\text{ mH}$",
+        "B": "$5\\text{ H}$",
+        "C": "$50\\text{ H}$",
+        "D": "$5000\\text{ H}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2008,
+      "number": 16,
+      "question": "The north pole of a magnet is falling on a metallic ring as shown in the figure. The direction of induced current, if looked from upside in the ring will be [Figure]",
+      "options": {
+        "A": "Anticlock-wise.",
+        "B": "Clock-wise.",
+        "C": "Clock-wise or anticlock-wise depending on metal of the ring.",
+        "D": "No induced current."
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 18,
+      "question": "X and Y, two metallic coils are arranged in such a way that, when steady change in current flowing in X coil is 4 A, change in magnetic flux associated with coil Y is 0.4 Wb. Mutual inductance of the system of these coils is ....... H.",
+      "options": {
+        "A": "0.8",
+        "B": "0.1",
+        "C": "0.2",
+        "D": "5"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 19,
+      "question": "A conducting ring of radius r is placed perpendicularly inside a time varying magnetic field given by $B = B_0 + \\alpha t$, as shown in the figure. $B_0$ and $\\alpha$ are positive constants. Find emf produced in the ring. [Figure]",
+      "options": {
+        "A": "$-\\pi \\alpha^2 r^2$",
+        "B": "$-\\pi \\alpha^2 r$",
+        "C": "$-\\pi \\alpha r^2$",
+        "D": "$-\\pi \\alpha r$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 16,
+      "question": "Magnetic Flux linked with a coil is $\\phi = 5t^2 + 2t + 3$, where $t$ is in second and $\\phi$ is in weber. At time $t = 1 \\text{ sec.}$, the value of induced emf is ........... volt.",
+      "options": {
+        "A": "$1.2$",
+        "B": "$6$",
+        "C": "$14$",
+        "D": "$12$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 16,
+      "question": "Magnetic flux of $10\\text{ }\\mu\\text{ Wb}$ is linked with a coil, when a current of $2\\text{ mA}$ flows through it. What is the self inductance of the coil?",
+      "options": {
+        "A": "$10\\text{ mH}$",
+        "B": "$5\\text{ mH}$",
+        "C": "$15\\text{ mH}$",
+        "D": "$20\\text{ mH}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 17,
+      "question": "What is the self inductance of a solenoid of length $31.4\\text{ cm}$, area of cross section $10^{-3}\\text{m}^2$ and total number of turns $10^3$ ?",
+      "options": {
+        "A": "$4\\text{ mH}$",
+        "B": "$4\\text{ H}$",
+        "C": "$40\\text{ H}$",
+        "D": "$0.4\\text{ H}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 21,
+      "question": "The dimensional formula of magnetic flux is ________.",
+      "options": {
+        "A": "$M^1 L^2 T^{-3} A^{-1}$",
+        "B": "$M^1 L^2 T^{-2} A^{-1}$",
+        "C": "$M^1 L^{-2} T^2 A^1$",
+        "D": "$M^1 L^3 T^{-2} A^{-1}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 22,
+      "question": "A conducting Coil having $500$ turns has cross - sectional area $0.15 \\text{ m}^2$. A magnetic field of strength $0.2 \\text{ T}$ linked perpendicular to this area changes to $1.0 \\text{ T}$ in $0.4 \\text{ sec}$. The induced emf produced in the coil will be ________ volt.",
+      "options": {
+        "A": "$10.0$",
+        "B": "$15.0$",
+        "C": "$75.0$",
+        "D": "$150.0$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "number": 17,
+      "question": "The Network shown in Figure is a part of the circuit. (The battery has negligible resistance) [Diagram]. At a certain instant the current $I = 2\\text{ A}$ and it is decreasing at the rate of $10^2\\text{ As}^{-1}$. What is the potential difference between the points B and A?",
+      "options": {
+        "A": "8.5 V",
+        "B": "8.0 V",
+        "C": "10 V",
+        "D": "15 V"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 18,
+      "question": "A rod of $10\\text{ cm}$ length is moving perpendicular to uniform magnetic field of intensity $5 \\times 10^{-4}\\text{ Wb/m}^2$. If the acceleration of the rod is $5\\text{ m/s}^2$, then the rate of increase of induced emf is ________.",
+      "options": {
+        "A": "25 \\times 10^{-4}\\text{ Vs}",
+        "B": "2.5 \\times 10^{-4}\\text{ Vs}^{-1}",
+        "C": "20 \\times 10^{-4}\\text{ Vs}",
+        "D": "20 \\times 10^{-4}\\text{ Vs}^{-1}"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 29,
+      "question": "The number of turns in the coil of an A.C. generator are 100 and its cross-sectional area is 2.5 $m^2$. The coil is revolving in a uniform magnetic field of strength 0.3 T with the uniform angular velocity of 60 rad/s. The value of maximum value produced is _____ kV.",
+      "options": {
+        "A": "1.25",
+        "B": "4.50",
+        "C": "6.75",
+        "D": "2.25"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 30,
+      "question": "If $R$ and $L$ denote resistance and inductance respectively which of the following has dimension of time?",
+      "options": {
+        "A": "$\\sqrt{L/R}$",
+        "B": "$L/R$",
+        "C": "$R/L$",
+        "D": "$\\sqrt{R/L}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 21,
+      "question": "Two inductors each of inductance $L$ are connected in parallel. One more inductor of value $5\\text{ mH}$ is connected in series of this configuration then the effective inductance is $15\\text{ mH}$. The value of $L$ is ___ $\\text{mH}$.",
+      "options": {
+        "A": "$2.5$",
+        "B": "$5.0$",
+        "C": "$10$",
+        "D": "$20$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 34,
+      "question": "A coil having $200$ turns has a surface area of $0.15\\text{ m}^2$. A magnetic field of strength $0.2\\text{ T}$ applied perpendicular to this changes to $0.6\\text{ T}$ in $0.4\\text{ s}$, then the induced emf in the coil is ___ $\\text{V}$.",
+      "options": {
+        "A": "$15$",
+        "B": "$30$",
+        "C": "$45$",
+        "D": "$60$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 34,
+      "question": "A wheel of radius $2 \\text{ m}$ having 8 conducting concentric spokes is rotating about its geometrical axis with an angular velocity of $10 \\text{ rad/s}$ in a uniform magnetic field of $0.2 \\text{ T}$ perpendicular to its plane. The value of induced emf between the rim of the wheel and centre is ..................V",
+      "options": {
+        "A": "8",
+        "B": "4",
+        "C": "6",
+        "D": "2"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 35,
+      "question": "A coil of surface area $200 \\text{ cm}^2$ having 25 turns is held perpendicular to the magnetic field of intensity $0.02 \\frac{\\text{Wb}}{\\text{m}^2}$. The resistance of the coil is $1\\Omega$. If it is removed from the magnetic field in $1 \\text{ s}$, the induced charge in the coil is ................C.",
+      "options": {
+        "A": "0.001",
+        "B": "0.1",
+        "C": "0.01",
+        "D": "1"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 29,
+      "question": "The coil having $1000$ turns & Area of $0.10\\text{ m}^2$ rotates at half a revolution per second & it is placed in a uniform magnetic field of $0.01\\text{ T}$ perpendicular to the axis of rotation of coil. Then max. emf voltage generated in coil is ...... $\\text{V}$",
+      "options": {
+        "A": "$5.0$",
+        "B": "$0.5$",
+        "C": "$3.14$",
+        "D": "$0.314$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 30,
+      "question": "Out of the following given loops in which loop, the direction of induced current is from a c b. [Diagram]",
+      "options": {
+        "A": "[Diagram A]",
+        "B": "[Diagram B]",
+        "C": "[Diagram C]",
+        "D": "[Diagram D]"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 31,
+      "question": "Which is not the unit of Inductance?",
+      "options": {
+        "A": "$\\text{V.s.A}^{-1}$",
+        "B": "$\\text{WbA}^{-1}$",
+        "C": "$\\text{H}$",
+        "D": "$\\text{Wb.s.A}^{-1}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 37,
+      "question": "For a long current carrying solenoid having inside magnetic field is $0.6\\text{ T}$. Then find the magnetic energy per unit volume is __________.",
+      "options": {
+        "A": "$1.43 \\times 10^5\\text{ J/m}^3$",
+        "B": "$5.23 \\times 10^4\\text{ J/m}^3$",
+        "C": "$2.86 \\times 10^4\\text{ J/m}^3$",
+        "D": "Zero"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 38,
+      "question": "The self inductance $L$ of a solenoid of length $l$ and area of cross-section $A$ increase __________ . (Here, with fixed number of turns $N$).",
+      "options": {
+        "A": "$l$ and $A$ increase",
+        "B": "$l$ increases and $A$ decreases",
+        "C": "$l$ decreases and $A$ increases",
+        "D": "Both $l$ and $A$ decrease"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 39,
+      "question": "A pair of adjacent coils has a mutual inductance of $1.5\\text{ H}$. If the current in one coil changes from $0$ to $20\\text{ A}$ in $0.5\\text{ sec}$. what is the change of flux linkage with the other coil?",
+      "options": {
+        "A": "15 Wb",
+        "B": "45 Wb",
+        "C": "30 Wb",
+        "D": "60 Wb"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 1,
+      "question": "An air-cored solenoid with length $30\\text{ cm}$, area of cross-section $25\\text{ cm}^2$ and number of turns $500$, carries a current of $2.5\\text{ A}$. The current is suddenly switched off in a brief time of $10^{-3}\\text{ s}$. How much is the average back emf induced across the ends of the open switch in the circuit? Ignore the variation in magnetic field near the ends of the solenoid.",
+      "options": {
+        "A": "6.54 V",
+        "B": "65.4 V",
+        "C": "654 V",
+        "D": "0.654 V"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 39,
+      "question": "\"The polarity of induced emf is such that it tends to produce a current which opposes the change in magnetic flux that produced it.\" This statement is known as ________.",
+      "options": {
+        "A": "Faraday",
+        "B": "Maxwell",
+        "C": "Kirchhoff",
+        "D": "Lenz"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 40,
+      "question": "A pair of adjacent coils has a mutual inductance of $1.5\\text{ H}$. If the current in one coil changes from $0$ to $10\\text{ A}$ in $0.5\\text{ s}$, what is the change of flux linkage with the other coil?",
+      "options": {
+        "A": "$30\\text{ Wb}$",
+        "B": "$1.5\\text{ Wb}$",
+        "C": "$15\\text{ Wb}$",
+        "D": "$0.15\\text{ Wb}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 28,
+      "question": "The dimensional formula of self inductance is ________.",
+      "options": {
+        "A": "$M^1L^T^{-2}A^{-2}$",
+        "B": "$M^1L^2T^{-2}A^{-2}$",
+        "C": "$M^{-1}L^{-1}T^2A^2$",
+        "D": "$M^1L^1T^{-1}A^{-2}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 29,
+      "question": "As shown in the figure a bar magnet is moving towards a stationary coil with constant speed v. The direction of induced current in the coil observed by the observer on R.H.S. is ________. [Figure]",
+      "options": {
+        "A": "Anticlockwise",
+        "B": "Clockwise",
+        "C": "Current changes its direction randomly",
+        "D": "Induced current will not be produced"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 30,
+      "question": "A circular coil of area $2 \\text{ cm}^2$ is placed in a magnetic field of 3T perpendicularly. The coil has 10 turns and $5 \\, \\Omega$ resistance. Now the coil is removed from magnetic field in 0.2 s. The value of induced charge flowing through the coil is ________.",
+      "options": {
+        "A": "1.1 mC",
+        "B": "1.9 mC",
+        "C": "1.2 mC",
+        "D": "Zero"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 35,
+      "question": "A square loop of side $10\\text{ cm}$ and resistance $0.5\\Omega$ is placed vertically in the east-west plane. A uniform magnetic field of $0.10\\text{T}$ is setup across the plane in the north-east direction. The magnetic field is decreased to zero in $0.70\\text{ S}$ at a steady rate. Then the magnitude of induced current during this time interval will be ________.",
+      "options": {
+        "A": "$8.0 \\times 10^{-3}\\text{ A}$",
+        "B": "$4.0 \\times 10^{-3}\\text{ A}$",
+        "C": "$6.0 \\times 10^{-3}\\text{ A}$",
+        "D": "$2.0 \\times 10^{-3}\\text{ A}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2024,
+      "number": 36,
+      "question": "A coil has N turns and current passes through it is I ampere then we obtain L Henry of self inductance. Now if current charge to $5\\text{I}$ then new self inductance will be ________ H.",
+      "options": {
+        "A": "$L$",
+        "B": "$1/5\\text{ L}$",
+        "C": "$25\\text{ L}$",
+        "D": "$5\\text{ L}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 38,
+      "question": "As shown in figure two identical conducting rings of radius $r$ are placed in magnetic field. In figure(a) magnetic field increasing at the rate of $0.3 \\text{ T/s}$ and in figure(b) magnetic field decreasing at the rate of $0.2 \\text{ T/s}$. The direction of current in ring (a) and ring(b), when observe from top are ________. [Figure]",
+      "options": {
+        "A": "Clockwise, Anticlockwise",
+        "B": "Anticlockwise, Anticlockwise",
+        "C": "Clockwise, Clockwise",
+        "D": "Anticlockwise, Clockwise"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 39,
+      "question": "A pair of adjacent coils has a mutual inductance of 2H. If the current in one coil changes from 0 to 30A in 0.15s, what is the change of flux linkage with the other coil?",
+      "options": {
+        "A": "300 Wb",
+        "B": "6 Wb",
+        "C": "60 Wb",
+        "D": "15 Wb"
+      },
+      "answer": "A"
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "subject": "chemistry",
+  "chapter": "Haloalkanes and Haloarenes",
+  "total_questions": 33,
+  "questions": [
+    {
+      "year": 2008,
+      "number": 71,
+      "question": "Which one is not a Sandmeyer reagent ?",
+      "options": {
+        "A": "$\\text{Cu}_2\\text{Cl}_2 + \\text{HCl}$",
+        "B": "$\\text{Cu}_2\\text{Br}_2 + \\text{HBr}$",
+        "C": "$\\text{Cu}_2(\\text{CN})_2 + \\text{KCN}$",
+        "D": "$\\text{Cu}_2\\text{I}_2 + \\text{KI}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2014,
+      "number": 53,
+      "question": "Which of the following is the correct order for strength of $\\text{C} - \\text{X}$ bond.",
+      "options": {
+        "A": "$\\text{CH}_3\\text{F} > \\text{CH}_3\\text{Cl} > \\text{CH}_3\\text{Br} > \\text{CH}_3\\text{I}$",
+        "B": "$\\text{CH}_3\\text{F} < \\text{CH}_3\\text{Cl} < \\text{CH}_3\\text{Br} < \\text{CH}_3\\text{I}$",
+        "C": "$\\text{CH}_3\\text{I} > \\text{CH}_3\\text{F} > \\text{CH}_3\\text{Cl} > \\text{CH}_3\\text{Br}$",
+        "D": "$\\text{CH}_3\\text{Cl} > \\text{CH}_3\\text{Br} > \\text{CH}_3\\text{F} > \\text{CH}_3\\text{I}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 54,
+      "question": "Which one is the Swartz reaction from the following?",
+      "options": {
+        "A": "$\\text{CH}_3\\text{Cl} + \\text{NaI} \\xrightarrow{\\text{acetone}} \\text{CH}_3\\text{I} + \\text{NaCl}$",
+        "B": "$\\text{CH}_3\\text{Br} + \\text{NaI} \\xrightarrow{\\text{acetone}} \\text{CH}_3\\text{I} + \\text{NaBr}$",
+        "C": "$\\text{CH}_3\\text{Br} + \\text{AgF} \\xrightarrow{} \\text{CH}_3\\text{F} + \\text{AgBr}$",
+        "D": "$2 \\text{CH}_3\\text{Cl} + 2 \\text{Na} \\xrightarrow{\\text{Dry ether}} \\text{CH}_3 \\cdot \\text{CH}_3 + 2 \\text{NaCl}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 55,
+      "question": "Which of the following statement is incorrect for bimolecular nucleophylic substitution reaction ($\\text{SN}^2$)?",
+      "options": {
+        "A": "It is a second order reaction",
+        "B": "In $\\text{SN}^2$ reaction the substrate does not undergo heterolytic fission",
+        "C": "The rate of $\\text{SN}^2$ reaction does not depends on concentrations of both substrate and nucleophilic reagent",
+        "D": "$\\text{SN}^2$ reaction occurs in single step without forming intermediate"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "number": 45,
+      "question": "Which of the following is allylic halide?",
+      "options": {
+        "A": "(1 - bromo ethyl) benzene",
+        "B": "Benzyl chloride",
+        "C": "1 - bromo benzene",
+        "D": "3 - chloro cyclo hex-1-ene"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "number": 46,
+      "question": "50% of the reagent is used for dehydrohalogenation of $6.45\\text{ gm } \\text{CH}_3\\text{CH}_2\\text{Cl}$. What will be the weight of the main product obtained? [At. mass of H, C and Cl are 1, 12 & 35.5 gm/mole$^{-1}$ respectively]",
+      "options": {
+        "A": "1.4 gm",
+        "B": "0.7 gm",
+        "C": "2.8 gm",
+        "D": "5.6 gm"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 47,
+      "question": "Name the following reaction $\\text{CH}_3\\text{CH}_2\\text{Cl} + \\text{NaI} \\xrightarrow{\\text{acetone}} \\text{CH}_3\\text{CH}_2\\text{I} + \\text{NaCl}$",
+      "options": {
+        "A": "Frinkel-stein reaction",
+        "B": "Swartz reaction",
+        "C": "Wurtz reaction",
+        "D": "Hell-Volhard Zelinsky reaction"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 61,
+      "question": "The reaction of $\\text{(CH}_3)_3\\text{CONa}$ with ____ reagent is the most easy?",
+      "options": {
+        "A": "$\\text{C}_6\\text{H}_5\\text{Br}$",
+        "B": "$\\text{(CH}_3)_2\\text{CHBr}$",
+        "C": "$\\text{(CH}_3)_3\\text{CBr}$",
+        "D": "$\\text{CH}_3\\text{CH}_2\\text{Br}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 62,
+      "question": "The organic product of which reaction from the following is used as anaesthetic?",
+      "options": {
+        "A": "$\\text{CS}_2 + 3\\text{Cl}_2 \\xrightarrow{\\text{Anh.AlCl}_3}$",
+        "B": "Chloral + $\\text{Ca(OH)}_2 \\rightarrow$",
+        "C": "Chloral + Chlorobenzene $\\rightarrow$",
+        "D": "$\\text{CHCl}_3 \\xrightarrow{\\text{H}_2\\text{/Ni}}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 63,
+      "question": "Which of the following compound gives only one monochloro product on its chlorination in presence of sunlight?",
+      "options": {
+        "A": "n - butane",
+        "B": "Iso pentane",
+        "C": "Neo pentane",
+        "D": "n - pentane"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 53,
+      "question": "Which one is not an allylic halide?",
+      "options": {
+        "A": "$1 - \\text{Chloro but} - 2 - \\text{ene}$",
+        "B": "$1 - \\text{Chloro but} - 1 - \\text{ene}$",
+        "C": "$3 - \\text{Chloro cyclo hex} - 1 - \\text{ene}$",
+        "D": "$3 - \\text{Chloro prop} - 1 - \\text{ene}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 54,
+      "question": "Which is the main organic product obtained by the reaction of $2, 2, 2$ trichloro ethanal with calcium hydroxide?",
+      "options": {
+        "A": "Chloroform",
+        "B": "Carbon tetrachloride",
+        "C": "Methylene chloride",
+        "D": "Trichloro ethane"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 55,
+      "question": "Which of the following compound is optically inactive?",
+      "options": {
+        "A": "$2 - \\text{Hydroxy propanoic acid}$",
+        "B": "$2, 3 - \\text{Dichloro butane}$",
+        "C": "$3 - \\text{Chloro but} - 1 - \\text{ene}$",
+        "D": "$2, 2 - \\text{Dichloro pentane}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 67,
+      "question": "1, 2 - dichloro ethane is which type of halide?",
+      "options": {
+        "A": "Allylic halide",
+        "B": "Alkylidene halide",
+        "C": "Vicinal halide",
+        "D": "Gaminal halide"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 68,
+      "question": "Polarimeter is used to determine ______ of compounds.",
+      "options": {
+        "A": "D and L configuration",
+        "B": "d and l configuration",
+        "C": "R and S configuration",
+        "D": "Both D and L as well as d & l configuration"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 69,
+      "question": "Which of the following group of compounds are extinguisher, antiseptic, insecticide and anesthetic respectively?",
+      "options": {
+        "A": "CCl4, CHI3, CHCl, DDT",
+        "B": "CCl4, CHI3, DDT, CHCl3",
+        "C": "DDT, CHCl3, CCl4, CHI3",
+        "D": "CHCl3, CHI3, DDT, CCl4"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 78,
+      "question": "How many optically active isomers are possible in the compound having formula $\\text{C}_4\\text{H}_9\\text{Br}$?",
+      "options": {
+        "A": "$2$",
+        "B": "$3$",
+        "C": "$1$",
+        "D": "$4$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 79,
+      "question": "$\\text{R}' - \\text{Cl} \\xrightarrow{\\text{Na/ether}} 2, 3\\text{-dimethyl butane}$. What is R’ in the above reaction?",
+      "options": {
+        "A": "isobutyl",
+        "B": "isopropyl",
+        "C": "sec-butyl",
+        "D": "n-propyl"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 48,
+      "question": "$\\text{CH}_3\\text{CH} = \\text{CHC (Cl) } (\\text{CH}_3)_2$ is which type of halide based on position of $-\\text{Cl}$?",
+      "options": {
+        "A": "Allylic",
+        "B": "Secondary",
+        "C": "Vinylic",
+        "D": "Aryl"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 49,
+      "question": "What is A in following reaction? [Diagram]",
+      "options": {
+        "A": "[Diagram A]",
+        "B": "[Diagram B]",
+        "C": "[Diagram C]",
+        "D": "[Diagram D]"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 50,
+      "question": "Which would undergo $\\text{S}_N1$ reaction faster from following?",
+      "options": {
+        "A": "Chloromethane",
+        "B": "2-bromo-3-methylbutane",
+        "C": "2-chloro-3-methylbutane",
+        "D": "2-bromo-2-methylpropane"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 48,
+      "question": "How many numbers of sigma ($\\sigma$) and pi ($\\pi$) bonds in DDT respectively?",
+      "options": {
+        "A": "28 and 6",
+        "B": "29 and 6",
+        "C": "30 and 6",
+        "D": "21 and 6"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 49,
+      "question": "Which of the following undergoes $S_N2$ reaction most readily?",
+      "options": {
+        "A": "$\\text{C}_6\\text{H}_5\\text{CH (CH}_3\\text{) Br}$",
+        "B": "$\\text{C}_6\\text{H}_5\\text{CH (C}_6\\text{H}_5\\text{) Br}$",
+        "C": "$\\text{C}_6\\text{H}_5\\text{C (CH}_3\\text{) (C}_6\\text{H}_5\\text{) Br}$",
+        "D": "$\\text{C}_6\\text{H}_5\\text{CH}_2\\text{ Br}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 51,
+      "question": "Which product is obtained from following reaction? [Figure]",
+      "options": {
+        "A": "[Figure A]",
+        "B": "[Figure B]",
+        "C": "[Figure C]",
+        "D": "[Figure D]"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 76,
+      "question": "The following results are as under for the reaction $\\text{S} + \\text{Nu} \\rightarrow \\text{Product}$ by which reaction mechanism this reaction occurs? [Table]",
+      "options": {
+        "A": "Electrophilic addition",
+        "B": "$\\text{S}_N1$",
+        "C": "$\\text{S}_N2$",
+        "D": "Electrophilic substitution"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 77,
+      "question": "Which one is a reaction to prepare $\\text{CCl}_2\\text{F}_2$ (Freon-12) from $\\text{CCl}_4$?",
+      "options": {
+        "A": "Wurtz Reaction",
+        "B": "Finkelstein",
+        "C": "Elimination Reaction",
+        "D": "Swartz Reaction"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 42,
+      "question": "Predict the order of reactivity of the following compounds in $\text{S}_\text{N}1$ reaction. (i) $\text{C}_6\text{H}_5 \text{CH}_2\text{Br}$ (ii) $\text{C}_6\text{H}_5 \text{CH}(\text{C}_6\text{H}_5)\text{Br}$ (iii) $\text{C}_6\text{H}_5 \text{CH}(\text{CH}_3)\text{Br}$ (iv) $\text{C}_6\text{H}_5 \text{C}(\text{CH}_3)(\text{C}_6\text{H}_5)\text{Br}$",
+      "options": {
+        "A": "(ii) > (iii) > (iv) > (i)",
+        "B": "(ii) > (iv) > (iii) > (i)",
+        "C": "(iv) > (iii) > (ii) > (i)",
+        "D": "(iv) > (ii) > (iii) > (i)"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 43,
+      "question": "Match the reactions given in column - I with the names given in column - II. [Table] Column - I: i) $\text{R}-\text{Cl} + \text{NaI} \rightarrow \text{R}-\text{I} + \text{NaCl}$, ii) $\text{CH}_3 - \text{Br} + \text{AgF} \rightarrow \text{CH}_3 - \text{F} + \text{AgBr}$, iii) $\text{R}-\text{X} + \text{Mg} \rightarrow \text{R}-\text{Mg}-\text{X} \rightarrow \text{RH} + \text{Mg}(\text{OH})\text{X}$. Column - II: a) Swarts reaction, b) Wurtz reaction, c) Finkelstein reaction, d) Grignard reaction",
+      "options": {
+        "A": "(i) $\rightarrow$ (c); (ii) $\rightarrow$ (a); (iii) $\rightarrow$ (d)",
+        "B": "(i) $\rightarrow$ (d); (ii) $\rightarrow$ (c); (iii) $\rightarrow$ (b)",
+        "C": "(i) $\rightarrow$ (a); (ii) $\rightarrow$ (c); (iii) $\rightarrow$ (d)",
+        "D": "(i) $\rightarrow$ (b); (ii) $\rightarrow$ (a); (iii) $\rightarrow$ (d)"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 80,
+      "question": "Which reagent will be used for the following reaction? $\text{CH}_3\text{CH}_2\text{CH}_2\text{CH}_3 \rightarrow \text{CH}_3 - \text{CH}_2 - \text{CH}_2\text{CH}_2\text{Cl} + \text{CH}_3 - \text{CH}_2 - \text{CH}(\text{Cl}) - \text{CH}_3$",
+      "options": {
+        "A": "$\text{Cl}_2$, air, Fe/dark",
+        "B": "$\text{NaCl} + \text{H}_2\text{SO}_4$",
+        "C": "$\text{Cl}_2$/UV light",
+        "D": "$\text{Cl}_2$, air/dark"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 53,
+      "question": "Which of the following compound is not allylic halide?",
+      "options": {
+        "A": "1-Bromo-2-methylbut-2-ene",
+        "B": "1-Bromobut-2-ene",
+        "C": "3-Bromo-2-methylbut-1-ene",
+        "D": "2-Bromo-2-methylbut-2-ene"
+      },
+      "answer": null
+    },
+    {
+      "year": 2025,
+      "number": 54,
+      "question": "How many minimum numbers of C-atom containing monohaloalkane shows Optical Isomerism?",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "3",
+        "D": "5"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 55,
+      "question": "Which of the following compound has highest reactivity towards $\\text{S}_N2$ reaction?",
+      "options": {
+        "A": "1-Bromo-3-methylbutane",
+        "B": "1-Bromo-2, 2-dimethylpropane",
+        "C": "1-Bromo-2-methylbutane",
+        "D": "1-Bromobutane"
+      },
+      "answer": null
+    },
+    {
+      "year": 2025,
+      "number": 56,
+      "question": "____ compound is slowly oxidised by air in presence of light to an extremely poisonous gas, carbonyl chloride.",
+      "options": {
+        "A": "Trichloromethane",
+        "B": "Methylene chloride",
+        "C": "Chlorobenzene",
+        "D": "Chloromethane"
+      },
+      "answer": "A"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "subject": "chemistry",
+  "chapter": "Chemistry in Everyday Life",
+  "total_questions": 21,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 55,
+      "question": "Which of the following is used as an oxidising agent in hybrid fuel?",
+      "options": {
+        "A": "$\\text{CrO}_3$",
+        "B": "$\\text{Cr}_2\\text{O}_3$",
+        "C": "$\\text{N}_2\\text{O}_4$",
+        "D": "$\\text{H}_2\\text{O}_2$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2007,
+      "number": 56,
+      "question": "Select the basic dye from the following",
+      "options": {
+        "A": "Methyl Red",
+        "B": "Congo Red",
+        "C": "Melachite Green",
+        "D": "Methyl Orange"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2008,
+      "number": 78,
+      "question": "Which substance is obtained when Kaolin is heated at high temperature ?",
+      "options": {
+        "A": "Alitame",
+        "B": "Ceramics",
+        "C": "Sodium metabisulphite",
+        "D": "Sodium hydrosulphite"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 79,
+      "question": "Cetyl tri methyl ammonium chloride is which type of detergent ?",
+      "options": {
+        "A": "Anionic",
+        "B": "Cationic",
+        "C": "Non-ionic",
+        "D": "Biosoft"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 57,
+      "question": "Iodised salt prevents ............",
+      "options": {
+        "A": "Beri-beri",
+        "B": "Goitre",
+        "C": "Anaemia",
+        "D": "T.B."
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 75,
+      "question": "Which type of chemical substance is Disparlure ?",
+      "options": {
+        "A": "Preservative",
+        "B": "Pheromones",
+        "C": "Antioxidant",
+        "D": "Detergent"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 79,
+      "question": "Which of the following is Pheromone ?",
+      "options": {
+        "A": "Linalool",
+        "B": "Disparlure",
+        "C": "BHA",
+        "D": "Alitame"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 80,
+      "question": "Match metal ion (Part-1) with colour (Part-2) in presence of Alizarin. [Table]",
+      "options": {
+        "A": "$I - a, II - d, III - c, IV - b$",
+        "B": "$I - b, II - a, III - d, IV - c$",
+        "C": "$I - c, II - b, III - a, IV - d$",
+        "D": "$I - d, II - c, III - b, IV - a$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2014,
+      "number": 80,
+      "question": "Which of the following is useful as a food preservative?",
+      "options": {
+        "A": "Salts of sorbic acid",
+        "B": "Sucrolose",
+        "C": "Ascorbic acid",
+        "D": "Citric acid"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 72,
+      "question": "To prevent food from spoilage by microorganism, which substance is used?",
+      "options": {
+        "A": "Amelo",
+        "B": "Aspartame",
+        "C": "Salt of sorbic acid",
+        "D": "Tetrazine"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 46,
+      "question": "From the following substances, which carbohydrate has the maximum sweetness?",
+      "options": {
+        "A": "Sucrolose",
+        "B": "Saccharin",
+        "C": "Aspartame",
+        "D": "Alitame"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 47,
+      "question": "Which type of drug is veronal?",
+      "options": {
+        "A": "Antihistamine",
+        "B": "Antifertility",
+        "C": "Tranquilizer",
+        "D": "Antimicrobial"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 58,
+      "question": "Which is the correct structural formula of Aspirin?",
+      "options": {
+        "A": "Diagram A",
+        "B": "Diagram B",
+        "C": "Diagram C",
+        "D": "Diagram D"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 79,
+      "question": "Choose the correct option for the suitable match between Column I and Column II",
+      "options": {
+        "A": "$P \\rightarrow N, Q \\rightarrow O, R \\rightarrow M, S \\rightarrow L$",
+        "B": "$P \\rightarrow N, Q \\rightarrow M, R \\rightarrow O, S \\rightarrow L$",
+        "C": "$P \\rightarrow N, Q \\rightarrow O, R \\rightarrow L, S \\rightarrow M$",
+        "D": "$P \\rightarrow L, Q \\rightarrow O, R \\rightarrow M, S \\rightarrow N$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 80,
+      "question": "Which of the following drugs gives releif from anxiety and stress?",
+      "options": {
+        "A": "Luminal",
+        "B": "Aspirin",
+        "C": "Ofloxacin",
+        "D": "Mestranol"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 52,
+      "question": "Which antihistamine drug is used to prevent acidity?",
+      "options": {
+        "A": "Phenelzine",
+        "B": "Cimetidine",
+        "C": "Morphine",
+        "D": "Equanil"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 53,
+      "question": "Name the sweetner which is a trichloro derivative of Sucrose?",
+      "options": {
+        "A": "Sucralose",
+        "B": "Saccharin",
+        "C": "Alitame",
+        "D": "Aspartame"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 63,
+      "question": "Which of the following drug is used for treatment of Acidity?",
+      "options": {
+        "A": "Ranitidine",
+        "B": "Meprobamate",
+        "C": "Salvarsan",
+        "D": "Codein"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 64,
+      "question": "Which Artificial sweetener is unstable at cooking temperature?",
+      "options": {
+        "A": "Sucralose",
+        "B": "Aspartame",
+        "C": "Alitame",
+        "D": "Saccharin"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 51,
+      "question": "Which artificial sweetening agent is limited in for cold food and soft drinks?",
+      "options": {
+        "A": "Sucralose",
+        "B": "Alitame",
+        "C": "Saccharin",
+        "D": "Aspartame"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 52,
+      "question": "Polyethylene-glycol is used in the preparation of which types of detergent?",
+      "options": {
+        "A": "Anionic detergent",
+        "B": "Non Ionic detergent",
+        "C": "Cationic detergent",
+        "D": "Soap"
+      },
+      "answer": "B"
+    }
+  ]
+}

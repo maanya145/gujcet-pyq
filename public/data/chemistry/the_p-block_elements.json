@@ -1,0 +1,451 @@
+{
+  "subject": "chemistry",
+  "chapter": "The p-Block Elements",
+  "total_questions": 37,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 49,
+      "question": "How many O-atoms are shared per $\\text{SiO}_4$ tetrahedral in silicate anion of beryl mineral?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "1"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2007,
+      "number": 59,
+      "question": "The correct formula of salt formed by the neutralisation of hypophosphorous acid with $\\text{NaOH}$ is :",
+      "options": {
+        "A": "$\\text{Na}_3\\text{PO}_2$",
+        "B": "$\\text{Na}_3\\text{PO}_3$",
+        "C": "$\\text{NaH}_2\\text{PO}_2$",
+        "D": "$\\text{Na}_2\\text{HPO}_2$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2007,
+      "number": 77,
+      "question": "Which of the following is isolated in pure form?",
+      "options": {
+        "A": "$\\text{HClO}_4$",
+        "B": "$\\text{HClO}_3$",
+        "C": "$\\text{HClO}_2$",
+        "D": "$\\text{HClO}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2007,
+      "number": 78,
+      "question": "Which of the following has the highest proton affinity?",
+      "options": {
+        "A": "Stibine ($\\text{SbH}_3$)",
+        "B": "Arsine ($\\text{AsH}_3$)",
+        "C": "Phosphine ($\\text{PH}_3$)",
+        "D": "Ammonia ($\\text{NH}_3$)"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2008,
+      "number": 44,
+      "question": "Which type of silicate compound, the Beryl is ?",
+      "options": {
+        "A": "Chain silicate",
+        "B": "Cyclic silicate",
+        "C": "Planar silicate",
+        "D": "Di-silicate"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 55,
+      "question": "Which element is not of a p block from the following ?",
+      "options": {
+        "A": "Ga",
+        "B": "As",
+        "C": "Po",
+        "D": "Sr"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 56,
+      "question": "How many atoms are packed differently in cyclic form in an allotrope of monoclinic Sulphur ?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "2"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 57,
+      "question": "How can a central iodine be bonded in octahedral meta per iodic acid ?",
+      "options": {
+        "A": "With one 'O' and four OH group.",
+        "B": "With two 'O' and five 'OH' group.",
+        "C": "With one 'O' and five 'OH' group.",
+        "D": "With two 'O' and three 'OH' group."
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 44,
+      "question": "In Feldspar and Zeolite, $\\text{Si}^{4+}$ ions are replaced by which ions ?",
+      "options": {
+        "A": "Potassium ion",
+        "B": "Aluminium ion",
+        "C": "Hydroxide ion",
+        "D": "Oxide ion"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 56,
+      "question": "Which element is used in the preparation of Pesticides ?",
+      "options": {
+        "A": "Nitrogen",
+        "B": "Antimony",
+        "C": "Bismuth",
+        "D": "Arsenic"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 58,
+      "question": "Which element is not considered as 'Chalcogens' ?",
+      "options": {
+        "A": "Polonium",
+        "B": "Sulphur",
+        "C": "Oxygen",
+        "D": "Selenium"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 56,
+      "question": "Stoichiometric ratio of Sodium di hydrogen orthophosphate and Sodium hydrogen orthophosphate required for synthesis of $\\text{Na}_5\\text{P}_3\\text{O}_{10}$ is .......",
+      "options": {
+        "A": "$1.5 : 3$",
+        "B": "$3 : 1.5$",
+        "C": "$1 : 1$",
+        "D": "$2 : 3$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 57,
+      "question": "Number of non-bonding electron pair on Xe in $\\text{XeF}_6\\text{, XeF}_4\\text{ and XeF}_2$ respectively will be ......",
+      "options": {
+        "A": "$6, 4, 2$",
+        "B": "$1, 2, 3$",
+        "C": "$3, 2, 1$",
+        "D": "$0, 3, 2$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 50,
+      "question": "Which oxide is colourless and neutral?",
+      "options": {
+        "A": "$\\text{N}_2\\text{O}$",
+        "B": "$\\text{N}_2\\text{O}_3$",
+        "C": "$\\text{N}_2\\text{O}_4$",
+        "D": "$\\text{N}_2\\text{O}_5$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 51,
+      "question": "What is the geometrical shape of $\\text{XeO}_3$?",
+      "options": {
+        "A": "Planar triangular",
+        "B": "Trigonal pyramidal",
+        "C": "Square planar",
+        "D": "Tetrahydral"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 52,
+      "question": "Aqueous solution of which of the following acid can not be kept in glass bottle?",
+      "options": {
+        "A": "$\\text{HF}$",
+        "B": "$\\text{HI}$",
+        "C": "$\\text{HCl}$",
+        "D": "$\\text{HBr}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 42,
+      "question": "Which product will be obtained in the following reaction? Reaction: $\\text{P}_{4(s)} + 3\\text{NaOH}_{(aq)} + 3\\text{H}_2\\text{O}_{(l)} \\rightarrow$ ________.",
+      "options": {
+        "A": "\\text{PH}_{3(g)} + 3\\text{NaH}_2\\text{PO}_{2(aq)}",
+        "B": "\\text{PH}_{3(g)} + 3\\text{Na}_2\\text{HPO}_{3(aq)}",
+        "C": "2\\text{PH}_{3(g)} + 3\\text{Na}_2\\text{HPO}_{3(aq)}",
+        "D": "2\\text{PH}_{3(g)} + 3\\text{NaH}_2\\text{PO}_{2(aq)}"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 43,
+      "question": "The molecular formulae for phosgene and tear gas are ________ and ________ respectively.",
+      "options": {
+        "A": "\\text{COCl}_2 \\text{ and } \\text{CCl}_3\\text{NO}_2",
+        "B": "\\text{SOCl}_2 \\text{ and } \\text{CCl}_3\\text{NO}_2",
+        "C": "\\text{COCl}_2 \\text{ and } \\text{CCl}_3\\text{NO}_2",
+        "D": "\\text{SOCl}_2 \\text{ and } \\text{CCl}_3\\text{NO}_2"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "number": 44,
+      "question": "Which of the following mixture is called Aquaregia?",
+      "options": {
+        "A": "Three parts of dil. $\\text{HCl}$ and 1 part of conc. $\\text{HNO}_3$",
+        "B": "Two parts of conc. $\\text{HCl}$ and two parts of conc. $\\text{HNO}_3$",
+        "C": "Three parts of conc. $\\text{HCl}$ and 1 part of dil. $\\text{HNO}_3$",
+        "D": "Three parts of conc. $\\text{HCl}$ and 1 part of conc. $\\text{HNO}_3$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 60,
+      "question": "In which of the following acid, the maximum number of hydrogen atoms are joined directly with phosphorous?",
+      "options": {
+        "A": "Phosphoric acid",
+        "B": "Phosphorous acid",
+        "C": "Pyrophosphoric acid",
+        "D": "Phosphonic acid"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 51,
+      "question": "How many grams of $\\text{Cl}_2$ gas will be obtained by the complete reaction of $31.6\\text{ gm}$ of potassium permanganate with hydrochloric acid? [Mole mass of $\\text{KMnO}_4 = 316\\text{ gm/mol}$]",
+      "options": {
+        "A": "$35.5$",
+        "B": "$17.75$",
+        "C": "$71$",
+        "D": "$142$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 52,
+      "question": "What is the structure of $\\text{XeOF}_4$?",
+      "options": {
+        "A": "Pyramidal",
+        "B": "Trigonal bipyramidal",
+        "C": "Square pyramidal",
+        "D": "Square bipyramidal"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 64,
+      "question": "Which of the following hydride is the most stable?",
+      "options": {
+        "A": "AsH3",
+        "B": "NH3",
+        "C": "SbH3",
+        "D": "PH3"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 65,
+      "question": "In which of the following pair of oxyacid of phosphorous, oxidation states of P are not the same?",
+      "options": {
+        "A": "H4P2O7 and H3PO3",
+        "B": "H4P2O7 and H5P3O10",
+        "C": "H3PO4 and H5P3O10",
+        "D": "H3PO4 and H4P2O7"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 66,
+      "question": "Which of the following order of acidic strength is correct?",
+      "options": {
+        "A": "HClO4 > HClO3 > HClO2 > HClO",
+        "B": "HClO2 > HClO > HClO4 > HClO",
+        "C": "HClO4 > HClO2 > HClO3 > HClO",
+        "D": "HClO > HClO2 > HClO3 > HClO4"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 70,
+      "question": "Which of the following is the correct order?",
+      "options": {
+        "A": "Stability: $\\text{HI} < \\text{HBr} < \\text{HCl} < \\text{HF}$",
+        "B": "Acidic strength: $\\text{HClO}_4 < \\text{HClO}_3 < \\text{HClO}_2 < \\text{HClO}$",
+        "C": "Ionic character: $\\text{MF} < \\text{MCl} < \\text{MBr} < \\text{MI}$",
+        "D": "Electron gain enthalpy: $\\text{I} < \\text{Br} < \\text{Cl} < \\text{F}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 71,
+      "question": "In which of the following oxoacid of Sulphur, S-O-O-S bond is present?",
+      "options": {
+        "A": "$\\text{H}_2\\text{S}_2\\text{O}_8$",
+        "B": "$\\text{H}_2\\text{S}_2\\text{O}_7$",
+        "C": "$\\text{H}_2\\text{S}_2\\text{O}_4$",
+        "D": "$\\text{H}_2\\text{S}_2\\text{O}_3$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 72,
+      "question": "Concentrated $\\text{HNO}_3$ oxidise white phosphorus into which substance?",
+      "options": {
+        "A": "$\\text{H}_4\\text{P}_2\\text{O}_7$",
+        "B": "$\\text{H}_3\\text{PO}_2$",
+        "C": "$\\text{H}_3\\text{PO}_4$",
+        "D": "$\\text{H}_3\\text{PO}_3$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 41,
+      "question": "Which halogen element gives Halous acid type of oxoacid?",
+      "options": {
+        "A": "F",
+        "B": "Br",
+        "C": "Cl",
+        "D": "I"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 42,
+      "question": "Which is used for manufacture of steel?",
+      "options": {
+        "A": "Dihydrogen",
+        "B": "Dinitrogen",
+        "C": "Dioxygen",
+        "D": "Dichlorine"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 80,
+      "question": "Very pure dinitrogen can be obtained by the thermal decomposition of which substance?",
+      "options": {
+        "A": "Sodium azide",
+        "B": "Ammonium dichromate",
+        "C": "Ammonium nitrite",
+        "D": "Barium nitrite"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 41,
+      "question": "Hybridisation in $\\text{XeF}_2$ and $\\text{XeF}_4$ are respectively ________.",
+      "options": {
+        "A": "$sp^2$ and $sp^3d^2$",
+        "B": "$sp^3d$ and $sp^3d^2$",
+        "C": "$sp$ and $sp^3$",
+        "D": "$sp^3d$ and $sp^3$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 42,
+      "question": "Which is the correct options for bonds and their number in pyrophosphoric acid?",
+      "options": {
+        "A": "Two P-OH, Four P = O, One P-O-P",
+        "B": "Four P-OH, One P = O, One P-O-P",
+        "C": "Two P-OH, Four P = O, Two P-O-P",
+        "D": "Four P-OH, Two P = O, One P-O-P"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 80,
+      "question": "Which products are obtained by reaction of hot and concentrated NaOH with dichlorine?",
+      "options": {
+        "A": "$\\text{NaCl} + \\text{NaClO}_2 + \\text{H}_2\\text{O}$",
+        "B": "$\\text{NaCl} + \\text{NaClO}_4 + \\text{H}_2\\text{O}$",
+        "C": "$\\text{NaCl} + \\text{NaClO}_3 + \\text{H}_2\\text{O}$",
+        "D": "$\\text{NaCl} + \\text{NaOCl} + \\text{H}_2\\text{O}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 68,
+      "question": "By thermal decomposition of which of the following compound very pure dinitrogen gas can be obtained?",
+      "options": {
+        "A": "Ammonium dichromate",
+        "B": "Ammonium Chloride",
+        "C": "Sodium Azide",
+        "D": "Barium Nitrate"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 70,
+      "question": "Which of the following are peroxo acids of Sulphur?",
+      "options": {
+        "A": "$\\text{H}_2\\text{SO}_5 \\text{ and } \\text{H}_2\\text{S}_2\\text{O}_7$",
+        "B": "$\\text{H}_2\\text{SO}_5 \\text{ and } \\text{H}_2\\text{S}_2\\text{O}_8$",
+        "C": "$\\text{H}_2\\text{S}_2\\text{O}_7 \\text{ and } \\text{H}_2\\text{S}_2\\text{O}_8$",
+        "D": "$\\text{H}_2\\text{S}_2\\text{O}_6 \\text{ and } \\text{H}_2\\text{S}_2\\text{O}_7$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 45,
+      "question": "The highest Mn fluoride is $\\text{MnF}_4$ whereas the highest oxide is $\\text{Mn}_2\\text{O}_7$ because ____.",
+      "options": {
+        "A": "Fluorine does not have d-orbital.",
+        "B": "Electronegativity of oxygen is more than fluorine.",
+        "C": "Atomic volume of oxygen is less than fluorine.",
+        "D": "Oxygen forms multiple bonds and fluorine form single bond."
+      },
+      "answer": "D"
+    }
+  ]
+}

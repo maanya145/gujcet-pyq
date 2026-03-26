@@ -1,0 +1,319 @@
+{
+  "subject": "maths",
+  "chapter": "Relations and Functions",
+  "total_questions": 26,
+  "questions": [
+    {
+      "year": 2017,
+      "number": 9,
+      "question": "If $f: R - \\{\\frac{3}{5}\\} \\to R - \\{\\frac{3}{5}\\}; f(x) = \\frac{3x + 1}{5x - 3}$, then ____.",
+      "options": {
+        "A": "$f^{-1}(x) = 2f(x)$",
+        "B": "$f^{-1}(x) = f(x)$",
+        "C": "$f^{-1}(x) = -f(x)$",
+        "D": "$f^{-1}(x)$ does not exists"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 10,
+      "question": "$f: R \\to R, f(x) = 3x + 2$, $g: R \\to R, g(x) = 6x + 5$, for the given functions $(g \\circ f^{-1})(10) = $_____.",
+      "options": {
+        "A": "21",
+        "B": "29",
+        "C": "7",
+        "D": "$\\frac{8}{3}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 11,
+      "question": "Relation $S = \\{(1, 2), (2, 1), (2, 3)\\}$ is defined on the set $\\{1, 2, 3\\}$ is _______.",
+      "options": {
+        "A": "not transitive",
+        "B": "symmetric",
+        "C": "reflexive",
+        "D": "equivalence"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 19,
+      "question": "The number of binary operations on the set {1,2,3} is",
+      "options": {
+        "A": "$3^9$",
+        "B": "27",
+        "C": "$9^3$",
+        "D": "$3!$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 20,
+      "question": "Function $f : N \\to Z; f(n) = \\begin{cases} n/2, & n \\text{ even} \\\\ -(n-1)/2, & n \\text{ odd} \\end{cases}$",
+      "options": {
+        "A": "One-one but not onto",
+        "B": "One-one and onto",
+        "C": "Not one-one but onto",
+        "D": "Not one-one and not onto"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 21,
+      "question": "The relation $S = \\{(3,3), (4,4)\\}$ on the set $A = \\{3,4,5\\}$ is",
+      "options": {
+        "A": "Reflexive only",
+        "B": "Symmetric only",
+        "C": "Not reflexive but symmetric and transitive",
+        "D": "An equivalence relation"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 21,
+      "question": "$f: R \\to R, f(x) = x^2+3x+4$ is ..............",
+      "options": {
+        "A": "one-one and onto",
+        "B": "many-one and not onto",
+        "C": "one-one and not onto",
+        "D": "not one-one and onto"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 22,
+      "question": "If $a * b = \\frac{ab}{10}; a, b \\in Q^+$, then $(5 * 8)^{-1} = .............$",
+      "options": {
+        "A": "$4$",
+        "B": "$10$",
+        "C": "$\\frac{1}{25}$",
+        "D": "$25$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 23,
+      "question": "If $f: N \\to N, f(x) = x+3$, then $f^{-1}(x) = ...........$",
+      "options": {
+        "A": "$x+3$",
+        "B": "$x-3$",
+        "C": "does not exists",
+        "D": "$3-x$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 9,
+      "question": "Let $f: R \\to R$ be defined by $f(x) = 2x^2 - 5$ and $g: R \\to R$ by $g(x) = \\frac{x}{x^2 + 1}$, then $gof$ is ____________.",
+      "options": {
+        "A": "$\\frac{2x^2 - 5}{4x^4 + 20x^2 + 26}$",
+        "B": "$\\frac{2x^2 - 5}{4x^4 - 20x^2 + 26}$",
+        "C": "$\\frac{2x^2}{x^4 + 2x^2 - 4}$",
+        "D": "$\\frac{2x^2}{4x^4 - 20x^2 + 26}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 10,
+      "question": "Let $f: [2, \\infty) \\to R$ be the function defined by $f(x) = x^2 - 4x + 5$. Then the range of $f$ is _________.",
+      "options": {
+        "A": "$[1, \\infty)$",
+        "B": "$[4, \\infty)$",
+        "C": "$R$",
+        "D": "$[5, \\infty)$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 11,
+      "question": "On $R$, binary operation $*$ is defined by $a * b = a + b + ab$ then identity and inverse of $*$ are ____________ respectively.",
+      "options": {
+        "A": "$0, \\frac{a}{1-a}$",
+        "B": "$1, \\frac{a}{1+a}$",
+        "C": "$0, \\frac{-a}{1+a}$",
+        "D": "$1, \\frac{a}{1-a}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 23,
+      "question": "Let R be the relation in the set $\\{x : x \\in N, x \\leq 4\\}$ given by $R = \\{(1, 1), (2, 2), (3, 3)\\}$ then, R is",
+      "options": {
+        "A": "reflexive and symmetric but not transitive",
+        "B": "symmetric and transitive but not reflexive",
+        "C": "reflexive and transitive but not symmetric",
+        "D": "an equivalence relation"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 24,
+      "question": "Function $f : R \\to R$ defined as $f(x) = x^3, f$ is",
+      "options": {
+        "A": "one-one and onto",
+        "B": "one-one but not onto",
+        "C": "many-one and onto",
+        "D": "neither one-one nor onto"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 25,
+      "question": "If $f(x) = \\frac{1+x}{1-x}; x \\neq 1$, then $f(x) \\cdot f(y) = \\text{_______}$.",
+      "options": {
+        "A": "$f(\\frac{x+y}{1-xy})$",
+        "B": "$f(x \\cdot y)$",
+        "C": "$f(\\frac{x+y}{1+xy})$",
+        "D": "$f(\\frac{1}{1+xy})$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2022,
+      "number": 3,
+      "question": "Binary operation $*$ on $R$ is given by $a * b = \\frac{a+b}{2}$. Then $*$ is ________.",
+      "options": {
+        "A": "not commutative but associative",
+        "B": "commutative and associative",
+        "C": "commutative but not associative",
+        "D": "not commutative and not associative"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 4,
+      "question": "Let $A = \\{-1, -2, 3, 4\\}$. Number of all one-one functions from the set $A$ to itself is ________.",
+      "options": {
+        "A": "$24$",
+        "B": "$16$",
+        "C": "$4$",
+        "D": "$256$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 5,
+      "question": "If functions $f$ and $g$ are defined as: $f: [0, \\frac{\\pi}{2}] \\to R, f(x) = \\text{sin } x$ and $g: [0, \\frac{\\pi}{2}] \\to R, g(x) = \\text{cos } x$ then ________.",
+      "options": {
+        "A": "$f+g$ is one-one and $fg$ is not one-one",
+        "B": "$f+g$ is not one-one and $fg$ is one-one",
+        "C": "$f+g$ is not one-one and $fg$ is not one-one",
+        "D": "$f+g$ is one-one and $fg$ is one-one"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 33,
+      "question": "Relation $R$ in the set $\\{\\pi, \\pi^2, \\pi^3\\}$ defined by $R = \\{(\\pi, \\pi), (\\pi^2, \\pi^2), (\\pi^3, \\pi^3), (\\pi, \\pi^2), (\\pi^2, \\pi^3)\\}$ is :",
+      "options": {
+        "A": "Reflexive but neither symmetric nor transitive",
+        "B": "Symmetric but neither reflexive nor transitive",
+        "C": "Transitive but neither reflexive nor symmetric",
+        "D": "Only symmetric and transitive"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 34,
+      "question": "If $m * n = \\frac{mn}{2}, \\forall m, n \\in \\mathbb{Q}^+$, then $(4 * 3)^{-1} = \\dots$",
+      "options": {
+        "A": "$1/6$",
+        "B": "$3/2$",
+        "C": "$2$",
+        "D": "$2/3$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 13,
+      "question": "The relation $R = \\{(a, a), (b, b), (c, c), (a, c)\\}$, is defined on the set $\\{a, b, c\\}$, is ____.",
+      "options": {
+        "A": "Reflexive and transitive but not symmetric",
+        "B": "Reflexive and symmetric but not transitive",
+        "C": "Transitive and symmetric but not reflexive",
+        "D": "An equivalence relation"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 14,
+      "question": "$f : Z \\to Z, f(x) = x^3 + 2$ is defined then function f is ____",
+      "options": {
+        "A": "One - one but not onto",
+        "B": "One - one and onto",
+        "C": "Not one - one but onto",
+        "D": "Neither one - one nor onto"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 15,
+      "question": "The relation $R = \\{(a, a), (b, b), (c, c), (a, c)\\}$, is defined on the set $\\{a, b, c\\}$, is ______.",
+      "options": {
+        "A": "An equivalence relation",
+        "B": "Reflexive and transitive but not symmetric",
+        "C": "Transitive and symmetric but not reflexive",
+        "D": "Reflexive and symmetric but not transitive"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 16,
+      "question": "$f: Z \\to Z, f(x) = x^3 + 2$ is defined then function f is ______.",
+      "options": {
+        "A": "Neither one-one nor onto",
+        "B": "One-one but not onto",
+        "C": "Not one-one but onto",
+        "D": "One-one and onto"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 9,
+      "question": "Let $A = \\{1, 2, 3\\}$. Then number of relations containing $(1, 2)$ which are symmetric and transitive but not reflexive is ____",
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "3",
+        "D": "1"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 10,
+      "question": "Let $f: R \\rightarrow R$ be defined as $f(x) = x^3$. Then $f$ is ____",
+      "options": {
+        "A": "Neither one-one nor onto",
+        "B": "Many-one and onto",
+        "C": "One-one but not onto",
+        "D": "One-one and onto"
+      },
+      "answer": "C"
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "subject": "physics",
+  "chapter": "Electromagnetic Waves",
+  "total_questions": 27,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 9,
+      "question": "The phenomenon of polarization of electromagnetic waves proves that the electromagnetic waves are",
+      "options": {
+        "A": "neither longitudinal nor transverse",
+        "B": "mechanical",
+        "C": "longitudinal",
+        "D": "transverse"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2007,
+      "number": 20,
+      "question": "When radio waves passes through ionosphere, phase difference between space current and capacitive displacement current is",
+      "options": {
+        "A": "$0\\text{ rad}$",
+        "B": "$\\frac{3\\pi}{2}\\text{ rad}$",
+        "C": "$\\frac{\\pi}{2}\\text{ rad}$",
+        "D": "$\\pi\\text{ rad}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2009,
+      "number": 21,
+      "question": "The Sun delivers $10^3 \\text{ Wm}^{-2}$ of Electromagnetic Flux on the Earth's surface. The total power that is incident on a roof of dimensions $6 \\text{ m} \\times 30 \\text{ m}$ is ........",
+      "options": {
+        "A": "$7.2 \\times 10^5 \\text{ W}$",
+        "B": "$4.5 \\times 10^5 \\text{ W}$",
+        "C": "$1.8 \\times 10^5 \\text{ W}$",
+        "D": "$0.9 \\times 10^5 \\text{ W}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 23,
+      "question": "In Hertz's experiment, the rods connected with an induction coil behave as ....",
+      "options": {
+        "A": "an inductor",
+        "B": "capacitor",
+        "C": "resistor",
+        "D": "an induction coil"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 26,
+      "question": "The wave length of the short radio waves, micro waves, ultraviolet waves are $\\lambda_1, \\lambda_2$ and $\\lambda_3$ respectively. Arrange them in decreasing order.",
+      "options": {
+        "A": "$\\lambda_1, \\lambda_3, \\lambda_2$",
+        "B": "$\\lambda_1, \\lambda_2, \\lambda_3$",
+        "C": "$\\lambda_3, \\lambda_2, \\lambda_1$",
+        "D": "$\\lambda_2, \\lambda_1, \\lambda_3$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 32,
+      "question": "The wave length of X-rays is in the range.",
+      "options": {
+        "A": "$0.001 \\text{ nm}$ to $1 \\text{ nm}$",
+        "B": "$0.001 \\ \\mathring{\\text{A}}$ to $1 \\ \\mathring{\\text{A}}$",
+        "C": "$0.001 \\ \\mu\\text{m}$ to $1 \\ \\mu\\text{m}$",
+        "D": "$0.001 \\text{ cm}$ to $1 \\text{ cm}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 8,
+      "question": "The frequencies of X rays, $\\gamma$ rays and Ultra violet rays are respectively $p, q$ and $r$ then",
+      "options": {
+        "A": "p > q > r",
+        "B": "p < q > r",
+        "C": "p < q < r",
+        "D": "p > q < r"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 21,
+      "question": "Select the dimensional formula of $B^2/2\\mu_0$.",
+      "options": {
+        "A": "$M^1L^1T^2$",
+        "B": "$M^{-1}L^1T^2$",
+        "C": "$M^{-1}L^{-1}T^{-2}$",
+        "D": "$M^1L^{-1}T^{-2}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 34,
+      "question": "In medicine, to destroy cancer cells ______ rays are used.",
+      "options": {
+        "A": "Ultraviolet",
+        "B": "Visible",
+        "C": "Gamma",
+        "D": "Infrared"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 35,
+      "question": "For a radiation of 9 GHz passing through air. The number of waves passing through 1 m length is",
+      "options": {
+        "A": "30",
+        "B": "5",
+        "C": "20",
+        "D": "3"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 24,
+      "question": "The dimensional formula of $\\mu_0\\epsilon_0$ is ___",
+      "options": {
+        "A": "$\\text{M}^0\\text{L}^1\\text{T}^{-1}$",
+        "B": "$\\text{M}^0\\text{L}^2\\text{T}^{-2}$",
+        "C": "$\\text{M}^0\\text{L}^{-2}\\text{T}^2$",
+        "D": "$\\text{M}^0\\text{L}^{-1}\\text{T}^1$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 25,
+      "question": "Match Column I and Column II [Diagram]",
+      "options": {
+        "A": "i$\\rightarrow$Q, ii$\\rightarrow$S, iii$\\rightarrow$R, iv$\\rightarrow$P",
+        "B": "i$\\rightarrow$P, ii$\\rightarrow$R, iii$\\rightarrow$S, iv$\\rightarrow$Q",
+        "C": "i$\\rightarrow$P, ii$\\rightarrow$S, iii$\\rightarrow$R, iv$\\rightarrow$Q",
+        "D": "i$\\rightarrow$R, ii$\\rightarrow$Q, iii$\\rightarrow$S, iv$\\rightarrow$P"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 26,
+      "question": "Frequencies of various radiations are given as $f_v \\rightarrow$ Visible light, $f_r \\rightarrow$ Radio waves, $f_{UV} \\rightarrow$ Ultra Violet waves. Then which of following is true?",
+      "options": {
+        "A": "$f_v < f_r < f_{UV}$",
+        "B": "$f_r < f_v < f_{UV}$",
+        "C": "$f_{UV} < f_v < f_r$",
+        "D": "$f_{UV} < f_r < f_v$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 39,
+      "question": "The dimensional formula of $\\sqrt{\\mu_r \\epsilon_r}$ is ...........",
+      "options": {
+        "A": "$M^0L^0T^{-2}A^0$",
+        "B": "$M^0L^0T^0A^0$",
+        "C": "$M^1L^1T^{-2}A^0$",
+        "D": "$M^1L^1T^{-2}A^{-1}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 40,
+      "question": "At large distances from source $\\vec{E}$ and $\\vec{B}$ are in phase and the decrease in their magnitude is comparatively slower with distance $r$ as per.",
+      "options": {
+        "A": "$r^2$",
+        "B": "$r^{-3}$",
+        "C": "$r$",
+        "D": "$r^{-1}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 35,
+      "question": "The source of displacement current is ........",
+      "options": {
+        "A": "Changing Electric Field",
+        "B": "Static Electric Field",
+        "C": "Changing Magnetic Field",
+        "D": "Static Magnetic Field"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 36,
+      "question": "The range of wavelength for Ultraviolet is from ....... to .......",
+      "options": {
+        "A": "$0.1\\text{ m}$ to $1\\text{ mm}$",
+        "B": "$700\\text{ nm}$ to $400\\text{ nm}$",
+        "C": "$1\\text{ mm}$ to $700\\text{ nm}$",
+        "D": "$400\\text{ nm}$ to $1.0\\text{ nm}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 37,
+      "question": "The earth rotates on its axis takes $24\\text{ hours}$ to complete one revolution. How much time it takes at sun from earth to have shift of $1^\\circ$?",
+      "options": {
+        "A": "$4\\text{ hrs.}$",
+        "B": "$4\\text{ min.}$",
+        "C": "$4\\text{ sec.}$",
+        "D": "$24\\text{ hrs.}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 3,
+      "question": "What is Range of Radio Frequency Band of FM (Frequency Modulated Band)?",
+      "options": {
+        "A": "500 kHz to 1000 MHz",
+        "B": "54 MHz to 890 MHz",
+        "C": "530 kHz to 1710 kHz",
+        "D": "88 MHz to 108 MHz"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 4,
+      "question": "A plane electromagnetic wave of frequency $25\\text{ MHz}$ travels in free space along the X-direction. At a particular point in space and time, where $\\vec{B} = 2.1 \\times 10^{-8}\\text{ }\\hat{k}\\text{T}$ then find $\\vec{E}$ at this point?",
+      "options": {
+        "A": "-2.1 $\\hat{j}\\frac{\\text{V}}{\\text{m}}$",
+        "B": "6.3 $\\hat{j}\\frac{\\text{V}}{\\text{m}}$",
+        "C": "4.2 $\\hat{j}\\frac{\\text{V}}{\\text{m}}$",
+        "D": "-3.2 $\\hat{j}\\frac{\\text{V}}{\\text{m}}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 5,
+      "question": "A radio can tune into any station in the $6\\text{ MHz}$ to $12\\text{ MHz}$ band. What is the corresponding wavelength band? ($c = 3 \\times 10^8\\text{ m/s}$)",
+      "options": {
+        "A": "$40\\text{ m to }60\\text{ m}$",
+        "B": "$25\\text{ m to }50\\text{ m}$",
+        "C": "$20\\text{ m to }30\\text{ m}$",
+        "D": "$10\\text{ m to }20\\text{ m}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 6,
+      "question": "A charged particle oscillates about its mean equilibrium position with a frequency of $10^9\\text{ Hz}$. What is the frequency of the electromagnetic waves produced by the oscillator?",
+      "options": {
+        "A": "$10^{18}\\text{Hz}$",
+        "B": "$10^9\\text{Hz}$",
+        "C": "$10^{-9}\\text{Hz}$",
+        "D": "$10^{10}\\text{Hz}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 34,
+      "question": "If $\\vec{E}$ and $\\vec{B}$ represent electric and magnetic field vectors of electromagnetic wave, the direction of propagation of electromagnetic wave is along",
+      "options": {
+        "A": "$\\vec{B}$",
+        "B": "$\\vec{E}$",
+        "C": "$\\vec{B} \\times \\vec{E}$",
+        "D": "$\\vec{E} \\times \\vec{B}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 35,
+      "question": "Frequency range of visible light is ________.",
+      "options": {
+        "A": "400 THz to 700 THz",
+        "B": "400 GHz to 700 GHz",
+        "C": "400 MHz to 700 MHz",
+        "D": "400 kHz to 700 kHz"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 1,
+      "question": "As indicated below which one is the equation of Ampere-Maxwell law?",
+      "options": {
+        "A": "$\\oint \\vec{E} \\cdot d\\vec{l} = \\mu_0 i_c + \\mu_0 \\epsilon_0 \\frac{d\\phi_E}{dt}$",
+        "B": "$\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 i_c + \\mu_0 \\epsilon_0 \\frac{d\\phi_E}{dt}$",
+        "C": "$\\oint \\vec{B} \\cdot d\\vec{A} = \\mu_0 i_c + \\mu_0 \\epsilon_0 \\frac{d\\phi_E}{dt}$",
+        "D": "$\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 i_c + \\mu_0 \\epsilon_0 \\frac{d\\phi_B}{dt}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 2,
+      "question": "Cellular phones use radio waves to transmit voice communication in the ________ band.",
+      "options": {
+        "A": "LF",
+        "B": "HF",
+        "C": "VHF",
+        "D": "UHF"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 4,
+      "question": "____ are used in medicine to destroy cancer cells.",
+      "options": {
+        "A": "Microwaves",
+        "B": "Gamma rays",
+        "C": "Ultraviolet rays",
+        "D": "Visible rays"
+      },
+      "answer": "B"
+    }
+  ]
+}

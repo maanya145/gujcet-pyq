@@ -1,0 +1,403 @@
+{
+  "subject": "maths",
+  "chapter": "Differential Equations",
+  "total_questions": 33,
+  "questions": [
+    {
+      "year": 2006,
+      "number": 29,
+      "question": "Find the degree of $(y_2)^2 - \\sqrt{y_1} = y^3$",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "1/2",
+        "D": "2"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2008,
+      "number": 39,
+      "question": "The integrating factor of the equation $(1 + x) \\frac{dy}{dx} - xy = 1 - x$ is ...........",
+      "options": {
+        "A": "$x \\cdot e^x$",
+        "B": "$1 + x$",
+        "C": "$\\log (1 + x)$",
+        "D": "$e^{-x} (1 + x)$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 39,
+      "question": "The degree of the equation $e^x + \\sin(\\frac{dy}{dx}) = 3$ is $\\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$0$",
+        "B": "$1$",
+        "C": "$2$",
+        "D": "degree is not defined."
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2011,
+      "number": 39,
+      "question": "The integrating factor (I.F.) of the differential equation $\\cos x \\frac{dy}{dx} = y \\sin x + e^x \\cos x$ is ...........",
+      "options": {
+        "A": "$e^{-\\cos x}$",
+        "B": "$\\cos x$",
+        "C": "$e^{\\cos x}$",
+        "D": "$\\sec x$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 1,
+      "question": "If the length of the subnormal of a curve is constant and if it passes through the origin, then the equation of curve is _____.",
+      "options": {
+        "A": "$x^2 + y^2 = k^2; k \\in R$",
+        "B": "$y^2 = kx; k \\in R$",
+        "C": "$x^2 = ky^2; k \\in R$",
+        "D": "$x^2 - y^2 = k^2; k \\in R$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 2,
+      "question": "The integrating factor of the differential equation $\\frac{dy}{dx} = \\frac{1}{x + y + 2}$ is",
+      "options": {
+        "A": "$e^{x + y + 2}$",
+        "B": "$e^y$",
+        "C": "$e^{-y}$",
+        "D": "$\\log|x + y + 2|$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 40,
+      "question": "The order and degree of the differential equation $(\\frac{d^2y}{dx^2})^3 + 3\\frac{dy}{dx} = \\sqrt{x}; x > 0$ are _____ respectively.",
+      "options": {
+        "A": "2 and 6",
+        "B": "3 and 2",
+        "C": "2 and 3",
+        "D": "2 and degree is undefined"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 10,
+      "question": "The solution of the differential equation $2x \\frac{dy}{dx} - y = 0; y(1) = 2$ represents .........",
+      "options": {
+        "A": "Parabola",
+        "B": "Straightline",
+        "C": "Circle",
+        "D": "Ellipse"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 11,
+      "question": "Particular solution of differential equation $\\frac{dy}{dx} = \\log x; y(1) = 3; x > 0$ is.....",
+      "options": {
+        "A": "$y = x \\log x - x + 4$",
+        "B": "$y^2 = \\log x + 4$",
+        "C": "$\\log y = x + 4$",
+        "D": "$2y = x^2 + 5$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 12,
+      "question": "The population of a city increases at the rate 3% per year. If at time $t$ the population of city is $p$, then find equation of $p$ in time $t$.",
+      "options": {
+        "A": "$p = 3e^{\\frac{3t}{100}}$",
+        "B": "$p = e^{\\frac{3t}{100}}$",
+        "C": "$p = ce^{\\frac{3t}{100}}$",
+        "D": "$p = \\frac{3}{100} e^{3t}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 12,
+      "question": "The integrating factor (I.F.) of differential equation $\\frac{dy}{dx}(1+x) - xy = 1-x$ is .............",
+      "options": {
+        "A": "$(1+x)e^x$",
+        "B": "$(1+x)e^{-x}$",
+        "C": "$(x-1)e^{-x}$",
+        "D": "$(1-x)e^{-x}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 13,
+      "question": "If the general solution of some differential equation is $y = a_1(a_2+a_3) \\cos(x+a_4) - a_5 e^{x+a_6}$ then order of differential equation is .................",
+      "options": {
+        "A": "$6$",
+        "B": "$4$",
+        "C": "$5$",
+        "D": "$3$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 14,
+      "question": "If the length of the subnormal at any point of the curve is constant, then the eccentricity of this curve is ................",
+      "options": {
+        "A": "$e = \\sqrt{2}$",
+        "B": "$0 < e < 1$",
+        "C": "$e > 1$",
+        "D": "$e = 1$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 36,
+      "question": "The order and degree of differential equation $\\left\\{1 + \\left(\\frac{dy}{dx}\\right)^2\\right\\}^3 = \\left(\\frac{d^2y}{dx^2}\\right)^2$ are $p$ and $q$ respectively then $p + q = $ _________.",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "2",
+        "D": "5"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 37,
+      "question": "Integrating factor of differential equation $(\\tan^{-1} y - x) dy = (1+y^2) dx$ is ___________.",
+      "options": {
+        "A": "$e^{1+y^2}$",
+        "B": "$e^y$",
+        "C": "$e^{\\tan^{-1} x}$",
+        "D": "$e^{\\tan^{-1} y}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 38,
+      "question": "The differential equation $\\frac{dy}{dx} + \\frac{y}{x} = k$ represents ___________.",
+      "options": {
+        "A": "circles",
+        "B": "hyperbolas",
+        "C": "parabolas",
+        "D": "ellipses"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 10,
+      "question": "The general solution of the differential equation $\\frac{dy}{dx} = e^{x-y}$ is",
+      "options": {
+        "A": "$e^x + e^y = C$",
+        "B": "$e^{-x} + e^y = C$",
+        "C": "$e^{-x} + e^{-y} = C$",
+        "D": "$e^x - e^y = C$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 11,
+      "question": "The number of arbitrary constants in the particular solution of a differential equation of order 4 are :",
+      "options": {
+        "A": "$4$",
+        "B": "$2$",
+        "C": "$3$",
+        "D": "$0$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 12,
+      "question": "Order and degree of the differential equation $e^{\\frac{d^2y}{dx^2}} = x$ are $\\text{_______}$ respectively.",
+      "options": {
+        "A": "$2$ and not defined",
+        "B": "$1$ and $2$",
+        "C": "$2$ and $1$",
+        "D": "$1$ and not defined"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 23,
+      "question": "If length of subnormal at any point of a curve is always constant then that curve represents a ________.",
+      "options": {
+        "A": "Parabola",
+        "B": "Hyperbola",
+        "C": "Ellipse",
+        "D": "Rectangular hyperbola"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 24,
+      "question": "The integrating factor of the differential equation $x \\frac{dy}{dx} - y = x^2$ is ________.",
+      "options": {
+        "A": "$e^{-x}$",
+        "B": "$\\frac{1}{x}$",
+        "C": "$e^x$",
+        "D": "$x$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 19,
+      "question": "The order and degree of the differential equation $\\sqrt{\\left(\\frac{d^3y}{dx^3}\\right)^5} = \\sqrt[3]{\\left(\\frac{d^2y}{dx^2}\\right)^4}$ is :",
+      "options": {
+        "A": "$2$ and $16$",
+        "B": "$3$ and $15$",
+        "C": "$3$ and $16$",
+        "D": "$2$ and $12$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 20,
+      "question": "The integrating factor of the differential equation $\\frac{dy}{dx} + y \\tan x = \\sec x$ is :",
+      "options": {
+        "A": "$\\tan x$",
+        "B": "$e^{\\sec x}$",
+        "C": "$\\cos x$",
+        "D": "$\\sec x$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 21,
+      "question": "Particular solution of the differential equation $\\frac{dy}{dx} = -4xy^2$, Given that $y = 1$, where $x = 0$ is :",
+      "options": {
+        "A": "$y = \\frac{1}{2x^2 + 1}$",
+        "B": "$x = \\frac{1}{2y^2 + 1}$",
+        "C": "$y = 2x^2 + 1$",
+        "D": "$y = \\frac{x}{2x^2 + 1}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 1,
+      "question": "The order and the degree of the differential equation $\\sqrt{\\frac{d^2y}{dx^2}} = \\sqrt[3]{\\left(\\frac{dy}{dx}\\right)^4} + 2$ is respectively ______ and ______.",
+      "options": {
+        "A": "1, 8",
+        "B": "3, 2",
+        "C": "2, 8",
+        "D": "2, 3"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 1,
+      "question": "The Integrating Factor of the differential equation $(\\tan^{-1}y - x)dy = (1 + y^2)dx$ is ____.",
+      "options": {
+        "A": "$\\frac{1}{1 + y^2}$",
+        "B": "$\\tan^{-1}y$",
+        "C": "$e^{\\frac{1}{1 + y^2}}$",
+        "D": "$e^{\\tan^{-1}y}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 2,
+      "question": "The general solution of the differential equation $\\frac{x dy - y dx}{y} = 0$ is ______.",
+      "options": {
+        "A": "$y = cx^2$",
+        "B": "$x = cy^2$",
+        "C": "$y = cx$",
+        "D": "$xy = c$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 3,
+      "question": "The Integrating Factor of the differential equation $(\\tan^{-1} y - x) dy = (1 + y^2) dx$ is ______.",
+      "options": {
+        "A": "$e^{\\tan^{-1} y}$",
+        "B": "$\\frac{1}{1 + y^2}$",
+        "C": "$e^{\\frac{1}{1 + y^2}}$",
+        "D": "$\\tan^{-1} y$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 39,
+      "question": "The order and the degree of the differential equation $\\sqrt{\\frac{d^2y}{dx^2}} = \\sqrt[3]{\\left(\\frac{dy}{dx}\\right)^4 + 2}$ is respectively ____ and ____.",
+      "options": {
+        "A": "3, 2",
+        "B": "2, 3",
+        "C": "2, 8",
+        "D": "1, 8"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 40,
+      "question": "The general solution of the differential equation $\\frac{x dy - y dx}{y} = 0$ is ____.",
+      "options": {
+        "A": "$x = cy^2$",
+        "B": "$xy = c$",
+        "C": "$y = cx$",
+        "D": "$y = cx^2$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 35,
+      "question": "The degree of the differential equation $\\left(1 + \\frac{dy}{dx}\\right)^2 = \\left(\\frac{d^2y}{dx^2}\\right)^{1/3}$ is ____",
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "3",
+        "D": "1"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 36,
+      "question": "The general solution of the differential equation $\\frac{dy}{dx} = e^{x-y}$ is ____",
+      "options": {
+        "A": "$e^{-x} - e^{-y} = c$",
+        "B": "$e^x - e^y = c$",
+        "C": "$e^{-x} - e^y = c$",
+        "D": "$e^x - e^{-y} = c$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 37,
+      "question": "The Integrating Factor of the differential equation $x \\cdot \\frac{dy}{dx} + 2y = x^2, (x \\neq 0)$ is ____",
+      "options": {
+        "A": "$\\frac{1}{x^2}$",
+        "B": "$e^{-x}$",
+        "C": "$e^{-y}$",
+        "D": "$x^2$"
+      },
+      "answer": "D"
+    }
+  ]
+}

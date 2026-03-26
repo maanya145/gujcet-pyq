@@ -1,0 +1,451 @@
+{
+  "subject": "chemistry",
+  "chapter": "Amines",
+  "total_questions": 37,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 61,
+      "question": "Which of the following will be obtained on acetylation of aniline?",
+      "options": {
+        "A": "Paracetamol",
+        "B": "N-acetyl amino benzene",
+        "C": "O-amino acetophenone",
+        "D": "P-amino acetophenone"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2008,
+      "number": 72,
+      "question": "Which is the incorrect name of $\\text{CH}_3\\text{NC}$ ?",
+      "options": {
+        "A": "Methyl isocyanide",
+        "B": "Aceto isonitrile",
+        "C": "Methyl isonitrile",
+        "D": "Methyl carbylamine"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 74,
+      "question": "Which compound is known as 'alkyl carbylamine' ?",
+      "options": {
+        "A": "$\\text{Ar. NC}$",
+        "B": "$\\text{Ar. CN}$",
+        "C": "$\\text{R. NC}$",
+        "D": "$\\text{R. CN}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 76,
+      "question": "From the following compounds which does not react with $\\text{C}_6\\text{H}_5\\text{SO}_2\\text{Cl}$ ?",
+      "options": {
+        "A": "$(\\text{C}_2\\text{H}_5)_3\\text{N}$",
+        "B": "$(\\text{CH}_3)_2\\text{NH}$",
+        "C": "$\\text{CH}_3 \\cdot \\text{NH}_2$",
+        "D": "$\\text{C}_2\\text{H}_5 \\cdot \\text{NH}_2$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 72,
+      "question": "Compare boiling point of isomeric alkyl amines.",
+      "options": {
+        "A": "$1^{\\circ} > 2^{\\circ} > 3^{\\circ}$",
+        "B": "$1^{\\circ} > 2^{\\circ} < 3^{\\circ}$",
+        "C": "$1^{\\circ} < 2^{\\circ} < 3^{\\circ}$",
+        "D": "$1^{\\circ} < 2^{\\circ} > 3^{\\circ}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 73,
+      "question": "Which of the following reaction does not occur?",
+      "options": {
+        "A": "Tri propyl amine + benzene sulphonyl chloride",
+        "B": "Di propyl amine + benzene sulphonyl chloride",
+        "C": "Propyl amine + benzene sulphonyl chloride",
+        "D": "Propyl amine + p-toluene sulphonyl chloride"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 74,
+      "question": "Presently which reagent is used for separation of $1^\\circ, 2^\\circ$ and $3^\\circ$ amines?",
+      "options": {
+        "A": "p - toluene sulphonyl chloride",
+        "B": "Benzene sulphonyl chloride",
+        "C": "p - Amino benzene sulphonyl chloride",
+        "D": "m - toluene sulphonyl chloride"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 66,
+      "question": "What is the name for red azo dye?",
+      "options": {
+        "A": "\\beta - napthyl azo benzene",
+        "B": "p - hydroxy azo benzene",
+        "C": "p - amino azo benzene",
+        "D": "p - N, N dimethyl amino azo benzene"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 67,
+      "question": "Which of the following is not formed by Sandmayer reaction?",
+      "options": {
+        "A": "\\text{C}_6\\text{H}_5\\text{I}",
+        "B": "\\text{C}_6\\text{H}_5\\text{Cl}",
+        "C": "\\text{C}_6\\text{H}_5\\text{Br}",
+        "D": "\\text{C}_6\\text{H}_5\\text{CN}"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 41,
+      "question": "Which oxidised product is obtained when benzene diazonium chloride reacts with ethanol?",
+      "options": {
+        "A": "Acetaldehyde",
+        "B": "Phenol",
+        "C": "Benzaldehyde",
+        "D": "Benzene"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 79,
+      "question": "The main product of which of the following reactions gives tertiary sulphonamide with benzene sulphonyl chloride?",
+      "options": {
+        "A": "$\\text{C}_6\\text{H}_5\\text{Cl} + 2\\text{NH}_3 \\xrightarrow{\\text{[Cu}_2\\text{O]}}$",
+        "B": "$\\text{CH}_3\\text{CH}_2\\text{NO}_2 \\xrightarrow{\\text{LiAlH}_4}$",
+        "C": "$\\text{CH}_3\\text{CH}_2\\text{NC} \\xrightarrow{\\text{LiAlH}_4}$",
+        "D": "$\\text{CH}_3\\text{CONH}_2 \\xrightarrow{\\text{Br}_2\\text{/NaOH}}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 80,
+      "question": "Which order is improper for amine compounds?",
+      "options": {
+        "A": "Order of basicity in aq. medium: $\\text{CH}_3 - \\text{NH} - \\text{CH}_3 > \\text{CH}_3\\text{NH}_2 > \\text{CH}_3 - \\text{N} - \\text{CH}_3$",
+        "B": "Order of boiling point: $\\text{CH}_3 - \\text{N} - \\text{CH}_3 > \\text{CH}_3 - \\text{CH}_2 - \\text{NH} - \\text{CH}_3 > \\text{CH}_3 - \\text{CH}_2 - \\text{CH}_2 - \\text{NH}_2$",
+        "C": "Order of basicity in gaseous state: $\\text{CH}_3 - \\text{N} - \\text{CH}_3 > \\text{CH}_3 - \\text{NH} - \\text{CH}_3 > \\text{CH}_3\\text{NH}_2$",
+        "D": "The order of aqueous solubility: $\\text{CH}_3 - \\text{N} - \\text{CH}_3 < \\text{CH}_3 - \\text{CH}_2 - \\text{NH} - \\text{CH}_3 < \\text{CH}_3 - \\text{CH}_2 - \\text{CH}_2 - \\text{NH}_2$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 72,
+      "question": "Which is the oxidized product obtained when benzene diazonium chloride reacts with phosphonic acid in presence of water?",
+      "options": {
+        "A": "Benzene",
+        "B": "Phenol",
+        "C": "Chloro benzene",
+        "D": "Phosphorus acid"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 73,
+      "question": "Which of the following compound is the most basic?",
+      "options": {
+        "A": "Diagram A",
+        "B": "Diagram B",
+        "C": "Diagram C",
+        "D": "Diagram D"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 74,
+      "question": "The number of $\\sigma$ and $\\pi$ bonds in orange azo dye is _________ and _____ respectively.",
+      "options": {
+        "A": "$26$ and $7$",
+        "B": "$24$ and $7$",
+        "C": "$27$ and $7$",
+        "D": "$26$ and $6$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 47,
+      "question": "Type of Hybridisation of N and C – N – C bond angle in $(\\text{CH}_3)_3\\text{N}$ are _____ and _____ respectively.",
+      "options": {
+        "A": "$sp^2, 117.5^\\circ$",
+        "B": "$sp^3, 109^\\circ 28'$",
+        "C": "$sp^2, 120^\\circ$",
+        "D": "$sp^3, 108^\\circ$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 48,
+      "question": "Identify X and Y in following reaction. [Diagram]",
+      "options": {
+        "A": "NO2, NH.NH2",
+        "B": "NO2, NH2",
+        "C": "Cl, NH2",
+        "D": "Cl, NH2"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 46,
+      "question": "Which of the following compound has least Basic strength?",
+      "options": {
+        "A": "$\\text{C}_6\\text{H}_5\\text{NH}_2$",
+        "B": "$\\text{NH}_3$",
+        "C": "$(\\text{C}_2\\text{H}_5)_2\\text{NH}$",
+        "D": "$\\text{C}_2\\text{H}_5\\text{NH}_2$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 47,
+      "question": "The source of nitrogen in Gabriel synthesis of amines is ........",
+      "options": {
+        "A": "$\\text{NaN}_3$",
+        "B": "$\\text{KCN}$",
+        "C": "$\\text{C}_6\\text{H}_4(\\text{CO})_2\\text{N}^-\\text{K}^+$",
+        "D": "$\\text{NaNO}_2$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 48,
+      "question": "The best reagent for converting 2-phenyl propanamide into 1-Phenyl ethanamine is ....",
+      "options": {
+        "A": "$\\text{NaBH}_4$",
+        "B": "$\\text{H}_2/\\text{Pt}$",
+        "C": "$\\text{LiAlH}_4$",
+        "D": "$\\text{NaOH}/\\text{Br}_2$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 57,
+      "question": "$2^\\circ$-Amine is obtained by reduction of which compound?",
+      "options": {
+        "A": "Nitrile",
+        "B": "Nitro",
+        "C": "Isonitrile",
+        "D": "Amide"
+      },
+      "answer": null
+    },
+    {
+      "year": 2021,
+      "number": 58,
+      "question": "Hinsberg's reagent do not react with which amine?",
+      "options": {
+        "A": "Only $1^\\circ$-amine",
+        "B": "Only $3^\\circ$-amine",
+        "C": "Only $2^\\circ$-amine",
+        "D": "$1^\\circ$ and $2^\\circ$-amine"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 59,
+      "question": "Which product is obtained by nitration of aniline?",
+      "options": {
+        "A": "o-nitroaniline",
+        "B": "m-nitroaniline",
+        "C": "p-nitroaniline",
+        "D": "All above"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 56,
+      "question": "How many numbers of Isomer for the compound having molecular formula $\\text{C}_3\\text{H}_9\\text{N}$?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 57,
+      "question": "From which of the following reaction primary amine is produced?",
+      "options": {
+        "A": "Reduction of Nitrile Compounds",
+        "B": "Reduction of Amide Compounds",
+        "C": "Hoffmann bromamide degradation reaction",
+        "D": "Above all reactions"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 58,
+      "question": "Identify the compound 'C' from following reaction. $\\text{CH}_3\\text{COOH} \\xrightarrow{\\text{NH}_3, \\Delta} \\text{A} \\xrightarrow{\\text{Br}_2 + \\text{NaOH}} \\text{B} \\xrightarrow{\\text{NaNO}_2, \\text{HCl}} \\text{C}$",
+      "options": {
+        "A": "$\\text{CH}_3-\\text{CH}_2\\text{N}_2^+\\text{Cl}^-$",
+        "B": "$\\text{CH}_3-\\text{CH}_2\\text{OH}$",
+        "C": "$\\text{CH}_3\\text{OH}$",
+        "D": "$\\text{CH}_3-\\text{CH}_2-\\text{NH}_2$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 44,
+      "question": "Which compound will give Hoffmann bromamide degradation reaction?",
+      "options": {
+        "A": "$\\text{Ar}-\\text{CONH}_2$",
+        "B": "$\\text{Ar}-\\text{NH}_2$",
+        "C": "$\\text{Ar}-\\text{NO}_2$",
+        "D": "$\\text{Ar}-\\text{CH}_2\\text{NH}_2$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 45,
+      "question": "Benzene diazonium chloride reacts with phenol in basic medium to give product. How many $\\sigma$ (sigma) and $\\pi$ (pi) bonds are present in that product?",
+      "options": {
+        "A": "$16 - \\sigma \\text{ and } 7 - \\pi$",
+        "B": "$16 - \\sigma \\text{ and } 6 - \\pi$",
+        "C": "$26 - \\sigma \\text{ and } 7 - \\pi$",
+        "D": "$26 - \\sigma \\text{ and } 6 - \\pi$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 46,
+      "question": "Methylamine reacts with $\\text{HNO}_2$ to form?",
+      "options": {
+        "A": "$\\text{CH}_3 - \\text{O} - \\text{N} = \\text{O}$",
+        "B": "$\\text{CH}_3 - \\text{OH}$",
+        "C": "$\\text{CH}_3 - \\text{O} - \\text{CH}_3$",
+        "D": "$\\text{CH}_3 - \\text{CHO}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 52,
+      "question": "Identify 'C' in the following reaction. $\text{C}_6\text{H}_5\text{NO}_2 \rightarrow \text{Fe/HCl} \rightarrow \text{'A'} \rightarrow \text{NaNO}_2+\text{HCl} \rightarrow \text{'B'} \rightarrow \text{H}_2\text{O} \rightarrow \text{'C'}$",
+      "options": {
+        "A": "Benzene",
+        "B": "Chlorobenzene",
+        "C": "Phenol",
+        "D": "Toluene"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 53,
+      "question": "Which amine is prepared by Gabriel phthalimide synthesis?",
+      "options": {
+        "A": "$\text{Ar}-\text{NH}_2$",
+        "B": "$\text{R}-\text{NH}-\text{R}$",
+        "C": "$\text{R}-\text{N}(\text{R})_2$",
+        "D": "$\text{R}-\text{NH}_2$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 54,
+      "question": "Which is the correct order of the basic strength of given amines?",
+      "options": {
+        "A": "$(\text{C}_2\text{H}_5)_2\text{NH} > \text{C}_2\text{H}_5\text{NH}_2 > \text{C}_6\text{H}_5\text{NH}_2 > \text{NH}_3$",
+        "B": "$(\text{C}_2\text{H}_5)_2\text{NH} > \text{C}_2\text{H}_5\text{NH}_2 > \text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2$",
+        "C": "$\text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2 > (\text{C}_2\text{H}_5)_2\text{NH} > \text{C}_2\text{H}_5\text{NH}_2$",
+        "D": "$\text{C}_6\text{H}_5\text{NH}_2 > (\text{C}_2\text{H}_5)_2\text{NH} > \text{C}_2\text{H}_5\text{NH}_2 > \text{NH}_3$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 55,
+      "question": "Which diazonium salt is water insoluble and stable at room temperature?",
+      "options": {
+        "A": "$\text{C}_6\text{H}_5\text{N}_2^+\text{BF}_4^-$",
+        "B": "$\text{C}_6\text{H}_5\text{N}_2^+\text{Br}^-$",
+        "C": "$\text{C}_6\text{H}_5\text{N}_2^+\text{HSO}_4^-$",
+        "D": "$\text{C}_6\text{H}_5\text{N}_2^+\text{Cl}^-$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 65,
+      "question": "[Figure] $\\xrightarrow{\\text{NaOBr}} \\text{Product } \"X\"$. Which statement is correct for Product \"X\"?",
+      "options": {
+        "A": "It is soluble in $\\text{NaOH}_{(aq)}$.",
+        "B": "It does not react with Hinsberg's reagent.",
+        "C": "It has one Isomer of $2^\\circ$ amine.",
+        "D": "It does not give Azo dye test."
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 66,
+      "question": "The most reactive amine towards dil. $\\text{HCl}$ is ____.",
+      "options": {
+        "A": "$(\\text{CH}_3)_2\\text{NH}$",
+        "B": "$(\\text{CH}_3)_3\\text{N}$",
+        "C": "$\\text{CH}_3\\text{NH}_2$",
+        "D": "$\\text{C}_6\\text{H}_5\\text{NH}_2$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 67,
+      "question": "Assertion: Only small amount of $\\text{HCl}$ is required in reduction of Nitrocompound with iron scrap. Reason: $\\text{FeCl}_2$, formed gets hydrolysed to release $\\text{HCl}$ during the reaction.",
+      "options": {
+        "A": "Assertion is wrong but Reason is correct.",
+        "B": "Both Assertion and Reason are correct, Reason give correct explanation for Assertion.",
+        "C": "Assertion is correct but Reason is wrong.",
+        "D": "Both Assertion and Reason are correct, Reason does not give correct explanation for Assertion."
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 68,
+      "question": "Which type of solution of phenol is required to prepare Orange dye by coupling reaction?",
+      "options": {
+        "A": "Alkaline solution of phenol",
+        "B": "Neutral solution of phenol",
+        "C": "Acidic solution of phenol",
+        "D": "$\\text{CCl}_4$ solution of phenol"
+      },
+      "answer": "A"
+    }
+  ]
+}

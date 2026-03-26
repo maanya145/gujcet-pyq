@@ -1,0 +1,187 @@
+{
+  "subject": "maths",
+  "chapter": "Limits and Derivatives",
+  "total_questions": 15,
+  "questions": [
+    {
+      "year": 2006,
+      "number": 4,
+      "question": "Obtain $\\lim_{x \\to 2} \\frac{(\\cos \\alpha)^x + (\\sin \\alpha)^x - 1}{x - 2}$, where $0 < \\alpha < \\frac{\\pi}{2}$",
+      "options": {
+        "A": "$\\sin^2 \\alpha \\log_e \\sin \\alpha - \\cos^2 \\alpha \\log_e \\cos \\alpha$",
+        "B": "$\\cos^2 \\alpha \\log_e \\sin \\alpha - \\sin^2 \\alpha \\log_e \\cos \\alpha$",
+        "C": "$\\cos^2 \\alpha \\log_e \\cos \\alpha - \\sin^2 \\alpha \\log_e \\sin \\alpha$",
+        "D": "$\\cos^2 \\alpha \\log_e \\cos \\alpha + \\sin^2 \\alpha \\log_e \\sin \\alpha$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2006,
+      "number": 8,
+      "question": "If $f(x) = 2^x + 2^{x+1} + 2^{x+2} + \\dots + 2^{x+9}$, then find $f'(2)$",
+      "options": {
+        "A": "$2^x \\log 2$",
+        "B": "None of these",
+        "C": "$1023 \\log_e 16$",
+        "D": "$1023 \\log_e 2$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2006,
+      "number": 14,
+      "question": "$\\lim_{x \\to 0^+} \\frac{\\sin \\sqrt{x}}{\\sqrt[4]{x}} = ?$",
+      "options": {
+        "A": "-1",
+        "B": "Does not exists",
+        "C": "0",
+        "D": "1"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2006,
+      "number": 15,
+      "question": "$\\lim_{x \\to 0} \\frac{f(\\cos x)}{x^2} = ?$ Where $f(x) = \\frac{1-x}{1+x}$",
+      "options": {
+        "A": "$\\frac{1}{4}$",
+        "B": "$\\frac{1}{5}$",
+        "C": "$\\frac{1}{2}$",
+        "D": "$\\frac{1}{3}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2008,
+      "number": 21,
+      "question": "$\\lim_{x \\to \\infty} x(\\sqrt[x]{3} - 1) = ...............$",
+      "options": {
+        "A": "$\\log 3$",
+        "B": "$-\\log 3$",
+        "C": "$\\log x$",
+        "D": "limit does not exist."
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 22,
+      "question": "$\\lim_{n \\to \\infty} \\frac{1 + 2 + 3 + ...... + n}{n^2} = ...............$",
+      "options": {
+        "A": "$1/2$",
+        "B": "0",
+        "C": "2",
+        "D": "$\\infty$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 23,
+      "question": "$\\lim_{x \\to \\infty} \\frac{2x + 3}{x} = ...............$",
+      "options": {
+        "A": "3",
+        "B": "$1/2$",
+        "C": "2",
+        "D": "$1/3$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 24,
+      "question": "$\\lim_{x \\to \\infty} \\frac{5^x - 3^x}{2^x - 5^x} = ...............$",
+      "options": {
+        "A": "$2/5$",
+        "B": "1",
+        "C": "-1",
+        "D": "$3/5$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 21,
+      "question": "$\\lim_{n \\to \\infty} r^n = 0$, then $r = \\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$5/4$",
+        "B": "$1$",
+        "C": "$4/5$",
+        "D": "$2$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2009,
+      "number": 22,
+      "question": "$\\lim_{n \\to \\infty} \\frac{1^2 + 2^2 + 3^2 + \\dots \\dots \\dots + n^2}{n^3} = \\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$2/3$",
+        "B": "$1/6$",
+        "C": "$1/2$",
+        "D": "$1/3$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2009,
+      "number": 23,
+      "question": "$\\lim_{x \\to 1} \\cos^{-1} \\left( \\frac{1 - \\sqrt{x}}{1 - x} \\right) = \\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$\\frac{\\pi}{6}$",
+        "B": "$\\frac{\\pi}{4}$",
+        "C": "$\\frac{\\pi}{3}$",
+        "D": "$\\frac{\\pi}{2}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2009,
+      "number": 24,
+      "question": "$\\lim_{x \\to -3} \\frac{3x^2 + ax + a - 7}{x^2 + 2x - 3}$ exists, then $a = \\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$15$",
+        "B": "$-10$",
+        "C": "$10$",
+        "D": "$-15$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 21,
+      "question": "$\\lim_{x \\to \\infty} (1 + \\frac{4}{x-1})^{x+3} = .........$",
+      "options": {
+        "A": "$e^4$",
+        "B": "$e^2$",
+        "C": "$e^3$",
+        "D": "$e$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 22,
+      "question": "$N(4, \\delta) \\cap N(6, \\delta) \\neq \\phi$, then the value of $\\delta$ is ...........",
+      "options": {
+        "A": "$1$",
+        "B": "$> 1$",
+        "C": "$< 1$",
+        "D": "$\\delta$ is not possible."
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 23,
+      "question": "$\\lim_{x \\to 2} \\frac{x^n - 2^n}{x - 2} = 32$, then $n = ...............$; $n \\in \\mathbb{N}$",
+      "options": {
+        "A": "$3$",
+        "B": "$4$",
+        "C": "$5$",
+        "D": "$2$"
+      },
+      "answer": "B"
+    }
+  ]
+}

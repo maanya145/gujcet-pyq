@@ -1,0 +1,523 @@
+{
+  "subject": "physics",
+  "chapter": "Electric Charges and Fields",
+  "total_questions": 43,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 25,
+      "question": "A point charge causes an electric flux of $-1.0 \\times 10^3\\text{ Nm}^2\\text{C}^{-1}$ to pass through a spherical Gaussian surface of $10.0\\text{ cm}$ radius centred on the charge. If the radius of the Gaussian surface were three times, how much flux would pass through the surface?",
+      "options": {
+        "A": "$3.0 \\times 10^3\\text{ Nm}^2\\text{C}^{-1}$",
+        "B": "$-1.0 \\times 10^3\\text{ Nm}^2\\text{C}^{-1}$",
+        "C": "$-3.0 \\times 10^3\\text{ Nm}^2\\text{C}^{-1}$",
+        "D": "$-2.0 \\times 10^3\\text{ Nm}^2\\text{C}^{-1}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2007,
+      "number": 27,
+      "question": "A stationary charge produces",
+      "options": {
+        "A": "none of these fields",
+        "B": "electric field and magnetic field both",
+        "C": "a magnetic field only",
+        "D": "an electric field only"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2007,
+      "number": 30,
+      "question": "If the uniform surface charge density on the infinite plane sheet is $\\sigma$, electric field near the surface will be",
+      "options": {
+        "A": "$\\frac{\\sigma}{2\\epsilon_0}$",
+        "B": "$\\frac{3\\sigma}{\\epsilon_0}$",
+        "C": "$\\frac{\\sigma}{\\epsilon_0}$",
+        "D": "$\\frac{2\\sigma}{\\epsilon_0}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2008,
+      "number": 1,
+      "question": "A circle of radius 'a' has charge density given by $\\lambda = \\lambda_0 \\cos^2 \\theta$ on its circumference. What will be the total charge on the circle ?",
+      "options": {
+        "A": "$\\pi a \\lambda_0$",
+        "B": "Zero",
+        "C": "$2 \\pi a$",
+        "D": "None of these"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 2,
+      "question": "Electrical force between two point charges is 200 N. If we increase 10% charge on one of the charges and decrease 10% charge on the other, then electrical force between them for the same distance becomes",
+      "options": {
+        "A": "200 N",
+        "B": "99 N",
+        "C": "198 N",
+        "D": "100 N"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 2,
+      "question": "Torque acting on an electric dipole in a uniform electric field is maximum when angle between $\\vec{p}$ and $\\vec{E}$ is ...........",
+      "options": {
+        "A": "$0^\\circ$",
+        "B": "$45^\\circ$",
+        "C": "$180^\\circ$",
+        "D": "$90^\\circ$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 3,
+      "question": "If the coulombian force acting between two protons separated by a distance $r$ is $F$, what would be the force acting between two alpha particles seperated by a distance $2r$ ?",
+      "options": {
+        "A": "$F$",
+        "B": "$3F$",
+        "C": "$F/2$",
+        "D": "$2F$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 4,
+      "question": "There exists an electric field of $1\\text{ N/C}$ along Y direction. The flux passing through the square of $1\\text{ m}$ placed in XY plane inside the electric field is .....",
+      "options": {
+        "A": "$1.0\\text{ Nm}^2\\text{ / C}$",
+        "B": "$10.0\\text{ Nm}^2\\text{ / C}$",
+        "C": "$2.0\\text{ Nm}^2\\text{ / C}$",
+        "D": "Zero"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2011,
+      "number": 5,
+      "question": "Charge $q_2$ of mass $m$ revolves around a stationary charge $q_1$ in a circular orbit of radius $r$. The orbital periodic time of $q_2$ would be .........",
+      "options": {
+        "A": "$\\left[ \\frac{4\\pi^2mr^3}{kq_1q_2} \\right]^{1/2}$",
+        "B": "$\\left[ \\frac{kq_1q_2}{4\\pi^2mr^3} \\right]^{1/2}$",
+        "C": "$\\left[ \\frac{4\\pi^2mr^4}{kq_1q_2} \\right]^{1/2}$",
+        "D": "$\\left[ \\frac{4\\pi^2mr^2}{kq_1q_2} \\right]^{1/2}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 6,
+      "question": "The Gaussian surface for calculating the electric field due to a charge distribution is ....",
+      "options": {
+        "A": "any surface near the charge distribution.",
+        "B": "always a spherical surface.",
+        "C": "a symmetrical closed surface containing the charge distribution, at every point of which electric field has a single fixed value.",
+        "D": "None of the given options."
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 1,
+      "question": "Dimensional formula for electric field is ________.",
+      "options": {
+        "A": "$M^1 L^2 T^{-3} A^{-2}$",
+        "B": "$M^1 L^2 T^{-3} A^{-1}$",
+        "C": "$M^1 L^1 T^{-3} A^{-1}$",
+        "D": "$M^0 L^0 T^0 A^0$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 2,
+      "question": "A particle having mass $m$ and charge $q$ is at rest. On applying a uniform electric field $E$ on it, it starts moving. What is the kinetic energy when it travels a distance $x$ in the direction of force?",
+      "options": {
+        "A": "$qE^2 x$",
+        "B": "$q^2 E x$",
+        "C": "$qE x^2$",
+        "D": "$qEx$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2014,
+      "number": 3,
+      "question": "Two spheres having same radius and mass are suspended by two strings of equal length from the same point, in such a way that their surfaces touch each other. On depositing charge $4 \\times 10^{-6} \\text{ C}$ on them they repel each other in such a way that in equilibrium the angle between their strings becomes $60^\\circ$. If the distance from the point of suspension to the center of the sphere is $10 \\text{ cm}$. Find the mass of each sphere. ($K = 9 \\times 10^9 \\text{ SI}$ and $g = 10 \\text{ ms}^{-2}$.)",
+      "options": {
+        "A": "$0.3117 \\text{ kg}$",
+        "B": "$0.6235 \\text{ kg}$",
+        "C": "$0.1559 \\text{ kg}$",
+        "D": "$1.2468 \\text{ kg}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 4,
+      "question": "Electric field produced due to an infinitely long straight uniformly charged wire at perpendicular distance of $2 \\text{ cm}$ is $3 \\times 10^8 \\text{ NC}^{-1}$. Then linear charge density on the wire is ________. ($K = 9 \\times 10^9 \\text{ SI unit}$)",
+      "options": {
+        "A": "$333 \\frac{\\mu\\text{C}}{\\text{m}}$",
+        "B": "$3.33 \\frac{\\mu\\text{C}}{\\text{m}}$",
+        "C": "$666 \\frac{\\mu\\text{C}}{\\text{m}}$",
+        "D": "$6.66 \\frac{\\mu\\text{C}}{\\text{m}}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 2,
+      "question": "An inclined plane of length $5.60\\text{ m}$ making an angle of $45^{\\circ}$ with the horizontal is placed in an uniform electric field $E = 100\\text{ Vm}^{-1}$. A particle of mass $1\\text{ kg}$ and charge $10^{-2}\\text{ C}$ is allowed to slide down from rest position from maximum height of slope. If the co-efficient of friction is $0.1$, the time taken by the particle to reach the bottom is ________.",
+      "options": {
+        "A": "1 s",
+        "B": "1.41 s",
+        "C": "2 s",
+        "D": "None of these"
+      },
+      "answer": null
+    },
+    {
+      "year": 2015,
+      "number": 4,
+      "question": "A point charge $q$ is situated at a distance $r$ on axis from one end of a thin conducting rod of length $L$ having a charge $Q$ (Uniformly distributed along its length). The magnitude of electric force between the two is ________.",
+      "options": {
+        "A": "\\frac{KQq}{r^2}",
+        "B": "\\frac{2KQ}{r(r+L)}",
+        "C": "\\frac{KQq}{r(r-L)}",
+        "D": "\\frac{KQq}{r(r+L)}"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 40,
+      "question": "When $10^{19}$ electrons are removed from a neutral metal plate through some process, the charge on it becomes ________.",
+      "options": {
+        "A": "+1.6 C",
+        "B": "-1.6 C",
+        "C": "10^9 C",
+        "D": "10^{-19} C"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 9,
+      "question": "Electric field intensity at points in between and outside two thin separated parallel sheets of infinite dimension with like charges of same surface charge density ($\\sigma$) are _____ and _____ respectively.",
+      "options": {
+        "A": "$\\sigma/\\epsilon_0, \\sigma/\\epsilon_0$",
+        "B": "0, $\\sigma/\\epsilon_0$",
+        "C": "0, 0",
+        "D": "$\\sigma/\\epsilon_0, 0$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 10,
+      "question": "Arrangement of charges are shown in the figure. Flux linked with the closed surface $P$ and $Q$ respectively are ____ and _____. [Diagram]",
+      "options": {
+        "A": "Zero, zero",
+        "B": "$\\frac{q}{\\epsilon_0}, \\frac{-q}{\\epsilon_0}$",
+        "C": "–q/$\\epsilon_0$, q/$\\epsilon_0$",
+        "D": "q/$\\epsilon_0$, zero"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 1,
+      "question": "Three identical charges are placed on three vertices of a square. If the force acting between $q_1$ and $q_2$ is $F_{12}$ and between $q_1$ and $q_3$ is $F_{13}$ then $\frac{F_{13}}{F_{12}} = $ [Figure]",
+      "options": {
+        "A": "$\\frac{1}{\\sqrt{2}}$",
+        "B": "$2$",
+        "C": "$\\frac{1}{2}$",
+        "D": "$\\sqrt{2}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 2,
+      "question": "When a $10\\mu\\text{C}$ charge is enclosed by a closed surface, the flux passing through the surface is $\\phi$. Now another $10\\mu\\text{C}$ charge is placed inside the closed surface, then the flux passing through the surface is ____",
+      "options": {
+        "A": "$2\\phi$",
+        "B": "$\\phi$",
+        "C": "$4\\phi$",
+        "D": "Zero"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 3,
+      "question": "The electric force acting between two point charges kept at a certain distance in vacuum is $16\\text{N}$. If the same two charges are kept at the same distance in a medium of dielectric constant $8$. The electric force acting between them is ____",
+      "options": {
+        "A": "$16$",
+        "B": "$128$",
+        "C": "$1024$",
+        "D": "$2$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 4,
+      "question": "The unit of polarizabity of the molecule is ___",
+      "options": {
+        "A": "$\\text{C}^{-2}\\text{m}^1\\text{N}^{-1}$",
+        "B": "$\\text{C}^{-2}\\text{m}^1\\text{N}^1$",
+        "C": "$\\text{C}^2\\text{m}^1\\text{N}^{-1}$",
+        "D": "$\\text{C}^2\\text{m}^{-1}\\text{N}^{-1}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 15,
+      "question": "When two spheres having $4Q$ and $-2Q$ charge are placed at a certain distance, the force acting between them is $F$. Now they are connected by a conducting wire and again separated from each other. Now they are kept at a distance half of the previous one. The force acting between them is ..........",
+      "options": {
+        "A": "$\\frac{F}{8}$",
+        "B": "$\\frac{F}{2}$",
+        "C": "$\\frac{F}{4}$",
+        "D": "F"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 16,
+      "question": "Charge of $1 \\mu\\text{C}$ each is placed on the five corners of a regular hexagon of side $1\\text{m}$. The electric field at its centre is ...........N/C.",
+      "options": {
+        "A": "$6 \\times 10^{-6} K$",
+        "B": "$\\frac{6}{5} \\times 10^{-6} K$",
+        "C": "$5 \\times 10^{-6} K$",
+        "D": "$\\frac{5}{6} \\times 10^{-6} K$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 17,
+      "question": "An electric dipole is placed in a nonuniform electric field, then.............",
+      "options": {
+        "A": "Torque acting on it is always zero",
+        "B": "The resultant force acting on the dipole may be zero",
+        "C": "Torque acting on it may be zero",
+        "D": "The resultant force acting on the dipole is always zero"
+      },
+      "answer": "B & C"
+    },
+    {
+      "year": 2019,
+      "number": 18,
+      "question": "The unit of Intensity of polarization is ............",
+      "options": {
+        "A": "$\\frac{\\text{m}^2}{\\text{C}}$",
+        "B": "$\\frac{\\text{C}^2}{\\text{m}}$",
+        "C": "$\\frac{\\text{C}^2}{\\text{m}^2}$",
+        "D": "$\\frac{\\text{C}}{\\text{m}^2}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 15,
+      "question": "If charge $q$ is placed on one of the vertex of a cube. Then flux passing through any one surface of cube is ........",
+      "options": {
+        "A": "$\\frac{q}{\\epsilon_0}$",
+        "B": "$\\frac{q}{6\\epsilon_0}$",
+        "C": "$\\frac{q}{24\\epsilon_0}$",
+        "D": "None of these"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 16,
+      "question": "Two point electric charges $+10^{-8}\\text{ C}$ and $-10^{-8}\\text{ C}$ are placed $0.1\\text{ m}$ apart. Find the magnitude of Total Electric field at the center of the line joining the two charges.",
+      "options": {
+        "A": "$3.6 \\times 10^4\\text{ NC}^{-1}$",
+        "B": "$7.2 \\times 10^4\\text{ NC}^{-1}$",
+        "C": "Zero",
+        "D": "$12.96 \\times 10^4\\text{ NC}^{-1}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 17,
+      "question": "The charge density of uniformly charged infinite plane is $\\sigma$. A simple pendulum is suspended vertically downward near it. Charge $q_0$ is placed on metallic bob. If the angle made by the string is $\\theta$ with vertical direction then ......",
+      "options": {
+        "A": "$\\sigma \\propto \\frac{\\tan\\theta}{q_0}$",
+        "B": "$\\sigma \\propto \\frac{\\cot\\theta}{q_0}$",
+        "C": "$\\sigma \\propto \\theta \\tan\\theta$",
+        "D": "$\\sigma \\propto \\frac{q_0}{\\tan\\theta}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 23,
+      "question": "Electrical field intensity due to an electric dipole on it's axis at distance $x (x >> a)$ and on the equatorial at distance $y (y >> a)$ are same. What is the ratio of $x$ and $y$?",
+      "options": {
+        "A": "$\\sqrt[3]{2}:1$",
+        "B": "$\\sqrt{2}:1$",
+        "C": "$1:\\sqrt[3]{2}$",
+        "D": "1:2"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 24,
+      "question": "As shown in the following fig. an electron falls through a distance of $1.5\\text{ cm}$ in a uniform electric field of magnitude $2.0 \\times 10^4\\text{ NC}^{-1}$. Find the acceleration of the electron due to the electric field. $[e = 1.6 \\times 10^{-19}\\text{ C, } m_e = 9.1 \\times 10^{-31}\\text{ kg}]$ [Diagram]",
+      "options": {
+        "A": "$2.90 \\times 10^{19}\\text{ ms}^{-2}$",
+        "B": "$1.67 \\times 10^{27}\\text{ ms}^{-2}$",
+        "C": "$3.52 \\times 10^{15}\\text{ ms}^{-2}$",
+        "D": "$6.62 \\times 10^{34}\\text{ ms}^{-2}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 25,
+      "question": "Two large, thin metal plates are parallel and close to each other. On their inner faces, the plates have surface charge densities of same signs and of magnitude $17.7 \\times 10^{-22}\\text{ C/m}^2$. What is E in the outer region of the second plate?",
+      "options": {
+        "A": "$4 \\times 10^{-10}\\text{ NC}^{-1}$",
+        "B": "$2 \\times 10^{-10}\\text{ NC}^{-1}$",
+        "C": "$1 \\times 10^{-10}\\text{ NC}^{-1}$",
+        "D": "Zero"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 26,
+      "question": "An electric dipole with dipole moment $4 \\times 10^{-9}\\text{ cm}$ is aligned at $60^\\circ$ with the direction of a uniform electric field of magnitude $5 \\times 10^4\\text{ NC}^{-1}$. Calculate the magnitude of the torque acting on the dipole.",
+      "options": {
+        "A": "$17.3 \\times 10^{-5}\\text{ Nm}$",
+        "B": "$1.73 \\times 10^{-4}\\text{ Nm}$",
+        "C": "$1.73 \\times 10^{-5}\\text{ Nm}$",
+        "D": "$17.3 \\times 10^{-4}\\text{ Nm}$"
+      },
+      "answer": "A,B"
+    },
+    {
+      "year": 2022,
+      "number": 27,
+      "question": "An infinite line charge produces a field of $9 \\times 10^4\\text{ NC}^{-1}$ at a distance of $2\\text{ cm}$. Calculate Electrical field produced at a distance of $3\\text{ cm}$.",
+      "options": {
+        "A": "$6 \\times 10^4\\text{ NC}^{-1}$",
+        "B": "$6 \\times 10^3\\text{ NC}^{-1}$",
+        "C": "$6 \\times 10^{-5}\\text{ NC}^{-1}$",
+        "D": "$6 \\times 10^2\\text{ NC}^{-1}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 13,
+      "question": "Consider a uniform electric field $\\vec{E} = 3 \\times 10^3 \\hat{k} \\text{ N/C}$. The electric flux of this field through a square of 20 cm on a side whose plane is parallel to yz plane is ________ $\\text{Nm}^2/\\text{C}$.",
+      "options": {
+        "A": "90",
+        "B": "120",
+        "C": "60",
+        "D": "Zero"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 14,
+      "question": "Figure shows the electric field lines of four point charges A, B, C and D. [Figure] Which charge has the maximum magnitude?",
+      "options": {
+        "A": "C charge",
+        "B": "B charge",
+        "C": "A charge",
+        "D": "D charge"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 15,
+      "question": "A polythene piece rubbed with wool is found to have a negative charge of $3.52 \\times 10^{-7} \\text{C}$. What is the number of electrons transferred?",
+      "options": {
+        "A": "$1.1 \\times 10^{12}$",
+        "B": "$2.2 \\times 10^{12}$",
+        "C": "$4.4 \\times 10^{12}$",
+        "D": "$5.5 \\times 10^{12}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 21,
+      "question": "The Dimensional formula for Electric Flux is ________.",
+      "options": {
+        "A": "$M^1L^3T^{-3}A^1$",
+        "B": "$M^1L^1T^{-3}A^{-1}$",
+        "C": "$M^{-1}L^{-3}T^3A^1$",
+        "D": "$M^1L^3T^{-3}A^{-1}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 23,
+      "question": "An infinite line charge produces an electric field of $9 \\times 10^4\\text{ N/C}$ at a distance of $2\\text{cm}$. Then the linear charge density will be ________. ($K = 9 \\times 10^9\\text{ Nm}^2/\text{C}^2$)",
+      "options": {
+        "A": "$0.1\\mu\\text{C/m}$",
+        "B": "$10\\mu\\text{C/m}$",
+        "C": "$0.01\\mu\\text{C/m}$",
+        "D": "$1\\mu\\text{C/m}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 24,
+      "question": "The electric field due to point charge $2q$ at a distance $r$ is E. Now, charge $q$ is uniformly distributed over a thin spherical shell of radius R, the electric field at a distance $\\frac{r}{2}$ ($r >> R$) from the centre of the thin spherical shell is E' = ________.",
+      "options": {
+        "A": "4E",
+        "B": "2E",
+        "C": "E",
+        "D": "$\\frac{E}{2}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 25,
+      "question": "15 charges, each of value $q$ are placed on X - axis at an equal distance 0.5R. The maximum electric flux associated with the spherical closed surface of radius 1.5R, in which one of the charges at the centre is ________.",
+      "options": {
+        "A": "$\\frac{5q}{\\epsilon_0}$",
+        "B": "$\\frac{7q}{\\epsilon_0}$",
+        "C": "Zero",
+        "D": "$\\frac{15q}{\\epsilon_0}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 26,
+      "question": "In the absence of gravity, a charge $q$ and mass $2m$ is placed stationary in a uniform electric field of intensity E. When the charge is released, its speed after $n$ seconds is ________.",
+      "options": {
+        "A": "$2mqE$",
+        "B": "$\\frac{qEn}{m}$",
+        "C": "$\\frac{qEn}{2m}$",
+        "D": "$\\frac{2qEn}{m}$"
+      },
+      "answer": "C"
+    }
+  ]
+}

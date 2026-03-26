@@ -1,0 +1,607 @@
+{
+  "subject": "chemistry",
+  "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+  "total_questions": 50,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 63,
+      "question": "What is an oxidation number of carbonyl carbon in Methanal?",
+      "options": {
+        "A": "+ 3",
+        "B": "+ 2",
+        "C": "+ 4",
+        "D": "zero"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2007,
+      "number": 64,
+      "question": "Which of the following is general formula of aldehyde and ketone?",
+      "options": {
+        "A": "$\\text{C}_n\\text{H}_{2n+2} \\cdot \\text{O}$",
+        "B": "$\\text{C}_n\\text{H}_{2n} \\cdot \\text{O}_2$",
+        "C": "$\\text{C}_n\\text{H}_{2n} \\cdot \\text{O}$",
+        "D": "$\\text{C}_n\\text{H}_{2n+1} \\cdot \\text{O}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2007,
+      "number": 65,
+      "question": "Which of the following compound results into benzene nitrile on its dehydration?",
+      "options": {
+        "A": "Benzoic acid",
+        "B": "Benzamide",
+        "C": "Benzo phenone",
+        "D": "Benzoyl chloride"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2008,
+      "number": 68,
+      "question": "On oxidation of organic compound A with $\\text{Na}_2\\text{Cr}_2\\text{O}_7$ and $\\text{H}_2\\text{SO}_4$ gives compound B, which on reduction with $\\text{H}_2$ in presence of Ni catalyst gives Ethyl alcohol. Give the name of compound A.",
+      "options": {
+        "A": "Ethanol",
+        "B": "Ethanal",
+        "C": "Ethene",
+        "D": "Ethanoic acid"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 70,
+      "question": "The formation of Cyanohydrin from Acetone is which type of reaction ?",
+      "options": {
+        "A": "Electrophilic addition reaction.",
+        "B": "Electrophilic substitution reaction.",
+        "C": "Nucleophilic substitution reaction.",
+        "D": "Nucleophilic addition reaction."
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 80,
+      "question": "Name the end product in the following series of reaction. $\\text{CH}_3\\text{COOH} \\xrightarrow{\\text{NH}_3} \\text{A} \\xrightarrow{\\text{Heat}} \\text{B} \\xrightarrow{\\text{P}_4\\text{O}_{10} / \\Delta} \\text{C}$",
+      "options": {
+        "A": "$\\text{CH}_4$",
+        "B": "$\\text{CH}_3\\text{OH}$",
+        "C": "$\\text{CH}_3\\text{CN}$",
+        "D": "$\\text{CH}_3\\text{COONH}_4$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 70,
+      "question": "What is the oxidation number of carbonyl carbon in Acetophenone ?",
+      "options": {
+        "A": "Zero",
+        "B": "$+ 2$",
+        "C": "$+ 1$",
+        "D": "$+ 3$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 71,
+      "question": "Which product is obtained on reduction of Methanal in the presence of concentrated $\\text{NaOH}$ ?",
+      "options": {
+        "A": "Formic acid",
+        "B": "Methyl alcohol",
+        "C": "$\\text{CO} + \\text{H}_2$",
+        "D": "Formic acid and Methyl alcohol"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 72,
+      "question": "Identify A and B in the reaction given below : Ethane nitrile $\\xrightarrow{\\text{Hydrolysis}}$ A $\\xrightarrow{\\text{Decarboxylation}}$ B",
+      "options": {
+        "A": "Ethanoic acid, Methane",
+        "B": "Ethanoic acid, Ethane",
+        "C": "Acetone, Methane",
+        "D": "Acetic acid, Methanol"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 73,
+      "question": "Oxidation of which compound is not possible ?",
+      "options": {
+        "A": "$\\text{CH}_3\\text{-CH}_2\\text{-OH}$",
+        "B": "$\\text{CH}_3\\text{-CHO}$",
+        "C": "$\\text{CH}_3\\text{-CO-CH}_3$",
+        "D": "$\\text{CH}_3\\text{-COOH}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 69,
+      "question": "Which of the following reactions convert Acetone into Hydrocarbon having same number of Carbon atoms ?",
+      "options": {
+        "A": "Wolff-Kishner reaction",
+        "B": "Hofmann reaction",
+        "C": "Grignard reaction",
+        "D": "Reduction with $\\text{LiAlH}_4$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 70,
+      "question": "Give IUPAC name of the product, when Acetamide is heated with anhydrous Phosphorous pentoxide.",
+      "options": {
+        "A": "Ethyl amine",
+        "B": "Propane nitrile",
+        "C": "Cyano methane",
+        "D": "Ethane nitrile"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2011,
+      "number": 71,
+      "question": "Which of the following is neucliophilic addition reaction ?",
+      "options": {
+        "A": "Hydrolysis of Ethyl chloride by $\\text{NaOH}$.",
+        "B": "Purification of Acetaldehyde by $\\text{NaHSO}_3$.",
+        "C": "Alkylation of Anisol.",
+        "D": "Decarboxilation of Acetic acid."
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 58,
+      "question": "Which one of the following compounds do not give a primary alcohol on reduction?",
+      "options": {
+        "A": "Propanoic acid",
+        "B": "Propanal",
+        "C": "Methyl propanoate",
+        "D": "Propan - 2 - one"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2014,
+      "number": 70,
+      "question": "Which of following is the correct order of acidic strength?",
+      "options": {
+        "A": "$\\text{CH}_3\\text{COOH} > \\text{ClCH}_2\\text{COOH} > \\text{Cl}_2\\text{CHCOOH} > \\text{Cl}_3\\text{C} \\cdot \\text{COOH}$",
+        "B": "$\\text{Cl}_3 \\cdot \\text{C} \\cdot \\text{COOH} > \\text{Cl}_2\\text{CH} \\cdot \\text{COOH} > \\text{Cl} \\cdot \\text{CH}_2\\text{COOH} > \\text{CH}_3\\text{COOH}$",
+        "C": "$\\text{CH}_3\\text{COOH} > \\text{Cl}_3 \\cdot \\text{C} \\cdot \\text{COOH} > \\text{Cl}_2\\text{CH} \\cdot \\text{COOH} > \\text{Cl} \\cdot \\text{CH}_2\\text{COOH}$",
+        "D": "$\\text{CH}_3\\text{COOH} > \\text{ClCH}_2\\text{COOH} > \\text{Cl}_2 \\cdot \\text{CH} \\cdot \\text{COOH} > \\text{Cl}_3 \\cdot \\text{C} \\cdot \\text{COOH}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 71,
+      "question": "The solution of Fehling B contains ________.",
+      "options": {
+        "A": "Alkaline sodium potassium citrate",
+        "B": "Acidified Rochelle salt",
+        "C": "Alkaline sodium potassium tartarate",
+        "D": "Acidified sodium potassium citrate"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 72,
+      "question": "Which of the following compound does not react with concentrated alkali to give corresponding alcohol and salt of carboxylic acid?",
+      "options": {
+        "A": "Benzaldehyde",
+        "B": "Trimethyl acetaldehyde",
+        "C": "Dimethyl acetaldehyde",
+        "D": "Formaldehyde"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "number": 63,
+      "question": "Which of the following order of acidic strength is not correct?",
+      "options": {
+        "A": "\\text{CH}_3\\text{CH}_2\\text{CH}(\\text{Cl})\\text{COOH} > \\text{CH}_3\\text{CH}(\\text{Cl})\\text{CH}_2\\text{COOH} > \\text{CH}_2(\\text{Cl})\\text{CH}_2\\text{CH}_2\\text{COOH}",
+        "B": "\\text{Cl}_3\\text{CCOOH} > \\text{Cl}_2\\text{CHCOOH} > \\text{ClCH}_2\\text{COOH}",
+        "C": "\\text{HCOOH} > \\text{CH}_3\\text{COOH} > \\text{C}_6\\text{H}_5\\text{COOH}",
+        "D": "\\text{CH}_3\\text{COOH} > \\text{CH}_3\\text{CH}_2\\text{COOH} > (\\text{CH}_3)_2\\text{CHCOOH}"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "number": 64,
+      "question": "What is the formula of Acrolein?",
+      "options": {
+        "A": "\\text{CH}_2 = \\text{CH} - \\text{CN}",
+        "B": "\\text{CH}_2 = \\text{CH} - \\text{CHO}",
+        "C": "\\text{CH}_2 = \\text{CH} - \\text{COOH}",
+        "D": "\\text{CH}_2 = \\text{CH} - \\text{CONH}_2"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 65,
+      "question": "What is IUPAC name for isophthalic acid?",
+      "options": {
+        "A": "Benzene - 1, 2 dicarboxylic acid",
+        "B": "Benzene - 1, 3 dicarboxylic acid",
+        "C": "Benzene - 1, 4 dicarboxylic acid",
+        "D": "Benzene - 1, 5 dicarboxylic acid"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 76,
+      "question": "Which of the following is the disproportionation redox reaction?",
+      "options": {
+        "A": "$\\text{2CH}_3\\text{COOH} \\xrightarrow{\\text{P}_2\\text{O}_5/\\Delta}$",
+        "B": "$\\text{2CH}_3\\text{CHO} \\xrightarrow{\\text{dil NaOH}}$",
+        "C": "$\\text{2CH}_3\\text{COCH}_3 \\xrightarrow{\\text{Mg-Hg/H}_2\\text{O}}$",
+        "D": "$\\text{2HCHO} \\xrightarrow{\\text{50\\% NaOH(aq)}}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 77,
+      "question": "Which compound does not give Benedict test?",
+      "options": {
+        "A": "$\\text{(CH}_3)_3\\text{C-CHO}$",
+        "B": "$\\text{C}_6\\text{H}_5\\text{CHO}$",
+        "C": "$\\text{CH}_3\\text{CHO}$",
+        "D": "$\\text{(CH}_3)_2\\text{CHCHO}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 78,
+      "question": "What is the main product obtained by the cross-aldol condensation of benzene carbaldehyde and 1-Phenyl-Ethane - 1-one?",
+      "options": {
+        "A": "[Diagram A]",
+        "B": "[Diagram B]",
+        "C": "[Diagram C]",
+        "D": "[Diagram D]"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 69,
+      "question": "Which of the following is not a final product obtained by cross aldol condensation of ethanal and propanal?",
+      "options": {
+        "A": "But-2-enal",
+        "B": "$2-\\text{Methyl-pent}-2-\\text{enal}$",
+        "C": "$3-\\text{Methyl-but}-2-\\text{enal}$",
+        "D": "Pent-2-enal"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 70,
+      "question": "Which is the main functional group in Acrolein?",
+      "options": {
+        "A": "Nitrile",
+        "B": "Alkene",
+        "C": "Aldehyde",
+        "D": "Ester"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 71,
+      "question": "Which of the following compound upon oxidation gives isophthalic acid?",
+      "options": {
+        "A": "o-Xylene",
+        "B": "m-Xylene",
+        "C": "p-Xylene",
+        "D": "m-Cresol"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 44,
+      "question": "Which of the following compound undergoes aldol condensation?",
+      "options": {
+        "A": "Acetaldehyde",
+        "B": "Trimethyl acetaldehyde",
+        "C": "Trichloro acetaldehyde",
+        "D": "Formaldehyde"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 45,
+      "question": "Benzoyl chloride + Sodium benzoate $\\xrightarrow{\\Delta}$ ____",
+      "options": {
+        "A": "Benzoic anhydride",
+        "B": "Benzyl benzoate",
+        "C": "Benzyl alcohol",
+        "D": "Benzaldehyde"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 46,
+      "question": "P $\\xrightarrow{\\text{KMnO}_4}$ Q $\\xrightarrow{\\text{Soda lime}, \\Delta}$ R $\\xrightarrow{\\text{CH}_3\\text{Cl}, \\text{An.AlCl}_3}$ S. If P and S are toluene, Q & R are ____ and ____ respectively",
+      "options": {
+        "A": "Benzene, Benzoic acid",
+        "B": "Benzoic acid, Benzene",
+        "C": "Benzaldehyde, Sodium benzoate",
+        "D": "Benzaldehyde, benzoic acid"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 41,
+      "question": "Reaction: [Diagram] $\\xrightarrow{\\text{NaBH}_4} \\text{X}$. What is “X” in the reaction?",
+      "options": {
+        "A": "[Diagram A]",
+        "B": "[Diagram B]",
+        "C": "[Diagram C]",
+        "D": "[Diagram D]"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 44,
+      "question": "Which of the following acid has highest $\\text{pKa}$ value?",
+      "options": {
+        "A": "$\\text{O}_2\\text{NCH}_2\\text{COOH}$",
+        "B": "$\\text{NCCH}_2\\text{COOH}$",
+        "C": "$\\text{FCH}_2\\text{COOH}$",
+        "D": "$\\text{C}_6\\text{H}_5\\text{CH}_2\\text{COOH}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 45,
+      "question": "$\\text{C}_6\\text{H}_5\\text{CH}_2 - \\text{MgBr} \\xrightarrow{(1) \\text{CO}_2/\\text{ether}, (2) \\text{H}_2\\text{O}} \\text{'X'} \\xrightarrow{\\text{NaOH} + \\text{CaO}, \\Delta} \\text{'Y'}$. What is the final product in this reaction?",
+      "options": {
+        "A": "$\\text{C}_6\\text{H}_5\\text{CH}_2\\text{CH}_3$",
+        "B": "$\\text{C}_6\\text{H}_5\\text{CH}_3$",
+        "C": "$\\text{C}_6\\text{H}_6$",
+        "D": "$\\text{C}_6\\text{H}_5\\text{CH}_2\\text{OH}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 54,
+      "question": "Which reagent is used to convert Allyl alcohol to propenal?",
+      "options": {
+        "A": "PCC",
+        "B": "$\\text{O}_3/\\text{H}_2\\text{O} - \\text{Zn (Powder)}$",
+        "C": "DIBAL-H",
+        "D": "All above"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 55,
+      "question": "Which compound give Cannizzaro reaction from following?",
+      "options": {
+        "A": "$\\text{CH}_3\\text{CHO}$",
+        "B": "$\\text{CH}_2\\text{ClCHO}$",
+        "C": "$\\text{CCl}_3\\text{CHO}$",
+        "D": "$\\text{CHCl}_2\\text{CHO}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 56,
+      "question": "Which compound having maximum acidic strength of the following?",
+      "options": {
+        "A": "4-methoxy benzoic acid",
+        "B": "2-methoxy benzoic acid",
+        "C": "Benzoic acid",
+        "D": "4-nitrobenzoic acid"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 53,
+      "question": "Which of the following compounds will not give \"Iodoform\" by reaction with \"sodiumhypoiodide\"?",
+      "options": {
+        "A": "$\\text{CH}_3-\\text{CHO}$",
+        "B": "[Figure B]",
+        "C": "[Figure C]",
+        "D": "$\\text{CH}_3-\\text{CH}_2-\\text{CO}-\\text{CH}_2-\\text{CH}_3$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 54,
+      "question": "What will be the main product in the following reaction? [Figure]",
+      "options": {
+        "A": "[Figure A]",
+        "B": "[Figure B]",
+        "C": "[Figure C]",
+        "D": "[Figure D]"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 55,
+      "question": "Which is the incorrect order of increasing acidic strength for the following?",
+      "options": {
+        "A": "$\\text{CH}_2\\text{FCH}_2\\text{CH}_2\\text{COOH} < \\text{CH}_3\\text{CHFCH}_2\\text{COOH}$",
+        "B": "$\\text{CH}_2\\text{ClCOOH} < \\text{CH}_2\\text{FCOOH}$",
+        "C": "$\\text{CH}_3\\text{COOH} < \\text{CH}_2\\text{ClCOOH}$",
+        "D": "$\\text{HCOOH} < \\text{C}_6\\text{H}_5\\text{COOH}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 41,
+      "question": "Which one is the common name of the compound $\\text{CH}_2 = \\text{CH} - \\text{CHO}$?",
+      "options": {
+        "A": "Mesityl Oxide",
+        "B": "Prop-2-Enal",
+        "C": "Acrolein",
+        "D": "Propanal-1-ene"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 42,
+      "question": "What is the correct order of acidity of compound (I), (II) and (III)? I) 4-Nitrobenzoic acid II) 4-Methoxy Benzoic acid III) Benzoic acid",
+      "options": {
+        "A": "I > III > II",
+        "B": "I > II > III",
+        "C": "I < II < III",
+        "D": "I < III < II"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 43,
+      "question": "Which of the following compound does not give cannizzaro reaction? [Diagram]",
+      "options": {
+        "A": "Benzaldehyde",
+        "B": "2,2-dimethylpropanal",
+        "C": "HCHO",
+        "D": "$\\text{CH}_3\\text{CHO}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 44,
+      "question": "Which product will be obtained in the following reaction? [Diagram] $\text{Cyclohexanone-derivative} \rightarrow \text{NaBH}_4 \rightarrow ?$",
+      "options": {
+        "A": "Cyclohexane with $\text{CH}_2-\text{CH}_2-\text{OCH}_3$ substituent",
+        "B": "Cyclohexanol with $\text{CH}_2-\text{C}(=\text{O})-\text{OCH}_3$ substituent",
+        "C": "Cyclohexanol with $\text{CH}_2-\text{CH}(\text{OH})-\text{OCH}_3$ substituent",
+        "D": "Cyclohexane with $\text{CH}_2-\text{C}(=\text{O})-\text{OCH}_3$ substituent"
+      },
+      "answer": null
+    },
+    {
+      "year": 2024,
+      "number": 48,
+      "question": "Name the following reaction. [Diagram] Benzoyl chloride $\rightarrow \text{H}_2, \text{Pd-BaSO}_4 \rightarrow$ Benzaldehyde",
+      "options": {
+        "A": "Clemmensen reduction",
+        "B": "Stephen reaction",
+        "C": "Etard reaction",
+        "D": "Rosenmund reduction"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 49,
+      "question": "'R' + $\text{CH}_3 - \text{CO} - \text{CH}_3 \rightarrow \text{H}^+ \rightarrow$ Schiff's base what is 'R' in this reaction?",
+      "options": {
+        "A": "$\text{C}_6\text{H}_5-\text{NH}-\text{NH}_2$",
+        "B": "$\text{NH}_2-\text{NH}_2$",
+        "C": "$\text{CH}_3-\text{NH}_2$",
+        "D": "$\text{NH}_2\text{OH}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2024,
+      "number": 50,
+      "question": "[Diagram] $\rightarrow \text{(i) O}_3, \text{(ii) Zn-H}_2\text{O} \rightarrow$ 'X'. What is X in this reaction?",
+      "options": {
+        "A": "Cyclohexanone + Cyclohexanol",
+        "B": "Cyclohexanone + Cyclohexanone",
+        "C": "Cyclohexanecarbaldehyde + Cyclohexanone",
+        "D": "Cyclohexanol + Cyclohexanol"
+      },
+      "answer": null
+    },
+    {
+      "year": 2024,
+      "number": 51,
+      "question": "Which of the following carboxylic acid has least pKa value among all?",
+      "options": {
+        "A": "$\text{NO}_2 \text{CH}_2 \text{COOH}$",
+        "B": "$\text{CH}_3 \text{COOH}$",
+        "C": "$\text{HCOOH}$",
+        "D": "$\text{C}_6\text{H}_5 \text{COOH}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 61,
+      "question": "Identify the functional group present in Vanillin.",
+      "options": {
+        "A": "$-\\text{COOH}, -\\text{OH}, -\\text{OC}_2\\text{H}_5$",
+        "B": "$-\\text{CHO}, -\\text{OH}, -\\text{OCH}_3$",
+        "C": "$-\\text{COOH}, -\\text{CH}_3, -\\text{OCH}_3$",
+        "D": "$-\\text{CHO}, -\\text{OH}, -\\text{OC}_2\\text{H}_5$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 62,
+      "question": "For the given reaction, identify the proper reagent. [Figure]",
+      "options": {
+        "A": "$\\text{KMnO}_4 / \\text{H}_2\\text{SO}_4$",
+        "B": "$\\text{O}_3 / \\text{H}_2\\text{O} - \\text{Zn dust}$",
+        "C": "$\\text{C}_5\\text{H}_5\\text{NH}^+ \\text{CrO}_3\\text{Cl}^-$",
+        "D": "$\\text{CrO}_3 + (\\text{CH}_3\\text{CO})_2\\text{O}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 63,
+      "question": "Which reagent is used to distinguish Acetophenone and Benzophenone?",
+      "options": {
+        "A": "$\\text{Cu}^{2+} / \\text{OH}^-$",
+        "B": "$\\text{Br}_2 / \\text{H}_2\\text{O}$",
+        "C": "$[\\text{Ag}(\\text{NH}_3)_2]^+ / \\text{OH}^-$",
+        "D": "$\\text{NaOI}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 64,
+      "question": "For which compound pKa is highest?",
+      "options": {
+        "A": "$\\text{HCOOH}$",
+        "B": "$\\text{CH}_3\\text{CH}_2\\text{COOH}$",
+        "C": "$\\text{C}_6\\text{H}_5\\text{CH}_2\\text{COOH}$",
+        "D": "$\\text{ClCH}_2\\text{CH}_2\\text{COOH}$"
+      },
+      "answer": null
+    }
+  ]
+}

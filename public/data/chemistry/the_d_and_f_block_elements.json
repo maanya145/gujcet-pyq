@@ -1,0 +1,439 @@
+{
+  "subject": "chemistry",
+  "chapter": "The d and f Block Elements",
+  "total_questions": 36,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 74,
+      "question": "In which of the following ions, $d-d$ transition is not possible?",
+      "options": {
+        "A": "$\\text{Ti}^{4+}$",
+        "B": "$\\text{Cr}^{3+}$",
+        "C": "$\\text{Mn}^{2+}$",
+        "D": "$\\text{Cu}^{2+}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2007,
+      "number": 75,
+      "question": "Of the following outer electronic configuration of atoms, the highest oxidation state is achieved by which one of them?",
+      "options": {
+        "A": "$(n-1)d^5ns^2$",
+        "B": "$(n-1)d^8ns^2$",
+        "C": "$(n-1)d^5ns^1$",
+        "D": "$(n-1)d^3ns^2$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2008,
+      "number": 59,
+      "question": "On which factors, the stability of an oxidation state in Lanthenide elements depends ?",
+      "options": {
+        "A": "Internal energy.",
+        "B": "Enthalpy.",
+        "C": "Electronic configuration.",
+        "D": "Combined effect of hydration energy and ionization energy."
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 60,
+      "question": "Potassium dichromate is used -",
+      "options": {
+        "A": "as a reducing agent.",
+        "B": "in electroplating.",
+        "C": "as an insecticide.",
+        "D": "It oxidises ferrous ions into ferric ions in acidic media as an oxidizing agent."
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 59,
+      "question": "What is the atomic number of the element with $\\text{M}^{2+}$ ion having electronic configuration $[\\text{Ar}]3d^8$ ?",
+      "options": {
+        "A": "$26$",
+        "B": "$27$",
+        "C": "$28$",
+        "D": "$25$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 60,
+      "question": "Which Lanthanide compound is used as a pigment ?",
+      "options": {
+        "A": "$\\text{Tb(OH)}_3$",
+        "B": "$\\text{Lu(OH)}_3$",
+        "C": "$\\text{Ce(OH)}_3$",
+        "D": "$\\text{CeO}_2$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 58,
+      "question": "Copper exhibits only $+2$ oxidation state in its stable compounds. Why ?",
+      "options": {
+        "A": "Copper is transition metal in $+2$ state.",
+        "B": "$+2$ state compounds of Copper are formed by exothermic reactions.",
+        "C": "Electron configuration of Copper in $+2$ state is $[\\text{Ar}]3d^9\\text{ }4s^0$.",
+        "D": "Copper gives coloured compounds in $+2$ state."
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 59,
+      "question": "When dil. $\\text{H}_2\\text{SO}_4$ is added to aqueous solution of Potassium chromate, yellow colour of solution turns to orange colour. It indicates ......",
+      "options": {
+        "A": "Chromate ions are reduced.",
+        "B": "Chromate ions are oxidised.",
+        "C": "Mono centric complex is converted into dicentric complex.",
+        "D": "Oxygen gets removed from chromate ions."
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 64,
+      "question": "Which of the following is a transition element as per the ground state electronic configuration?",
+      "options": {
+        "A": "$\\text{Au}$",
+        "B": "$\\text{Hg}$",
+        "C": "$\\text{Cd}$",
+        "D": "$\\text{Zn}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 65,
+      "question": "Which of the following option is the correct order for the basic strength of metallic hydroxides?",
+      "options": {
+        "A": "$\\text{Al(OH)}_3 < \\text{Lu(OH)}_3 < \\text{Ce(OH)}_3 < \\text{Ca(OH)}_2$",
+        "B": "$\\text{Ca(OH)}_2 < \\text{Al(OH)}_3 < \\text{Lu(OH)}_3 < \\text{Ce(OH)}_3$",
+        "C": "$\\text{Lu(OH)}_3 < \\text{Ce(OH)}_3 < \\text{Al(OH)}_3 < \\text{Ca(OH)}_2$",
+        "D": "$\\text{Lu(OH)}_3 < \\text{Ce(OH)}_3 < \\text{Ca(OH)}_2 < \\text{Al(OH)}_3$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 66,
+      "question": "Which of the following compound is used in gas lighter.",
+      "options": {
+        "A": "$\\text{CeO}_2$",
+        "B": "Pyrophoric Misch metal",
+        "C": "Nichrome",
+        "D": "Nitinol"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 57,
+      "question": "Which of the following statement is incorrect for $\\text{KMnO}_4$?",
+      "options": {
+        "A": "It is used as antiseptic.",
+        "B": "It is an oxidising agent.",
+        "C": "It is used as bleaching agent in textile industries.",
+        "D": "It is dark purple coloured amorphous substance."
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 58,
+      "question": "Which of the following ion has the maximum theoretical magnetic moment?",
+      "options": {
+        "A": "\\text{Cr}^{3+}",
+        "B": "\\text{Fe}^{3+}",
+        "C": "\\text{Ti}^{3+}",
+        "D": "\\text{Co}^{3+}"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 59,
+      "question": "Which of the following oxide has the maximum basicity?",
+      "options": {
+        "A": "\\text{Pr}_2\\text{O}_3",
+        "B": "\\text{La}_2\\text{O}_3",
+        "C": "\\text{Sm}_2\\text{O}_3",
+        "D": "\\text{Gd}_2\\text{O}_3"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 72,
+      "question": "Which of the following is the correct order for the theoretical magnetic moment?",
+      "options": {
+        "A": "$\\text{Cr}^{3+} > \\text{Mn}^{2+} = \\text{Fe}^{3+}$",
+        "B": "$\\text{Cr}^{3+} = \\text{Mn}^{2+} < \\text{Fe}^{3+}$",
+        "C": "$\\text{Cr}^{3+} < \\text{Mn}^{2+} = \\text{Fe}^{3+}$",
+        "D": "$\\text{Cr}^{3+} < \\text{Mn}^{2+} < \\text{Fe}^{3+}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 73,
+      "question": "Which statement is incorrect with reference to inner transition elements?",
+      "options": {
+        "A": "The oxides of lanthanoids are basic",
+        "B": "Pm is radioactive element among actinoids",
+        "C": "The values of ionisation enthalpy of actinoids are less than the values of ionisation enthalpy of lanthanoids",
+        "D": "Only in the electronic configuration of lanthanoids like Ce, Gd, Lu the electrons are filled in 5d orbitals"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 64,
+      "question": "Which ion has the least value of theoretical magnetic moment?",
+      "options": {
+        "A": "$\\text{Ti}^{3+}$",
+        "B": "$\\text{Co}^{3+}$",
+        "C": "$\\text{Cr}^{3+}$",
+        "D": "$\\text{V}^{3+}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 65,
+      "question": "Which of the following mixture can form an alloy?",
+      "options": {
+        "A": "$\\text{Fe, Mn, Mg}$",
+        "B": "$\\text{Cr, Co, Na}$",
+        "C": "$\\text{Fe, Ni, Cr}$",
+        "D": "$\\text{Ni, Mg, Na}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 78,
+      "question": "Which of the following pair has similar magnetic moment?",
+      "options": {
+        "A": "Ni2+, Co2+",
+        "B": "Fe2+, Mn2+",
+        "C": "Fe3+, Mn2+",
+        "D": "Cr3+, Mn3+"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 79,
+      "question": "Element A and B do not form an alloy because",
+      "options": {
+        "A": "Both have similar electronic configuration in valence shell",
+        "B": "Both are the members of same group",
+        "C": "Radius of A is 115pm while radius of B is 187 pm",
+        "D": "Both elements have similar crystal structures"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 73,
+      "question": "The divalent ion of which of the following element in aqueous solution has magnetic moment $5.92\\text{ BM}$?",
+      "options": {
+        "A": "Cr",
+        "B": "Co",
+        "C": "Fe",
+        "D": "Mn"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 74,
+      "question": "Although Zirconium belongs to 4d-transition series and Hafnium belongs to 5d transition series, even then they show similar physical and chemical properties because ........",
+      "options": {
+        "A": "Both have same number of electrons",
+        "B": "Both belongs to d-block",
+        "C": "Both have similar atomic radius",
+        "D": "Both belongs to the same group of the periodic table"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 43,
+      "question": "If atomic number of element is $26$, then magnetic moment is __________ BM of its divalent aqueous ion?",
+      "options": {
+        "A": "1.73",
+        "B": "3.87",
+        "C": "2.83",
+        "D": "4.90"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 44,
+      "question": "Which product is obtained during reaction of $\\text{MnO}_4^-$ with $\\text{I}^-$ in faintly alkaline condition?",
+      "options": {
+        "A": "$\\text{I}_2$",
+        "B": "$\\text{IO}_3^-$",
+        "C": "$\\text{IO}^-$",
+        "D": "$\\text{IO}_4^-$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 43,
+      "question": "Name a transition element which does not exhibit variable oxidation states.",
+      "options": {
+        "A": "Zinc",
+        "B": "Copper",
+        "C": "Scandium",
+        "D": "Chromium"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 44,
+      "question": "Which statement is incorrect from the following?",
+      "options": {
+        "A": "CrO is basic, but $\\text{Cr}_2\\text{O}_3$ is amphoteric",
+        "B": "'Cd' is not consider as transition element",
+        "C": "Atomic sizes of elements of '4d' series is greater than corresponding elements of '3d' series",
+        "D": "Atomic sizes of elements of '5d' series is greater than corresponding '4d' series"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 69,
+      "question": "Which of the following oxide show acidic property?",
+      "options": {
+        "A": "$\\text{MnO}_2$",
+        "B": "MnO",
+        "C": "$\\text{Mn}_2\\text{O}_7$",
+        "D": "$\\text{Mn}_2\\text{O}_3$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 71,
+      "question": "When alkaline $\\text{KMnO}_4$ is treated with KI, Iodide ion is oxidised to ________.",
+      "options": {
+        "A": "$\\text{IO}^-$",
+        "B": "$\\text{I}_2$",
+        "C": "$\\text{IO}_3^-$",
+        "D": "$\\text{IO}_4^-$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 72,
+      "question": "In the electronic configuration of which of the following element-electron is arranged in 5d orbital?",
+      "options": {
+        "A": "$_{64}\\text{Gd}$",
+        "B": "$_{63}\\text{Eu}$",
+        "C": "$_{65}\\text{Tb}$",
+        "D": "$_{66}\\text{Dy}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 72,
+      "question": "$\text{KMnO}_4$ acts as oxidising agent in acidic medium. The number of moles of $\text{KMnO}_4$ that will be needed to react with one mole of sulphide ion in acidic solution is ______.",
+      "options": {
+        "A": "1/5",
+        "B": "3/5",
+        "C": "4/5",
+        "D": "2/5"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 73,
+      "question": "Which one of the following is amphoteric oxide?",
+      "options": {
+        "A": "$\text{V}_2\text{O}_3$",
+        "B": "$\text{CrO}$",
+        "C": "$\text{Cr}_2\text{O}_3$",
+        "D": "$\text{CrO}_3$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 74,
+      "question": "Which of the following ion show highest spin only magnetic moment value?",
+      "options": {
+        "A": "$\text{Co}^{2+}$",
+        "B": "$\text{Mn}^{2+}$",
+        "C": "$\text{Ti}^{2+}$",
+        "D": "$\text{Fe}^{2+}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 75,
+      "question": "Name the member of lanthanide series which is well known to exhibit +4 oxidation state?",
+      "options": {
+        "A": "Cerium",
+        "B": "Thulium",
+        "C": "Gadolinium",
+        "D": "Samarium"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 46,
+      "question": "Identify the metal whose divalent ion has 'spin only' magnetic moment $\\sqrt{35} \\text{ BM}$",
+      "options": {
+        "A": "Cr",
+        "B": "Mn",
+        "C": "Fe",
+        "D": "Co"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 47,
+      "question": "In acidic solution $\\text{MnO}_4^{2-}$ convert into ____.",
+      "options": {
+        "A": "$\\text{MnO}_4^-$ and $\\text{MnO}_2$",
+        "B": "$\\text{MnO}_4^-$ and $\\text{MnO}$",
+        "C": "$\\text{MnO}$ and $\\text{Mn}_2\\text{O}_3$",
+        "D": "$\\text{MnO}_2$ and $\\text{Mn}_2\\text{O}_3$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 48,
+      "question": "What is the oxidation state of Ti in Zeigler catalyst?",
+      "options": {
+        "A": "+3",
+        "B": "+5",
+        "C": "+4",
+        "D": "+2"
+      },
+      "answer": "C"
+    }
+  ]
+}

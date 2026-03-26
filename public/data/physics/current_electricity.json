@@ -1,0 +1,643 @@
+{
+  "subject": "physics",
+  "chapter": "Current Electricity",
+  "total_questions": 53,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 34,
+      "question": "A voltmeter has a resistance of $G\\text{ ohm}$ and range of $V\\text{ volt}$. The resistance required in series to convert it into a voltmeter of range $nV\\text{ volt}$ is",
+      "options": {
+        "A": "$nG$",
+        "B": "$(n - 1)G$",
+        "C": "$\\frac{G}{n - 1}$",
+        "D": "$\\frac{G}{n}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2008,
+      "number": 7,
+      "question": "Cross-sectional area of a Copper wire is equal to area of a square of length 2 mm. If this copper wire draws 8 A electric current, then find the drift velocity of free electron. Number density of electron in Copper wire is $8 \\times 10^{28} \\text{ m}^{-3}$.",
+      "options": {
+        "A": "$1.56 \\times 10^{-4} \\text{ ms}^{-1}$",
+        "B": "$1.56 \\times 10^{-2} \\text{ ms}^{-1}$",
+        "C": "$3.12 \\times 10^{-3} \\text{ ms}^{-1}$",
+        "D": "$3.12 \\times 10^{-2} \\text{ ms}^{-1}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 8,
+      "question": "The internal resistance of a cell of emf 4 V is 0.1 $\\Omega$. It is connected to a resistance of 3.9 $\\Omega$. The voltage across the cell will be",
+      "options": {
+        "A": "0.1 V",
+        "B": "3.8 V",
+        "C": "3.9 V",
+        "D": "2 V"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 9,
+      "question": "The ratio of cross-sectional areas of two conducting wires made up of same material and having same length is 1 : 2. What will be the ratio of heat produced per second in the wires, when same current is flowing in them ?",
+      "options": {
+        "A": "$1 : \\sqrt{2}$",
+        "B": "1 : 1",
+        "C": "1 : 4",
+        "D": "2 : 1"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 10,
+      "question": "Two electric bulbs are connected one by one across potential difference V. At that time power consumed in them are $P_1$ and $P_2$ respectively. Now, if potential difference V is applied across series combination of these bulbs, what will be total power consumed ?",
+      "options": {
+        "A": "$P_1 + P_2$",
+        "B": "$\\sqrt{P_1 P_2}$",
+        "C": "$\\frac{P_1 P_2}{P_1 + P_2}$",
+        "D": "$P_1 P_2$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 11,
+      "question": "First order derivation of thermo emf produced in thermo-couple with respect to temperature gives ......",
+      "options": {
+        "A": "Neutral temperature",
+        "B": "Thermo electric power",
+        "C": "Inversion temperature",
+        "D": "Thomson coefficient"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 7,
+      "question": "In a Hydrogen atom, the electron moves around the nucleus in a circular orbit of radius $5 \\times 10^{-11} \\text{ m}$. Its time period is $1.5 \\times 10^{-16} \\text{ seconds}$. The current associated with the electron motion is ............. (Charge of electron is $1.6 \\times 10^{-19} \\text{ C}$)",
+      "options": {
+        "A": "$1.066 \\times 10^{-3} \\text{ A}$",
+        "B": "$1.66 \\times 10^{-3} \\text{ A}$",
+        "C": "$1.00 \\text{ A}$",
+        "D": "$1.81 \\times 10^{-3} \\text{ A}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 8,
+      "question": "The total current supplied to the given circuit by the battery is ............ [Figure]",
+      "options": {
+        "A": "$6 \\text{ A}$",
+        "B": "$4 \\text{ A}$",
+        "C": "$9 \\text{ A}$",
+        "D": "$2 \\text{ A}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 10,
+      "question": "A uniform wire has resistance $24 \\Omega$. It is bent in the form of a circle. The effective resistance between the two end points on any diameter of the circle is ............",
+      "options": {
+        "A": "$12 \\Omega$",
+        "B": "$24 \\Omega$",
+        "C": "$6 \\Omega$",
+        "D": "$3 \\Omega$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 12,
+      "question": "Two bulbs of $250 \\text{ V}$ and $100 \\text{ W}$ are first connected in series and then in parallel with a supply of $250 \\text{ V}$. Total power in each of the cases will be .............. respectively.",
+      "options": {
+        "A": "$50 \\text{ W}, 100 \\text{ W}$",
+        "B": "$50 \\text{ W}, 200 \\text{ W}$",
+        "C": "$100 \\text{ W}, 50 \\text{ W}$",
+        "D": "$200 \\text{ W}, 150 \\text{ W}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 8,
+      "question": "The resistance of ideal Voltmeter is .......",
+      "options": {
+        "A": "Zero",
+        "B": "Greater than zero but finite value.",
+        "C": "Infinite",
+        "D": "$5000\\text{ }\\Omega$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 9,
+      "question": "The emf of a thermocouple, cold junction of which is kept at $-300^{\\circ}\\text{C}$ is given by $E = 40\\text{ }t + \\frac{1}{10}t^2$. The temperature of inversion of thermocouple will be ......",
+      "options": {
+        "A": "$200^{\\circ}\\text{C}$",
+        "B": "$400^{\\circ}\\text{C}$",
+        "C": "$-200^{\\circ}\\text{C}$",
+        "D": "$100^{\\circ}\\text{C}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2011,
+      "number": 10,
+      "question": "The maximum power dissipated in an external resistance R, when connected to a cell of emf E and internal resistance r, will be ......",
+      "options": {
+        "A": "$\\frac{E^2}{r}$",
+        "B": "$\\frac{E^2}{2r}$",
+        "C": "$\\frac{E^2}{3r}$",
+        "D": "$\\frac{E^2}{4r}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2011,
+      "number": 12,
+      "question": "The masses of the three wires of Copper are in the ratio $5 : 3 : 1$ and their lengths are in the ratio $1 : 3 : 5$. The ratio of their electrical resistances is ......",
+      "options": {
+        "A": "$5 : 3 : 1$",
+        "B": "$\\sqrt{125} : 15 : 1$",
+        "C": "$1 : 15 : 125$",
+        "D": "$1 : 3 : 5$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 13,
+      "question": "The equivalent resistance between A and B in the given circuit is ...... [Diagram]",
+      "options": {
+        "A": "$3\\text{ }\\Omega$",
+        "B": "$6\\text{ }\\Omega$",
+        "C": "$12\\text{ }\\Omega$",
+        "D": "$1.5\\text{ }\\Omega$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2014,
+      "number": 7,
+      "question": "A wire is bent in the form of circle of radius $2 \\text{ m}$. Resistance per unit length of wire is $1/\\pi \\ \\Omega/\\text{m}$. Battery of $6 \\text{ V}$ is connected between A & B. $\\angle AOB = 90^\\circ$. Find the current through the battery. [Diagram]",
+      "options": {
+        "A": "$8 \\text{ A}$",
+        "B": "$4 \\text{ A}$",
+        "C": "$3 \\text{ A}$",
+        "D": "$9 \\text{ A}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 8,
+      "question": "The carbon resistor has three orange bands. The maximum value of resistance offered by the resistor will be ________.",
+      "options": {
+        "A": "$49.6 \\text{ K } \\Omega$",
+        "B": "$39.6 \\text{ K } \\Omega$",
+        "C": "$33 \\text{ K } \\Omega$",
+        "D": "$26.4 \\text{ K } \\Omega$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 9,
+      "question": "Two wires of same material having lengths and radii in the ratio of $3:4$ and $3:2$ respectively are connected in parallel with a potential source of $6 \\text{ V}$. The ratio of currents flowing through them, $I_1:I_2 = $ ________.",
+      "options": {
+        "A": "$1:3$",
+        "B": "$3:1$",
+        "C": "$1:2$",
+        "D": "$2:1$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 10,
+      "question": "A and B are two points on a uniform ring of radius $r$. The resistance of the ring is $R$. $\\angle AOB = \\theta$ as shown in the figure. The equivalent resistance between points A & B is ________. [Diagram]",
+      "options": {
+        "A": "\\frac{R(2\\pi-\\theta)}{4\\pi}",
+        "B": "\\frac{R\\theta}{2\\pi}",
+        "C": "R(1-\\frac{\\theta}{2\\pi})",
+        "D": "\\frac{R}{4\\pi^2}(2\\pi-\\theta)\\theta"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "number": 11,
+      "question": "Two wires of equal length and equal diameter and having resistivities $\\rho_1$ and $\\rho_2$ are connected in series. The equivalent resistivity of the combination is ________.",
+      "options": {
+        "A": "\\frac{\\rho_1+\\rho_2}{2}",
+        "B": "(\\rho_1+\\rho_2)",
+        "C": "\\frac{\\rho_1\\rho_2}{\\rho_1+\\rho_2}",
+        "D": "\\sqrt{\\rho_1\\rho_2}"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 12,
+      "question": "Match the following two columns. [Table]",
+      "options": {
+        "A": "a-q, b-r, c-p, d-s",
+        "B": "a-q, b-s, c-r, d-p",
+        "C": "a-p, b-q, c-s, d-r",
+        "D": "a-p, b-r, c-q, d-s"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "number": 33,
+      "question": "A voltmeter of a very high resistance is joined in the circuit as shown in figure. The voltage shown by this voltmeter will be ________. [Diagram]",
+      "options": {
+        "A": "5 V",
+        "B": "6 V",
+        "C": "2.5 V",
+        "D": "3 V"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 14,
+      "question": "In above circuit if current through 10 $\\Omega$ resistor is 2.5 A, value of $R$ is ______. [Diagram]",
+      "options": {
+        "A": "50 $\\Omega$",
+        "B": "40 $\\Omega$",
+        "C": "8 $\\Omega$",
+        "D": "10 $\\Omega$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 15,
+      "question": "Brown, Red and Orange coloured bands on a Carbon resistor are followed by silver band. The value of resistor is __________",
+      "options": {
+        "A": "320 $\\Omega \\pm 5\\%$",
+        "B": "12 k$\\Omega \\pm 5\\%$",
+        "C": "320 $\\Omega \\pm 10\\%$",
+        "D": "12 k$\\Omega \\pm 10\\%$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 16,
+      "question": "What is the current in the 4 $\\Omega$ resistor when switch $S_1$ is open and switch $S_2$ is closed in the given circuit? [Diagram]",
+      "options": {
+        "A": "3.0 A",
+        "B": "0.8 A",
+        "C": "1.5 A",
+        "D": "1.2 A"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 6,
+      "question": "When the temperature of a conductor increases the ratio of conductivity and resistivity ___",
+      "options": {
+        "A": "decrease",
+        "B": "increase",
+        "C": "remain constant",
+        "D": "increase or decrease"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 7,
+      "question": "You are given $10$ resistors each of resistance $2\\Omega$. First they are connected to obtain possible minimum resistance. Then they are connected to obtain possible maximum resistance. The ratio of maximum and minimum resistance is ___",
+      "options": {
+        "A": "$2.5$",
+        "B": "$10$",
+        "C": "$100$",
+        "D": "$25$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 8,
+      "question": "The dimensional formula of mobility is ___",
+      "options": {
+        "A": "$\\text{M}^1\\text{L}^{-1}\\text{T}^{-2}\\text{A}^{-1}$",
+        "B": "$\\text{M}^1\\text{L}^0\\text{T}^{-2}\\text{A}^{-1}$",
+        "C": "$\\text{M}^{-1}\\text{L}^1\\text{T}^2\\text{A}^1$",
+        "D": "$\\text{M}^{-1}\\text{L}^0\\text{T}^2\\text{A}^1$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 21,
+      "question": "The heat produced per unit time, on passing electric current through a conductor at a given temperature, is directly proportional to the ..............",
+      "options": {
+        "A": "Reciprocal of electric current",
+        "B": "Square of electric current",
+        "C": "Reciprocal of square of electric current",
+        "D": "Electric current"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 22,
+      "question": "A carbon resistor has three bands as brown, black and green in order, What will be the range of resistance it offers?",
+      "options": {
+        "A": "$7 \\times 10^5 \\Omega - 13 \\times 10^5 \\Omega$",
+        "B": "$9 \\times 10^5 \\Omega - 11 \\times 10^5 \\Omega$",
+        "C": "$8 \\times 10^5 \\Omega - 12 \\times 10^5 \\Omega$",
+        "D": "None of these"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 23,
+      "question": "In the network shown in the figure [Diagram] the equivalent resistance between points X & Y will be ............... $\\Omega$. Value of each resistance is $2\\Omega$.",
+      "options": {
+        "A": "$\\frac{2}{3}$",
+        "B": "1",
+        "C": "4",
+        "D": "2"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 24,
+      "question": "Shunt wire should be...........",
+      "options": {
+        "A": "Thick and short",
+        "B": "Thin and long",
+        "C": "Thin and short",
+        "D": "Thick and long"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 21,
+      "question": "The emf of a car battery is $12\\text{ V}$. If internal resistance of battery is $0.4\\text{ }\\Omega$, then maximum power drawn from battery is ....... $\\text{W}$.",
+      "options": {
+        "A": "$360$",
+        "B": "$30$",
+        "C": "$4.8$",
+        "D": "Zero"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 22,
+      "question": "The resistance of the platinum wire of a platinum resistance thermometer at an ice point is $5\\text{ }\\Omega$ & at steam point is $5.23\\text{ }\\Omega$. When the thermometer is inserted in a hot bath, the resistance of a platinum wire is $5.795\\text{ }\\Omega$. Calculate the temperature of the bath.",
+      "options": {
+        "A": "$365.65\\text{ }^\\circ\\text{C}$",
+        "B": "$354.56\\text{ }^\\circ\\text{C}$",
+        "C": "$345.65\\text{ }^\\circ\\text{C}$",
+        "D": "$245.65\\text{ }^\\circ\\text{C}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 23,
+      "question": "One electric cell (having emf of $2\\text{V}$ & internal resistance of $0.1\\text{ }\\Omega$) and other electric cell (having emf of $4\\text{V}$ & internal resistance of $0.2\\text{ }\\Omega$) are connected in parallel to each other. Then its equivalent emf will be ........... $\\text{V}$",
+      "options": {
+        "A": "$2.57$",
+        "B": "$2.67$",
+        "C": "$1.33$",
+        "D": "$0.38$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 29,
+      "question": "For the which value of Resistance $R = \\text{______}$ when galvanometer shows zero deflection for following below electrical circuit. [Diagram]",
+      "options": {
+        "A": "$100\\text{ }\\Omega$",
+        "B": "$300\\text{ }\\Omega$",
+        "C": "$200\\text{ }\\Omega$",
+        "D": "$400\\text{ }\\Omega$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 30,
+      "question": "As following figure $2\\text{A}$ current passing through a conducting wire, radius of cross-sectional of wire at point A is $3r$ and point B is $r$ respectively. Then find the ratio of drift velocity at point A & B. [Diagram]",
+      "options": {
+        "A": "$1/3$",
+        "B": "3",
+        "C": "$1/9$",
+        "D": "9"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 31,
+      "question": "In a potentiometer arrangement, a cell of emf $1.5\\text{ V}$ gives a Balance point at $150\\text{ cm}$ length of the wire. If the cell is replaced by another cell and the balance point shift to $210\\text{ cm}$, what is the emf of the second cell?",
+      "options": {
+        "A": "3.2 V",
+        "B": "1.2 V",
+        "C": "4.4 V",
+        "D": "2.1 V"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 4,
+      "question": "A light bulb is rated at $200\\text{ W}$ for a $220\\text{ V}$ supply. Find the resistance of the bulb",
+      "options": {
+        "A": "$220\\text{ }\\Omega$",
+        "B": "$484\\text{ }\\Omega$",
+        "C": "$242\\text{ }\\Omega$",
+        "D": "$400\\text{ }\\Omega$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 31,
+      "question": "At room temperature ($27^\\circ\\text{C}$) the resistance of a heating element is $100\\text{ }\\Omega$. What is the temperature of the element if the resistance is found to be $137\\text{ }\\Omega$, given that the temperature coefficient of the material of the resistor is $1.35 \\times 10^{-4}\\text{ }^\\circ\\text{C}^{-1}$.",
+      "options": {
+        "A": "$2767\\text{ }^\\circ\\text{C}$",
+        "B": "$1227\\text{ }^\\circ\\text{C}$",
+        "C": "$1027\\text{ }^\\circ\\text{C}$",
+        "D": "$2327\\text{ }^\\circ\\text{C}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 32,
+      "question": "For the given following circuit diagram [Figure], the dissipated of electrical power $150\\text{ W}$, then find value of Resistance $R = $ ________.",
+      "options": {
+        "A": "$5\\text{ }\\Omega$",
+        "B": "$8\\text{ }\\Omega$",
+        "C": "$6\\text{ }\\Omega$",
+        "D": "$3\\text{ }\\Omega$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 33,
+      "question": "The number density of free electrons in a copper conductor estimated $8.5 \\times 10^{28}\\text{ m}^{-3}$. How long does an electron take to drift from one end of a wire $6\\text{ m}$ long to its other end? The area of cross-section of the wire is $1.0 \\times 10^{-6}\\text{ m}^2$ and it is carrying a current of $1.5\\text{A}$.",
+      "options": {
+        "A": "$8.1 \\times 10^4\\text{ s}$",
+        "B": "$5.4 \\times 10^4\\text{ s}$",
+        "C": "$12.7 \\times 10^4\\text{ s}$",
+        "D": "$4.5 \\times 10^4\\text{ s}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 19,
+      "question": "Unit of mobility in terms of fundamental units is ________.",
+      "options": {
+        "A": "$\\text{kg}^{-1}\\text{s}^{-2}\\text{A}$",
+        "B": "$\\text{kgs}^2\\text{A}$",
+        "C": "$\\text{kg}^{-1}\\text{s}^2\\text{A}$",
+        "D": "$\\text{kg}^{-1}\\text{s}^2\\text{A}^{-1}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2023,
+      "number": 20,
+      "question": "A metal rod of length 10 cm and a rectangular cross-section of $1 \\text{cm} \\times \\frac{1}{2} \\text{cm}$ is connected to a battery across opposite faces. The resistance will be ________.",
+      "options": {
+        "A": "Maximum when the battery is connected across $10 \\text{cm} \\times 1 \\text{cm}$",
+        "B": "Maximum when battery is connected across $1 \\text{cm} \\times \\frac{1}{2} \\text{cm}$ faces",
+        "C": "Maximum when the battery is connected across $10 \\text{cm} \\times \\frac{1}{2} \\text{cm}$",
+        "D": "Same irrespective of three faces"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 21,
+      "question": "Figure shows 2.0 V potentiometer used for the determination of internal resistance of 1.5 V cell. The balance point of cell in open circuit is 77.4 cm. When a resistor of $9.6 \\, \\Omega$ is used in the external circuit of the cell, the balanced point shifts to 64.5 cm length of the potentiometer wire. The internal resistance of the cell is ________ $\\Omega$. [Figure]",
+      "options": {
+        "A": "1.92",
+        "B": "1.5",
+        "C": "1.62",
+        "D": "0.96"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 27,
+      "question": "The SI units of the current density is ________.",
+      "options": {
+        "A": "$\\text{Am}^{-2}$",
+        "B": "$\\text{Am}^{-1}$",
+        "C": "$\\text{Am}^{-1}$",
+        "D": "$\\text{Am}^2$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 28,
+      "question": "The magnitude of the drift velocity per unit electric field is known as ________.",
+      "options": {
+        "A": "Charge density",
+        "B": "Conductivity",
+        "C": "Mobility",
+        "D": "Resistivity"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 29,
+      "question": "As shown in the circuit diagram [Figure] find the value of I ________.",
+      "options": {
+        "A": "$2.8\\text{ A}$",
+        "B": "$0.4\\text{ A}$",
+        "C": "$1.8\\text{ A}$",
+        "D": "$2.5\\text{ A}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 30,
+      "question": "A silver wire has a resistance of $2.1\\Omega$ at $27.5^\\circ\\text{C}$ and a resistance of $2.7\\Omega$ at $100^\\circ\\text{C}$. Then the temperature coefficient of resistivity of silver will be ________.",
+      "options": {
+        "A": "$3.9 \\times 10^3\\text{ }^\\circ\\text{C}$",
+        "B": "$3.9 \\times 10^3\\text{ }^\\circ\\text{C}^{-1}$",
+        "C": "$3.9 \\times 10^{-3}\\text{ }^\\circ\\text{C}$",
+        "D": "$3.9 \\times 10^{-3}\\text{ }^\\circ\\text{C}^{-1}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 32,
+      "question": "An ideal ammeter and an ideal voltmeter has resistance ________ $\\Omega$ and ________ $\\Omega$ respectively.",
+      "options": {
+        "A": "$(0, \\infty)$",
+        "B": "$(\\infty, 0)$",
+        "C": "$(\\infty, \\infty)$",
+        "D": "$(0, 0)$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 30,
+      "question": "The drift velocity of an electron is $v_d$ in a conductor of area of cross-section A and carries a current I. Now, the area of cross-section and current flowing through the conductor are double, then new drift velocity of the electron is ________.",
+      "options": {
+        "A": "$\\frac{v_d}{2}$",
+        "B": "$\\frac{v_d}{4}$",
+        "C": "$4v_d$",
+        "D": "$v_d$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 31,
+      "question": "As shown in the figure, balanced condition of Wheatstone Bridge is $n = $ ________. [Figure]",
+      "options": {
+        "A": "$\\frac{3}{2}$",
+        "B": "$\\frac{2}{5}$",
+        "C": "$\\frac{1}{2}$",
+        "D": "$\\frac{5}{2}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 32,
+      "question": "In the given circuit, potential difference between points P and Q is ________. [Figure]",
+      "options": {
+        "A": "128 V",
+        "B": "20 V",
+        "C": "96 V",
+        "D": "60 V"
+      },
+      "answer": "B"
+    }
+  ]
+}

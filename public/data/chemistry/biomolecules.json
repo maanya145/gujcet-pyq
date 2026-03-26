@@ -1,0 +1,511 @@
+{
+  "subject": "chemistry",
+  "chapter": "Biomolecules",
+  "total_questions": 42,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 46,
+      "question": "Cellulose is soluble in ..............",
+      "options": {
+        "A": "None of these",
+        "B": "Ammonical cupric hydroxide solution",
+        "C": "Organic solvents",
+        "D": "Water"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2007,
+      "number": 57,
+      "question": "Which of the following is incorrect for Glucose?",
+      "options": {
+        "A": "it contains four $-\\text{CHOH}$ group",
+        "B": "it contains one ketone group",
+        "C": "it contains one $-\\text{CH}_2\\text{OH}$ group",
+        "D": "it contains one $-\\text{CHO}$ group"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2007,
+      "number": 58,
+      "question": "Deficiency of Vitamin H causes",
+      "options": {
+        "A": "Skin diseases",
+        "B": "Scurvy",
+        "C": "Burning of eyes",
+        "D": "Anaemia"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2008,
+      "number": 75,
+      "question": "Which one of the following statements is incorrect for the Sucrose ?",
+      "options": {
+        "A": "It is not reducing sugar.",
+        "B": "It is obtained from cane sugar.",
+        "C": "It gives aspartame when it is heated at 210°C.",
+        "D": "On hydrolysis, it gives equal quantities of D-glucose and D-fructose."
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 76,
+      "question": "What is the chemical name of the vitamin $\\text{B}_{12}$ ?",
+      "options": {
+        "A": "Thiamin",
+        "B": "Riboflavin",
+        "C": "Pyridoxin",
+        "D": "Cyanocobalamine"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 77,
+      "question": "A base-sugar phosphate unit in Nucleic acid is called ..........",
+      "options": {
+        "A": "Phosphotide",
+        "B": "Neucleoside",
+        "C": "Neucleotide",
+        "D": "None of these"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 79,
+      "question": "Which compound is obtained, when Glucose reacts with excess $\\text{C}_6\\text{H}_5\\text{-NH.NH}_2$ ?",
+      "options": {
+        "A": "Saccharic acid",
+        "B": "Glucose phenyl hydrazone",
+        "C": "Gluconic acid",
+        "D": "Glucosazone"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 80,
+      "question": "Which lipid is not obtained by the hydrolysis of simple lipid and compound lipid from the following ?",
+      "options": {
+        "A": "Terpenes",
+        "B": "Carotenoid",
+        "C": "Neutral fats",
+        "D": "Cholesterols"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 55,
+      "question": "Which of the following enzymes is present in animals like cow, buffaloes, etc. to digest compound like paper, cloth, etc.?",
+      "options": {
+        "A": "Uraze",
+        "B": "Cellulase",
+        "C": "Silicones",
+        "D": "Sucrase"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 76,
+      "question": "How Glucose is related with Fructose ?",
+      "options": {
+        "A": "Functional group isomerism",
+        "B": "Rotamers",
+        "C": "Position isomerism",
+        "D": "Geometrical isomerism"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 77,
+      "question": "How can you say that Glucose is cyclic compound ?",
+      "options": {
+        "A": "Glucose undergoes Tollen's reaction.",
+        "B": "Glucose reacts with Phenyl hydrazine.",
+        "C": "Glucose fails to react with Sodium hydrogen sulphite.",
+        "D": "Glucose reacts with Nitric acid."
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 78,
+      "question": "Progesterone is secreted by .......",
+      "options": {
+        "A": "Thyroid",
+        "B": "Ovaries",
+        "C": "Adrenal",
+        "D": "Testes"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 75,
+      "question": "Which vitamin is not obtained from plants?",
+      "options": {
+        "A": "Thiamine",
+        "B": "Cyanocobalamine",
+        "C": "Pyridoxine",
+        "D": "$\\alpha$ - Tocopherol"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 76,
+      "question": "When sucrose is heated to $483 \\text{ K}$ temperature, it loses water and forms a brown amorphous substance called ________.",
+      "options": {
+        "A": "Aspartame",
+        "B": "Caramel",
+        "C": "Alitame",
+        "D": "Sucrolose"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 77,
+      "question": "Which of the following amino acid is neutral?",
+      "options": {
+        "A": "Glycine",
+        "B": "Aspartic acid",
+        "C": "Lysine",
+        "D": "Arginine"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 68,
+      "question": "For which vitamin liver is not the source?",
+      "options": {
+        "A": "Vitamin - B_2",
+        "B": "Vitamin - B_1",
+        "C": "Vitamin - B_{12}",
+        "D": "Vitamin - H"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 69,
+      "question": "In which of the following compound, all the monosaccharide units are not joined by $\\text{C}_1 - \\text{O} - \\text{C}_4$ chain.",
+      "options": {
+        "A": "Lactose",
+        "B": "Maltose",
+        "C": "Cellulose",
+        "D": "Amylopectin"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 42,
+      "question": "Which amino acid contain secondary amino group in its structure?",
+      "options": {
+        "A": "Proline",
+        "B": "Glycine",
+        "C": "Alanine",
+        "D": "Lysine"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 43,
+      "question": "Which of the following protein is present in silk?",
+      "options": {
+        "A": "Insulin",
+        "B": "Keratin",
+        "C": "Albumin",
+        "D": "Myosin"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 75,
+      "question": "Which one is a purine base?",
+      "options": {
+        "A": "Cytosine",
+        "B": "Thymine",
+        "C": "Uracil",
+        "D": "Guanine"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 76,
+      "question": "Which of the following amino acid has $\\text{pH}$ greater than $7$?",
+      "options": {
+        "A": "Glycine",
+        "B": "Lysine",
+        "C": "Glutamic acid",
+        "D": "Alanine"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 49,
+      "question": "Why glucose is called gluco-pyranose?",
+      "options": {
+        "A": "Glucose is a cyclic compound containing six carbon atoms",
+        "B": "Glucose is ketohexose",
+        "C": "Glucose is a cyclic compound containing five carbon atoms and one oxygen atom",
+        "D": "Glucose is aldohexose"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 50,
+      "question": "Which protein present in muscles is insoluble in water?",
+      "options": {
+        "A": "Myosin",
+        "B": "Albumin",
+        "C": "Insulin",
+        "D": "Carotene"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 51,
+      "question": "Giving 'T' symbol for true statement and 'F' symbol for false statement, select suitable option from the given options for following statements. (i) Cytosine base is the derivative of pyrimidine (ii) $\\beta - \\text{D}$ Ribose sugar is present in DNA. (iii) The message for the synthesis of a specific protein in present in RNA. (iv) DNA is responsible for maintaining the identity of different species of organisms for one century",
+      "options": {
+        "A": "FFTF",
+        "B": "FTFF",
+        "C": "FFFT",
+        "D": "TFFT"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 49,
+      "question": "Giving ‘T’ Symbol for true statement and ‘F’ symbol for false statement, select correct option. (i) Most naturally occurring amino acids have L-configuration (ii) $\\beta$-D ribose sugar is present in RNA (iii) Amylose is water insoluble component made up of $\\alpha$-D-(+) glucose units (iv) All monosaccharides are non-reducing sugars.",
+      "options": {
+        "A": "TTFF",
+        "B": "TFTF",
+        "C": "TTFT",
+        "D": "FTTF"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 54,
+      "question": "The deficiency of which vitamin causes scurvy?",
+      "options": {
+        "A": "Riboflavin",
+        "B": "Thiamine",
+        "C": "Ascorbic acid",
+        "D": "Pyriodoxine"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 60,
+      "question": "Which reaction prove that all the six carbon atoms are linked in a straight chain in glucose?",
+      "options": {
+        "A": "Heat with HI",
+        "B": "Reaction with $\\text{Br}_2$",
+        "C": "Reaction with $\\text{NH}_2\\text{OH}$",
+        "D": "Reaction with HCN"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 61,
+      "question": "Which $\\alpha$-amino acid is not optical isomer?",
+      "options": {
+        "A": "Alanine",
+        "B": "Glycine",
+        "C": "Lysine",
+        "D": "Leucine"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 62,
+      "question": "In DNA, which bases is not present of following?",
+      "options": {
+        "A": "Thymine",
+        "B": "Guanine",
+        "C": "Uracil",
+        "D": "Adenine"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 59,
+      "question": "Select proper statement from following True (T) and False (F) statements. (I) Pentose sugar + base $\\rightarrow$ Nucleotide (II) Nucleotide + Phosphate $\\rightarrow$ Nucleoside (III) DNA contains four bases A, G, C and T (IV) RNA contains four bases A, G, C and U",
+      "options": {
+        "A": "FTFT",
+        "B": "FTTT",
+        "C": "FFTT",
+        "D": "TTTT"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 60,
+      "question": "Which glycosidic linkage occurs in 'Amylopectin'?",
+      "options": {
+        "A": "$C_1-C_3$ and $C_1-C_4$",
+        "B": "$C_1-C_4$ and $C_1-C_6$",
+        "C": "$C_1-C_2$ and $C_1-C_6$",
+        "D": "$C_2-C_4$ and $C_4-C_6$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 47,
+      "question": "Which statement is not correct for Glucose?",
+      "options": {
+        "A": "When heated with HI it gives n-Hexane",
+        "B": "It is aldohexose",
+        "C": "It react with Hydroxyl amine",
+        "D": "It contain furanose structure"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 48,
+      "question": "Which base is not present in the DNA structure?",
+      "options": {
+        "A": "Uracil",
+        "B": "Adenine",
+        "C": "Guanine",
+        "D": "Cytosine"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 56,
+      "question": "Lactose is composed of which units?",
+      "options": {
+        "A": "$\text{a-D-Glucose}$ and $\text{a-D-Glucose}$",
+        "B": "$\text{a-D-Glucose}$ and $\text{b-D-Fructose}$",
+        "C": "$\text{b-D-Galactose}$ and $\text{b-D-Glucose}$",
+        "D": "$\text{a-D-Glucose}$ and $\text{b-D-Galactose}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 57,
+      "question": "Which of the following gives Zwitter ion in its aqueous solution?",
+      "options": {
+        "A": "$\text{COOH}-\text{CH}_2-\text{COOH}$",
+        "B": "$\text{NH}_2-\text{CH}_2-\text{COOH}$",
+        "C": "$\text{NH}_2-\text{CH}_2-\text{CH}_2-\text{NH}_2$",
+        "D": "$\text{CH}_3\text{CH}_2\text{NH}_2$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 58,
+      "question": "Deficiency of which vitamin is responsible for RBC deficient in haemoglobin?",
+      "options": {
+        "A": "Vitamin $\text{B}_{12}$",
+        "B": "Vitamin $\text{B}_6$",
+        "C": "Vitamin $\text{B}_2$",
+        "D": "Vitamin $\text{B}_1$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 59,
+      "question": "Which of the following statement is incorrect for the structure of Nucleic acid?",
+      "options": {
+        "A": "Nucleotides are joined together by phosphodiester linkage",
+        "B": "In DNA molecule, the sugar moiety is $\text{b-D-2-deoxyribose}$",
+        "C": "A unit formed by the attachment of a base 1' position of sugar is known as nucleoside",
+        "D": "RNA contains four bases adenine, guanine, cytosine and thymine"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 59,
+      "question": "Which enzyme is used for fermentation of glucose?",
+      "options": {
+        "A": "Sucrase",
+        "B": "Maltase",
+        "C": "Invertase",
+        "D": "Zymase"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 69,
+      "question": "____ nucleotide is not present in RNA.",
+      "options": {
+        "A": "Uracil containing",
+        "B": "Adenine containing",
+        "C": "Cytosine containing",
+        "D": "Thymine containing"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 70,
+      "question": "Each polypeptide in a protein has amino acids linked with each other in a specific sequence. This sequence of amino acids is called ____ structure of that protein.",
+      "options": {
+        "A": "Quaternary structure",
+        "B": "Tertiary structure",
+        "C": "Primary structure",
+        "D": "Secondary structure"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 71,
+      "question": "Deficiency of ____ vitamin causes scurvy disease.",
+      "options": {
+        "A": "Pyridoxine",
+        "B": "Ascorbic acid",
+        "C": "Riboflavin",
+        "D": "Thiamine"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 72,
+      "question": "Reaction with which reagent glucose form oxime?",
+      "options": {
+        "A": "$\\text{CH}_3\\text{OH}$",
+        "B": "$\\text{NH}_2\\text{OH}$",
+        "C": "$\\text{NH}_4\\text{OH}$",
+        "D": "$\\text{NH}_2\\text{NH}_2$"
+      },
+      "answer": "B"
+    }
+  ]
+}

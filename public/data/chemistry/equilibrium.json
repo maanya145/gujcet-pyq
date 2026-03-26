@@ -1,0 +1,19 @@
+{
+  "subject": "chemistry",
+  "chapter": "Equilibrium",
+  "total_questions": 1,
+  "questions": [
+    {
+      "year": 2011,
+      "number": 48,
+      "question": "Final pressure is higher than initial pressure of a container filled with an ideal gas at constant temperature. What will be the value of equilibrium constant ?",
+      "options": {
+        "A": "$K = 1.0$",
+        "B": "$K = 10.0$",
+        "C": "$K > 1.0$",
+        "D": "$K < 1.0$"
+      },
+      "answer": "D"
+    }
+  ]
+}

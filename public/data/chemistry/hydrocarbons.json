@@ -1,0 +1,43 @@
+{
+  "subject": "chemistry",
+  "chapter": "Hydrocarbons",
+  "total_questions": 3,
+  "questions": [
+    {
+      "year": 2011,
+      "number": 66,
+      "question": "Which of the compounds when brominated turns to meso $2, 3\\text{ di bromobutane}$ ?",
+      "options": {
+        "A": "cis $2\\text{ - butene}$",
+        "B": "Iso butane",
+        "C": "Butane",
+        "D": "Trans $2\\text{ - butene}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 50,
+      "question": "From following reactions, which reaction does not give \"Benzene\"?",
+      "options": {
+        "A": "$\\text{C}_6\\text{H}_5\\text{COONa} + \\text{Sodalime} \\xrightarrow{\\Delta}$",
+        "B": "$\\text{C}_6\\text{H}_5\\text{N}_2^+\\text{Cl}^- + \\text{H}_3\\text{PO}_2 + \\text{H}_2\\text{O} \\rightarrow$",
+        "C": "$\\text{C}_6\\text{H}_5\\text{OH} + \\text{Zn} \\xrightarrow{\\Delta}$",
+        "D": "$\\text{C}_6\\text{H}_5\\text{OH} + \\text{H}_2\\text{CrO}_4 \\xrightarrow{[O]}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 41,
+      "question": "What is the major product in the following reaction? [Diagram] $\text{CH}_3 - \text{C}(\text{H}) - \text{CH} = \text{CH}_2 \rightarrow \text{HX} \rightarrow ?$",
+      "options": {
+        "A": "$\text{CH}_2 - \text{C}(\text{H})(\text{CH}_3) - \text{CH}_2 - \text{CH}_3$ (with X on first C)",
+        "B": "$\text{CH}_3 - \text{C}(\text{CH}_3)(\text{X}) - \text{CH}_2 - \text{CH}_3$",
+        "C": "$\text{CH}_3 - \text{C}(\text{H})(\text{CH}_3) - \text{CH}_2 - \text{CH}_2\text{X}$",
+        "D": "$\text{CH}_3 - \text{C}(\text{CH}_3)(\text{H}) - \text{CH}(\text{X}) - \text{CH}_3$"
+      },
+      "answer": "D"
+    }
+  ]
+}

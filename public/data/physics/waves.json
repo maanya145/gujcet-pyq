@@ -1,0 +1,19 @@
+{
+  "subject": "physics",
+  "chapter": "Waves",
+  "total_questions": 1,
+  "questions": [
+    {
+      "year": 2015,
+      "number": 7,
+      "question": "If the wave length of light is $4000\\text{Å}$, then the number of waves in $1\\text{ mm}$ length will be ________.",
+      "options": {
+        "A": "2500",
+        "B": "25",
+        "C": "250",
+        "D": "25000"
+      },
+      "answer": "A"
+    }
+  ]
+}

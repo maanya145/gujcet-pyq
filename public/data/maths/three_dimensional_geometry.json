@@ -1,0 +1,583 @@
+{
+  "subject": "maths",
+  "chapter": "Three Dimensional Geometry",
+  "total_questions": 48,
+  "questions": [
+    {
+      "year": 2006,
+      "number": 9,
+      "question": "What is the direction of the line passing through the points $(2, 1, 3)$ and $(3, 2, -1)$ ?",
+      "options": {
+        "A": "$(-1, -1, 4)$",
+        "B": "$(1, 1, -2)$",
+        "C": "$(1, 1, 4)$",
+        "D": "$(-1, -1, -4)$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2006,
+      "number": 10,
+      "question": "What is the equation of line passing through $(1, 2, 3)$ and perpendicular to $3x + 4y - 5z = 6$ ?",
+      "options": {
+        "A": "$\\frac{x-1}{3} = \\frac{y-2}{4} = \\frac{3-z}{5}$",
+        "B": "$\\frac{x-3}{1} = \\frac{y-4}{2} = \\frac{z+5}{3}$",
+        "C": "$\\frac{1-x}{3} = \\frac{y-2}{4} = \\frac{z-3}{-5}$",
+        "D": "$\\frac{x-1}{3} = \\frac{2-y}{4} = \\frac{3-z}{5}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2006,
+      "number": 11,
+      "question": "What is the perpendicular distance between $2x + 2y - z + 1 = 0$ and $x + y - \\frac{z}{2} + 2 = 0$ ?",
+      "options": {
+        "A": "$\\sqrt{5}$",
+        "B": "$\\sqrt{2}$",
+        "C": "2",
+        "D": "1"
+      },
+      "answer": null
+    },
+    {
+      "year": 2006,
+      "number": 12,
+      "question": "What is the radius of the sphere whose extremities of the diameter are $(1, -1, 1)$ and $(-1, 1, 1)$ ?",
+      "options": {
+        "A": "$2\\sqrt{2}$",
+        "B": "1",
+        "C": "$\\sqrt{2}$",
+        "D": "2"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2008,
+      "number": 17,
+      "question": "Find the co-ordinates of the foot of the perpendicular drawn from the point $(2, 4, -1)$ to the line $\\vec{r} = (-5, -3, 6) + K(1, 4, -9)$, $K \\in R$",
+      "options": {
+        "A": "$(-4, 1, 3)$",
+        "B": "$(-4, 1, -3)$",
+        "C": "$(1, 3, 4)$",
+        "D": "$(4, 3, 1)$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 18,
+      "question": "Find the intercepts on the axes cut by plane $\\vec{r} \\cdot (2, -3, 4) = 12$.",
+      "options": {
+        "A": "$2, -3, 4$",
+        "B": "$6, -4, 3$",
+        "C": "$6, 4, 3$",
+        "D": "None of these"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 19,
+      "question": "Find the measure of the angle between the planes $2x - y + z = 2$ and $x + y + 2z = 3$",
+      "options": {
+        "A": "$\\pi/2$",
+        "B": "$\\pi/3$",
+        "C": "$\\pi/4$",
+        "D": "$\\pi/6$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 20,
+      "question": "Find out the equation of a sphere that passes through the points $(0, 0, 0)$, $(a, 0, 0)$, $(0, b, 0)$ and $(0, 0, c)$.",
+      "options": {
+        "A": "$x^2 + y^2 + z^2 + 2ax + 2by + 2cz = 0$",
+        "B": "$x^2 + y^2 + z^2 - 2ax - 2by - 2cz = 0$",
+        "C": "$x^2 + y^2 + z^2 - ax - by - cz = 0$",
+        "D": "$x^2 + y^2 + z^2 + ax + by + cz = 0$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 17,
+      "question": "Find the direction ratio of the line $\\frac{3 - x}{1} = \\frac{y - 2}{5} = \\frac{2z - 3}{1}$.",
+      "options": {
+        "A": "$-1 : 5 : 1$",
+        "B": "$1 : 5 : 1$",
+        "C": "$1 : 5 : 1/2$",
+        "D": "$-1 : 5 : 1/2$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2009,
+      "number": 18,
+      "question": "Find the intersection point of $\\frac{x}{1} = \\frac{y}{2} = \\frac{z}{2}$ and $2x + y + z = 6$.",
+      "options": {
+        "A": "$(1, 2, 2)$",
+        "B": "$(2, 1, 1)$",
+        "C": "$(0, 0, 0)$",
+        "D": "None of these"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2009,
+      "number": 19,
+      "question": "Find the equation of the perpendicular drawn from the origin to the plane $2x + 4y - 5z = 10$.",
+      "options": {
+        "A": "$\\vec{r} = (2k, 4k, -5k), k \\in \\mathbb{R}$",
+        "B": "$\\vec{r} = (3k, 4k, 5k), k \\in \\mathbb{R}$",
+        "C": "$\\vec{r} = (2k, 5k, 4k), k \\in \\mathbb{R}$",
+        "D": "None of these"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2009,
+      "number": 20,
+      "question": "If one end point of a diameter of Sphere $x^2 + y^2 + z^2 - 6x - 12y - 2z + 20 = 0$ is $(2, 3, 5)$, then find another end point of its diameter.",
+      "options": {
+        "A": "$(4, 3, 5)$",
+        "B": "$(4, 3, -3)$",
+        "C": "$(4, 9, -3)$",
+        "D": "None of these"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 17,
+      "question": "Find the shortest distance between the lines $\\frac{x-3}{2} = \\frac{y+15}{-7} = \\frac{z-9}{5}$ and $\\frac{x+1}{2} = \\frac{y-1}{1} = \\frac{z-9}{-3}$",
+      "options": {
+        "A": "$2\\sqrt{3}$",
+        "B": "$3\\sqrt{3}$",
+        "C": "$4\\sqrt{3}$",
+        "D": "None of these"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 18,
+      "question": "Find the distance between the planes $\\vec{r} \\cdot (2\\vec{i} - \\vec{j} + 3\\vec{k}) = 4$ and $\\vec{r} \\cdot (6\\vec{i} - 3\\vec{j} + 9\\vec{k}) + 13 = 0$.",
+      "options": {
+        "A": "$\\frac{5}{3(\\sqrt{14})}$",
+        "B": "$\\frac{10}{3(\\sqrt{14})}$",
+        "C": "$\\frac{25}{3(\\sqrt{14})}$",
+        "D": "None of these"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 19,
+      "question": "Find the direction of intersecting line of two planes $2x + y + z = 1$ and $3x + 2y - z = 3$",
+      "options": {
+        "A": "$(3, 5, 1)$",
+        "B": "$(3, 5, -1)$",
+        "C": "$(-3, 5, 1)$",
+        "D": "None of these"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 20,
+      "question": "The equation of a Sphere having centre $(1, 2, 3)$ and radius $3$ units is ......",
+      "options": {
+        "A": "$x^2 + y^2 + z^2 - 2x - 4y - 6z = 0$",
+        "B": "$x^2 + y^2 + z^2 - 2x - 4y - 6z + 5 = 0$",
+        "C": "$x^2 + y^2 + z^2 - 2x - 4y - 6z - 5 = 0$",
+        "D": "None of these."
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 5,
+      "question": "The position vector of point $A$ is $(4, 2, -3)$. If $p_1$ is perpendicular distance of $A$ from $XY$-plane and $p_2$ is perpendicular distance from $Y$-axis, then $p_1 + p_2 = $______.",
+      "options": {
+        "A": "8",
+        "B": "3",
+        "C": "2",
+        "D": "7"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 6,
+      "question": "Plane $ax + by + cz = 1$ intersect axes in $A, B, C$ respectively. If $G(\\frac{1}{6}, \\frac{1}{3}, 1)$ is a centroid of $\\Delta ABC$, then $a + b + 3c = $_______.",
+      "options": {
+        "A": "$\\frac{4}{3}$",
+        "B": "4",
+        "C": "2",
+        "D": "$\\frac{5}{6}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 7,
+      "question": "The direction angles of the line $x = 4z + 3, y = 2 - 3z$ are $\\alpha, \\beta$ and $\\gamma$, then $\\cos\\alpha + \\cos\\beta + \\cos\\gamma = $____.",
+      "options": {
+        "A": "$\\frac{2}{\\sqrt{26}}$",
+        "B": "$\\frac{8}{\\sqrt{26}}$",
+        "C": "1",
+        "D": "2"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 8,
+      "question": "If the normal of the plane makes an angles $\\frac{\\pi}{4}, \\frac{\\pi}{4}$ and $\\frac{\\pi}{2}$ with positive $X$-axis, $Y$-axis and $Z$-axis respectively and the length of the perpendicular line segment from origin to the plane is $\\sqrt{2}$, then the equation of the plane is ____.",
+      "options": {
+        "A": "$x + y + z = \\sqrt{2}$",
+        "B": "$x + y + z = 1$",
+        "C": "$x + y = 2$",
+        "D": "$x = \\sqrt{2}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 15,
+      "question": "If a vector $\\vec{x}$ makes angles with measure $\\pi/4$ and $5\\pi/4$ with positive directions of X-axis and Y-axis respectively, then $\\vec{x}$ made angle of measure ...... with positive direction of Z-axis",
+      "options": {
+        "A": "$\\pi/3$",
+        "B": "$\\pi/4$",
+        "C": "$\\pi/2$",
+        "D": "$5\\pi/3$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 16,
+      "question": "If a plane has X-intercept $l$, Y-intercept $m$ and Z-intercept $n$, and perpendicular distance of plane from origin is $k$, then",
+      "options": {
+        "A": "$\\frac{1}{l^2} + \\frac{1}{m^2} + \\frac{1}{n^2} = \\frac{1}{k^2}$",
+        "B": "$l^2 + m^2 + n^2 = k^2$",
+        "C": "$l^2 + m^2 + n^2 = \\frac{1}{k^2}$",
+        "D": "$\\frac{1}{l^2} + \\frac{1}{m^2} + \\frac{1}{n^2} = k^2$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 17,
+      "question": "Lines $\\vec{r} = (3+t)\\hat{i} + (1-t)\\hat{j} + (-2-2t)\\hat{k}, t \\in R$ and $x = 4+k, y = -k, z = -4-2k, k \\in R$, then relation between lines is",
+      "options": {
+        "A": "Coincident",
+        "B": "Parallel",
+        "C": "Skew",
+        "D": "Perpendicular"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 18,
+      "question": "The equation of plane containing intersecting lines $\\frac{x+3}{3} = \\frac{y}{1} = \\frac{z-2}{2}$ and $\\frac{x-3}{4} = \\frac{y-2}{2} = \\frac{z-6}{3}$ is",
+      "options": {
+        "A": "$2x - y + z + 9 = 0$",
+        "B": "$x + y - 2z + 7 = 0$",
+        "C": "$x + y + z + 5 = 0$",
+        "D": "$x + 2y - 2z + 9 = 0$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 18,
+      "question": "The perpendicular distance from the point of intersection of line $\\frac{x+1}{2} = \\frac{y+2}{3} = \\frac{z}{-1}$ and plane $2x-y+z=0$ to the Z-axis is..............",
+      "options": {
+        "A": "$1$",
+        "B": "$2$",
+        "C": "$\\sqrt{5}$",
+        "D": "$5$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2019,
+      "number": 19,
+      "question": "The measure of the angle between the line $\\vec{r} = (2, -3, 1) + k(2, 2, 1); k \\in R$ and the plane $2x-2y+z+7=0$ is ......................",
+      "options": {
+        "A": "$\\cos^{-1} \\frac{1}{9}$",
+        "B": "$\\sin^{-1} \\frac{1}{3}$",
+        "C": "$\\tan^{-1} \\frac{1}{4\\sqrt{5}}$",
+        "D": "$\\frac{\\pi}{2}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 20,
+      "question": "The image of the point $A(1, 2, 3)$ relative to the plane $\\pi$ is $B(3, 6, -1)$, the equation of plane $\\pi$ is ......",
+      "options": {
+        "A": "$x+2y+3z-1=0$",
+        "B": "$x-2y+2z-8=0$",
+        "C": "$x+2y-2z+8=0$",
+        "D": "$x+2y-2z-8=0$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 2,
+      "question": "The co-ordinates of the foot of perpendicular drawn from origin to the plane $2x - 3y + 4z - 6 = 0$ is ________",
+      "options": {
+        "A": "$\\left(\\frac{12}{29}, -\\frac{18}{29}, \\frac{24}{29}\\right)$",
+        "B": "$\\left(\\frac{12}{29}, -\\frac{18}{29}, -\\frac{24}{29}\\right)$",
+        "C": "$\\left(\\frac{12}{29}, \\frac{18}{29}, \\frac{24}{29}\\right)$",
+        "D": "$\\left(-\\frac{12}{29}, -\\frac{18}{29}, -\\frac{24}{29}\\right)$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 3,
+      "question": "The angle between the line $\\frac{x+1}{2} = \\frac{y-0}{3} = \\frac{z-3}{6}$ and the plane $10x + 2y - 11z = 3$ is ________.",
+      "options": {
+        "A": "$\\cos^{-1}\\left(\\frac{8}{21}\\right)$",
+        "B": "$\\tan^{-1}\\left(\\frac{8}{\\sqrt{377}}\\right)$",
+        "C": "$\\sin^{-1}\\left(\\frac{8}{\\sqrt{377}}\\right)$",
+        "D": "$\\sin^{-1}\\left(\\frac{21}{8}\\right)$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 4,
+      "question": "If the points $(1, 1, p)$ and $(-3, 0, 1)$ be equidistant from the plane $\\vec{r} \\cdot (3\\hat{i} + 4\\hat{j} - 12\\hat{k}) + 13 = 0$ then the values of $p$ are _____________.",
+      "options": {
+        "A": "$1, \\frac{7}{3}$",
+        "B": "$1, \\frac{4}{3}$",
+        "C": "$2, \\frac{4}{3}$",
+        "D": "$\\frac{7}{3}, 2$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 16,
+      "question": "The distance of a point $(2, 5, -3)$ from the plane $6x - 3y + 2z - 4 = 0$ is",
+      "options": {
+        "A": "$\\frac{13}{\\sqrt{7}}$",
+        "B": "$\\frac{5}{7}$",
+        "C": "$\\frac{5}{\\sqrt{7}}$",
+        "D": "$\\frac{13}{7}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 17,
+      "question": "The coordinates of the foot of the perpendicular drawn from the origin to the plane $2x - 3y + 4z - 12 = 0$ is",
+      "options": {
+        "A": "$(\\frac{12}{29}, -\\frac{18}{29}, \\frac{24}{29})$",
+        "B": "$(\\frac{24}{29}, -\\frac{36}{29}, \\frac{48}{29})$",
+        "C": "$(\\frac{24}{\\sqrt{29}}, -\\frac{36}{\\sqrt{29}}, \\frac{48}{\\sqrt{29}})$",
+        "D": "$(\\frac{12}{\\sqrt{29}}, -\\frac{18}{\\sqrt{29}}, \\frac{24}{\\sqrt{29}})$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 18,
+      "question": "If $2x + 3y - z + 7 = 0$ and $x - 2y + kz + 2 = 0$ are two perpendicular planes, then $k = \\text{_______}$",
+      "options": {
+        "A": "$4$",
+        "B": "$8$",
+        "C": "$-4$",
+        "D": "$-8$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2022,
+      "number": 28,
+      "question": "The angle between the line $\\frac{x+1}{2} = \\frac{y}{3} = \\frac{z-3}{6}$ and the plane $10x + 2y - 11z = 3$ is ________.",
+      "options": {
+        "A": "$\\text{cos}^{-1}(\\frac{1}{8})$",
+        "B": "$\\text{cos}^{-1}(\\frac{8}{21})$",
+        "C": "$\\text{sin}^{-1}(\\frac{8}{21})$",
+        "D": "$\\text{sin}^{-1}(\\frac{1}{8})$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 29,
+      "question": "The area of a triangle having the points $A(1, 1, 1)$, $B(1, 2, 3)$ and $C(2, 3, 1)$ as its vertices is ________.",
+      "options": {
+        "A": "$\\frac{\\sqrt{19}}{2}$",
+        "B": "$\\frac{\\sqrt{21}}{2}$",
+        "C": "$\\frac{19}{2}$",
+        "D": "$\\frac{21}{2}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 30,
+      "question": "The lines $\\frac{1-x}{3} = \\frac{7y-14}{2p} = \\frac{z-3}{2}$ and $\\frac{7-7x}{3p} = \\frac{y-5}{1} = \\frac{6-z}{5}$ are at right angles then value of $p$ is ________.",
+      "options": {
+        "A": "$\\frac{11}{7}$",
+        "B": "$7$",
+        "C": "$\\frac{70}{11}$",
+        "D": "$\\frac{7}{11}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 25,
+      "question": "Cartesian equation of the line through $(5, -2, 4)$ and which is parallel to the vector $3\\hat{i} + 2\\hat{j} - 8\\hat{k}$ is :",
+      "options": {
+        "A": "$\\frac{x-5}{3} = \\frac{y+2}{2} = \\frac{z-4}{-8}$",
+        "B": "$\\frac{x-5}{3} = \\frac{y-2}{2} = \\frac{z+4}{-8}$",
+        "C": "$\\frac{x-3}{5} = \\frac{y-2}{2} = \\frac{z+8}{-4}$",
+        "D": "$\\frac{x-3}{5} = \\frac{y+2}{-2} = \\frac{z+8}{4}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 26,
+      "question": "If $a, b$ and $c$ are intercepts on X-axis, Y-axis and Z-axis respectively of the plane $x + 2y + 3z = 1$, then $2a + 4b + 3c = \\dots$",
+      "options": {
+        "A": "$19$",
+        "B": "$5$",
+        "C": "$6$",
+        "D": "$17$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2023,
+      "number": 27,
+      "question": "Measure of the angle between the line $\\vec{r} = (-\\hat{i} + 3\\hat{k}) + \\lambda(2\\hat{i} + 3\\hat{j} + 6\\hat{k})$ ($\\lambda \\in \\mathbb{R}$) and the plane $10x + 2y - 11z = 3$ is :",
+      "options": {
+        "A": "$\\pi/2$",
+        "B": "$\\cos^{-1}(8/21)$",
+        "C": "$\\sin^{-1}(8/21)$",
+        "D": "$\\sin^{-1}(1/21)$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2024,
+      "number": 5,
+      "question": "The angle, between the pair of lines, given by $\\frac{x-3}{1} = \\frac{y-2}{2} = \\frac{z+4}{2}$ and $\\frac{x-5}{3} = \\frac{y+2}{2} = \\frac{z}{6}$ is ____.",
+      "options": {
+        "A": "$\\cos^{-1}\\frac{19}{21}$",
+        "B": "$\\cos^{-1}\\frac{\\sqrt{19}}{21}$",
+        "C": "$\\sin^{-1}\\frac{19}{21}$",
+        "D": "$\\cos^{-1}-\\frac{19}{21}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 6,
+      "question": "If the lines $\\frac{x-1}{-3} = \\frac{y-2}{2k} = \\frac{z-3}{2}$ and $\\frac{x-1}{3k} = \\frac{y-1}{1} = \\frac{6-z}{5}$ are perpendicular, then the value of k is ____.",
+      "options": {
+        "A": "$-\\frac{7}{10}$",
+        "B": "$\\frac{7}{10}$",
+        "C": "$\\frac{10}{7}$",
+        "D": "$-\\frac{10}{7}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 7,
+      "question": "The angle, between the pair of lines, given by $\\frac{x-3}{1} = \\frac{y-2}{2} = \\frac{z+4}{2}$ and $\\frac{x-5}{3} = \\frac{y+2}{2} = \\frac{z}{6}$ is ______.",
+      "options": {
+        "A": "$\\cos^{-1}\\left(-\\frac{19}{21}\\right)$",
+        "B": "$\\cos^{-1}\\left(\\frac{19}{21}\\right)$",
+        "C": "$\\sin^{-1}\\left(\\frac{19}{21}\\right)$",
+        "D": "$\\cos^{-1}\\left(\\frac{\\sqrt{19}}{21}\\right)$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 7,
+      "question": "The Cartesian equation of the line which passes through the point $(1, -3, 5)$ and parallel to the line given by $\\frac{x+3}{3} = \\frac{y-4}{5} = \\frac{z+8}{6}$ is :",
+      "options": {
+        "A": "$\\frac{x-1}{3} = \\frac{y+3}{5} = \\frac{z-5}{6}$",
+        "B": "$\\frac{x+3}{1} = \\frac{y-4}{-3} = \\frac{z+8}{5}$",
+        "C": "$\\frac{x+3}{-3} = \\frac{y-4}{4} = \\frac{z+8}{-8}$",
+        "D": "$\\frac{x-1}{-3} = \\frac{y+3}{4} = \\frac{z-5}{-8}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 8,
+      "question": "If the lines $\\frac{x-1}{-3} = \\frac{y-2}{2k} = \\frac{z-3}{2}$ and $\\frac{x-1}{3k} = \\frac{y-1}{1} = \\frac{6-z}{5}$ are perpendicular, then the value of k is ______.",
+      "options": {
+        "A": "$-\\frac{10}{7}$",
+        "B": "$-\\frac{7}{10}$",
+        "C": "$\\frac{10}{7}$",
+        "D": "$\\frac{7}{10}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 9,
+      "question": "The Cartesian equation of the line which passes through the point $(1, -3, 5)$ and parallel to the line given by $\\frac{x+3}{3} = \\frac{y-4}{5} = \\frac{z+8}{6}$ is :",
+      "options": {
+        "A": "$\\frac{x-1}{-3} = \\frac{y+3}{4} = \\frac{z-5}{-8}$",
+        "B": "$\\frac{x-1}{3} = \\frac{y+3}{5} = \\frac{z-5}{6}$",
+        "C": "$\\frac{x+3}{-3} = \\frac{y-4}{4} = \\frac{z+8}{-8}$",
+        "D": "$\\frac{x+3}{1} = \\frac{y-4}{-3} = \\frac{z+8}{5}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 1,
+      "question": "The Cartesian equation of the line through the point $(5, -2, 4)$ and which is parallel to the vector $3\\hat{i} - 2\\hat{j} + 8\\hat{k}$ is ____",
+      "options": {
+        "A": "$\\frac{x-5}{3} = \\frac{y+2}{-2} = \\frac{z-4}{8}$",
+        "B": "$\\frac{x+5}{-3} = \\frac{y-2}{2} = \\frac{z+4}{8}$",
+        "C": "$\\frac{x+5}{3} = \\frac{y-2}{-2} = \\frac{z+4}{8}$",
+        "D": "$\\frac{x-5}{-3} = \\frac{y+2}{2} = \\frac{z-4}{8}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 2,
+      "question": "The shortest distance between the lines $\\frac{x-1}{2} = \\frac{y-2}{3} = \\frac{z+4}{6}$ and $\\frac{x-3}{2} = \\frac{y-3}{3} = \\frac{z+5}{6}$ is ____",
+      "options": {
+        "A": "$\\sqrt{\\frac{209}{49}}$",
+        "B": "$\\sqrt{\\frac{293}{49}}$",
+        "C": "$\\sqrt{\\frac{209}{7}}$",
+        "D": "$\\sqrt{\\frac{293}{7}}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 3,
+      "question": "The angle between the pair of lines $\\vec{r} = -3\\hat{i} + \\hat{j} + 3\\hat{k} + \\lambda(3\\hat{i} + 5\\hat{j} + 4\\hat{k})$ and $\\vec{r} = -\\hat{i} + 4\\hat{j} + 5\\hat{k} + \\mu(\\hat{i} + \\hat{j} + 2\\hat{k})$ is ____",
+      "options": {
+        "A": "$\\sin^{-1}\\left(\\frac{8\\sqrt{3}}{15}\\right)$",
+        "B": "$\\cos^{-1}\\left(\\frac{6\\sqrt{2}}{15}\\right)$",
+        "C": "$\\cos^{-1}\\left(\\frac{8\\sqrt{3}}{15}\\right)$",
+        "D": "$\\sin^{-1}\\left(\\frac{6\\sqrt{2}}{15}\\right)$"
+      },
+      "answer": "C"
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "subject": "physics",
+  "chapter": "Atoms",
+  "total_questions": 35,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 16,
+      "question": "In Rutherford's $\\alpha$-scattering experiment, what will be the correct angle of scattering for impact parameter $b = 0$?",
+      "options": {
+        "A": "$180^\\circ$",
+        "B": "$0^\\circ$",
+        "C": "$270^\\circ$",
+        "D": "$90^\\circ$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2007,
+      "number": 18,
+      "question": "The potential energy of the orbital electron in the ground state of hydrogen atom is $-E$. What is its kinetic energy?",
+      "options": {
+        "A": "$4E$",
+        "B": "$2E$",
+        "C": "$\\frac{E}{2}$",
+        "D": "$\\frac{E}{4}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2008,
+      "number": 30,
+      "question": "What will be the angular momentum in fourth orbit, if L is the angular momentum of the electron in the second orbit of Hydrogen atom ?",
+      "options": {
+        "A": "$\\frac{2}{3} L$",
+        "B": "$\\frac{L}{2}$",
+        "C": "2 L",
+        "D": "$\\frac{3}{2} L$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 28,
+      "question": "The ratio of Kinetic energy and the total energy of the electron in the $n$th quantum state of Bohr's atomic model of Hydrogen atom is ..........",
+      "options": {
+        "A": "$-1$",
+        "B": "$+1$",
+        "C": "$-2$",
+        "D": "$+2$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 33,
+      "question": "The ratio of areas of the electron orbits for the first excited state and the ground state for the Hydrogen atom is ........",
+      "options": {
+        "A": "$16:1$",
+        "B": "$2:1$",
+        "C": "$4:1$",
+        "D": "$8:1$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 34,
+      "question": "What is the difference of angular momenta of an Electron between two consecutive orbits in Hydrogen atom ?",
+      "options": {
+        "A": "$\\frac{h}{\\pi}$",
+        "B": "$\\frac{h}{2\\pi}$",
+        "C": "$\\frac{h}{2}$",
+        "D": "$\\frac{2\\pi}{h}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 29,
+      "question": "The total energy of electron in the second excited state is $-2\\text{ E}$. What is its potential energy in the same state with proper sign ?",
+      "options": {
+        "A": "$-2\\text{ E}$",
+        "B": "$-4\\text{ E}$",
+        "C": "$4\\text{ E}$",
+        "D": "$-\\text{E}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 33,
+      "question": "According to the Bohr's atomic model, the relation between principal quantum number (n) and radius of orbit (r) is ......",
+      "options": {
+        "A": "$r \\propto n^2$",
+        "B": "$r \\propto \\frac{1}{n^2}$",
+        "C": "$r \\propto \\frac{1}{n}$",
+        "D": "$r \\propto n$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 31,
+      "question": "If $\\lambda_1$ and $\\lambda_2$ are the wave length of the first numbers of the Lyman and Paschen series respectively. Then $\\lambda_1 : \\lambda_2$ ________.",
+      "options": {
+        "A": "$1:3$",
+        "B": "$1:30$",
+        "C": "$7:50$",
+        "D": "$7:108$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "number": 22,
+      "question": "The distance of the closest approach of an alpha particle fired at a nucleus with kinetic energy $K$ is $r_0$. The distance of the closest approach when the particle is fired at the same nucleus with kinetic energy $2K$ will be ________.",
+      "options": {
+        "A": "4r_0",
+        "B": "\\frac{r_0}{2}",
+        "C": "\\frac{r_0}{4}",
+        "D": "2r_0"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 23,
+      "question": "Number of spectral line in hydrogen atom is",
+      "options": {
+        "A": "8",
+        "B": "6",
+        "C": "15",
+        "D": "\\alpha"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 8,
+      "question": "The total energy of an electron in the first excited state of H-atom is – 3.4 eV, then its potential energy is in this state is _____ eV.",
+      "options": {
+        "A": "6.8",
+        "B": "3.4",
+        "C": "– 6.8",
+        "D": "– 3.4"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 38,
+      "question": "In the discharge tube as the density of atom increases, the intensity of spectral lines",
+      "options": {
+        "A": "Decreases continuously",
+        "B": "Increases continuously",
+        "C": "Remains constant",
+        "D": "None of these"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 39,
+      "question": "The ionization potential of hydrogenic ions $P$ and $Q$ are $V_P$ and $V_Q$ respectively. If $V_Q < V_P$ then radii",
+      "options": {
+        "A": "$r_P > r_Q$",
+        "B": "$r_P < r_Q$",
+        "C": "$r_P = r_Q$",
+        "D": "None of these"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 27,
+      "question": "Wavelength of characteristic X-ray depends on which property of target?",
+      "options": {
+        "A": "$A$",
+        "B": "$Z$",
+        "C": "Melting point",
+        "D": "All of these"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 5,
+      "question": "If the kinetic energy of the electron in the hydrogen atom is $\\frac{e^2}{8\\pi\\epsilon_0 r}$, then its potential energy is.............",
+      "options": {
+        "A": "$-\\frac{e^2}{8\\pi\\epsilon_0 r}$",
+        "B": "$\\frac{e^2}{8\\pi\\epsilon_0 r}$",
+        "C": "$-\\frac{e^2}{4\\pi\\epsilon_0 r}$",
+        "D": "$\\frac{e^2}{4\\pi\\epsilon_0 r}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 6,
+      "question": "The wavelength of the first line of Lyman series is $\\lambda$. The wavelength of the first line in Paschen series is ............. $\\lambda$.",
+      "options": {
+        "A": "$\\frac{5}{27}$",
+        "B": "$\\frac{7}{108}$",
+        "C": "$\\frac{27}{5}$",
+        "D": "$\\frac{108}{7}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 6,
+      "question": "The nucleus of gold is about ...... times heavier than an $\\alpha$-particle.",
+      "options": {
+        "A": "$50$",
+        "B": "$10$",
+        "C": "$100$",
+        "D": "$200$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 7,
+      "question": "The ground state energy of hydrogen atom is $-13.6\\text{ eV}$. What is the kinetic energy of electron in this state?",
+      "options": {
+        "A": "$-13.6\\text{ eV}$",
+        "B": "$+13.6\\text{ eV}$",
+        "C": "$-27.2\\text{ eV}$",
+        "D": "$+27.2\\text{ eV}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 8,
+      "question": "The minimum wavelength for Balmer series is ........",
+      "options": {
+        "A": "$\\frac{9}{R}$",
+        "B": "$\\frac{4}{R}$",
+        "C": "$\\frac{36}{5R}$",
+        "D": "$\\frac{R}{4}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 14,
+      "question": "What is the shortest wavelength present in the Balmer series of spectral line? [Where R is Rydberg constant]",
+      "options": {
+        "A": "$1/R$",
+        "B": "$3/R$",
+        "C": "$2/R$",
+        "D": "$4/R$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 15,
+      "question": "The radius of the innermost electron orbit of a hydrogen atom is $5.3 \\times 10^{-11}\\text{ m}$. What are the radii of the $n = 4$ orbit?",
+      "options": {
+        "A": "$2.12 \\times 10^{-10}\\text{ m}$",
+        "B": "$8.48 \\times 10^{-10}\\text{ m}$",
+        "C": "$4.24 \\times 10^{-10}\\text{ m}$",
+        "D": "$10.6 \\times 10^{-10}\\text{ m}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 16,
+      "question": "The ground state energy of hydrogen atom is $-13.6\\text{ eV}$. What will be the kinetic energies of the electron?",
+      "options": {
+        "A": "13.6 eV",
+        "B": "27.2 eV",
+        "C": "-13.6 eV",
+        "D": "-27.2 eV"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 15,
+      "question": "A difference of $5.4\\text{ eV}$ separates two energy levels in an atom. What is the frequency of radiation emitted when the atom make a transition from the upper level to the lower level? [$1\\text{ eV} = 1.6 \\times 10^{-19}\\text{ J}$, $h = 6.625 \\times 10^{-34}\\text{ J.s.}$]",
+      "options": {
+        "A": "$1.304 \\times 10^{15}\\text{ Hz}$",
+        "B": "$5.6 \\times 10^{15}\\text{ Hz}$",
+        "C": "$5.6 \\times 10^{14}\\text{ Hz}$",
+        "D": "$1.304 \\times 10^{14}\\text{ Hz}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 16,
+      "question": "What is the shortest wavelength present in the Paschen series of spectral lines?",
+      "options": {
+        "A": "$320\\text{ nm}$",
+        "B": "$720\\text{ nm}$",
+        "C": "$840\\text{ nm}$",
+        "D": "$820\\text{ nm}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2022,
+      "number": 17,
+      "question": "The radius of the innermost electron orbit of a hydrogen atom is $5.3 \\times 10^{-11}\\text{ m}$. What are the radii of the $n = 3$ orbit?",
+      "options": {
+        "A": "$4.12 \\times 10^{-10}\\text{ m}$",
+        "B": "$4.77 \\times 10^{-10}\\text{ m}$",
+        "C": "$2.12 \\times 10^{-10}\\text{ m}$",
+        "D": "$2.24 \\times 10^{-10}\\text{ m}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 18,
+      "question": "In accordance with the Bohr's model, find the quantum number that characterises the earth's revolution around the sun in an orbit of radius $1.5 \\times 10^{11}\\text{ m}$ with orbital speed $3 \\times 10^4\\text{ m/s}$. (Mass of earth $= 6 \\times 10^{24}\\text{ kg}$, $h = 6.625 \\times 10^{-34}\\text{ J.s.}$)",
+      "options": {
+        "A": "$3.6 \\times 10^{74}$",
+        "B": "$1.6 \\times 10^{74}$",
+        "C": "$2.6 \\times 10^{74}$",
+        "D": "$4.6 \\times 10^{74}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 5,
+      "question": "The longest wavelength present in the Balmer series of spectral line is ________.",
+      "options": {
+        "A": "$5438 \\text{Å}$",
+        "B": "$6563 \\text{Å}$",
+        "C": "$7369 \\text{Å}$",
+        "D": "$3646 \\text{Å}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 6,
+      "question": "In hydrogen atom an electron makes a transition from $5^{\\text{th}}$ orbit to $3^{\\text{rd}}$ orbit. The change in the angular momentum for this electron is ________.",
+      "options": {
+        "A": "$\\frac{h}{\\pi}$",
+        "B": "$\\frac{h}{2\\pi}$",
+        "C": "$\\frac{3h}{\\pi}$",
+        "D": "$\\frac{5h}{\\pi}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 13,
+      "question": "The ratio of radius for second and third orbit of hydrogen atom is ________.",
+      "options": {
+        "A": "$4:9$",
+        "B": "$3:2$",
+        "C": "$9:4$",
+        "D": "$2:3$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 14,
+      "question": "In Geiger-Marsden scattering experiment the thickness of a thin foil of gold is ________ m.",
+      "options": {
+        "A": "$6.2 \\times 10^{-7}$",
+        "B": "$5.5 \\times 10^{-7}$",
+        "C": "$2.1 \\times 10^{-7}$",
+        "D": "$4.2 \\times 10^{-7}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 15,
+      "question": "The ground state energy of hydrogen atom is $-13.6\\text{ eV}$, then the potential energy of the electron in this state will be ________.",
+      "options": {
+        "A": "$-6.8\\text{ eV}$",
+        "B": "$-27.2\\text{ eV}$",
+        "C": "$13.6\\text{ eV}$",
+        "D": "$27.2\\text{ eV}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2025,
+      "number": 15,
+      "question": "According to Bohr's model, the orbital angular momentum of electrons in third excited state is ________ [$h = 6.63 \\times 10^{-34} \\text{ Js}$]",
+      "options": {
+        "A": "$4.2 \\times 10^{-34} \\text{ kg m}^2\\text{s}^{-1}$",
+        "B": "$12.350 \\times 10^{-34} \\text{ kg m}^2\\text{s}^{-1}$",
+        "C": "$1.625 \\times 10^{-26} \\text{ erg-s}$",
+        "D": "$6.63 \\times 10^{-34} \\text{ Js}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 16,
+      "question": "13.6 eV energy is required to separate a hydrogen atom into proton and an electron. If the orbital radius of an electron in hydrogen atom is $5.3 \\times 10^{-11} \\text{m}$, then velocity of electron is ________.",
+      "options": {
+        "A": "$6.25 \\times 10^7 \\text{ ms}^{-1}$",
+        "B": "$1.36 \\times 10^5 \\text{ ms}^{-1}$",
+        "C": "$2.4 \\times 10^8 \\text{ ms}^{-1}$",
+        "D": "$2.2 \\times 10^6 \\text{ ms}^{-1}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 17,
+      "question": "The ground state energy of hydrogen atom is $-13.6 \\text{ eV}$. The potential and kinetic energies of the electron in this state ________.",
+      "options": {
+        "A": "$-13.6 \\text{ eV}, -27.2 \\text{ eV}$",
+        "B": "$-27.2 \\text{ eV}, -13.6 \\text{ eV}$",
+        "C": "$-27.2 \\text{ eV}, +13.6 \\text{ eV}$",
+        "D": "$-13.6 \\text{ eV}, +27.2 \\text{ eV}$"
+      },
+      "answer": "C"
+    }
+  ]
+}

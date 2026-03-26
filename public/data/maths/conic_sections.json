@@ -1,0 +1,343 @@
+{
+  "subject": "maths",
+  "chapter": "Conic Sections",
+  "total_questions": 28,
+  "questions": [
+    {
+      "year": 2006,
+      "number": 1,
+      "question": "What is the equation of the auxiliary circle of $\\frac{x^2}{16} - \\frac{y^2}{9} = 1$ ?",
+      "options": {
+        "A": "$x^2 + y^2 = 9$",
+        "B": "$x^2 + y^2 = 25$",
+        "C": "$x^2 + y^2 = 7$",
+        "D": "$x^2 + y^2 = 16$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2006,
+      "number": 2,
+      "question": "Find the equation of tangent to the hyperbola $4x^2 - y^2 = 64$, which is parallel to the line $8x - 6y + 11 = 0$.",
+      "options": {
+        "A": "$2x + y = 1$",
+        "B": "Tangent does not exists",
+        "C": "$3x + y = 1$",
+        "D": "$x + 3y = 1$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2006,
+      "number": 36,
+      "question": "Line $12x + 5y + 60 = 0$ intersects the axes in $A$ and $B$ respectively, then what is the equation of the circle whose diameter as $AB$ ?",
+      "options": {
+        "A": "$x^2 + y^2 - 5x + 12y = 0$",
+        "B": "$x^2 + y^2 + 5x + 12y = 0$",
+        "C": "$x^2 + y^2 - 5x - 12y = 0$",
+        "D": "$x^2 + y^2 + 5x - 12y = 0$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2006,
+      "number": 37,
+      "question": "If $(1, 2)$ is the centre of a circle passing through the point $(4, 6)$, then what is the length of a circumference of this circle ?",
+      "options": {
+        "A": "$25\\pi$",
+        "B": "None of these",
+        "C": "$5\\pi$",
+        "D": "$10\\pi$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2006,
+      "number": 38,
+      "question": "What is the value of $t$ such that $P(t)$ and $Q(3)$ are the end points of a focal chord of a parabola $y^2 = 4ax$ ?",
+      "options": {
+        "A": "$t = 3$",
+        "B": "$t = -3$",
+        "C": "$t = -1/3$",
+        "D": "$t = 1/3$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2006,
+      "number": 39,
+      "question": "What is the area of a triangle whose vertices are vertex and end points of latus rectum of $x^2 = 12y$ ?",
+      "options": {
+        "A": "36",
+        "B": "None of these",
+        "C": "9",
+        "D": "18"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2006,
+      "number": 40,
+      "question": "Find the length of major axis and its eccentricity of $\\frac{x^2}{16} + \\frac{y^2}{25} = 1$.",
+      "options": {
+        "A": "8 and 3/5",
+        "B": "None of these",
+        "C": "5/2 and $\\sqrt{3}/5$",
+        "D": "10 and 3/5"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2008,
+      "number": 6,
+      "question": "If circle $x^2 + y^2 - Kx - 12y + 4 = 0$ touches X-axis, then $K = ....$",
+      "options": {
+        "A": "16",
+        "B": "$\\sqrt{16}$",
+        "C": "12",
+        "D": "$\\sqrt{12}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 7,
+      "question": "Let C be the circle with centre $(0, 0)$ and radius 3 units. The equation of the locus of the mid-points of the chords of the circle C that subtend an angle of $\\frac{2\\pi}{3}$ at its centre is ....",
+      "options": {
+        "A": "$x^2 + y^2 = \\frac{32}{7}$",
+        "B": "$x^2 + y^2 = 7$",
+        "C": "$x^2 + y^2 + 30x + 7 = 0$",
+        "D": "$x^2 + y^2 = \\frac{9}{4}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 8,
+      "question": "Find the equation of the tangent drawn from $(5, 5)$ to the parabola $y^2 = 5x$.",
+      "options": {
+        "A": "$x - y + 5 = 0$",
+        "B": "$2x - y + 5 = 0$",
+        "C": "$y - x + 5 = 0$",
+        "D": "$2y - x - 5 = 0$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 9,
+      "question": "The equation of tangent with slope $\\frac{1}{2}$ to Parabola $2x^2 = 7y$ is ..........",
+      "options": {
+        "A": "$2x + 4y = 7$",
+        "B": "$3x + 6y = 7$",
+        "C": "$2x - 4y = -7$",
+        "D": "$3x - 6y = 7$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 10,
+      "question": "Find the equation of the auxiliary circle $\\frac{x^2}{9} + \\frac{y^2}{16} = 1$.",
+      "options": {
+        "A": "$x^2 + y^2 = 16$",
+        "B": "$x^2 + y^2 = 9$",
+        "C": "$x^2 + y^2 = 25$",
+        "D": "$x^2 + y^2 = 7$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 11,
+      "question": "Length of latus-rectum of Hyperbola $y^2 - 16x^2 = 16$ is -",
+      "options": {
+        "A": "$\\frac{1}{2}$",
+        "B": "2",
+        "C": "2",
+        "D": "-2"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 12,
+      "question": "Length of transverse axis of Hyperbola $y^2 = 64x^2 + 64$ is ....",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "16",
+        "D": "32"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 6,
+      "question": "If $53x - 54y + 17 = 0$ and $106x - 108y - 4 = 0$ are the tangents of the circle, then radius of the circle is $= \\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$\\frac{3}{2\\sqrt{229}}$",
+        "B": "$\\frac{30}{\\sqrt{5725}}$",
+        "C": "$\\frac{3}{2\\sqrt{5725}}$",
+        "D": "$\\frac{3}{\\sqrt{229}}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2009,
+      "number": 7,
+      "question": "If the circles $x^2 + y^2 + 4x + 8y = 0$ and $x^2 + y^2 + 8x + 2ky = 0$ touch each other, then $k = \\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$8$",
+        "B": "$4$",
+        "C": "$12$",
+        "D": "$-8$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2009,
+      "number": 8,
+      "question": "Equation of the directrix of Parabola $2x^2 = 14y$ is $\\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$x = -\\frac{7}{4}$",
+        "B": "$x = \\frac{7}{4}$",
+        "C": "$y = -\\frac{7}{4}$",
+        "D": "$y = \\frac{7}{4}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2009,
+      "number": 9,
+      "question": "If $2y = x + k$ is tangent to the Parabola $y^2 = 24x$, then $k = \\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$-24$",
+        "B": "$-12$",
+        "C": "$12$",
+        "D": "$24$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2009,
+      "number": 10,
+      "question": "Obtain the equation of the Ellipse, whose vertices are $(\\pm 5, 0)$ and foci are $(\\pm 4, 0)$.",
+      "options": {
+        "A": "$\\frac{x^2}{16} + \\frac{y^2}{25} = 1$",
+        "B": "$\\frac{x^2}{25} + \\frac{y^2}{16} = 1$",
+        "C": "$\\frac{x^2}{9} + \\frac{y^2}{25} = 1$",
+        "D": "$\\frac{x^2}{25} + \\frac{y^2}{9} = 1$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2009,
+      "number": 11,
+      "question": "Asymptotes of a Hyperbola $\\frac{x^2}{25} - \\frac{y^2}{16} = 1$ are $\\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$x = \\pm \\frac{4}{5}y$",
+        "B": "$y = \\pm \\frac{4}{5}x$",
+        "C": "$x = \\pm \\frac{25}{16}y$",
+        "D": "$y = \\pm \\frac{5}{4}x$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2009,
+      "number": 12,
+      "question": "The value of $e$ for rectangular Hyperbola is $\\dots \\dots \\dots \\dots \\dots \\dots$",
+      "options": {
+        "A": "$-\\sqrt{2}$",
+        "B": "$\\sqrt{2}$",
+        "C": "$-\\frac{1}{\\sqrt{2}}$",
+        "D": "$\\frac{1}{\\sqrt{2}}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 6,
+      "question": "If the line $y = mx + c$ is passing through origin and away from the circle $4x^2 + 4y^2 - 80y + 360 = 0$, then .....",
+      "options": {
+        "A": "$|m| > 3$",
+        "B": "$m > 3$",
+        "C": "$m < -3$",
+        "D": "$|m| < 3$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2011,
+      "number": 7,
+      "question": "The centre of the circle $2x^2 + 2y^2 + \\frac{3}{2}x + 9 = 0$ is ...........",
+      "options": {
+        "A": "$(\\frac{3}{8}, 0)$",
+        "B": "$(-\\frac{3}{8}, 0)$",
+        "C": "$(0, \\frac{3}{8})$",
+        "D": "$(0, -\\frac{3}{8})$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 8,
+      "question": "The equation of tangent of $y^2 = 12x$ and making an angle $\\frac{\\pi}{3}$ with X-axis is ......",
+      "options": {
+        "A": "$\\pm y - \\sqrt{3}x + \\sqrt{3} = 0$",
+        "B": "$\\pm y + \\sqrt{3}x + 3 = 0$",
+        "C": "$\\pm y - \\sqrt{3}x - \\sqrt{3} = 0$",
+        "D": "$\\pm y + \\sqrt{3}x - 3 = 0$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 9,
+      "question": "A focal chord of the Parabola $y^2 = 4x$ makes an angle of measure $\\theta$ with the positive direction of the X-axis. If the length of the focal chord is $8$, then $\\theta = ...........$ $(0 < \\theta < \\frac{\\pi}{2})$",
+      "options": {
+        "A": "$\\frac{\\pi}{3}$",
+        "B": "$\\frac{\\pi}{6}$",
+        "C": "$\\frac{\\pi}{4}$",
+        "D": "None of them"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 10,
+      "question": "If a line $x + 2y = k$ touches to the ellipse $\\frac{x^2}{9} + \\frac{y^2}{4} = 1$, then find $k$.",
+      "options": {
+        "A": "$k = \\pm 2$",
+        "B": "$k = \\pm 5$",
+        "C": "$k = 25$",
+        "D": "$k = -25$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 11,
+      "question": "Equation of auxiliary circle of $\\frac{x^2}{16} - \\frac{y^2}{25} = -1$ is ......",
+      "options": {
+        "A": "$x^2 + y^2 = 16$",
+        "B": "$x^2 + y^2 = 25$",
+        "C": "$x^2 + y^2 = 9$",
+        "D": "$x^2 + y^2 = 41$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 12,
+      "question": "Find the measure of angle between the asymptotes of $x^2 - y^2 = 16$.",
+      "options": {
+        "A": "$\\frac{\\pi}{4}$",
+        "B": "$\\frac{\\pi}{3}$",
+        "C": "$\\frac{\\pi}{6}$",
+        "D": "$\\frac{\\pi}{2}$"
+      },
+      "answer": "D"
+    }
+  ]
+}

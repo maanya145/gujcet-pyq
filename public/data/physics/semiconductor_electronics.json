@@ -1,0 +1,811 @@
+{
+  "subject": "physics",
+  "chapter": "Semiconductor Electronics",
+  "total_questions": 67,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 19,
+      "question": "Boolean expression for OR gate is",
+      "options": {
+        "A": "$Y = A \\cdot B$",
+        "B": "$Y = \\bar{A} + \\bar{B}$",
+        "C": "$Y = A + B$",
+        "D": "$Y = \\bar{A}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2007,
+      "number": 21,
+      "question": "Which of the following device is full duplex?",
+      "options": {
+        "A": "Mobile-phone",
+        "B": "Walky-talky",
+        "C": "Loud speaker",
+        "D": "Radio"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2007,
+      "number": 22,
+      "question": "N-type semiconductor is obtained on doping intrinsic germanium by",
+      "options": {
+        "A": "Gold",
+        "B": "Boron",
+        "C": "Aluminium",
+        "D": "phosphorus"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2007,
+      "number": 23,
+      "question": "A hole in a P-type semi conductor is ................. in a covalent bond.",
+      "options": {
+        "A": "a donor level",
+        "B": "a missing atom",
+        "C": "a missing electron",
+        "D": "an excess electron"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2007,
+      "number": 24,
+      "question": "N-P-N transistors are preferred to P-N-P transistors because they have",
+      "options": {
+        "A": "electrons have high mobility than holes and hence mobility of energy",
+        "B": "capable of handling large power",
+        "C": "low dissipation of energy",
+        "D": "low cost"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2008,
+      "number": 35,
+      "question": "A T.V. tower has a height of 75 m. What is the maximum distance up to which this T.V. transmission can be received ? (Radius of the Earth = $6.4 \\times 10^6 \\text{ m}$)",
+      "options": {
+        "A": "40.98 km",
+        "B": "50.98 km",
+        "C": "30.98 km",
+        "D": "38.98 km"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 36,
+      "question": "Which one of the entries given in the truth table is true for the following logic circuit ? [Figure]",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 37,
+      "question": "The frequency of audio analog signals lies in the range",
+      "options": {
+        "A": "20 Hz to 20 MHz",
+        "B": "20 Hz to 20 kHz",
+        "C": "20 kHz to 20 MHz",
+        "D": "12 Hz to 20 MHz"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 38,
+      "question": "Advantages of optical fibre communications over two wire transmission line or co-axial cable transmission are",
+      "options": {
+        "A": "high band width, low transmission loss.",
+        "B": "low band width, high transmission loss.",
+        "C": "low band width, low transmission loss.",
+        "D": "high band width, high transmission loss."
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 39,
+      "question": "A pure Ge specimen is doped with Al. The number density of acceptor atoms is approximately $10^{21} \\text{ m}^{-3}$. If density of electron hole pair in an intrinsic semi-conductor is approximately $10^{19} \\text{ m}^{-3}$, the number density of electrons in the specimen is",
+      "options": {
+        "A": "$10^{17} \\text{ m}^{-3}$",
+        "B": "$10^{15} \\text{ m}^{-3}$",
+        "C": "$10^4 \\text{ m}^{-3}$",
+        "D": "$10^2 \\text{ m}^{-3}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 40,
+      "question": "An AND gate is followed by a NOT gate in series. With two inputs A & B, the Boolean expression for the output Y will be",
+      "options": {
+        "A": "$A \\cdot B$",
+        "B": "$A + B$",
+        "C": "$\\overline{A + B}$",
+        "D": "$\\overline{A \\cdot B}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 35,
+      "question": "Electrically, an isolated P-type semi conductor is .......",
+      "options": {
+        "A": "Positively charged.",
+        "B": "Negatively charged.",
+        "C": "Neutral.",
+        "D": "None of the given."
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 36,
+      "question": "In a common base transistor circuit, $I_C$ is the Output current and $I_E$ is the input current. The current gain $\\alpha_{dc}$ is ........",
+      "options": {
+        "A": "Greater than one.",
+        "B": "Less than one.",
+        "C": "Equal to one.",
+        "D": "None of these."
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 37,
+      "question": "Name the gate, which represents the Boolean expression $y = \\overline{A \\cdot B}$.",
+      "options": {
+        "A": "AND",
+        "B": "NOR",
+        "C": "NAND",
+        "D": "NOT"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 38,
+      "question": "What is the minimum length of antenna required to transmit a radio signal of frequency $20 \\text{ MHz}$ ?",
+      "options": {
+        "A": "$7.5 \\text{ m}$",
+        "B": "$3.75 \\text{ m}$",
+        "C": "$5.0 \\text{ m}$",
+        "D": "$2.0 \\text{ m}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 39,
+      "question": "A layer of ionosphere does not reflect waves with frequencies greater than $10 \\text{ MHz}$; then maximum electron density in this layer is ............",
+      "options": {
+        "A": "$1.23 \\times 10^{10} \\text{ m}^{-3}$",
+        "B": "$1.23 \\times 10^{12} \\text{ m}^{-3}$",
+        "C": "$1.23 \\times 10^{11} \\text{ m}^{-3}$",
+        "D": "$12.3 \\times 10^{10} \\text{ m}^{-3}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 40,
+      "question": "The maximum electron density in the ionosphere in the morning is $10^{10} \\text{ m}^{-3}$. At noon time, it increases to $2 \\times 10^{10} \\text{ m}^{-3}$. Find the ratio of critical frequency at noon and the critical frequency in the morning.",
+      "options": {
+        "A": "$2.82$",
+        "B": "$1.414$",
+        "C": "$2.00$",
+        "D": "$4.00$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 42,
+      "question": "Which of the following has the highest value of energy gap ?",
+      "options": {
+        "A": "Diamond",
+        "B": "Germanium",
+        "C": "Silver",
+        "D": "Aluminium"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 35,
+      "question": "Reverse bias applied to a P-N junction diode .....",
+      "options": {
+        "A": "lowers the potential barrier.",
+        "B": "decreases the majority charge carriers.",
+        "C": "raises the potential barrier.",
+        "D": "change the mass of P-N junction diode."
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 36,
+      "question": "The current gain of a common base transistor circuit is $0.96$. On changing the emitter current by $10.0\\text{ mA}$, the change in the base current will be .........",
+      "options": {
+        "A": "$9.6\\text{ mA}$",
+        "B": "$0.4\\text{ mA}$",
+        "C": "$19.6\\text{ mA}$",
+        "D": "$24\\text{ mA}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 37,
+      "question": "What should be minimum length of antenna for efficient transmission of signals of wavelength $\\lambda$ ?",
+      "options": {
+        "A": "$\\lambda/2$",
+        "B": "$\\lambda/3$",
+        "C": "$\\lambda/4$",
+        "D": "$\\lambda/5$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2011,
+      "number": 38,
+      "question": "What fraction of the surface area of Earth can be covered to establish communication by one geostationary satellite ?",
+      "options": {
+        "A": "$1/2$",
+        "B": "$1/3$",
+        "C": "$1/4$",
+        "D": "$1/8$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2011,
+      "number": 39,
+      "question": "Symbolic representation of NOR gate is ........ [Diagram]",
+      "options": {
+        "A": "[Diagram A]",
+        "B": "[Diagram B]",
+        "C": "[Diagram C]",
+        "D": "[Diagram D]"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 40,
+      "question": "A T.V. tower has a height $150\\text{ m}$. What is the total population covered by the T.V. tower, if the population density around the T.V. tower is $10^3\\text{ km}^{-2}$ ? Radius of the Earth is $6.4 \\times 10^6\\text{ m}$.",
+      "options": {
+        "A": "$60.288\\text{ lakhs}$",
+        "B": "$40.192\\text{ lakhs}$",
+        "C": "$100\\text{ lakhs}$",
+        "D": "$20.228\\text{ lakhs}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 36,
+      "question": "The frequency of the output signal becomes ________ times by doubling the value of the capacitance in the I.C oscillator circuit.",
+      "options": {
+        "A": "$1/\\sqrt{2}$",
+        "B": "$\\sqrt{2}$",
+        "C": "$1/2$",
+        "D": "$2$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 37,
+      "question": "In a zener diode, the reverse bias voltage is $3 \\text{V}$ and the width of the depletion region is $300 \\ \\mathring{\\text{A}}$, the electric field intensity will be ________ $\\text{V/cm}$.",
+      "options": {
+        "A": "$10^4$",
+        "B": "$10^6$",
+        "C": "$10^8$",
+        "D": "$10^{-2}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 38,
+      "question": "The collector supply voltage in CE transistor amplifier is $10 \\text{V}$. The base current is $10 \\ \\mu\\text{A}$ in the absence of the signal voltage and the voltage between the collector and the emitter is $4 \\text{V}$. The current gain ($\\beta$) of a transistor is $200$, then the value of the load resistance $R_L$ ________.",
+      "options": {
+        "A": "$1 \\text{ K } \\Omega$",
+        "B": "$2 \\text{ K } \\Omega$",
+        "C": "$3 \\text{ K } \\Omega$",
+        "D": "$4 \\text{ K } \\Omega$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 39,
+      "question": "The range of frequency of audio signal is ________.",
+      "options": {
+        "A": "$0 \\text{ to } 2 \\text{ KHz}$",
+        "B": "$20 \\text{ Hz to } 20 \\text{ MHz}$",
+        "C": "$20 \\text{ Hz to } 20 \\text{ KHz}$",
+        "D": "$20 \\text{ KHz to } 200 \\text{ KHz}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2014,
+      "number": 40,
+      "question": "For an amplitude modulated wave, the maximum amplitude is found to be $12 \\text{V}$ and minimum amplitude is found to be $4 \\text{V}$. The modulation index of this wave is ________ %.",
+      "options": {
+        "A": "$25$",
+        "B": "$50$",
+        "C": "$75$",
+        "D": "$20$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 27,
+      "question": "A change of $0.04\\text{ V}$ takes place between the base and the emitter when an input signal is connected to the CE transistor amplifier. As a result, $20\\text{ }\\mu\\text{A}$ change take place in the base current and a change of $2\\text{ mA}$ takes place in the collector current. Find the input resistance and A.C. current gain.",
+      "options": {
+        "A": "1\\text{ k}\\Omega, 100",
+        "B": "2\\text{ k}\\Omega, 100",
+        "C": "2\\text{ k}\\Omega, 200",
+        "D": "1\\text{ k}\\Omega, 200"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2015,
+      "number": 30,
+      "question": "In a N-P-N transistor about $10^{10}$ electrons enter the emitter in $2\\mu\\text{s}$, when it is connected to a battery. Then $I_E = ________\\text{ }\\mu\\text{A}$.",
+      "options": {
+        "A": "400",
+        "B": "200",
+        "C": "800",
+        "D": "1600"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2015,
+      "number": 36,
+      "question": "Which gate can be obtained by shorting both the input terminals of a NOR gate.",
+      "options": {
+        "A": "NOT",
+        "B": "OR",
+        "C": "AND",
+        "D": "NAND"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 37,
+      "question": "An optical fiber can offer a band width of ________.",
+      "options": {
+        "A": "100 GHz",
+        "B": "100 MHz",
+        "C": "750 MHz",
+        "D": "250 MHz"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 38,
+      "question": "To transmit a signal of $3\\text{ KHz}$ frequency, the minimum length of antenna is ________ $\\text{km}$.",
+      "options": {
+        "A": "25",
+        "B": "20",
+        "C": "50",
+        "D": "75"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 2,
+      "question": "Which logic gate is represented by the following logic gates? [Diagram]",
+      "options": {
+        "A": "NOR",
+        "B": "NAND",
+        "C": "AND",
+        "D": "OR"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 3,
+      "question": "In CE NPN transistor $10^{10}$ electrons enter the emitter in $10^{-6}$ s when it is connected to battery. About 5% electrons recombine with holes in the base. The current gain of the transistor is ______ $(e = 1.6 \\times 10^{-19} \\text{ C})$",
+      "options": {
+        "A": "0.98",
+        "B": "19",
+        "C": "49",
+        "D": "0.95"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 4,
+      "question": "For the circuit shown in the figure. The equivalent resistance between point $A$ & $B$ for the two cases (i) $V_A > V_B$, (ii) $V_B > V_A$ respectively is ____ $\\Omega$ and ____ $\\Omega$ respectively. ($D_1$ and $D_2$ are ideal diodes) [Diagram]",
+      "options": {
+        "A": "25, $\\infty$",
+        "B": "50, $\\infty$",
+        "C": "$\\infty$, 25",
+        "D": "25, 25"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 5,
+      "question": "The amplitude of carrier wave is 12 V. For modulation index of 50%, the amplitude of modulating signal is _____ V.",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "12",
+        "D": "9"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2017,
+      "number": 6,
+      "question": "Height of T.V. tower is $h_T$. The area of transmission of T.V. waves is $\\propto$ _____.",
+      "options": {
+        "A": "$h_T^2$",
+        "B": "$h_T^{1/2}$",
+        "C": "$h_T^{1/3}$",
+        "D": "$h_T$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 30,
+      "question": "In CE transistor amplifier, the collector junction has ____ bias and emitter junction has ____ bias.",
+      "options": {
+        "A": "reverse, forward",
+        "B": "forward, forward",
+        "C": "reverse, reverse",
+        "D": "forward, reverse"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 31,
+      "question": "When carrier wave of $2.5\\text{ MHz}$ frequency is amplitude modulated, the resulting AM wave has maximum amplitude of $15\\text{ V}$ and minimum amplitude of $10\\text{ V}$. The modulation index is ____ .",
+      "options": {
+        "A": "$10\\%$",
+        "B": "$20\\%$",
+        "C": "$30\\%$",
+        "D": "$40\\%$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 36,
+      "question": "Which of following gates produces output of $1$? [Diagram]",
+      "options": {
+        "A": "Diagram A",
+        "B": "Diagram B",
+        "C": "Diagram C",
+        "D": "Diagram D"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2018,
+      "number": 37,
+      "question": "The value of $\\beta$ of a transistor is $19$. The value of $\\alpha$ will be ___",
+      "options": {
+        "A": "$0.99$",
+        "B": "$0.98$",
+        "C": "$0.93$",
+        "D": "$0.95$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 40,
+      "question": "The band gaps of an insulator, conductor and semi conductor are respectively $E_{g1}$, $E_{g2}$ and $E_{g3}$. The relationship between them is given as ___",
+      "options": {
+        "A": "$E_{g1} < E_{g2} > E_{g3}$",
+        "B": "$E_{g1} > E_{g2} > E_{g3}$",
+        "C": "$E_{g1} > E_{g2} < E_{g3}$",
+        "D": "$E_{g1} < E_{g2} < E_{g3}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 10,
+      "question": "For PN junction, the intensity of electric field is $1 \\times 10^6 \\text{ V/m}$ and the width of deplection region is $5000 \\text{ Å}$. The value of potential barrier = ................V.",
+      "options": {
+        "A": "5",
+        "B": "0.5",
+        "C": "0.005",
+        "D": "0.05"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 11,
+      "question": "The logic circuit shown in the figure [Diagram] represents characteristics of which logic gate?",
+      "options": {
+        "A": "NOT",
+        "B": "NAND",
+        "C": "OR",
+        "D": "NOR"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 12,
+      "question": "For PN junction, the width of space charge region is approximately...... $\\mu\\text{m}$.",
+      "options": {
+        "A": "0.005",
+        "B": "5",
+        "C": "6",
+        "D": "0.5"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 13,
+      "question": "A modulating signal of frequency $5 \\text{ kHz}$ and peak voltage of $8 \\text{ V}$ is used to modulate a carries of frequency $10 \\text{ MHz}$ and peak voltage $10 \\text{ V}$. Then the amplitude of USB is ............V.",
+      "options": {
+        "A": "5",
+        "B": "2",
+        "C": "4",
+        "D": "3"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2019,
+      "number": 14,
+      "question": "The propagation of radio waves with frequency $2 \\text{ MHz}$ to $30 \\text{ MHz}$ is due to....................",
+      "options": {
+        "A": "Sky wave",
+        "B": "Ground wave",
+        "C": "Optical fibre",
+        "D": "Space wave"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 11,
+      "question": "The Forbidden gap between conduction band & valance band is maximum for ........",
+      "options": {
+        "A": "Insulator",
+        "B": "Metal",
+        "C": "Semiconductor",
+        "D": "Superconductor"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 12,
+      "question": "The below truth table is for which gate? [Table: Input A, B; Output Y. 0,0->1; 0,1->1; 1,0->1; 1,1->0]",
+      "options": {
+        "A": "AND",
+        "B": "OR",
+        "C": "NOR",
+        "D": "NAND"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 13,
+      "question": "For a pure Si crystal has $5 \\times 10^{28}\\text{ atom m}^{-3}$. It is doped by $1\\text{ PPM}$ concentration of pentavalent As. Calculate the number of electron & holes. (Given that $n_i = 1.5 \\times 10^{16}\\text{ m}^{-3}$)",
+      "options": {
+        "A": "$5.4 \\times 10^9\\text{ m}^{-3}$",
+        "B": "$4.5 \\times 10^9\\text{ m}^{-3}$",
+        "C": "$4.5 \\times 10^{-9}\\text{ m}^{-3}$",
+        "D": "$5.4 \\times 10^{-9}\\text{ m}^{-3}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 14,
+      "question": "In diode, increasing the forward voltage, the thickness of depletion layer .........",
+      "options": {
+        "A": "Does not change",
+        "B": "Increases",
+        "C": "Decreases",
+        "D": "Cannot be decided"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 20,
+      "question": "What is energy band gap ($E_g$) for p-type and n-type semiconductor use to form a LED to produce a red light colour?",
+      "options": {
+        "A": "3 eV",
+        "B": "1.9 eV",
+        "C": "1.8 eV",
+        "D": "1.4 eV"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2021,
+      "number": 21,
+      "question": "In full wave rectification Input Frequency $60\\text{ Hz}$. What will the output frequency for that?",
+      "options": {
+        "A": "50 Hz",
+        "B": "100 Hz",
+        "C": "60 Hz",
+        "D": "120 Hz"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 22,
+      "question": "In a given following electronic logic circuit it behaves at which logic operation. [Diagram]",
+      "options": {
+        "A": "AND gate",
+        "B": "NOT gate",
+        "C": "OR gate",
+        "D": "NAND gate"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 22,
+      "question": "The circuits shown in [Figure] works as which gate?",
+      "options": {
+        "A": "NAND gate",
+        "B": "OR gate",
+        "C": "AND gate",
+        "D": "NOR gate"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 23,
+      "question": "When a forward bias is applied to a p-n junction, it ________.",
+      "options": {
+        "A": "raises the potential barrier",
+        "B": "reduces the majority carrier current to zero",
+        "C": "lowers the potential barrier",
+        "D": "none of the above"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 24,
+      "question": "Suppose a pure Si crystal has $5 \\times 10^{28}\\text{ atoms m}^{-3}$. It is doped by $1\\text{ ppm}$ concentration of pentavalent As. Calculate the number of electrons and holes. Given that $n_i = 1.5 \\times 10^{16}\\text{ m}^{-3}$",
+      "options": {
+        "A": "$6.5 \\times 10^9\\text{ m}^{-3}$",
+        "B": "$4.5 \\times 10^9\\text{ m}^{-3}$",
+        "C": "$5.5 \\times 10^9\\text{ m}^{-3}$",
+        "D": "$5.5 \\times 10^{-9}\\text{ m}^{-3}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 10,
+      "question": "The given logic circuit behaves as ________ gate. [Diagram]",
+      "options": {
+        "A": "NAND",
+        "B": "NOR",
+        "C": "NOT",
+        "D": "OR"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 11,
+      "question": "In p-n junction solar cell, the ratio of thickness of p-Si wafer and n-Si layer is approximately ________.",
+      "options": {
+        "A": "300",
+        "B": "1000",
+        "C": "30",
+        "D": "0.3"
+      },
+      "answer": null
+    },
+    {
+      "year": 2023,
+      "number": 12,
+      "question": "The minimum band gap $(E_g)$ of semiconductors used for fabrication of visible LED is ________ eV.",
+      "options": {
+        "A": "1.8",
+        "B": "1.4",
+        "C": "2.3",
+        "D": "3.0"
+      },
+      "answer": null
+    },
+    {
+      "year": 2024,
+      "number": 19,
+      "question": "Which impurity is used to convert pure semiconductor into p-type semiconductor?",
+      "options": {
+        "A": "Phosphorous",
+        "B": "Antimony",
+        "C": "Indium",
+        "D": "Arsenic"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 20,
+      "question": "The energy required for electron to jump the forbidden band for germanium at room temperature in the intrinsic semiconductor is ________ eV.",
+      "options": {
+        "A": "$0.05$",
+        "B": "$0.72$",
+        "C": "$5.4$",
+        "D": "$1.1$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 21,
+      "question": "What is the current flowing through the given circuit? A given diode is an ideal diode. [Figure]",
+      "options": {
+        "A": "0.1 A",
+        "B": "100 mA",
+        "C": "50 mA",
+        "D": "10 mA"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 22,
+      "question": "When a reverse bias is applied to a p-n junction, it ________.",
+      "options": {
+        "A": "increases the majority carrier current and lowers the potential barrier",
+        "B": "increases the majority carrier current",
+        "C": "lowers the potential barrier",
+        "D": "raises the potential barrier"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 23,
+      "question": "A filter circuit used in a rectifier, the value of load resistance and capacitance are $200 \\text{ } \\Omega$ and $15 \\mu\\text{F}$. Then the value of time constant is ________.",
+      "options": {
+        "A": "1.33 ms",
+        "B": "3 ms",
+        "C": "7.5 ms",
+        "D": "0.3 $\\mu\\text{s}$"
+      },
+      "answer": "C"
+    }
+  ]
+}

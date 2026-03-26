@@ -1,0 +1,19 @@
+{
+  "subject": "chemistry",
+  "chapter": "Redox Reactions",
+  "total_questions": 1,
+  "questions": [
+    {
+      "year": 2017,
+      "number": 59,
+      "question": "How many gm of the oxidising agent gets reduced in the reaction of 65.4 gm of Zn with concentrated nitric acid? [Atomic mass : Zn = 65.4, N = 14, H = 1, O = 16 $\\text{gm mol}^{-1}$]",
+      "options": {
+        "A": "65.4",
+        "B": "126",
+        "C": "130.8",
+        "D": "252"
+      },
+      "answer": "B"
+    }
+  ]
+}

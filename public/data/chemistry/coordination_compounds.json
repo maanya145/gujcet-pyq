@@ -1,0 +1,535 @@
+{
+  "subject": "chemistry",
+  "chapter": "Coordination Compounds",
+  "total_questions": 44,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 72,
+      "question": "Which of the following complex does not show geometrical isomerism?",
+      "options": {
+        "A": "$[\\text{Co}(\\text{NH}_3)_4\\text{Cl}_2]^+$",
+        "B": "$[\\text{Fe}(\\text{NH}_3)_2(\\text{CN})_4]^-$",
+        "C": "$[\\text{Cr}(\\text{OX})_3]^{3-}$",
+        "D": "$[\\text{Co}(\\text{NH}_3)_3(\\text{NO}_2)_3]$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2007,
+      "number": 73,
+      "question": "What will be the theoretical value of magnetic momentum ($\\mu$), when $\\text{CN}^-$ ligands join $\\text{Fe}^{3+}$ ion to yield complex.",
+      "options": {
+        "A": "2.83 BM",
+        "B": "3.87 BM",
+        "C": "5.92 BM",
+        "D": "1.73 BM"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2008,
+      "number": 61,
+      "question": "How many electrons are present in 3d orbital of tetrahedral $\\text{K}_2[\\text{NiCl}_4]$ complex.",
+      "options": {
+        "A": "10 electrons",
+        "B": "8 electrons",
+        "C": "6 electrons",
+        "D": "7 electrons"
+      },
+      "answer": null
+    },
+    {
+      "year": 2008,
+      "number": 62,
+      "question": "Which ligand is useful for removal of the toxic effect of lead metal in body in chelate therapy treatment.",
+      "options": {
+        "A": "$\\text{CH}_3\\text{COO}^-$",
+        "B": "$\\text{COO}^- / \\text{COO}^-$",
+        "C": "$\\text{AsO}_4^{3-}$",
+        "D": "[Figure]"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 61,
+      "question": "Which complex compound possesses $sp^3d^2$ hybridisation ?",
+      "options": {
+        "A": "$[\\text{Fe(Cl)}_6]^{3-}$",
+        "B": "$[\\text{Fe(CN)}_6]^{3-}$",
+        "C": "$[\\text{Fe(CN)}_6]^{4-}$",
+        "D": "$[\\text{Fe(NH}_3)_6]^{3+}$"
+      },
+      "answer": null
+    },
+    {
+      "year": 2009,
+      "number": 62,
+      "question": "The name of the ring structure complex compound formed between metal ion and polydentate ligand is ........",
+      "options": {
+        "A": "Polynuclear complex",
+        "B": "Chelate complex",
+        "C": "Simple complex",
+        "D": "None of these"
+      },
+      "answer": null
+    },
+    {
+      "year": 2011,
+      "number": 61,
+      "question": "Ammonia gas does not evolve from the complex $\\text{FeCl}_3\\cdot 4\\text{NH}_3$ but it gives white precipitate with aqueous solution of $\\text{AgNO}_3$. Co-ordination number of central metal ion in above complex is six. Give IUPAC name of the complex.",
+      "options": {
+        "A": "Ammonium trichloro triammine ferrum (III).",
+        "B": "Tetra ammine ferrum (III) chloride.",
+        "C": "Dichloro tetra ammine ferrate (II) chloride.",
+        "D": "Dichloro tetra ammine ferrum (III) chloride."
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2011,
+      "number": 62,
+      "question": "Experimental value of magnetic momentum of $\\text{Mn}^{+2}$ complex is $5.96\\text{ B.M.}$ This indicates ......",
+      "options": {
+        "A": "Axial and orbital motion of electron in same direction.",
+        "B": "Axial and orbital motion of electron in opposite direction.",
+        "C": "Electron does not exhibit orbital motion, it only exhibits axial motion.",
+        "D": "Electron does not exhibit axial motion, it only exhibits orbital motion."
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2014,
+      "number": 67,
+      "question": "Which of the following complex does not show optical isomerism?",
+      "options": {
+        "A": "$[\\text{Cr} (\\text{C}_2\\text{O}_4)_3]^{3-}$",
+        "B": "Cis $[\\text{Pt} (\\text{Br})_2 (\\text{en})_2]^{2+}$",
+        "C": "$[\\text{CrCl}_2 (\\text{NH}_3)_2 \\text{en}]^+$",
+        "D": "$[\\text{Cr} (\\text{NH}_3)_4 \\text{SO}_4]^+$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2014,
+      "number": 68,
+      "question": "Which of the following complex ion has least stability?",
+      "options": {
+        "A": "$[\\text{Co} (\\text{CN})_6]^{3-}$",
+        "B": "$[\\text{Co} (\\text{NH}_3)_6]^{2+}$",
+        "C": "$[\\text{Co} (\\text{NH}_3)_6]^{3+}$",
+        "D": "$[\\text{Co} (\\text{CO})_6]^{3+}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2014,
+      "number": 69,
+      "question": "Which of the following ligand possess only one co-ordination site?",
+      "options": {
+        "A": "$\\text{O}^{2-}$",
+        "B": "$\\text{CO}_3^{2-}$",
+        "C": "$\\text{SO}_4^{2-}$",
+        "D": "$[\\text{OX}]^{2-}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 60,
+      "question": "Which of the following spectrochemical series is true?",
+      "options": {
+        "A": "\\text{SCN}^- < \\text{F}^- < \\text{NH}_3 < \\text{en} < \\text{CO}",
+        "B": "\\text{SCN}^- < \\text{NH}_3 < \\text{F}^- < \\text{en} < \\text{CO}",
+        "C": "\\text{SCN}^- < \\text{F}^- < \\text{en} < \\text{NH}_3 < \\text{CO}",
+        "D": "\\text{SCN}^- < \\text{F}^- < \\text{en} < \\text{CO} < \\text{NH}_3"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2015,
+      "number": 61,
+      "question": "Which of the following complex is paramagnetic?",
+      "options": {
+        "A": "[\\text{Co}(\\text{NH}_3)_6]^{3+}",
+        "B": "[\\text{Ni}(\\text{CO})_4]",
+        "C": "[\\text{Ni}(\\text{CN})_4]^{2-}",
+        "D": "[\\text{NiCl}_4]^{2-}"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "number": 62,
+      "question": "Both $[\\text{Ni}(\\text{CO})_4]$ and $[\\text{Ni}(\\text{CN})_4]^{2-}$ are diamagnetic. The types of hybridisation of Ni in these complexes are ________ & ________ respectively.",
+      "options": {
+        "A": "sp^3, dsp^2",
+        "B": "sp^3, sp^3",
+        "C": "dsp^2, sp^3",
+        "D": "dsp^2, dsp^2"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2017,
+      "number": 48,
+      "question": "In which of the following pair of complexes, the experimental magnetic moment and the geometric shapes are same?",
+      "options": {
+        "A": "$\\text{K[MnO}_4]$ and $\\text{K}_2\\text{[NiCl}_4]$",
+        "B": "$\\text{K}_2\\text{[Ni(CN)}_4]$ and $\\text{K}_4\\text{[Ni(CN)}_4]$",
+        "C": "$\\text{K}_2\\text{[Ni(CN)}_4]$ and $\\text{[Ni(NH}_3)_2\\text{Cl}_2]$",
+        "D": "$\\text{K}_3\\text{[Fe(CN)}_6]$ and $\\text{K}_4\\text{[Fe(CN)}_6]$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 74,
+      "question": "Which of the following complex ions absorbs the light of minimum wavelength?",
+      "options": {
+        "A": "$\\text{[Co(H}_2\\text{O)}_6]^{3+}$",
+        "B": "$\\text{[CoF}_6]^{3-}$",
+        "C": "$\\text{[Co(CN)}_6]^{3-}$",
+        "D": "$\\text{[Co(NH}_3)_6]^{3+}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 75,
+      "question": "Which of the following pairs of complexes whose aqueous solutions gives pale yellow and white precipitates respectively with 0.1 M $\\text{AgNO}_3$?",
+      "options": {
+        "A": "$\\text{[Pt(NH}_3)_4\\text{Br}_2]\\text{Cl}_2$ and $\\text{[Pt(NH}_3)_4\\text{Cl}_2]\\text{Br}_2$",
+        "B": "$\\text{[Co(NH}_3)_5\\text{NO}_3]\\text{Br}$ and $\\text{[Co(NH}_3)_5\\text{Br}]\\text{NO}_3$",
+        "C": "$\\text{[Pt(NH}_3)_4\\text{Cl}_2]\\text{Br}_2$ and $\\text{[Pt(NH}_3)_4\\text{Br}_2]\\text{Cl}_2$",
+        "D": "$\\text{[Co(NH}_3)_5\\text{NO}_3]\\text{Cl}$ and $\\text{[Co(NH}_3)_5\\text{Cl}]\\text{NO}_3$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2018,
+      "number": 66,
+      "question": "Which of the following statements is incorrect?",
+      "options": {
+        "A": "$\\text{K}_4[\\text{Ni(CN)}_4]$ is square planar while $\\text{K}_2[\\text{Ni(CN)}_4]$ is paramagnetic.",
+        "B": "$\\text{K}_2[\\text{Ni(CN)}_4]$ is diamagnetic while $\\text{K}_2[\\text{NiCl}_4]$ is paramagnetic.",
+        "C": "$\\text{K}_4[\\text{Ni(CN)}_4]$ and $\\text{K}_2[\\text{Ni(CN)}_4]$ both have same magnetic moment",
+        "D": "$\\text{K}_2[\\text{NiCl}_4]$ and $\\text{K}_4[\\text{Ni(CN)}_4]$ both have same geometrical shapes"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2018,
+      "number": 67,
+      "question": "The aqueous solution of which of the following complex has the leaste conductivity under identical conditions.",
+      "options": {
+        "A": "Hexa aqua chromium (III) chloride",
+        "B": "Tetra aqua dichlorido chromium (III) chloride",
+        "C": "Penta aqua chlorido chromium (III) chloride",
+        "D": "Tri aqua trichlorido chromium (III)"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 68,
+      "question": "Which complex possess facial isomer?",
+      "options": {
+        "A": "$[\\text{Co(NH}_3)_4\\text{CO}_3]\\text{Cl}$",
+        "B": "$[\\text{Co(NH}_3)_3(\\text{NO}_2)_3]$",
+        "C": "$\\text{K}[\\text{Fe(NH}_3)_2(\\text{CN})_4]$",
+        "D": "$[\\text{Ni(H}_2\\text{O})_4(\\text{NH}_3)_2]\\text{SO}_4$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 41,
+      "question": "Which of the following complex ion is the most stable?",
+      "options": {
+        "A": "$[\\text{Co}(\\text{H}_2\\text{O})_6]^{3+}$",
+        "B": "$[\\text{CoF}_6]^{3-}$",
+        "C": "$[\\text{Co}(\\text{NH}_3)_6]^{3+}$",
+        "D": "$[\\text{CoCl}_6]^{3-}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 42,
+      "question": "The primary valency and secondary valency of central metal ion and the no. of total ions produced in aqueous solution for $\\text{K}[\\text{Co}(\\text{OX})_2(\\text{NH}_3)_2]$ complex respectively is___",
+      "options": {
+        "A": "3, 6, 1",
+        "B": "3, 6, 2",
+        "C": "4, 4, 2",
+        "D": "3, 4, 2"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2019,
+      "number": 43,
+      "question": "Which of the following complex possess meridional isomer?",
+      "options": {
+        "A": "$[\\text{Co}(\\text{NH}_3)_5\\text{Cl}]$",
+        "B": "$[\\text{Co}(\\text{NH}_3)_2\\text{Cl}_4]$",
+        "C": "$[\\text{Co}(\\text{NH}_3)_4\\text{Cl}_2]$",
+        "D": "$[\\text{Co}(\\text{NH}_3)_3\\text{Cl}_3]$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2019,
+      "number": 80,
+      "question": "What is the correct order for energy of d orbitals splitting in Tetra Chlorido Nickelate (II) complex ion?",
+      "options": {
+        "A": "$d_{x^2-y^2} > d_{z^2} > d_{xy} \\cong d_{yz} \\cong d_{zx}$",
+        "B": "$d_{xy} \\cong d_{yz} \\cong d_{zx} > d_{x^2-y^2} \\cong d_{z^2}$",
+        "C": "$d_{xy} \\cong d_{yz} \\cong d_{zx} \\cong d_{x^2-y^2} \\cong d_{z^2}$",
+        "D": "$d_{xy} \\cong d_{yz} \\cong d_{zx} < d_{x^2-y^2} \\cong d_{z^2}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 75,
+      "question": "Which isomerism is possible in hexa ammine cobalt (III) hexacyanido chromate (III) complex?",
+      "options": {
+        "A": "Co-ordination isomerism",
+        "B": "Linkage isomerism",
+        "C": "Ionistion isomerism",
+        "D": "Solvate isomerism"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2020,
+      "number": 76,
+      "question": "Which of the following complex will absorb maximum wavelength of light?",
+      "options": {
+        "A": "$[\\text{Co(NH}_3)_5(\\text{H}_2\\text{O})]^{3+}$",
+        "B": "$[\\text{CoCl(NH}_3)_5]^{2+}$",
+        "C": "$[\\text{Co(NH}_3)_6]^{3+}$",
+        "D": "$[\\text{Co(CN)}_6]^{3-}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2020,
+      "number": 77,
+      "question": "The complex having highest electrical conductivity in aqueous solution under similar conditions is .......",
+      "options": {
+        "A": "Triaqua trichlorido cobalt (III)",
+        "B": "Penta aqua chlorido cobalt (III) chloride",
+        "C": "Tetra aqua dichlorido cobalt (III) chloride",
+        "D": "Hexa aqua cobalt (III) chloride"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 45,
+      "question": "Which is not act as ligand?",
+      "options": {
+        "A": "NO",
+        "B": "$\\text{H}_2\\text{NCH}_2\\text{CH}_2\\text{NH}_2$",
+        "C": "$\\text{NH}_4^+$",
+        "D": "CO"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 46,
+      "question": "Which is correct formula for pentaaminecarbonatocobalt (III) chloride coordination compound?",
+      "options": {
+        "A": "$[\\text{Co}(\\text{NH}_3)_5(\\text{CO}_3)]\\text{Cl}$",
+        "B": "$[\\text{Co}(\\text{NH}_3)_5(\\text{CO}_2)]\\text{Cl}$",
+        "C": "$[\\text{Co}(\\text{NH}_3)_5(\\text{CO}_3)]\\text{Cl}_2$",
+        "D": "$[\\text{Co}(\\text{NH}_2)_5(\\text{CO}_3)]\\text{Cl}$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2021,
+      "number": 47,
+      "question": "Which type of Isomerism in isomers $[\\text{Co}(\\text{NH}_3)_5(\\text{SO}_4)]\\text{Br}$ and $[\\text{Co}(\\text{NH}_3)_5\\text{Br}]\\text{SO}_4$?",
+      "options": {
+        "A": "Linkage",
+        "B": "Ionisation",
+        "C": "Coordination",
+        "D": "Solvate"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 45,
+      "question": "How many numbers of Geometrical Isomers of $[\\text{Pt (NH}_3) \\text{(Br) (Cl) (Py)}]$ will have?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "1",
+        "D": "4"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 46,
+      "question": "How many numbers of mole ions produced from aqueous solution of $1\\text{ mole}$ Iron (III) hexacyanido Ferrate (II) complex?",
+      "options": {
+        "A": "4",
+        "B": "7",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2022,
+      "number": 47,
+      "question": "Which of the following ligand is ambidentate? $\\text{NO}_3^-, \\text{NO}_2^-, \\text{CN}^-, \\text{SCN}^-$ (P) (Q) (R) (S)",
+      "options": {
+        "A": "R and S",
+        "B": "P and Q",
+        "C": "Q and S",
+        "D": "Q and R"
+      },
+      "answer": "A,C,D"
+    },
+    {
+      "year": 2023,
+      "number": 73,
+      "question": "What kind of isomerism exists between $[\\text{Cr}(\\text{H}_2\\text{O})_6]\\text{Cl}_3$ and $[\\text{Cr}(\\text{H}_2\\text{O})_5\\text{Cl}]\\text{Cl}_2\\cdot\\text{H}_2\\text{O}$?",
+      "options": {
+        "A": "Ionisation",
+        "B": "Solvate",
+        "C": "Coordination",
+        "D": "Linkage"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 74,
+      "question": "How $t_{2g}^4 e_g^0$ configuration is possible for $d^4$ ion during crystal Field splitting in Octahedral complex?",
+      "options": {
+        "A": "$\\Delta_o = \\text{P}$",
+        "B": "$\\Delta_o \\leq \\text{P}$",
+        "C": "$\\Delta_o < \\text{P}$",
+        "D": "$\\Delta_o > \\text{P}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2023,
+      "number": 75,
+      "question": "Which of the following species is not expected to be a ligand?",
+      "options": {
+        "A": "$\\text{NH}_4^+$",
+        "B": "NO",
+        "C": "$\\text{H}_2\\text{N}-\\text{CH}_2-\\text{CH}_2-\\text{NH}_2$",
+        "D": "CO"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 76,
+      "question": "Which one is the correct formula for coordination compound tris [ethane-1, 2-diamine] cobalt (III) sulphate",
+      "options": {
+        "A": "$[\text{Co}(\text{en})_3]_3(\text{SO}_4)_2$",
+        "B": "$[\text{Co}(\text{en})_3]_2(\text{SO}_4)_3$",
+        "C": "$[\text{Co}(\text{en})_3](\text{SO}_4)_2$",
+        "D": "$[\text{Co}(\text{en})_3]\text{SO}_4$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2024,
+      "number": 77,
+      "question": "Hybridizations in $[\text{Ni}(\text{CO})_4]$ and $[\text{Ni}(\text{CN})_4]^{-2}$ are respectively ______.",
+      "options": {
+        "A": "$\text{sp}^3$ and $\text{dsp}^2$",
+        "B": "$\text{sp}^3$ and $\text{sp}^3$",
+        "C": "$\text{dsp}^2$ and $\text{sp}^3$",
+        "D": "$\text{dsp}^2$ and $\text{dsp}^2$"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2024,
+      "number": 78,
+      "question": "Identify the optically active compound from the following.",
+      "options": {
+        "A": "$[\text{Pt}(\text{NH}_3)_2\text{Cl}_2]$",
+        "B": "$[\text{Co}(\text{NH}_3)_6]\text{Cl}_2$",
+        "C": "$[\text{Co}(\text{en})_3]\text{Cl}_3$",
+        "D": "$[\text{Co}(\text{NH}_3)_5\text{Cl}]\text{Cl}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2024,
+      "number": 79,
+      "question": "In the complex $\text{K}[\text{Cr}(\text{H}_2\text{O})_2(\text{C}_2\text{O}_4)_2].3\text{H}_2\text{O}$, oxidation state and co-ordination number of the central metal ion is ______ and ______.",
+      "options": {
+        "A": "+ 4, 4",
+        "B": "+ 3, 4",
+        "C": "+ 4, 6",
+        "D": "+ 3, 6"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 49,
+      "question": "If $[\\text{Co}(\\text{NH}_3)_x(\\text{NO}_2)_y]$ shows facial and meridional isomers, identify values of $x$ and $y$.",
+      "options": {
+        "A": "$x=4, y=2$",
+        "B": "$x=2, y=2$",
+        "C": "$x=2, y=4$",
+        "D": "$x=3, y=3$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2025,
+      "number": 50,
+      "question": "Which statement is correct?",
+      "options": {
+        "A": "$[\\text{NiCl}_4]^{2-}$ is an inner orbital complex where as $[\\text{Ni}(\\text{CN})_4]^{2-}$ is an outer orbital complex.",
+        "B": "$[\\text{NiCl}_4]^{2-}$ is an outer orbital complex where as $[\\text{Ni}(\\text{CN})_4]^{2-}$ is an inner orbital complex.",
+        "C": "$[\\text{NiCl}_4]^{2-}$ and $[\\text{Ni}(\\text{CN})_4]^{2-}$ are inner orbital complexes.",
+        "D": "$[\\text{NiCl}_4]^{2-}$ and $[\\text{Ni}(\\text{CN})_4]^{2-}$ are outer orbital complexes."
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2025,
+      "number": 51,
+      "question": "What will be the value of Van't Hoff factor (i) for following coordination compound? (compound completely dissociate in aqueous solution) Potassium trioxalatoaluminate (III)",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "2",
+        "D": "3"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2025,
+      "number": 52,
+      "question": "According to crystal field theory for which of the following coordination entities $\\Delta_0$ is maximum?",
+      "options": {
+        "A": "$[\\text{CoCl}(\\text{NH}_3)_5]^{2+}$",
+        "B": "$[\\text{Co}(\\text{NH}_3)_6]^{3+}$",
+        "C": "$[\\text{Co}(\\text{CN})_6]^{3-}$",
+        "D": "$[\\text{Co}(\\text{NH}_3)_5(\\text{H}_2\\text{O})]^{3+}$"
+      },
+      "answer": "D"
+    }
+  ]
+}

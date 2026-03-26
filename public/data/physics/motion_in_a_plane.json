@@ -1,0 +1,19 @@
+{
+  "subject": "physics",
+  "chapter": "Motion in a Plane",
+  "total_questions": 1,
+  "questions": [
+    {
+      "year": 2009,
+      "number": 40,
+      "question": "If the maximum horizontal range is $100$ m, then the minimum initial velocity will be $\\dots \\dots \\dots \\dots \\dots \\dots$ for that.",
+      "options": {
+        "A": "$14\\sqrt{10}$ m/s",
+        "B": "$14\\sqrt{5}$ m/s",
+        "C": "$7\\sqrt{10}$ m/s",
+        "D": "$7\\sqrt{5}$ m/s"
+      },
+      "answer": "C"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "subject": "chemistry",
+  "chapter": "General Principles of Isolation of Elements",
+  "total_questions": 17,
+  "questions": [
+    {
+      "year": 2007,
+      "number": 76,
+      "question": "Which one of the following ore is not an ore of Al?",
+      "options": {
+        "A": "Anglesite",
+        "B": "Mica",
+        "C": "Beryl",
+        "D": "Orthoclase"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2011,
+      "number": 60,
+      "question": "German silver alloy contains ........",
+      "options": {
+        "A": "Zinc, Silver and Copper",
+        "B": "Nickel, Silver and Copper",
+        "C": "Germanium, Silver and Copper",
+        "D": "Zinc, Nickel and Copper"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2014,
+      "number": 49,
+      "question": "Which of the following metal is purified by Mond Carbonyl method?",
+      "options": {
+        "A": "$\\text{Zr}$",
+        "B": "$\\text{Ti}$",
+        "C": "$\\text{Ge}$",
+        "D": "$\\text{Ni}$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2015,
+      "number": 41,
+      "question": "Which method is used to get very pure germanium used in semiconductor?",
+      "options": {
+        "A": "vapour - phase refining",
+        "B": "electrolysis",
+        "C": "liquation",
+        "D": "zone - refining"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2017,
+      "number": 57,
+      "question": "Which of the following process is for purification of metals?",
+      "options": {
+        "A": "Froath floatation",
+        "B": "Leaching",
+        "C": "Liquidation",
+        "D": "Washing"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2017,
+      "number": 58,
+      "question": "Which of the following is the Ore of Cu?",
+      "options": {
+        "A": "Ciderite",
+        "B": "Magnetite",
+        "C": "Calamine",
+        "D": "Malachite"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 49,
+      "question": "Which ore does not contain carbonate?",
+      "options": {
+        "A": "Malachite",
+        "B": "Ciderite",
+        "C": "Calamine",
+        "D": "Zincite"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2018,
+      "number": 50,
+      "question": "Which is the correct order of metallurgy for the extraction of copper metal?",
+      "options": {
+        "A": "Concentration $\\rightarrow$ roasting $\\rightarrow$ smelting $\\rightarrow$ bessimerisation",
+        "B": "Concentration $\\rightarrow$ smelting $\\rightarrow$ roasting $\\rightarrow$ bessimerisation",
+        "C": "Concentration $\\rightarrow$ smelting $\\rightarrow$ bessimerisation $\\rightarrow$ roasting",
+        "D": "Concentration $\\rightarrow$ roasting $\\rightarrow$ bessimerisation $\\rightarrow$ smelting"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2019,
+      "number": 63,
+      "question": "Which of the following mineral of Iron is in the form of carbonate?",
+      "options": {
+        "A": "Iron Pyrites",
+        "B": "Magnetite",
+        "C": "Siderite",
+        "D": "Haematite"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2020,
+      "number": 68,
+      "question": "Which soluble complex is formed in the leaching process of Gold?",
+      "options": {
+        "A": "$[\\text{Au(CN)}_4]^{2-}$",
+        "B": "$[\\text{Au(OH)}_2]^-$",
+        "C": "$[\\text{Au(OH)}_4]^{2-}$",
+        "D": "$[\\text{Au(CN)}_2]^-$"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2020,
+      "number": 69,
+      "question": "Which of the following slag is formed during the extraction of iron in the blast furnace?",
+      "options": {
+        "A": "$\\text{FeCO}_3$",
+        "B": "$\\text{CaCO}_3$",
+        "C": "$\\text{CaSiO}_3$",
+        "D": "$\\text{FeSiO}_3$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2021,
+      "number": 78,
+      "question": "Which metals are purified by vapour phase refining for following?",
+      "options": {
+        "A": "Ni, Fe",
+        "B": "Zr, Sn",
+        "C": "Ag, Ni",
+        "D": "Ni, Zr"
+      },
+      "answer": "D"
+    },
+    {
+      "year": 2021,
+      "number": 79,
+      "question": "Copper matte is a mixture of which substances?",
+      "options": {
+        "A": "$\\text{Cu}_2\\text{O} + \\text{FeS}$",
+        "B": "$\\text{Cu}_2\\text{S} + \\text{FeO}$",
+        "C": "$\\text{Cu}_2\\text{S} + \\text{FeS}$",
+        "D": "$\\text{FeO} + \\text{CuO}$"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2022,
+      "number": 78,
+      "question": "Which method is not proper to obtain metal of high purity from impure metal?",
+      "options": {
+        "A": "Leaching",
+        "B": "Chromatographic methods",
+        "C": "Liquation",
+        "D": "Distillation"
+      },
+      "answer": "A"
+    },
+    {
+      "year": 2022,
+      "number": 79,
+      "question": "Which is known as \"Copper Matte\"?",
+      "options": {
+        "A": "$\\text{Cu}_2\\text{S} + \\text{FeO}$",
+        "B": "$\\text{Cu}_2\\text{S} + \\text{FeS}$",
+        "C": "$\\text{Cu}_2\\text{O} + \\text{FeS}$",
+        "D": "$\\text{Cu}_2\\text{O} + \\text{FeO}$"
+      },
+      "answer": "B"
+    },
+    {
+      "year": 2023,
+      "number": 66,
+      "question": "Mention percentage of Ag (Silver) in German silver alloy.",
+      "options": {
+        "A": "20-30%",
+        "B": "10%",
+        "C": "0.0%",
+        "D": "40-50%"
+      },
+      "answer": "C"
+    },
+    {
+      "year": 2023,
+      "number": 67,
+      "question": "Which of the following ore is not in oxide form?",
+      "options": {
+        "A": "Malachite",
+        "B": "Haematite",
+        "C": "Magnetite",
+        "D": "Zincite"
+      },
+      "answer": "A"
+    }
+  ]
+}
