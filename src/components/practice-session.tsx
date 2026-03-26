@@ -185,7 +185,7 @@ export function PracticeSession({
                   i === currentIndex
                     ? "bg-primary text-primary-foreground"
                     : answeredMap[i]
-                    ? "bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400"
+                    ? "bg-green-900/30 text-green-400"
                     : "bg-muted text-muted-foreground hover:bg-muted/80"
                 }`}
               >

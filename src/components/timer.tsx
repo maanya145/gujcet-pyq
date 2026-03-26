@@ -6,7 +6,7 @@ import { Play, Pause, RotateCcw, Timer as TimerIcon } from "lucide-react";
 
 export function Timer() {
   const [seconds, setSeconds] = useState(0);
-  const [running, setRunning] = useState(false);
+  const [running, setRunning] = useState(true);
   const [preset, setPreset] = useState<number | null>(null);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
 

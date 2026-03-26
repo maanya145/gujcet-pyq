@@ -36,10 +36,10 @@ export function QuestionCard({
       return "border-border hover:border-primary/50 hover:bg-muted/50 cursor-pointer";
     }
     if (key === question.answer) {
-      return "border-green-500 bg-green-50 dark:bg-green-950/30";
+      return "border-green-500 bg-green-950/30";
     }
     if (key === selected && key !== question.answer) {
-      return "border-red-500 bg-red-50 dark:bg-red-950/30";
+      return "border-red-500 bg-red-950/30";
     }
     return "border-border opacity-60";
   };
