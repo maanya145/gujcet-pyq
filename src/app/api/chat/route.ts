@@ -1,4 +1,4 @@
-import { streamText } from "ai";
+import { streamText, convertToModelMessages, type UIMessage } from "ai";
 import { getNextProvider, getProviderCount } from "@/lib/gemini";
 
 export const maxDuration = 30;
@@ -15,7 +15,10 @@ Rules:
 - Be encouraging and supportive`;
 
 export async function POST(req: Request) {
-  const { messages } = await req.json();
+  const { messages: uiMessages }: { messages: UIMessage[] } = await req.json();
+
+  // Convert UIMessage[] (with parts) to ModelMessage[] (with content) for streamText
+  const messages = await convertToModelMessages(uiMessages);
 
   const maxRetries = Math.min(getProviderCount(), 5);
   let lastError: unknown;
