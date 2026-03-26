@@ -4,6 +4,7 @@ import { useState, useCallback, useMemo, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { QuestionCard } from "@/components/question-card";
+import { AIChat } from "@/components/ai-chat";
 import { Timer } from "@/components/timer";
 import { useSwipe } from "@/lib/use-swipe";
 import type { Question } from "@/lib/types";
@@ -70,6 +71,7 @@ export function PracticeSession({
   const [reviewMode, setReviewMode] = useState(false);
   const [bookmarkFilter, setBookmarkFilter] = useState(false);
   const [bookmarkedKeys, setBookmarkedKeys] = useState<Set<string>>(new Set());
+  const [showChat, setShowChat] = useState(false);
   const gridRef = useRef<HTMLDivElement>(null);
   const activeBtnRef = useRef<HTMLButtonElement>(null);
   const timerSecondsRef = useRef(0);
@@ -557,8 +559,19 @@ export function PracticeSession({
           isBookmarked={bookmarkedKeys.has(getKeyForQuestion(current))}
           onToggleBookmark={() => handleToggleBookmark(current)}
           onRetry={reviewMode ? handleRetry : undefined}
+          showChat={showChat}
+          onOpenChat={() => setShowChat(true)}
         />
       </div>
+
+      {/* AI Chat - rendered outside QuestionCard so it persists across question changes */}
+      {showChat && (
+        <AIChat
+          question={current}
+          selectedAnswer={answeredMap[filteredIndex]?.selected}
+          onClose={() => setShowChat(false)}
+        />
+      )}
 
       {/* Navigation */}
       <div className="flex items-center justify-between">
