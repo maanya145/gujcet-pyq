@@ -4,7 +4,7 @@ import { useChat } from "@ai-sdk/react";
 import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { Latex } from "@/components/latex";
+import { ChatMarkdown } from "@/components/chat-markdown";
 import { X, Send, Loader2, Sparkles } from "lucide-react";
 import type { Question } from "@/lib/types";
 
@@ -114,7 +114,7 @@ export function AIChat({ question, selectedAnswer, onClose }: AIChatProps) {
                 <div className="leading-relaxed">
                   {msg.parts.map((part, i) => {
                     if (part.type === "text") {
-                      return <Latex key={`${msg.id}-${i}`} text={part.text} />;
+                      return <ChatMarkdown key={`${msg.id}-${i}`} content={part.text} />;
                     }
                     return null;
                   })}
