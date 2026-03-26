@@ -59,7 +59,7 @@ function selectQuestionsProportional(
 
 export default function MockTestPage() {
   const [questionsPerSubject, setQuestionsPerSubject] = useState(40);
-  const [timeLimitMinutes, setTimeLimitMinutes] = useState(120);
+  const [timeLimitMinutes, setTimeLimitMinutes] = useState(180);
   const [loadingState, setLoadingState] = useState<LoadingState>("idle");
   const [errorMsg, setErrorMsg] = useState("");
   const [selectedQuestions, setSelectedQuestions] = useState<MockQuestion[] | null>(null);
@@ -258,8 +258,8 @@ export default function MockTestPage() {
               {/* GUJCET format note */}
               <div className="rounded-lg border border-dashed p-3">
                 <p className="text-xs text-muted-foreground">
-                  <strong>Real GUJCET format:</strong> 40 questions per subject (120 total), 120 minutes.
-                  The default settings match this format.
+                  <strong>Real GUJCET format:</strong> 40 questions per subject (120 total), 180 minutes (3 hours).
+                  Physics &amp; Chemistry together, then Maths after a break.
                 </p>
               </div>
 

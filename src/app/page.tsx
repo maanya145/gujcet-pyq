@@ -88,7 +88,7 @@ export default function Home() {
                   <div>
                     <h3 className="text-lg font-bold">Take a Mock Test</h3>
                     <p className="text-sm text-muted-foreground">
-                      Simulate the real GUJCET exam &mdash; 120 questions, timed, no peeking at answers
+                      Simulate the real GUJCET exam &mdash; 120 questions, 3 hours, no peeking at answers
                     </p>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ export default function Home() {
                 <Badge variant="secondary" className="text-xs">40 Physics</Badge>
                 <Badge variant="secondary" className="text-xs">40 Chemistry</Badge>
                 <Badge variant="secondary" className="text-xs">40 Maths</Badge>
-                <span className="text-xs text-muted-foreground">&middot; 120 minutes</span>
+                <span className="text-xs text-muted-foreground">&middot; 180 minutes</span>
               </div>
             </div>
           </Link>

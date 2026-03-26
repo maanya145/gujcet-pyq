@@ -104,7 +104,7 @@ export function Timer({ initialSeconds = 0, onTick }: TimerProps) {
 
       <div className="flex items-center gap-1.5 flex-wrap justify-center">
         <TimerIcon className="size-3.5 text-muted-foreground" />
-        {[15, 30, 45, 60, 90, 120].map((m) => (
+        {[15, 30, 45, 60, 90, 120, 180].map((m) => (
           <Button
             key={m}
             onClick={() => setCountdown(m)}
