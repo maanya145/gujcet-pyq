@@ -65,7 +65,9 @@ export default function ChapterPage({
         <PracticeSession
           questions={data.questions}
           chapterName={data.chapter}
+          chapterSlug={params.chapter}
           subjectName={data.subject}
+          subject={subject}
         />
       </div>
     </main>

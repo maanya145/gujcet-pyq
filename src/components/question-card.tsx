@@ -3,9 +3,11 @@
 import { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Latex } from "@/components/latex";
 import type { Question } from "@/lib/types";
 import { cn } from "@/lib/utils";
+import { Bookmark, RotateCcw } from "lucide-react";
 
 interface QuestionCardProps {
   question: Question;
@@ -14,6 +16,10 @@ interface QuestionCardProps {
   showAnswer: boolean;
   onAnswer: (selected: string, isCorrect: boolean | null) => void;
   externalSelection?: string | null;
+  bookmarkKey?: string;
+  onToggleBookmark?: () => void;
+  isBookmarked?: boolean;
+  onRetry?: () => void;
 }
 
 export function QuestionCard({
@@ -23,6 +29,10 @@ export function QuestionCard({
   showAnswer,
   onAnswer,
   externalSelection,
+  bookmarkKey,
+  onToggleBookmark,
+  isBookmarked: bookmarked,
+  onRetry,
 }: QuestionCardProps) {
   const [selected, setSelected] = useState<string | null>(null);
   const optionKeys = ["A", "B", "C", "D"] as const;
@@ -64,19 +74,45 @@ export function QuestionCard({
     <Card className="w-full">
       <CardHeader className="pb-3">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 flex-wrap">
             <Badge variant="secondary" className="font-mono text-xs">
               {index + 1}/{total}
             </Badge>
             <Badge variant="outline" className="text-xs">
               {question.year}
             </Badge>
+            {question.chapter && (
+              <Badge variant="secondary" className="text-xs capitalize">
+                {question.chapter.replace(/_/g, " ")}
+              </Badge>
+            )}
           </div>
-          {question.answer === null && (
-            <Badge variant="outline" className="text-xs text-amber-600">
-              No answer key
-            </Badge>
-          )}
+          <div className="flex items-center gap-2">
+            {question.answer === null && (
+              <Badge variant="outline" className="text-xs text-amber-600">
+                No answer key
+              </Badge>
+            )}
+            {bookmarkKey && onToggleBookmark && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onToggleBookmark();
+                }}
+                className="p-1 rounded-md hover:bg-muted/80 transition-colors"
+                aria-label={bookmarked ? "Remove bookmark" : "Add bookmark"}
+              >
+                <Bookmark
+                  className={cn(
+                    "size-4",
+                    bookmarked
+                      ? "text-yellow-500 fill-yellow-500"
+                      : "text-muted-foreground"
+                  )}
+                />
+              </button>
+            )}
+          </div>
         </div>
       </CardHeader>
       <CardContent className="space-y-4">
@@ -119,6 +155,18 @@ export function QuestionCard({
           <p className="text-xs text-amber-600">
             Answer key not available for this question
           </p>
+        )}
+
+        {showAnswer && onRetry && (
+          <Button
+            size="sm"
+            variant="outline"
+            onClick={onRetry}
+            className="border-red-200 dark:border-red-800 text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/30"
+          >
+            <RotateCcw className="size-3.5" />
+            Try Again
+          </Button>
         )}
       </CardContent>
     </Card>

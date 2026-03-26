@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { ChapterHistoryBadge } from "@/components/chapter-history-badge";
 import type { SubjectIndex, Subject } from "@/lib/types";
 import { ArrowLeft } from "lucide-react";
 import fs from "fs";
@@ -52,6 +53,22 @@ export default function SubjectPage({
       </div>
 
       <div className="mx-auto max-w-4xl px-4 py-6">
+        <Link href={`/${subject}/practice`}>
+          <Card className="mb-6 transition-shadow hover:shadow-md cursor-pointer border-primary/20 bg-primary/5">
+            <CardContent className="flex items-center justify-between py-4">
+              <div>
+                <h3 className="font-semibold">Practice All Chapters</h3>
+                <p className="text-sm text-muted-foreground">
+                  All {data.total_questions} questions from {data.total_chapters} chapters
+                </p>
+              </div>
+              <Badge variant="default" className="font-mono text-sm px-3 py-1">
+                {data.total_questions}
+              </Badge>
+            </CardContent>
+          </Card>
+        </Link>
+
         <div className="grid gap-3">
           {sortedChapters.map((ch) => {
             const chapterSlug = ch.file.replace(".json", "");
@@ -70,9 +87,12 @@ export default function SubjectPage({
                         </span>
                       </div>
                     </div>
-                    <Badge variant="secondary" className="font-mono">
-                      {ch.total_questions}
-                    </Badge>
+                    <div className="flex items-center gap-2 shrink-0">
+                      <ChapterHistoryBadge subject={subject} chapterSlug={chapterSlug} />
+                      <Badge variant="secondary" className="font-mono">
+                        {ch.total_questions}
+                      </Badge>
+                    </div>
                   </CardContent>
                 </Card>
               </Link>

@@ -9,6 +9,7 @@ export interface Question {
     D: string;
   };
   answer: string | null;
+  chapter?: string; // Added for cross-chapter mode
 }
 
 export interface ChapterData {
@@ -33,3 +34,8 @@ export interface SubjectIndex {
 }
 
 export type Subject = "physics" | "chemistry" | "maths";
+
+export interface MockQuestion extends Question {
+  subject: Subject;
+  chapter: string;
+}

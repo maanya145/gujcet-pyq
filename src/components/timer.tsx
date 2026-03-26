@@ -4,8 +4,13 @@ import { useState, useRef, useCallback, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Play, Pause, RotateCcw, Timer as TimerIcon } from "lucide-react";
 
-export function Timer() {
-  const [seconds, setSeconds] = useState(0);
+interface TimerProps {
+  initialSeconds?: number;
+  onTick?: (seconds: number) => void;
+}
+
+export function Timer({ initialSeconds = 0, onTick }: TimerProps) {
+  const [seconds, setSeconds] = useState(initialSeconds);
   const [running, setRunning] = useState(true);
   const [preset, setPreset] = useState<number | null>(null);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
@@ -62,6 +67,10 @@ export function Timer() {
       setRunning(false);
     }
   }, [timeUp]);
+
+  useEffect(() => {
+    onTick?.(seconds);
+  }, [seconds, onTick]);
 
   return (
     <div className="flex flex-col items-center gap-3">

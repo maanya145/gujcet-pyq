@@ -2,9 +2,22 @@
 
 import { useState, useCallback, useMemo, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 import { QuestionCard } from "@/components/question-card";
 import { Timer } from "@/components/timer";
 import type { Question } from "@/lib/types";
+import {
+  saveSession,
+  loadSession,
+  clearSession,
+  saveResult,
+  type SessionState,
+} from "@/lib/storage";
+import {
+  getBookmarkKey,
+  toggleBookmark,
+  getAllBookmarks,
+} from "@/lib/bookmarks";
 import {
   ChevronLeft,
   ChevronRight,
@@ -18,42 +31,172 @@ import {
   X,
   Grid3X3,
   AlertTriangle,
+  RotateCcw,
+  Play,
+  Bookmark,
 } from "lucide-react";
 
 interface PracticeSessionProps {
   questions: Question[];
   chapterName: string;
+  chapterSlug: string;
   subjectName: string;
+  subject: string;
 }
+
+const SESSION_MAX_AGE_MS = 24 * 60 * 60 * 1000; // 24 hours
 
 export function PracticeSession({
   questions: originalQuestions,
   chapterName,
+  chapterSlug,
   subjectName,
+  subject,
 }: PracticeSessionProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answeredMap, setAnsweredMap] = useState<Record<number, { selected: string; correct: boolean | null }>>({});
   const [showAllAnswers, setShowAllAnswers] = useState(false);
   const [shuffled, setShuffled] = useState(false);
+  const [shuffledOrder, setShuffledOrder] = useState<number[] | null>(null);
   const [questions, setQuestions] = useState(originalQuestions);
   const [yearFilter, setYearFilter] = useState<number | null>(null);
   const [hideNullAnswers, setHideNullAnswers] = useState(false);
   const [showGrid, setShowGrid] = useState(false);
   const [keyboardSelection, setKeyboardSelection] = useState<string | null>(null);
+  const [resumePrompt, setResumePrompt] = useState<SessionState | null>(null);
+  const [sessionChecked, setSessionChecked] = useState(false);
+  const [initialTimerSeconds, setInitialTimerSeconds] = useState(0);
+  const [reviewMode, setReviewMode] = useState(false);
+  const [bookmarkFilter, setBookmarkFilter] = useState(false);
+  const [bookmarkedKeys, setBookmarkedKeys] = useState<Set<string>>(new Set());
   const gridRef = useRef<HTMLDivElement>(null);
   const activeBtnRef = useRef<HTMLButtonElement>(null);
+  const timerSecondsRef = useRef(0);
+  const saveTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Load bookmarks from localStorage on mount
+  useEffect(() => {
+    const allKeys = new Set(getAllBookmarks());
+    setBookmarkedKeys(allKeys);
+  }, []);
+
+  // Check for saved session on mount
+  useEffect(() => {
+    const saved = loadSession(subject, chapterSlug);
+    if (saved && Date.now() - saved.timestamp < SESSION_MAX_AGE_MS) {
+      // Only show resume prompt if there are answered questions
+      if (Object.keys(saved.answeredMap).length > 0) {
+        setResumePrompt(saved);
+      } else {
+        setSessionChecked(true);
+      }
+    } else {
+      if (saved) {
+        clearSession(subject, chapterSlug);
+      }
+      setSessionChecked(true);
+    }
+  }, [subject, chapterSlug]);
+
+  const restoreSession = useCallback(
+    (saved: SessionState) => {
+      setAnsweredMap(saved.answeredMap);
+      setCurrentIndex(saved.currentIndex);
+      setYearFilter(saved.yearFilter);
+      setHideNullAnswers(saved.hideNullAnswers);
+      setInitialTimerSeconds(saved.timerSeconds);
+      timerSecondsRef.current = saved.timerSeconds;
+
+      if (saved.shuffled && saved.shuffledOrder) {
+        const reordered = saved.shuffledOrder.map((idx) => originalQuestions[idx]);
+        setQuestions(reordered);
+        setShuffled(true);
+        setShuffledOrder(saved.shuffledOrder);
+      }
+
+      setResumePrompt(null);
+      setSessionChecked(true);
+    },
+    [originalQuestions]
+  );
+
+  const startFresh = useCallback(() => {
+    clearSession(subject, chapterSlug);
+    setResumePrompt(null);
+    setSessionChecked(true);
+  }, [subject, chapterSlug]);
+
+  // Auto-save session with debounce when answeredMap or currentIndex changes
+  useEffect(() => {
+    if (!sessionChecked) return;
+
+    if (saveTimeoutRef.current) {
+      clearTimeout(saveTimeoutRef.current);
+    }
+
+    saveTimeoutRef.current = setTimeout(() => {
+      const state: SessionState = {
+        answeredMap,
+        currentIndex,
+        yearFilter,
+        hideNullAnswers,
+        shuffled,
+        shuffledOrder,
+        timerSeconds: timerSecondsRef.current,
+        timestamp: Date.now(),
+      };
+      saveSession(subject, chapterSlug, state);
+    }, 500);
+
+    return () => {
+      if (saveTimeoutRef.current) {
+        clearTimeout(saveTimeoutRef.current);
+      }
+    };
+  }, [answeredMap, currentIndex, yearFilter, hideNullAnswers, shuffled, shuffledOrder, sessionChecked, subject, chapterSlug]);
+
+  const handleTimerTick = useCallback((seconds: number) => {
+    timerSecondsRef.current = seconds;
+  }, []);
 
   const years = useMemo(() => {
     const y = Array.from(new Set(originalQuestions.map((q) => q.year))).sort();
     return y;
   }, [originalQuestions]);
 
+  const getKeyForQuestion = useCallback(
+    (q: Question) => getBookmarkKey(subjectName, chapterName, q.year, q.number),
+    [subjectName, chapterName]
+  );
+
   const filteredQuestions = useMemo(() => {
     let result = questions;
     if (yearFilter !== null) result = result.filter((q) => q.year === yearFilter);
     if (hideNullAnswers) result = result.filter((q) => q.answer !== null);
+    if (bookmarkFilter) result = result.filter((q) => bookmarkedKeys.has(getKeyForQuestion(q)));
     return result;
-  }, [questions, yearFilter, hideNullAnswers]);
+  }, [questions, yearFilter, hideNullAnswers, bookmarkFilter, bookmarkedKeys, getKeyForQuestion]);
+
+  // In review mode, further filter to only wrong answers.
+  // reviewIndexMap maps displayQuestions index -> filteredQuestions index
+  const { displayQuestions, reviewIndexMap } = useMemo(() => {
+    if (!reviewMode) {
+      return { displayQuestions: filteredQuestions, reviewIndexMap: null };
+    }
+    const indices: number[] = [];
+    const result: Question[] = [];
+    for (let i = 0; i < filteredQuestions.length; i++) {
+      if (answeredMap[i]?.correct === false) {
+        indices.push(i);
+        result.push(filteredQuestions[i]);
+      }
+    }
+    return { displayQuestions: result, reviewIndexMap: indices };
+  }, [filteredQuestions, reviewMode, answeredMap]);
+
+  const bookmarkedCount = useMemo(() => {
+    return questions.filter((q) => bookmarkedKeys.has(getKeyForQuestion(q))).length;
+  }, [questions, bookmarkedKeys, getKeyForQuestion]);
 
   const nullAnswerCount = useMemo(() => {
     let base = questions;
@@ -61,9 +204,20 @@ export function PracticeSession({
     return base.filter((q) => q.answer === null).length;
   }, [questions, yearFilter]);
 
-  const total = filteredQuestions.length;
-  const current = filteredQuestions[currentIndex] || filteredQuestions[0];
+  const total = displayQuestions.length;
+  const current = displayQuestions[currentIndex] || displayQuestions[0];
   const answered = Object.keys(answeredMap).length;
+
+  // Map from display index to the filteredQuestions index used in answeredMap
+  const mapToFilteredIndex = useCallback(
+    (displayIdx: number) => {
+      if (reviewIndexMap) return reviewIndexMap[displayIdx] ?? displayIdx;
+      return displayIdx;
+    },
+    [reviewIndexMap]
+  );
+
+  const filteredIndex = mapToFilteredIndex(currentIndex);
 
   const { correctCount, incorrectCount, ungradedCount, accuracy } = useMemo(() => {
     const entries = Object.values(answeredMap);
@@ -86,28 +240,86 @@ export function PracticeSession({
   const prev = useCallback(() => goTo(currentIndex - 1), [currentIndex, goTo]);
 
   const handleShuffle = useCallback(() => {
-    const shuffledQ = [...originalQuestions].sort(() => Math.random() - 0.5);
+    // Create indices and shuffle them
+    const indices = originalQuestions.map((_, i) => i);
+    for (let i = indices.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [indices[i], indices[j]] = [indices[j], indices[i]];
+    }
+    const shuffledQ = indices.map((idx) => originalQuestions[idx]);
     setQuestions(shuffledQ);
     setShuffled(true);
+    setShuffledOrder(indices);
     setCurrentIndex(0);
     setAnsweredMap({});
+    setReviewMode(false);
   }, [originalQuestions]);
 
   const handleReset = useCallback(() => {
+    // Save result before clearing
+    if (Object.keys(answeredMap).length > 0) {
+      const entries = Object.values(answeredMap);
+      const correct = entries.filter((e) => e.correct === true).length;
+      const incorrect = entries.filter((e) => e.correct === false).length;
+      const ungraded = entries.filter((e) => e.correct === null).length;
+      const gradedTotal = correct + incorrect;
+      saveResult(subject, chapterSlug, {
+        date: new Date().toISOString(),
+        correct,
+        incorrect,
+        ungraded,
+        total: entries.length,
+        accuracy: gradedTotal > 0 ? Math.round((correct / gradedTotal) * 100) : 0,
+        timeSpent: timerSecondsRef.current,
+      });
+    }
     setQuestions(originalQuestions);
     setShuffled(false);
+    setShuffledOrder(null);
     setCurrentIndex(0);
     setAnsweredMap({});
     setShowAllAnswers(false);
-  }, [originalQuestions]);
+    setReviewMode(false);
+    clearSession(subject, chapterSlug);
+  }, [originalQuestions, answeredMap, subject, chapterSlug]);
 
   const handleAnswer = useCallback((selected: string, isCorrect: boolean | null) => {
-    setAnsweredMap((prev) => ({ ...prev, [currentIndex]: { selected, correct: isCorrect } }));
-  }, [currentIndex]);
+    setAnsweredMap((prev) => ({ ...prev, [filteredIndex]: { selected, correct: isCorrect } }));
+  }, [filteredIndex]);
+
+  const handleRetry = useCallback(() => {
+    setAnsweredMap((prev) => {
+      const next = { ...prev };
+      delete next[filteredIndex];
+      return next;
+    });
+  }, [filteredIndex]);
+
+  const handleToggleReviewMode = useCallback(() => {
+    setReviewMode((prev) => !prev);
+    setCurrentIndex(0);
+  }, []);
 
   const handleKeyboardSelect = useCallback((option: string) => {
     setKeyboardSelection(option);
   }, []);
+
+  const handleToggleBookmark = useCallback(
+    (q: Question) => {
+      const key = getKeyForQuestion(q);
+      const newState = toggleBookmark(key);
+      setBookmarkedKeys((prev) => {
+        const next = new Set(prev);
+        if (newState) {
+          next.add(key);
+        } else {
+          next.delete(key);
+        }
+        return next;
+      });
+    },
+    [getKeyForQuestion]
+  );
 
   // Auto-scroll the active grid button into view
   useEffect(() => {
@@ -125,14 +337,58 @@ export function PracticeSession({
   }, [keyboardSelection]);
 
   const getGridButtonStyle = (i: number) => {
+    const fi = mapToFilteredIndex(i);
     if (i === currentIndex) return "bg-primary text-primary-foreground";
-    if (answeredMap[i]) {
-      if (answeredMap[i].correct === true) return "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400";
-      if (answeredMap[i].correct === false) return "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400";
+    if (answeredMap[fi]) {
+      if (answeredMap[fi].correct === true) return "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400";
+      if (answeredMap[fi].correct === false) return "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400";
       return "bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400";
     }
     return "bg-muted text-muted-foreground hover:bg-muted/80";
   };
+
+  // Show resume prompt if a saved session was found
+  if (resumePrompt) {
+    const savedAnswered = Object.keys(resumePrompt.answeredMap).length;
+    const savedEntries = Object.values(resumePrompt.answeredMap);
+    const savedCorrect = savedEntries.filter((e) => e.correct === true).length;
+    const savedIncorrect = savedEntries.filter((e) => e.correct === false).length;
+    const savedGraded = savedCorrect + savedIncorrect;
+    const savedAccuracy = savedGraded > 0 ? Math.round((savedCorrect / savedGraded) * 100) : 0;
+    const savedMinutes = Math.floor(resumePrompt.timerSeconds / 60);
+
+    return (
+      <Card className="mx-auto max-w-md">
+        <CardContent className="py-8 text-center space-y-4">
+          <h2 className="text-lg font-semibold">Resume Previous Session?</h2>
+          <p className="text-sm text-muted-foreground">
+            You have an unfinished session for this chapter.
+          </p>
+          <div className="text-sm text-muted-foreground space-y-1">
+            <p>
+              {savedAnswered} question{savedAnswered !== 1 ? "s" : ""} answered
+              {savedGraded > 0 && <> &middot; {savedAccuracy}% accuracy</>}
+            </p>
+            {savedMinutes > 0 && <p>{savedMinutes} min spent</p>}
+          </div>
+          <div className="flex items-center justify-center gap-3 pt-2">
+            <Button onClick={() => restoreSession(resumePrompt)} size="sm">
+              <Play className="size-4" />
+              Resume
+            </Button>
+            <Button onClick={startFresh} size="sm" variant="outline">
+              <RotateCcw className="size-4" />
+              Start Fresh
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+    );
+  }
+
+  if (!sessionChecked) {
+    return null;
+  }
 
   if (!current) {
     return (
@@ -152,7 +408,7 @@ export function PracticeSession({
             {subjectName} &middot; {total} questions
           </p>
         </div>
-        <Timer />
+        <Timer initialSeconds={initialTimerSeconds} onTick={handleTimerTick} />
       </div>
 
       {/* Year filter */}
@@ -220,6 +476,27 @@ export function PracticeSession({
             ({nullAnswerCount} ungraded hidden)
           </span>
         )}
+        <Button
+          size="sm"
+          variant={bookmarkFilter ? "default" : "outline"}
+          onClick={() => {
+            setBookmarkFilter(!bookmarkFilter);
+            setCurrentIndex(0);
+          }}
+        >
+          <Bookmark className={`size-4 ${bookmarkFilter ? "fill-current" : ""}`} />
+          Bookmarked ({bookmarkedCount})
+        </Button>
+        {incorrectCount > 0 && (
+          <Button
+            size="sm"
+            variant={reviewMode ? "destructive" : "outline"}
+            onClick={handleToggleReviewMode}
+          >
+            <RotateCcw className="size-4" />
+            {reviewMode ? "Exit Review" : `Review Mistakes (${incorrectCount})`}
+          </Button>
+        )}
         <div className="ml-auto flex items-center gap-2">
           <BarChart3 className="size-4 text-muted-foreground" />
           <span className="flex items-center gap-1 text-sm text-green-600 dark:text-green-500">
@@ -246,15 +523,36 @@ export function PracticeSession({
         </div>
       </div>
 
+      {/* Review mode banner */}
+      {reviewMode && (
+        <div className="flex items-center justify-between rounded-lg border border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-950/30 px-4 py-2">
+          <span className="text-sm font-medium text-red-700 dark:text-red-400">
+            Reviewing {total} incorrect answer{total !== 1 ? "s" : ""}
+          </span>
+          <Button
+            size="xs"
+            variant="outline"
+            onClick={handleToggleReviewMode}
+            className="border-red-200 dark:border-red-800 text-red-600 dark:text-red-400 hover:bg-red-100 dark:hover:bg-red-900/30"
+          >
+            Exit Review
+          </Button>
+        </div>
+      )}
+
       {/* Question */}
       <QuestionCard
-        key={`${currentIndex}-${current.year}-${current.number}`}
+        key={`${filteredIndex}-${current.year}-${current.number}`}
         question={current}
         index={currentIndex}
         total={total}
-        showAnswer={showAllAnswers || !!answeredMap[currentIndex]}
+        showAnswer={showAllAnswers || !!answeredMap[filteredIndex]}
         onAnswer={handleAnswer}
         externalSelection={keyboardSelection}
+        bookmarkKey={getKeyForQuestion(current)}
+        isBookmarked={bookmarkedKeys.has(getKeyForQuestion(current))}
+        onToggleBookmark={() => handleToggleBookmark(current)}
+        onRetry={reviewMode ? handleRetry : undefined}
       />
 
       {/* Navigation */}
@@ -288,7 +586,7 @@ export function PracticeSession({
               ref={gridRef}
               className="flex flex-wrap justify-center gap-1 overflow-x-hidden overflow-y-auto max-h-40 sm:max-h-48 w-full"
             >
-              {filteredQuestions.map((_, i) => (
+              {displayQuestions.map((_, i) => (
                 <button
                   key={i}
                   ref={i === currentIndex ? activeBtnRef : undefined}
@@ -333,7 +631,7 @@ export function PracticeSession({
         onPrev={prev}
         onNext={next}
         onSelectAnswer={handleKeyboardSelect}
-        isAnswered={showAllAnswers || !!answeredMap[currentIndex]}
+        isAnswered={showAllAnswers || !!answeredMap[filteredIndex]}
       />
     </div>
   );
