@@ -37,6 +37,7 @@ import {
   RotateCcw,
   Play,
   Bookmark,
+  ArrowUpDown,
 } from "lucide-react";
 
 interface PracticeSessionProps {
@@ -76,6 +77,8 @@ export function PracticeSession({
   const [bookmarkFilter, setBookmarkFilter] = useState(false);
   const [bookmarkedKeys, setBookmarkedKeys] = useState<Set<string>>(new Set());
   const [showChat, setShowChat] = useState(false);
+  const [sortBy, setSortBy] = useState<"default" | "difficulty" | "newest">("default");
+  const [excludedYears, setExcludedYears] = useState<Set<number>>(new Set());
   const gridRef = useRef<HTMLDivElement>(null);
   const activeBtnRef = useRef<HTMLButtonElement>(null);
   const timerSecondsRef = useRef(0);
@@ -178,11 +181,24 @@ export function PracticeSession({
 
   const filteredQuestions = useMemo(() => {
     let result = questions;
-    if (yearFilter !== null) result = result.filter((q) => q.year === yearFilter);
+    if (yearFilter !== null) {
+      result = result.filter((q) => q.year === yearFilter);
+    } else if (excludedYears.size > 0) {
+      result = result.filter((q) => !excludedYears.has(q.year));
+    }
     if (hideNullAnswers) result = result.filter((q) => q.answer !== null);
     if (bookmarkFilter) result = result.filter((q) => bookmarkedKeys.has(getKeyForQuestion(q)));
+
+    // Apply sorting
+    if (sortBy === "difficulty") {
+      const order = { easy: 0, medium: 1, hard: 2 };
+      result = [...result].sort((a, b) => (order[a.difficulty ?? "medium"] ?? 1) - (order[b.difficulty ?? "medium"] ?? 1));
+    } else if (sortBy === "newest") {
+      result = [...result].sort((a, b) => b.year - a.year || b.number - a.number);
+    }
+
     return result;
-  }, [questions, yearFilter, hideNullAnswers, bookmarkFilter, bookmarkedKeys, getKeyForQuestion]);
+  }, [questions, yearFilter, excludedYears, hideNullAnswers, bookmarkFilter, bookmarkedKeys, getKeyForQuestion, sortBy]);
 
   // In review mode, further filter to only wrong answers.
   // reviewIndexMap maps displayQuestions index -> filteredQuestions index
@@ -483,27 +499,78 @@ export function PracticeSession({
         <span className="text-xs text-muted-foreground mr-1">Year:</span>
         <Button
           size="xs"
-          variant={yearFilter === null ? "default" : "outline"}
+          variant={yearFilter === null && excludedYears.size === 0 ? "default" : "outline"}
           onClick={() => {
             setYearFilter(null);
+            setExcludedYears(new Set());
             setCurrentIndex(0);
           }}
           className="text-xs"
         >
           All
         </Button>
-        {years.map((y) => (
+        {years.map((y) => {
+          const isSelected = yearFilter === y;
+          const isExcluded = yearFilter === null && excludedYears.has(y);
+          return (
+            <Button
+              key={y}
+              size="xs"
+              variant={isSelected ? "default" : isExcluded ? "secondary" : "outline"}
+              onClick={() => {
+                if (yearFilter !== null) {
+                  // In single-year mode, clicking selects that year
+                  setYearFilter(y === yearFilter ? null : y);
+                } else {
+                  // In "All" mode, clicking toggles year exclusion
+                  setExcludedYears((prev) => {
+                    const next = new Set(prev);
+                    if (next.has(y)) next.delete(y);
+                    else next.add(y);
+                    return next;
+                  });
+                }
+                setCurrentIndex(0);
+              }}
+              onDoubleClick={() => {
+                // Double-click always selects single year
+                setYearFilter(y);
+                setExcludedYears(new Set());
+                setCurrentIndex(0);
+              }}
+              className={`text-xs ${isExcluded ? "line-through opacity-50" : ""}`}
+            >
+              {y}
+            </Button>
+          );
+        })}
+        {excludedYears.size > 0 && (
+          <span className="text-xs text-muted-foreground">
+            ({excludedYears.size} excluded)
+          </span>
+        )}
+      </div>
+
+      {/* Sort */}
+      <div className="flex flex-wrap items-center gap-1.5">
+        <ArrowUpDown className="size-3.5 text-muted-foreground" />
+        <span className="text-xs text-muted-foreground mr-0.5">Sort:</span>
+        {([
+          ["default", "Default"],
+          ["newest", "Newest First"],
+          ["difficulty", "Easy → Hard"],
+        ] as const).map(([value, label]) => (
           <Button
-            key={y}
+            key={value}
             size="xs"
-            variant={yearFilter === y ? "default" : "outline"}
+            variant={sortBy === value ? "default" : "outline"}
             onClick={() => {
-              setYearFilter(y);
+              setSortBy(value);
               setCurrentIndex(0);
             }}
             className="text-xs"
           >
-            {y}
+            {label}
           </Button>
         ))}
       </div>
