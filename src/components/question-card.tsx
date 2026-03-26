@@ -7,7 +7,8 @@ import { Button } from "@/components/ui/button";
 import { Latex } from "@/components/latex";
 import type { Question } from "@/lib/types";
 import { cn } from "@/lib/utils";
-import { Bookmark, RotateCcw, Lightbulb, ChevronDown, ChevronUp } from "lucide-react";
+import { AIChat } from "@/components/ai-chat";
+import { Bookmark, RotateCcw, Lightbulb, ChevronDown, ChevronUp, Sparkles } from "lucide-react";
 
 interface QuestionCardProps {
   question: Question;
@@ -36,6 +37,7 @@ export function QuestionCard({
 }: QuestionCardProps) {
   const [selected, setSelected] = useState<string | null>(null);
   const [showExplanation, setShowExplanation] = useState(false);
+  const [showChat, setShowChat] = useState(false);
   const optionKeys = ["A", "B", "C", "D"] as const;
 
   useEffect(() => {
@@ -199,6 +201,26 @@ export function QuestionCard({
               </div>
             )}
           </div>
+        )}
+
+        {showAnswer && !showChat && (
+          <Button
+            size="sm"
+            variant="outline"
+            onClick={() => setShowChat(true)}
+            className="border-primary/30 text-primary hover:bg-primary/5"
+          >
+            <Sparkles className="size-3.5" />
+            Ask AI Tutor
+          </Button>
+        )}
+
+        {showChat && (
+          <AIChat
+            question={question}
+            selectedAnswer={selected}
+            onClose={() => setShowChat(false)}
+          />
         )}
       </CardContent>
     </Card>
