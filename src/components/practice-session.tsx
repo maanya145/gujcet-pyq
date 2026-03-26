@@ -7,6 +7,7 @@ import { QuestionCard } from "@/components/question-card";
 import { AIChat } from "@/components/ai-chat";
 import { Timer } from "@/components/timer";
 import { useSwipe } from "@/lib/use-swipe";
+import { cn } from "@/lib/utils";
 import type { Question } from "@/lib/types";
 import {
   saveSession,
@@ -77,8 +78,9 @@ export function PracticeSession({
   const [bookmarkFilter, setBookmarkFilter] = useState(false);
   const [bookmarkedKeys, setBookmarkedKeys] = useState<Set<string>>(new Set());
   const [showChat, setShowChat] = useState(false);
-  const [sortBy, setSortBy] = useState<"default" | "difficulty" | "newest">("default");
+  const [sortBy, setSortBy] = useState<"default" | "difficulty" | "difficulty-desc" | "newest">("default");
   const [excludedYears, setExcludedYears] = useState<Set<number>>(new Set());
+  const [difficultyFilter, setDifficultyFilter] = useState<"all" | "easy" | "medium" | "hard">("all");
   const gridRef = useRef<HTMLDivElement>(null);
   const activeBtnRef = useRef<HTMLButtonElement>(null);
   const timerSecondsRef = useRef(0);
@@ -187,18 +189,22 @@ export function PracticeSession({
       result = result.filter((q) => !excludedYears.has(q.year));
     }
     if (hideNullAnswers) result = result.filter((q) => q.answer !== null);
+    if (difficultyFilter !== "all") result = result.filter((q) => q.difficulty === difficultyFilter);
     if (bookmarkFilter) result = result.filter((q) => bookmarkedKeys.has(getKeyForQuestion(q)));
 
     // Apply sorting
     if (sortBy === "difficulty") {
       const order = { easy: 0, medium: 1, hard: 2 };
       result = [...result].sort((a, b) => (order[a.difficulty ?? "medium"] ?? 1) - (order[b.difficulty ?? "medium"] ?? 1));
+    } else if (sortBy === "difficulty-desc") {
+      const order = { easy: 0, medium: 1, hard: 2 };
+      result = [...result].sort((a, b) => (order[b.difficulty ?? "medium"] ?? 1) - (order[a.difficulty ?? "medium"] ?? 1));
     } else if (sortBy === "newest") {
       result = [...result].sort((a, b) => b.year - a.year || b.number - a.number);
     }
 
     return result;
-  }, [questions, yearFilter, excludedYears, hideNullAnswers, bookmarkFilter, bookmarkedKeys, getKeyForQuestion, sortBy]);
+  }, [questions, yearFilter, excludedYears, hideNullAnswers, difficultyFilter, bookmarkFilter, bookmarkedKeys, getKeyForQuestion, sortBy]);
 
   // In review mode, further filter to only wrong answers.
   // reviewIndexMap maps displayQuestions index -> filteredQuestions index
@@ -551,7 +557,7 @@ export function PracticeSession({
         )}
       </div>
 
-      {/* Sort */}
+      {/* Sort & Difficulty filter */}
       <div className="flex flex-wrap items-center gap-1.5">
         <ArrowUpDown className="size-3.5 text-muted-foreground" />
         <span className="text-xs text-muted-foreground mr-0.5">Sort:</span>
@@ -559,6 +565,7 @@ export function PracticeSession({
           ["default", "Default"],
           ["newest", "Newest First"],
           ["difficulty", "Easy → Hard"],
+          ["difficulty-desc", "Hard → Easy"],
         ] as const).map(([value, label]) => (
           <Button
             key={value}
@@ -569,6 +576,31 @@ export function PracticeSession({
               setCurrentIndex(0);
             }}
             className="text-xs"
+          >
+            {label}
+          </Button>
+        ))}
+        <span className="text-xs text-muted-foreground ml-2 mr-0.5">Difficulty:</span>
+        {([
+          ["all", "All"],
+          ["easy", "Easy"],
+          ["medium", "Medium"],
+          ["hard", "Hard"],
+        ] as const).map(([value, label]) => (
+          <Button
+            key={value}
+            size="xs"
+            variant={difficultyFilter === value ? "default" : "outline"}
+            onClick={() => {
+              setDifficultyFilter(value);
+              setCurrentIndex(0);
+            }}
+            className={cn(
+              "text-xs",
+              difficultyFilter === value && value === "easy" && "bg-green-600 hover:bg-green-700 border-green-600",
+              difficultyFilter === value && value === "medium" && "bg-amber-600 hover:bg-amber-700 border-amber-600",
+              difficultyFilter === value && value === "hard" && "bg-red-600 hover:bg-red-700 border-red-600",
+            )}
           >
             {label}
           </Button>
