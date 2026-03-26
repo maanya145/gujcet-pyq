@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Latex } from "@/components/latex";
 import type { Question } from "@/lib/types";
 import { cn } from "@/lib/utils";
-import { Bookmark, RotateCcw, Lightbulb, ChevronDown, ChevronUp, Sparkles } from "lucide-react";
+import { Bookmark, RotateCcw, Lightbulb, ChevronDown, ChevronUp, Sparkles, Copy, CheckCheck } from "lucide-react";
 
 interface QuestionCardProps {
   question: Question;
@@ -40,6 +40,7 @@ export function QuestionCard({
 }: QuestionCardProps) {
   const [selected, setSelected] = useState<string | null>(null);
   const [showExplanation, setShowExplanation] = useState(false);
+  const [copied, setCopied] = useState(false);
   const optionKeys = ["A", "B", "C", "D"] as const;
 
   useEffect(() => {
@@ -105,12 +106,28 @@ export function QuestionCard({
               </Badge>
             )}
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1">
             {question.answer === null && (
-              <Badge variant="outline" className="text-xs text-amber-600">
+              <Badge variant="outline" className="text-xs text-amber-600 mr-1">
                 No answer key
               </Badge>
             )}
+            <button
+              onClick={() => {
+                const text = `Q: ${question.question}\nA: ${question.options.A}\nB: ${question.options.B}\nC: ${question.options.C}\nD: ${question.options.D}${question.answer ? `\nAnswer: ${question.answer}` : ""}`;
+                navigator.clipboard.writeText(text);
+                setCopied(true);
+                setTimeout(() => setCopied(false), 1500);
+              }}
+              className="p-1 rounded-md hover:bg-muted/80 transition-colors"
+              aria-label="Copy question"
+            >
+              {copied ? (
+                <CheckCheck className="size-4 text-green-500" />
+              ) : (
+                <Copy className="size-4 text-muted-foreground" />
+              )}
+            </button>
             {bookmarkKey && onToggleBookmark && (
               <button
                 onClick={(e) => {
