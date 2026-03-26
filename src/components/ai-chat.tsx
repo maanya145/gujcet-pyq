@@ -114,7 +114,7 @@ export function AIChat({ question, selectedAnswer, onClose }: AIChatProps) {
                 <div className="leading-relaxed">
                   {msg.parts.map((part, i) => {
                     if (part.type === "text") {
-                      return <ChatMarkdown key={`${msg.id}-${i}`} content={part.text} />;
+                      return <ChatMarkdown key={`${msg.id}-${i}`} id={msg.id} content={part.text} />;
                     }
                     return null;
                   })}
