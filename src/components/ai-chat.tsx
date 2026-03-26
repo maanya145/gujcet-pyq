@@ -1,12 +1,17 @@
 "use client";
 
-import { useChat } from "@ai-sdk/react";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { ChatMarkdown } from "@/components/chat-markdown";
 import { X, Send, Loader2, Sparkles } from "lucide-react";
 import type { Question } from "@/lib/types";
+
+interface Message {
+  id: string;
+  role: "user" | "assistant";
+  content: string;
+}
 
 interface AIChatProps {
   question: Question;
@@ -14,7 +19,7 @@ interface AIChatProps {
   onClose: () => void;
 }
 
-function buildInitialContext(question: Question, selectedAnswer?: string | null): string {
+function buildContext(question: Question, selectedAnswer?: string | null): string {
   const parts = [
     `Question (${question.year}): ${question.question}`,
     `Options:`,
@@ -23,65 +28,81 @@ function buildInitialContext(question: Question, selectedAnswer?: string | null)
     `C: ${question.options.C}`,
     `D: ${question.options.D}`,
   ];
-  if (question.answer) {
-    parts.push(`Correct answer: ${question.answer}`);
-  }
+  if (question.answer) parts.push(`Correct answer: ${question.answer}`);
   if (selectedAnswer && selectedAnswer !== question.answer) {
     parts.push(`Student selected: ${selectedAnswer} (incorrect)`);
   }
-  if (question.explanation) {
-    parts.push(`Reference explanation: ${question.explanation}`);
-  }
+  if (question.explanation) parts.push(`Reference explanation: ${question.explanation}`);
   return parts.join("\n");
 }
+
+let msgCounter = 0;
 
 export function AIChat({ question, selectedAnswer, onClose }: AIChatProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const [inputValue, setInputValue] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [messages, setMessages] = useState<Message[]>(() => {
+    const greeting = question.answer && selectedAnswer && selectedAnswer !== question.answer
+      ? `You selected **${selectedAnswer}** but the correct answer is **${question.answer}**. What would you like me to explain?`
+      : question.answer
+      ? `The correct answer is **${question.answer}**. What would you like me to explain about this question?`
+      : `This question doesn't have an answer key. I'll do my best to help! What would you like to know?`;
 
-  const greeting = question.answer && selectedAnswer && selectedAnswer !== question.answer
-    ? `I can see you selected **${selectedAnswer}** but the correct answer is **${question.answer}**. What would you like me to explain?`
-    : question.answer
-    ? `The correct answer is **${question.answer}**. What would you like me to explain about this question?`
-    : `I see this question doesn't have an answer key. I'll do my best to help! What would you like to know?`;
-
-  const { messages, sendMessage, status } = useChat({
-    messages: [
-      {
-        id: "context",
-        role: "user" as const,
-        content: `Help me understand this GUJCET question:\n\n${buildInitialContext(question, selectedAnswer)}`,
-        parts: [{ type: "text" as const, text: `Help me understand this GUJCET question:\n\n${buildInitialContext(question, selectedAnswer)}` }],
-      },
-      {
-        id: "greeting",
-        role: "assistant" as const,
-        content: greeting,
-        parts: [{ type: "text" as const, text: greeting }],
-      },
-    ],
+    return [
+      { id: "ctx", role: "user", content: `Help me understand this question:\n\n${buildContext(question, selectedAnswer)}` },
+      { id: "greet", role: "assistant", content: greeting },
+    ];
   });
 
-  const isLoading = status === "streaming" || status === "submitted";
-
-  // Auto-scroll to bottom on new messages
   useEffect(() => {
-    if (scrollRef.current) {
-      scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
-    }
+    if (scrollRef.current) scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
   }, [messages]);
 
-  // Focus input on open
-  useEffect(() => {
-    inputRef.current?.focus();
-  }, []);
+  useEffect(() => { inputRef.current?.focus(); }, []);
+
+  const sendMessage = useCallback(async (text: string) => {
+    const userMsg: Message = { id: `u${++msgCounter}`, role: "user", content: text };
+    const newMessages = [...messages, userMsg];
+    setMessages(newMessages);
+    setIsLoading(true);
+
+    try {
+      const res = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          messages: newMessages.map((m) => ({
+            id: m.id,
+            role: m.role,
+            content: m.content,
+            parts: [{ type: "text", text: m.content }],
+          })),
+        }),
+      });
+
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.error || "Failed to get response");
+      }
+
+      const data = await res.json();
+      const assistantMsg: Message = { id: `a${++msgCounter}`, role: "assistant", content: data.text };
+      setMessages((prev) => [...prev, assistantMsg]);
+    } catch (err) {
+      const errMsg = err instanceof Error ? err.message : "Something went wrong";
+      setMessages((prev) => [...prev, { id: `e${++msgCounter}`, role: "assistant", content: `*Error: ${errMsg}*` }]);
+    } finally {
+      setIsLoading(false);
+    }
+  }, [messages]);
 
   const handleSend = () => {
     const text = inputValue.trim();
     if (!text || isLoading) return;
     setInputValue("");
-    sendMessage({ text });
+    sendMessage(text);
   };
 
   return (
@@ -96,11 +117,7 @@ export function AIChat({ question, selectedAnswer, onClose }: AIChatProps) {
         </Button>
       </CardHeader>
       <CardContent className="p-0">
-        {/* Messages */}
-        <div
-          ref={scrollRef}
-          className="max-h-72 overflow-y-auto px-4 py-2 space-y-3"
-        >
+        <div ref={scrollRef} className="max-h-72 overflow-y-auto px-4 py-2 space-y-3">
           {messages.slice(1).map((msg) => (
             <div
               key={msg.id}
@@ -112,26 +129,14 @@ export function AIChat({ question, selectedAnswer, onClose }: AIChatProps) {
             >
               {msg.role === "assistant" ? (
                 <div className="leading-relaxed">
-                  {msg.parts.map((part, i) => {
-                    if (part.type === "text") {
-                      return <ChatMarkdown key={`${msg.id}-${i}`} id={msg.id} content={part.text} />;
-                    }
-                    return null;
-                  })}
+                  <ChatMarkdown id={msg.id} content={msg.content} />
                 </div>
               ) : (
-                <p>
-                  {msg.parts.map((part, i) => {
-                    if (part.type === "text") {
-                      return <span key={`${msg.id}-${i}`}>{part.text}</span>;
-                    }
-                    return null;
-                  })}
-                </p>
+                <p>{msg.content}</p>
               )}
             </div>
           ))}
-          {isLoading && messages[messages.length - 1]?.role === "user" && (
+          {isLoading && (
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <Loader2 className="size-3.5 animate-spin" />
               Thinking...
@@ -139,7 +144,6 @@ export function AIChat({ question, selectedAnswer, onClose }: AIChatProps) {
           )}
         </div>
 
-        {/* Input */}
         <div className="flex items-center gap-2 border-t px-4 py-3">
           <input
             ref={inputRef}
