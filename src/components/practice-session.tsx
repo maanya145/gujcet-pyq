@@ -141,7 +141,7 @@ export function PracticeSession({
           onClick={() => setShowAllAnswers(!showAllAnswers)}
         >
           {showAllAnswers ? <EyeOff className="size-4" /> : <Eye className="size-4" />}
-          {showAllAnswers ? "Hide Answers" : "Show All"}
+          {showAllAnswers ? "Hide Answers" : "Show Answer"}
         </Button>
         <Button size="sm" variant="outline" onClick={handleReset}>
           Reset
