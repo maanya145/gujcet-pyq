@@ -31,7 +31,7 @@ export async function POST(req: Request) {
         system: SYSTEM_PROMPT,
         messages,
       });
-      return result.toTextStreamResponse();
+      return result.toUIMessageStreamResponse();
     } catch (err: unknown) {
       lastError = err;
       const status = (err as { status?: number })?.status;

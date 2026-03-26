@@ -1,7 +1,6 @@
 "use client";
 
 import { useChat } from "@ai-sdk/react";
-import { TextStreamChatTransport } from "ai";
 import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
@@ -47,8 +46,7 @@ export function AIChat({ question, selectedAnswer, onClose }: AIChatProps) {
     ? `The correct answer is **${question.answer}**. What would you like me to explain about this question?`
     : `I see this question doesn't have an answer key. I'll do my best to help! What would you like to know?`;
 
-  const { messages, sendMessage, status, error } = useChat({
-    transport: new TextStreamChatTransport({ api: "/api/chat" }),
+  const { messages, sendMessage, status } = useChat({
     messages: [
       {
         id: "context",
@@ -114,10 +112,22 @@ export function AIChat({ question, selectedAnswer, onClose }: AIChatProps) {
             >
               {msg.role === "assistant" ? (
                 <div className="leading-relaxed">
-                  <Latex text={msg.content} />
+                  {msg.parts.map((part, i) => {
+                    if (part.type === "text") {
+                      return <Latex key={`${msg.id}-${i}`} text={part.text} />;
+                    }
+                    return null;
+                  })}
                 </div>
               ) : (
-                <p>{msg.content}</p>
+                <p>
+                  {msg.parts.map((part, i) => {
+                    if (part.type === "text") {
+                      return <span key={`${msg.id}-${i}`}>{part.text}</span>;
+                    }
+                    return null;
+                  })}
+                </p>
               )}
             </div>
           ))}
@@ -126,11 +136,6 @@ export function AIChat({ question, selectedAnswer, onClose }: AIChatProps) {
               <Loader2 className="size-3.5 animate-spin" />
               Thinking...
             </div>
-          )}
-          {error && (
-            <p className="text-sm text-red-500">
-              {error.message || "Something went wrong. Please try again."}
-            </p>
           )}
         </div>
 
