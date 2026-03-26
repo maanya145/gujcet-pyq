@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useMemo, useEffect } from "react";
+import { useState, useCallback, useMemo, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { QuestionCard } from "@/components/question-card";
 import { Timer } from "@/components/timer";
@@ -14,6 +14,10 @@ import {
   Eye,
   EyeOff,
   BarChart3,
+  Check,
+  X,
+  Grid3X3,
+  AlertTriangle,
 } from "lucide-react";
 
 interface PracticeSessionProps {
@@ -28,11 +32,16 @@ export function PracticeSession({
   subjectName,
 }: PracticeSessionProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [answeredMap, setAnsweredMap] = useState<Record<number, boolean>>({});
+  const [answeredMap, setAnsweredMap] = useState<Record<number, { selected: string; correct: boolean | null }>>({});
   const [showAllAnswers, setShowAllAnswers] = useState(false);
   const [shuffled, setShuffled] = useState(false);
   const [questions, setQuestions] = useState(originalQuestions);
   const [yearFilter, setYearFilter] = useState<number | null>(null);
+  const [hideNullAnswers, setHideNullAnswers] = useState(false);
+  const [showGrid, setShowGrid] = useState(false);
+  const [keyboardSelection, setKeyboardSelection] = useState<string | null>(null);
+  const gridRef = useRef<HTMLDivElement>(null);
+  const activeBtnRef = useRef<HTMLButtonElement>(null);
 
   const years = useMemo(() => {
     const y = Array.from(new Set(originalQuestions.map((q) => q.year))).sort();
@@ -40,13 +49,31 @@ export function PracticeSession({
   }, [originalQuestions]);
 
   const filteredQuestions = useMemo(() => {
-    if (yearFilter === null) return questions;
-    return questions.filter((q) => q.year === yearFilter);
+    let result = questions;
+    if (yearFilter !== null) result = result.filter((q) => q.year === yearFilter);
+    if (hideNullAnswers) result = result.filter((q) => q.answer !== null);
+    return result;
+  }, [questions, yearFilter, hideNullAnswers]);
+
+  const nullAnswerCount = useMemo(() => {
+    let base = questions;
+    if (yearFilter !== null) base = base.filter((q) => q.year === yearFilter);
+    return base.filter((q) => q.answer === null).length;
   }, [questions, yearFilter]);
 
   const total = filteredQuestions.length;
   const current = filteredQuestions[currentIndex] || filteredQuestions[0];
   const answered = Object.keys(answeredMap).length;
+
+  const { correctCount, incorrectCount, ungradedCount, accuracy } = useMemo(() => {
+    const entries = Object.values(answeredMap);
+    const correct = entries.filter((e) => e.correct === true).length;
+    const incorrect = entries.filter((e) => e.correct === false).length;
+    const ungraded = entries.filter((e) => e.correct === null).length;
+    const gradedTotal = correct + incorrect;
+    const acc = gradedTotal > 0 ? Math.round((correct / gradedTotal) * 100) : 0;
+    return { correctCount: correct, incorrectCount: incorrect, ungradedCount: ungraded, accuracy: acc };
+  }, [answeredMap]);
 
   const goTo = useCallback(
     (i: number) => {
@@ -74,9 +101,38 @@ export function PracticeSession({
     setShowAllAnswers(false);
   }, [originalQuestions]);
 
-  const toggleAnswer = useCallback(() => {
-    setAnsweredMap((prev) => ({ ...prev, [currentIndex]: true }));
+  const handleAnswer = useCallback((selected: string, isCorrect: boolean | null) => {
+    setAnsweredMap((prev) => ({ ...prev, [currentIndex]: { selected, correct: isCorrect } }));
   }, [currentIndex]);
+
+  const handleKeyboardSelect = useCallback((option: string) => {
+    setKeyboardSelection(option);
+  }, []);
+
+  // Auto-scroll the active grid button into view
+  useEffect(() => {
+    if (activeBtnRef.current) {
+      activeBtnRef.current.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
+  }, [currentIndex]);
+
+  // Reset keyboard selection after it's been consumed
+  useEffect(() => {
+    if (keyboardSelection) {
+      const timer = setTimeout(() => setKeyboardSelection(null), 50);
+      return () => clearTimeout(timer);
+    }
+  }, [keyboardSelection]);
+
+  const getGridButtonStyle = (i: number) => {
+    if (i === currentIndex) return "bg-primary text-primary-foreground";
+    if (answeredMap[i]) {
+      if (answeredMap[i].correct === true) return "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400";
+      if (answeredMap[i].correct === false) return "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400";
+      return "bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400";
+    }
+    return "bg-muted text-muted-foreground hover:bg-muted/80";
+  };
 
   if (!current) {
     return (
@@ -146,11 +202,47 @@ export function PracticeSession({
         <Button size="sm" variant="outline" onClick={handleReset}>
           Reset
         </Button>
-        <div className="ml-auto flex items-center gap-1.5">
-          <BarChart3 className="size-4 text-muted-foreground" />
-          <span className="text-sm text-muted-foreground">
-            {answered}/{total} attempted
+        {nullAnswerCount > 0 && (
+          <Button
+            size="sm"
+            variant="outline"
+            onClick={() => {
+              setHideNullAnswers(!hideNullAnswers);
+              setCurrentIndex(0);
+            }}
+          >
+            <AlertTriangle className="size-4" />
+            {hideNullAnswers ? "Show All" : "Hide Ungraded"}
+          </Button>
+        )}
+        {hideNullAnswers && nullAnswerCount > 0 && (
+          <span className="text-xs text-amber-600">
+            ({nullAnswerCount} ungraded hidden)
           </span>
+        )}
+        <div className="ml-auto flex items-center gap-2">
+          <BarChart3 className="size-4 text-muted-foreground" />
+          <span className="flex items-center gap-1 text-sm text-green-600 dark:text-green-500">
+            <Check className="size-3.5" />
+            {correctCount}
+          </span>
+          <span className="flex items-center gap-1 text-sm text-red-600 dark:text-red-500">
+            <X className="size-3.5" />
+            {incorrectCount}
+          </span>
+          {ungradedCount > 0 && (
+            <span className="text-sm text-amber-500">
+              ? {ungradedCount}
+            </span>
+          )}
+          <span className="text-sm text-muted-foreground">
+            {answered} total
+          </span>
+          {(correctCount + incorrectCount) > 0 && (
+            <span className="text-sm font-medium text-muted-foreground">
+              &middot; {accuracy}% accuracy
+            </span>
+          )}
         </div>
       </div>
 
@@ -161,7 +253,8 @@ export function PracticeSession({
         index={currentIndex}
         total={total}
         showAnswer={showAllAnswers || !!answeredMap[currentIndex]}
-        onToggleAnswer={toggleAnswer}
+        onAnswer={handleAnswer}
+        externalSelection={keyboardSelection}
       />
 
       {/* Navigation */}
@@ -175,27 +268,37 @@ export function PracticeSession({
           </Button>
         </div>
 
-        <div className="flex items-center gap-1 overflow-x-auto px-2">
-          {total <= 20 ? (
-            filteredQuestions.map((_, i) => (
+        <div className="flex flex-col items-center gap-1 px-2">
+          {total > 20 && (
+            <div className="flex items-center gap-2">
+              <span className="text-sm text-muted-foreground">
+                Question {currentIndex + 1} of {total}
+              </span>
               <button
-                key={i}
-                onClick={() => goTo(i)}
-                className={`size-8 shrink-0 rounded-md text-xs font-medium transition-colors ${
-                  i === currentIndex
-                    ? "bg-primary text-primary-foreground"
-                    : answeredMap[i]
-                    ? "bg-green-900/30 text-green-400"
-                    : "bg-muted text-muted-foreground hover:bg-muted/80"
-                }`}
+                onClick={() => setShowGrid((v) => !v)}
+                className="inline-flex items-center justify-center size-9 min-w-[44px] min-h-[44px] rounded-md text-muted-foreground hover:bg-muted/80 transition-colors"
+                aria-label={showGrid ? "Hide question grid" : "Show question grid"}
               >
-                {i + 1}
+                <Grid3X3 className="size-4" />
               </button>
-            ))
-          ) : (
-            <span className="text-sm text-muted-foreground">
-              Question {currentIndex + 1} of {total}
-            </span>
+            </div>
+          )}
+          {(total <= 20 || showGrid) && (
+            <div
+              ref={gridRef}
+              className="flex flex-wrap justify-center gap-1 overflow-x-hidden overflow-y-auto max-h-40 sm:max-h-48 w-full"
+            >
+              {filteredQuestions.map((_, i) => (
+                <button
+                  key={i}
+                  ref={i === currentIndex ? activeBtnRef : undefined}
+                  onClick={() => goTo(i)}
+                  className={`size-8 shrink-0 rounded-md text-xs font-medium transition-colors ${getGridButtonStyle(i)}`}
+                >
+                  {i + 1}
+                </button>
+              ))}
+            </div>
           )}
         </div>
 
@@ -218,22 +321,65 @@ export function PracticeSession({
       <p className="text-center text-xs text-muted-foreground">
         Use <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">←</kbd>{" "}
         <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">→</kbd> arrow
-        keys to navigate
+        keys to navigate &middot; Press{" "}
+        <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">A</kbd>{" "}
+        <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">B</kbd>{" "}
+        <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">C</kbd>{" "}
+        <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">D</kbd> to
+        select answer
       </p>
 
-      <KeyboardNav onPrev={prev} onNext={next} />
+      <KeyboardNav
+        onPrev={prev}
+        onNext={next}
+        onSelectAnswer={handleKeyboardSelect}
+        isAnswered={showAllAnswers || !!answeredMap[currentIndex]}
+      />
     </div>
   );
 }
 
-function KeyboardNav({ onPrev, onNext }: { onPrev: () => void; onNext: () => void }) {
+function KeyboardNav({
+  onPrev,
+  onNext,
+  onSelectAnswer,
+  isAnswered,
+}: {
+  onPrev: () => void;
+  onNext: () => void;
+  onSelectAnswer: (option: string) => void;
+  isAnswered: boolean;
+}) {
   useEffect(() => {
+    const keyToOption: Record<string, string> = {
+      a: "A",
+      b: "B",
+      c: "C",
+      d: "D",
+      "1": "A",
+      "2": "B",
+      "3": "C",
+      "4": "D",
+    };
+
     const handler = (e: KeyboardEvent) => {
+      if (
+        e.target instanceof HTMLInputElement ||
+        e.target instanceof HTMLTextAreaElement
+      ) {
+        return;
+      }
+
       if (e.key === "ArrowLeft") onPrev();
       if (e.key === "ArrowRight") onNext();
+
+      const option = keyToOption[e.key.toLowerCase()];
+      if (option && !isAnswered) {
+        onSelectAnswer(option);
+      }
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [onPrev, onNext]);
+  }, [onPrev, onNext, onSelectAnswer, isAnswered]);
   return null;
 }
