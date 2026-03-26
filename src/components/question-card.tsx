@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Latex } from "@/components/latex";
 import type { Question } from "@/lib/types";
 import { cn } from "@/lib/utils";
-import { Bookmark, RotateCcw, Lightbulb, ChevronDown, ChevronUp, Sparkles, Copy, CheckCheck } from "lucide-react";
+import { Bookmark, RotateCcw, Lightbulb, ChevronDown, ChevronUp, Sparkles, Copy, CheckCheck, ExternalLink } from "lucide-react";
 
 interface QuestionCardProps {
   question: Question;
@@ -128,6 +128,15 @@ export function QuestionCard({
                 <Copy className="size-4 text-muted-foreground" />
               )}
             </button>
+            <a
+              href={`https://www.google.com/search?q=${encodeURIComponent(question.question.replace(/\$[^$]*\$/g, "").trim())}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-1 rounded-md hover:bg-muted/80 transition-colors"
+              aria-label="Search on Google"
+            >
+              <ExternalLink className="size-4 text-muted-foreground" />
+            </a>
             {bookmarkKey && onToggleBookmark && (
               <button
                 onClick={(e) => {
