@@ -20,7 +20,9 @@ import {
   toggleBookmark,
   getAllBookmarks,
 } from "@/lib/bookmarks";
+import Link from "next/link";
 import {
+  ArrowLeft,
   ChevronLeft,
   ChevronRight,
   ChevronsLeft,
@@ -28,7 +30,6 @@ import {
   Shuffle,
   Eye,
   EyeOff,
-  BarChart3,
   Check,
   X,
   Grid3X3,
@@ -44,6 +45,8 @@ interface PracticeSessionProps {
   chapterSlug: string;
   subjectName: string;
   subject: string;
+  backHref?: string;
+  backLabel?: string;
 }
 
 const SESSION_MAX_AGE_MS = 24 * 60 * 60 * 1000; // 24 hours
@@ -54,6 +57,7 @@ export function PracticeSession({
   chapterSlug,
   subjectName,
   subject,
+  backHref,
 }: PracticeSessionProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answeredMap, setAnsweredMap] = useState<Record<number, { selected: string; correct: boolean | null }>>({});
@@ -405,16 +409,74 @@ export function PracticeSession({
 
   return (
     <div className="space-y-6">
-      {/* Header */}
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <div>
-          <h1 className="text-xl font-bold capitalize">{chapterName.replace(/_/g, " ")}</h1>
-          <p className="text-sm text-muted-foreground capitalize">
-            {subjectName} &middot; {total} questions
-          </p>
+      {/* Header Row 1 */}
+      <div className="flex items-center justify-between gap-2">
+        <div className="flex items-center gap-2 min-w-0">
+          {backHref && (
+            <Link href={backHref}>
+              <Button variant="ghost" size="icon-sm" className="shrink-0">
+                <ArrowLeft className="size-4" />
+              </Button>
+            </Link>
+          )}
+          <div className="min-w-0">
+            <h1 className="text-base font-semibold capitalize truncate">{chapterName.replace(/_/g, " ")}</h1>
+            <p className="text-xs text-muted-foreground capitalize">
+              {subjectName} &middot; {total} questions
+            </p>
+          </div>
         </div>
-        <Timer initialSeconds={initialTimerSeconds} onTick={handleTimerTick} />
+        <div className="flex items-center gap-3 shrink-0">
+          {/* Stat pills - desktop only */}
+          {answered > 0 && (
+            <div className="hidden sm:flex items-center gap-2">
+              <span className="flex items-center gap-1 text-sm text-green-600 dark:text-green-500">
+                <Check className="size-3.5" />
+                {correctCount}
+              </span>
+              <span className="flex items-center gap-1 text-sm text-red-600 dark:text-red-500">
+                <X className="size-3.5" />
+                {incorrectCount}
+              </span>
+              {ungradedCount > 0 && (
+                <span className="text-sm text-amber-500">
+                  ? {ungradedCount}
+                </span>
+              )}
+              {(correctCount + incorrectCount) > 0 && (
+                <span className="text-xs font-medium rounded-full bg-muted px-2 py-0.5 text-muted-foreground">
+                  {accuracy}%
+                </span>
+              )}
+            </div>
+          )}
+          <Timer initialSeconds={initialTimerSeconds} onTick={handleTimerTick} variant="compact" />
+        </div>
       </div>
+
+      {/* Header Row 2 - mobile stat pills */}
+      {answered > 0 && (
+        <div className="flex items-center gap-2 sm:hidden">
+          <span className="flex items-center gap-1 text-sm text-green-600 dark:text-green-500">
+            <Check className="size-3.5" />
+            {correctCount}
+          </span>
+          <span className="flex items-center gap-1 text-sm text-red-600 dark:text-red-500">
+            <X className="size-3.5" />
+            {incorrectCount}
+          </span>
+          {ungradedCount > 0 && (
+            <span className="text-sm text-amber-500">
+              ? {ungradedCount}
+            </span>
+          )}
+          {(correctCount + incorrectCount) > 0 && (
+            <span className="text-xs font-medium rounded-full bg-muted px-2 py-0.5 text-muted-foreground">
+              {accuracy}%
+            </span>
+          )}
+        </div>
+      )}
 
       {/* Year filter */}
       <div className="flex flex-wrap items-center gap-1.5">
@@ -502,30 +564,6 @@ export function PracticeSession({
             {reviewMode ? "Exit Review" : `Review Mistakes (${incorrectCount})`}
           </Button>
         )}
-        <div className="ml-auto flex items-center gap-2">
-          <BarChart3 className="size-4 text-muted-foreground" />
-          <span className="flex items-center gap-1 text-sm text-green-600 dark:text-green-500">
-            <Check className="size-3.5" />
-            {correctCount}
-          </span>
-          <span className="flex items-center gap-1 text-sm text-red-600 dark:text-red-500">
-            <X className="size-3.5" />
-            {incorrectCount}
-          </span>
-          {ungradedCount > 0 && (
-            <span className="text-sm text-amber-500">
-              ? {ungradedCount}
-            </span>
-          )}
-          <span className="text-sm text-muted-foreground">
-            {answered} total
-          </span>
-          {(correctCount + incorrectCount) > 0 && (
-            <span className="text-sm font-medium text-muted-foreground">
-              &middot; {accuracy}% accuracy
-            </span>
-          )}
-        </div>
       </div>
 
       {/* Review mode banner */}

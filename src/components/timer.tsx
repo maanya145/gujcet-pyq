@@ -2,17 +2,19 @@
 
 import { useState, useRef, useCallback, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Play, Pause, RotateCcw, Timer as TimerIcon } from "lucide-react";
+import { Play, Pause, RotateCcw, Timer as TimerIcon, SlidersHorizontal } from "lucide-react";
 
 interface TimerProps {
   initialSeconds?: number;
   onTick?: (seconds: number) => void;
+  variant?: "full" | "compact";
 }
 
-export function Timer({ initialSeconds = 0, onTick }: TimerProps) {
+export function Timer({ initialSeconds = 0, onTick, variant = "full" }: TimerProps) {
   const [seconds, setSeconds] = useState(initialSeconds);
   const [running, setRunning] = useState(true);
   const [preset, setPreset] = useState<number | null>(null);
+  const [presetsOpen, setPresetsOpen] = useState(false);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
   const isCountdown = preset !== null;
@@ -72,6 +74,72 @@ export function Timer({ initialSeconds = 0, onTick }: TimerProps) {
     onTick?.(seconds);
   }, [seconds, onTick]);
 
+  const timeDisplay = (
+    <>
+      {hours > 0 && `${hours.toString().padStart(2, "0")}:`}
+      {mins.toString().padStart(2, "0")}:{secs.toString().padStart(2, "0")}
+    </>
+  );
+
+  if (variant === "compact") {
+    return (
+      <div className="flex flex-col items-end gap-1">
+        <div className="flex items-center gap-1.5">
+          <TimerIcon className="size-4 text-muted-foreground" />
+          <span
+            className={`text-sm font-mono font-semibold tabular-nums ${
+              timeUp ? "text-red-500 animate-pulse" : "text-foreground"
+            }`}
+          >
+            {timeDisplay}
+            {timeUp && <span className="ml-1 text-xs">Time&apos;s up!</span>}
+          </span>
+          {!running ? (
+            <Button onClick={start} size="icon-sm" variant="default" disabled={timeUp} className="h-7 w-7">
+              <Play className="size-3.5" />
+            </Button>
+          ) : (
+            <Button onClick={pause} size="icon-sm" variant="secondary" className="h-7 w-7">
+              <Pause className="size-3.5" />
+            </Button>
+          )}
+          <Button
+            onClick={() => setPresetsOpen((v) => !v)}
+            size="icon-sm"
+            variant="ghost"
+            className="h-7 w-7"
+          >
+            <SlidersHorizontal className="size-3.5" />
+          </Button>
+        </div>
+        {presetsOpen && (
+          <div className="flex items-center gap-1 flex-wrap justify-end">
+            {[15, 30, 45, 60, 90, 120, 180].map((m) => (
+              <Button
+                key={m}
+                onClick={() => setCountdown(m)}
+                size="xs"
+                variant={preset === m * 60 ? "default" : "outline"}
+                className="text-xs"
+              >
+                {m}m
+              </Button>
+            ))}
+            {isCountdown && (
+              <Button onClick={clearPreset} size="xs" variant="ghost" className="text-xs">
+                Stopwatch
+              </Button>
+            )}
+            <Button onClick={reset} size="xs" variant="outline" className="text-xs">
+              <RotateCcw className="size-3" />
+              Reset
+            </Button>
+          </div>
+        )}
+      </div>
+    );
+  }
+
   return (
     <div className="flex flex-col items-center gap-3">
       <div
@@ -79,8 +147,7 @@ export function Timer({ initialSeconds = 0, onTick }: TimerProps) {
           timeUp ? "text-red-500 animate-pulse" : "text-foreground"
         }`}
       >
-        {hours > 0 && `${hours.toString().padStart(2, "0")}:`}
-        {mins.toString().padStart(2, "0")}:{secs.toString().padStart(2, "0")}
+        {timeDisplay}
         {timeUp && <span className="ml-2 text-sm">Time&apos;s up!</span>}
       </div>
 

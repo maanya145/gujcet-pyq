@@ -1,9 +1,6 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { PracticeSession } from "@/components/practice-session";
 import type { ChapterData, Subject, SubjectIndex } from "@/lib/types";
-import { ArrowLeft } from "lucide-react";
 import fs from "fs";
 import path from "path";
 
@@ -50,17 +47,6 @@ export default function ChapterPage({
 
   return (
     <main className="min-h-screen">
-      <div className="border-b">
-        <div className="mx-auto max-w-4xl px-4 py-4">
-          <Link href={`/${subject}`}>
-            <Button variant="ghost" size="sm">
-              <ArrowLeft className="size-4" />
-              Back to {subject}
-            </Button>
-          </Link>
-        </div>
-      </div>
-
       <div className="mx-auto max-w-4xl px-4 py-6">
         <PracticeSession
           questions={data.questions}
@@ -68,6 +54,8 @@ export default function ChapterPage({
           chapterSlug={params.chapter}
           subjectName={data.subject}
           subject={subject}
+          backHref={`/${subject}`}
+          backLabel={subject}
         />
       </div>
     </main>
