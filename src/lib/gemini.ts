@@ -1,9 +1,9 @@
-import { createGoogleGenerativeAI } from "@ai-sdk/google";
+import { createOpenAI } from "@ai-sdk/openai";
 
-const keys = (process.env.GEMINI_API_KEYS || "").split(",").filter(Boolean);
+const keys = (process.env.OPENAI_API_KEYS || "").split(",").filter(Boolean);
 
 if (keys.length === 0) {
-  console.warn("No GEMINI_API_KEYS configured");
+  console.warn("No OPENAI_API_KEYS configured");
 }
 
 let currentKeyIndex = 0;
@@ -11,7 +11,7 @@ let currentKeyIndex = 0;
 export function getNextProvider() {
   const key = keys[currentKeyIndex % keys.length];
   currentKeyIndex = (currentKeyIndex + 1) % keys.length;
-  return createGoogleGenerativeAI({ apiKey: key });
+  return createOpenAI({ apiKey: key });
 }
 
 export function getProviderCount() {

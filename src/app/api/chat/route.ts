@@ -22,9 +22,9 @@ export async function POST(req: Request) {
 
   for (let attempt = 0; attempt < maxRetries; attempt++) {
     try {
-      const google = getNextProvider();
+      const openai = getNextProvider();
       const { text } = await generateText({
-        model: google("gemini-3-flash-preview"),
+        model: openai("gpt-5.4-mini"),
         system: SYSTEM_PROMPT,
         messages,
       });
@@ -40,7 +40,7 @@ export async function POST(req: Request) {
     }
   }
 
-  console.error("All Gemini keys exhausted:", lastError);
+  console.error("All OpenAI keys exhausted:", lastError);
   return Response.json(
     { error: "AI service busy. Please try again in a moment." },
     { status: 429 }
