@@ -129,7 +129,7 @@ export function QuestionCard({
               )}
             </button>
             <a
-              href={`https://www.google.com/search?q=${encodeURIComponent(question.question.replace(/\$[^$]*\$/g, "").trim())}`}
+              href={`https://www.google.com/search?q=${encodeURIComponent(question.question)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="p-1 rounded-md hover:bg-muted/80 transition-colors"
