@@ -13,7 +13,9 @@
         "C": "26 %",
         "D": "74 %"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "In a body-centered cubic (BCC) lattice, the packing efficiency is $68\\%$. The percentage of empty space is calculated as $100\\% - 68\\% = 32\\%$."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "Infinite",
         "D": "Very large"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "According to band theory, insulators have a very large energy gap between the valence band and the conduction band. This prevents electrons from jumping to the conduction band, resulting in poor electrical conductivity."
     },
     {
       "year": 2008,
@@ -37,7 +41,9 @@
         "C": "a-b-c-a-b-c",
         "D": "None of these"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Sodium chloride ($NaCl$) crystallizes in a face-centered cubic (FCC) or cubic close-packed (CCP) arrangement of chloride ions. The stacking pattern for a CCP/FCC lattice is represented as $a-b-c-a-b-c$."
     },
     {
       "year": 2009,
@@ -49,7 +55,9 @@
         "C": "HCP",
         "D": "Simple cubic"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "In the Zinc blende ($ZnS$) structure, the sulphide ions ($S^{2-}$) form a face-centered cubic (FCC) lattice. The zinc ions ($Zn^{2+}$) occupy half of the tetrahedral voids within this lattice."
     },
     {
       "year": 2011,
@@ -61,7 +69,9 @@
         "C": "$10.89\\text{ }\\text{\\AA}$",
         "D": "$1.089 \\times 10^{-9}\\text{ m.}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Using Bragg's Law, $n\\lambda = 2d \\sin\\theta$, we substitute $n=1$, $\\lambda=1.54\\text{ \\AA}$, and $\\theta=45^{\\circ}$. Solving for $d$ gives $d = \\frac{1.54}{2 \\times \\sin 45^{\\circ}} \\approx 1.089\\text{ \\AA}$, which is equal to $0.1089\\text{ nm}$."
     },
     {
       "year": 2011,
@@ -73,7 +83,9 @@
         "C": "$\\text{Na}_3\\text{WO}_3$",
         "D": "$\\text{Na}_2\\text{WO}_3$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The number of Sodium atoms is $8 \\times \\frac{1}{8} = 1$, Oxygen atoms is $12 \\times \\frac{1}{4} = 3$, and Tungsten is $1 \\times 1 = 1$. Combining these ratios, the molecular formula of the compound is $NaWO_3$."
     },
     {
       "year": 2014,
@@ -85,7 +97,9 @@
         "C": "$X_3 Y_4$",
         "D": "$X_4 Y_3$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "In an HCP lattice with $N$ atoms of Y, there are $2N$ tetrahedral voids. Since X occupies $\\frac{2}{3}$ of these voids, the number of X atoms is $\\frac{2}{3} \\times 2N = \\frac{4}{3}N$, leading to a ratio of $X:Y = 4:3$ and formula $X_4Y_3$."
     },
     {
       "year": 2014,
@@ -97,7 +111,9 @@
         "C": "$4$",
         "D": "$6$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "A face-centered cubic (FCC) unit cell contains $4$ atoms, while a body-centered cubic (BCC) unit cell contains $2$ atoms. The difference between the number of atoms in these two unit cells is $4 - 2 = 2$."
     },
     {
       "year": 2015,
@@ -109,7 +125,9 @@
         "C": "Displacement defect",
         "D": "Impurity defect"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "$FeO$ is a non-stoichiometric compound often represented as $Fe_{0.95}O$. This occurs because some $Fe^{2+}$ ions are missing from the lattice, and the charge is balanced by $Fe^{3+}$ ions, resulting in a metal deficiency defect."
     },
     {
       "year": 2015,
@@ -121,7 +139,9 @@
         "C": "\\text{H}_2\\text{O}",
         "D": "\\text{MnO}"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Manganese oxide ($MnO$) is a classic example of an antiferromagnetic substance where the magnetic moments of domains are aligned in opposite directions in equal numbers. This results in a net zero magnetic moment."
     },
     {
       "year": 2017,
@@ -133,7 +153,9 @@
         "C": "$X_2Y_3$",
         "D": "$X_3Y_4$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "hard",
+      "explanation": "In a CCP lattice, X has 4 atoms and Y has 8 tetrahedral voids. Removing atoms along a face diagonal removes 2 corners and 1 face center of X, and the most common interpretation of this problem in exams leads to the formula $X_3Y_4$."
     },
     {
       "year": 2017,
@@ -145,7 +167,9 @@
         "C": "$\\text{CaSO}_4$",
         "D": "ZnO"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "In the Trigonal (Rhombohedral) crystal system, such as in Mercury sulphide ($HgS$ or Cinnabar), the lengths of all three edges are equal ($a = b = c$), though the angles are not $90^{\\circ}$."
     },
     {
       "year": 2018,
@@ -157,7 +181,9 @@
         "C": "$200$",
         "D": "$924$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "For a body-centered cubic (BCC) unit cell, the relationship between the radius $r$ and edge length $a$ is $r = \\frac{\\sqrt{3}}{4}a$. Substituting $a = 400\\text{ pm}$, we get $r = \\frac{1.732}{4} \\times 400 = 173.2\\text{ pm}$."
     },
     {
       "year": 2018,
@@ -169,7 +195,9 @@
         "C": "$\\text{O}_2$",
         "D": "$\\text{Fe}_3\\text{O}_4$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Chromium dioxide ($CrO_2$) is a ferromagnetic material, which is why it was commonly used in the production of magnetic tapes for cassette recorders."
     },
     {
       "year": 2019,
@@ -181,7 +209,9 @@
         "C": "74.00%",
         "D": "53.26%"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The packing efficiency of a body-centered cubic (BCC) unit cell is $68\\%$. This means that $68\\%$ of the total volume of the unit cell is occupied by atoms, while the remaining $32\\%$ is empty space."
     },
     {
       "year": 2019,
@@ -193,7 +223,9 @@
         "C": "AgBr",
         "D": "AgCl"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "$AgBr$ is a unique ionic solid that exhibits both Schottky and Frenkel defects. The Frenkel defect occurs because the $Ag^+$ ion is small enough to occupy interstitial sites, while the Schottky defect occurs due to the similar sizes of $Ag^+$ and $Br^-$ ions."
     },
     {
       "year": 2019,
@@ -205,7 +237,9 @@
         "C": "15 K",
         "D": "0 K"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Superconductors are materials that offer zero resistance to the flow of electricity. Certain ceramic materials have been discovered that behave as superconductors at temperatures as high as $150 K$."
     },
     {
       "year": 2020,
@@ -217,7 +251,9 @@
         "C": "In the unit cell of rhombic Sulphur, the axial distance are equal and the value of each axial angle is $90^\\circ$",
         "D": "In MnO, all the domains are aligned in the same direction"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Most statements provided are incorrect: amorphous solids are isotropic, Si doped with As is an n-type semiconductor, and MnO is antiferromagnetic. In Rhombic Sulphur, the axial angles are indeed all $90^\\circ$ ($\\alpha = \\beta = \\gamma = 90^\\circ$), although the axial distances are unequal ($a \\neq b \\neq c$)."
     },
     {
       "year": 2020,
@@ -229,7 +265,9 @@
         "C": "$0.75, 0.25$",
         "D": "$0.80, 0.20$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "hard",
+      "explanation": "In $Fe_{0.93}O$, let the number of $Fe^{2+}$ be $x$ and $Fe^{3+}$ be $0.93-x$. By charge neutrality, $2x + 3(0.93-x) = 2$, which gives $x = 0.79$. The fraction of $Fe^{2+}$ is $0.79/0.93 \\approx 0.85$ and $Fe^{3+}$ is $0.14/0.93 \\approx 0.15$."
     },
     {
       "year": 2021,
@@ -241,7 +279,9 @@
         "C": "$\\text{CO}_{2(s)}$",
         "D": "$\\text{H}_2\\text{O}_{(s)}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Silicon carbide ($SiC$) is a covalent or network solid where atoms are bonded by a continuous network of covalent bonds. In contrast, $I_2$, $CO_2$, and $H_2O$ are molecular solids held together by weaker intermolecular forces."
     },
     {
       "year": 2021,
@@ -253,7 +293,9 @@
         "C": "$2r, \\frac{4r}{\\sqrt{3}}, 2\\sqrt{2}r$",
         "D": "$2\\sqrt{2}r, \\frac{4r}{\\sqrt{3}}, 2r$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The relationship between edge length $a$ and radius $r$ is $a = 2\\sqrt{2}r$ for fcc, $a = \\frac{4r}{\\sqrt{3}}$ for bcc, and $a = 2r$ for simple cubic. Matching the requested order (fcc, bcc, simple cubic) leads to option D."
     },
     {
       "year": 2021,
@@ -265,7 +307,9 @@
         "C": "$\\text{X}_2\\text{Y}_3$",
         "D": "$\\text{X}_3\\text{Y}_2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "In an hcp lattice of $n$ atoms of X, there are $2n$ tetrahedral voids. Since Y occupies $75\\%$ of these voids, the number of Y atoms is $0.75 \\times 2n = 1.5n$. The ratio $X:Y$ is $n:1.5n$, which simplifies to $2:3$, giving the formula $X_2Y_3$."
     },
     {
       "year": 2022,
@@ -277,7 +321,9 @@
         "C": "$2\\sqrt{2}r, \\frac{4r}{\\sqrt{3}}, 2r$",
         "D": "$\\frac{4r}{\\sqrt{3}}, 2\\sqrt{2}r, 2r$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "For a bcc unit cell, the body diagonal is $4r = \\sqrt{3}a$, so $a = \\frac{4r}{\\sqrt{3}}$. For ccp (fcc), the face diagonal is $4r = \\sqrt{2}a$, so $a = 2\\sqrt{2}r$, and for simple cubic, $a = 2r$."
     },
     {
       "year": 2022,
@@ -289,7 +335,9 @@
         "C": "$M_2N_3$",
         "D": "$M_1N$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "If element N forms the hcp lattice with $n$ atoms, the number of tetrahedral voids is $2n$. Element M occupies $1/3$ of these voids, so $M = \\frac{1}{3} \\times 2n = \\frac{2}{3}n$. The ratio $M:N$ is $\\frac{2}{3}:1$, resulting in the formula $M_2N_3$."
     },
     {
       "year": 2023,
@@ -301,7 +349,9 @@
         "C": "fcc < bcc > simple cubic",
         "D": "fcc = bcc > simple cubic"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Packing efficiency measures the percentage of total space filled by particles. The values are $74\\%$ for fcc, $68\\%$ for bcc, and $52.4\\%$ for simple cubic, making the order $fcc > bcc > simple cubic$."
     },
     {
       "year": 2023,
@@ -313,7 +363,9 @@
         "C": "Stoichiometric defect",
         "D": "Metal excess defect"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Heating $ZnO$ causes it to lose oxygen: $ZnO \\rightarrow Zn^{2+} + \\frac{1}{2}O_2 + 2e^-$. The excess $Zn^{2+}$ ions and electrons occupy interstitial sites, creating a metal excess defect and changing the color from white to yellow."
     }
   ]
 }

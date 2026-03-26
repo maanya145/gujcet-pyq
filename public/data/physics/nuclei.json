@@ -13,7 +13,9 @@
         "C": "$6 : 1$",
         "D": "$8 : 1$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Since the nucleus is initially at rest, momentum is conserved, meaning $m_1 v_1 = m_2 v_2$. Given that density is constant, mass is proportional to volume ($R^3$), so the mass ratio is $(1/2)^3 = 1/8$. Therefore, the velocity ratio is $v_1/v_2 = m_2/m_1 = 8/1$."
     },
     {
       "year": 2008,
@@ -25,7 +27,9 @@
         "C": "n (Neutron)",
         "D": "$\\nu$ (Neutrino)"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "In any nuclear reaction, the total mass number and atomic number must be conserved. Balancing the mass numbers gives $9 + 4 = 12 + 1$ and balancing atomic numbers gives $4 + 2 = 6 + 0$. The particle with mass number 1 and atomic number 0 is a neutron ($^1_0n$)."
     },
     {
       "year": 2009,
@@ -37,7 +41,9 @@
         "C": "$\\frac{27}{64}$",
         "D": "$\\frac{4}{3}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The radius of a nucleus is determined by the formula $R = R_0 A^{1/3}$, where $A$ is the mass number. For Aluminum ($A=27$) and Zinc ($A=64$), the ratio of their radii is $(27/64)^{1/3}$, which simplifies to $3/4$."
     },
     {
       "year": 2009,
@@ -49,7 +55,9 @@
         "C": "$6, 4$",
         "D": "$4, 6$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The change in mass number is $232 - 208 = 24$, which implies $24/4 = 6$ alpha particles were emitted. These alpha particles reduce the atomic number by $6 \\times 2 = 12$, resulting in $90 - 12 = 78$; to reach the final atomic number of 82, $4$ beta particles must be emitted."
     },
     {
       "year": 2009,
@@ -61,7 +69,9 @@
         "C": "$6 \\beta \\text{ and } 6 \\alpha$",
         "D": "$8 \\beta \\text{ and } 8 \\alpha$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The mass number decreases by $238 - 206 = 32$, corresponding to $32/4 = 8$ alpha particles. These alpha particles reduce the atomic number by $8 \\times 2 = 16$, so to reach the final atomic number of 82 from $92 - 16 = 76$, $6$ beta particles must be emitted."
     },
     {
       "year": 2009,
@@ -73,7 +83,9 @@
         "C": "Neptunium",
         "D": "Actinium"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Radioactive decay series are named based on the remainder of their mass number when divided by 4. The $4n+1$ series is known as the Neptunium series, which consists of synthetic isotopes not found naturally in large quantities."
     },
     {
       "year": 2011,
@@ -85,7 +97,9 @@
         "C": "$\\frac{I_1 - I_2}{\\tau_{1/2}}$",
         "D": "$(I_1 - I_2)\\text{ }\\tau_{1/2}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Activity is defined as $I = \\lambda N$, so the number of nuclei is $N = I/\\lambda$. The number of disintegrated nuclei is $N_1 - N_2 = (I_1 - I_2)/\\lambda$. Since the decay constant $\\lambda$ is inversely proportional to the half-life $\\tau_{1/2}$, the number of disintegrated nuclei is proportional to $(I_1 - I_2) \\tau_{1/2}$."
     },
     {
       "year": 2014,
@@ -97,7 +111,9 @@
         "C": "$\\beta^-, \\alpha, \\alpha$",
         "D": "$\\alpha, \\beta^-, \\alpha$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "In the first step, the atomic number increases by 1 while the mass number is constant, which is characteristic of $\\beta^-$ decay. In the next two steps, the mass number decreases by 4 and the atomic number decreases by 2 each time, indicating two successive $\\alpha$ decays."
     },
     {
       "year": 2014,
@@ -109,7 +125,9 @@
         "C": "$4.23$",
         "D": "$7.86$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The energy required to remove a neutron is the difference between the total binding energies of the two nuclei. Total $BE$ for $^{17}O$ is $17 \\times 7.75 = 131.75 \\text{ MeV}$ and for $^{16}O$ is $16 \\times 7.97 = 127.52 \\text{ MeV}$. The difference is $131.75 - 127.52 = 4.23 \\text{ MeV}$."
     },
     {
       "year": 2014,
@@ -121,7 +139,9 @@
         "C": "$20 \\text{ days}$",
         "D": "$40 \\text{ days}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "At time $t_1$, $2/3$ of the substance remains, and at time $t_2$, $1/3$ remains. The ratio of the remaining amounts is $(1/3) / (2/3) = 1/2$, which means the substance has halved in the interval $t_2 - t_1$. Therefore, the time interval is equal to one half-life, which is $20$ days."
     },
     {
       "year": 2015,
@@ -133,7 +153,9 @@
         "C": "71, 176",
         "D": "70, 172"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Starting with $(Z=72, A=180)$, a $\\beta^-$ emission gives $(73, 180)$, followed by an $\\alpha$ emission giving $(71, 176)$. Another $\\beta^-$ emission results in $(72, 176)$, and a final $\\alpha$ emission leads to $(70, 172)$."
     },
     {
       "year": 2015,
@@ -145,7 +167,9 @@
         "C": "10^{10}",
         "D": "2 \\times 10^{10}"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Power is energy per unit time, $P = n \\times E_{fission}$. Converting energy to Joules, $200 \\text{ MeV} = 200 \\times 1.6 \\times 10^{-13} = 3.2 \\times 10^{-11} \\text{ J}$. Thus, the number of fissions per second is $n = 6.4 / (3.2 \\times 10^{-11}) = 2 \\times 10^{11}$."
     },
     {
       "year": 2015,
@@ -157,7 +181,9 @@
         "C": "12 and 6",
         "D": "8 and 12"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The mass number decreases by $238 - 206 = 32$, requiring $32/4 = 8$ alpha particles. These alpha particles reduce the atomic number by $8 \\times 2 = 16$, so to reach the final atomic number of 82 from $92 - 16 = 76$, $6$ beta particles must be emitted."
     },
     {
       "year": 2017,
@@ -169,7 +195,9 @@
         "C": "25",
         "D": "93.75"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "After 20 minutes, which is 4 half-lives ($20/5 = 4$), the remaining quantity is $(1/2)^4 = 1/16$ of the original. This corresponds to $6.25\\%$ remaining, meaning $100\\% - 6.25\\% = 93.75\\%$ has disintegrated."
     },
     {
       "year": 2017,
@@ -181,7 +209,9 @@
         "C": "Positron",
         "D": "Electron"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "By balancing the mass numbers ($9+4 = 12+1$) and atomic numbers ($4+2 = 6+0$), the unknown particle $X$ is found to have a mass of 1 and a charge of 0. This identifies the particle as a neutron ($^1_0n$)."
     },
     {
       "year": 2018,
@@ -193,7 +223,9 @@
         "C": "$2\\text{ MeV}$",
         "D": "$20\\text{ MeV}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "In nuclear fission, the neutrons emitted are highly energetic, typically around $2\\text{ MeV}$. These are known as fast neutrons and are subsequently slowed down by moderators in a reactor to sustain a chain reaction."
     },
     {
       "year": 2018,
@@ -205,7 +237,9 @@
         "C": "$\\beta^-, \\beta^-, \\beta^-, \\alpha$",
         "D": "$\\beta^-, \\beta^-, \\alpha, \\beta^-$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "A $\\beta^-$ decay increases the atomic number $Z$ by 1 without changing the mass number $A$, while an $\\alpha$ decay decreases $A$ by 4 and $Z$ by 2. Following the sequence: $Z \\rightarrow Z+1$ ($\\beta^-$), $Z+1 \\rightarrow Z+2$ ($\\beta^-$), $Z+2 \\rightarrow Z$ and $A \\rightarrow A-4$ ($\\alpha$), and finally $Z \\rightarrow Z+1$ ($\\beta^-$)."
     },
     {
       "year": 2018,
@@ -217,7 +251,9 @@
         "C": "$1.44$",
         "D": "$0.693$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The average life $\\tau$ is related to the half-life $T_{1/2}$ by the relation $\\tau = \\frac{T_{1/2}}{\\ln 2} \\approx 1.44 T_{1/2}$. Substituting $T_{1/2} = 10\\text{ hr}$, we get $\\tau = 1.44 \\times 10 = 14.4\\text{ hr}$."
     },
     {
       "year": 2019,
@@ -229,7 +265,9 @@
         "C": "693",
         "D": "0.693"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The mean life $\\tau$ is the inverse of the decay constant $\\lambda$, whereas the half-life is $\\tau_{1/2} = \\frac{0.693}{\\lambda}$. Thus, $\\tau = \\frac{\\tau_{1/2}}{0.693} \\approx 1.44 \\tau_{1/2}$."
     },
     {
       "year": 2019,
@@ -241,7 +279,9 @@
         "C": "6",
         "D": "8"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "According to the law of conservation of mass number, the total mass number before and after the decay must be equal. So, $238 = 206 + 4x + 6(0)$, which simplifies to $4x = 32$, giving $x = 8$ alpha particles."
     },
     {
       "year": 2019,
@@ -253,7 +293,9 @@
         "C": "$\\frac{4}{3}$",
         "D": "$\\frac{64}{27}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The nuclear radius $R$ is given by $R = R_0 A^{1/3}$, where $A$ is the mass number. The ratio of the radii is $\\frac{R_1}{R_2} = (\\frac{A_1}{A_2})^{1/3} = (\\frac{64}{27})^{1/3} = \\frac{4}{3}$."
     },
     {
       "year": 2020,
@@ -265,7 +307,9 @@
         "C": "$6 \\times 10^{11}\\text{ J}$",
         "D": "$7 \\times 10^{12}\\text{ J}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Using Einstein's mass-energy relation $E = mc^2$, where $m = 1\\text{ g} = 10^{-3}\\text{ kg}$ and $c = 3 \\times 10^8\\text{ m/s}$. Calculating $E = 10^{-3} \\times (3 \\times 10^8)^2$ yields $9 \\times 10^{13}\\text{ J}$."
     },
     {
       "year": 2020,
@@ -277,7 +321,9 @@
         "C": "$\\beta^-$ decay",
         "D": "$\\gamma$ decay"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "In $\\beta^-$ decay, a neutron is transformed into a proton, an electron (beta particle), and an antineutrino. This process increases the atomic number of the nucleus by one while the mass number remains unchanged."
     },
     {
       "year": 2021,
@@ -289,7 +335,9 @@
         "C": "2",
         "D": "4"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Conservation of mass number requires the sum of mass numbers on both sides to be equal. On the left, we have $1 + 235 = 236$, and on the right, $144 + 89 + x = 236$, which gives $x = 3$ neutrons."
     },
     {
       "year": 2021,
@@ -301,7 +349,9 @@
         "C": "16 years",
         "D": "64 years"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The activity reduces to $\\frac{1}{16}$ of its initial value, which can be written as $(\\frac{1}{2})^4$, indicating that 4 half-lives have elapsed. The total time taken is $4 \\times 16\\text{ years} = 64\\text{ years}$."
     },
     {
       "year": 2021,
@@ -313,7 +363,9 @@
         "C": "2:1",
         "D": "2:3"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "For a heavy nucleus to be stable, it requires more neutrons to provide the strong nuclear force needed to overcome the electrostatic repulsion between protons. The stable $N/Z$ ratio for heavy nuclei is approximately $1.5$, which corresponds to $3:2$."
     },
     {
       "year": 2022,
@@ -325,7 +377,9 @@
         "C": "$5.75\\text{ MeV}$",
         "D": "$3.25\\text{ MeV}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The energy released is $Q = \\Delta m \\times 931.5\\text{ MeV}$, where $\\Delta m = m_U - (m_{Th} + m_{He})$. Calculating $\\Delta m = 238.05079 - (234.04363 + 4.00260) = 0.00456\\text{ u}$ gives $Q \\approx 4.25\\text{ MeV}$."
     },
     {
       "year": 2022,
@@ -337,7 +391,9 @@
         "C": "$5\\text{ T}$",
         "D": "$4\\text{ T}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "A reduction to $6.25\\%$ means the activity is $\\frac{6.25}{100} = \\frac{1}{16}$ of the original. Since $\\frac{1}{16} = (\\frac{1}{2})^4$, it takes 4 half-lives, which is $4T$ years."
     },
     {
       "year": 2022,
@@ -349,7 +405,9 @@
         "C": "$3.7 \\times 10^{14}\\text{ Bq}$",
         "D": "$5.7 \\times 10^{14}\\text{ Bq}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "hard",
+      "explanation": "The activity is $R = \\lambda N$, where $\\lambda = \\frac{0.693}{T_{1/2}}$ and $N = \\frac{m}{M} N_A$. Using $m=38\\text{ g}$ and $M=90$, the result is $\\approx 2 \\times 10^{14}\\text{ Bq}$, but using $M=38$ (atomic number) by mistake yields $4.7 \\times 10^{14}\\text{ Bq}$ (Option B)."
     },
     {
       "year": 2023,
@@ -361,7 +419,9 @@
         "C": "15 years",
         "D": "20 years"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Reducing activity to $1.5625\\%$ is equivalent to a fraction of $\\frac{1}{64}$, which is $(\\frac{1}{2})^6$, or 6 half-lives. The time required is $6 \\times 2.5 = 15\\text{ years}$, though 10 years would be the answer if the reduction were to $6.25\\%$."
     },
     {
       "year": 2023,
@@ -373,7 +433,9 @@
         "C": "$1.126 \\times 10^{-13} \\text{J}$",
         "D": "$1.632 \\times 10^{-13} \\text{J}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The energy released when an electron and its antiparticle (positron) annihilate is given by $E = 2 m_e c^2$. Using the rest mass of an electron, this energy is approximately $1.02 \\text{ MeV}$, which converts to $1.632 \\times 10^{-13} \\text{ J}$. This matches option D, which is the most likely correct answer."
     },
     {
       "year": 2023,
@@ -385,7 +447,9 @@
         "C": "$\\ln(2)$",
         "D": "$e^2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The half-life is $T_{1/2} = \\frac{\\ln 2}{\\lambda}$ and the average life is $\\tau = \\frac{1}{\\lambda}$. The ratio $\\frac{T_{1/2}}{\\tau}$ is $\\frac{\\ln 2 / \\lambda}{1 / \\lambda} = \\ln 2$, which corresponds to option C."
     },
     {
       "year": 2024,
@@ -397,7 +461,9 @@
         "C": "Isomar",
         "D": "Isobar"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Isotopes are atoms of the same element that have the same atomic number ($Z$) but different mass numbers ($A$). This difference is due to a different number of neutrons in the nucleus, making option A the correct term."
     },
     {
       "year": 2024,
@@ -409,7 +475,9 @@
         "C": "$(92, 1)$",
         "D": "$(51, 99)$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "By applying the conservation of atomic number ($Z$), we get $92 + 0 = 51 + y$, so $y = 41$. Applying the conservation of mass number ($A$), we get $235 + 1 = 133 + x + 4(1)$, giving $x = 99$. While $y=41$ matches option A, the balanced mass number $x$ should be $99$."
     },
     {
       "year": 2024,
@@ -421,7 +489,9 @@
         "C": "$2:1$",
         "D": "$1:3$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The nuclear radius is proportional to the cube root of the mass number, $R \\propto A^{1/3}$. For Hydrogen ($A=1$) and Aluminum ($A=27$), the ratio of their radii is $1^{1/3} : 27^{1/3}$, which simplifies to $1:3$."
     },
     {
       "year": 2025,
@@ -433,7 +503,9 @@
         "C": "$3.6 \\times 10^{-19} \\text{ J}$",
         "D": "$5.76 \\times 10^{-14} \\text{ J}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The potential barrier height is the electrostatic potential energy at the point where the two deuterons touch, $V = \\frac{k e^2}{r}$. With a separation $r = 2R = 4 \\text{ fm}$, the energy is $V = \\frac{9 \\times 10^9 \\times (1.6 \\times 10^{-19})^2}{4 \\times 10^{-15}} = 5.76 \\times 10^{-14} \\text{ J}$."
     },
     {
       "year": 2025,
@@ -445,7 +517,9 @@
         "C": "$_2^4\\text{He}, 22.86 \\text{ MeV}$",
         "D": "$_2^3\\text{He}, 0.42 \\text{ MeV}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The net fusion reaction in the Sun involves four protons combining to form a helium-4 nucleus ($_{2}^{4}\\text{He}$). This process releases $26.7 \\text{ MeV}$ of energy along with neutrinos and gamma rays. This makes option B the correct completion of the reaction."
     },
     {
       "year": 2025,
@@ -457,7 +531,9 @@
         "C": "$_{82}^{214}\\text{Pb}, _{83}^{214}\\text{Bi}$",
         "D": "$_6^{12}\\text{C}, _6^{14}\\text{C}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Isotones are nuclei that have the same number of neutrons, calculated as $N = A - Z$. For option A, both $_{80}^{198}\\text{Hg}$ and $_{79}^{197}\\text{Au}$ have $118$ neutrons, making them isotones. Although option C is marked, it represents isobars which have the same mass number but different neutron counts."
     }
   ]
 }

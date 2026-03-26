@@ -13,7 +13,9 @@
         "C": "10 m/s",
         "D": "5 m/s"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The distance covered in the $n^{th}$ second is given by $S_n = u + \\frac{a}{2}(2n - 1)$. Substituting the given values, we get $7.25 = u + 4.5a$ and $9.25 = u + 8.5a$. Solving these simultaneous equations yields $a = 0.5 \\text{ m/s}^2$ and $u = 5 \\text{ m/s}$, which is the initial velocity."
     },
     {
       "year": 2011,
@@ -25,7 +27,9 @@
         "C": "$5\\sqrt{10}$ m/s",
         "D": "$7\\sqrt{10}$ m/s"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Using the kinematic equation $v^2 = u^2 - 2gh$, at maximum height $H$, $u^2 = 2gH$. For $H = 50 \\text{ m}$ and $g = 9.8 \\text{ m/s}^2$, we find $u^2 = 980$. At $h = 25 \\text{ m}$, the velocity is $v = \\sqrt{u^2 - 2gh} = \\sqrt{980 - 2(9.8)(25)} = \\sqrt{490} = 7\\sqrt{10} \\text{ m/s}$."
     }
   ]
 }

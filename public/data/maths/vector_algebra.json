@@ -13,7 +13,9 @@
         "C": "$0$",
         "D": "$|\\vec{x}| |\\vec{y}|$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The given condition $\\vec{x} \\cdot \\vec{y} = |\\vec{x}| |\\vec{y}|$ implies $\\cos \\theta = 1$, so the angle $\\theta$ between the vectors is $0^\\circ$. Since the vectors are parallel, their cross product $\\vec{x} \\times \\vec{y} = |\\vec{x}| |\\vec{y}| \\sin(0^\\circ) \\hat{n}$ results in the null vector $\\vec{0}$."
     },
     {
       "year": 2006,
@@ -25,7 +27,9 @@
         "C": "0",
         "D": "1"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Given $\\vec{a} + \\vec{b} = \\vec{0}$, we have $\\vec{a} = -\\vec{b}$. The dot product is $\\vec{a} \\cdot \\vec{b} = \\vec{a} \\cdot (-\\vec{a}) = -|\\vec{a}|^2$. Since $\\vec{a}$ is a unit vector, $|\\vec{a}| = 1$, making the result $-1$."
     },
     {
       "year": 2006,
@@ -37,7 +41,9 @@
         "C": "45",
         "D": "$5\\sqrt{3}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The area of $\\Delta ABC$ is given by $\\frac{1}{2} |\\vec{AB} \\times \\vec{AC}|$. Calculating the cross product gives $-4\\vec{i} - 10\\vec{j} + 8\\vec{k}$, and its magnitude is $\\sqrt{16 + 100 + 64} = \\sqrt{180} = 6\\sqrt{5}$. Thus, the area is $\\frac{1}{2} \\times 6\\sqrt{5} = 3\\sqrt{5}$."
     },
     {
       "year": 2006,
@@ -49,7 +55,9 @@
         "C": "9",
         "D": "3"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The resultant force is the sum of the individual force vectors: $\\vec{R} = (1-3, 2+0, -1+2) = (-2, 2, 1)$. The magnitude is calculated as $|\\vec{R}| = \\sqrt{(-2)^2 + 2^2 + 1^2} = \\sqrt{9} = 3$."
     },
     {
       "year": 2008,
@@ -61,7 +69,9 @@
         "C": "$(5, 0, -5)$",
         "D": "$(-5, -5, -5)$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Using the vector triple product formula $\\vec{x} \\times (\\vec{y} \\times \\vec{z}) = (\\vec{x} \\cdot \\vec{z})\\vec{y} - (\\vec{x} \\cdot \\vec{y})\\vec{z}$, we first find the dot products $\\vec{x} \\cdot \\vec{z} = 5$ and $\\vec{x} \\cdot \\vec{y} = 5$. Substituting these gives $5(1, 2, 1) - 5(2, 1, 1) = (-5, 5, 0)$."
     },
     {
       "year": 2008,
@@ -73,7 +83,9 @@
         "C": "$(1, 0, 0)$",
         "D": "$(\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}})$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "A unit vector must have a magnitude of 1. For option D, the magnitude is $\\sqrt{(\\frac{1}{\\sqrt{2}})^2 + (\\frac{1}{\\sqrt{2}})^2 + (\\frac{1}{\\sqrt{2}})^2} = \\sqrt{\\frac{1}{2} + \\frac{1}{2} + \\frac{1}{2}} = \\sqrt{\\frac{3}{2}} \\neq 1$, so it is not a unit vector."
     },
     {
       "year": 2008,
@@ -85,7 +97,9 @@
         "C": "$2\\vec{i} - 4\\vec{k}$",
         "D": "$6\\vec{i} + 8\\vec{j} + 10\\vec{k}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "In a parallelogram $ABCD$, the diagonals bisect each other, so $\\vec{A} + \\vec{C} = \\vec{B} + \\vec{D}$. Solving for the fourth vertex, $\\vec{D} = \\vec{A} + \\vec{C} - \\vec{B} = (1+7-1, 1+9-3, 1+11-5) = (7, 7, 7)$, which is $7(\\vec{i} + \\vec{j} + \\vec{k})$."
     },
     {
       "year": 2008,
@@ -97,7 +111,9 @@
         "C": "10 units",
         "D": "None of these"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The volume of a parallelepiped with edges $\\vec{OA}, \\vec{OB}, \\vec{OC}$ is the absolute value of the scalar triple product $[\\vec{OA} \\vec{OB} \\vec{OC}]$. Evaluating the determinant of the coordinates $(4,3,1), (3,1,2), (5,2,1)$ gives $|4(1-4) - 3(3-10) + 1(6-5)| = |-12 + 21 + 1| = 10$ units."
     },
     {
       "year": 2009,
@@ -109,7 +125,9 @@
         "C": "$2(\\vec{x} \\times \\vec{y})$",
         "D": "None of them"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Expanding the cross product using the distributive law gives $\\vec{x} \\times \\vec{x} + \\vec{x} \\times \\vec{y} - \\vec{y} \\times \\vec{x} - \\vec{y} \\times \\vec{y}$. Since $\\vec{a} \\times \\vec{a} = \\vec{0}$ and $\\vec{x} \\times \\vec{y} = -(\\vec{y} \\times \\vec{x})$, the expression simplifies to $2(\\vec{x} \\times \\vec{y})$."
     },
     {
       "year": 2009,
@@ -121,7 +139,9 @@
         "C": "$|\\vec{x} + \\vec{y}| = 1$",
         "D": "$|\\vec{x} + \\vec{y}| = 2$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Using the identity $|\\vec{x} + \\vec{y}|^2 = |\\vec{x}|^2 + |\\vec{y}|^2 + 2(\\vec{x} \\cdot \\vec{y})$, we substitute the given values. Since $|\\vec{x}| = 1, |\\vec{y}| = 1$ and $\\vec{x} \\cdot \\vec{y} = 0$, we get $|\\vec{x} + \\vec{y}|^2 = 1 + 1 + 0 = 2$, so $|\\vec{x} + \\vec{y}| = \\sqrt{2}$."
     },
     {
       "year": 2009,
@@ -133,7 +153,9 @@
         "C": "$12$",
         "D": "$4$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The magnitude of the projection of $\\vec{a}$ on $\\vec{b}$ is $|\\vec{a}| |\\cos \\theta|$. Given the projection is $6/\\sqrt{3} = 2\\sqrt{3}$ and $\\theta = 5\\pi/6$, we have $|\\vec{a}| |\\cos(150^\\circ)| = 2\\sqrt{3}$, which simplifies to $|\\vec{a}| (\\sqrt{3}/2) = 2\\sqrt{3}$, resulting in $|\\vec{a}| = 4$ (Note: if the answer is C, there may be a typo in the question's projection value)."
     },
     {
       "year": 2009,
@@ -145,7 +167,9 @@
         "C": "$4$",
         "D": "None of them"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "First, find vectors $\\vec{AB} = (1, 2, 3)$ and $\\vec{AC} = (0, 2, 2)$. The area is $\\frac{1}{2} |\\vec{AB} \\times \\vec{AC}| = \\frac{1}{2} |(-2, -2, 2)| = \\frac{1}{2} \\sqrt{4+4+4} = \\sqrt{3}$. If the intended answer is $\\sqrt{3}/2$, the coordinates in the problem may differ from standard versions."
     },
     {
       "year": 2011,
@@ -157,7 +181,9 @@
         "C": "$3\\vec{i} - 4\\vec{j} + 12\\vec{k}$",
         "D": "$3\\vec{i} - 4\\vec{j} - 12\\vec{k}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "A vector $\\vec{x}$ can be expressed as $|\\vec{x}|(l\\vec{i} + m\\vec{j} + n\\vec{k})$ where $l, m, n$ are direction cosines. Here, $\\vec{x} = 13(\\frac{3}{13}\\vec{i} + \\frac{4}{13}\\vec{j} + \\frac{12}{13}\\vec{k}) = 3\\vec{i} + 4\\vec{j} + 12\\vec{k}$."
     },
     {
       "year": 2011,
@@ -169,7 +195,9 @@
         "C": "$(-\\sin \\alpha, \\cos \\alpha)$",
         "D": "$(\\cos \\alpha, \\sin \\alpha)$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Two vectors are orthogonal if their dot product is zero. The dot product of $(\\cos \\alpha, \\sin \\alpha)$ and $(-\\sin \\alpha, \\cos \\alpha)$ is $-\\cos \\alpha \\sin \\alpha + \n\\sin \\alpha \\cos \\alpha = 0$, and the latter is also a unit vector."
     },
     {
       "year": 2011,
@@ -181,7 +209,9 @@
         "C": "$-3\\sqrt{2}$",
         "D": "$-2\\sqrt{3}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The scalar component of $\\vec{a}$ on $\\vec{b}$ is given by the formula $\\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|}$. Calculating $\\vec{a} \\cdot \\vec{b} = 3(1) + 4(1) + 1(-1) = 6$ and $|\\vec{b}| = \\sqrt{1^2 + 1^2 + (-1)^2} = \\sqrt{3}$, the component is $6/\\sqrt{3} = 2\\sqrt{3}$."
     },
     {
       "year": 2011,
@@ -193,7 +223,9 @@
         "C": "$(-13, 14, 15)$",
         "D": "$(-13, -14, 15)$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Using the section formula for external division with ratio $m:n = -3:2$, the coordinates are given by $\\frac{m\\vec{b} + n\\vec{a}}{m+n}$. Substituting the values, we get $\\frac{-3(5, 6, 7) + 2(1, 2, 3)}{-3 + 2} = \\frac{(-15, -18, -21) + (2, 4, 6)}{-1}$, which simplifies to $(13, 14, 15)$."
     },
     {
       "year": 2017,
@@ -205,7 +237,9 @@
         "C": "$\\frac{\\pi}{3}$",
         "D": "$\\frac{5\\pi}{6}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "From $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$, we have $\\vec{a} + \\vec{b} = -\\vec{c}$. Squaring both sides gives $|\\vec{a}|^2 + |\\vec{b}|^2 + 2|\\vec{a}||\\vec{b}|\\cos \\alpha = |\\vec{c}|^2$. Substituting the magnitudes, $3^2 + 5^2 + 2(3)(5)\\cos \\alpha = 7^2$ leads to $30\\cos \\alpha = 15$, so $\\cos \\alpha = 1/2$ and $\\alpha = \\pi/3$."
     },
     {
       "year": 2017,
@@ -217,7 +251,9 @@
         "C": "$(1, -1, 1)$",
         "D": "$(2, -2, 2)$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The projection vector of $\\vec{AB}$ on $\\vec{CD}$ is calculated as $\\left(\\frac{\\vec{AB} \\cdot \\vec{CD}}{|\\vec{CD}|^2}\\right)\\vec{CD}$. Here $\\vec{AB} = (4, 1, 3)$ and $\\vec{CD} = (1, -1, 1)$, so the dot product is $4-1+3=6$ and $|\\vec{CD}|^2=3$. The result is $\\frac{6}{3}(1, -1, 1) = (2, -2, 2)$."
     },
     {
       "year": 2018,
@@ -229,7 +265,9 @@
         "C": "2",
         "D": "3"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "For any vector $\\vec{a} = (x, y, z)$, $|\\vec{a} \\times \\hat{i}|^2 = y^2 + z^2$, $|\\vec{a} \\times \\hat{j}|^2 = x^2 + z^2$, and $|\\vec{a} \\times \\hat{k}|^2 = x^2 + y^2$. The sum is $2(x^2 + y^2 + z^2) = 2|\\vec{a}|^2$. Since $\\vec{a}$ is a unit vector, $|\\vec{a}| = 1$, so the sum is $2(1) = 2$."
     },
     {
       "year": 2018,
@@ -241,7 +279,9 @@
         "C": "$\\cos^{-1}(1/3)$",
         "D": "$\\cos^{-1}(2/7)$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Since the vectors are perpendicular, their dot product is zero: $(\\vec{a} + 2\\vec{b}) \\cdot (5\\vec{a} - 4\\vec{b}) = 0$. Expanding this gives $5|\\vec{a}|^2 + 6(\\vec{a} \\cdot \\vec{b}) - 8|\\vec{b}|^2 = 0$. Using $|\\vec{a}| = |\\vec{b}| = 1$, we get $5 + 6\\cos \\theta - 8 = 0$, which implies $\\cos \\theta = 1/2$, so $\\theta = \\pi/3$."
     },
     {
       "year": 2019,
@@ -253,7 +293,9 @@
         "C": "$\\sqrt{3}$",
         "D": "$3$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Using the parallelogram identity $|\\vec{x}+\\vec{y}|^2 + |\\vec{x}-\\vec{y}|^2 = 2(|\\vec{x}|^2 + |\\vec{y}|^2)$, we substitute the given values to get $1^2 + |\\vec{x}-\\vec{y}|^2 = 2(1^2 + 1^2)$. This simplifies to $1 + |\\vec{x}-\\vec{y}|^2 = 4$, hence $|\\vec{x}-\\vec{y}|^2 = 3$ and $|\\vec{x}-\\vec{y}| = \\sqrt{3}$."
     },
     {
       "year": 2019,
@@ -265,7 +307,9 @@
         "C": "$\\sqrt{35}$",
         "D": "$2\\sqrt{10}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "First, find $\\vec{x} = 6 \\frac{(2, 2, -1)}{3} = (4, 4, -2)$ and $\\vec{y} = \\sqrt{3} \\frac{(1, 1, -1)}{\\sqrt{3}} = (1, 1, -1)$. Then $\\vec{x} + 2\\vec{y} = (4+2, 4+2, -2-2) = (6, 6, -4)$. The magnitude is $\\sqrt{6^2 + 6^2 + (-4)^2} = \\sqrt{88} = 2\\sqrt{22}$, though the marked answer $2\\sqrt{10}$ suggests a sign variation in the source vectors."
     },
     {
       "year": 2019,
@@ -277,7 +321,9 @@
         "C": "$18$",
         "D": "$\\frac{3}{4}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The area of a parallelogram is given by $|\\vec{a}||\\vec{b}|\\sin \\theta$. Here $|\\vec{a}| = \\sqrt{2^2 + (-2)^2 + 1^2} = 3$ and $|\\vec{b}| = 2|\\vec{a}| = 6$. Substituting these into the formula, Area $= 3 \\times 6 \\times \\sin(\\pi/6) = 18 \\times (1/2) = 9$."
     },
     {
       "year": 2020,
@@ -289,7 +335,9 @@
         "C": "27",
         "D": "36"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The identity $|\\vec{a} \\times \\hat{i}|^2 + |\\vec{a} \\times \\hat{j}|^2 + |\\vec{a} \\times \\hat{k}|^2 = 2|\\vec{a}|^2$ is used here. Given $|\\vec{a}| = 3$, the value is $2(3^2) = 2 \\times 9 = 18$."
     },
     {
       "year": 2020,
@@ -301,7 +349,9 @@
         "C": "-2",
         "D": "3"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Perpendicularity implies the dot product is zero: $\\vec{a} \\cdot (\\lambda \\vec{b} + \\vec{c}) = 0$, which means $\\lambda(\\vec{a} \\cdot \\vec{b}) + \\vec{a} \\cdot \\vec{c} = 0$. Calculating $\\vec{a} \\cdot \\vec{b} = -1$ and $\\vec{a} \\cdot \\vec{c} = -2$, we solve $\\lambda(-1) - 2 = 0$ to find $\\lambda = -2$."
     },
     {
       "year": 2020,
@@ -313,7 +363,9 @@
         "C": "$-\\frac{9}{2}$",
         "D": "$-\\frac{29}{2}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Squaring $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$ gives $|\\vec{a}|^2 + |\\vec{b}|^2 + |\\vec{c}|^2 + 2(\\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{c} + \\vec{c} \\cdot \\vec{a}) = 0$. Substituting the magnitudes $3^2 + 4^2 + 2^2 + 2S = 0$ results in $29 + 2S = 0$, so $S = -29/2$."
     },
     {
       "year": 2021,
@@ -325,7 +377,9 @@
         "C": "$0$",
         "D": "$-1$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The sum of the vectors is $\\vec{a} + \\vec{b} = 4\\hat{i} + 3\\hat{j} - 2\\hat{k}$. The unit vector $\\vec{c}$ in this direction is $\\frac{\\vec{a} + \\vec{b}}{|\\vec{a} + \\vec{b}|} = \\frac{4\\hat{i} + 3\\hat{j} - 2\\hat{k}}{\\sqrt{4^2 + 3^2 + (-2)^2}} = \\frac{4}{\\sqrt{29}}\\hat{i} + \\frac{3}{\\sqrt{29}}\\hat{j} - \\frac{2}{\\sqrt{29}}\\hat{k}$."
     },
     {
       "year": 2021,
@@ -337,7 +391,9 @@
         "C": "$\\frac{\\pi}{4}$",
         "D": "$\\frac{\\pi}{2}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The magnitude of the cross product is $|\\vec{a} \\times \\vec{b}| = |\\vec{a}||\\vec{b}|\\sin \\theta$. Since $\\vec{a} \\times \\vec{b}$ is a unit vector, $1 = 3 \\times \\frac{\\sqrt{2}}{3} \\times \\sin \\theta$, which simplifies to $\\sin \\theta = 1/\\sqrt{2}$, giving $\\theta = \\pi/4$."
     },
     {
       "year": 2021,
@@ -349,7 +405,9 @@
         "C": "$\\frac{15}{\\sqrt{2}}$",
         "D": "$\\frac{15}{2}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The area of a parallelogram is $|\\vec{a} \\times \\vec{b}|$. Calculating the cross product gives $20\\hat{i} + 5\\hat{j} - 5\\hat{k}$, and its magnitude is $\\sqrt{20^2 + 5^2 + (-5)^2} = \\sqrt{450} = 15\\sqrt{2}$. Note: If the answer is $15/2$, it refers to the area of the triangle formed by these vectors."
     },
     {
       "year": 2022,
@@ -361,7 +419,9 @@
         "C": "$5$",
         "D": "$\\frac{5}{3}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "For vectors to be coplanar, their scalar triple product (determinant) must be zero. Solving $\\begin{vmatrix} 1 & -1 & 1 \\\\ 3 & 1 & 2 \\\\ 1 & \\lambda & -3 \\end{vmatrix} = 0$ gives $1(-3-2\\lambda) + 1(-9-2) + 1(3\\lambda-1) = 0$, which simplifies to $\\lambda - 15 = 0$, so $\\lambda = 15$."
     },
     {
       "year": 2022,
@@ -373,7 +433,9 @@
         "C": "$\\frac{\\pi}{3}$",
         "D": "$\\frac{\\pi}{6}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Using the formula for the magnitude of the cross product, $|\\vec{a} \\times \\vec{b}| = |\\vec{a}| |\\vec{b}| \\sin \\theta$, we substitute the given values: $1 = 3 \\cdot \\frac{\\sqrt{2}}{3} \\sin \\theta$. This simplifies to $\\sin \\theta = \\frac{1}{\\sqrt{2}}$, which gives $\\theta = \\frac{\\pi}{4}$."
     },
     {
       "year": 2022,
@@ -385,7 +447,9 @@
         "C": "$\\frac{1}{2}$",
         "D": "$-\\frac{3}{2}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Since $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$, we have $|\\vec{a} + \\vec{b} + \\vec{c}|^2 = 0$. Expanding this gives $|\\vec{a}|^2 + |\\vec{b}|^2 + |\\vec{c}|^2 + 2(\\vec{a} \\cdot \\vec{b} + \\vec{b} \\cdot \\vec{c} + \\vec{c} \\cdot \\vec{a}) = 0$. Substituting $1$ for the magnitudes of unit vectors, we get $3 + 2x = 0$, so $x = -\\frac{3}{2}$."
     },
     {
       "year": 2023,
@@ -397,7 +461,9 @@
         "C": "$|\\vec{a}|^2$",
         "D": "$3|\\vec{a}|^2$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Let $\\vec{a} = x\\hat{i} + y\\hat{j} + z\\hat{k}$. Then $|\\vec{a} \\times \\hat{i}|^2 = |z\\hat{j} - y\\hat{k}|^2 = y^2 + z^2$. Summing the three similar terms gives $(y^2 + z^2) + (x^2 + z^2) + (x^2 + y^2) = 2(x^2 + y^2 + z^2) = 2|\\vec{a}|^2$."
     },
     {
       "year": 2023,
@@ -409,7 +475,9 @@
         "C": "$5$",
         "D": "$-5$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The expression $(\\vec{a} + \\vec{b}) \\cdot (\\vec{a} - \\vec{b})$ simplifies to $|\\vec{a}|^2 - |\\vec{b}|^2$. Calculating the magnitudes, $|\\vec{a}|^2 = 1^2 + 1^2 + 1^2 = 3$ and $|\\vec{b}|^2 = 1^2 + 2^2 + 3^2 = 14$. Thus, the result is $3 - 14 = -11$."
     },
     {
       "year": 2023,
@@ -421,7 +489,9 @@
         "C": "$\\pi/6$",
         "D": "$\\pi/4$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Given $|\\vec{a} \\times \\vec{b}| = 1$, we use $|\\vec{a} \\times \\vec{b}| = |\\vec{a}| |\\vec{b}| \\sin \\theta$. Substituting the values, $1 = 3 \\cdot \\frac{\\sqrt{2}}{3} \\sin \\theta$, which leads to $\\sin \\theta = \\frac{1}{\\sqrt{2}}$, hence $\\theta = \\pi/4$."
     },
     {
       "year": 2024,
@@ -433,7 +503,9 @@
         "C": "$\\sin^{-1}\\frac{1}{3}$",
         "D": "$\\sin^{-1}-\\frac{1}{3}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The angle $\\theta$ is found using $\\cos \\theta = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}| |\\vec{b}|}$. Here, $\\vec{a} \\cdot \\vec{b} = (1)(1) + (-1)(1) + (1)(-1) = -1$, and $|\\vec{a}| = |\\vec{b}| = \\sqrt{3}$. Thus, $\\cos \\theta = -1/3$, so $\\theta = \\cos^{-1}(-1/3)$."
     },
     {
       "year": 2024,
@@ -445,7 +517,9 @@
         "C": "$24$",
         "D": "$2\\sqrt{3}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The area of a parallelogram with adjacent sides $\\vec{a}$ and $\\vec{b}$ is $|\\vec{a} \\times \\vec{b}|$. Calculating the cross product gives $\\vec{a} \\times \\vec{b} = -2\\hat{i} + 4\\hat{j} - 2\\hat{k}$. The magnitude is $\\sqrt{(-2)^2 + 4^2 + (-2)^2} = \\sqrt{24} = 2\\sqrt{6}$."
     },
     {
       "year": 2024,
@@ -457,7 +531,9 @@
         "C": "$\\sin^{-1}\\frac{1}{3}$",
         "D": "$\\cos^{-1}\\frac{1}{3}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Evaluating each term: $\\hat{j} \\cdot (\\hat{i} \\times \\hat{k}) = -1$, $\\hat{i} \\cdot (\\hat{j} \\times \\hat{k}) = 1$, $\\hat{k} \\cdot (\\hat{j} \\times \\hat{i}) = -1$, and $\\hat{i} \\cdot (\\hat{k} \\times \\hat{j}) = -1$. Summing these gives $-1 + 1 - 1 - 1 = -2$. Note: The provided answer C (-3) likely assumes a different sign for the second term."
     },
     {
       "year": 2024,
@@ -469,7 +545,9 @@
         "C": "-3",
         "D": "-4"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Evaluating each term: $\\hat{j} \\cdot (\\hat{i} \\times \\hat{k}) = -1$, $\\hat{i} \\cdot (\\hat{j} \\times \\hat{k}) = 1$, $\\hat{k} \\cdot (\\hat{j} \\times \\hat{i}) = -1$, and $\\hat{i} \\cdot (\\hat{k} \\times \\hat{j}) = -1$. Summing these gives $-1 + 1 - 1 - 1 = -2$. Note: The provided answer C (-3) likely assumes a different sign for the second term."
     },
     {
       "year": 2024,
@@ -481,7 +559,9 @@
         "C": "24",
         "D": "$2\\sqrt{6}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The area is the magnitude of the cross product $\\vec{a} \\times \\vec{b}$. Computing the determinant for $\\vec{a} = (2, 3, 4)$ and $\\vec{b} = (0, -1, -2)$ yields $(-2, 4, -2)$. The magnitude is $\\sqrt{4 + 16 + 4} = \\sqrt{24} = 2\\sqrt{6}$."
     },
     {
       "year": 2024,
@@ -493,7 +573,9 @@
         "C": "-3",
         "D": "-1"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Evaluating the terms: $\\hat{j} \\cdot (-\\hat{j}) = -1$, $\\hat{i} \\cdot (\\vec{0}) = 0$, $\\hat{k} \\cdot (-\\hat{k}) = -1$, and $\\hat{i} \\cdot (-\\hat{i}) = -1$. The sum is $-1 + 0 - 1 - 1 = -3$. Note: The provided answer B (-2) suggests a swap with the previous question's key."
     },
     {
       "year": 2025,
@@ -505,7 +587,9 @@
         "C": "-1",
         "D": "0"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "We evaluate each scalar triple product: $\\hat{i} \\cdot (-\\hat{i}) = -1$, $\\hat{j} \\cdot (-\\hat{j}) = -1$, and $\\hat{k} \\cdot (\\hat{k}) = 1$. Adding these results in $-1 - 1 + 1 = -1$."
     },
     {
       "year": 2025,
@@ -517,7 +601,9 @@
         "C": "$\\frac{1}{\\sqrt{12}}\\hat{i} + \\frac{2}{\\sqrt{12}}\\hat{j} - \\frac{1}{\\sqrt{12}}\\hat{k}$",
         "D": "$\\frac{1}{\\sqrt{6}}\\hat{i} + \\frac{2}{\\sqrt{6}}\\hat{j} + \\frac{1}{\\sqrt{6}}\\hat{k}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "A vector perpendicular to $(\\vec{a}+\\vec{b})$ and $(\\vec{a}-\\vec{b})$ is $(\\vec{a}+\\vec{b}) \\times (\\vec{a}-\\vec{b}) = -2(\\vec{a} \\times \\vec{b})$. Calculating $\\vec{a} \\times \\vec{b} = \\hat{i} - 2\\hat{j} + \\hat{k}$, the unit vector is $\\pm \\frac{1}{\\sqrt{6}}(-\\hat{i} + 2\\hat{j} - \\hat{k})$. Option B is the marked answer despite a likely typo in the denominator."
     },
     {
       "year": 2025,
@@ -529,7 +615,9 @@
         "C": "2",
         "D": "1/2"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The vertices form a rectangle in the $z=4$ plane. The length of side $AB$ is $\\sqrt{(1 - (-1))^2} = 2$ and the width of side $BC$ is $\\sqrt{(-0.5 - 0.5)^2} = 1$. The area is $length \\times width = 2 \\times 1 = 2$."
     }
   ]
 }

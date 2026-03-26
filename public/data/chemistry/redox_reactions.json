@@ -13,7 +13,9 @@
         "C": "130.8",
         "D": "252"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The reaction of $Zn$ with concentrated $HNO_3$ is $Zn + 4HNO_3 \\rightarrow Zn(NO_3)_2 + 2NO_2 + 2H_2O$. In this redox process, 1 mole of $Zn$ ($65.4$ g) causes the reduction of 2 moles of $HNO_3$ to $NO_2$, while the remaining 2 moles of $HNO_3$ act as an acid. Since the molar mass of $HNO_3$ is $63 \\text{ g/mol}$, the mass of the oxidizing agent reduced is $2 \\times 63 = 126 \\text{ g}$."
     }
   ]
 }

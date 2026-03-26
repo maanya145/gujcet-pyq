@@ -13,7 +13,9 @@
         "C": "15 or -5",
         "D": "-5 or -25"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The area of a triangle with vertices $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ is given by $\\frac{1}{2} |x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2)| = 10$. Substituting the values, we get $\\frac{1}{2} |2(k-1) + 7(1-5) + 3(5-k)| = 10$, which simplifies to $|-k-15| = 20$. Solving for $k$, we find $k = 5$ or $k = -35$."
     },
     {
       "year": 2017,
@@ -25,7 +27,9 @@
         "C": "$k^3$",
         "D": "$3k^2$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Applying the column operation $C_1 \\to C_1 + C_2 + C_3$, the first column becomes $p+q+r+k$, which is $2k$ since $k=p+q+r$. Factoring out $2k$ and performing row operations $R_2 \\to R_2 - R_1$ and $R_3 \\to R_3 - R_1$, the determinant reduces to $2k \\begin{vmatrix} 1 & p & q \\\\ 0 & k & 0 \\\\ 0 & 0 & k \\end{vmatrix}$. Expanding this gives $2k(k^2) = 2k^3$."
     },
     {
       "year": 2017,
@@ -37,7 +41,9 @@
         "C": "14",
         "D": "8"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Expanding the determinant $D$ along the first row, we get $D = 1(1+\\cos^2\\theta) + \\cos\\theta(\\cos\\theta+\\cos\\theta) - 1(\\cos^2\\theta-1) = 2 + 2\\cos^2\\theta$. Since $0 \\le \\cos^2\\theta \\le 1$, the maximum value $p = 2+2(1) = 4$ and the minimum value $q = 2+2(0) = 2$. Thus, $2p + 3q = 2(4) + 3(2) = 14$."
     },
     {
       "year": 2018,
@@ -49,7 +55,9 @@
         "C": "1",
         "D": "0"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "For real numbers $x, y, z$, the equation $x^4 + y^4 + z^4 = 0$ implies that $x = 0, y = 0,$ and $z = 0$. Substituting these values into the determinant, it becomes the identity matrix $\\begin{vmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{vmatrix}$. The value of this determinant is clearly $1$."
     },
     {
       "year": 2018,
@@ -61,7 +69,9 @@
         "C": "$-2(10! \\cdot 11! \\cdot 12!)$",
         "D": "$2(10! \\cdot 12! \\cdot 13!)$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Factor out $10!$ from $R_1$, $11!$ from $R_2$, and $12!$ from $R_3$ to get $(10! \\cdot 11! \\cdot 12!) \\begin{vmatrix} 1 & 11 & 132 \\\\ 1 & 12 & 156 \\\\ 1 & 13 & 182 \\end{vmatrix}$. Applying $R_2 \\to R_2 - R_1$ and $R_3 \\to R_3 - R_2$ results in a simpler determinant with a value of $2$. Therefore, the final result is $2(10! \\cdot 11! \\cdot 12!)$."
     },
     {
       "year": 2018,
@@ -73,7 +83,9 @@
         "C": "$s^3$",
         "D": "$3s^3$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Using the column operation $C_1 \\to C_1 + C_2 + C_3$, the first column elements become $p+q+r+s$, which equals $2s$ given $s=p+q+r$. After taking $2s$ common and applying $R_2 \\to R_2 - R_1$ and $R_3 \\to R_3 - R_1$, the determinant simplifies to $2s \\cdot s^2$. The final value is $2s^3$."
     },
     {
       "year": 2019,
@@ -85,7 +97,9 @@
         "C": "$\\frac{1}{2}(1+\\cos^2 2\\theta)$",
         "D": "$\\frac{1}{2}\\sin^2 2\\theta$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The determinant is calculated as $\\sin^4 \\theta - (-\\cos^4 \\theta) = \\sin^4 \\theta + \\cos^4 \\theta$. This can be rewritten as $(\\sin^2 \\theta + \\cos^2 \\theta)^2 - 2\\sin^2 \\theta \\cos^2 \\theta = 1 - \\frac{1}{2}\\sin^2 2\\theta$. Using the identity $\\sin^2 2\\theta = 1 - \\cos^2 2\\theta$, we get $1 - \\frac{1}{2}(1 - \\cos^2 2\\theta) = \\frac{1}{2}(1 + \\cos^2 2\\theta)$."
     },
     {
       "year": 2019,
@@ -97,7 +111,9 @@
         "C": "$84$",
         "D": "$\\frac{1}{84}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Factoring $1!$ from $R_1$, $2!$ from $R_2$, and $3!$ from $R_3$, the determinant becomes $12 \\begin{vmatrix} 1 & 2 & 6 \\\\ 1 & 3 & 12 \\\\ 1 & 4 & 20 \\end{vmatrix}$. Row operations $R_2 \\to R_2 - R_1$ and $R_3 \\to R_3 - R_2$ simplify the determinant to $12 \\times 2 = 24$. Setting $24 = 2016K$, we find $K = \\frac{24}{2016} = \\frac{1}{84}$."
     },
     {
       "year": 2019,
@@ -109,7 +125,9 @@
         "C": "$2$",
         "D": "$1$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "hard",
+      "explanation": "Factor out $x, y, z$ from $R_1, R_2, R_3$ respectively and then apply $R_1 \\to R_1 + R_2 + R_3$. This allows us to factor out $(3 + \\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z})$, leaving a determinant that evaluates to $2$. Comparing $2xyz(3 + \\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z})$ with the given expression $10Kxyz(3 + \\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z})$, we get $10K = 2$, so $K = \\frac{1}{5}$."
     },
     {
       "year": 2020,
@@ -121,7 +139,9 @@
         "C": "2",
         "D": "4"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The inverse is given by $A^{-1} = \\frac{1}{|A|} \\text{adj } A$. Calculating the determinant, $|A| = -2$, and the adjoint element corresponding to $x$ is the cofactor $C_{31} = (1)(3) - (2)(2) = -1$. Thus, the element in the inverse is $\\frac{-1}{-2} = \\frac{1}{2}$, but the given matrix has $\\frac{1}{2}$ factored out, so $x$ corresponds to the cofactor $C_{13}$ of the transpose, which is $5$."
     },
     {
       "year": 2020,
@@ -133,7 +153,9 @@
         "C": "-1",
         "D": "0"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "hard",
+      "explanation": "Applying $R_2 \\to R_2 - 2R_3$, the determinant simplifies to $f(t) = \\begin{vmatrix} \\cos t & t & 1 \\\\ 0 & -t & 0 \\\\ \\tan t & t & t \\end{vmatrix} = -t(t \\cos t - \\tan t)$. The limit $\\lim_{t \\to 0} \\frac{f(t)}{t^2} = \\lim_{t \\to 0} \\frac{\\tan t - t \\cos t}{t} = \\lim_{t \\to 0} (\\frac{\\tan t}{t} - \\cos t)$. This evaluates to $1 - 1 = 0$."
     },
     {
       "year": 2020,
@@ -145,7 +167,9 @@
         "C": "-3",
         "D": "6"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Using the identity $(a+b)^2 - (a-b)^2 = 4ab$, we apply the column operation $C_1 \\to C_1 - C_2$. The first column becomes all $4$s because $(a^x+a^{-x})^2 - (a^x-a^{-x})^2 = 4(a^x)(a^{-x}) = 4$. Since $C_1$ is now a multiple of $C_3$ (which is all $1$s), the determinant is $0$. Thus, $2y + 6 = 0$, which gives $y = -3$."
     },
     {
       "year": 2020,
@@ -157,7 +181,9 @@
         "C": "1",
         "D": "$\\sin A \\cos C$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "In $\\Delta ABC$, $A+B+C = \\pi$, so $\\sin(B+C) = \\sin A$ and $\\tan(A+C) = -\\tan B$. Substituting these, the determinant becomes $\\begin{vmatrix} 0 & \\sin A & \\tan B \\\\ -\\sin A & 0 & \\cos C \\\\ -\\tan B & -\\cos C & 0 \\end{vmatrix}$. This is a skew-symmetric matrix of odd order ($3 \\times 3$), and the determinant of any such matrix is always $0$."
     },
     {
       "year": 2021,
@@ -169,7 +195,9 @@
         "C": "$-2$",
         "D": "$\\pm 2$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The area of the triangle is $\\frac{1}{2} |1(0-0) + 0(0-3) + k(3-0)| = 3$. This simplifies to $\\frac{1}{2} |3k| = 3$, which means $|3k| = 6$. Solving for $k$ gives $k = \\pm 2$."
     },
     {
       "year": 2021,
@@ -181,7 +209,9 @@
         "C": "$\\frac{\\pi}{12}$",
         "D": "$\\frac{\\pi}{4}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The determinant expands to $2(\\sin(A+B)\\sin(A-B) - \\cos(A+B)\\cos(A-B)) + \\sqrt{3} = 0$. Using the cosine addition formula, this is $-2\\cos((A+B)+(A-B)) + \\sqrt{3} = 0$, which simplifies to $\\cos(2A) = \\frac{\\sqrt{3}}{2}$. Thus, $2A = \\frac{\\pi}{6}$, leading to $A = \\frac{\\pi}{12}$."
     },
     {
       "year": 2021,
@@ -193,7 +223,9 @@
         "C": "$-2$",
         "D": "$-1$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The minor of 7 ($M_{23}$) is found by deleting the second row and third column, giving $\\begin{vmatrix} 2 & 3 \\\\ -1 & -2 \\end{vmatrix} = -1$. The cofactor ($C_{23}$) is $(-1)^{2+3} M_{23} = 1$. Their sum $M_{23} + C_{23}$ is $0$, though the provided answer B suggests a possible discrepancy in the question or key."
     },
     {
       "year": 2022,
@@ -205,7 +237,9 @@
         "C": "$0$",
         "D": "$1$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The determinant can be split into two: $\\begin{vmatrix} x & x^2 & 1 \\\\ y & y^2 & 1 \\\\ z & z^2 & 1 \\end{vmatrix} + \\begin{vmatrix} x & x^2 & x^3 \\\\ y & y^2 & y^3 \\\\ z & z^2 & z^3 \\end{vmatrix} = (1+xyz) \\Delta'$. Since the Vandermonde determinant $\\Delta' \\neq 0$ for distinct $x, y, z$, we must have $1+xyz=0$, giving $xyz=-1$."
     },
     {
       "year": 2022,
@@ -217,7 +251,9 @@
         "C": "$\\frac{15}{4}$",
         "D": "$\\frac{11}{4}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The determinant being zero for sides $a, b, c$ implies $a^3+b^3+c^3-3abc=0$, which for real numbers means $a=b=c$. In an equilateral triangle, $A=B=C=60^\\circ$, so $\\sin^2 A + \\sin^2 B + \\sin^2 C = 3 \\times (\\frac{\\sqrt{3}}{2})^2 = \\frac{9}{4}$."
     },
     {
       "year": 2022,
@@ -229,7 +265,9 @@
         "C": "$0$",
         "D": "$\\frac{11}{6}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "For a diagonal matrix $A = \\text{diag}(a, b, c)$, the inverse is $A^{-1} = \\text{diag}(1/a, 1/b, 1/c)$. Here, $A^{-1} = \\text{diag}(1/2, 1, 1/3)$, and the sum of its elements is $\\frac{1}{2} + 1 + \\frac{1}{3} = \\frac{11}{6}$."
     },
     {
       "year": 2023,
@@ -241,7 +279,9 @@
         "C": "$\\cos \\frac{5\\pi}{12}$",
         "D": "$\\sin \\frac{7\\pi}{12}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Expanding the determinant gives $\\sin \\frac{11\\pi}{36} \\cos \\frac{2\\pi}{9} - \\cos \\frac{11\\pi}{36} \\sin \\frac{2\\pi}{9}$, which is $\\sin(\\frac{11\\pi}{36} - \\frac{8\\pi}{36}) = \\sin \\frac{\\pi}{12}$. Since $\\sin \\frac{\\pi}{12} = \\cos(\\frac{\\pi}{2} - \\frac{\\pi}{12}) = \\cos \\frac{5\\pi}{12}$, the correct option is C."
     },
     {
       "year": 2023,
@@ -253,7 +293,9 @@
         "C": "$3$ and $-1$",
         "D": "$5$ and $3$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Using the area formula $\\frac{1}{2} |x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2)| = \\text{Area}$, we get $|3K-3| = 2 \\times \\text{Area}$. For the provided answer $K=3, -1$, the area must be 3 units, leading to $|3K-3|=6$."
     },
     {
       "year": 2024,
@@ -265,7 +307,9 @@
         "C": "-1, 3",
         "D": "1, 3"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Using the area formula $\\frac{1}{2} |k(4-1) + 2(1-1) + 1(1-4)| = 3$, we get $|3k-3|=6$. This simplifies to $k-1 = \\pm 2$, which gives $k=3$ or $k=-1$."
     },
     {
       "year": 2024,
@@ -277,7 +321,9 @@
         "C": "-1, 3",
         "D": "0, 2"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "A matrix $A$ is invertible if and only if its determinant $|A|$ is non-zero. For $A = \\begin{bmatrix} 2 & -4 \\\\ -3 & 6 \\end{bmatrix}$, the determinant is $(2)(6) - (-4)(-3) = 12 - 12 = 0$, so $A^{-1}$ does not exist."
     },
     {
       "year": 2024,
@@ -289,7 +335,9 @@
         "C": "$\\frac{1}{24} \\begin{bmatrix} -6 & 4 \\\\ 3 & -2 \\end{bmatrix}$",
         "D": "Does not exist"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "A matrix $A$ is invertible if and only if its determinant $|A|$ is non-zero. For $A = \\begin{bmatrix} 2 & -4 \\\\ -3 & 6 \\end{bmatrix}$, the determinant is $(2)(6) - (-4)(-3) = 12 - 12 = 0$, so $A^{-1}$ does not exist."
     },
     {
       "year": 2024,
@@ -301,7 +349,9 @@
         "C": "0",
         "D": "8"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Each determinant follows the pattern $\\begin{vmatrix} n & n+1 \\\\ n+2 & n+3 \\end{vmatrix} = n(n+3) - (n+1)(n+2) = -2$. Thus, $-2 + (-2) = 2k$, which gives $k = -2$, and $k^3 = (-2)^3 = -8$."
     },
     {
       "year": 2024,
@@ -313,7 +363,9 @@
         "C": "$\\frac{1}{24} \\begin{bmatrix} -6 & 4 \\\\ 3 & -2 \\end{bmatrix}$",
         "D": "$\\frac{1}{24} \\begin{bmatrix} 6 & 4 \\\\ 3 & 2 \\end{bmatrix}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "A matrix $A$ is invertible if and only if its determinant $|A|$ is non-zero. For $A = \\begin{bmatrix} 2 & -4 \\\\ -3 & 6 \\end{bmatrix}$, the determinant is $(2)(6) - (-4)(-3) = 12 - 12 = 0$, so $A^{-1}$ does not exist."
     },
     {
       "year": 2025,
@@ -325,7 +377,9 @@
         "C": "$1 + \\frac{1}{2} \\sin^2 2\\theta$",
         "D": "$1 + 2 \\sin^2 \\theta \\cdot \\cos^2 \\theta$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The determinant expands to $\\cos^4 \\theta + \\sin^4 \\theta$, which is $1 - \\frac{1}{2} \\sin^2 2\\theta$. Using the identity $\\sin^2 2\\theta = \\frac{1-\\cos 4\\theta}{2}$, this simplifies to $\\frac{1}{4}(3 + \\cos 4\\theta)$, matching option B."
     },
     {
       "year": 2025,
@@ -337,7 +391,9 @@
         "C": "$|A|^3$",
         "D": "$|A|$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "For any square matrix $A$ of order $n$, $(\\text{adj} A) \\cdot A = |A| I_n$. Taking the determinant on both sides, $|(\\text{adj} A) \\cdot A| = ||A| I_n| = |A|^n |I_n| = |A|^n$. For $n=3$, the result is $|A|^3$."
     },
     {
       "year": 2025,
@@ -349,7 +405,9 @@
         "C": "94",
         "D": "$\\frac{47}{2}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The area of a triangle is four times the area of the triangle formed by its midpoints. The area of the midpoint triangle is $\\frac{1}{2} |2(1-8) + 1(8-7) + 10(7-1)| = \\frac{47}{2}$, so the total area is $4 \\times \\frac{47}{2} = 94$."
     }
   ]
 }

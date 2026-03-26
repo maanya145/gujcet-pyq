@@ -13,7 +13,9 @@
         "C": "$\\text{N}_2\\text{O}_4$",
         "D": "$\\text{H}_2\\text{O}_2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "In hybrid rocket propulsion systems, a combination of a solid fuel and a liquid or gaseous oxidizer is used. Dinitrogen tetroxide ($\\text{N}_2\\text{O}_4$) is a commonly used liquid oxidising agent in these fuels. It provides the necessary oxygen for the combustion of the solid fuel component."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "Melachite Green",
         "D": "Methyl Orange"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Basic dyes are cationic dyes where the colored part of the molecule is a cation. Malachite Green is a well-known basic dye used for coloring silk and wool. In contrast, Methyl Orange and Methyl Red are acidic dyes, while Congo Red is a direct dye."
     },
     {
       "year": 2008,
@@ -37,7 +41,9 @@
         "C": "Sodium metabisulphite",
         "D": "Sodium hydrosulphite"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Kaolin is a type of clay mineral primarily composed of kaolinite. When it is heated at very high temperatures, it undergoes chemical transformations to form ceramics. Ceramics are inorganic, non-metallic solids used extensively in pottery and industrial materials."
     },
     {
       "year": 2008,
@@ -49,7 +55,9 @@
         "C": "Non-ionic",
         "D": "Biosoft"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Cetyl trimethyl ammonium chloride is classified as a cationic detergent. This is because the hydrophilic part of the molecule is a quaternary ammonium cation, specifically $[CH_3(CH_2)_{15}N(CH_3)_3]^+$. These detergents are often used in hair conditioners due to their germicidal properties."
     },
     {
       "year": 2009,
@@ -61,7 +69,9 @@
         "C": "Anaemia",
         "D": "T.B."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Iodine is a crucial micronutrient required by the thyroid gland to produce thyroxine hormone. A deficiency of iodine in the diet leads to the enlargement of the thyroid gland, a condition known as Goitre. Iodised salt is used as a simple preventive measure to ensure adequate iodine intake."
     },
     {
       "year": 2009,
@@ -73,7 +83,9 @@
         "C": "Antioxidant",
         "D": "Detergent"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Disparlure is a synthetic chemical compound classified as a pheromone. Pheromones are chemical signals released by organisms to communicate with others of the same species. Disparlure specifically acts as a sex attractant for the gypsy moth and is used in pest control traps."
     },
     {
       "year": 2011,
@@ -85,7 +97,9 @@
         "C": "BHA",
         "D": "Alitame"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Disparlure is a classic example of a pheromone used in agricultural chemistry. It is used to attract male gypsy moths to traps, thereby controlling their population. Other options like BHA are antioxidants, and Alitame is an artificial sweetener."
     },
     {
       "year": 2011,
@@ -97,7 +111,9 @@
         "C": "$I - c, II - b, III - a, IV - d$",
         "D": "$I - d, II - c, III - b, IV - a$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "hard",
+      "explanation": "Alizarin is a mordant dye that forms different colored coordination complexes (lakes) with various metal ions. It produces a rose red color with $Al^{3+}$, blue with $Ba^{2+}$, violet with $Mg^{2+}$, and red with $Sr^{2+}$. Matching these specific colors to the ions confirms option D as the correct sequence."
     },
     {
       "year": 2014,
@@ -109,7 +125,9 @@
         "C": "Ascorbic acid",
         "D": "Citric acid"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Salts of sorbic acid and propanoic acid are widely used as food preservatives. They function by inhibiting the growth of molds and yeasts in various food products. Sucralose is an artificial sweetener, while ascorbic and citric acids are primarily used as antioxidants or acidulants."
     },
     {
       "year": 2015,
@@ -121,7 +139,9 @@
         "C": "Salt of sorbic acid",
         "D": "Tetrazine"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Food preservatives are substances added to food to prevent spoilage caused by microbial growth. Salts of sorbic acid are effective preservatives that inhibit the growth of bacteria and fungi. Aspartame is a sweetener, and Tetrazine is a dye, neither of which serve as preservatives."
     },
     {
       "year": 2017,
@@ -133,7 +153,9 @@
         "C": "Aspartame",
         "D": "Alitame"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Alitame is a high-potency artificial sweetener that is approximately 2000 times sweeter than sucrose (cane sugar). In comparison, Aspartame is 100 times, Saccharin is 550 times, and Sucralose is 600 times sweeter than sucrose. This makes Alitame the sweetest among the given options."
     },
     {
       "year": 2017,
@@ -145,7 +167,9 @@
         "C": "Tranquilizer",
         "D": "Antimicrobial"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Veronal, also known as barbital, belongs to the class of drugs called barbiturates. Barbiturates act as tranquilizers and hypnotics by depressing the central nervous system. They are used to treat anxiety and induce sleep."
     },
     {
       "year": 2018,
@@ -157,7 +181,9 @@
         "C": "Diagram C",
         "D": "Diagram D"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Aspirin is chemically known as 2-acetoxybenzoic acid. Its structure consists of a benzene ring with a carboxylic acid group ($-COOH$) and an acetoxy group ($-OCOCH_3$) attached at the ortho position (1,2-position). Diagram A correctly represents this molecular arrangement."
     },
     {
       "year": 2018,
@@ -169,7 +195,9 @@
         "C": "$P \\rightarrow N, Q \\rightarrow O, R \\rightarrow L, S \\rightarrow M$",
         "D": "$P \\rightarrow L, Q \\rightarrow O, R \\rightarrow M, S \\rightarrow N$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Matching the drugs to their therapeutic classes: Chloramphenicol is an antibiotic (N), Chlordiazepoxide is a tranquilizer (O), Phenelzine is an antidepressant (M), and Morphine is a narcotic analgesic (L). This specific mapping corresponds to option A."
     },
     {
       "year": 2018,
@@ -181,7 +209,9 @@
         "C": "Ofloxacin",
         "D": "Mestranol"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Luminal is a barbiturate that functions as a tranquilizer, providing relief from anxiety, stress, and agitation. Aspirin is an analgesic for pain, Ofloxacin is an antibiotic for infections, and Mestranol is a component of birth control pills. Therefore, Luminal is the correct choice for treating stress."
     },
     {
       "year": 2020,
@@ -193,7 +223,9 @@
         "C": "Morphine",
         "D": "Equanil"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Cimetidine (Tagamet) is a drug designed to prevent the interaction of histamine with receptors in the stomach wall. This specific action on $H_2$ receptors results in the release of less acid, making it an effective treatment for acidity. Other options like Phenelzine and Equanil are tranquilizers, while Morphine is an analgesic."
     },
     {
       "year": 2020,
@@ -205,7 +237,9 @@
         "C": "Alitame",
         "D": "Aspartame"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Sucralose is a trichloro derivative of sucrose where three hydroxyl groups are replaced by chlorine atoms. It is a popular artificial sweetener because it is stable at cooking temperatures and has a taste profile similar to natural sugar. Unlike aspartame, it does not decompose when heated."
     },
     {
       "year": 2022,
@@ -217,7 +251,9 @@
         "C": "Salvarsan",
         "D": "Codein"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Ranitidine is a common antacid that works by inhibiting the action of histamine on the $H_2$ receptors located in the stomach wall. This inhibition leads to a significant decrease in the production of gastric acid ($HCl$). Meprobamate is a tranquilizer, while Codeine is a narcotic analgesic."
     },
     {
       "year": 2022,
@@ -229,7 +265,9 @@
         "C": "Alitame",
         "D": "Saccharin"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Aspartame is an artificial sweetener that is the methyl ester of a dipeptide. It is unstable at cooking temperatures because it decomposes upon heating, which restricts its use to cold foods and soft drinks. In contrast, sweeteners like Sucralose and Saccharin remain stable at high temperatures."
     },
     {
       "year": 2023,
@@ -241,7 +279,9 @@
         "C": "Saccharin",
         "D": "Aspartame"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Aspartame is approximately 100 times as sweet as cane sugar but is chemically unstable at high temperatures. Due to this thermal instability, its application is limited to cold foods and beverages like soft drinks. Other agents like Alitame are much sweeter and more stable, but harder to control."
     },
     {
       "year": 2023,
@@ -253,7 +293,9 @@
         "C": "Cationic detergent",
         "D": "Soap"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Non-ionic detergents are formed when long-chain alcohols or fatty acids react with polyethylene glycol. For example, the reaction of stearic acid with polyethylene glycol produces a detergent with the formula $CH_3(CH_2)_{16}COO(CH_2CH_2O)_nCH_2CH_2OH$. These detergents do not contain any ions and are widely used in liquid dishwashing agents."
     }
   ]
 }

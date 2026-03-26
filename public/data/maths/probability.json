@@ -13,7 +13,9 @@
         "C": "$\\frac{1}{4}$",
         "D": "1 and $-\\frac{1}{4}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The sum of all probabilities in a discrete distribution must equal 1. Setting $4C^3 + (4C - 13C^2) + (7C - 1) = 1$ leads to the cubic equation $4C^3 - 13C^2 + 11C - 2 = 0$. Testing the options, $C = 1/4$ satisfies the equation and ensures all individual probabilities remain non-negative."
     },
     {
       "year": 2017,
@@ -25,7 +27,9 @@
         "C": "$\\frac{1}{2}$",
         "D": "$\\frac{1}{5}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Using the binomial formula $P(x) = \\binom{6}{x} p^x (1-p)^{6-x}$, we substitute into the given relation $2P(2) = 3P(3)$. This simplifies to $2 \\cdot 15 \\cdot p^2 (1-p)^4 = 3 \\cdot 20 \\cdot p^3 (1-p)^3$, which further reduces to $30(1-p) = 60p$. Solving for $p$ gives $p = 1/3$."
     },
     {
       "year": 2017,
@@ -37,7 +41,9 @@
         "C": "2",
         "D": "5"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "We are given $E(X) = 10$ and $Var(X) = 5^2 = 25$. Using the property $E(X^2) = Var(X) + [E(X)]^2$, we find $E(X^2) = 25 + 100 = 125$. Expanding the target expression, $E[(\\frac{X-15}{5})^2] = \\frac{1}{25} E(X^2 - 30X + 225) = \\frac{1}{25} (125 - 300 + 225) = 2$."
     },
     {
       "year": 2018,
@@ -49,7 +55,9 @@
         "C": "$5/2$",
         "D": "$19/2$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The mean of a linear function of a random variable is given by $E(3X + 2) = 3E(X) + 2$. By calculating $E(X) = \\sum x_i P(x_i)$ from the provided distribution table, we find the expected value of $X$ to be $2.5$. Substituting this into the linear equation yields $3(2.5) + 2 = 9.5$, which is $19/2$."
     },
     {
       "year": 2018,
@@ -61,7 +69,9 @@
         "C": "12.6",
         "D": "1.8"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "This is a binomial distribution problem where the number of trials $n = 6$ and the probability of success $p = 0.3$. The variance of a binomial distribution is calculated using the formula $Var(X) = npq$, where $q = 1 - p = 0.7$. Substituting the values, we get $6 \\times 0.3 \\times 0.7 = 1.26$."
     },
     {
       "year": 2018,
@@ -73,7 +83,9 @@
         "C": "$3/25$",
         "D": "$4/25$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The probability that at least one of them speaks the truth is the complement of the probability that both speak lies. Given $P(A) = 4/5$ and $P(B) = 3/5$, their respective probabilities of lying are $P(A') = 1/5$ and $P(B') = 2/5$. Thus, $P(\\text{at least one}) = 1 - P(A')P(B') = 1 - (1/5 \\times 2/5) = 23/25$."
     },
     {
       "year": 2019,
@@ -85,7 +97,9 @@
         "C": "$0.936$",
         "D": "$0.927$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "For $n=3$ independent trials with success probability $p=0.6$, the probability of event $A$ occurring at least once is $1 - P(\\text{none})$. The probability of $A$ not occurring in a single trial is $q = 1 - 0.6 = 0.4$. Therefore, $P(X \\ge 1) = 1 - (0.4)^3 = 1 - 0.064 = 0.936$."
     },
     {
       "year": 2019,
@@ -97,7 +111,9 @@
         "C": "$\\frac{4}{7}$",
         "D": "$\\frac{2}{5}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "We are given $P(B) = 1/8$ and $P(A \\cap B) = 1/14$. The conditional probability $P(A'/B)$ is defined as $P(A' \\cap B) / P(B)$. Since $P(A' \\cap B) = P(B) - P(A \\cap B)$, the expression simplifies to $1 - P(A \\cap B)/P(B) = 1 - (1/14)/(1/8) = 3/7$."
     },
     {
       "year": 2019,
@@ -109,7 +125,9 @@
         "C": "$\\frac{13}{4096}$",
         "D": "$\\frac{25}{2048}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "From the mean $np = 6$ and variance $npq = 3$, we find $q = 0.5$, $p = 0.5$, and $n = 12$. The probability $P(X < 2)$ is the sum $P(X=0) + P(X=1)$. Calculating these using the binomial formula gives $\\binom{12}{0}(0.5)^{12} + \\binom{12}{1}(0.5)^{12} = (1 + 12)/4096 = 13/4096$."
     },
     {
       "year": 2020,
@@ -121,7 +139,9 @@
         "C": "$\\frac{1}{12}, \\frac{5}{3}$",
         "D": "$\\frac{2}{15}, \\frac{5}{12}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "For independent events, $P(\\text{Exactly one}) = P(A) + P(B) - 2P(A)P(B)$. Substituting the given values, we get $p + 2p - 2(p)(2p) = 5/9$, which simplifies to the quadratic equation $36p^2 - 27p + 5 = 0$. Solving this yields $p = 1/3$ and $p = 5/12$."
     },
     {
       "year": 2020,
@@ -133,7 +153,9 @@
         "C": "3",
         "D": "10"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The expected value of $X^2$ is calculated using the formula $E(X^2) = \\sum x_i^2 P(x_i)$. Substituting the given values, we get $1^2(1/10) + 2^2(2/10) + 3^2(3/10) + 4^2(4/10) = (1 + 8 + 27 + 64)/10$. This sums to $100/10$, which equals 10."
     },
     {
       "year": 2020,
@@ -145,7 +167,9 @@
         "C": "$P(B/A) = 0$",
         "D": "$P(A/B) = 1$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The given equation $P(A) + P(B) - P(A \\cap B) = P(A)$ simplifies to $P(B) = P(A \\cap B)$. By the definition of conditional probability, $P(A/B) = P(A \\cap B) / P(B)$. Substituting $P(A \\cap B) = P(B)$ into this formula results in $P(A/B) = 1$."
     },
     {
       "year": 2021,
@@ -157,7 +181,9 @@
         "C": "$\\frac{4}{11}$",
         "D": "$\\frac{2}{11}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "First, we find $P(A \\cap B)$ using the addition rule: $P(A \\cap B) = P(A) + P(B) - P(A \\cup B) = 6/11 + 5/11 - 7/11 = 4/11$. Then, we apply the conditional probability formula $P(A/B) = P(A \\cap B) / P(B)$, which gives $(4/11) / (5/11) = 4/5$."
     },
     {
       "year": 2021,
@@ -169,7 +195,9 @@
         "C": "$\\frac{2}{5}$",
         "D": "$\\frac{1}{10}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "For mutually exclusive events, $P(A \\cup B) = P(A) + P(B)$. Given $P(A) = 1/2$ and $P(A \\cup B) = 3/5$, we find $P(B) = 3/5 - 1/2 = 1/10$. The probability of the complement is $P(B') = 1 - P(B) = 1 - 1/10 = 9/10$."
     },
     {
       "year": 2021,
@@ -181,7 +209,9 @@
         "C": "$A = \\emptyset$",
         "D": "$A \\subset B$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The conditional probability $P(B/A) = 1$ implies that $P(A \\cap B) / P(A) = 1$, which means $P(A \\cap B) = P(A)$. This equality occurs if and only if every outcome in $A$ is also in $B$. Therefore, the set $A$ must be a subset of $B$, denoted as $A \\subset B$."
     },
     {
       "year": 2022,
@@ -193,7 +223,9 @@
         "C": "$15$",
         "D": "$1.5$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The mean of a binomial distribution is given by $E(X) = np$. Here, $n = 3$ tosses and the probability of a head is $p = 0.5$. Thus, the mean is $3 \\times 0.5 = 1.5$."
     },
     {
       "year": 2022,
@@ -205,7 +237,9 @@
         "C": "$56$",
         "D": "$46$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "For $B(10, 1/2)$, $P(X \\le 2) = P(0) + P(1) + P(2)$. Using the formula $\\binom{n}{k} p^k q^{n-k}$, we get $[\\binom{10}{0} + \\binom{10}{1} + \\binom{10}{2}] (1/2)^{10} = (1 + 10 + 45) (1/2)^{10} = 56(1/2)^{10}$, so $m = 56$."
     },
     {
       "year": 2022,
@@ -217,7 +251,9 @@
         "C": "$1/5$",
         "D": "$1/2$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Using Bayes' Theorem, let $H$ be the event of a head and $R$ be the report of a head. $P(H|R) = \\frac{P(R|H)P(H)}{P(R|H)P(H) + P(R|T)P(T)} = \\frac{(4/5)(1/2)}{(4/5)(1/2) + (1/5)(1/2)} = 4/5$."
     },
     {
       "year": 2023,
@@ -229,7 +265,9 @@
         "C": "$1/2$",
         "D": "$2/5$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "For independent events, $P(A \\cup B) = P(A) + P(B) - P(A)P(B)$. Substituting the values, $3/5 = p + 1/2 - p/2$, which simplifies to $1/10 = p/2$, giving $p = 1/5$."
     },
     {
       "year": 2023,
@@ -241,7 +279,9 @@
         "C": "$1/32$",
         "D": "$5/32$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The probability of exactly $k$ successes in $n$ trials is $\\binom{n}{k} p^k q^{n-k}$. For $n=5, k=3, p=1/2$, we have $\\binom{5}{3} (1/2)^5 = 10 \\times (1/32) = 5/16$."
     },
     {
       "year": 2023,
@@ -253,7 +293,9 @@
         "C": "$35/12$",
         "D": "$35/3$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Variance is calculated as $Var(X) = E(X^2) - [E(X)]^2$. For a standard die distribution (implied by the options), $E(X) = 3.5$ and $E(X^2) = 91/6$, resulting in $Var(X) = 35/12$."
     },
     {
       "year": 2024,
@@ -265,7 +307,9 @@
         "C": "$\\frac{3}{5}$",
         "D": "$\\frac{1}{3}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Using the independence property $P(A \\cup B) = P(A) + P(B) - P(A)P(B)$, we have $3/5 = p + 1/2 - p/2$. Solving for $p$ gives $1/10 = p/2$, so $p = 1/5$."
     },
     {
       "year": 2024,
@@ -277,7 +321,9 @@
         "C": "$\\frac{1}{12}$",
         "D": "$\\frac{1}{36}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The only even prime number is $2$. When two dice are rolled, the only favorable outcome is $(2, 2)$ out of $36$ total outcomes, so the probability is $1/36$."
     },
     {
       "year": 2024,
@@ -289,7 +335,9 @@
         "C": "$\\frac{3}{5}$",
         "D": "$\\frac{1}{5}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The conditional probability $P(A|B) = \\frac{P(A \\cap B)}{P(B)} = 1$ implies that $P(A \\cap B) = P(B)$. This set equality occurs only if $B$ is a subset of $A$ ($B \\subset A$)."
     },
     {
       "year": 2024,
@@ -301,7 +349,9 @@
         "C": "$A \\neq \\phi$",
         "D": "$B \\neq \\phi$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The conditional probability $P(A|B) = \\frac{P(A \\cap B)}{P(B)} = 1$ implies that $P(A \\cap B) = P(B)$. This set equality occurs only if $B$ is a subset of $A$ ($B \\subset A$)."
     },
     {
       "year": 2024,
@@ -313,7 +363,9 @@
         "C": "$\\frac{1}{12}$",
         "D": "0"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "An even prime number on a die can only be $2$. For a pair of dice, the specific outcome required is $(2, 2)$, and since there are $6 \\times 6 = 36$ total outcomes, the probability is $1/36$."
     },
     {
       "year": 2024,
@@ -325,7 +377,9 @@
         "C": "$A \\neq \\phi$",
         "D": "$A \\subset B$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "If $P(A|B) = 1$, then $P(A \\cap B) / P(B) = 1$, which means $P(A \\cap B) = P(B)$. This condition is satisfied when every element of $B$ is also in $A$, meaning $B \\subset A$."
     },
     {
       "year": 2025,
@@ -337,7 +391,9 @@
         "C": "$\\frac{9}{10}$",
         "D": "$\\frac{10}{11}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "For independent events, $P(E'|F) = P(E') = 1 - P(E)$ and $P(F'|E) = P(F') = 1 - P(F)$. Thus, $(1 - 3/5) + (1 - 3/10) = 2/5 + 7/10 = 11/10$."
     },
     {
       "year": 2025,
@@ -349,7 +405,9 @@
         "C": "$\\frac{2}{5}$",
         "D": "$\\frac{4}{5}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "First, $P(A \\cap B) = P(A) + P(B) - P(A \\cup B) = 3/8 + 5/8 - 6/8 = 1/4$. Then $P(A|B) = (1/4)/(5/8) = 2/5$ and $P(A'|B) = 1 - 2/5 = 3/5$, so the difference is $3/5 - 2/5 = 1/5$."
     },
     {
       "year": 2025,
@@ -361,7 +419,9 @@
         "C": "$\\frac{5}{35}$",
         "D": "$\\frac{4}{35}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "By Bayes' Theorem, $P(Six|Reported) = \\frac{P(R|S)P(S)}{P(R|S)P(S) + P(R|S')P(S')}$. This gives $\\frac{(4/5)(1/6)}{(4/5)(1/6) + (1/5)(5/6)} = \\frac{4/30}{9/30} = 4/9$."
     }
   ]
 }

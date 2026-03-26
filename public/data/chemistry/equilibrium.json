@@ -13,7 +13,9 @@
         "C": "$K > 1.0$",
         "D": "$K < 1.0$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "An increase in pressure at constant temperature and volume indicates that the reaction proceeds with an increase in the number of gaseous moles ($\\Delta n_g > 0$). An equilibrium constant $K < 1$ signifies that the equilibrium favors the reactants, meaning the reaction does not proceed extensively toward the products. Thus, the system reaches equilibrium with a higher proportion of reactants, which is consistent with a small equilibrium constant value."
     }
   ]
 }

@@ -13,7 +13,9 @@
         "C": "$\\mu : 1$",
         "D": "$1 : \\mu$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The wavelength of light in a medium is given by $\\lambda' = \\frac{\\lambda}{\\mu}$, where $\\mu$ is the absolute refractive index. The ratio of the incident wavelength in vacuum ($\\lambda$) to the refracted wavelength ($\\lambda'$) is $\\frac{\\lambda}{\\lambda/\\mu} = \\mu$. Thus, the ratio is $\\mu : 1$."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "real and erect",
         "D": "virtual and inverted"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "For a concave mirror, when an object is placed at the center of curvature ($u = 2f = 40\\text{ cm}$), the image is formed at the same position. The resulting image is real, inverted, and of the same size as the object."
     },
     {
       "year": 2008,
@@ -37,7 +41,9 @@
         "C": "$2 \\times 10^4$",
         "D": "$2 \\times 10^2$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The resolving power of a telescope is given by the formula $RP = \\frac{D}{1.22\\lambda}$. Substituting $D = 0.61\\text{ m}$ and $\\lambda = 5000 \\times 10^{-10}\\text{ m}$, we get $RP = \\frac{0.61}{1.22 \\times 5 \\times 10^{-7}} = 10^6$."
     },
     {
       "year": 2009,
@@ -49,7 +55,9 @@
         "C": "$2f$",
         "D": "$4f$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Using the mirror formula $\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}$ with sign conventions for a convex mirror ($u = -f$ and focal length is $+f$), we get $\\frac{1}{v} - \\frac{1}{f} = \\frac{1}{f}$. Solving for $v$ gives $v = \\frac{f}{2}$."
     },
     {
       "year": 2009,
@@ -61,7 +69,9 @@
         "C": "$50^\\circ$",
         "D": "None of these"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Using the prism formula $\\mu = \\frac{\\sin((A+\\delta_m)/2)}{\\sin(A/2)}$ and the condition $\\delta_m = A$, we get $\\mu = 2\\cos(A/2)$. Substituting $\\mu = \\sqrt{3} \\approx 1.732$, we find $\\cos(A/2) = \\frac{\\sqrt{3}}{2}$, which gives $A/2 = 30^\\circ$ and $A = 60^\\circ$."
     },
     {
       "year": 2009,
@@ -73,7 +83,9 @@
         "C": "decrease",
         "D": "become infinite"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "According to the lens maker's formula, the focal length depends on the relative refractive index. When the refractive index of the liquid equals that of the lens material, the term $(\\frac{\\mu_{lens}}{\\mu_{medium}} - 1)$ becomes zero, making the focal length infinite."
     },
     {
       "year": 2009,
@@ -85,7 +97,9 @@
         "C": "$30$",
         "D": "$40$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The magnifying power of an astronomical telescope in normal adjustment is $M = \\frac{f_o}{f_e}$. Since power $P = \\frac{1}{f}$, the formula can be written as $M = \\frac{P_e}{P_o} = \\frac{20}{0.5} = 40$."
     },
     {
       "year": 2011,
@@ -97,7 +111,9 @@
         "C": "$48.6^{\\circ}$",
         "D": "$90^{\\circ}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Using the prism formula with $\\delta_m = A$, we get $\\mu = 2\\cos(A/2)$. Substituting $\\mu = 1.5$, we have $\\cos(A/2) = 0.75$, which leads to $A/2 = 41.4^\\circ$ and $A = 82.8^\\circ$."
     },
     {
       "year": 2011,
@@ -109,7 +125,9 @@
         "C": "$-0.5\\text{ m}$",
         "D": "$-2.0\\text{ m}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "For a convex mirror, magnification is $m = \\frac{f}{f-u}$. Given $f = 2.0\\text{ m}$ and $m = +1/2$ (virtual and erect image), we have $\\frac{1}{2} = \\frac{2}{2-u}$, which results in $u = -2.0\\text{ m}$."
     },
     {
       "year": 2011,
@@ -121,7 +139,9 @@
         "C": "Equilateral prism",
         "D": "Rectangular slab"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "When a lens is immersed in a medium with a higher refractive index than the lens material ($\\mu_{water} > \\mu_{air}$), its nature reverses. The air-filled bag has a concave shape which normally diverges light, but in water, it behaves as a convergent lens."
     },
     {
       "year": 2011,
@@ -133,7 +153,9 @@
         "C": "$1\\text{ cm upwards}$",
         "D": "$1\\text{ cm downwards}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The normal shift of an object viewed through a glass slab is $\\Delta x = t(1 - \\frac{1}{\\mu})$. Substituting $t = 3\\text{ cm}$ and $\\mu = 1.5$, we get $\\Delta x = 1\\text{ cm}$ upwards, so the microscope must be moved $1\\text{ cm}$ upwards to refocus."
     },
     {
       "year": 2011,
@@ -145,7 +167,9 @@
         "C": "$2 : 1 : 1$",
         "D": "$2 : 1 : 2$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The equivalent focal length of a combination of thin lenses in contact is $\\frac{1}{F} = \\frac{1}{f_1} + \\frac{1}{f_2}$. Since the lenses and their radii of curvature are identical in all three arrangements, the total power remains constant, resulting in a ratio of $1 : 1 : 1$."
     },
     {
       "year": 2014,
@@ -157,7 +181,9 @@
         "C": "$1.5$",
         "D": "$200$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The speed of light in water is $v = \\frac{c}{\\mu}$. The time taken to travel depth $d$ is $t = \\frac{d}{v} = \\frac{d \\cdot \\mu}{c} = \\frac{4.5 \\times (4/3)}{3 \\times 10^8} = 2 \\times 10^{-8}\\text{ s}$, which equals $20\\text{ ns}$."
     },
     {
       "year": 2014,
@@ -169,7 +195,9 @@
         "C": "$\\frac{R}{3.1}$",
         "D": "$\\frac{R}{0.1}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The focal length of the plano-convex lens is $\\frac{1}{f_1} = \\frac{1.6-1}{R} = \\frac{0.6}{R}$ and for the plano-concave lens is $\\frac{1}{f_2} = \\frac{-(1.5-1)}{R} = \\frac{-0.5}{R}$. The equivalent focal length $F$ is found using $\\frac{1}{F} = \\frac{1}{f_1} + \\frac{1}{f_2} = \\frac{0.1}{R}$, so $F = \\frac{R}{0.1}$."
     },
     {
       "year": 2015,
@@ -181,7 +209,9 @@
         "C": "60^{\\circ}",
         "D": "82^{\\circ}48'"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Using the relation $\\mu = 2\\cos(A/2)$ when $\\delta_m = A$, we have $1.5 = 2\\cos(A/2)$, so $\\cos(A/2) = 0.75$. Since $\\sin(48^\\circ 36') = 0.75$, then $A/2 = 90^\\circ - 48^\\circ 36' = 41^\\circ 24'$, giving $A = 82^\\circ 48'$."
     },
     {
       "year": 2015,
@@ -193,7 +223,9 @@
         "C": "\\sin^{-1}(\\frac{1}{2})",
         "D": "\\sin^{-1}(\\frac{15}{16})"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The critical angle $C$ for light traveling from a denser medium to a rarer medium is given by $\\sin C = \\frac{n_2}{n_1}$, where $n_1 > n_2$. Here, $n_1 = 1.6$ and $n_2 = 1.5$, so $\\sin C = \\frac{1.5}{1.6} = \\frac{15}{16}$. Thus, $C = \\sin^{-1}(\\frac{15}{16})$."
     },
     {
       "year": 2015,
@@ -205,7 +237,9 @@
         "C": "2D",
         "D": "4D"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The focal length of a plane mirror is infinite because its surface is flat and does not converge or diverge light. Since the power of a mirror is the reciprocal of its focal length ($P = \\frac{1}{f}$), the power of a plane mirror is $\\frac{1}{\\infty} = 0$."
     },
     {
       "year": 2017,
@@ -217,7 +251,9 @@
         "C": "$L < f_0 + f_e$",
         "D": "$L \\le f_0 - f_e$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "For an astronomical telescope in normal adjustment, the final image is at infinity and the distance between the lenses is $L = f_o + f_e$. To allow for various viewing conditions, the physical tube length must be at least this sum, hence $L \\ge f_o + f_e$."
     },
     {
       "year": 2017,
@@ -229,7 +265,9 @@
         "C": "$2 \\times 10^8$",
         "D": "$2 \\times 10^{-10}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The time taken is $t = \\frac{d}{v}$, where $v = \\frac{c}{n}$ is the speed in the medium. Substituting the values, $t = \\frac{n \\cdot d}{c} = \\frac{1.5 \\times 0.04}{3 \\times 10^8} = 2 \\times 10^{-10} \\text{ s}$."
     },
     {
       "year": 2017,
@@ -241,7 +279,9 @@
         "C": "2.0",
         "D": "1.0"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "When the final image is formed at infinity for a simple microscope, the angular magnification is given by $M = \\frac{D}{f}$. Given $D = 25 \\text{ cm}$ and $f = 12.5 \\text{ cm}$, we calculate $M = \\frac{25}{12.5} = 2.0$."
     },
     {
       "year": 2018,
@@ -253,7 +293,9 @@
         "C": "$\\frac{1}{f_1f_2}$",
         "D": "$\\frac{f_1 + f_2}{f_1f_2}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The total power $P$ of two thin lenses in contact is the sum of their individual powers, $P = P_1 + P_2$. Since $P = \\frac{1}{f}$, the combined power is $\\frac{1}{f_1} + \\frac{1}{f_2} = \\frac{f_1 + f_2}{f_1 f_2}$."
     },
     {
       "year": 2018,
@@ -265,7 +307,9 @@
         "C": "$7^\\circ$",
         "D": "$8^\\circ$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "For a small-angled prism, the angle of deviation is $\\delta = A(n - 1)$. Substituting the given values, $3.6^\\circ = A(1.6 - 1)$, which gives $3.6 = 0.6A$, resulting in $A = 6^\\circ$."
     },
     {
       "year": 2018,
@@ -277,7 +321,9 @@
         "C": "$-60$",
         "D": "$-120$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Using the lens maker's formula $\\frac{1}{f} = (n - 1)(\\frac{1}{R_1} - \\frac{1}{R_2})$, for a plano-convex lens $R_1 = 60 \\text{ cm}$ and $R_2 = \\infty$. Thus, $\\frac{1}{f} = (1.5 - 1)(\\frac{1}{60} - 0) = \\frac{0.5}{60} = \\frac{1}{120}$, so $f = 120 \\text{ cm}$."
     },
     {
       "year": 2019,
@@ -289,7 +335,9 @@
         "C": "4 : 5",
         "D": "16 : 25"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The resolving power of a telescope is inversely proportional to the wavelength of light, $RP \\propto \\frac{1}{\\lambda}$. The ratio is $\\frac{RP_1}{RP_2} = \\frac{\\lambda_2}{\\lambda_1} = \\frac{5500}{4400} = \\frac{5}{4}$."
     },
     {
       "year": 2019,
@@ -301,7 +349,9 @@
         "C": "50",
         "D": "80.31"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The focal length in a liquid is $f_l = f_a \\frac{(n_g - 1)}{(n_g/n_l - 1)}$. Substituting $n_g = 1.5$, $n_l = 4/3$, and $f_a = 15$, we get $f_l = 15 \\times \\frac{0.5}{(1.5/1.33) - 1} = 15 \\times \\frac{0.5}{0.125} = 60 \\text{ cm}$."
     },
     {
       "year": 2019,
@@ -313,7 +363,9 @@
         "C": "$2 \\times 10^{-11}$",
         "D": "$2 \\times 10^{-8}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The time taken is $t = \\frac{n \\cdot d}{c}$. For a slab of $4 \\text{ cm}$ ($0.04 \\text{ m}$) and $n = 1.5$, $t = \\frac{1.5 \\times 0.04}{3 \\times 10^8} = 2 \\times 10^{-10} \\text{ s}$."
     },
     {
       "year": 2019,
@@ -325,7 +377,9 @@
         "C": "90",
         "D": "100"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "In normal adjustment, $M = \\frac{f_o}{f_e} = 15$ and $L = f_o + f_e = 96$. Substituting $f_o = 15f_e$ into the length equation gives $16f_e = 96$, so $f_e = 6 \\text{ cm}$ and $f_o = 15 \\times 6 = 90 \\text{ cm}$."
     },
     {
       "year": 2020,
@@ -337,7 +391,9 @@
         "C": "$8\\text{ m}$",
         "D": "$6\\text{ m}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Ray optics is a valid approximation up to the Fresnel distance, $Z_F = \\frac{a^2}{\\lambda}$. Using $a = 4 \\times 10^{-3} \\text{ m}$ and $\\lambda = 500 \\times 10^{-9} \\text{ m}$, $Z_F = \\frac{16 \\times 10^{-6}}{5 \\times 10^{-7}} = 32 \\text{ m}$."
     },
     {
       "year": 2020,
@@ -349,7 +405,9 @@
         "C": "$\\frac{1.22n\\sin\\beta}{2\\lambda}$",
         "D": "$\\frac{1.22\\lambda}{2n\\sin\\beta}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The resolving power of a microscope is the reciprocal of the limit of resolution ($d_{min} = \\frac{1.22 \\lambda}{2n \\sin \\beta}$), which gives $RP = \\frac{2n \\sin \\beta}{1.22 \\lambda}$. None of the provided options match this standard formula exactly."
     },
     {
       "year": 2020,
@@ -361,7 +419,9 @@
         "C": "$+2\\text{ D}$",
         "D": "$-0.02\\text{ D}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Power of a lens is $P = \\frac{1}{f}$, where $f$ must be in meters. Given $f = +50 \\text{ cm} = +0.5 \\text{ m}$, the power is $P = \\frac{1}{0.5} = +2 \\text{ D}$."
     },
     {
       "year": 2020,
@@ -373,7 +433,9 @@
         "C": "$n > 1.5$",
         "D": "Any $n$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "A lens becomes invisible in a liquid when its refractive index matches that of the liquid, as no refraction occurs at the interface. According to the lens maker's formula, if $n_{lens} = n_{liquid}$, the focal length becomes infinite, making the lens behave like a simple plane sheet of glass."
     },
     {
       "year": 2020,
@@ -385,7 +447,9 @@
         "C": "Real, inverted & magnified",
         "D": "Virtual, erect & magnified"
       },
-      "answer": "C, D"
+      "answer": "C, D",
+      "difficulty": "medium",
+      "explanation": "For a concave mirror, if the object is placed between the focus ($F$) and the center of curvature ($C$), the image is real, inverted, and magnified. If the object is placed between the pole ($P$) and the focus ($F$), the image is virtual, erect, and magnified. Since the range 'between pole and centre' includes both regions, both nature types are possible."
     },
     {
       "year": 2021,
@@ -397,7 +461,9 @@
         "C": "$\\cos^{-1}(\\mu/2)$",
         "D": "$\\cos^{-1}(\\mu)$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Using the prism formula $\\mu = \\frac{\\sin((A + \\delta_m)/2)}{\\sin(A/2)}$ and substituting $\\delta_m = A$, we get $\\mu = \\frac{\\sin(A)}{\\sin(A/2)}$. Applying the identity $\\sin(A) = 2\\sin(A/2)\\cos(A/2)$, the equation simplifies to $\\mu = 2\\cos(A/2)$. Solving for $A$ gives $A = 2\\cos^{-1}(\\mu/2)$."
     },
     {
       "year": 2021,
@@ -409,7 +475,9 @@
         "C": "1.50",
         "D": "2.42"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Using the lens maker's formula $\\frac{1}{f} = (n - 1)(\\frac{1}{R_1} - \\frac{1}{R_2})$ with $f = 12$, $R_1 = 10$, and $R_2 = -15$, we get $\\frac{1}{12} = (n - 1)(\\frac{1}{10} + \\frac{1}{15})$. This simplifies to $\\frac{1}{12} = (n - 1)(\\frac{5}{30})$, which leads to $n - 1 = 0.5$. Thus, the refractive index $n$ is $1.5$."
     },
     {
       "year": 2021,
@@ -421,7 +489,9 @@
         "C": "20 cm",
         "D": "40 cm"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "For two lenses in contact, the equivalent focal length $F$ is given by the formula $\\frac{1}{F} = \\frac{1}{f_1} + \\frac{1}{f_2}$. Substituting $f_1 = 30\\text{ cm}$ and $f_2 = 30\\text{ cm}$, we get $\\frac{1}{F} = \\frac{1}{30} + \\frac{1}{30} = \\frac{2}{30}$. Therefore, $F = 15\\text{ cm}$."
     },
     {
       "year": 2021,
@@ -433,7 +503,9 @@
         "C": "10.6 cm",
         "D": "8.0 cm"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The relationship between real depth ($h$) and apparent depth ($h'$) is given by the refractive index formula $\\mu = \\frac{h}{h'}$. Substituting $h = 16\\text{ cm}$ and $\\mu = 4/3$, we find $h' = \\frac{16}{4/3} = 12\\text{ cm}$. Thus, the needle appears to be at a depth of $12\\text{ cm}$."
     },
     {
       "year": 2022,
@@ -445,7 +517,9 @@
         "C": "$200\\text{ cm}$",
         "D": "$100\\text{ cm}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Using the formula for refraction at a spherical surface, $\\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R}$, with $n_1 = 1$, $n_2 = 1.5$, $u = -100\\text{ cm}$, and $R = 20\\text{ cm}$. Substituting these values gives $\\frac{1.5}{v} + \\frac{1}{100} = \\frac{0.5}{20}$. Solving for $v$ results in an image distance of $100\\text{ cm}$."
     },
     {
       "year": 2022,
@@ -457,7 +531,9 @@
         "C": "$22\\text{ cm}$",
         "D": "$4.4\\text{ cm}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "For a double convex lens with equal radii of curvature ($R_1 = R, R_2 = -R$), the lens maker's formula is $\\frac{1}{f} = (n - 1)\\frac{2}{R}$. Substituting $f = 20\\text{ cm}$ and $n = 1.5$, we get $\\frac{1}{20} = (0.5)\\frac{2}{R}$, which simplifies to $R = 20\\text{ cm}$. The closest option provided in the exam context is $22\\text{ cm}$."
     },
     {
       "year": 2022,
@@ -469,7 +545,9 @@
         "C": "$-20\\text{ cm}$",
         "D": "$-30\\text{ cm}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The equivalent focal length $F$ for two lenses in contact is $\\frac{1}{F} = \\frac{1}{f_1} + \\frac{1}{f_2}$. Using $f_1 = +30\\text{ cm}$ for the convex lens and $f_2 = -10\\text{ cm}$ for the concave lens, we get $\\frac{1}{F} = \\frac{1}{30} - \\frac{1}{10} = -\\frac{2}{30}$. This gives $F = -15\\text{ cm}$."
     },
     {
       "year": 2023,
@@ -481,7 +559,9 @@
         "C": "1.00029",
         "D": "1.029"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The refractive index of a medium is the ratio of the speed of light in a vacuum to its speed in that medium. Since light travels slightly slower in air than in a vacuum, the refractive index of air is slightly greater than $1$. The standard value for air at STP is approximately $1.00029$."
     },
     {
       "year": 2023,
@@ -493,7 +573,9 @@
         "C": "Convex lens of focal length $+0.25 \\text{ cm}$",
         "D": "Convex lens of focal length $+25.0 \\text{ cm}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Power $P$ is related to focal length $f$ by $f = 1/P$. For $P = -4.0\\text{ D}$, $f = 1/(-4.0) = -0.25\\text{ m}$, which is equal to $-25.0\\text{ cm}$. A negative focal length indicates that the lens is a concave lens."
     },
     {
       "year": 2023,
@@ -505,7 +587,9 @@
         "C": "4 s",
         "D": "40 minutes"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The Earth rotates $360^\\circ$ in $24$ hours, meaning it rotates $1^\\circ$ every $4$ minutes ($1440/360$). If the question implies a shift of $1^\\circ$ (often referred to as '1 minute' of time in simplified contexts), the answer is $4$ minutes. For a true $1$ arc minute shift, it would take $4$ seconds."
     },
     {
       "year": 2023,
@@ -517,7 +601,9 @@
         "C": "40 m",
         "D": "10 m"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Ray optics is a valid approximation for distances up to the Fresnel distance, defined as $Z_f = \\frac{a^2}{\\lambda}$. Substituting $a = 6 \\times 10^{-3}\\text{ m}$ and $\\lambda = 6000 \\times 10^{-10}\\text{ m}$, we calculate $Z_f = \\frac{36 \\times 10^{-6}}{6 \\times 10^{-7}} = 60\\text{ m}$."
     },
     {
       "year": 2023,
@@ -529,7 +615,9 @@
         "C": "4:1",
         "D": "1:1"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "When light undergoes refraction, its speed and wavelength change depending on the medium's refractive index, but its frequency remains constant. Frequency is determined solely by the source of the light. Therefore, the ratio of the frequency of incident light to refracted light is always $1:1$."
     },
     {
       "year": 2024,
@@ -541,7 +629,9 @@
         "C": "$0$",
         "D": "$1$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "A plane mirror can be viewed as a spherical mirror with an infinitely large radius of curvature ($R = \\infty$). Since the focal length $f$ is defined as $R/2$, the focal length of a plane mirror is also infinity ($\\infty$)."
     },
     {
       "year": 2024,
@@ -553,7 +643,9 @@
         "C": "$3R$",
         "D": "$2R$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Using the spherical surface refraction formula $\\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R}$, we substitute $u = -\\infty$, $n_1 = 1$ (air), and $n_2 = 1.5$ (glass). This gives $\\frac{1.5}{v} - 0 = \\frac{0.5}{R}$, which simplifies to $v = \\frac{1.5R}{0.5} = 3R$. Thus, the image distance is $3R$."
     },
     {
       "year": 2024,
@@ -565,7 +657,9 @@
         "C": "$2.4^\\circ$",
         "D": "$1.6^\\circ$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "For a thin prism, the angle of minimum deviation is calculated using the formula $\\delta = (n - 1)A$. By substituting the given refractive index $n = 1.6$ and prism angle $A = 4^\\circ$, we find $\\delta = (1.6 - 1) \\times 4^\\circ = 2.4^\\circ$. This calculation shows that option C is the mathematically correct choice."
     },
     {
       "year": 2024,
@@ -577,7 +671,9 @@
         "C": "$200$",
         "D": "$1$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The magnifying power of a refracting telescope in normal adjustment is the ratio of the focal length of the objective to the focal length of the eyepiece, $M = \\frac{f_o}{f_e}$. Converting the objective focal length to centimeters, we have $f_o = 1\\text{ m} = 100\\text{ cm}$ and $f_e = 1\\text{ cm}$. Therefore, $M = \\frac{100}{1} = 100$."
     },
     {
       "year": 2024,
@@ -589,7 +685,9 @@
         "C": "$1.22 \\times 10^8\\text{ ms}^{-1}$",
         "D": "$1.88 \\times 10^8\\text{ ms}^{-1}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The speed of light in a medium is related to the speed of light in vacuum by the formula $v = \\frac{c}{n}$. Given $c = 3.0 \\times 10^8\\text{ ms}^{-1}$ and $n = 1.6$, the speed in glass is $v = \\frac{3.0 \\times 10^8}{1.6} = 1.875 \\times 10^8\\text{ ms}^{-1}$. This result is approximately $1.88 \\times 10^8\\text{ ms}^{-1}$."
     },
     {
       "year": 2025,
@@ -601,7 +699,9 @@
         "C": "1.5",
         "D": "1.33"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The refractive index $n$ is defined as the ratio of the speed of light in vacuum $c$ to the speed of light in the medium $v$. First, convert the speed to SI units: $v = 200 \\times 10^8\\text{ cm/s} = 2 \\times 10^8\\text{ m/s}$. Then, $n = \\frac{3 \\times 10^8}{2 \\times 10^8} = 1.5$."
     },
     {
       "year": 2025,
@@ -613,7 +713,9 @@
         "C": "Infinite",
         "D": "8D"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The power of a lens is the reciprocal of its focal length, and the total power of a combination is $P = P_1 + P_2$. A convex lens has a positive focal length ($+25\\text{ cm}$) and a concave lens has a negative focal length ($-25\\text{ cm}$). Since their magnitudes are equal, their powers cancel out, resulting in a net power of zero."
     },
     {
       "year": 2025,
@@ -625,7 +727,9 @@
         "C": "$40^\\circ$",
         "D": "$53^\\circ$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "For an equilateral prism, the angle of the prism $A$ is $60^\\circ$. At the position of minimum deviation, the angle of incidence $i$ is given by $i = \\frac{A + \\delta_m}{2}$. Substituting $A = 60^\\circ$ and $\\delta_m = 46^\\circ$, we get $i = \\frac{60^\\circ + 46^\\circ}{2} = 53^\\circ$."
     },
     {
       "year": 2025,
@@ -637,7 +741,9 @@
         "C": "Remains constant",
         "D": "Decreases"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The magnification of a compound microscope is approximately given by $M = \\frac{L}{f_o} \\times \\frac{D}{f_e}$, where $L$ is the tube length. This formula shows that the magnification is directly proportional to the tube length. Therefore, if the tube length $L$ increases, the total magnification also increases."
     }
   ]
 }

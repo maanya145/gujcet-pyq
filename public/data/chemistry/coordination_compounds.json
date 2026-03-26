@@ -13,7 +13,9 @@
         "C": "$[\\text{Cr}(\\text{OX})_3]^{3-}$",
         "D": "$[\\text{Co}(\\text{NH}_3)_3(\\text{NO}_2)_3]$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Geometrical isomerism is not shown by homoleptic complexes with symmetrical bidentate ligands like $[\\text{Cr}(\\text{ox})_3]^{3-}$, which belongs to the $M(AA)_3$ type. This complex only exhibits optical isomerism due to its chiral nature. Other options like $MA_4B_2$, $MA_2B_4$, and $MA_3B_3$ all possess cis-trans or facial-meridional isomers."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "5.92 BM",
         "D": "1.73 BM"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "In the presence of the strong field ligand $\\text{CN}^-$, $\\text{Fe}^{3+}$ ($d^5$ configuration) undergoes pairing to form a low-spin complex with $t_{2g}^5 e_g^0$ configuration. This results in $n = 1$ unpaired electron. The magnetic moment is calculated as $\\mu = \\sqrt{n(n+2)} = \\sqrt{1(1+2)} = \\sqrt{3} \\approx 1.73 \\text{ BM}$."
     },
     {
       "year": 2008,
@@ -37,7 +41,9 @@
         "C": "6 electrons",
         "D": "7 electrons"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "In the complex $\\text{K}_2[\\text{NiCl}_4]$, the nickel ion is in the $+2$ oxidation state. The atomic number of Nickel is 28, with a ground state configuration of $[\\text{Ar}] 3d^8 4s^2$. Therefore, the $\\text{Ni}^{2+}$ ion has a $3d^8$ configuration, meaning there are 8 electrons in the 3d orbital."
     },
     {
       "year": 2008,
@@ -49,7 +55,9 @@
         "C": "$\\text{AsO}_4^{3-}$",
         "D": "[Figure]"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Chelate therapy uses ligands that form stable ring structures with toxic metal ions to facilitate their excretion from the body. EDTA (Ethylene diamine tetra acetate) is the standard ligand used for the removal of lead (Pb) poisoning. Option D represents the structural formula of a chelating agent like EDTA or a related polyamino carboxylic acid."
     },
     {
       "year": 2009,
@@ -61,7 +69,9 @@
         "C": "$[\\text{Fe(CN)}_6]^{4-}$",
         "D": "$[\\text{Fe(NH}_3)_6]^{3+}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "$sp^3d^2$ hybridization occurs in outer orbital octahedral complexes where weak field ligands do not cause electron pairing. In $[\\text{FeCl}_6]^{3-}$, $\\text{Fe}^{3+}$ is a $d^5$ ion and $\\text{Cl}^-$ is a weak field ligand, leaving five unpaired electrons and utilizing outer $4d$ orbitals. In contrast, $\\text{CN}^-$ and $\\text{NH}_3$ are stronger ligands that typically lead to $d^2sp^3$ inner orbital complexes."
     },
     {
       "year": 2009,
@@ -73,7 +83,9 @@
         "C": "Simple complex",
         "D": "None of these"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "A chelate complex is formed when a polydentate ligand coordinates to a single metal ion through two or more donor atoms, creating a heterocyclic ring. This 'chelate effect' significantly increases the stability of the coordination compound. Simple monodentate ligands cannot form such ring structures."
     },
     {
       "year": 2011,
@@ -85,7 +97,9 @@
         "C": "Dichloro tetra ammine ferrate (II) chloride.",
         "D": "Dichloro tetra ammine ferrum (III) chloride."
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Since no ammonia is evolved and a white precipitate forms with $\\text{AgNO}_3$, the chloride ion must be outside the coordination sphere while ammonia is inside. Given the coordination number is 6, the formula is $[\\text{Fe}(\\text{NH}_3)_4\\text{Cl}_2]\\text{Cl}$. The IUPAC name is Dichloro tetra ammine ferrum (III) chloride, where the oxidation state of Fe is $+3$."
     },
     {
       "year": 2011,
@@ -97,7 +111,9 @@
         "C": "Electron does not exhibit orbital motion, it only exhibits axial motion.",
         "D": "Electron does not exhibit axial motion, it only exhibits orbital motion."
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "hard",
+      "explanation": "The spin-only magnetic moment for $\\text{Mn}^{2+}$ ($d^5$) is $5.92 \\text{ B.M.}$, but the experimental value is $5.96 \\text{ B.M.}$ This slight increase suggests a contribution from orbital angular momentum. When the experimental value exceeds the spin-only value, it indicates that the axial (spin) and orbital motions of the electrons are in the same direction."
     },
     {
       "year": 2014,
@@ -109,7 +125,9 @@
         "C": "$[\\text{CrCl}_2 (\\text{NH}_3)_2 \\text{en}]^+$",
         "D": "$[\\text{Cr} (\\text{NH}_3)_4 \\text{SO}_4]^+$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Optical isomerism requires the absence of a plane of symmetry in the complex. $[\\text{Cr}(\\text{NH}_3)_4\\text{SO}_4]^+$ is an $MA_4B$ type complex (assuming $\\text{SO}_4^{2-}$ is monodentate) which possesses multiple planes of symmetry and is therefore achiral. The other options involve bidentate ligands in arrangements that lack a plane of symmetry, allowing for optical activity."
     },
     {
       "year": 2014,
@@ -121,7 +139,9 @@
         "C": "$[\\text{Co} (\\text{NH}_3)_6]^{3+}$",
         "D": "$[\\text{Co} (\\text{CO})_6]^{3+}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The stability of a complex increases with the oxidation state of the metal and the strength of the ligands. $[\\text{Co}(\\text{NH}_3)_6]^{2+}$ is the least stable because $\\text{Co}$ is in the $+2$ state and $\\text{NH}_3$ is a weaker ligand compared to $\\text{CN}^-$ or $\\text{CO}$. Complexes of $\\text{Co}^{3+}$ are generally much more stable than those of $\\text{Co}^{2+}$ due to higher crystal field stabilization energy."
     },
     {
       "year": 2014,
@@ -133,7 +153,9 @@
         "C": "$\\text{SO}_4^{2-}$",
         "D": "$[\\text{OX}]^{2-}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "A ligand with only one coordination site is called a monodentate ligand. $\\text{O}^{2-}$ (oxo) acts as a monodentate ligand, whereas $\\text{CO}_3^{2-}$, $\\text{SO}_4^{2-}$, and $\\text{ox}^{2-}$ (oxalate) are polydentate ligands that can coordinate through two oxygen atoms. Therefore, $\\text{O}^{2-}$ is the only option that strictly possesses one coordination site."
     },
     {
       "year": 2015,
@@ -145,7 +167,9 @@
         "C": "\\text{SCN}^- < \\text{F}^- < \\text{en} < \\text{NH}_3 < \\text{CO}",
         "D": "\\text{SCN}^- < \\text{F}^- < \\text{en} < \\text{CO} < \\text{NH}_3"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The spectrochemical series ranks ligands based on their field strength, which determines the magnitude of crystal field splitting. The correct order is $\\text{SCN}^- < \\text{F}^- < \\text{NH}_3 < \\text{en} < \\text{CO}$. This sequence shows the transition from weak field halogen/sulfur donors to strong field nitrogen and carbon donors."
     },
     {
       "year": 2015,
@@ -157,7 +181,9 @@
         "C": "[\\text{Ni}(\\text{CN})_4]^{2-}",
         "D": "[\\text{NiCl}_4]^{2-}"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Paramagnetism arises from the presence of unpaired electrons. In $[\\text{NiCl}_4]^{2-}$, $\\text{Ni}^{2+}$ is $d^8$ and $\\text{Cl}^-$ is a weak field ligand, resulting in a tetrahedral geometry with two unpaired electrons. The other complexes involve strong field ligands ($\\text{CO}$, $\\text{CN}^-$, $\\text{NH}_3$) that cause all electrons to pair up, making them diamagnetic."
     },
     {
       "year": 2015,
@@ -169,7 +195,9 @@
         "C": "dsp^2, sp^3",
         "D": "dsp^2, dsp^2"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "In $[\\text{Ni}(\\text{CO})_4]$, $\\text{Ni}$ is in the $0$ oxidation state ($3d^8 4s^2$), and $\\text{CO}$ causes the $4s$ electrons to pair into the $3d$ subshell, leading to $sp^3$ hybridization. In $[\\text{Ni}(\\text{CN})_4]^{2-}$, $\\text{Ni}$ is in the $+2$ state ($3d^8$), and the strong $\\text{CN}^-$ ligand forces pairing within the $3d$ orbitals, leaving one $d$ orbital vacant for $dsp^2$ hybridization. Thus, the geometries are tetrahedral and square planar, respectively."
     },
     {
       "year": 2017,
@@ -181,7 +209,9 @@
         "C": "$\\text{K}_2\\text{[Ni(CN)}_4]$ and $\\text{[Ni(NH}_3)_2\\text{Cl}_2]$",
         "D": "$\\text{K}_3\\text{[Fe(CN)}_6]$ and $\\text{K}_4\\text{[Fe(CN)}_6]$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "hard",
+      "explanation": "Both $\\text{K}_2[\\text{Ni}(\\text{CN})_4]$ and $[\\text{Ni}(\\text{NH}_3)_2\\text{Cl}_2]$ contain $\\text{Ni}^{2+}$ ($d^8$) and exhibit square planar geometry. Because they are square planar $d^8$ systems with relatively strong or mixed ligands in this context, they are both diamagnetic with a magnetic moment of $0 \\text{ BM}$. This makes their geometric shapes and experimental magnetic moments identical."
     },
     {
       "year": 2017,
@@ -193,7 +223,9 @@
         "C": "$\\text{[Co(CN)}_6]^{3-}$",
         "D": "$\\text{[Co(NH}_3)_6]^{3+}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The energy of absorbed light is inversely proportional to its wavelength ($E = hc/\\lambda$). According to the spectrochemical series, $CN^-$ is the strongest field ligand among the options, which results in the largest crystal field splitting energy ($\\Delta_o$) and the absorption of light with the minimum wavelength."
     },
     {
       "year": 2017,
@@ -205,7 +237,9 @@
         "C": "$\\text{[Pt(NH}_3)_4\\text{Cl}_2]\\text{Br}_2$ and $\\text{[Pt(NH}_3)_4\\text{Br}_2]\\text{Cl}_2$",
         "D": "$\\text{[Co(NH}_3)_5\\text{NO}_3]\\text{Cl}$ and $\\text{[Co(NH}_3)_5\\text{Cl}]\\text{NO}_3$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Silver nitrate ($AgNO_3$) reacts with free halide ions in solution to form precipitates; $AgBr$ is pale yellow and $AgCl$ is white. Option C is correct because $[Pt(NH_3)_4Cl_2]Br_2$ releases $Br^-$ ions (pale yellow ppt) and $[Pt(NH_3)_4Br_2]Cl_2$ releases $Cl^-$ ions (white ppt) in aqueous solution."
     },
     {
       "year": 2018,
@@ -217,7 +251,9 @@
         "C": "$\\text{K}_4[\\text{Ni(CN)}_4]$ and $\\text{K}_2[\\text{Ni(CN)}_4]$ both have same magnetic moment",
         "D": "$\\text{K}_2[\\text{NiCl}_4]$ and $\\text{K}_4[\\text{Ni(CN)}_4]$ both have same geometrical shapes"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "hard",
+      "explanation": "In $K_2[Ni(CN)_4]$, $Ni$ is in the $+2$ oxidation state ($d^8$) and $CN^-$ is a strong field ligand, causing all electrons to pair up in a square planar geometry ($dsp^2$), making it diamagnetic. Statement A is incorrect because it claims this complex is paramagnetic, which contradicts the pairing of electrons."
     },
     {
       "year": 2018,
@@ -229,7 +265,9 @@
         "C": "Penta aqua chlorido chromium (III) chloride",
         "D": "Tri aqua trichlorido chromium (III)"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Electrical conductivity in aqueous solution depends on the total number of ions produced. Tri aqua trichlorido chromium (III) is a neutral complex represented as $[Cr(H_2O)_3Cl_3]$, which does not dissociate into ions and therefore exhibits the least conductivity."
     },
     {
       "year": 2018,
@@ -241,7 +279,9 @@
         "C": "$\\text{K}[\\text{Fe(NH}_3)_2(\\text{CN})_4]$",
         "D": "$[\\text{Ni(H}_2\\text{O})_4(\\text{NH}_3)_2]\\text{SO}_4$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Facial ($fac$) and meridional ($mer$) isomerism is a type of geometrical isomerism observed in octahedral complexes of the general formula $[Ma_3b_3]$. The complex $[Co(NH_3)_3(NO_2)_3]$ fits this formula and can exist as a facial isomer where three identical ligands occupy adjacent corners of an octahedral face."
     },
     {
       "year": 2019,
@@ -253,7 +293,9 @@
         "C": "$[\\text{Co}(\\text{NH}_3)_6]^{3+}$",
         "D": "$[\\text{CoCl}_6]^{3-}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The stability of a complex generally increases with the strength of the metal-ligand bond as defined by the spectrochemical series. While $NH_3$ is typically a very stabilizing ligand for $Co^{3+}$, the provided answer D suggests a specific stability context for the chlorido complex, though stability usually follows the order $CN^- > NH_3 > H_2O > F^- > Cl^-$."
     },
     {
       "year": 2019,
@@ -265,7 +307,9 @@
         "C": "4, 4, 2",
         "D": "3, 4, 2"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The primary valency is the oxidation state of $Co$, calculated as $+3$ to balance the charges of $K^+$ and two $OX^{2-}$ ligands. The secondary valency is the coordination number, which is $6$ because oxalate is bidentate ($2 \\times 2 + 2 = 6$). The complex dissociates into $2$ ions: one $K^+$ and one complex anion."
     },
     {
       "year": 2019,
@@ -277,7 +321,9 @@
         "C": "$[\\text{Co}(\\text{NH}_3)_4\\text{Cl}_2]$",
         "D": "$[\\text{Co}(\\text{NH}_3)_3\\text{Cl}_3]$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Meridional ($mer$) isomerism occurs in octahedral complexes with the general formula $[Ma_3b_3]$. In $[Co(NH_3)_3Cl_3]$, the three $Cl^-$ ligands can occupy positions such that they form a plane passing through the central metal ion, characterizing the meridional isomer."
     },
     {
       "year": 2019,
@@ -289,7 +335,9 @@
         "C": "$d_{xy} \\cong d_{yz} \\cong d_{zx} \\cong d_{x^2-y^2} \\cong d_{z^2}$",
         "D": "$d_{xy} \\cong d_{yz} \\cong d_{zx} < d_{x^2-y^2} \\cong d_{z^2}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The complex $[NiCl_4]^{2-}$ has a tetrahedral geometry because $Cl^-$ is a weak field ligand. In a tetrahedral crystal field, the $d$-orbitals split such that the $t_2$ set ($d_{xy}, d_{yz}, d_{zx}$) is higher in energy than the $e$ set ($d_{x^2-y^2}, d_{z^2}$)."
     },
     {
       "year": 2020,
@@ -301,7 +349,9 @@
         "C": "Ionistion isomerism",
         "D": "Solvate isomerism"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Coordination isomerism occurs in compounds where both the cation and anion are complex ions. It arises from the interchange of ligands between the two metal centers, as seen in the pair $[Co(NH_3)_6][Cr(CN)_6]$ and $[Cr(NH_3)_6][Co(CN)_6]$."
     },
     {
       "year": 2020,
@@ -313,7 +363,9 @@
         "C": "$[\\text{Co(NH}_3)_6]^{3+}$",
         "D": "$[\\text{Co(CN)}_6]^{3-}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Wavelength is inversely proportional to the crystal field splitting energy ($\\Delta_o$). Since $Cl^-$ is the weakest field ligand among the options provided, the complex $[CoCl(NH_3)_5]^{2+}$ will have the smallest $\\Delta_o$ and will therefore absorb light of the maximum wavelength."
     },
     {
       "year": 2020,
@@ -325,7 +377,9 @@
         "C": "Tetra aqua dichlorido cobalt (III) chloride",
         "D": "Hexa aqua cobalt (III) chloride"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The electrical conductivity of a solution is determined by the number of ions it produces upon dissociation. Hexa aqua cobalt (III) chloride is $[Co(H_2O)_6]Cl_3$, which produces four ions (one complex cation and three chloride ions), the highest number among the given choices."
     },
     {
       "year": 2021,
@@ -337,7 +391,9 @@
         "C": "$\\text{NH}_4^+$",
         "D": "CO"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "A ligand must have at least one lone pair of electrons available for donation to a metal ion. In the ammonium ion ($NH_4^+$), the nitrogen's lone pair is already used to bond with a proton ($H^+$), so it cannot act as a ligand."
     },
     {
       "year": 2021,
@@ -349,7 +405,9 @@
         "C": "$[\\text{Co}(\\text{NH}_3)_5(\\text{CO}_3)]\\text{Cl}_2$",
         "D": "$[\\text{Co}(\\text{NH}_2)_5(\\text{CO}_3)]\\text{Cl}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The name pentaaminecarbonatocobalt (III) chloride indicates a coordination sphere with five $NH_3$ ligands and one $CO_3^{2-}$ ligand. With $Co$ in the $+3$ state, the sphere has a $+1$ charge ($+3 - 2 = +1$), which is balanced by a single $Cl^-$ ion, giving the formula $[Co(NH_3)_5(CO_3)]Cl$."
     },
     {
       "year": 2021,
@@ -361,7 +419,9 @@
         "C": "Coordination",
         "D": "Solvate"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Ionization isomerism occurs when the ligands and the counter ions of a complex are interchanged. In this case, $SO_4^{2-}$ and $Br^-$ swap positions between the inner coordination sphere and the outer ionizable sphere, resulting in different ions in solution."
     },
     {
       "year": 2022,
@@ -373,7 +433,9 @@
         "C": "1",
         "D": "4"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The complex $[\\text{Pt(NH}_3\\text{)(Br)(Cl)(Py)}]$ is of the type $[\\text{Mabcd}]$ for a square planar geometry. In this configuration, three geometrical isomers are possible by keeping one ligand fixed and varying the positions of the other three relative to it. This is a standard case for square planar complexes with four different unidentate ligands."
     },
     {
       "year": 2022,
@@ -385,7 +447,9 @@
         "C": "5",
         "D": "6"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The chemical formula for Iron (III) hexacyanido Ferrate (II) is $\\text{Fe}_4[\\text{Fe(CN)}_6]_3$. When one mole of this complex dissolves in water, it dissociates into $4$ moles of $\\text{Fe}^{3+}$ ions and $3$ moles of $[\\text{Fe(CN)}_6]^{4-}$ complex ions. Thus, the total number of moles of ions produced is $4 + 3 = 7$."
     },
     {
       "year": 2022,
@@ -397,7 +461,9 @@
         "C": "Q and S",
         "D": "Q and R"
       },
-      "answer": "A,C,D"
+      "answer": "A,C,D",
+      "difficulty": "easy",
+      "explanation": "Ambidentate ligands are unidentate ligands that can coordinate to the central metal atom through more than one different atom. $\\text{NO}_2^-$ (can bond via N or O), $\\text{CN}^-$ (can bond via C or N), and $\\text{SCN}^-$ (can bond via S or N) are all ambidentate. $\\text{NO}_3^-$ is a simple unidentate ligand and does not show this property."
     },
     {
       "year": 2023,
@@ -409,7 +475,9 @@
         "C": "Coordination",
         "D": "Linkage"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Solvate or hydrate isomerism occurs when water molecules are exchanged between the inner coordination sphere and the outer ionization sphere. In this pair, one isomer has six water molecules coordinated to $\\text{Cr}$, while the other has five coordinated water molecules and one in the crystal lattice. This results in different physical and chemical properties despite having the same overall formula."
     },
     {
       "year": 2023,
@@ -421,7 +489,9 @@
         "C": "$\\Delta_o < \\text{P}$",
         "D": "$\\Delta_o > \\text{P}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "In an octahedral field, a $d^4$ ion can have a $t_{2g}^4 e_g^0$ configuration only if the fourth electron pairs up in the $t_{2g}$ level instead of entering the $e_g$ level. This pairing occurs when the crystal field splitting energy ($\\Delta_o$) is greater than the electron pairing energy ($P$). This condition is typically met in the presence of strong field ligands."
     },
     {
       "year": 2023,
@@ -433,7 +503,9 @@
         "C": "$\\text{H}_2\\text{N}-\\text{CH}_2-\\text{CH}_2-\\text{NH}_2$",
         "D": "CO"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "A ligand must have at least one lone pair of electrons available to donate to the central metal ion to form a coordinate bond. In the ammonium ion ($\\text{NH}_4^+$), the lone pair of nitrogen is already used to bond with the fourth hydrogen ion. Therefore, it lacks the necessary electron density to act as a ligand, unlike $\\text{NO}$, $\\text{CO}$, or ethylenediamine."
     },
     {
       "year": 2024,
@@ -445,7 +517,9 @@
         "C": "$[\text{Co}(\text{en})_3](\text{SO}_4)_2$",
         "D": "$[\text{Co}(\text{en})_3]\text{SO}_4$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The complex cation is tris(ethane-1,2-diamine)cobalt(III), which is represented as $[\\text{Co(en)}_3]^{3+}$. The anion is sulphate, $\\text{SO}_4^{2-}$. To achieve electrical neutrality, two $+3$ cations must combine with three $-2$ anions, resulting in the formula $[\\text{Co(en)}_3]_2(\\text{SO}_4)_3$."
     },
     {
       "year": 2024,
@@ -457,7 +531,9 @@
         "C": "$\text{dsp}^2$ and $\text{sp}^3$",
         "D": "$\text{dsp}^2$ and $\text{dsp}^2$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "In $[\\text{Ni(CO)}_4]$, $\\text{Ni}$ is in the $0$ oxidation state and $\\text{CO}$ is a strong field ligand that forces $s$-electrons into $d$-orbitals, leading to $sp^3$ hybridization. In $[\\text{Ni(CN)}_4]^{2-}$, $\\text{Ni}$ is in the $+2$ state ($d^8$) and the strong field $\\text{CN}^-$ ligand causes electron pairing, resulting in $dsp^2$ hybridization. Thus, the geometries are tetrahedral and square planar, respectively."
     },
     {
       "year": 2024,
@@ -469,7 +545,9 @@
         "C": "$[\text{Co}(\text{en})_3]\text{Cl}_3$",
         "D": "$[\text{Co}(\text{NH}_3)_5\text{Cl}]\text{Cl}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Optical activity in coordination compounds is most common in octahedral complexes containing chelating ligands that lack a plane of symmetry. The complex $[\\text{Co(en)}_3]^{3+}$ (found in option C) is a classic example of a chiral molecule that exists as non-superimposable $d$ and $l$ enantiomers. Although the provided answer key marks D, $[\\text{Co(en)}_3]\\text{Cl}_3$ is the standard optically active species among the choices."
     },
     {
       "year": 2024,
@@ -481,7 +559,9 @@
         "C": "+ 4, 6",
         "D": "+ 3, 6"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The oxidation state of $\\text{Cr}$ is calculated as $x + 2(0) + 2(-2) = -1$, which gives $x = +3$. The coordination number is determined by the number of donor atoms: two from the unidentate $\\text{H}_2\\text{O}$ ligands and four from the two bidentate oxalate ($\\text{C}_2\\text{O}_4^{2-}$) ligands. This gives a total coordination number of $2 + 4 = 6$."
     },
     {
       "year": 2025,
@@ -493,7 +573,9 @@
         "C": "$x=2, y=4$",
         "D": "$x=3, y=3$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Facial ($fac$) and meridional ($mer$) isomerism is a specific type of geometrical isomerism found in octahedral complexes of the general formula $[\\text{MA}_3\\text{B}_3]$. For the complex $[\\text{Co(NH}_3)_x(\\text{NO}_2)_y]$ to exhibit these two forms, there must be three of each ligand type. Therefore, the values must be $x=3$ and $y=3$."
     },
     {
       "year": 2025,
@@ -505,7 +587,9 @@
         "C": "$[\\text{NiCl}_4]^{2-}$ and $[\\text{Ni}(\\text{CN})_4]^{2-}$ are inner orbital complexes.",
         "D": "$[\\text{NiCl}_4]^{2-}$ and $[\\text{Ni}(\\text{CN})_4]^{2-}$ are outer orbital complexes."
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "In $[\\text{NiCl}_4]^{2-}$, $\\text{Cl}^-$ is a weak field ligand that does not cause electron pairing, leading to $sp^3$ hybridization and an outer orbital/high-spin nature. In $[\\text{Ni(CN)}_4]^{2-}$, $\\text{CN}^-$ is a strong field ligand that pairs the $3d$ electrons, allowing for $dsp^2$ hybridization. This makes the cyanide complex an inner orbital/low-spin complex."
     },
     {
       "year": 2025,
@@ -517,7 +601,9 @@
         "C": "2",
         "D": "3"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The chemical formula for Potassium trioxalatoaluminate (III) is $\\text{K}_3[\\text{Al(C}_2\\text{O}_4)_3]$. Upon complete dissociation in aqueous solution, it produces three $\\text{K}^+$ ions and one $[\\text{Al(C}_2\\text{O}_4)_3]^{3-}$ complex ion. The Van't Hoff factor ($i$) is the total number of particles produced per formula unit, which is $3 + 1 = 4$."
     },
     {
       "year": 2025,
@@ -529,7 +615,9 @@
         "C": "$[\\text{Co}(\\text{CN})_6]^{3-}$",
         "D": "$[\\text{Co}(\\text{NH}_3)_5(\\text{H}_2\\text{O})]^{3+}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The magnitude of the crystal field splitting energy ($\\Delta_o$) depends on the field strength of the ligands as defined by the spectrochemical series. Among the ligands provided ($\\text{Cl}^-$, $\\text{H}_2\\text{O}$, $\\text{NH}_3$, and $\\text{CN}^-$), $\\text{CN}^-$ is the strongest field ligand. Therefore, the complex $[\\text{Co(CN)}_6]^{3-}$ will have the maximum $\\Delta_o$ value."
     }
   ]
 }

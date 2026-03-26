@@ -13,7 +13,9 @@
         "C": "1/2",
         "D": "2"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2008,
@@ -25,7 +27,9 @@
         "C": "$\\log (1 + x)$",
         "D": "$e^{-x} (1 + x)$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2009,
@@ -37,7 +41,9 @@
         "C": "$2$",
         "D": "degree is not defined."
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2011,
@@ -49,7 +55,9 @@
         "C": "$e^{\\cos x}$",
         "D": "$\\sec x$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2017,
@@ -61,7 +69,9 @@
         "C": "$x^2 = ky^2; k \\in R$",
         "D": "$x^2 - y^2 = k^2; k \\in R$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2017,
@@ -73,7 +83,9 @@
         "C": "$e^{-y}$",
         "D": "$\\log|x + y + 2|$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2017,
@@ -85,7 +97,9 @@
         "C": "2 and 3",
         "D": "2 and degree is undefined"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2018,
@@ -97,7 +111,9 @@
         "C": "Circle",
         "D": "Ellipse"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2018,
@@ -109,7 +125,9 @@
         "C": "$\\log y = x + 4$",
         "D": "$2y = x^2 + 5$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2018,
@@ -121,7 +139,9 @@
         "C": "$p = ce^{\\frac{3t}{100}}$",
         "D": "$p = \\frac{3}{100} e^{3t}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2019,
@@ -133,7 +153,9 @@
         "C": "$(x-1)e^{-x}$",
         "D": "$(1-x)e^{-x}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2019,
@@ -145,7 +167,9 @@
         "C": "$5$",
         "D": "$3$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2019,
@@ -157,7 +181,9 @@
         "C": "$e > 1$",
         "D": "$e = 1$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2020,
@@ -169,7 +195,9 @@
         "C": "2",
         "D": "5"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2020,
@@ -181,7 +209,9 @@
         "C": "$e^{\\tan^{-1} x}$",
         "D": "$e^{\\tan^{-1} y}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2020,
@@ -193,7 +223,9 @@
         "C": "parabolas",
         "D": "ellipses"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2021,
@@ -205,7 +237,9 @@
         "C": "$e^{-x} + e^{-y} = C$",
         "D": "$e^x - e^y = C$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2021,
@@ -217,7 +251,9 @@
         "C": "$3$",
         "D": "$0$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2021,
@@ -229,7 +265,9 @@
         "C": "$2$ and $1$",
         "D": "$1$ and not defined"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2022,
@@ -241,7 +279,9 @@
         "C": "Ellipse",
         "D": "Rectangular hyperbola"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2022,
@@ -253,7 +293,9 @@
         "C": "$e^x$",
         "D": "$x$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2023,
@@ -265,7 +307,9 @@
         "C": "$3$ and $16$",
         "D": "$2$ and $12$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2023,
@@ -277,7 +321,9 @@
         "C": "$\\cos x$",
         "D": "$\\sec x$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2023,
@@ -289,7 +335,9 @@
         "C": "$y = 2x^2 + 1$",
         "D": "$y = \\frac{x}{2x^2 + 1}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2024,
@@ -301,7 +349,9 @@
         "C": "2, 8",
         "D": "2, 3"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2024,
@@ -313,7 +363,9 @@
         "C": "$e^{\\frac{1}{1 + y^2}}$",
         "D": "$e^{\\tan^{-1}y}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2024,
@@ -325,7 +377,9 @@
         "C": "$y = cx$",
         "D": "$xy = c$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2024,
@@ -337,7 +391,9 @@
         "C": "$e^{\\frac{1}{1 + y^2}}$",
         "D": "$\\tan^{-1} y$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2024,
@@ -349,7 +405,9 @@
         "C": "2, 8",
         "D": "1, 8"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2024,
@@ -361,7 +419,9 @@
         "C": "$y = cx$",
         "D": "$y = cx^2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2025,
@@ -373,7 +433,9 @@
         "C": "3",
         "D": "1"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2025,
@@ -385,7 +447,9 @@
         "C": "$e^{-x} - e^y = c$",
         "D": "$e^x - e^{-y} = c$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": ""
     },
     {
       "year": 2025,
@@ -397,7 +461,9 @@
         "C": "$e^{-y}$",
         "D": "$x^2$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": ""
     }
   ]
 }

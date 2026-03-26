@@ -13,7 +13,9 @@
         "C": "Reaction does not take place",
         "D": "Coloured layer"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The given compound is neopentyl alcohol, which is a primary alcohol. Primary alcohols do not react with Lucas reagent ($\text{ZnCl}_2 + \text{HCl}$) at room temperature to show any visible change. Therefore, the reaction does not take place under standard conditions."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "$109^\\circ$",
         "D": "$108^\\circ 30'$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "In alcohols, both the carbon and oxygen atoms are $sp^3$ hybridized. While the actual bond angle in methanol is approximately $108.9^\text{o}$ due to lone pair repulsions, the theoretical tetrahedral bond angle associated with $sp^3$ hybridization is $109^\text{o} 28'$."
     },
     {
       "year": 2008,
@@ -37,7 +41,9 @@
         "C": "Statements (1) and (4).",
         "D": "Statements (3) and (4)."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Statement (1) is correct because the phenoxide ion is resonance stabilized, making phenol more acidic than alcohols. Statement (3) is also correct as phenols react with neutral $\text{FeCl}_3$ to form a characteristic violet-colored complex. Statements (2) and (4) are incorrect as phenol is used for Bakelite, not melamine, and its reaction with acetyl chloride yields an ester."
     },
     {
       "year": 2008,
@@ -49,7 +55,9 @@
         "C": "Ethanol",
         "D": "2 - Methyl, 2 - Propanol"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Formaldehyde ($\text{HCHO}$) reacts with Grignard reagents to produce primary alcohols. The reaction of $\text{HCHO}$ with ethyl magnesium iodide ($\text{CH}_3\text{CH}_2\text{MgI}$) followed by hydrolysis yields 1-propanol ($\text{CH}_3\text{CH}_2\text{CH}_2\text{OH}$)."
     },
     {
       "year": 2009,
@@ -61,7 +69,9 @@
         "C": "$\\text{CH}_3\\text{-(CH}_2)_2\\text{OH}$",
         "D": "$\\text{CH}_3\\text{-CH(CH}_3\\text{)-CH}_2\\text{-OH}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Tertiary butyl alcohol consists of a central carbon atom bonded to three methyl groups and one hydroxyl group. The structural formula is $(\text{CH}_3)_3\text{C-OH}$, which corresponds to option A."
     },
     {
       "year": 2009,
@@ -73,7 +83,9 @@
         "C": "Hoffmann's reaction",
         "D": "Carbyl amine reaction"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The reaction of phenol with chloroform ($\text{CHCl}_3$) in the presence of aqueous sodium hydroxide to form salicylaldehyde is known as the Reimer-Tiemann reaction. This is a classic electrophilic aromatic substitution reaction used to introduce an aldehyde group."
     },
     {
       "year": 2009,
@@ -85,7 +97,9 @@
         "C": "$sp^3 \\text{ and } sp^3$",
         "D": "$sp^3 \\text{ and } sp^2$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "In ethers ($R-\text{O}-R$), the oxygen atom forms two sigma bonds and has two lone pairs, resulting in $sp^3$ hybridization. The alkyl carbon atoms attached to the oxygen are also $sp^3$ hybridized in simple saturated ethers."
     },
     {
       "year": 2011,
@@ -97,7 +111,9 @@
         "C": "$sp, sp^2$",
         "D": "$sp^2, sp^3$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "In phenol, the carbon atom attached to the $-\text{OH}$ group is part of the aromatic ring and is $sp^2$ hybridized. The oxygen atom of the hydroxyl group has two lone pairs and two sigma bonds, making it $sp^3$ hybridized."
     },
     {
       "year": 2011,
@@ -109,7 +125,9 @@
         "C": "Dow and Reimer-Tiemann.",
         "D": "Dow and Friedel-Craft."
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The industrial conversion of chlorobenzene to phenol is known as the Dow process. The subsequent conversion of phenol to salicylaldehyde using chloroform and alkali is the Reimer-Tiemann reaction."
     },
     {
       "year": 2014,
@@ -121,7 +139,9 @@
         "C": "Ethelene glycol",
         "D": "Glycerol"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Solubility of alcohols in water increases with the number of hydroxyl ($-\text{OH}$) groups because they can form more hydrogen bonds with water molecules. Glycerol, having three $-\text{OH}$ groups, is more soluble than ethylene glycol (two) or butyl alcohols (one)."
     },
     {
       "year": 2014,
@@ -133,7 +153,9 @@
         "C": "Reduction reaction of alcohol",
         "D": "Reaction of alcohol with phosphorous tribromide"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "During the oxidation of alcohols to aldehydes or ketones, the $\text{O}-\text{H}$ and $\text{C}-\text{H}$ bonds are broken to form a $\text{C}=\text{O}$ double bond. The original $\text{C}-\text{O}$ single bond remains intact, unlike in dehydration or substitution reactions where the $\text{C}-\text{O}$ bond is cleaved."
     },
     {
       "year": 2015,
@@ -145,7 +167,9 @@
         "C": "\\text{Br}_2 / \\text{FeBr}_3",
         "D": "\\text{HBr} / \\Delta"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Bromination of anisole (methyl phenyl ether) occurs readily with bromine in ethanoic acid ($\text{Br}_2 / \text{CH}_3\text{COOH}$). The methoxy group is a strong activating group, so a Lewis acid catalyst like $\text{FeBr}_3$ is not strictly required for the reaction."
     },
     {
       "year": 2015,
@@ -157,7 +181,9 @@
         "C": "Benzoic acid",
         "D": "Salicylic acid"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Picric acid is the common name for 2,4,6-trinitrophenol. Despite its name, it does not contain a carboxylic acid group ($-\text{COOH}$); it is called an acid because the three nitro groups make the phenolic hydrogen very acidic."
     },
     {
       "year": 2015,
@@ -169,7 +195,9 @@
         "C": "Solubility of phenol in water is more than that of chlorobenzene",
         "D": "Boiling point of o-nitrophenol is lower than that of p-nitrophenol"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Phenol is a very weak acid, weaker than carbonic acid, and therefore it does not react with sodium carbonate ($\text{Na}_2\text{CO}_3$) to release $\text{CO}_2$. It only reacts with stronger bases like sodium hydroxide ($\text{NaOH}$) to form phenoxide salts."
     },
     {
       "year": 2017,
@@ -181,7 +209,9 @@
         "C": "o-Methyl acetophenone and p-Methyl acetophenone",
         "D": "o-Methoxy acetophenone and p-Methoxy acetophenone"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "hard",
+      "explanation": "This reaction is the Fries rearrangement, where a phenolic ester is converted into ortho and para-hydroxy ketones in the presence of a Lewis acid like anhydrous $\text{AlCl}_3$. Phenyl ethanoate rearranges to form o-hydroxy acetophenone and p-hydroxy acetophenone."
     },
     {
       "year": 2017,
@@ -193,7 +223,9 @@
         "C": "4.6",
         "D": "2.3"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The reaction is $2\\text{C}_2\\text{H}_5\\text{OH} + 2\\text{Na} \\rightarrow 2\\text{C}_2\\text{H}_5\\text{ONa} + \\text{H}_2$. According to stoichiometry, $2$ moles of ethanol ($92\\text{ g}$) produce $22400\\text{ mL}$ of $\\text{H}_2$ at STP. Thus, $560\\text{ mL}$ of $\\text{H}_2$ requires $(92 \\times 560) / 22400 = 2.3\\text{ g}$ of ethanol."
     },
     {
       "year": 2017,
@@ -205,7 +237,9 @@
         "C": "Cyclo hexa-2,5-diene-1,4-diol",
         "D": "Cyclo hexa-2,5-diene-1,4-dione"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Oxidation of phenol with chromic acid (sodium dichromate in sulfuric acid) yields $p$-benzoquinone. The IUPAC name for $p$-benzoquinone is cyclohexa-2,5-diene-1,4-dione."
     },
     {
       "year": 2018,
@@ -217,7 +251,9 @@
         "C": "$\\text{CH}_3 - \\text{CH}_2 - \\text{COOH} \\xrightarrow{\\text{LiAlH}_4, \\text{H}_2\\text{O}}$",
         "D": "$\\text{CH}_3 - \\text{CH} = \\text{CH}_2 \\xrightarrow{(\\text{BH}_3)_2, \\text{H}_2\\text{O}_2, \\text{OH}^-}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Reactions A, C, and D all produce propan-1-ol, while reaction B produces propan-2-ol. Propan-2-ol is a secondary alcohol and more branched than propan-1-ol, leading to a smaller surface area and lower boiling point."
     },
     {
       "year": 2018,
@@ -229,7 +265,9 @@
         "C": "$\\text{Pentane} - 1 - \\text{ol}$",
         "D": "$3 - \\text{Methyl} - \\text{butane} - 2 - \\text{ol}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The reaction of a Grignard reagent with a ketone yields a tertiary alcohol. Ethyl magnesium bromide ($C_2H_5MgBr$) reacts with propanone ($CH_3COCH_3$) to form $2$-methylbutan-$2$-ol after hydrolysis."
     },
     {
       "year": 2019,
@@ -241,7 +279,9 @@
         "C": "2 - Methyl propan - 2 -ol",
         "D": "Butan - 2 -ol"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Boiling point increases with molecular mass and decreases with branching. Among the options, butan-1-ol is a straight-chain primary alcohol with the highest molecular mass and least branching, resulting in the highest boiling point."
     },
     {
       "year": 2019,
@@ -253,7 +293,9 @@
         "C": "Propan - 2 - ol",
         "D": "Ethan - 1 - ol"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Formaldehyde ($HCHO$) reacts with Grignard reagents to form primary alcohols. Ethyl magnesium bromide ($C_2H_5MgBr$) adds to formaldehyde to produce propan-1-ol ($CH_3CH_2CH_2OH$) after hydrolysis."
     },
     {
       "year": 2019,
@@ -265,7 +307,9 @@
         "C": "2' - hydroxy benzoic acid",
         "D": "Methoxy benzoic acid"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Methyl salicylate is the ester formed from salicylic acid and methanol. Since salicylic acid is $2$-hydroxybenzoic acid, its methyl ester is named methyl $2$-hydroxybenzoate."
     },
     {
       "year": 2020,
@@ -277,7 +321,9 @@
         "C": "Pentanal",
         "D": "Pentan-1-ol"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Pentan-1-ol has the highest boiling point because alcohols can form strong intermolecular hydrogen bonds. Ethers, alkanes, and aldehydes of similar molecular mass lack this strong interaction."
     },
     {
       "year": 2020,
@@ -289,7 +335,9 @@
         "C": "Anhydrous $\\text{CrO}_3$",
         "D": "DIBAL - H"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "PCC (Pyridinium chlorochromate) is a mild oxidizing agent used to convert primary alcohols to aldehydes and secondary alcohols to ketones. Cyclohexanol is a secondary alcohol, so PCC oxidizes it to cyclohexanone."
     },
     {
       "year": 2021,
@@ -301,7 +349,9 @@
         "C": "1-ethoxy-2, 2-dimethyl cyclohexane",
         "D": "1-ethoxy-6, 6-dimethyl cyclohexane"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The cyclohexane ring is numbered to give the substituents the lowest possible locants. Assigning $1,1$ to the dimethyl groups and $2$ to the ethoxy group gives the set $(1,1,2)$, which is lower than $(1,2,2)$, resulting in $2$-ethoxy-$1,1$-dimethylcyclohexane."
     },
     {
       "year": 2021,
@@ -313,7 +363,9 @@
         "C": "$\\text{CH}_3 - \\text{CH} = \\text{CH} - \\text{Mg} - \\text{X}$",
         "D": "$\\text{CH}_3 - \\text{CH} - \\text{CH}_2 - \\text{Mg} - \\text{X}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Methanal ($HCHO$) reacts with a Grignard reagent ($RMgX$) to form a primary alcohol ($R-CH_2OH$). To obtain $2$-methylpropan-$1$-ol ($(CH_3)_2CH-CH_2OH$), the $R$ group must be an isopropyl group, which is $\\text{CH}_3-\\text{CH}(\\text{CH}_3)-\\text{Mg}-\\text{X}$."
     },
     {
       "year": 2021,
@@ -325,7 +377,9 @@
         "C": "$m - \\text{O}_2\\text{N} - \\text{C}_6\\text{H}_4 - \\text{OH}$",
         "D": "$\\text{C}_6\\text{H}_5\\text{OH}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The $pK_a$ value is inversely proportional to acidity. Nitrophenols are more acidic than phenol due to the electron-withdrawing $-NO_2$ group; therefore, phenol is the least acidic and has the highest $pK_a$ value."
     },
     {
       "year": 2022,
@@ -337,7 +391,9 @@
         "C": "Etard reaction",
         "D": "Reimer-Tiemann reaction"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Kolbe's reaction is used to prepare salicylic acid from phenol. It involves the reaction of sodium phenoxide with carbon dioxide under pressure, followed by acidification."
     },
     {
       "year": 2023,
@@ -349,7 +405,9 @@
         "C": "1.15",
         "D": "0.575"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Using the stoichiometry $2\\text{C}_2\\text{H}_5\\text{OH} \\rightarrow \\text{H}_2$, $92\\text{ g}$ of ethanol produces $22400\\text{ mL}$ of $\\text{H}_2$ at STP. For $280\\text{ mL}$ of $\\text{H}_2$, the mass required is $(92 \\times 280) / 22400 = 1.15\\text{ g}$, which corresponds to option C."
     },
     {
       "year": 2023,
@@ -361,7 +419,9 @@
         "C": "Both alkene and ether",
         "D": "Alcohol"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The reaction between a strong base like sodium methoxide ($\\text{CH}_3\\text{ONa}$) and a tertiary alkyl halide like tert-butyl bromide ($(CH_3)_3CBr$) favors E2 elimination over substitution. This results in the formation of an alkene ($2$-methylpropene) as the major product."
     },
     {
       "year": 2023,
@@ -373,7 +433,9 @@
         "C": "Primary and Tertiary",
         "D": "Only Tertiary"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "hard",
+      "explanation": "When alcohol vapors are passed over heated copper at $573\\text{ K}$, primary and secondary alcohols undergo dehydrogenation to form aldehydes and ketones. However, tertiary alcohols undergo dehydration to form alkenes. If the answer is B, the question likely intended to ask for dehydrogenation, as dehydration specifically occurs with tertiary alcohols."
     },
     {
       "year": 2024,
@@ -385,7 +447,9 @@
         "C": "$\text{CH}_3 - \text{CH} = \text{CH} - \text{CH}_3$",
         "D": "$\text{CH}_3 - \text{CH}_2 - \text{CH} = \text{CH}_2$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Acid-catalyzed dehydration of butan-1-ol involves the formation of a primary carbocation, which undergoes a 1,2-hydride shift to form a more stable secondary carbocation. According to Saytzeff's rule, the more substituted alkene, but-2-ene ($\\text{CH}_3-\\text{CH}=\\text{CH}-\\text{CH}_3$), is formed as the major product. This rearrangement ensures the stability of the intermediate and the final product."
     },
     {
       "year": 2024,
@@ -397,7 +461,9 @@
         "C": "$\text{CH}_3 - \text{CH}_3 + \text{I} - \text{CH}_2 - \text{O} - \text{C}(\text{CH}_3)_2 - \text{CH}_2 - \text{CH}_3$",
         "D": "$\text{CH}_3\text{CH}_2\text{CH}_2\text{I} + \text{CH}_3 - \text{CH}_2 - \text{C}(\text{CH}_3)_2 - \text{OH}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "hard",
+      "explanation": "The reaction of an ether with HI follows an $S_N1$ mechanism if one of the alkyl groups is tertiary. In this case, the tertiary alkyl group forms a stable carbocation, which then reacts with the iodide ion to form the tertiary iodide. The remaining primary alkyl group forms the corresponding alcohol, propan-1-ol."
     },
     {
       "year": 2024,
@@ -409,7 +475,9 @@
         "C": "(i) > (ii) > (iii)",
         "D": "(ii) > (i) > (iii)"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The acidic strength of phenols is increased by electron-withdrawing groups (EWG) and decreased by electron-donating groups (EDG). The nitro group ($-\\text{NO}_2$) is a strong EWG, making p-nitrophenol the most acidic, while the methyl group ($-\\text{CH}_3$) is an EDG, making p-methylphenol the least acidic. Thus, the order is p-nitrophenol > phenol > p-methylphenol."
     },
     {
       "year": 2025,
@@ -421,7 +489,9 @@
         "C": "$R'=C_2H_5, R''=CH_3, R'''=C_2H_5$",
         "D": "$R'=CH_3, R''=CH_3, R'''=CH_3$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The reaction of a ketone with a Grignard reagent followed by hydrolysis yields a tertiary alcohol. 2-methylbutan-2-ol contains a central carbon bonded to two methyl groups and one ethyl group. Therefore, reacting butanone ($R'=\\text{CH}_3, R''=\\text{C}_2\\text{H}_5$) with methylmagnesium halide ($R'''=\\text{CH}_3$) produces the desired product."
     },
     {
       "year": 2025,
@@ -433,7 +503,9 @@
         "C": "$\\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{Cl}, \\text{C}_6\\text{H}_5\\text{OH}, \\text{CH}_3\\text{COCH}_3$",
         "D": "$\\text{CH}_3-\\text{CH}-\\text{CH}_3, \\text{C}_6\\text{H}_5\\text{CHO}, \\text{CH}_3\\text{COCH}_3$ (with Cl attached to middle C)"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Benzene reacts with n-propyl chloride ($X$) via Friedel-Crafts alkylation, where the intermediate carbocation rearranges to form isopropylbenzene (cumene). Cumene is then oxidized by air to cumene hydroperoxide, which decomposes in acidic medium to yield phenol ($Y$) and acetone ($Z$). This sequence is the industrial 'Cumene process' for phenol production."
     },
     {
       "year": 2025,
@@ -445,7 +517,9 @@
         "C": "Substitution nucleophilic unimolecular",
         "D": "Substitution electrophilic unimolecular"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The formation of diethyl ether from ethanol at $413\\text{ K}$ in the presence of $\\text{H}_2\\text{SO}_4$ occurs via a bimolecular nucleophilic substitution ($S_N2$) mechanism. A protonated ethanol molecule acts as the substrate, while a second ethanol molecule acts as the nucleophile. This reaction is specific to primary alcohols at this temperature to avoid elimination."
     }
   ]
 }

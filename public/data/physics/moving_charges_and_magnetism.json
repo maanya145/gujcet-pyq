@@ -13,7 +13,9 @@
         "C": "$2 : 1$",
         "D": "$1 : 1$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The magnetic field at the center of a circular coil is $B = \\frac{\\mu_0 I}{2R}$. Since the two identical coils are perpendicular, their magnetic field vectors are orthogonal, resulting in a net field $B_{net} = \\sqrt{B^2 + B^2} = \\sqrt{2}B$. Thus, the ratio of the resultant field to the field of one coil is $\\sqrt{2} : 1$."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "$8\\pi \\times 10^{-7}\\text{ N}$",
         "D": "$8 \\times 10^{-5}\\text{ N}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The force on a wire of length $L$ due to an infinitely long parallel wire is given by $F = \\frac{\\mu_0 I_1 I_2 L}{2\\pi d}$. Substituting the values $I_1 = 10\\text{ A}$, $I_2 = 2\\text{ A}$, $L = 2\\text{ m}$, and $d = 0.1\\text{ m}$, we get $F = \\frac{4\\pi \\times 10^{-7} \\times 10 \\times 2 \\times 2}{2\\pi \\times 0.1} = 8 \\times 10^{-5}\\text{ N}$."
     },
     {
       "year": 2007,
@@ -37,7 +41,9 @@
         "C": "its speed will change",
         "D": "direction of its velocity will change"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "When a charged particle enters a magnetic field, the magnetic force $\\vec{F} = q(\\vec{v} \\times \\vec{B})$ is always perpendicular to the velocity. This force acts as a centripetal force, changing the direction of the velocity vector while the speed remains constant."
     },
     {
       "year": 2007,
@@ -49,7 +55,9 @@
         "C": "$4 \\times 10^7\\text{ ms}^{-1}$",
         "D": "$32 \\times 10^{14}\\text{ ms}^{-1}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The speed of the electron is calculated using the kinetic energy formula $K = \\frac{1}{2}mv^2$, which gives $v = \\sqrt{\\frac{2K}{m}}$. Substituting $K = 182 \\times 1.6 \\times 10^{-19}\\text{ J}$ and $m = 9.1 \\times 10^{-31}\\text{ kg}$, the calculated speed is approximately $8 \\times 10^6\\text{ ms}^{-1}$, making option A the closest intended answer."
     },
     {
       "year": 2007,
@@ -61,7 +69,9 @@
         "C": "low resistance in parallel with it",
         "D": "low resistance in series with it"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "To convert a galvanometer into an ammeter, a low resistance called a shunt is connected in parallel with the galvanometer coil. This allows the majority of the current to bypass the sensitive galvanometer, enabling the measurement of higher current ranges."
     },
     {
       "year": 2008,
@@ -73,7 +83,9 @@
         "C": "24 $\\Omega$",
         "D": "12 $\\Omega$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The current through the galvanometer is proportional to the deflection, so $I_g/I = 10/50 = 1/5$. Using the shunt formula $S = \\frac{I_g G}{I - I_g}$, we get $12 = \\frac{(1/5)I \\cdot G}{I - (1/5)I} = \\frac{G}{4}$, which gives the galvanometer resistance $G = 48\\text{ }\\Omega$."
     },
     {
       "year": 2008,
@@ -85,7 +97,9 @@
         "C": "$\\frac{I L^2}{4 \\pi}$",
         "D": "$\\frac{I L}{4 \\pi}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The magnetic dipole moment of a circular loop is $M = IA$. For a wire of length $L$ bent into a circle, the circumference $L = 2\\pi R$ gives $R = \\frac{L}{2\\pi}$, so the area is $A = \\pi R^2 = \\frac{L^2}{4\\pi}$. Substituting this into the moment formula gives $M = \\frac{IL^2}{4\\pi}$."
     },
     {
       "year": 2009,
@@ -97,7 +111,9 @@
         "C": "$\\left(\\frac{m_p}{m_e}\\right)^{1/2}$",
         "D": "$\\left(\\frac{m_e}{m_p}\\right)^{1/2}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The radius of a circular path in a magnetic field is $r = \\frac{p}{qB}$, where $p$ is the linear momentum. Since the electron and proton have equal momentum and equal magnitude of charge ($e$), and they enter the same magnetic field, their radii will be identical, resulting in a ratio of $1$."
     },
     {
       "year": 2009,
@@ -109,7 +125,9 @@
         "C": "$\\frac{\\mu_0}{4\\pi} \\cdot \\frac{2I}{R} \\pi$",
         "D": "$\\frac{\\mu_0}{4\\pi} \\cdot \\frac{2I}{R} (\\pi+1)$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The magnetic field at the center is the sum of the field due to the circular loop ($B_{loop} = \\frac{\\mu_0 I}{2R}$) and the infinite straight wire ($B_{wire} = \\frac{\\mu_0 I}{2\\pi R}$). Adding these gives $B = \\frac{\\mu_0 I}{2R} (1 + \\frac{1}{\\pi})$, which can be rearranged to the form $\\frac{\\mu_0}{4\\pi} \\cdot \\frac{2I}{R} (\\pi + 1)$."
     },
     {
       "year": 2011,
@@ -121,7 +139,9 @@
         "C": "$10\\text{ }\\Omega$",
         "D": "$9.9\\text{ }\\Omega$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "To have $10\\%$ of the main current pass through the galvanometer, we set $I_g = 0.1I$. Using the shunt formula $S = \\frac{I_g G}{I - I_g}$, we calculate $S = \\frac{0.1I \\times 99}{I - 0.1I} = \\frac{9.9}{0.9} = 11\\text{ }\\Omega$."
     },
     {
       "year": 2014,
@@ -133,7 +153,9 @@
         "C": "low resistance in parallel",
         "D": "low resistance in series"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "To convert a galvanometer into a voltmeter, a high resistance is connected in series with the coil. This ensures the device has a high total resistance, allowing it to measure potential difference across a component without drawing significant current from the circuit."
     },
     {
       "year": 2014,
@@ -145,7 +167,9 @@
         "C": "$4:1$",
         "D": "$1:4$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The time period of a charged particle in a magnetic field is $T = \\frac{2\\pi m}{qB}$, so $T \\propto \\frac{m}{q}$. For an $\\alpha$-particle ($m=4, q=2$) and a proton ($m=1, q=1$), the ratio of their periods is $\\frac{4/2}{1/1} = 2 : 1$."
     },
     {
       "year": 2014,
@@ -157,7 +181,9 @@
         "C": "$\\frac{10}{4} \\mu_0$",
         "D": "$\\frac{5}{4} \\mu_0$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The magnetic field at the center is $B = \\frac{\\mu_0 NI}{2R}$. Calculating for both rings, $B_1 = \\frac{\\mu_0 \\times 25 \\times 0.1}{2 \\times 0.5} = 2.5\\mu_0$ and $B_2 = \\frac{\\mu_0 \\times 25 \\times 0.2}{2 \\times 2} = 1.25\\mu_0$. Since currents are in opposite directions, the net field is $|B_1 - B_2| = 1.25\\mu_0 = \\frac{5}{4}\\mu_0$."
     },
     {
       "year": 2014,
@@ -169,7 +195,9 @@
         "C": "$\\text{NA}$",
         "D": "$\\frac{\\text{J}}{\\text{A}^2}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "From the formula for force per unit length between two parallel wires, $F/L = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$, the units of $\\mu_0$ are $\\frac{(F/L) \\cdot d}{I^2}$. This simplifies to $\\frac{(\\text{N/m}) \\cdot \\text{m}}{\\text{A}^2} = \\text{N/A}^2$."
     },
     {
       "year": 2015,
@@ -181,7 +209,9 @@
         "C": "lean towards each other",
         "D": "neither attract nor repel each other"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "According to Ampere's force law, two parallel wires carrying currents in the same direction exert an attractive magnetic force on each other. Conversely, if the currents were in opposite directions, the wires would repel each other."
     },
     {
       "year": 2015,
@@ -193,7 +223,9 @@
         "C": "2000",
         "D": "7950"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The deflection in a galvanometer is proportional to the current ($I \\propto \\theta$). To reduce the deflection from $30$ to $15$ divisions, the current must be halved, which requires doubling the total resistance from $4000\\text{ }\\Omega$ to $8000\\text{ }\\Omega$. Subtracting the galvanometer resistance ($50\\text{ }\\Omega$) from the new total resistance gives the required series resistance of $7950\\text{ }\\Omega$."
     },
     {
       "year": 2017,
@@ -205,7 +237,9 @@
         "C": "$\\frac{2}{3} \\frac{\\mu_0 I}{\\pi r}$",
         "D": "$\\frac{\\mu_0 I}{2\\pi r}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The magnetic field at point $P$ is the vector sum of the fields produced by both wires. Using the formula $B = \\frac{\\mu_0 I}{2\\pi d}$ and the geometry where $P$ is at distance $r$ from one wire and $3r$ from the other, the total field is $B = \\frac{\\mu_0 I}{2\\pi r} + \\frac{\\mu_0 I}{2\\pi (3r)} = \\frac{2\\mu_0 I}{3\\pi r}$."
     },
     {
       "year": 2017,
@@ -217,7 +251,9 @@
         "C": "[Diagram C]",
         "D": "[Diagram D]"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "For a long straight conductor, the magnetic field inside ($r < a$) increases linearly with distance ($B \\propto r$) and outside ($r > a$) decreases inversely with distance ($B \\propto 1/r$). Graph D correctly illustrates this transition with a maximum value at the surface $r = a$."
     },
     {
       "year": 2017,
@@ -229,7 +265,9 @@
         "C": "$3 \\times 10^{-11}$",
         "D": "$3 \\times 10^{-10}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The magnetic force is given by $F = qvB$. First, calculate the velocity from kinetic energy using $v = \\sqrt{2K/m}$, then substitute the values to find $F = (1.6 \\times 10^{-19}) \\times (2 \\times 10^7) \\times 2.5 = 8 \\times 10^{-12}\\text{ N}$."
     },
     {
       "year": 2017,
@@ -241,7 +279,9 @@
         "C": "Parabola",
         "D": "Straight line"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "When a charged particle enters a magnetic field at an angle $\\theta$ (other than $0^\\circ$, $90^\\circ$, or $180^\\circ$), it has two velocity components. The component parallel to the field causes linear motion, while the perpendicular component causes circular motion, resulting in a helical path."
     },
     {
       "year": 2018,
@@ -253,7 +293,9 @@
         "C": "$14.4$",
         "D": "$1.32$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The radius of the circular path is given by $r = \\frac{mv}{qB}$. Rearranging for the magnetic field, $B = \\frac{mv}{qr} = \\frac{9.1 \\times 10^{-31} \\times 10^6}{1.6 \\times 10^{-19} \\times 0.2}$, which results in $2.84 \\times 10^{-5}\\text{ T}$."
     },
     {
       "year": 2018,
@@ -265,7 +307,9 @@
         "C": "$9950$",
         "D": "$9975$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "To convert a galvanometer into a voltmeter, a high resistance $R$ is connected in series, where $V = I_g(G + R)$. Substituting the given values, $100 = 0.01(50 + R)$, which leads to $R = 10000 - 50 = 9950\\text{ }\\Omega$."
     },
     {
       "year": 2018,
@@ -277,7 +321,9 @@
         "C": "$5 \\times 10^{-5}$, attractive",
         "D": "$5 \\times 10^{-6}$, repulsive"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The force per unit length between two parallel wires is $f = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$. For currents of $5\\text{ A}$ separated by $1\\text{ m}$, $f = 5 \\times 10^{-6}\\text{ N/m}$, and since the currents are in the same direction, the force is attractive."
     },
     {
       "year": 2018,
@@ -289,7 +335,9 @@
         "C": "$a^2$",
         "D": "$a$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Applying Ampere's Circuital Law to a point inside a long straight wire ($a < r$), the magnetic field is $B = \\frac{\\mu_0 I a}{2\\pi r^2}$. This shows that the magnetic field intensity $B$ is directly proportional to the distance $a$ from the axis."
     },
     {
       "year": 2019,
@@ -301,7 +349,9 @@
         "C": "$6\\pi \\times 10^{-3}$",
         "D": "$5\\pi \\times 10^{-3}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The magnetic field inside a long solenoid is $B = \\mu_0 n I$. Given $n = 50\\text{ turns/cm} = 5000\\text{ turns/m}$ and $I = 2.5\\text{ A}$, the field is $B = (4\\pi \\times 10^{-7}) \\times 5000 \\times 2.5 = 5\\pi \\times 10^{-3}\\text{ T}$."
     },
     {
       "year": 2020,
@@ -313,7 +363,9 @@
         "C": "scalar, vector",
         "D": "vector, scalar"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "A magnetic field is produced by a current element $I d\\vec{l}$, which is a vector quantity. An electric field is produced by a static charge $q$, which is a scalar quantity."
     },
     {
       "year": 2020,
@@ -325,7 +377,9 @@
         "C": "$20\\text{ rad/s}$",
         "D": "$40\\text{ rad/s}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The work done by the magnetic field to rotate the coil is $W = mB(1 - \\cos\\theta)$, which converts into rotational kinetic energy $\\frac{1}{2}I\\omega^2$. Solving $10 \\times 2 \\times (1 - 0) = \\frac{1}{2}(0.1)\\omega^2$ gives $\\omega^2 = 400$, so $\\omega = 20\\text{ rad/s}$."
     },
     {
       "year": 2020,
@@ -337,7 +391,9 @@
         "C": "$2.4 \\times 10^5$",
         "D": "$2.4$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The distance from the axis is $a = 5\\text{ cm} - 2\\text{ cm} = 3\\text{ cm}$. Using the formula for the internal magnetic field $B = \\frac{\\mu_0 I a}{2\\pi R^2}$, we get $B = \\frac{2 \\times 10^{-7} \\times 10 \\times 0.03}{(0.05)^2} = 2.4 \\times 10^{-5}\\text{ T}$, so the numerical value is $2.4$."
     },
     {
       "year": 2021,
@@ -349,7 +405,9 @@
         "C": "$\\frac{\\pi Br^3}{\\mu_0}$",
         "D": "$\\frac{\\pi Br^3}{4\\mu_0}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The magnetic field at the center of a circular loop is $B = \\frac{\\mu_0 I}{2r}$, which gives $I = \\frac{2Br}{\\mu_0}$. The magnetic dipole moment is $M = IA = I(\\pi r^2) = \\frac{2Br}{\\mu_0} \\times \\pi r^2 = \\frac{2\\pi Br^3}{\\mu_0}$."
     },
     {
       "year": 2021,
@@ -361,7 +419,9 @@
         "C": "$6 \\times 10^{-5}\\text{ N/m}$",
         "D": "$2 \\times 10^{-5}\\text{ N/m}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The force per unit length is $f = B I \\sin\\theta$. Since the current is East-West and the magnetic field is South-North, the angle $\\theta$ is $90^\\circ$, resulting in $f = (3.0 \\times 10^{-5}) \\times 2 \\times 1 = 6 \\times 10^{-5}\\text{ N/m}$."
     },
     {
       "year": 2021,
@@ -373,7 +433,9 @@
         "C": "$1.71 \\times 10^{-2}\\text{ T}$",
         "D": "$7.23 \\times 10^{-3}\\text{ T}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The magnetic field inside a solenoid is given by $B = \\mu_0 n I$, where $n = N/L$ is the number of turns per unit length. Substituting the values $N=1000$, $L=0.5\\text{ m}$, and $I=10\\text{ A}$, we get $B = 4\\pi \\times 10^{-7} \\times (1000/0.5) \\times 10 \\approx 2.51 \\times 10^{-2}\\text{ T}$."
     },
     {
       "year": 2022,
@@ -385,7 +447,9 @@
         "C": "$6.28 \\times 10^{-4}\\text{ T}$",
         "D": "$6.28 \\times 10^{-1}\\text{ T}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Using the formula for the magnetic field inside a solenoid $B = \\mu_0 \\frac{N}{L} I$, we substitute the given values. With $N=500$, $L=0.25\\text{ m}$, and $I=2.5\\text{ A}$, the calculation yields $B = 4\\pi \\times 10^{-7} \\times (500/0.25) \\times 2.5 = 6.28 \\times 10^{-3}\\text{ T}$."
     },
     {
       "year": 2022,
@@ -397,7 +461,9 @@
         "C": "long and thick",
         "D": "short and thick"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "A shunt is a low-resistance wire connected in parallel with a galvanometer to convert it into an ammeter. Since resistance $R = \\rho \\frac{L}{A}$, a low resistance is achieved by using a wire that is short (small $L$) and thick (large cross-sectional area $A$)."
     },
     {
       "year": 2022,
@@ -409,7 +475,9 @@
         "C": "$1.6 \\times 10^{-6}\\text{ N}$",
         "D": "$1.6 \\times 10^{-3}\\text{ N}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The force between two parallel current-carrying wires is given by $F = \\frac{\\mu_0 I_1 I_2 l}{2\\pi d}$. Substituting $I_1=10\\text{ A}$, $I_2=4\\text{ A}$, $d=0.02\\text{ m}$, and $l=0.04\\text{ m}$, we calculate $F = \\frac{2 \\times 10^{-7} \\times 10 \\times 4 \\times 0.04}{0.02} = 1.6 \\times 10^{-5}\\text{ N}$."
     },
     {
       "year": 2023,
@@ -421,7 +489,9 @@
         "C": "The electron will experience a force at $45^{\\circ}$ to the axis and hence execute a helical path",
         "D": "The electron will continue to move with uniform velocity along the axis of the solenoid"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Inside a long solenoid, the magnetic field $\\vec{B}$ is uniform and directed along its axis. Since the electron is projected along the axis, the angle between velocity $\\vec{v}$ and $\\vec{B}$ is $0^{\\circ}$, resulting in zero magnetic force ($F = qvB \\sin 0^{\\circ} = 0$), so it continues with uniform velocity."
     },
     {
       "year": 2023,
@@ -433,7 +503,9 @@
         "C": "15",
         "D": "26"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "When a charged particle moves perpendicular to a magnetic field, it follows a circular path with radius $r = \\frac{mv}{qB}$. Substituting $m = 9 \\times 10^{-31}\\text{ kg}$, $v = 3.2 \\times 10^7\\text{ m/s}$, $q = 1.6 \\times 10^{-19}\\text{ C}$, and $B = 12 \\times 10^{-4}\\text{ T}$, we get $r = 0.15\\text{ m}$, which is $15\\text{ cm}$."
     },
     {
       "year": 2023,
@@ -445,7 +517,9 @@
         "C": "$62.8 \\times 10^{-3} \\text{ T}$",
         "D": "Zero"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The magnetic field inside a solenoid is calculated using $B = \\mu_0 n I$, where $n$ is the number of turns per unit length ($N/L$). Plugging in $N=250$, $L=0.5\\text{ m}$, and $I=5\\text{ A}$, we find $B = 4\\pi \\times 10^{-7} \\times (250/0.5) \\times 5 = 3.14 \\times 10^{-3}\\text{ T}$."
     },
     {
       "year": 2023,
@@ -457,7 +531,9 @@
         "C": "3 $\\Omega$",
         "D": "2 $\\Omega$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "To increase the range of a galvanometer by $n$ times, the required shunt resistance $S$ is given by $S = \\frac{G}{n-1}$. Here, $G = 18\\ \\Omega$ and $n = 10$, so $S = \\frac{18}{10-1} = \\frac{18}{9} = 2\\ \\Omega$."
     },
     {
       "year": 2025,
@@ -469,7 +545,9 @@
         "C": "1 : 9",
         "D": "1 : $2\\sqrt{2}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The magnetic field at the center is $B_c = \\frac{\\mu_0 I}{2R}$ and on the axis is $B_a = \\frac{\\mu_0 I R^2}{2(R^2+x^2)^{3/2}}$. Substituting $x = 2\\sqrt{2}R$, we find $B_a = \\frac{\\mu_0 I R^2}{2(9R^2)^{3/2}} = \\frac{\\mu_0 I}{54R}$, giving a ratio $B_c : B_a = 27 : 1$ (Option A is the physically correct ratio)."
     },
     {
       "year": 2025,
@@ -481,7 +559,9 @@
         "C": "$[\\text{A}^{-1}]$",
         "D": "$[\\text{M}^1\\text{L}^2\\text{T}^{-2}]$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Current sensitivity of a moving coil galvanometer is defined as the deflection per unit current ($\\alpha/I$). Since deflection $\\alpha$ is an angle (dimensionless) and current $I$ has the dimension $[A]$, the dimensional formula for current sensitivity is $[A^{-1}]$."
     },
     {
       "year": 2025,
@@ -493,7 +573,9 @@
         "C": "$6 \\times 10^{-5} \\text{ Nm}^{-1}$",
         "D": "$9 \\times 10^{-5} \\text{ Nm}^{-1}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The magnetic force on a current-carrying conductor is given by $F = ILB \\sin \\theta$. Since both the current and the horizontal component of the Earth's magnetic field are in the same direction (South to North), the angle $\\theta$ is $0^{\\circ}$, making the force zero."
     },
     {
       "year": 2025,
@@ -505,7 +587,9 @@
         "C": "[Figure C]",
         "D": "[Figure D]"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "For a long straight wire of radius $a$, the magnetic field inside ($r < a$) increases linearly with distance ($B \\propto r$) according to Ampere's Law. Outside the wire ($r > a$), the magnetic field decreases inversely with distance ($B \\propto 1/r$), resulting in the graph shown in Figure D."
     }
   ]
 }

@@ -13,7 +13,9 @@
         "C": "O-amino acetophenone",
         "D": "P-amino acetophenone"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Acetylation of aniline involves the replacement of a hydrogen atom of the amino group by an acetyl group ($CH_3CO-$). When aniline reacts with acetyl chloride or acetic anhydride, it forms acetanilide, which is also known as N-acetyl amino benzene."
     },
     {
       "year": 2008,
@@ -25,7 +27,9 @@
         "C": "Methyl isonitrile",
         "D": "Methyl carbylamine"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The compound $CH_3NC$ is commonly named methyl isocyanide, methyl isonitrile, or methyl carbylamine. The name \"Aceto isonitrile\" is incorrect because the prefix \"aceto\" is used for two-carbon carboxylic acid derivatives like acetonitrile ($CH_3CN$), whereas $CH_3NC$ contains only one carbon in the alkyl group."
     },
     {
       "year": 2009,
@@ -37,7 +41,9 @@
         "C": "$\\text{R. NC}$",
         "D": "$\\text{R. CN}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Carbylamines are functional isomers of cyanides and are characterized by the $-NC$ group. Therefore, an alkyl carbylamine is represented by the general formula $R-NC$, where $R$ is an alkyl group."
     },
     {
       "year": 2009,
@@ -49,7 +55,9 @@
         "C": "$\\text{CH}_3 \\cdot \\text{NH}_2$",
         "D": "$\\text{C}_2\\text{H}_5 \\cdot \\text{NH}_2$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Benzene sulphonyl chloride ($C_6H_5SO_2Cl$), known as Hinsberg's reagent, reacts with primary and secondary amines but not with tertiary amines. Since $(C_2H_5)_3N$ is a tertiary amine and lacks a hydrogen atom attached to nitrogen, it cannot undergo this reaction."
     },
     {
       "year": 2011,
@@ -61,7 +69,9 @@
         "C": "$1^{\\circ} < 2^{\\circ} < 3^{\\circ}$",
         "D": "$1^{\\circ} < 2^{\\circ} > 3^{\\circ}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The boiling point of isomeric amines depends on the extent of intermolecular hydrogen bonding. Primary ($1^{\\circ}$) amines have two hydrogen atoms for H-bonding, secondary ($2^{\\circ}$) have one, and tertiary ($3^{\\circ}$) have none, leading to the order $1^{\\circ} > 2^{\\circ} > 3^{\\circ}$."
     },
     {
       "year": 2014,
@@ -73,7 +83,9 @@
         "C": "Propyl amine + benzene sulphonyl chloride",
         "D": "Propyl amine + p-toluene sulphonyl chloride"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Tertiary amines like tripropyl amine do not react with benzene sulphonyl chloride because they do not have any hydrogen atoms attached to the nitrogen atom. Primary and secondary amines react because they possess replaceable N-H hydrogens."
     },
     {
       "year": 2014,
@@ -85,7 +97,9 @@
         "C": "p - Amino benzene sulphonyl chloride",
         "D": "m - toluene sulphonyl chloride"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "While benzene sulphonyl chloride is the classic Hinsberg reagent, p-toluene sulphonyl chloride is currently preferred for the separation of amines. It reacts differently with $1^{\\circ}, 2^{\\circ}$, and $3^{\\circ}$ amines, allowing for their identification and separation based on the solubility of the resulting sulfonamides in alkali."
     },
     {
       "year": 2015,
@@ -97,7 +111,9 @@
         "C": "p - amino azo benzene",
         "D": "p - N, N dimethyl amino azo benzene"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The coupling reaction between benzene diazonium chloride and $\\beta$-naphthol in an alkaline medium produces a red-colored azo dye. This compound is chemically known as 1-phenylazo-2-naphthol or $\\beta$-naphthyl azo benzene."
     },
     {
       "year": 2015,
@@ -109,7 +125,9 @@
         "C": "\\text{C}_6\\text{H}_5\\text{Br}",
         "D": "\\text{C}_6\\text{H}_5\\text{CN}"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The Sandmeyer reaction involves the use of cuprous salts ($Cu_2Cl_2, Cu_2Br_2, Cu_2(CN)_2$) to introduce $Cl, Br$, or $CN$ groups into the benzene ring. Iodobenzene ($C_6H_5I$) is prepared by simply warming the diazonium salt solution with potassium iodide ($KI$) and does not require a copper catalyst."
     },
     {
       "year": 2017,
@@ -121,7 +139,9 @@
         "C": "Benzaldehyde",
         "D": "Benzene"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "When benzene diazonium chloride reacts with ethanol, ethanol acts as a reducing agent and is itself oxidized to acetaldehyde ($CH_3CHO$). Simultaneously, the diazonium group is reduced to benzene ($C_6H_6$)."
     },
     {
       "year": 2017,
@@ -133,7 +153,9 @@
         "C": "$\\text{CH}_3\\text{CH}_2\\text{NC} \\xrightarrow{\\text{LiAlH}_4}$",
         "D": "$\\text{CH}_3\\text{CONH}_2 \\xrightarrow{\\text{Br}_2\\text{/NaOH}}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "hard",
+      "explanation": "A secondary amine reacts with benzene sulphonyl chloride to form a tertiary sulphonamide (N,N-disubstituted). The reduction of ethyl isocyanide ($CH_3CH_2NC$) with $LiAlH_4$ yields ethyl methyl amine, which is a secondary amine, whereas the other reactions produce primary amines."
     },
     {
       "year": 2017,
@@ -145,7 +167,9 @@
         "C": "Order of basicity in gaseous state: $\\text{CH}_3 - \\text{N} - \\text{CH}_3 > \\text{CH}_3 - \\text{NH} - \\text{CH}_3 > \\text{CH}_3\\text{NH}_2$",
         "D": "The order of aqueous solubility: $\\text{CH}_3 - \\text{N} - \\text{CH}_3 < \\text{CH}_3 - \\text{CH}_2 - \\text{NH} - \\text{CH}_3 < \\text{CH}_3 - \\text{CH}_2 - \\text{CH}_2 - \\text{NH}_2$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The boiling point order for isomeric amines is $1^{\\circ} > 2^{\\circ} > 3^{\\circ}$ because primary amines have more hydrogen atoms available for intermolecular hydrogen bonding. Option B incorrectly suggests that the tertiary amine has a higher boiling point than the primary amine."
     },
     {
       "year": 2018,
@@ -157,7 +181,9 @@
         "C": "Chloro benzene",
         "D": "Phosphorus acid"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Benzene diazonium chloride is reduced to benzene by hypophosphorous acid ($H_3PO_2$, also called phosphinic acid) in the presence of water. During this redox reaction, the $H_3PO_2$ is oxidized to phosphorous acid ($H_3PO_3$, also called phosphonic acid)."
     },
     {
       "year": 2018,
@@ -169,7 +195,9 @@
         "C": "Diagram C",
         "D": "Diagram D"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Benzylamine ($C_6H_5CH_2NH_2$) is more basic than aniline and its derivatives because the lone pair of electrons on the nitrogen atom is not in conjugation with the benzene ring. In aniline, the lone pair is delocalized into the ring, making it less available for donation to a proton."
     },
     {
       "year": 2018,
@@ -181,7 +209,9 @@
         "C": "$27$ and $7$",
         "D": "$26$ and $6$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "hard",
+      "explanation": "Orange azo dye (p-hydroxyazobenzene) has the molecular formula $C_{12}H_{10}N_2O$. It contains 7 $\\pi$ bonds (3 in each benzene ring and 1 in the $-N=N-$ group) and 26 $\\sigma$ bonds including all C-C, C-H, C-N, N-N, C-O, and O-H bonds."
     },
     {
       "year": 2019,
@@ -193,7 +223,9 @@
         "C": "$sp^2, 120^\\circ$",
         "D": "$sp^3, 108^\\circ$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "In trimethylamine $(CH_3)_3N$, the nitrogen atom is $sp^3$ hybridized as it forms three sigma bonds with methyl groups and retains one lone pair. Due to the lone pair-bond pair repulsion, the $C-N-C$ bond angle is slightly reduced from the tetrahedral angle ($109.5^\\circ$) to approximately $108^\\circ$."
     },
     {
       "year": 2019,
@@ -205,7 +237,9 @@
         "C": "Cl, NH2",
         "D": "Cl, NH2"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "This reaction sequence typically involves the conversion of chlorobenzene to aniline. In the industrial process, chlorobenzene ($X = Cl$) reacts with ammonia in the presence of $Cu_2O$ at high temperature and pressure to produce aniline ($Y = NH_2$)."
     },
     {
       "year": 2020,
@@ -217,7 +251,9 @@
         "C": "$(\\text{C}_2\\text{H}_5)_2\\text{NH}$",
         "D": "$\\text{C}_2\\text{H}_5\\text{NH}_2$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Aniline ($C_6H_5NH_2$) is the least basic because the lone pair of electrons on the nitrogen atom is delocalized into the benzene ring through resonance, making it less available for donation. In contrast, aliphatic amines and ammonia have localized lone pairs, with alkyl groups further increasing basicity via the $+I$ effect."
     },
     {
       "year": 2020,
@@ -229,7 +265,9 @@
         "C": "$\\text{C}_6\\text{H}_4(\\text{CO})_2\\text{N}^-\\text{K}^+$",
         "D": "$\\text{NaNO}_2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "In the Gabriel Phthalimide synthesis, the source of nitrogen is potassium phthalimide ($C_6H_4(CO)_2N^-K^+$). This reagent reacts with primary alkyl halides to form N-alkylphthalimides, which are then hydrolyzed to yield pure primary aliphatic amines."
     },
     {
       "year": 2020,
@@ -241,7 +279,9 @@
         "C": "$\\text{LiAlH}_4$",
         "D": "$\\text{NaOH}/\\text{Br}_2$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The conversion of 2-phenyl propanamide to 1-phenyl ethanamine involves the loss of one carbon atom (the carbonyl carbon). The Hoffmann bromamide degradation reaction using $NaOH/Br_2$ is the specific method used to convert an amide into a primary amine with one less carbon atom."
     },
     {
       "year": 2021,
@@ -253,7 +293,9 @@
         "C": "Isonitrile",
         "D": "Amide"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The reduction of isonitriles ($R-NC$) using $LiAlH_4$ or catalytic hydrogenation yields secondary amines ($R-NH-CH_3$). In contrast, the reduction of nitriles, nitro compounds, and amides typically yields primary amines."
     },
     {
       "year": 2021,
@@ -265,7 +307,9 @@
         "C": "Only $2^\\circ$-amine",
         "D": "$1^\\circ$ and $2^\\circ$-amine"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Hinsberg's reagent (benzenesulfonyl chloride) reacts only with primary and secondary amines because they possess replaceable hydrogen atoms on the nitrogen. Tertiary amines do not react with Hinsberg's reagent as they lack a hydrogen atom attached to the nitrogen."
     },
     {
       "year": 2021,
@@ -277,7 +321,9 @@
         "C": "p-nitroaniline",
         "D": "All above"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Direct nitration of aniline in a strongly acidic medium results in the formation of a mixture of ortho, meta, and para-nitroanilines. This happens because aniline is protonated to the anilinium ion, which is meta-directing, leading to a significant amount ($47\\%$) of the meta isomer alongside the para ($51\\%$) and ortho ($2\\%$) isomers."
     },
     {
       "year": 2022,
@@ -289,7 +335,9 @@
         "C": "4",
         "D": "5"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The molecular formula $C_3H_9N$ corresponds to four structural isomers: two primary amines (propan-1-amine and propan-2-amine), one secondary amine (N-methylethanamine), and one tertiary amine (N,N-dimethylmethanamine)."
     },
     {
       "year": 2022,
@@ -301,7 +349,9 @@
         "C": "Hoffmann bromamide degradation reaction",
         "D": "Above all reactions"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Primary amines can be synthesized through various methods including the reduction of nitriles ($R-CN \\rightarrow R-CH_2NH_2$), reduction of amides ($R-CONH_2 \\rightarrow R-CH_2NH_2$), and the Hoffmann bromamide degradation. Since all listed reactions produce primary amines, the correct option is 'Above all reactions'."
     },
     {
       "year": 2022,
@@ -313,7 +363,9 @@
         "C": "$\\text{CH}_3\\text{OH}$",
         "D": "$\\text{CH}_3-\\text{CH}_2-\\text{NH}_2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Acetic acid reacts with $NH_3$ and heat to form acetamide (A). Acetamide undergoes Hoffmann bromamide degradation to form methylamine (B), which then reacts with $NaNO_2/HCl$ to form an unstable diazonium salt that decomposes into methanol (C, $CH_3OH$)."
     },
     {
       "year": 2023,
@@ -325,7 +377,9 @@
         "C": "$\\text{Ar}-\\text{NO}_2$",
         "D": "$\\text{Ar}-\\text{CH}_2\\text{NH}_2$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The Hoffmann bromamide degradation reaction is specific to primary amides ($R-CONH_2$). Among the options, $Ar-CONH_2$ (benzamide) is the only amide that will react with $Br_2$ and $NaOH$ to form a primary amine ($Ar-NH_2$)."
     },
     {
       "year": 2023,
@@ -337,7 +391,9 @@
         "C": "$26 - \\sigma \\text{ and } 7 - \\pi$",
         "D": "$26 - \\sigma \\text{ and } 6 - \\pi$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "hard",
+      "explanation": "The product is p-hydroxyazobenzene ($C_{12}H_{10}N_2O$). It contains 26 $\\sigma$ bonds (12 $C-C$, 9 $C-H$, 2 $C-N$, 1 $N=N$ sigma, 1 $C-O$, and 1 $O-H$) and 7 $\\pi$ bonds (3 in each benzene ring and 1 in the $N=N$ double bond)."
     },
     {
       "year": 2023,
@@ -349,7 +405,9 @@
         "C": "$\\text{CH}_3 - \\text{O} - \\text{CH}_3$",
         "D": "$\\text{CH}_3 - \\text{CHO}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Primary aliphatic amines like methylamine ($CH_3NH_2$) react with nitrous acid ($HNO_2$) to form highly unstable alkyldiazonium salts. These salts immediately decompose in the presence of water to evolve nitrogen gas and form the corresponding alcohol, which is methanol ($CH_3OH$)."
     },
     {
       "year": 2024,
@@ -361,7 +419,9 @@
         "C": "Phenol",
         "D": "Toluene"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Nitrobenzene is reduced by $Fe/HCl$ to aniline (A). Aniline reacts with $NaNO_2/HCl$ at $0-5^\\circ C$ to form benzene diazonium chloride (B), which upon warming with water ($H_2O$) undergoes hydrolysis to produce phenol (C)."
     },
     {
       "year": 2024,
@@ -373,7 +433,9 @@
         "C": "$\text{R}-\text{N}(\text{R})_2$",
         "D": "$\text{R}-\text{NH}_2$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Gabriel phthalimide synthesis is a specific method used for the preparation of primary aliphatic amines ($R-NH_2$). It involves the nucleophilic substitution of an alkyl halide by the phthalimide anion, followed by hydrolysis. Aromatic primary amines cannot be prepared this way because aryl halides do not undergo nucleophilic substitution with the phthalimide ion under ordinary conditions."
     },
     {
       "year": 2024,
@@ -385,7 +447,9 @@
         "C": "$\text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2 > (\text{C}_2\text{H}_5)_2\text{NH} > \text{C}_2\text{H}_5\text{NH}_2$",
         "D": "$\text{C}_6\text{H}_5\text{NH}_2 > (\text{C}_2\text{H}_5)_2\text{NH} > \text{C}_2\text{H}_5\text{NH}_2 > \text{NH}_3$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The basic strength of amines in aqueous solution is determined by the inductive effect, solvation effect, and steric hindrance. For ethyl-substituted amines, the order is secondary ($2^\\circ$) > primary ($1^\\circ$) > $NH_3$ > aniline. Aniline is the weakest base because its lone pair is delocalized into the benzene ring through resonance, making it less available for protonation."
     },
     {
       "year": 2024,
@@ -397,7 +461,9 @@
         "C": "$\text{C}_6\text{H}_5\text{N}_2^+\text{HSO}_4^-$",
         "D": "$\text{C}_6\text{H}_5\text{N}_2^+\text{Cl}^-$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Benzenediazonium fluoroborate ($C_6H_5N_2^+BF_4^-$) is unique among diazonium salts because it is water-insoluble and stable at room temperature. Most other diazonium salts, like the chloride or bromide, are water-soluble and decompose easily when warmed. This stability allows the fluoroborate salt to be isolated and used in reactions like the Balz-Schiemann reaction."
     },
     {
       "year": 2025,
@@ -409,7 +475,9 @@
         "C": "It has one Isomer of $2^\\circ$ amine.",
         "D": "It does not give Azo dye test."
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "hard",
+      "explanation": "The reaction of benzamide with $NaOBr$ is a Hofmann bromamide degradation which produces aniline ($C_6H_5NH_2$). As a primary amine, aniline reacts with Hinsberg reagent to form a sulfonamide that contains an acidic hydrogen attached to nitrogen, making it soluble in $NaOH$. This characteristic property of the product $X$ makes option A the correct identification of its behavior."
     },
     {
       "year": 2025,
@@ -421,7 +489,9 @@
         "C": "$\\text{CH}_3\\text{NH}_2$",
         "D": "$\\text{C}_6\\text{H}_5\\text{NH}_2$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Reactivity towards dilute $HCl$ is determined by the basicity of the amine, which depends on the availability of the lone pair on nitrogen. Trimethylamine ($(CH_3)_3N$) has three methyl groups providing a strong $+I$ effect, which increases the electron density on the nitrogen atom. This makes it highly reactive towards acids, especially when considering the cumulative inductive effect in certain phases."
     },
     {
       "year": 2025,
@@ -433,7 +503,9 @@
         "C": "Assertion is correct but Reason is wrong.",
         "D": "Both Assertion and Reason are correct, Reason does not give correct explanation for Assertion."
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "In the industrial reduction of nitro compounds using iron scrap and $HCl$, only a small amount of acid is needed to initiate the process. This is because the $FeCl_2$ formed as a byproduct reacts with water (hydrolysis) to regenerate $HCl$ during the reaction. Therefore, both the assertion and reason are correct, and the reason perfectly explains the assertion."
     },
     {
       "year": 2025,
@@ -445,7 +517,9 @@
         "C": "Acidic solution of phenol",
         "D": "$\\text{CCl}_4$ solution of phenol"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The coupling reaction between benzenediazonium chloride and phenol to form an orange dye requires a mildly alkaline medium ($pH$ 9-10). In this alkaline environment, phenol is converted into the phenoxide ion ($C_6H_5O^-$), which is more electron-rich and reactive towards the diazonium electrophile. This results in the formation of $p$-hydroxyazobenzene, the orange dye."
     }
   ]
 }

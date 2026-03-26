@@ -13,7 +13,9 @@
         "C": "Negative",
         "D": "Positive"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The relationship between the standard Gibbs free energy change and the equilibrium constant is given by $\\Delta G^0 = -RT \\ln K$. When $K < 1.0$, the value of $\\ln K$ is negative, which makes the product $-RT \\ln K$ a positive value. Therefore, $\\Delta G^0$ will be positive."
     },
     {
       "year": 2008,
@@ -25,7 +27,9 @@
         "C": "$\\Delta E = 0$",
         "D": "$\\Delta H = 0$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "An isobaric process is defined as a thermodynamic process in which the pressure of the system remains constant throughout the change. Mathematically, this means the change in pressure is zero, represented as $\\Delta P = 0$. Other options like $\\Delta q = 0$ or $\\Delta E = 0$ refer to adiabatic and isothermal processes respectively."
     },
     {
       "year": 2008,
@@ -37,7 +41,9 @@
         "C": "Thermo equilibrium.",
         "D": "All of these."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Thermodynamic equilibrium is achieved when a system simultaneously reaches thermal equilibrium (constant temperature), mechanical equilibrium (constant pressure), and chemical equilibrium (constant composition). Since all three conditions must be met, the correct answer includes all the provided options. This ensures no macroscopic properties of the system change over time."
     },
     {
       "year": 2009,
@@ -49,7 +55,9 @@
         "C": "Negative",
         "D": "One"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "At $8^\\circ\\text{C}$, which is above the melting point of ice ($0^\\circ\\text{C}$), the melting of ice into water is a spontaneous process. For any spontaneous process occurring at constant temperature and pressure, the change in Gibbs free energy ($\\Delta G$) must be negative. Thus, ice at $8^\\circ\\text{C}$ will have a negative $\\Delta G$ as it transitions to the liquid phase."
     },
     {
       "year": 2009,
@@ -61,7 +69,9 @@
         "C": "First law of Thermodynamics",
         "D": "Second law of Thermodynamics"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The spontaneous melting of ice at room temperature is a process that leads to an increase in the total entropy of the universe. This phenomenon is governed by the Second Law of Thermodynamics, which states that all spontaneous processes are accompanied by an increase in entropy ($\\Delta S_{\\text{total}} > 0$). The law helps predict the direction and spontaneity of such natural processes."
     },
     {
       "year": 2011,
@@ -73,7 +83,9 @@
         "C": "$4.576\\text{ Cal. K}^{-1}\\text{ mol}^{-1}$",
         "D": "$4.366\\text{ Cal. K}^{-1}\\text{ mol}^{-1}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The change in entropy for the expansion of an ideal gas is calculated using $\\Delta S = nR \\ln(V_2/V_1)$. Given $n = 1.0$, $R = 1.987$, $V_1 = 1.0\\text{ L}$, and $V_2 = 1.0 + 9.0 = 10.0\\text{ L}$, the calculation becomes $\\Delta S = 1.0 \\times 1.987 \\times 2.303 \\times \\log_{10}(10)$. This results in $\\Delta S = 4.576\\text{ Cal. K}^{-1}\\text{ mol}^{-1}$."
     }
   ]
 }

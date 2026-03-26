@@ -13,7 +13,9 @@
         "C": "longitudinal",
         "D": "transverse"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Polarization is a phenomenon where wave oscillations are restricted to a single plane perpendicular to the direction of propagation. This property is unique to transverse waves, thereby proving that electromagnetic waves are transverse in nature."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "$\\frac{\\pi}{2}\\text{ rad}$",
         "D": "$\\pi\\text{ rad}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "hard",
+      "explanation": "In the ionosphere, the displacement current density is given by $j_d = \\epsilon_0 \\frac{\\partial E}{\\partial t}$. For a sinusoidal electric field, the derivative introduces a phase shift of $\\pi/2$ radians, representing the phase difference between the field-driven current and the displacement current."
     },
     {
       "year": 2009,
@@ -37,7 +41,9 @@
         "C": "$1.8 \\times 10^5 \\text{ W}$",
         "D": "$0.9 \\times 10^5 \\text{ W}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Total power is the product of electromagnetic flux (intensity) and the surface area. Given $I = 10^3 \\text{ Wm}^{-2}$ and area $A = 6 \\text{ m} \\times 30 \\text{ m} = 180 \\text{ m}^2$, the power is $P = I \\times A = 10^3 \\times 180 = 1.8 \\times 10^5 \\text{ W}$."
     },
     {
       "year": 2011,
@@ -49,7 +55,9 @@
         "C": "resistor",
         "D": "an induction coil"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "In Hertz's experimental setup, the metallic rods and spheres form an $LC$ resonant circuit. While the spheres primarily provide capacitance, the rods provide the necessary inductance ($L$) to allow high-frequency electromagnetic oscillations."
     },
     {
       "year": 2014,
@@ -61,7 +69,9 @@
         "C": "$\\lambda_3, \\lambda_2, \\lambda_1$",
         "D": "$\\lambda_2, \\lambda_1, \\lambda_3$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "In the electromagnetic spectrum, wavelength decreases as frequency increases. Radio waves have the longest wavelength, followed by microwaves, and then ultraviolet waves, leading to the order $\\lambda_1 > \\lambda_2 > \\lambda_3$."
     },
     {
       "year": 2014,
@@ -73,7 +83,9 @@
         "C": "$0.001 \\ \\mu\\text{m}$ to $1 \\ \\mu\\text{m}$",
         "D": "$0.001 \\text{ cm}$ to $1 \\text{ cm}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "X-rays are high-energy electromagnetic waves with wavelengths shorter than ultraviolet light but longer than gamma rays. Their typical wavelength range is approximately $0.001 \\text{ nm}$ to $10 \\text{ nm}$."
     },
     {
       "year": 2015,
@@ -85,7 +97,9 @@
         "C": "p < q < r",
         "D": "p > q < r"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The frequency of electromagnetic waves increases in the order: Ultraviolet < X-rays < Gamma rays. Thus, if $p, q, r$ are the frequencies of X-rays, $\\gamma$ rays, and UV respectively, then $r < p < q$, which is consistent with $p < q > r$."
     },
     {
       "year": 2017,
@@ -97,7 +111,9 @@
         "C": "$M^{-1}L^{-1}T^{-2}$",
         "D": "$M^1L^{-1}T^{-2}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The expression $\\frac{B^2}{2\\mu_0}$ represents the magnetic energy density (energy per unit volume). Its dimensional formula is derived as $\\frac{[ML^2T^{-2}]}{[L^3]} = [M^1L^{-1}T^{-2}]$."
     },
     {
       "year": 2017,
@@ -109,7 +125,9 @@
         "C": "Gamma",
         "D": "Infrared"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Gamma rays are highly energetic electromagnetic radiations with high penetrating power. They are used in radiotherapy to target and destroy the DNA of cancer cells, preventing them from dividing."
     },
     {
       "year": 2017,
@@ -121,7 +139,9 @@
         "C": "20",
         "D": "3"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Wavelength is $\\lambda = \\frac{c}{f} = \\frac{3 \\times 10^8}{9 \\times 10^9} = \\frac{1}{30} \\text{ m}$. The number of waves in 1 meter is the wave number $n = \\frac{1}{\\lambda} = 30$."
     },
     {
       "year": 2018,
@@ -133,7 +153,9 @@
         "C": "$\\text{M}^0\\text{L}^{-2}\\text{T}^2$",
         "D": "$\\text{M}^0\\text{L}^{-1}\\text{T}^1$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The speed of light is related to constants by $c = \\frac{1}{\\sqrt{\\mu_0\\epsilon_0}}$, so $\\mu_0\\epsilon_0 = \\frac{1}{c^2}$. The dimensions are $[LT^{-1}]^{-2} = [M^0L^{-2}T^2]$."
     },
     {
       "year": 2018,
@@ -145,7 +167,9 @@
         "C": "i$\\rightarrow$P, ii$\\rightarrow$S, iii$\\rightarrow$R, iv$\\rightarrow$Q",
         "D": "i$\\rightarrow$R, ii$\\rightarrow$Q, iii$\\rightarrow$S, iv$\\rightarrow$P"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "This matches EM waves to their uses: Infrared (greenhouse effect), X-rays (bone fractures), Radio waves (broadcasting), and UV rays (LASIK eye surgery). Option B correctly identifies these standard applications."
     },
     {
       "year": 2018,
@@ -157,7 +181,9 @@
         "C": "$f_{UV} < f_v < f_r$",
         "D": "$f_{UV} < f_r < f_v$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "In the EM spectrum, frequency increases from radio waves to ultraviolet waves. Therefore, radio waves ($f_r$) have the lowest frequency and ultraviolet waves ($f_{UV}$) have the highest, giving $f_r < f_v < f_{UV}$."
     },
     {
       "year": 2019,
@@ -169,7 +195,9 @@
         "C": "$M^1L^1T^{-2}A^0$",
         "D": "$M^1L^1T^{-2}A^{-1}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The expression $\\sqrt{\\mu_r \\epsilon_r}$ is equal to the refractive index ($n$) of the medium. Since the refractive index is a ratio of speeds, it is a dimensionless quantity $[M^0L^0T^0A^0]$."
     },
     {
       "year": 2019,
@@ -181,7 +209,9 @@
         "C": "$r$",
         "D": "$r^{-1}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "For electromagnetic waves in the radiation zone (far from the source), the field magnitudes $E$ and $B$ are proportional to $1/r$. This linear inverse relationship results in a slower decrease compared to the $1/r^2$ or $1/r^3$ dependencies of static fields."
     },
     {
       "year": 2020,
@@ -193,7 +223,9 @@
         "C": "Changing Magnetic Field",
         "D": "Static Magnetic Field"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Displacement current ($I_d$) is defined by Maxwell as $I_d = \\epsilon_0 \\frac{d\\Phi_E}{dt}$, where $\\Phi_E$ is the electric flux. This current arises due to a time-varying or changing electric field, ensuring the consistency of Ampere's law in circuits containing capacitors."
     },
     {
       "year": 2020,
@@ -205,7 +237,9 @@
         "C": "$1\\text{ mm}$ to $700\\text{ nm}$",
         "D": "$400\\text{ nm}$ to $1.0\\text{ nm}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Ultraviolet (UV) radiation occupies the region of the electromagnetic spectrum between visible light and X-rays. Its wavelength range is approximately $400\\text{ nm}$ down to $1\\text{ nm}$ (or $0.6\\text{ nm}$), corresponding to higher frequencies than violet light."
     },
     {
       "year": 2020,
@@ -217,7 +251,9 @@
         "C": "$4\\text{ sec.}$",
         "D": "$24\\text{ hrs.}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The Earth completes one full rotation of $360^\\circ$ in $24$ hours ($1440$ minutes). To find the time for a $1^\\circ$ shift, we calculate $\\frac{1440\\text{ minutes}}{360^\\circ} = 4\\text{ minutes}$. Although the provided answer is C, the physical calculation for $1^\\circ$ results in $4$ minutes (Option B)."
     },
     {
       "year": 2021,
@@ -229,7 +265,9 @@
         "C": "530 kHz to 1710 kHz",
         "D": "88 MHz to 108 MHz"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The standard Frequency Modulation (FM) radio band used for broadcasting worldwide is $88\\text{ MHz}$ to $108\\text{ MHz}$. This range is specifically allocated for high-fidelity audio transmission and is a factual value found in the NCERT curriculum."
     },
     {
       "year": 2021,
@@ -241,7 +279,9 @@
         "C": "4.2 $\\hat{j}\\frac{\\text{V}}{\\text{m}}$",
         "D": "-3.2 $\\hat{j}\\frac{\\text{V}}{\\text{m}}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The magnitude of the electric field is $E = cB = (3 \\times 10^8) \\times (2.1 \\times 10^{-8}) = 6.3\\text{ V/m}$. Since the wave propagates in the $+x$ direction ($\\hat{i}$) and $\\vec{B}$ is in the $+z$ direction ($\\hat{k}$), $\\vec{E}$ must be in the $+y$ direction ($\\hat{j}$) because the direction of propagation is given by $\\hat{E} \\times \\hat{B} = \\hat{j} \\times \\hat{k} = \\hat{i}$."
     },
     {
       "year": 2022,
@@ -253,7 +293,9 @@
         "C": "$20\\text{ m to }30\\text{ m}$",
         "D": "$10\\text{ m to }20\\text{ m}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Using the formula $\\lambda = \\frac{c}{f}$, for $f = 6\\text{ MHz}$, $\\lambda = \\frac{3 \\times 10^8}{6 \\times 10^6} = 50\\text{ m}$, and for $f = 12\\text{ MHz}$, $\\lambda = \\frac{3 \\times 10^8}{12 \\times 10^6} = 25\\text{ m}$. Thus, the wavelength band corresponds to $25\\text{ m}$ to $50\\text{ m}$."
     },
     {
       "year": 2022,
@@ -265,7 +307,9 @@
         "C": "$10^{-9}\\text{Hz}$",
         "D": "$10^{10}\\text{Hz}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "According to Maxwell's theory, an oscillating charge produces an electromagnetic wave with a frequency exactly equal to the frequency of the oscillation of the charge. Therefore, a charge oscillating at $10^9\\text{ Hz}$ will produce an EM wave of $10^9\\text{ Hz}$."
     },
     {
       "year": 2023,
@@ -277,7 +321,9 @@
         "C": "$\\vec{B} \\times \\vec{E}$",
         "D": "$\\vec{E} \\times \\vec{B}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The direction of propagation of an electromagnetic wave is determined by the Poynting vector, which is proportional to the cross product $\\vec{E} \\times \\vec{B}$. This vector is perpendicular to both the electric and magnetic field vectors and points in the direction of energy flow."
     },
     {
       "year": 2023,
@@ -289,7 +335,9 @@
         "C": "400 MHz to 700 MHz",
         "D": "400 kHz to 700 kHz"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Visible light wavelengths range from roughly $400\\text{ nm}$ to $750\\text{ nm}$. Using $f = \\frac{c}{\\lambda}$, these limits correspond to frequencies of approximately $7.5 \\times 10^{14}\\text{ Hz}$ ($750\\text{ THz}$) and $4 \\times 10^{14}\\text{ Hz}$ ($400\\text{ THz}$)."
     },
     {
       "year": 2024,
@@ -301,7 +349,9 @@
         "C": "$\\oint \\vec{B} \\cdot d\\vec{A} = \\mu_0 i_c + \\mu_0 \\epsilon_0 \\frac{d\\phi_E}{dt}$",
         "D": "$\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 i_c + \\mu_0 \\epsilon_0 \\frac{d\\phi_B}{dt}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The Ampere-Maxwell law is expressed as $\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 i_c + \\mu_0 \\epsilon_0 \\frac{d\\phi_E}{dt}$, where the second term represents the displacement current. Option B correctly identifies this relationship using the rate of change of electric flux ($\\phi_E$)."
     },
     {
       "year": 2024,
@@ -313,7 +363,9 @@
         "C": "VHF",
         "D": "UHF"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Cellular phones typically operate in the Ultra High Frequency (UHF) band, which ranges from $300\\text{ MHz}$ to $3\\text{ GHz}$. This band is preferred for mobile communication due to its ability to support high data rates and the use of small, portable antennas."
     },
     {
       "year": 2025,
@@ -325,7 +377,9 @@
         "C": "Ultraviolet rays",
         "D": "Visible rays"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Gamma rays are high-energy electromagnetic waves used in medical radiotherapy to destroy cancer cells. Their high ionizing power and ability to penetrate deep into tissues allow them to target and kill malignant cells by damaging their DNA."
     }
   ]
 }

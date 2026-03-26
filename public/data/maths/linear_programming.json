@@ -13,7 +13,9 @@
         "C": "$p = 2q$",
         "D": "$q = 3p$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "For the maximum value of $Z = px + qy$ to occur at two points, the value of $Z$ at $(25, 20)$ must equal its value at $(0, 30)$. This gives the equation $25p + 20q = 30q$, which simplifies to $25p = 10q$. Dividing both sides by $5$ results in the condition $5p = 2q$."
     },
     {
       "year": 2018,
@@ -25,7 +27,9 @@
         "C": "$q = 2p$",
         "D": "$q = 3p$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Since the maximum occurs at both $(15, 15)$ and $(0, 20)$, we equate the objective function values: $15p + 15q = 20q$. Simplifying this gives $15p = 5q$, which further reduces to $3p = q$. This condition ensures that the objective function line is parallel to the segment connecting these two corner points."
     },
     {
       "year": 2019,
@@ -37,7 +41,9 @@
         "C": "$800$",
         "D": "$110$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "We evaluate $Z = 60x + 10y$ at each corner point: $Z(10, 0) = 600$, $Z(2, 4) = 160$, $Z(1, 5) = 110$, and $Z(0, 8) = 80$. Comparing these values, the maximum value is $600$ at the point $(10, 0)$."
     },
     {
       "year": 2020,
@@ -49,7 +55,9 @@
         "C": "0",
         "D": "not possible"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The feasible region is bounded by $(0, 0)$, $(4, 0)$, and $(0, 4)$. Evaluating $Z = 3x + 4y$ at these points gives $0$, $12$, and $16$ respectively. The maximum value is $16$, which occurs at the corner point $(0, 4)$."
     },
     {
       "year": 2021,
@@ -61,7 +69,9 @@
         "C": "$0$",
         "D": "$6$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The corner points of the feasible region are $(0, 0)$, $(3, 0)$, and $(0, 3)$. Evaluating $Z = 2x + 3y$ at these points yields $Z(0, 0) = 0$, $Z(3, 0) = 6$, and $Z(0, 3) = 9$. The minimum value is $0$ at the origin."
     },
     {
       "year": 2022,
@@ -73,7 +83,9 @@
         "C": "$50$",
         "D": "$60$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "By substituting the corner points into $Z = 3x + 9y$, we find $Z(0, 10) = 90$, $Z(5, 5) = 60$, $Z(15, 15) = 180$, and $Z(0, 20) = 180$. The minimum value among these is $60$ at the point $(5, 5)$."
     },
     {
       "year": 2023,
@@ -85,7 +97,9 @@
         "C": "$400$",
         "D": "$450$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Evaluating $Z = 10x + 20y$ at the corner points gives $Z(0, 10) = 200$, $Z(5, 5) = 150$, $Z(15, 15) = 450$, and $Z(0, 20) = 400$. The maximum value is $450$ at $(15, 15)$, although the provided answer key suggests $550$ due to a likely typo in the source data."
     },
     {
       "year": 2023,
@@ -97,7 +111,9 @@
         "C": "$24$",
         "D": "No feasible region and hence no feasible solution"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The constraints $x + y \\geq 8$ and $x + y \\leq 5$ are mutually exclusive because no two numbers can have a sum that is simultaneously $\\geq 8$ and $\\leq 5$. Since there is no overlap between these regions, the feasible region is empty, and no solution exists."
     },
     {
       "year": 2024,
@@ -109,7 +125,9 @@
         "C": "144",
         "D": "166"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Evaluating $Z = 6x + 12y$ at the corner points gives $Z(0, 6) = 72$, $Z(3, 3) = 54$, $Z(9, 9) = 162$, and $Z(0, 12) = 144$. The maximum value is $162$ at the point $(9, 9)$."
     },
     {
       "year": 2024,
@@ -121,7 +139,9 @@
         "C": "70",
         "D": "No feasible region and hence no feasible solution"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The constraints $x + y \\leq 5$ and $x + y \\geq 10$ represent disjoint regions in the coordinate plane. Because there are no points that satisfy both conditions, the feasible region is empty, meaning there is no feasible solution."
     },
     {
       "year": 2024,
@@ -133,7 +153,9 @@
         "C": "144",
         "D": "162"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Substituting the corner points into $Z = 6x + 12y$ results in values $72, 54, 162,$ and $144$. While $162$ is the mathematical maximum, the provided answer key marks $144$ (the value at $(0, 12)$) as correct, possibly due to a constraint not listed."
     },
     {
       "year": 2024,
@@ -145,7 +167,9 @@
         "C": "70",
         "D": "35"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The inequalities $x + y \\leq 5$ and $x + y \\geq 10$ cannot be satisfied at the same time for any $x, y \\geq 0$. This results in an empty feasible region, which implies that the linear programming problem has no feasible solution."
     },
     {
       "year": 2025,
@@ -157,7 +181,9 @@
         "C": "2400",
         "D": "3000"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Evaluating $Z = 40x + 30y$ at the corner points gives $Z(0, 0) = 0$, $Z(0, 40) = 1200$, $Z(20, 40) = 2000$, $Z(60, 20) = 3000$, and $Z(60, 0) = 2400$. The maximum value is $3000$ at the point $(60, 20)$."
     },
     {
       "year": 2025,
@@ -169,7 +195,9 @@
         "C": "0",
         "D": "9"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The corner points for $3x + 5y \\leq 15$ are $(0, 0), (5, 0),$ and $(0, 3)$. Evaluating $Z = 5x + 3y$ gives $Z(0, 0) = 0$, $Z(5, 0) = 25$, and $Z(0, 3) = 9$. The maximum value is $25$, though the provided answer key lists $9$."
     }
   ]
 }

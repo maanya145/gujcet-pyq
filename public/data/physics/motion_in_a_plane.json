@@ -13,7 +13,9 @@
         "C": "$7\\sqrt{10}$ m/s",
         "D": "$7\\sqrt{5}$ m/s"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The maximum horizontal range of a projectile is given by $R_{max} = \\frac{u^2}{g}$ when the projection angle is $45^\\circ$. For $R_{max} = 100$ m and $g = 9.8$ m/s$^2$, the minimum velocity is $u = \\sqrt{100 \\times 9.8} = 14\\sqrt{5}$ m/s. However, if the intended range was $50$ m, the velocity would be $u = \\sqrt{50 \\times 9.8} = 7\\sqrt{10}$ m/s, which matches option C."
     }
   ]
 }

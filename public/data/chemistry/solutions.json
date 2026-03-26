@@ -13,7 +13,9 @@
         "C": "$7.2\\text{ gm}$",
         "D": "$6.0\\text{ gm}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Using the formula $\\Delta T_f = K_f \\times m$, where molality $m = \\frac{w_2}{M_2 \\times W_{kg}}$, we substitute the given values: $0.6 = 1.5 \\times \\frac{w_2}{60 \\times 3}$. Solving for the mass of urea ($w_2$) gives $w_2 = \\frac{0.6 \\times 180}{1.5} = 72$ g."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "Plant cell wall",
         "D": "Cellophane"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Copper ferrocyanide ($\\text{Cu}_2[\\text{Fe}(\\text{CN})_6]$) is widely recognized as the best artificial semipermeable membrane. It is highly efficient at allowing only solvent molecules to pass through while blocking solute particles due to its specific pore structure."
     },
     {
       "year": 2008,
@@ -37,7 +41,9 @@
         "C": "61.5 atm",
         "D": "0.0615 atm"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Osmotic pressure is calculated using $\\pi = CRT$, where $C = 0.25$ M, $R = 0.082$ L atm/mol K, and $T = 27 + 273 = 300$ K. Substituting these values, $\\pi = 0.25 \\times 0.082 \\times 300 = 6.15$ atm, which corresponds to option B."
     },
     {
       "year": 2009,
@@ -49,7 +55,9 @@
         "C": "$10 \\text{ K gram mol}^{-1}$",
         "D": "$10 \\text{ K kg mole}^{-1}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The molal elevation constant $K_b$ is derived from $\\Delta T_b = K_b \\times m$. First, calculate molality $m = \\frac{0.6 \\times 1000}{60 \\times 200} = 0.05$ mol/kg; then, using $\\Delta T_b = 0.50$, we find $K_b = \\frac{0.50}{0.05} = 10$ K kg mol$^{-1}$."
     },
     {
       "year": 2011,
@@ -61,7 +69,9 @@
         "C": "Freezing point decreases while vapour pressure increases.",
         "D": "Freezing point increases while vapour pressure decreases."
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Adding a non-volatile solute to a solvent increases the concentration, which leads to a lowering of the vapour pressure. This decrease in vapour pressure directly results in an elevation of the boiling point and a depression of the freezing point."
     },
     {
       "year": 2014,
@@ -73,7 +83,9 @@
         "C": "$10$",
         "D": "$2.5$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "A $10\\% \\text{ w/w}$ solution contains $10$ g of NaOH in $90$ g of water. Molality is calculated as $m = \\frac{\\text{mass of solute} \\times 1000}{\\text{molar mass} \\times \\text{mass of solvent in g}} = \\frac{10 \\times 1000}{40 \\times 90} = 2.778$ mol/kg."
     },
     {
       "year": 2014,
@@ -85,7 +97,9 @@
         "C": "gas - A",
         "D": "gas - C"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "According to Henry's Law, $P = K_H \\cdot \\chi$, where the slope of the partial pressure vs. mole fraction graph represents the Henry's constant $K_H$. The gas with the steepest slope (gas A) has the highest $K_H$ value, and since solubility is inversely proportional to $K_H$, it has the least solubility."
     },
     {
       "year": 2014,
@@ -97,7 +111,9 @@
         "C": "$0.001 \\text{ M}$",
         "D": "$0.0001 \\text{ M}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Molarity is an intensive property, meaning it is independent of the volume or size of the sample taken from a homogeneous mixture. Therefore, the concentration of a single drop remains the same as the concentration of the bulk solution, which is $0.10$ M."
     },
     {
       "year": 2015,
@@ -109,7 +125,9 @@
         "C": "6.0 gram",
         "D": "34.2 gram"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "If boiling points are the same for solutions in the same solvent, their molalities must be equal. For dilute aqueous solutions, we can equate their molar ratios: $\\frac{w_{\\text{urea}}}{M_{\\text{urea}}} = \\frac{w_{\\text{sucrose}}}{M_{\\text{sucrose}}} \\Rightarrow \\frac{3}{60} = \\frac{w}{342}$, which gives $w = 17.1$ g."
     },
     {
       "year": 2015,
@@ -121,7 +139,9 @@
         "C": "Solute does not undergo association in solution",
         "D": "Solute undergoes dissociation in solution"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Ideal solutions that obey Raoult's law must have $\\Delta H_{\\text{mix}} = 0$ and $\\Delta V_{\\text{mix}} = 0$, and the solute must not associate or dissociate. Dissociation (option D) increases the number of particles, causing a deviation from the expected ideal behavior described by Raoult's law."
     },
     {
       "year": 2015,
@@ -133,7 +153,9 @@
         "C": "Depression of freezing point",
         "D": "Osmotic pressure"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Osmotic pressure is the most suitable property for determining the molecular weight of biomolecules like proteins because it can be measured accurately at room temperature. Other properties like boiling point elevation can denature sensitive proteins due to high temperatures."
     },
     {
       "year": 2017,
@@ -145,7 +167,9 @@
         "C": "$\\text{K[Fe(CN)}_6]$",
         "D": "$\\text{K}_4\\text{[Fe(CN)}_6]$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "hard",
+      "explanation": "Using $\\Delta T_f = i \\cdot K_f \\cdot m$, we find $i = \\frac{0.0744}{1.86 \\times 0.01} = 4$. For the salt $\\text{K}_x[\\text{Fe(CN)}_6]$ to produce $4$ ions upon complete dissociation, $x$ must be $3$ (yielding $3\\text{K}^+$ and $1[\\text{Fe(CN)}_6]^{3-}$), making the formula $\\text{K}_3[\\text{Fe(CN)}_6]$."
     },
     {
       "year": 2017,
@@ -157,7 +181,9 @@
         "C": "80",
         "D": "90"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Isotonic solutions have equal molar concentrations ($C_1 = C_2$). Using the relation $\\frac{\\%_1}{M_1} = \\frac{\\%_2}{M_2}$, we get $\\frac{1.6}{M_x} = \\frac{2.4}{60}$, which simplifies to $M_x = \\frac{1.6 \\times 60}{2.4} = 40$ g/mol."
     },
     {
       "year": 2017,
@@ -169,7 +195,9 @@
         "C": "1 M NaCl",
         "D": "1 m glucose"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The elevation in boiling point is $\\Delta T_b = 102.2 - 100 = 2.2$ K. Since $\\Delta T_b = i \\cdot K_b \\cdot m$ and $K_b = 2.2$, we need $i \\cdot m = 1$; for $1$ m glucose, $i = 1$ and $m = 1$, which satisfies the equation."
     },
     {
       "year": 2018,
@@ -181,7 +209,9 @@
         "C": "Chloroform and acetone",
         "D": "Bromoethane and chloroethane"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "A mixture of chloroform and acetone is a non-ideal solution that shows negative deviation from Raoult's law due to strong hydrogen bonding between the components. The other options consist of pairs with similar structures and polarities, which typically form ideal solutions."
     },
     {
       "year": 2018,
@@ -193,7 +223,9 @@
         "C": "$0.25\\text{ M NaCl}$",
         "D": "$1\\text{ M NaCl}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "First, calculate the molarity of urea: $M = \\frac{6 \\text{ g} \\times 1000}{60 \\text{ g/mol} \\times 100 \\text{ mL}} = 1 \\text{ M}$. For isotonic solutions, the effective concentration ($i \\times M$) must be equal. Since urea has $i=1$ and NaCl has $i=2$, we need $1 \\times 1 \\text{ M} = 2 \\times M_{\\text{NaCl}}$, which gives $M_{\\text{NaCl}} = 0.5 \\text{ M}$."
     },
     {
       "year": 2019,
@@ -205,7 +237,9 @@
         "C": "3.334",
         "D": "4.334"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The Van't Hoff factor is calculated using the formula $i = 1 + (n-1)\\alpha$. For $\\text{K}_3[\\text{Fe}(\\text{CN})_6]$, the number of ions $n$ is 4 ($3\\text{K}^+$ and $1 [\\text{Fe}(\\text{CN})_6]^{3-}$). Substituting the values, $i = 1 + (4-1) \\times 0.778 = 3.334$."
     },
     {
       "year": 2019,
@@ -217,7 +251,9 @@
         "C": "1.6",
         "D": "3.2"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The elevation in boiling point is given by the formula $\\Delta T_b = K_b \\times m$. Rearranging to find the molal elevation constant, $K_b = \\frac{\\Delta T_b}{m} = \\frac{0.16}{0.05} = 3.2 \\text{ K kg mol}^{-1}$."
     },
     {
       "year": 2019,
@@ -229,7 +265,9 @@
         "C": "Molality",
         "D": "Molarity"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Concentration terms involving volume, like Molarity and Normality, change with temperature because volume is temperature-dependent. Molality is based on the mass of the solvent, which does not change with temperature, making it temperature-independent."
     },
     {
       "year": 2020,
@@ -241,7 +279,9 @@
         "C": "(ii) & (iv)",
         "D": "(iii)"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The solubility of a solid in a liquid depends on the nature of the solute, the nature of the solvent, and the temperature. Since solids and liquids are highly incompressible, pressure has no significant effect on their solubility."
     },
     {
       "year": 2020,
@@ -253,7 +293,9 @@
         "C": "$33.33\\text{ m}$",
         "D": "$9.26\\text{ m}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Molality can be calculated from the mole fraction using the formula $m = \\frac{X_2 \\times 1000}{(1-X_2) \\times M_1}$, where $M_1$ is the molar mass of water ($18 \\text{ g/mol}$). Substituting $X_2 = 0.25$, we get $m = \\frac{0.25 \\times 1000}{0.75 \\times 18} = 18.52 \\text{ m}$."
     },
     {
       "year": 2020,
@@ -265,7 +307,9 @@
         "C": "$0.51\\text{ RT}$",
         "D": "$0.102\\text{ RT}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "hard",
+      "explanation": "First, find the degree of dissociation $\\alpha$ from $\\text{pH} = 2$, which gives $[\\text{H}^+] = 10^{-2} = 0.01 \\text{ M}$. Using $[\\text{H}^+] = C\\alpha$, we get $\\alpha = \\frac{0.01}{0.5} = 0.02$, so the Van't Hoff factor $i = 1 + \\alpha = 1.02$. Finally, the osmotic pressure is $\\pi = iCRT = 1.02 \\times 0.5 \\times RT = 0.51 \\text{ RT}$."
     },
     {
       "year": 2021,
@@ -277,7 +321,9 @@
         "C": "0.1 M NaCl",
         "D": "0.1 M $\\text{FeCl}_3$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Boiling point elevation is a colligative property proportional to the effective concentration ($i \\times M$). Among the given $0.1 \\text{ M}$ solutions, Urea is a non-electrolyte ($i=1$), resulting in the lowest effective concentration and thus the minimum boiling point."
     },
     {
       "year": 2021,
@@ -289,7 +335,9 @@
         "C": "0.6",
         "D": "0.06"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Molality is defined as the moles of solute per kilogram of solvent. Moles of ethanoic acid = $\\frac{3.0 \\text{ g}}{60 \\text{ g/mol}} = 0.05 \\text{ mol}$, and mass of solvent = $0.05 \\text{ kg}$, so $m = \\frac{0.05}{0.05} = 1.0 \\text{ m}$."
     },
     {
       "year": 2021,
@@ -301,7 +349,9 @@
         "C": "Reverse osmosis",
         "D": "Froth Floatation"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Reverse osmosis is the process used for the desalination of sea water. When pressure greater than the osmotic pressure is applied to the solution side, pure water flows out through the semi-permeable membrane."
     },
     {
       "year": 2022,
@@ -313,7 +363,9 @@
         "C": "0.01800",
         "D": "0.01698"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "A $1 \\text{ molal}$ solution contains $1 \\text{ mole}$ of solute in $1000 \\text{ g}$ of water. The moles of water are $\\frac{1000}{18} = 55.55 \\text{ mol}$, so the mole fraction of urea is $X = \\frac{1}{1 + 55.55} = 0.01768$."
     },
     {
       "year": 2022,
@@ -325,7 +377,9 @@
         "C": "increases with increase in temperature",
         "D": "first decreases and then increases by increase in temperature"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "According to Henry's Law, $P = K_H \\times X$. As temperature increases, the solubility of a gas ($X$) decreases, which implies that the value of the Henry's Law constant ($K_H$) must increase."
     },
     {
       "year": 2022,
@@ -337,7 +391,9 @@
         "C": "3",
         "D": "2.30"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "For $\\text{CaCl}_2$, the number of ions $n$ is 3. Using the formula $i = 1 + (n-1)\\alpha$ with $\\alpha = 0.80$, we get $i = 1 + (3-1) \\times 0.80 = 2.60$. Although $2.60$ is not in the options, it is the theoretically correct value."
     },
     {
       "year": 2023,
@@ -349,7 +405,9 @@
         "C": "$0.1 \\text{ M K}_4[\\text{Fe(CN)}_6]$",
         "D": "$0.1 \\text{ M NH}_4\\text{NO}_3$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Boiling point elevation is a colligative property that depends on the total number of particles ($i \\times M$). $\\text{K}_4[\\text{Fe(CN)}_6]$ dissociates into 5 ions ($4\\text{K}^+$ and $1 [\\text{Fe(CN)}_6]^{4-}$), giving it the highest effective concentration and thus the highest boiling point."
     },
     {
       "year": 2023,
@@ -361,7 +419,9 @@
         "C": "$i_A = i_B = i_C$",
         "D": "$i_A < i_B > i_C$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "For a weak electrolyte or its salt, the degree of dissociation ($\\alpha$) increases as the concentration of the solution decreases. Since $i = 1 + (n-1)\\alpha$, a higher $\\alpha$ at lower concentrations results in a higher Van't Hoff factor, so $i_A < i_B < i_C$."
     },
     {
       "year": 2023,
@@ -373,7 +433,9 @@
         "C": "0.04 RT",
         "D": "0.002 RT"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The osmotic pressure ($\\pi$) is calculated using the formula $\\pi = iCRT$. Since NaCl is a strong electrolyte that dissociates into two ions ($Na^+$ and $Cl^-$), the van't Hoff factor $i$ is 2. Substituting the values, $\\pi = 2 \\times 0.02 \\times RT = 0.04 RT$."
     },
     {
       "year": 2024,
@@ -385,7 +447,9 @@
         "C": "90.0 g",
         "D": "112.5 g"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Molality ($m$) is defined as the moles of solute per kg of solvent. Assuming the 2.5 kg given is the mass of the solvent, the mass of glucose is calculated as $W = m \\times M \\times W_{solvent} = 0.25 \\times 180 \\times 2.5 = 112.5$ g, which matches option D."
     },
     {
       "year": 2024,
@@ -397,7 +461,9 @@
         "C": "0.6 and 0.4",
         "D": "0.5 and 0.5"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "According to Raoult's law, the total vapour pressure of the solution is $P_{total} = P_P^0 X_P + P_Q^0 X_Q$. Substituting the given values, $600 = 450 X_P + 750(1 - X_P)$, which simplifies to $300 X_P = 150$, giving $X_P = 0.5$ and $X_Q = 0.5$."
     },
     {
       "year": 2024,
@@ -409,7 +475,9 @@
         "C": "48.375 g",
         "D": "50 g"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The freezing point depression is given by $\\Delta T_f = K_f \\times \\frac{W_2 \\times 1000}{M_2 \\times W_1}$. For a solution with a total mass of 645 g, a solute mass of 45 g and a solvent mass of 600 g yields $\\Delta T_f = 1.86 \\times \\frac{45 \\times 1000}{62 \\times 600} = 2.25$ K, matching option A."
     },
     {
       "year": 2024,
@@ -421,7 +489,9 @@
         "C": "5, 7, 2",
         "D": "7, 5, 2"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The van't Hoff factor $i$ represents the total number of particles produced per formula unit upon complete dissociation. $K_4[Fe(CN)_6]$ dissociates into 5 ions, $Fe_4[Fe(CN)_6]_3$ into 7 ions, and the coordination compound $[CoCl_2(en)_2]Cl$ into 2 ions."
     },
     {
       "year": 2025,
@@ -433,7 +503,9 @@
         "C": "$23.38\\% \\text{ W/W}$",
         "D": "$27.78\\% \\text{ W/W}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Given the mole fraction $X_{NaOH} = 0.2$, there are 0.2 moles of NaOH for every 0.8 moles of water. The mass percentage is calculated as $\\frac{0.2 \\times 40}{(0.2 \\times 40) + (0.8 \\times 18)} \\times 100 = 35.71\\%$, which corresponds to option B."
     },
     {
       "year": 2025,
@@ -445,7 +517,9 @@
         "C": "$\\text{C}_2\\text{H}_5\\text{OH} + \\text{CH}_3\\text{COCH}_3$",
         "D": "$\\text{C}_6\\text{H}_6 + \\text{C}_6\\text{H}_5\\text{CH}_3$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "A positive enthalpy of mixing ($\\Delta_{mix} H > 0$) indicates a positive deviation from Raoult's law, where solute-solvent attractions are weaker than those in pure components. In a mixture of ethanol and acetone, acetone molecules disrupt the strong hydrogen bonding network of ethanol, making the process endothermic."
     },
     {
       "year": 2025,
@@ -457,7 +531,9 @@
         "C": "I < IV < III < II",
         "D": "I < III < IV < II"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Solubility in non-polar n-octane follows the 'like dissolves like' principle, making non-polar cyclohexane (I) the most soluble and ionic KCl (II) the least. Among polar solutes, $CH_3CN$ (IV) is more soluble than $CH_3OH$ (III) because methanol's strong hydrogen bonding reduces its affinity for non-polar solvents."
     },
     {
       "year": 2025,
@@ -469,7 +545,9 @@
         "C": "$0.9\\% \\text{ W/V NaCl}$",
         "D": "$1.2\\% \\text{ W/V NaCl}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "A solution is hypertonic if its concentration is higher than the $0.9\\% \\text{ w/v NaCl}$ solution isotonic with blood. Therefore, a $1.2\\% \\text{ NaCl}$ solution (Option D) is hypertonic, while $0.8\\%$ and $0.6\\%$ are hypotonic."
     }
   ]
 }

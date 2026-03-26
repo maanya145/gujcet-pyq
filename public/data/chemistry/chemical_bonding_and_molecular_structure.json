@@ -13,7 +13,9 @@
         "C": "Its bond order is two and it is paramagnetic",
         "D": "Its bond order is one and it is diamagnetic"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The peroxide ion ($O_2^{2-}$) has a total of 18 electrons, which fills the molecular orbitals up to the $\\pi^* 2p_x$ and $\\pi^* 2p_y$ levels. The bond order is calculated as $\\frac{1}{2}(10 - 8) = 1$ using the number of bonding and antibonding electrons. Since all electrons are paired in these orbitals, the ion is diamagnetic."
     }
   ]
 }

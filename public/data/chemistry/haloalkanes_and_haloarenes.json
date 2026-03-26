@@ -13,7 +13,9 @@
         "C": "$\\text{Cu}_2(\\text{CN})_2 + \\text{KCN}$",
         "D": "$\\text{Cu}_2\\text{I}_2 + \\text{KI}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Sandmeyer reaction involves the replacement of a diazonium group using cuprous salts like $Cu_2Cl_2$, $Cu_2Br_2$, or $Cu_2(CN)_2$. For the preparation of iodobenzene, the diazonium salt is simply warmed with $KI$ without the need for a cuprous halide. Therefore, $Cu_2I_2 + KI$ is not a standard Sandmeyer reagent."
     },
     {
       "year": 2014,
@@ -25,7 +27,9 @@
         "C": "$\\text{CH}_3\\text{I} > \\text{CH}_3\\text{F} > \\text{CH}_3\\text{Cl} > \\text{CH}_3\\text{Br}$",
         "D": "$\\text{CH}_3\\text{Cl} > \\text{CH}_3\\text{Br} > \\text{CH}_3\\text{F} > \\text{CH}_3\\text{I}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The strength of the $C-X$ bond is inversely proportional to the bond length, which increases with the size of the halogen atom. As we move from $F$ to $I$, the atomic size increases, leading to longer and weaker bonds. Thus, the correct order of bond strength is $CH_3F > CH_3Cl > CH_3Br > CH_3I$."
     },
     {
       "year": 2014,
@@ -37,7 +41,9 @@
         "C": "$\\text{CH}_3\\text{Br} + \\text{AgF} \\xrightarrow{} \\text{CH}_3\\text{F} + \\text{AgBr}$",
         "D": "$2 \\text{CH}_3\\text{Cl} + 2 \\text{Na} \\xrightarrow{\\text{Dry ether}} \\text{CH}_3 \\cdot \\text{CH}_3 + 2 \\text{NaCl}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The Swartz reaction is a halogen exchange method specifically used to synthesize alkyl fluorides. It involves reacting alkyl chlorides or bromides with metallic fluorides such as $AgF$, $Hg_2F_2$, $CoF_2$, or $SbF_3$. Option C correctly shows $CH_3Br$ reacting with $AgF$ to form $CH_3F$."
     },
     {
       "year": 2014,
@@ -49,7 +55,9 @@
         "C": "The rate of $\\text{SN}^2$ reaction does not depends on concentrations of both substrate and nucleophilic reagent",
         "D": "$\\text{SN}^2$ reaction occurs in single step without forming intermediate"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "$SN^2$ reactions are bimolecular, meaning the rate-determining step involves both the substrate and the nucleophile. The rate law is given by $Rate = k[Substrate][Nucleophile]$, making it a second-order reaction. Therefore, statement C is incorrect because the rate does indeed depend on the concentrations of both species."
     },
     {
       "year": 2015,
@@ -61,7 +69,9 @@
         "C": "1 - bromo benzene",
         "D": "3 - chloro cyclo hex-1-ene"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "An allylic halide is a compound where the halogen atom is bonded to an $sp^3$ hybridized carbon atom that is directly adjacent to a carbon-carbon double bond ($C=C$). In 3-chloro cyclohex-1-ene, the chlorine is attached to the carbon at position 3, which is next to the double bond between C1 and C2. Other options like benzyl chloride are benzylic halides, not allylic."
     },
     {
       "year": 2015,
@@ -73,7 +83,9 @@
         "C": "2.8 gm",
         "D": "5.6 gm"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The moles of $CH_3CH_2Cl$ are $6.45 / 64.5 = 0.1$ mol. Since only 50% of the reagent is used, $0.05$ mol of ethene ($C_2H_4$) is produced via dehydrohalogenation. The mass of the product is calculated as $0.05 \\text{ mol} \\times 28 \\text{ g/mol} = 1.4 \\text{ g}$."
     },
     {
       "year": 2015,
@@ -85,7 +97,9 @@
         "C": "Wurtz reaction",
         "D": "Hell-Volhard Zelinsky reaction"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The reaction shown is the Finkelstein reaction, which is a classic halogen exchange method. It involves the treatment of an alkyl chloride or bromide with sodium iodide ($NaI$) in dry acetone to produce an alkyl iodide. The reaction is driven forward by the precipitation of $NaCl$ or $NaBr$ in the acetone solvent."
     },
     {
       "year": 2017,
@@ -97,7 +111,9 @@
         "C": "$\\text{(CH}_3)_3\\text{CBr}$",
         "D": "$\\text{CH}_3\\text{CH}_2\\text{Br}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Sodium tert-butoxide is a bulky base and nucleophile used in Williamson ether synthesis. The reaction proceeds most easily with primary alkyl halides like $CH_3CH_2Br$ because they offer the least steric hindrance for the nucleophilic attack. Tertiary halides like $(CH_3)_3CBr$ would undergo elimination ($E2$) rather than substitution."
     },
     {
       "year": 2017,
@@ -109,7 +125,9 @@
         "C": "Chloral + Chlorobenzene $\\rightarrow$",
         "D": "$\\text{CHCl}_3 \\xrightarrow{\\text{H}_2\\text{/Ni}}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The reaction of chloral ($CCl_3CHO$) with calcium hydroxide ($Ca(OH)_2$) yields chloroform ($CHCl_3$). Chloroform was historically used as a general anaesthetic in medical practice. Other options lead to products like $CCl_4$ or $DDT$, which do not have anaesthetic properties."
     },
     {
       "year": 2017,
@@ -121,7 +139,9 @@
         "C": "Neo pentane",
         "D": "n - pentane"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Neopentane (2,2-dimethylpropane) consists of four equivalent methyl groups attached to a central carbon, meaning all 12 hydrogen atoms are identical. Chlorination in the presence of sunlight will replace any one of these hydrogens to yield the same single monochloro product. Other alkanes like n-butane or n-pentane have non-equivalent hydrogens, leading to multiple structural isomers."
     },
     {
       "year": 2018,
@@ -133,7 +153,9 @@
         "C": "$3 - \\text{Chloro cyclo hex} - 1 - \\text{ene}$",
         "D": "$3 - \\text{Chloro prop} - 1 - \\text{ene}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "An allylic halide requires the halogen to be on an $sp^3$ carbon adjacent to a $C=C$ bond. In 1-chlorobut-1-ene ($Cl-CH=CH-CH_2-CH_3$), the chlorine is directly attached to a double-bonded carbon atom. This makes it a vinylic halide, not an allylic halide."
     },
     {
       "year": 2018,
@@ -145,7 +167,9 @@
         "C": "Methylene chloride",
         "D": "Trichloro ethane"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The reaction of 2,2,2-trichloroethanal (chloral) with calcium hydroxide is a standard laboratory preparation for chloroform ($CHCl_3$). The base causes a cleavage of the $C-C$ bond in chloral, resulting in the formation of chloroform and calcium formate. This is similar to the second stage of the haloform reaction."
     },
     {
       "year": 2018,
@@ -157,7 +181,9 @@
         "C": "$3 - \\text{Chloro but} - 1 - \\text{ene}$",
         "D": "$2, 2 - \\text{Dichloro pentane}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "A compound is optically inactive if it lacks a chiral center or possesses a plane of symmetry. In 2,2-dichloropentane, the second carbon atom is bonded to two identical chlorine atoms, which means it is not a chiral center. Since the molecule has no other chiral centers, it cannot rotate plane-polarized light."
     },
     {
       "year": 2019,
@@ -169,7 +195,9 @@
         "C": "Vicinal halide",
         "D": "Gaminal halide"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "1,2-dichloroethane ($Cl-CH_2-CH_2-Cl$) has two halogen atoms attached to two adjacent carbon atoms. Such compounds are classified as vicinal dihalides. If both halogens were attached to the same carbon atom, it would be classified as a geminal halide."
     },
     {
       "year": 2019,
@@ -181,7 +209,9 @@
         "C": "R and S configuration",
         "D": "Both D and L as well as d & l configuration"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "A polarimeter is an instrument used to measure the optical activity of a compound by determining the direction and magnitude of the rotation of plane-polarized light. This allows for the identification of $d$ (dextrorotatory) and $l$ (levorotatory) configurations. $D/L$ and $R/S$ are theoretical notations for absolute configuration and are not directly measured by the device."
     },
     {
       "year": 2019,
@@ -193,7 +223,9 @@
         "C": "DDT, CHCl3, CCl4, CHI3",
         "D": "CHCl3, CHI3, DDT, CCl4"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "$CCl_4$ is used as a fire extinguisher under the name pyrene, while $CHI_3$ (iodoform) acts as an antiseptic due to the liberation of free iodine. DDT is a well-known insecticide, and $CHCl_3$ (chloroform) was historically used as a general anesthetic in surgery. This sequence matches option B."
     },
     {
       "year": 2020,
@@ -205,7 +237,9 @@
         "C": "$1$",
         "D": "$4$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The formula $C_4H_9Br$ has four structural isomers: n-butyl bromide, isobutyl bromide, sec-butyl bromide, and tert-butyl bromide. Among these, only sec-butyl bromide ($CH_3CH(Br)CH_2CH_3$) has a chiral carbon atom. This chiral center results in two optically active isomers, which are the (R) and (S) enantiomers."
     },
     {
       "year": 2020,
@@ -217,7 +251,9 @@
         "C": "sec-butyl",
         "D": "n-propyl"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The Wurtz reaction involves the coupling of two alkyl groups from an alkyl halide in the presence of sodium and dry ether. The product 2,3-dimethylbutane is a symmetrical alkane formed by joining two isopropyl groups. Therefore, the starting alkyl halide $R'-Cl$ must be isopropyl chloride."
     },
     {
       "year": 2021,
@@ -229,7 +265,9 @@
         "C": "Vinylic",
         "D": "Aryl"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "An allylic halide is defined as a compound where the halogen atom is bonded to an $sp^3$ hybridized carbon atom that is adjacent to a carbon-carbon double bond ($C=C$). In the structure $CH_3CH=CHC(Cl)(CH_3)_2$, the chlorine is attached to a carbon next to the double bond. This fits the definition of an allylic halide perfectly."
     },
     {
       "year": 2021,
@@ -241,7 +279,9 @@
         "C": "[Diagram C]",
         "D": "[Diagram D]"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The addition of $HBr$ to an unsymmetrical alkene like propene in the presence of peroxides follows the anti-Markovnikov rule (Kharasch effect). In this mechanism, the bromine atom attaches to the terminal carbon atom which has more hydrogen atoms. This results in the formation of 1-bromopropane as the major product."
     },
     {
       "year": 2021,
@@ -253,7 +293,9 @@
         "C": "2-chloro-3-methylbutane",
         "D": "2-bromo-2-methylpropane"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "$S_N1$ reaction rates depend on the stability of the carbocation intermediate, following the order $3^\\circ > 2^\\circ > 1^\\circ$. 2-bromo-2-methylpropane forms a highly stable tertiary carbocation upon ionization. Additionally, bromine is a better leaving group than chlorine, further increasing the reaction rate compared to other options."
     },
     {
       "year": 2022,
@@ -265,7 +307,9 @@
         "C": "30 and 6",
         "D": "21 and 6"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "hard",
+      "explanation": "DDT (1,1,1-trichloro-2,2-bis(p-chlorophenyl)ethane) has a molecular formula of $C_{14}H_9Cl_5$. It contains two benzene rings, which contribute 6 $\\pi$ bonds in total. By counting all the single bonds ($C-C$, $C-H$, and $C-Cl$) in its chemical structure, we find there are exactly 29 $\\sigma$ bonds."
     },
     {
       "year": 2022,
@@ -277,7 +321,9 @@
         "C": "$\\text{C}_6\\text{H}_5\\text{C (CH}_3\\text{) (C}_6\\text{H}_5\\text{) Br}$",
         "D": "$\\text{C}_6\\text{H}_5\\text{CH}_2\\text{ Br}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The reactivity of alkyl halides in $S_N2$ reactions is governed by steric hindrance, where the order is $1^\\circ > 2^\\circ > 3^\\circ$. $C_6H_5CH_2Br$ (benzyl bromide) is a primary halide and experiences the least steric hindrance among the given choices. This allows the nucleophile to attack the carbon atom most readily."
     },
     {
       "year": 2022,
@@ -289,7 +335,9 @@
         "C": "[Figure C]",
         "D": "[Figure D]"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The reaction of chlorobenzene with $CH_3Cl$ in the presence of anhydrous $AlCl_3$ is a Friedel-Crafts alkylation. The chlorine atom on the ring is an ortho/para directing group due to its resonance effect. The para-product, 1-chloro-4-methylbenzene, is the major product because it is more stable and less sterically hindered than the ortho-isomer."
     },
     {
       "year": 2023,
@@ -301,7 +349,9 @@
         "C": "$\\text{S}_N2$",
         "D": "Electrophilic substitution"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The $S_N2$ mechanism follows second-order kinetics, meaning the reaction rate is proportional to the concentration of both the substrate and the nucleophile. If the experimental data shows that doubling the concentration of either reactant doubles the overall rate, the mechanism is bimolecular nucleophilic substitution ($S_N2$)."
     },
     {
       "year": 2023,
@@ -313,7 +363,9 @@
         "C": "Elimination Reaction",
         "D": "Swartz Reaction"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The Swarts reaction is a halogen exchange method used to synthesize alkyl fluorides or chlorofluorocarbons. It involves reacting alkyl chlorides or bromides with metallic fluorides such as $AgF$, $Hg_2F_2$, or $SbF_3$. Converting $CCl_4$ to $CCl_2F_2$ (Freon-12) is a standard industrial application of this reaction."
     },
     {
       "year": 2024,
@@ -325,7 +377,9 @@
         "C": "(iv) > (iii) > (ii) > (i)",
         "D": "(iv) > (ii) > (iii) > (i)"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "hard",
+      "explanation": "$S_N1$ reactivity is determined by the stability of the carbocation formed during the rate-determining step. Compound (iv) forms a tertiary benzylic carbocation, which is the most stable, followed by (ii) which forms a secondary benzylic carbocation stabilized by two phenyl rings. Compound (iii) has one phenyl and one methyl group for stabilization, while (i) is a primary benzylic carbocation, leading to the order (iv) > (ii) > (iii) > (i)."
     },
     {
       "year": 2024,
@@ -337,7 +391,9 @@
         "C": "(i) $\rightarrow$ (a); (ii) $\rightarrow$ (c); (iii) $\rightarrow$ (d)",
         "D": "(i) $\rightarrow$ (b); (ii) $\rightarrow$ (a); (iii) $\rightarrow$ (d)"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The Finkelstein reaction is the exchange of an alkyl halide with $NaI$ in acetone to form an alkyl iodide. The Swarts reaction involves the formation of alkyl fluorides using metallic fluorides like $AgF$. The Grignard reaction involves the formation of organomagnesium halides ($R-Mg-X$) and their subsequent reactions, matching the pairs in option A."
     },
     {
       "year": 2024,
@@ -349,7 +405,9 @@
         "C": "$\text{Cl}_2$/UV light",
         "D": "$\text{Cl}_2$, air/dark"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The conversion of butane into a mixture of 1-chlorobutane and 2-chlorobutane is a free radical halogenation reaction. This process requires chlorine gas ($Cl_2$) and an energy source like ultraviolet (UV) light or high heat to generate the chlorine radicals. This radical mechanism typically results in a mixture of isomeric products."
     },
     {
       "year": 2025,
@@ -361,7 +419,9 @@
         "C": "3-Bromo-2-methylbut-1-ene",
         "D": "2-Bromo-2-methylbut-2-ene"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "In an allylic halide, the halogen must be attached to an $sp^3$ carbon adjacent to a $C=C$ double bond. In 2-bromo-2-methylbut-2-ene, the bromine atom is directly attached to one of the $sp^2$ hybridized carbon atoms involved in the double bond. This makes it a vinylic halide, not an allylic halide."
     },
     {
       "year": 2025,
@@ -373,7 +433,9 @@
         "C": "3",
         "D": "5"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Optical isomerism in monohaloalkanes requires a chiral carbon atom bonded to four different groups. The simplest such molecule is 2-halobutane ($CH_3-CH(X)-CH_2-CH_3$), where the second carbon is bonded to $-H$, $-X$, $-CH_3$, and $-C_2H_5$. This structure requires a minimum of 4 carbon atoms to achieve chirality."
     },
     {
       "year": 2025,
@@ -385,7 +447,9 @@
         "C": "1-Bromo-2-methylbutane",
         "D": "1-Bromobutane"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The reactivity in $S_N2$ reactions follows the order $1^\\circ > 2^\\circ > 3^\\circ$ and is highly sensitive to steric hindrance. 1-Bromobutane is a primary halide with no branching, making it the least hindered and most reactive. Branching at the $\\beta$-carbon, as seen in the other options, increases steric bulk and significantly reduces the reaction rate."
     },
     {
       "year": 2025,
@@ -397,7 +461,9 @@
         "C": "Chlorobenzene",
         "D": "Chloromethane"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Trichloromethane ($CHCl_3$), or chloroform, is slowly oxidized by atmospheric oxygen in the presence of light to form carbonyl chloride ($COCl_2$), commonly known as phosgene. The reaction is represented as $2CHCl_3 + O_2 \\xrightarrow{hv} 2COCl_2 + 2HCl$. Because phosgene is a deadly poisonous gas, chloroform is stored in dark, airtight bottles."
     }
   ]
 }

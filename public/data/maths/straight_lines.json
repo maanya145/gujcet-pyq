@@ -13,7 +13,9 @@
         "C": "$(1, 5/2)$",
         "D": "$(6, 5)$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The triangle is right-angled at $A(1, 1)$ because $AB$ is horizontal and $AC$ is vertical. In a right-angled triangle, the circumcentre is the midpoint of the hypotenuse $BC$. Calculating the midpoint of $B(5, 1)$ and $C(1, 4)$ gives $(\\frac{5+1}{2}, \\frac{1+4}{2}) = (3, 5/2)$."
     },
     {
       "year": 2006,
@@ -25,7 +27,9 @@
         "C": "$(0, -2)$",
         "D": "$(-2, 0)$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Since $C$ lies on the $y$-axis, its coordinates are $(0, y)$, and since the centroid lies on the $x$-axis, its $y$-coordinate is $0$. Using the centroid formula $G_y = \\frac{y_1 + y_2 + y_3}{3}$, we get $0 = \\frac{-3 + 1 + y}{3}$, which simplifies to $y = 2$. Thus, the coordinates of $C$ are $(0, 2)$."
     },
     {
       "year": 2006,
@@ -37,7 +41,9 @@
         "C": "-5",
         "D": "5"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Since $\\angle ACB = 90^{\\circ}$, the product of the slopes of $AC$ and $BC$ must be $-1$. The slope of $AC$ is $\\frac{-1-7}{5-11} = \\frac{4}{3}$ and the slope of $BC$ is $\\frac{k+1}{-6}$. Solving $\\frac{4}{3} \\cdot \\frac{k+1}{-6} = -1$ gives $k = 3.5$, but since this is not in the options, the provided answer $D$ suggests a possible typo in the question coordinates."
     },
     {
       "year": 2006,
@@ -49,7 +55,9 @@
         "C": "$\\pi$",
         "D": "$\\frac{\\pi}{2}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The set $\\{(x, 0) / x \\in R\\}$ represents the $x$-axis, and the set $\\{(0, y) / y \\in R\\}$ represents the $y$-axis. Since the $x$-axis and $y$-axis are perpendicular to each other, the angle between them is $\\frac{\\pi}{2}$."
     },
     {
       "year": 2006,
@@ -61,7 +69,9 @@
         "C": "3",
         "D": "-3"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "For two lines $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$ to be identical, their coefficients must be proportional: $\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$. Here, $\\frac{k}{6} = \\frac{2}{-4} = \\frac{-1}{2}$, which leads to $k = 6 \\times (-\\frac{1}{2}) = -3$."
     },
     {
       "year": 2008,
@@ -73,7 +83,9 @@
         "C": "9:4",
         "D": "4:9"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The ratio $m:n$ in which a line $ax + by + c = 0$ divides the segment joining $(x_1, y_1)$ and $(x_2, y_2)$ is given by $-\\frac{ax_1 + by_1 + c}{ax_2 + by_2 + c}$. Substituting the values, we get $-\\frac{3(1) + 4(2) - 7}{3(-2) + 4(1) - 7} = -\\frac{4}{-9} = 4:9$."
     },
     {
       "year": 2008,
@@ -85,7 +97,9 @@
         "C": "$-\\sqrt{3}$",
         "D": "$\\sqrt{3}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "If a line makes an angle of $30^{\\circ}$ with the $Y$-axis, it makes an angle of $90^{\\circ} \\pm 30^{\\circ}$ with the $X$-axis. Thus, the inclination $\\theta$ is either $60^{\\circ}$ or $120^{\\circ}$. The slope $m = \\tan \\theta$ is $\\tan 60^{\\circ} = \\sqrt{3}$ or $\\tan 120^{\\circ} = -\\sqrt{3}$, resulting in $\\pm \\sqrt{3}$."
     },
     {
       "year": 2008,
@@ -97,7 +111,9 @@
         "C": "$(1, 2)$",
         "D": "$(1, -2)$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The slopes of the lines $4x - 7y + 10 = 0$ and $7x + 4y - 15 = 0$ are $4/7$ and $-7/4$ respectively. Since the product of their slopes is $-1$, these lines are perpendicular, making the triangle right-angled. The orthocentre of a right-angled triangle is the vertex where the right angle is formed, which is the intersection $(1, 2)$ of these two lines."
     },
     {
       "year": 2008,
@@ -109,7 +125,9 @@
         "C": "$3x + 5y + 15 = 0$",
         "D": "$5x + 3y + 15 = 0$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Let the intercepts on the axes be $(a, 0)$ and $(0, b)$; the midpoint is $(\\frac{a}{2}, \\frac{b}{2}) = (\\frac{3}{2}, \\frac{5}{2})$, so $a=3$ and $b=5$. Using the intercept form $\\frac{x}{a} + \\frac{y}{b} = 1$, we get $\\frac{x}{3} + \\frac{y}{5} = 1$. Multiplying by 15 gives the equation $5x + 3y - 15 = 0$."
     },
     {
       "year": 2009,
@@ -121,7 +139,9 @@
         "C": "$(1, 1)$",
         "D": "$(-1, -1)$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The triangle is right-angled at $(0, 0)$ with side lengths $a=4, b=3$ and hypotenuse $c=5$. The incentre formula for a right triangle with legs $a, b$ and hypotenuse $c$ at the origin is $(\\frac{a+b-c}{2}, \\frac{a+b-c}{2})$. Substituting the values gives $(\\frac{4+3-5}{2}, \\frac{4+3-5}{2}) = (1, 1)$."
     },
     {
       "year": 2009,
@@ -133,7 +153,9 @@
         "C": "$-4$",
         "D": "$4$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Using the section formula for ratio $k:1$, the coordinates of the dividing point are $(\\frac{3k+k}{k+1}, \\frac{5k+2}{k+1})$. Since the point is $(t, t)$, we equate the coordinates: $\\frac{4k}{k+1} = \\frac{5k+2}{k+1}$. Solving $4k = 5k + 2$ results in $k = -2$."
     },
     {
       "year": 2009,
@@ -145,7 +167,9 @@
         "C": "$k = 3, m = 2$",
         "D": "$k = -3, m = -2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "For lines to be identical, the ratios of their coefficients must be equal: $\\frac{k}{6} = \\frac{-2}{-4} = \\frac{-1}{-m}$. From $\\frac{k}{6} = \\frac{1}{2}$, we find $k = 3$, and from $\\frac{1}{2} = \\frac{1}{m}$, we find $m = 2$."
     },
     {
       "year": 2009,
@@ -157,7 +181,9 @@
         "C": "$\\frac{\\pi}{3}$",
         "D": "$\\frac{\\pi}{2}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The line $x = y$ is the angle bisector of the first quadrant, making an angle of $45^{\\circ}$ with the $x$-axis. The line $y = 0$ is the $x$-axis itself. Therefore, the angle between them is $45^{\\circ}$, which is $\\frac{\\pi}{4}$ radians."
     },
     {
       "year": 2009,
@@ -169,7 +195,9 @@
         "C": "$-1$",
         "D": "$1$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The parametric equations are $x = 2t + 3$ and $y = 2t + 5$. Subtracting the first from the second gives $y - x = 2$, or $y = x + 2$. Comparing this with $y = mx + c$, the slope $m$ is $1$."
     },
     {
       "year": 2011,
@@ -181,7 +209,9 @@
         "C": "$\\frac{1}{\\sqrt{2}}$",
         "D": "None of these"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The triangle is right-angled at $A(0, 0)$, so the orthocentre is $(0, 0)$. The circumcentre is the midpoint of the hypotenuse $BC$, which is $(\\frac{0+2}{2}, \\frac{2+0}{2}) = (1, 1)$. The distance between $(0, 0)$ and $(1, 1)$ is $\\sqrt{1^2 + 1^2} = \\sqrt{2}$."
     },
     {
       "year": 2011,
@@ -193,7 +223,9 @@
         "C": "$\\sqrt{85}$",
         "D": "$\\sqrt{116}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The median through $C$ connects vertex $C(5, -8)$ to the midpoint $M$ of the opposite side $AB$. The midpoint $M$ is calculated as $(\\frac{2-4}{2}, \\frac{2-4}{2}) = (-1, -1)$. Using the distance formula, the length $CM = \\sqrt{(5 - (-1))^2 + (-8 - (-1))^2} = \\sqrt{6^2 + (-7)^2} = \\sqrt{85}$."
     },
     {
       "year": 2011,
@@ -205,7 +237,9 @@
         "C": "$2x + y \\pm 3 = 0$",
         "D": "$x + 2y \\pm 3 = 0$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The line has a slope $m = -2$ and passes through points on the X-axis at a distance of 3 units from the origin, which are $(3, 0)$ and $(-3, 0)$. Using the point-slope form $y - y_1 = m(x - x_1)$, we get $y - 0 = -2(x \\mp 3)$. This simplifies to $y = -2x \\pm 6$, which can be written as $2x + y \\pm 6 = 0$."
     },
     {
       "year": 2011,
@@ -217,7 +251,9 @@
         "C": "$x - 2y \\pm 5 = 0$",
         "D": "$x + 2y \\pm 5 = 0$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Let the intercepts be $a$ and $2a$, so the equation in intercept form is $\\frac{x}{a} + \\frac{y}{2a} = 1$, or $2x + y - 2a = 0$. The perpendicular distance from the origin is $\\frac{|-2a|}{\\sqrt{2^2 + 1^2}} = \\sqrt{5}$, which gives $|2a| = 5$. Substituting this value back into the equation yields $2x + y \\pm 5 = 0$."
     },
     {
       "year": 2011,
@@ -229,7 +265,9 @@
         "C": "$(0, 3)$",
         "D": "can't be found"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The lines $x - y = 0$ and $x + y = 0$ are perpendicular because the product of their slopes is $(1)(-1) = -1$. In any right-angled triangle, the orthocenter is the vertex where the right angle is formed. Since the intersection of $x - y = 0$ and $x + y = 0$ is $(0, 0)$, the orthocenter is $(0, 0)$."
     }
   ]
 }

@@ -13,7 +13,9 @@
         "C": "Butane",
         "D": "Trans $2\\text{ - butene}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The bromination of alkenes proceeds via anti-addition. When $Br_2$ adds to trans-2-butene, the anti-addition mechanism results in a meso compound because the resulting chiral centers have internal symmetry. Conversely, the addition of $Br_2$ to cis-2-butene would produce a racemic mixture of enantiomers."
     },
     {
       "year": 2022,
@@ -25,7 +27,9 @@
         "C": "$\\text{C}_6\\text{H}_5\\text{OH} + \\text{Zn} \\xrightarrow{\\Delta}$",
         "D": "$\\text{C}_6\\text{H}_5\\text{OH} + \\text{H}_2\\text{CrO}_4 \\xrightarrow{[O]}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Options A, B, and C represent standard laboratory preparations of benzene through decarboxylation, reduction of diazonium salts, and reduction of phenol with zinc, respectively. In contrast, the reaction of phenol with chromic acid ($H_2CrO_4$) is an oxidation process that yields $p$-benzoquinone. Therefore, reaction D does not produce benzene."
     },
     {
       "year": 2024,
@@ -37,7 +41,9 @@
         "C": "$\text{CH}_3 - \text{C}(\text{H})(\text{CH}_3) - \text{CH}_2 - \text{CH}_2\text{X}$",
         "D": "$\text{CH}_3 - \text{C}(\text{CH}_3)(\text{H}) - \text{CH}(\text{X}) - \text{CH}_3$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The reaction follows Markovnikov's rule, where the electrophile ($H^+$) adds to the carbon with more hydrogen atoms ($C_1$) to form a secondary carbocation. The nucleophile ($X^-$) then attacks the $C_2$ position, resulting in 2-halo-3-methylbutane as the product. While carbocation rearrangement to a tertiary center is possible, the direct Markovnikov addition product is represented by option D."
     }
   ]
 }

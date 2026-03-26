@@ -13,7 +13,9 @@
         "C": "$\\text{Mn}^{2+}$",
         "D": "$\\text{Cu}^{2+}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "$\\text{Ti}^{4+}$ has an electronic configuration of $[\\text{Ar}]3d^0$, meaning it has no electrons in the $d$-orbital. Since $d-d$ transitions require the movement of an electron between split $d$-orbitals, it is impossible in a $d^0$ system."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "$(n-1)d^5ns^1$",
         "D": "$(n-1)d^3ns^2$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The maximum oxidation state of a transition element is generally determined by the total number of $ns$ and $(n-1)d$ electrons. The configuration $(n-1)d^5ns^2$ has 7 valence electrons, allowing it to reach a $+7$ oxidation state, which is the highest among the given options."
     },
     {
       "year": 2008,
@@ -37,7 +41,9 @@
         "C": "Electronic configuration.",
         "D": "Combined effect of hydration energy and ionization energy."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The stability of an oxidation state in lanthanides depends on the net energy change during ion formation. This is determined by the combined effect of the energy required to remove electrons (ionization energy) and the energy released when the ion is hydrated (hydration energy)."
     },
     {
       "year": 2008,
@@ -49,7 +55,9 @@
         "C": "as an insecticide.",
         "D": "It oxidises ferrous ions into ferric ions in acidic media as an oxidizing agent."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Potassium dichromate ($\\text{K}_2\\text{Cr}_2\\text{O}_7$) is a powerful oxidizing agent in acidic media. It reacts with ferrous ions ($\\text{Fe}^{2+}$) to convert them into ferric ions ($\\text{Fe}^{3+}$) while the chromium is reduced from $+6$ to $+3$."
     },
     {
       "year": 2009,
@@ -61,7 +69,9 @@
         "C": "$28$",
         "D": "$25$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The $\\text{M}^{2+}$ ion has 18 electrons from the Argon core plus 8 electrons in the $3d$ subshell, totaling 26 electrons. Since it is a dipositive ion, the neutral atom must have $26 + 2 = 28$ electrons, which corresponds to the atomic number of Nickel ($\\text{Ni}$)."
     },
     {
       "year": 2009,
@@ -73,7 +83,9 @@
         "C": "$\\text{Ce(OH)}_3$",
         "D": "$\\text{CeO}_2$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Cerium(IV) oxide ($\\text{CeO}_2$) is commonly used as a pigment and an opacifier in the glass and ceramics industry. It is also valued for its ability to absorb ultraviolet radiation and its use as a high-grade polishing agent."
     },
     {
       "year": 2011,
@@ -85,7 +97,9 @@
         "C": "Electron configuration of Copper in $+2$ state is $[\\text{Ar}]3d^9\\text{ }4s^0$.",
         "D": "Copper gives coloured compounds in $+2$ state."
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Although $\\text{Cu}^+$ has a stable $d^{10}$ configuration, $\\text{Cu}^{2+}$ is more stable in aqueous solutions. This is because the high negative hydration enthalpy of $\\text{Cu}^{2+}$ is large enough to compensate for the energy required for the second ionization of copper, making the overall process favorable."
     },
     {
       "year": 2011,
@@ -97,7 +111,9 @@
         "C": "Mono centric complex is converted into dicentric complex.",
         "D": "Oxygen gets removed from chromate ions."
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "In acidic medium, yellow chromate ions ($\\text{CrO}_4^{2-}$) are converted into orange dichromate ions ($\\text{Cr}_2\\text{O}_7^{2-}$). This reaction involves the condensation of two mononuclear (mono centric) chromate units into a dinuclear (dicentric) dichromate structure."
     },
     {
       "year": 2014,
@@ -109,7 +125,9 @@
         "C": "$\\text{Cd}$",
         "D": "$\\text{Zn}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Transition elements are defined as elements having a partially filled $d$-orbital in their ground state or common oxidation states. Gold ($\\text{Au}$) is a transition element because it can form ions like $\\text{Au}^{3+}$ with a $d^8$ configuration, whereas $\\text{Zn}$, $\\text{Cd}$, and $\\text{Hg}$ have completely filled $d^{10}$ shells."
     },
     {
       "year": 2014,
@@ -121,7 +139,9 @@
         "C": "$\\text{Lu(OH)}_3 < \\text{Ce(OH)}_3 < \\text{Al(OH)}_3 < \\text{Ca(OH)}_2$",
         "D": "$\\text{Lu(OH)}_3 < \\text{Ce(OH)}_3 < \\text{Ca(OH)}_2 < \\text{Al(OH)}_3$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "hard",
+      "explanation": "Basicity decreases as the ionic radius decreases and covalent character increases. $\\text{Al(OH)}_3$ is amphoteric (least basic), while $\\text{Ca(OH)}_2$ is a strong base; among lanthanides, basicity decreases from $\\text{Ce}$ to $\\text{Lu}$ due to the lanthanide contraction."
     },
     {
       "year": 2014,
@@ -133,7 +153,9 @@
         "C": "Nichrome",
         "D": "Nitinol"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Misch metal is an alloy consisting of lanthanide metals and iron that is known for being pyrophoric. Because it produces sparks when struck or scratched, it is widely used as the 'flint' in gas lighters and cigarette lighters."
     },
     {
       "year": 2015,
@@ -145,7 +167,9 @@
         "C": "It is used as bleaching agent in textile industries.",
         "D": "It is dark purple coloured amorphous substance."
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Potassium permanganate ($\\text{KMnO}_4$) is a dark purple crystalline solid, not an amorphous substance. While it is correctly used as an antiseptic, a strong oxidizing agent, and a bleaching agent, the description of it being amorphous is incorrect."
     },
     {
       "year": 2015,
@@ -157,7 +181,9 @@
         "C": "\\text{Ti}^{3+}",
         "D": "\\text{Co}^{3+}"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The magnetic moment is calculated using the formula $\\mu = \\sqrt{n(n+2)}$, where $n$ is the number of unpaired electrons. $\\text{Fe}^{3+}$ has a $3d^5$ configuration with 5 unpaired electrons, which is the highest possible number for a $3d$ ion, resulting in the maximum magnetic moment."
     },
     {
       "year": 2015,
@@ -169,7 +195,9 @@
         "C": "\\text{Sm}_2\\text{O}_3",
         "D": "\\text{Gd}_2\\text{O}_3"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "In the lanthanide series, basicity decreases as the atomic number increases due to the lanthanide contraction, which reduces the ionic radius and increases covalent character. Therefore, $\\text{La}_2\\text{O}_3$, the oxide of the first element in the series, exhibits the maximum basicity."
     },
     {
       "year": 2017,
@@ -181,7 +209,9 @@
         "C": "$\\text{Cr}^{3+} < \\text{Mn}^{2+} = \\text{Fe}^{3+}$",
         "D": "$\\text{Cr}^{3+} < \\text{Mn}^{2+} < \\text{Fe}^{3+}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The magnetic moment depends on the number of unpaired electrons ($n$). $\\text{Cr}^{3+}$ has 3 unpaired electrons ($3d^3$), while both $\\text{Mn}^{2+}$ and $\\text{Fe}^{3+}$ have 5 unpaired electrons ($3d^5$), making the moments of $\\text{Mn}^{2+}$ and $\\text{Fe}^{3+}$ equal and greater than that of $\\text{Cr}^{3+}$."
     },
     {
       "year": 2017,
@@ -193,7 +223,9 @@
         "C": "The values of ionisation enthalpy of actinoids are less than the values of ionisation enthalpy of lanthanoids",
         "D": "Only in the electronic configuration of lanthanoids like Ce, Gd, Lu the electrons are filled in 5d orbitals"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Promethium ($Pm$) is indeed a radioactive element, but it belongs to the Lanthanoid series ($4f$ series), not the Actinoid series. All other statements regarding the basicity of lanthanoid oxides, lower ionization enthalpies of actinoids compared to lanthanoids, and specific $5d$ occupancy in $Ce$, $Gd$, and $Lu$ are correct."
     },
     {
       "year": 2018,
@@ -205,7 +237,9 @@
         "C": "$\\text{Cr}^{3+}$",
         "D": "$\\text{V}^{3+}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The magnetic moment is calculated using the spin-only formula $\\mu = \\sqrt{n(n+2)}$ BM, where $n$ is the number of unpaired electrons. $\\text{Ti}^{3+}$ has the electronic configuration $[Ar] 3d^1$, giving it only one unpaired electron ($n=1$), which results in the lowest magnetic moment ($\"approx 1.73$ BM) among the given ions."
     },
     {
       "year": 2018,
@@ -217,7 +251,9 @@
         "C": "$\\text{Fe, Ni, Cr}$",
         "D": "$\\text{Ni, Mg, Na}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Alloys are formed by transition metals when their atomic radii differ by less than $15\\%$. $\\text{Fe}$, $\\text{Ni}$, and $\\text{Cr}$ are all transition elements with similar atomic sizes, allowing them to replace each other in the crystal lattice to form alloys like stainless steel."
     },
     {
       "year": 2019,
@@ -229,7 +265,9 @@
         "C": "Fe3+, Mn2+",
         "D": "Cr3+, Mn3+"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Magnetic moment depends on the number of unpaired electrons ($n$). Both $\\text{Fe}^{3+}$ and $\\text{Mn}^{2+}$ have a $d^5$ configuration with $5$ unpaired electrons, resulting in the same theoretical magnetic moment of $5.92$ BM."
     },
     {
       "year": 2019,
@@ -241,7 +279,9 @@
         "C": "Radius of A is 115pm while radius of B is 187 pm",
         "D": "Both elements have similar crystal structures"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "For two metals to form a stable alloy, their atomic radii should not differ by more than $15\\%$. In this case, the radius of $B$ ($187$ pm) is significantly larger than $A$ ($115$ pm), which prevents the formation of a solid solution."
     },
     {
       "year": 2020,
@@ -253,7 +293,9 @@
         "C": "Fe",
         "D": "Mn"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "A magnetic moment of $5.92$ BM corresponds to $n=5$ unpaired electrons based on the formula $\\mu = \\sqrt{n(n+2)}$. Among the options, $\\text{Mn}^{2+}$ has the electronic configuration $[Ar] 3d^5$, which contains exactly $5$ unpaired electrons."
     },
     {
       "year": 2020,
@@ -265,7 +307,9 @@
         "C": "Both have similar atomic radius",
         "D": "Both belongs to the same group of the periodic table"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Zirconium ($Zr$, $4d$ series) and Hafnium ($Hf$, $5d$ series) have almost identical atomic radii ($160$ pm and $159$ pm respectively) due to lanthanoid contraction. This similarity in size leads to very similar physical and chemical properties, making them difficult to separate."
     },
     {
       "year": 2021,
@@ -277,7 +321,9 @@
         "C": "2.83",
         "D": "4.90"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The element with atomic number $26$ is Iron ($Fe$). Its divalent ion $\\text{Fe}^{2+}$ has the configuration $[Ar] 3d^6$, which has $4$ unpaired electrons; calculating the magnetic moment gives $\\mu = \\sqrt{4(4+2)} = \\sqrt{24} \\approx 4.90$ BM."
     },
     {
       "year": 2021,
@@ -289,7 +335,9 @@
         "C": "$\\text{IO}^-$",
         "D": "$\\text{IO}_4^-$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "In neutral or faintly alkaline solutions, permanganate ($\\text{MnO}_4^-$) oxidizes iodide ($\\text{I}^-$) to iodate ($\\text{IO}_3^-$). This is a characteristic redox reaction where $\\text{Mn}$ is reduced from $+7$ to $+4$ (forming $\\text{MnO}_2$)."
     },
     {
       "year": 2022,
@@ -301,7 +349,9 @@
         "C": "Scandium",
         "D": "Chromium"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Scandium ($Sc$) is a transition element that exhibits only the $+3$ oxidation state because it loses all three valence electrons ($3d^1 4s^2$) to achieve a stable noble gas configuration. Other transition elements typically show multiple oxidation states due to the participation of $(n-1)d$ electrons."
     },
     {
       "year": 2022,
@@ -313,7 +363,9 @@
         "C": "Atomic sizes of elements of '4d' series is greater than corresponding elements of '3d' series",
         "D": "Atomic sizes of elements of '5d' series is greater than corresponding '4d' series"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Statement D is incorrect because the atomic sizes of $5d$ series elements are almost identical to those of the corresponding $4d$ series elements. This phenomenon is caused by lanthanoid contraction, which compensates for the expected increase in size due to the addition of a new shell."
     },
     {
       "year": 2023,
@@ -325,7 +377,9 @@
         "C": "$\\text{Mn}_2\\text{O}_7$",
         "D": "$\\text{Mn}_2\\text{O}_3$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "In transition metal oxides, acidity increases as the oxidation state of the metal increases. $\\text{Mn}_2\\text{O}_7$ contains Manganese in its highest oxidation state ($+7$), making it a strongly acidic oxide that reacts with water to form permanganic acid."
     },
     {
       "year": 2023,
@@ -337,7 +391,9 @@
         "C": "$\\text{IO}_3^-$",
         "D": "$\\text{IO}_4^-$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "In an alkaline medium, potassium permanganate acts as an oxidizing agent and converts iodide ions ($\\text{I}^-$) into iodate ions ($\\text{IO}_3^-$). This reaction is distinct from the acidic medium reaction where iodide is oxidized to molecular iodine ($\\text{I}_2$)."
     },
     {
       "year": 2023,
@@ -349,7 +405,9 @@
         "C": "$_{65}\\text{Tb}$",
         "D": "$_{66}\\text{Dy}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Gadolinium ($_{64}\\text{Gd}$) has the electronic configuration $[Xe] 4f^7 5d^1 6s^2$. The $5d$ orbital is occupied by one electron to maintain the stability of a half-filled $4f^7$ subshell, which is an exception to the general filling rule."
     },
     {
       "year": 2024,
@@ -361,7 +419,9 @@
         "C": "4/5",
         "D": "2/5"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "In acidic medium, the reduction of $\\text{MnO}_4^-$ involves $5$ electrons ($+7$ to $+2$), while the oxidation of $\\text{S}^{2-}$ to $\\text{S}$ involves $2$ electrons. Using the principle of electron balance, $2$ moles of $\\text{KMnO}_4$ react with $5$ moles of $\\text{S}^{2-}$, so $1$ mole of $\\text{S}^{2-}$ requires $2/5$ moles of $\\text{KMnO}_4$."
     },
     {
       "year": 2024,
@@ -373,7 +433,9 @@
         "C": "$\text{Cr}_2\text{O}_3$",
         "D": "$\text{CrO}_3$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Oxides of transition metals in intermediate oxidation states generally exhibit amphoteric behavior. While $\\text{CrO}$ is basic and $\\text{CrO}_3$ is acidic, $\\text{Cr}_2\\text{O}_3$ reacts with both acids and bases, making it amphoteric. This trend follows the increase in covalent character as the oxidation state of the metal increases."
     },
     {
       "year": 2024,
@@ -385,7 +447,9 @@
         "C": "$\text{Ti}^{2+}$",
         "D": "$\text{Fe}^{2+}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The spin-only magnetic moment is calculated using $\\mu = \\sqrt{n(n+2)}$, where $n$ is the number of unpaired electrons. $\\text{Mn}^{2+}$ has a $3d^5$ configuration with 5 unpaired electrons, which is the maximum possible for these ions. Consequently, it shows the highest magnetic moment of approximately $5.92 \\text{ BM}$."
     },
     {
       "year": 2024,
@@ -397,7 +461,9 @@
         "C": "Gadolinium",
         "D": "Samarium"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Cerium ($Z=58$) is the most well-known lanthanide to exhibit a $+4$ oxidation state. It achieves a stable noble gas configuration ($[\\text{Xe}]$) by losing four electrons from its $4f^1 5d^1 6s^2$ valence shell. Although $\\text{Ce}^{4+}$ is a strong oxidizing agent, it is favored due to the extra stability of the empty $f$-orbital."
     },
     {
       "year": 2025,
@@ -409,7 +475,9 @@
         "C": "Fe",
         "D": "Co"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The formula for magnetic moment is $\\mu = \\sqrt{n(n+2)} \\text{ BM}$. Given $\\mu = \\sqrt{35}$, we find $n(n+2) = 35$, which gives $n = 5$ unpaired electrons. Among the options, the divalent ion $\\text{Mn}^{2+}$ has a $3d^5$ configuration, providing exactly 5 unpaired electrons."
     },
     {
       "year": 2025,
@@ -421,7 +489,9 @@
         "C": "$\\text{MnO}$ and $\\text{Mn}_2\\text{O}_3$",
         "D": "$\\text{MnO}_2$ and $\\text{Mn}_2\\text{O}_3$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "In acidic or neutral solutions, the manganate ion ($\\text{MnO}_4^{2-}$) is unstable and undergoes disproportionation. It simultaneously oxidizes to permanganate ($\\text{MnO}_4^-$) and reduces to manganese dioxide ($\\text{MnO}_2$). The balanced equation is $3\\text{MnO}_4^{2-} + 4\\text{H}^+ \\rightarrow 2\\text{MnO}_4^- + \\text{MnO}_2 + 2\\text{H}_2\\text{O}$."
     },
     {
       "year": 2025,
@@ -433,7 +503,9 @@
         "C": "+4",
         "D": "+2"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The Ziegler-Natta catalyst is a combination of titanium tetrachloride ($\\text{TiCl}_4$) and triethylaluminium ($\\text{Al(C}_2\\text{H}_5)_3$). In the $\\text{TiCl}_4$ component, titanium is bonded to four chlorine atoms, each having a $-1$ charge. Therefore, the oxidation state of Titanium ($\text{Ti}$) in this catalyst is $+4$."
     }
   ]
 }

@@ -13,7 +13,9 @@
         "C": "more",
         "D": "same"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The Earth's atmosphere acts as a thermal blanket that traps heat through the greenhouse effect by absorbing infrared radiation emitted from the surface. Without an atmosphere, this heat would escape directly into space instead of being re-radiated back to Earth. Consequently, the average surface temperature would be significantly lower than it is today."
     }
   ]
 }

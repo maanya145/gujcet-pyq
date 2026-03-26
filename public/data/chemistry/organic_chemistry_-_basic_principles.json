@@ -13,7 +13,9 @@
         "C": "One",
         "D": "Zero"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "2,3-dihydroxybutanal has two chiral centers ($n=2$). The total number of optical isomers is $2^n = 4$, which form two pairs of enantiomers. Since each pair of enantiomers constitutes one racemic mixture, there are two racemic mixtures in total."
     },
     {
       "year": 2008,
@@ -25,7 +27,9 @@
         "C": "4",
         "D": "16"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "2,3,4-trichloropentanoic acid has three chiral carbon atoms at positions 2, 3, and 4. Since the molecule is unsymmetrical, the number of stereoisomers is calculated using the formula $2^n$. Substituting $n=3$, we get $2^3 = 8$ possible stereoisomers."
     },
     {
       "year": 2008,
@@ -37,7 +41,9 @@
         "C": "S - Ibuprofen",
         "D": "(-) Thyroxine"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "hard",
+      "explanation": "Adrenaline (epinephrine) is a hormone that acts as a vasoconstrictor, narrowing blood vessels to increase blood pressure. While the $(-)$-isomer is the naturally occurring and more active form, adrenaline as a class is the correct compound for blood vessel activity among the choices. Option B is the most likely intended answer in this context."
     },
     {
       "year": 2009,
@@ -49,7 +55,9 @@
         "C": "$3$",
         "D": "$8$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "For a molecule with $n$ different (unsymmetrical) chiral carbon atoms, the number of stereoisomers is given by the formula $2^n$. With $n=3$, the calculation is $2^3 = 8$. This formula applies when no internal symmetry allows for meso compounds."
     },
     {
       "year": 2009,
@@ -61,7 +69,9 @@
         "C": "$\\text{H}_3\\text{C-C-COOH} \\parallel \\text{H}_3\\text{C-C-COOH}$",
         "D": "$\\text{H}_3\\text{C-C-COOH} \\parallel \\text{HOOC-C-CH}_3$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Fumaric acid is the trans-isomer of butenedioic acid, where the two carboxyl ($-COOH$) groups are on opposite sides of the $C=C$ double bond. Option A correctly represents this trans configuration. Maleic acid is the corresponding cis-isomer where the groups are on the same side."
     },
     {
       "year": 2011,
@@ -73,7 +83,9 @@
         "C": "Butane",
         "D": "Fumeric acid"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Rotamers, or conformational isomers, are formed by the free rotation of atoms around a carbon-carbon single bond. Butane exhibits this property through rotation around its $C_2-C_3$ bond. The other options contain double bonds, which restrict rotation and result in geometrical isomerism."
     },
     {
       "year": 2011,
@@ -85,7 +97,9 @@
         "C": "$13, 5$",
         "D": "$16, 2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Benzonitrile ($C_6H_5CN$) contains a benzene ring ($6$ $C-C$ and $5$ $C-H$ $\\sigma$ bonds, $3$ $\\pi$ bonds) and a cyano group ($1$ $C-C$ $\\sigma$ bond, $1$ $C\\equiv N$ $\\sigma$ bond, and $2$ $\\pi$ bonds). Adding these together results in $13$ $\\sigma$ bonds and $5$ $\\pi$ bonds."
     }
   ]
 }

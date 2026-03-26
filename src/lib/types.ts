@@ -9,6 +9,8 @@ export interface Question {
     D: string;
   };
   answer: string | null;
+  explanation?: string;
+  difficulty?: "easy" | "medium" | "hard";
   chapter?: string; // Added for cross-chapter mode
 }
 

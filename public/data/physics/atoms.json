@@ -13,7 +13,9 @@
         "C": "$270^\\circ$",
         "D": "$90^\\circ$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The impact parameter $b$ is the perpendicular distance of the initial velocity vector of the $\\alpha$-particle from the center of the nucleus. When $b=0$, it is a head-on collision, and the particle is scattered back along its path, resulting in a scattering angle of $180^\\circ$."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "$\\frac{E}{2}$",
         "D": "$\\frac{E}{4}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "In the Bohr model of the hydrogen atom, the relationship between potential energy ($U$) and kinetic energy ($K$) is $U = -2K$. Given that $U = -E$, we can substitute this into the formula to find $-E = -2K$, which gives $K = \\frac{E}{2}$."
     },
     {
       "year": 2008,
@@ -37,7 +41,9 @@
         "C": "2 L",
         "D": "$\\frac{3}{2} L$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Bohr's second postulate states that angular momentum is quantized as $L = \\frac{nh}{2\\pi}$, meaning $L \\propto n$. If $L$ is the angular momentum for the second orbit ($n=2$), then for the fourth orbit ($n=4$), the angular momentum will be $L' = \\frac{4}{2} L = 2L$."
     },
     {
       "year": 2009,
@@ -49,7 +55,9 @@
         "C": "$-2$",
         "D": "$+2$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "For an electron in a stable Bohr orbit, the kinetic energy $K$ is positive and the total energy $E$ is negative, related by $E = -K$. Thus, the ratio of kinetic energy to total energy is $\\frac{K}{-K} = -1$."
     },
     {
       "year": 2009,
@@ -61,7 +69,9 @@
         "C": "$4:1$",
         "D": "$8:1$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The radius of a Bohr orbit is proportional to $n^2$, and the area of the orbit is $A = \\pi r^2$, making $A \\propto n^4$. For the first excited state ($n=2$) and the ground state ($n=1$), the ratio of areas is $2^4 : 1^4$, which equals $16:1$."
     },
     {
       "year": 2009,
@@ -73,7 +83,9 @@
         "C": "$\\frac{h}{2}$",
         "D": "$\\frac{2\\pi}{h}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "According to Bohr's quantization condition, the angular momentum of an electron is $L = \\frac{nh}{2\\pi}$. The difference in angular momentum between two consecutive orbits ($n$ and $n+1$) is $\\Delta L = \\frac{(n+1)h}{2\\pi} - \\frac{nh}{2\\pi} = \\frac{h}{2\\pi}$."
     },
     {
       "year": 2011,
@@ -85,7 +97,9 @@
         "C": "$4\\text{ E}$",
         "D": "$-\\text{E}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "In any Bohr orbit, the potential energy ($U$) is exactly twice the total energy ($E$). If the total energy in the second excited state is $-2E$, then the potential energy in that same state must be $2 \\times (-2E) = -4E$."
     },
     {
       "year": 2011,
@@ -97,7 +111,9 @@
         "C": "$r \\propto \\frac{1}{n}$",
         "D": "$r \\propto n$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The radius of the $n^{th}$ Bohr orbit is given by the formula $r_n = \\frac{n^2 h^2 \\epsilon_0}{\\pi m Z e^2}$. This formula clearly shows that the radius $r$ is directly proportional to the square of the principal quantum number, $r \\propto n^2$."
     },
     {
       "year": 2014,
@@ -109,7 +125,9 @@
         "C": "$7:50$",
         "D": "$7:108$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Using the Rydberg formula, the first line of Lyman series ($2 \\to 1$) has $\\lambda_1 = \\frac{4}{3R}$ and the first line of Paschen series ($4 \\to 3$) has $\\lambda_2 = \\frac{144}{7R}$. Dividing these gives the ratio $\\lambda_1 : \\lambda_2 = \\frac{4}{3} \\times \\frac{7}{144} = \\frac{7}{108}$."
     },
     {
       "year": 2015,
@@ -121,7 +139,9 @@
         "C": "\\frac{r_0}{4}",
         "D": "2r_0"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The distance of closest approach $r_0$ occurs when all kinetic energy is converted to potential energy, leading to the relation $r_0 \\propto \\frac{1}{K}$. If the kinetic energy is doubled to $2K$, the distance of closest approach becomes half of its original value, $\\frac{r_0}{2}$."
     },
     {
       "year": 2015,
@@ -133,7 +153,9 @@
         "C": "15",
         "D": "\\alpha"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "A hydrogen atom has an infinite number of possible energy levels ($n=1, 2, 3, ... \\infty$). Because an electron can transition between any two of these infinite levels, the theoretical number of spectral lines is infinite ($\\infty$)."
     },
     {
       "year": 2017,
@@ -145,7 +167,9 @@
         "C": "– 6.8",
         "D": "– 3.4"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The potential energy ($U$) of an electron in a Bohr orbit is related to its total energy ($E$) by the equation $U = 2E$. Given the total energy is $-3.4$ eV, the potential energy is $2 \\times (-3.4) = -6.8$ eV."
     },
     {
       "year": 2017,
@@ -157,7 +181,9 @@
         "C": "Remains constant",
         "D": "None of these"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The intensity of spectral lines is determined by the number of photons emitted, which depends on the number of atomic transitions. Increasing the density of atoms increases the frequency of collisions and excitations, thereby increasing the intensity of the emitted light."
     },
     {
       "year": 2017,
@@ -169,7 +195,9 @@
         "C": "$r_P = r_Q$",
         "D": "None of these"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Ionization potential is the energy required to remove an electron, which is inversely proportional to the radius of the orbit ($V \\propto \\frac{1}{r}$). Since $V_P > V_Q$, the electron in ion $P$ is more strongly bound and closer to the nucleus, meaning $r_P < r_Q$."
     },
     {
       "year": 2018,
@@ -181,7 +209,9 @@
         "C": "Melting point",
         "D": "All of these"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Moseley's Law states that the frequency of characteristic X-rays is proportional to $(Z-b)^2$, where $Z$ is the atomic number. Since wavelength is inversely proportional to frequency, the wavelength of characteristic X-rays depends specifically on the atomic number $Z$ of the target."
     },
     {
       "year": 2019,
@@ -193,7 +223,9 @@
         "C": "$-\\frac{e^2}{4\\pi\\epsilon_0 r}$",
         "D": "$\\frac{e^2}{4\\pi\\epsilon_0 r}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "In a hydrogen atom, the potential energy $U$ is related to the kinetic energy $K$ by the relation $U = -2K$. Given $K = \\frac{e^2}{8\\pi\\epsilon_0 r}$, the potential energy is $U = -2 \\times \\frac{e^2}{8\\pi\\epsilon_0 r} = -\\frac{e^2}{4\\pi\\epsilon_0 r}$. This follows from the electrostatic potential energy formula for a point charge system."
     },
     {
       "year": 2019,
@@ -205,7 +237,9 @@
         "C": "$\\frac{27}{5}$",
         "D": "$\\frac{108}{7}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The wavelength is given by $\\frac{1}{\\lambda} = R(\\frac{1}{n_1^2} - \\frac{1}{n_2^2})$. For the first line of Lyman ($2 \\to 1$), $\\frac{1}{\\lambda} = \\frac{3R}{4}$, and for the first line of Paschen ($4 \\to 3$), $\\frac{1}{\\lambda'} = R(\\frac{1}{9} - \\frac{1}{16}) = \\frac{7R}{144}$. Dividing the two equations gives $\\lambda' = \\frac{108}{7}\\lambda$."
     },
     {
       "year": 2020,
@@ -217,7 +251,9 @@
         "C": "$100$",
         "D": "$200$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The mass of a nucleus is approximately proportional to its mass number $A$. The mass number of Gold ($Au$) is $197$ and the mass number of an $\\alpha$-particle (Helium nucleus) is $4$. The ratio is $\\frac{197}{4} \\approx 49.25$, which is approximately $50$ times heavier."
     },
     {
       "year": 2020,
@@ -229,7 +265,9 @@
         "C": "$-27.2\\text{ eV}$",
         "D": "$+27.2\\text{ eV}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "For an electron in a hydrogen atom, the total energy $E$ is the negative of the kinetic energy $K$, such that $K = -E$. Given the ground state energy $E = -13.6\\text{ eV}$, the kinetic energy is $K = -(-13.6\\text{ eV}) = +13.6\\text{ eV}$. This relationship is a fundamental property of the Bohr model."
     },
     {
       "year": 2020,
@@ -241,7 +279,9 @@
         "C": "$\\frac{36}{5R}$",
         "D": "$\\frac{R}{4}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The minimum wavelength (series limit) occurs when the electron transitions from $n = \\infty$ to the series base level. For the Balmer series, $n_1 = 2$ and $n_2 = \\infty$, so $\\frac{1}{\\lambda} = R(\\frac{1}{2^2} - \\frac{1}{\\infty^2}) = \\frac{R}{4}$. Solving for wavelength gives $\\lambda = \\frac{4}{R}$."
     },
     {
       "year": 2021,
@@ -253,7 +293,9 @@
         "C": "$2/R$",
         "D": "$4/R$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The shortest wavelength in any series corresponds to the transition from $n = \\infty$ to the lower energy level. For the Balmer series, the lower level is $n = 2$, so $\\frac{1}{\\lambda} = R(\\frac{1}{2^2} - 0) = \\frac{R}{4}$. Thus, the shortest wavelength is $\\lambda = \\frac{4}{R}$."
     },
     {
       "year": 2021,
@@ -265,7 +307,9 @@
         "C": "$4.24 \\times 10^{-10}\\text{ m}$",
         "D": "$10.6 \\times 10^{-10}\\text{ m}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The radius of the $n^{\\text{th}}$ orbit in a hydrogen atom is given by $r_n = n^2 r_1$, where $r_1$ is the Bohr radius. For $n = 4$, the radius is $r_4 = 4^2 \\times 5.3 \\times 10^{-11}\\text{ m} = 16 \\times 5.3 \\times 10^{-11}\\text{ m}$. This calculation results in $84.8 \\times 10^{-11}\\text{ m}$, which is $8.48 \\times 10^{-10}\\text{ m}$."
     },
     {
       "year": 2021,
@@ -277,7 +321,9 @@
         "C": "-13.6 eV",
         "D": "-27.2 eV"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "In the Bohr model, the kinetic energy $K$ of the electron is equal to the absolute value of its total energy $E$. Since the ground state energy is $E = -13.6\\text{ eV}$, the kinetic energy is $K = |E| = 13.6\\text{ eV}$. Kinetic energy is always a positive scalar quantity in this context."
     },
     {
       "year": 2022,
@@ -289,7 +335,9 @@
         "C": "$5.6 \\times 10^{14}\\text{ Hz}$",
         "D": "$1.304 \\times 10^{14}\\text{ Hz}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The energy of the emitted photon is equal to the difference between the energy levels, $\\Delta E = hf$. Converting the energy to Joules, we get $f = \\frac{5.4 \\times 1.6 \\times 10^{-19}\\text{ J}}{6.625 \\times 10^{-34}\\text{ J.s}}$. Solving this gives a frequency of approximately $1.304 \\times 10^{15}\\text{ Hz}$."
     },
     {
       "year": 2022,
@@ -301,7 +349,9 @@
         "C": "$840\\text{ nm}$",
         "D": "$820\\text{ nm}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The shortest wavelength in the Paschen series occurs for the transition from $n = \\infty$ to $n = 3$. Using the formula $\\frac{1}{\\lambda} = R(\\frac{1}{3^2})$, we get $\\lambda = \\frac{9}{R}$. Substituting $R \\approx 1.097 \\times 10^7\\text{ m}^{-1}$ results in $\\lambda \\approx 820 \\times 10^{-9}\\text{ m}$ or $820\\text{ nm}$."
     },
     {
       "year": 2022,
@@ -313,7 +363,9 @@
         "C": "$2.12 \\times 10^{-10}\\text{ m}$",
         "D": "$2.24 \\times 10^{-10}\\text{ m}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The radius of an orbit in the hydrogen atom follows the relation $r_n = n^2 r_1$. For the $n = 3$ orbit, $r_3 = 3^2 \\times 5.3 \\times 10^{-11}\\text{ m} = 9 \\times 5.3 \\times 10^{-11}\\text{ m}$. This yields $47.7 \\times 10^{-11}\\text{ m}$, which is equivalent to $4.77 \\times 10^{-10}\\text{ m}$."
     },
     {
       "year": 2022,
@@ -325,7 +377,9 @@
         "C": "$2.6 \\times 10^{74}$",
         "D": "$4.6 \\times 10^{74}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "hard",
+      "explanation": "According to Bohr's quantization rule, angular momentum $L = mvr = \\frac{nh}{2\\pi}$. Rearranging for the quantum number, $n = \\frac{2\\pi mvr}{h}$. Substituting the given values for Earth's mass, speed, and radius, $n = \\frac{2 \\times 3.14 \\times (6 \\times 10^{24}) \\times (3 \\times 10^4) \\times (1.5 \\times 10^{11})}{6.625 \\times 10^{-34}} \\approx 2.6 \\times 10^{74}$."
     },
     {
       "year": 2023,
@@ -337,7 +391,9 @@
         "C": "$7369 \\text{Å}$",
         "D": "$3646 \\text{Å}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The longest wavelength in the Balmer series corresponds to the transition with the smallest energy change, which is from $n = 3$ to $n = 2$. Using $\\frac{1}{\\lambda} = R(\\frac{1}{2^2} - \\frac{1}{3^2}) = \\frac{5R}{36}$, we find $\\lambda = \\frac{36}{5R}$. Substituting $R = 1.097 \\times 10^7\\text{ m}^{-1}$ gives approximately $6563 \\text{Å}$."
     },
     {
       "year": 2023,
@@ -349,7 +405,9 @@
         "C": "$\\frac{3h}{\\pi}$",
         "D": "$\\frac{5h}{\\pi}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Angular momentum in Bohr's model is quantized as $L = \\frac{nh}{2\\pi}$. The change in angular momentum is $\\Delta L = L_2 - L_1 = (n_2 - n_1)\\frac{h}{2\\pi}$. For a transition from $n=5$ to $n=3$, $\\Delta L = (5 - 3)\\frac{h}{2\\pi} = \\frac{2h}{2\\pi} = \\frac{h}{\\pi}$."
     },
     {
       "year": 2024,
@@ -361,7 +419,9 @@
         "C": "$9:4$",
         "D": "$2:3$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The radius of the $n^{\\text{th}}$ orbit of a hydrogen atom is proportional to the square of the principal quantum number, $r_n \\propto n^2$. Therefore, the ratio of the radii of the second ($n=2$) and third ($n=3$) orbits is $\\frac{r_2}{r_3} = \\frac{2^2}{3^2} = \\frac{4}{9}$. This results in the ratio $4:9$."
     },
     {
       "year": 2024,
@@ -373,7 +433,9 @@
         "C": "$2.1 \\times 10^{-7}$",
         "D": "$4.2 \\times 10^{-7}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "In the Geiger-Marsden alpha-particle scattering experiment, a very thin gold foil is used to ensure that alpha particles undergo only a single collision. According to the NCERT textbook, the thickness of this foil is approximately $2.1 \\times 10^{-7}$ m, which corresponds to option C, although the provided answer key indicates A."
     },
     {
       "year": 2024,
@@ -385,7 +447,9 @@
         "C": "$13.6\\text{ eV}$",
         "D": "$27.2\\text{ eV}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "In the Bohr model of the hydrogen atom, the potential energy ($U$) is related to the total energy ($E$) by the formula $U = 2E$. For the ground state where $E = -13.6$ eV, the potential energy is $2 \\times (-13.6) = -27.2$ eV, while the kinetic energy is $+13.6$ eV."
     },
     {
       "year": 2025,
@@ -397,7 +461,9 @@
         "C": "$1.625 \\times 10^{-26} \\text{ erg-s}$",
         "D": "$6.63 \\times 10^{-34} \\text{ Js}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The third excited state of a hydrogen atom corresponds to the principal quantum number $n = 4$. Using Bohr's quantization rule $L = \\frac{nh}{2\\pi}$, the orbital angular momentum is calculated as $L = \\frac{4 \\times 6.63 \\times 10^{-34}}{2 \\times 3.14} \\approx 4.22 \\times 10^{-34} \\text{ kg m}^2\\text{s}^{-1}$."
     },
     {
       "year": 2025,
@@ -409,7 +475,9 @@
         "C": "$2.4 \\times 10^8 \\text{ ms}^{-1}$",
         "D": "$2.2 \\times 10^6 \\text{ ms}^{-1}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The kinetic energy ($K$) of the electron is equal to the magnitude of the total energy, so $K = 13.6 \\text{ eV} = 2.176 \\times 10^{-18} \\text{ J}$. Using the formula $v = \\sqrt{\\frac{2K}{m}}$ with $m = 9.1 \\times 10^{-31} \\text{ kg}$, the velocity is approximately $2.18 \\times 10^6 \\text{ ms}^{-1}$."
     },
     {
       "year": 2025,
@@ -421,7 +489,9 @@
         "C": "$-27.2 \\text{ eV}, +13.6 \\text{ eV}$",
         "D": "$-13.6 \\text{ eV}, +27.2 \\text{ eV}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "For an electron in a hydrogen atom, the kinetic energy ($K$) is $-E$ and the potential energy ($U$) is $2E$. Given the ground state energy $E = -13.6$ eV, we calculate $U = 2(-13.6) = -27.2$ eV and $K = -(-13.6) = +13.6$ eV."
     }
   ]
 }

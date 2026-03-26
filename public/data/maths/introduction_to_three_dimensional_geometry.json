@@ -13,7 +13,9 @@
         "C": "-15",
         "D": "-215"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is calculated using the distance formula $d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$. Substituting the given coordinates, we get $d = \\sqrt{(100 - (-115))^2 + (105 - 105)^2}$, which simplifies to $\\sqrt{215^2 + 0^2}$. Therefore, the distance is $215$ units."
     }
   ]
 }

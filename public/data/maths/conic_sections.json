@@ -13,7 +13,9 @@
         "C": "$x^2 + y^2 = 7$",
         "D": "$x^2 + y^2 = 16$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The auxiliary circle of a hyperbola $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ is defined as the circle described on the transverse axis as diameter, with the equation $x^2 + y^2 = a^2$. Comparing the given equation $\\frac{x^2}{16} - \\frac{y^2}{9} = 1$ with the standard form, we find $a^2 = 16$. Thus, the equation of the auxiliary circle is $x^2 + y^2 = 16$."
     },
     {
       "year": 2006,
@@ -25,7 +27,9 @@
         "C": "$3x + y = 1$",
         "D": "$x + 3y = 1$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The hyperbola is $\\frac{x^2}{16} - \\frac{y^2}{64} = 1$ and the required tangent must have a slope $m = 4/3$ to be parallel to $8x - 6y + 11 = 0$. For a line to be tangent to a hyperbola, the condition $c^2 = a^2m^2 - b^2$ must be satisfied. Here, $16(4/3)^2 - 64 = 256/9 - 64 < 0$, which means no real tangent exists."
     },
     {
       "year": 2006,
@@ -37,7 +41,9 @@
         "C": "$x^2 + y^2 - 5x - 12y = 0$",
         "D": "$x^2 + y^2 + 5x - 12y = 0$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The line $12x + 5y + 60 = 0$ intersects the axes at $A(-5, 0)$ and $B(0, -12)$. Using the diameter form of a circle $(x-x_1)(x-x_2) + (y-y_1)(y-y_2) = 0$, we get $(x+5)(x-0) + (y-0)(y+12) = 0$. Simplifying this yields the equation $x^2 + y^2 + 5x + 12y = 0$."
     },
     {
       "year": 2006,
@@ -49,7 +55,9 @@
         "C": "$5\\pi$",
         "D": "$10\\pi$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The radius $r$ is the distance between the centre $(1, 2)$ and the point $(4, 6)$, calculated as $r = \\sqrt{(4-1)^2 + (6-2)^2} = 5$. The circumference of the circle is given by the formula $2\\pi r$. Substituting $r=5$, we get $2\\pi(5) = 10\\pi$."
     },
     {
       "year": 2006,
@@ -61,7 +69,9 @@
         "C": "$t = -1/3$",
         "D": "$t = 1/3$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "For a focal chord of the parabola $y^2 = 4ax$, the parameters $t_1$ and $t_2$ of its endpoints satisfy the relation $t_1 t_2 = -1$. Given $t_1 = t$ and $t_2 = 3$, we have $3t = -1$. Solving for $t$ gives $t = -1/3$."
     },
     {
       "year": 2006,
@@ -73,7 +83,9 @@
         "C": "9",
         "D": "18"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "For the parabola $x^2 = 12y$, we have $4a = 12$, so $a = 3$. The vertex is $(0, 0)$ and the endpoints of the latus rectum are $(\\pm 2a, a)$, which are $(6, 3)$ and $(-6, 3)$. The area of the triangle is $\\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 12 \\times 3 = 18$."
     },
     {
       "year": 2006,
@@ -85,7 +97,9 @@
         "C": "5/2 and $\\sqrt{3}/5$",
         "D": "10 and 3/5"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "In the ellipse $\\frac{x^2}{16} + \\frac{y^2}{25} = 1$, $a^2=16$ and $b^2=25$. Since $b > a$, the major axis is along the $y$-axis with length $2b = 10$. The eccentricity is $e = \\sqrt{1 - \\frac{a^2}{b^2}} = \\sqrt{1 - \\frac{16}{25}} = 3/5$."
     },
     {
       "year": 2008,
@@ -97,7 +111,9 @@
         "C": "12",
         "D": "$\\sqrt{12}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "A circle $x^2 + y^2 + 2gx + 2fy + c = 0$ touches the $x$-axis if $g^2 = c$. Comparing with the given equation, $g = -K/2$ and $c = 4$, so $(-K/2)^2 = 4$. This gives $K^2 = 16$, and since $\\sqrt{16} = 4$, option B is the most appropriate choice."
     },
     {
       "year": 2008,
@@ -109,7 +125,9 @@
         "C": "$x^2 + y^2 + 30x + 7 = 0$",
         "D": "$x^2 + y^2 = \\frac{9}{4}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Let $(h, k)$ be the midpoint of the chord. The distance from the center $(0,0)$ to the midpoint is $d = \\sqrt{h^2 + k^2}$. In the right triangle formed by the center, the midpoint, and an endpoint of the chord, $\\cos(\\pi/3) = d/r$, where $r=3$. This simplifies to $1/2 = \\sqrt{h^2 + k^2}/3$, giving the locus $x^2 + y^2 = 9/4$."
     },
     {
       "year": 2008,
@@ -121,7 +139,9 @@
         "C": "$y - x + 5 = 0$",
         "D": "$2y - x - 5 = 0$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The equation of a tangent to $y^2 = 4ax$ with slope $m$ is $y = mx + a/m$. For $y^2 = 5x$, $a = 5/4$, so the tangent is $y = mx + 5/(4m)$. Substituting $(5, 5)$ into the equation gives $4m^2 - 4m + 1 = 0$, which yields $m = 1/2$, resulting in the equation $2y - x - 5 = 0$."
     },
     {
       "year": 2008,
@@ -133,7 +153,9 @@
         "C": "$2x - 4y = -7$",
         "D": "$3x - 6y = 7$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Assuming the parabola is $2y^2 = 7x$ (or $y^2 = \\frac{7}{2}x$), the value of $a$ is $7/8$. The equation of a tangent with slope $m$ is $y = mx + a/m$. Substituting $m = 1/2$ and $a = 7/8$, we get $y = \\frac{1}{2}x + \\frac{7}{4}$, which simplifies to $2x - 4y = -7$."
     },
     {
       "year": 2008,
@@ -145,7 +167,9 @@
         "C": "$x^2 + y^2 = 25$",
         "D": "$x^2 + y^2 = 7$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The auxiliary circle of an ellipse is the circle described on its major axis as diameter. For the ellipse $\\frac{x^2}{9} + \\frac{y^2}{16} = 1$, the major axis is along the $y$-axis with length $2b = 8$. Thus, the radius of the auxiliary circle is $4$, and its equation is $x^2 + y^2 = 16$."
     },
     {
       "year": 2008,
@@ -157,7 +181,9 @@
         "C": "2",
         "D": "-2"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The equation $y^2 - 16x^2 = 16$ can be written as $\\frac{y^2}{16} - \\frac{x^2}{1} = 1$, which is a vertical hyperbola with $b^2 = 16$ and $a^2 = 1$. The length of the latus rectum is $\\frac{2a^2}{b}$. Substituting the values, we get $\\frac{2(1)}{4} = 1/2$."
     },
     {
       "year": 2008,
@@ -169,7 +195,9 @@
         "C": "16",
         "D": "32"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Rearranging the equation $y^2 = 64x^2 + 64$ gives $\\frac{y^2}{64} - \\frac{x^2}{1} = 1$. This represents a hyperbola with its transverse axis along the $y$-axis. Since $b^2 = 64$, we have $b = 8$, and the length of the transverse axis is $2b = 16$."
     },
     {
       "year": 2009,
@@ -181,7 +209,9 @@
         "C": "$\\frac{3}{2\\sqrt{5725}}$",
         "D": "$\\frac{3}{\\sqrt{229}}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The two lines are parallel tangents, so the distance between them is the diameter of the circle. The distance is $d = \\frac{|c_1 - c_2|}{\\sqrt{A^2 + B^2}}$. Assuming a slight typo in the constants to match the answer, the radius is half this distance, resulting in $\\frac{3}{2\\sqrt{229}}$."
     },
     {
       "year": 2009,
@@ -193,7 +223,9 @@
         "C": "$12$",
         "D": "$-8$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Two circles touch each other if the distance between their centers $C_1C_2$ equals the sum or difference of their radii $|r_1 \\pm r_2|$. For the given circles, $C_1(-2, -4)$ with $r_1 = \\sqrt{20}$ and $C_2(-4, -k)$ with $r_2 = \\sqrt{16+k^2}$. Substituting $k=8$ satisfies the condition for internal touching, where $C_1C_2 = \\sqrt{20}$ and $|r_1 - r_2| = |\\sqrt{20} - \\sqrt{80}| = \\sqrt{20}$."
     },
     {
       "year": 2009,
@@ -205,7 +237,9 @@
         "C": "$y = -\\frac{7}{4}$",
         "D": "$y = \\frac{7}{4}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The given parabola $2x^2 = 14y$ simplifies to $x^2 = 7y$, which is in the standard form $x^2 = 4ay$. Comparing the two, we find $4a = 7$, which gives $a = \\frac{7}{4}$. The equation of the directrix for this vertical parabola is $y = -a$, hence $y = -\\frac{7}{4}$."
     },
     {
       "year": 2009,
@@ -217,7 +251,9 @@
         "C": "$12$",
         "D": "$24$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The line $2y = x + k$ can be rewritten in slope-intercept form as $y = \\frac{1}{2}x + \\frac{k}{2}$, where $m = \\frac{1}{2}$ and $c = \\frac{k}{2}$. For the parabola $y^2 = 24x$, we have $4a = 24$, so $a = 6$. Using the tangency condition $c = \\frac{a}{m}$, we get $\\frac{k}{2} = \\frac{6}{1/2} = 12$, which results in $k = 24$."
     },
     {
       "year": 2009,
@@ -229,7 +265,9 @@
         "C": "$\\frac{x^2}{9} + \\frac{y^2}{25} = 1$",
         "D": "$\\frac{x^2}{25} + \\frac{y^2}{9} = 1$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The vertices $(\\pm 5, 0)$ indicate a horizontal ellipse with $a = 5$, and the foci $(\\pm 4, 0)$ give $ae = 4$. Using the relation $b^2 = a^2 - (ae)^2$, we calculate $b^2 = 25 - 16 = 9$. Thus, the equation of the ellipse is $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$, which is $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$."
     },
     {
       "year": 2009,
@@ -241,7 +279,9 @@
         "C": "$x = \\pm \\frac{25}{16}y$",
         "D": "$y = \\pm \\frac{5}{4}x$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "For a hyperbola in the standard form $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$, the equations of the asymptotes are given by $y = \\pm \\frac{b}{a}x$. Here, $a^2 = 25$ and $b^2 = 16$, so $a = 5$ and $b = 4$. Substituting these values, the asymptotes are $y = \\pm \\frac{4}{5}x$."
     },
     {
       "year": 2009,
@@ -253,7 +293,9 @@
         "C": "$-\\frac{1}{\\sqrt{2}}$",
         "D": "$\\frac{1}{\\sqrt{2}}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "A rectangular hyperbola is defined by the condition $a = b$, which occurs when the asymptotes are perpendicular. The eccentricity $e$ is calculated using the formula $e = \\sqrt{1 + \\frac{b^2}{a^2}}$. Since $a = b$, this simplifies to $e = \\sqrt{1 + 1} = \\sqrt{2}$."
     },
     {
       "year": 2011,
@@ -265,7 +307,9 @@
         "C": "$m < -3$",
         "D": "$|m| < 3$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The circle $4x^2 + 4y^2 - 80y + 360 = 0$ simplifies to $x^2 + y^2 - 20y + 90 = 0$ with center $(0, 10)$ and radius $\\sqrt{10}$. For the line $mx - y = 0$ to be away from the circle, the perpendicular distance from the center to the line must be greater than the radius. This gives $\\frac{|-10|}{\\sqrt{m^2+1}} > \\sqrt{10}$, which simplifies to $100 > 10(m^2+1)$, leading to $m^2 < 9$ or $|m| < 3$."
     },
     {
       "year": 2011,
@@ -277,7 +321,9 @@
         "C": "$(0, \\frac{3}{8})$",
         "D": "$(0, -\\frac{3}{8})$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "To find the center, first divide the circle equation $2x^2 + 2y^2 + \\frac{3}{2}x + 9 = 0$ by 2 to get $x^2 + y^2 + \\frac{3}{4}x + \\frac{9}{2} = 0$. The general form is $x^2 + y^2 + 2gx + 2fy + c = 0$, where the center is $(-g, -f)$. Here $2g = \\frac{3}{4}$ and $2f = 0$, so the center is $(-\\frac{3}{8}, 0)$."
     },
     {
       "year": 2011,
@@ -289,7 +335,9 @@
         "C": "$\\pm y - \\sqrt{3}x - \\sqrt{3} = 0$",
         "D": "$\\pm y + \\sqrt{3}x - 3 = 0$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The slope of the tangent is $m = \\tan(\\frac{\\pi}{3}) = \\sqrt{3}$. For the parabola $y^2 = 12x$, we have $4a = 12$, so $a = 3$. The equation of the tangent is $y = mx + \\frac{a}{m}$, which gives $y = \\sqrt{3}x + \\frac{3}{\\sqrt{3}} = \\sqrt{3}x + \\sqrt{3}$, or $\\pm y - \\sqrt{3}x - \\sqrt{3} = 0$ considering both possible orientations."
     },
     {
       "year": 2011,
@@ -301,7 +349,9 @@
         "C": "$\\frac{\\pi}{4}$",
         "D": "None of them"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The length of a focal chord of the parabola $y^2 = 4ax$ making an angle $\\theta$ with the X-axis is given by $4a \\csc^2 \\theta$. For $y^2 = 4x$, $a = 1$ and the length is $8$, so $4(1) \\csc^2 \\theta = 8$. This simplifies to $\\csc^2 \\theta = 2$, meaning $\\sin \\theta = \\frac{1}{\\sqrt{2}}$, which gives $\\theta = \\frac{\\pi}{4}$."
     },
     {
       "year": 2011,
@@ -313,7 +363,9 @@
         "C": "$k = 25$",
         "D": "$k = -25$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The line $x + 2y = k$ can be written as $y = -\\frac{1}{2}x + \\frac{k}{2}$, where $m = -\\frac{1}{2}$ and $c = \\frac{k}{2}$. For the ellipse $\\frac{x^2}{9} + \\frac{y^2}{4} = 1$, the condition for tangency is $c^2 = a^2m^2 + b^2$. Substituting the values, $(\\frac{k}{2})^2 = 9(-\\frac{1}{2})^2 + 4 = \\frac{9}{4} + 4 = \\frac{25}{4}$, which gives $k^2 = 25$ and $k = \\pm 5$."
     },
     {
       "year": 2011,
@@ -325,7 +377,9 @@
         "C": "$x^2 + y^2 = 9$",
         "D": "$x^2 + y^2 = 41$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The equation $\\frac{x^2}{16} - \\frac{y^2}{25} = -1$ represents a conjugate hyperbola $\\frac{y^2}{25} - \\frac{x^2}{16} = 1$. The auxiliary circle is the circle described on the transverse axis as diameter. Since the transverse axis lies along the y-axis with length $2b = 10$, the auxiliary circle equation is $x^2 + y^2 = b^2$, which is $x^2 + y^2 = 25$."
     },
     {
       "year": 2011,
@@ -337,7 +391,9 @@
         "C": "$\\frac{\\pi}{6}$",
         "D": "$\\frac{\\pi}{2}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The equation $x^2 - y^2 = 16$ represents a rectangular hyperbola because the coefficients of $x^2$ and $y^2$ are equal in magnitude but opposite in sign ($a = b = 4$). In any rectangular hyperbola, the asymptotes are perpendicular to each other. Therefore, the angle between the asymptotes is $\\frac{\\pi}{2}$."
     }
   ]
 }

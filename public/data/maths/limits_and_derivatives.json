@@ -13,7 +13,9 @@
         "C": "$\\cos^2 \\alpha \\log_e \\cos \\alpha - \\sin^2 \\alpha \\log_e \\sin \\alpha$",
         "D": "$\\cos^2 \\alpha \\log_e \\cos \\alpha + \\sin^2 \\alpha \\log_e \\sin \\alpha$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The limit is in the $\\frac{0}{0}$ form since $(\\cos^2 \\alpha + \\sin^2 \\alpha - 1) = 0$. Applying L'Hopital's Rule, we differentiate the numerator to get $(\\cos \\alpha)^x \\ln(\\cos \\alpha) + (\\sin \\alpha)^x \\ln(\\sin \\alpha)$. Substituting $x=2$ yields $\\cos^2 \\alpha \\ln(\\cos \\alpha) + \\sin^2 \\alpha \\ln(\\sin \\alpha)$, which matches option D."
     },
     {
       "year": 2006,
@@ -25,7 +27,9 @@
         "C": "$1023 \\log_e 16$",
         "D": "$1023 \\log_e 2$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Factor out $2^x$ to write the function as $f(x) = 2^x(1 + 2 + 2^2 + \\dots + 2^9)$. The sum of the geometric progression is $1023$, so $f(x) = 1023 \\cdot 2^x$. Differentiating gives $f'(x) = 1023 \\cdot 2^x \\ln 2$, and at $x=2$, $f'(2) = 1023 \\cdot 4 \\ln 2 = 1023 \\ln(2^4) = 1023 \\ln 16$."
     },
     {
       "year": 2006,
@@ -37,7 +41,9 @@
         "C": "0",
         "D": "1"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Rewrite the expression as $\\frac{\\sin \\sqrt{x}}{\\sqrt{x}} \\cdot \\frac{\\sqrt{x}}{x^{1/4}} = \\frac{\\sin \\sqrt{x}}{\\sqrt{x}} \\cdot x^{1/4}$. As $x \\to 0^+$, the standard limit $\\frac{\\sin \\theta}{\\theta} \\to 1$ and $x^{1/4} \\to 0$. The product is $1 \\cdot 0 = 0$."
     },
     {
       "year": 2006,
@@ -49,7 +55,9 @@
         "C": "$\\frac{1}{2}$",
         "D": "$\\frac{1}{3}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Substituting $f(\\cos x)$ gives the limit $\\lim_{x \\to 0} \\frac{1-\\cos x}{x^2(1+\\cos x)}$. Using the standard limit $\\lim_{x \\to 0} \\frac{1-\\cos x}{x^2} = \\frac{1}{2}$ and the fact that $\\lim_{x \\to 0} \\frac{1}{1+\\cos x} = \\frac{1}{2}$, the final result is $\\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4}$."
     },
     {
       "year": 2008,
@@ -61,7 +69,9 @@
         "C": "$\\log x$",
         "D": "limit does not exist."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Let $t = 1/x$; as $x \\to \\infty$, $t \\to 0$. The limit transforms into the standard form $\\lim_{t \\to 0} \\frac{3^t - 1}{t}$, which evaluates to $\\ln 3$."
     },
     {
       "year": 2008,
@@ -73,7 +83,9 @@
         "C": "2",
         "D": "$\\infty$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The sum of the first $n$ natural numbers is given by $\\frac{n(n+1)}{2}$. The limit becomes $\\lim_{n \\to \\infty} \\frac{n^2+n}{2n^2}$, and by comparing the coefficients of the highest power $n^2$, the result is $1/2$."
     },
     {
       "year": 2008,
@@ -85,7 +97,9 @@
         "C": "2",
         "D": "$1/3$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Divide both the numerator and the denominator by $x$ to simplify the expression to $2 + \\frac{3}{x}$. As $x \\to \\infty$, the term $\\frac{3}{x}$ approaches $0$, so the limit is $2$."
     },
     {
       "year": 2008,
@@ -97,7 +111,9 @@
         "C": "-1",
         "D": "$3/5$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Divide the numerator and denominator by $5^x$, which is the term with the largest base. The expression becomes $\\frac{1 - (3/5)^x}{(2/5)^x - 1}$, and since $(3/5)^x$ and $(2/5)^x$ approach $0$ as $x \\to \\infty$, the limit is $\\frac{1-0}{0-1} = -1$."
     },
     {
       "year": 2009,
@@ -109,7 +125,9 @@
         "C": "$4/5$",
         "D": "$2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "For a geometric sequence $r^n$ to converge to $0$ as $n \\to \\infty$, the absolute value of the common ratio must be less than $1$ ($|r| < 1$). Among the choices, only $4/5$ satisfies this condition."
     },
     {
       "year": 2009,
@@ -121,7 +139,9 @@
         "C": "$1/2$",
         "D": "$1/3$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Using the sum of squares formula $\\sum n^2 = \\frac{n(n+1)(2n+1)}{6}$, the expression becomes $\\frac{2n^3 + 3n^2 + n}{6n^3}$. The limit as $n \\to \\infty$ is the ratio of the leading coefficients, $\\frac{2}{6} = \\frac{1}{3}$."
     },
     {
       "year": 2009,
@@ -133,7 +153,9 @@
         "C": "$\\frac{\\pi}{3}$",
         "D": "$\\frac{\\pi}{2}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Simplify the fraction inside the inverse cosine as $\\frac{1-\\sqrt{x}}{(1-\\sqrt{x})(1+\\sqrt{x})} = \\frac{1}{1+\\sqrt{x}}$. As $x \\to 1$, the expression inside becomes $1/2$, and $\\cos^{-1}(1/2) = \\pi/3$."
     },
     {
       "year": 2009,
@@ -145,7 +167,9 @@
         "C": "$10$",
         "D": "$-15$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Since the denominator $x^2 + 2x - 3$ is zero at $x = -3$, the numerator must also be zero for the limit to exist. Solving $3(-3)^2 + a(-3) + a - 7 = 0$ leads to $27 - 2a - 7 = 0$, which gives $a = 10$."
     },
     {
       "year": 2011,
@@ -157,7 +181,9 @@
         "C": "$e^3$",
         "D": "$e$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "This limit is of the form $1^\\infty$, which can be solved using the formula $e^{\\lim_{x \\to \\infty} (f(x)-1)g(x)}$. This results in $e^{\\lim_{x \\to \\infty} \\frac{4}{x-1}(x+3)} = e^4$."
     },
     {
       "year": 2011,
@@ -169,7 +195,9 @@
         "C": "$< 1$",
         "D": "$\\delta$ is not possible."
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Two neighborhoods $N(a, \\delta)$ and $N(b, \\delta)$ have a non-empty intersection if the distance between their centers is less than the sum of their radii. Here, $|6-4| < \\delta + \\delta$, which simplifies to $2 < 2\\delta$, meaning $\\delta > 1$."
     },
     {
       "year": 2011,
@@ -181,7 +209,9 @@
         "C": "$5$",
         "D": "$2$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Using the standard limit formula $\\lim_{x \\to a} \\frac{x^n - a^n}{x - a} = n a^{n-1}$, we set $n \\cdot 2^{n-1} = 32$. Testing integer values, we find $n=4$ works because $4 \\cdot 2^3 = 4 \\cdot 8 = 32$."
     }
   ]
 }

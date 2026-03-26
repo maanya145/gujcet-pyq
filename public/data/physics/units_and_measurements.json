@@ -13,7 +13,9 @@
         "C": "$M^1L^2T^{-2}$",
         "D": "$M^1L^2T^{-3}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Intensity of radiation is defined as the power per unit area, or energy per unit area per unit time ($I = E / (A \\cdot t)$). Substituting the dimensions of energy ($M^1L^2T^{-2}$), area ($L^2$), and time ($T^1$), we get $M^1L^0T^{-3}$."
     },
     {
       "year": 2019,
@@ -25,7 +27,9 @@
         "C": "$M^1L^2T^{-2}A^{-2}$",
         "D": "$M^1L^2T^{-3}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The torsional constant ($k$) is defined as the torque ($\\tau$) per unit angular displacement ($\\theta$), given by $k = \\tau/\\theta$. Since torque has dimensions $M^1L^2T^{-2}$ and the angle is a dimensionless quantity, the torsional constant also has dimensions $M^1L^2T^{-2}$."
     },
     {
       "year": 2019,
@@ -37,7 +41,9 @@
         "C": "$M^1L^2T^{-2}Q^{-3}$",
         "D": "$M^1L^2T^{-1}Q^{-1}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "hard",
+      "explanation": "The dimensional formula $M^1L^2T^{-1}Q^{-2}$ corresponds to electrical resistance. Resistance is defined as the ratio of potential difference to current ($R = V/I$), which simplifies to $(Work \\times Time) / Q^2$ when using $Q$ as the dimension for charge."
     },
     {
       "year": 2022,
@@ -49,7 +55,9 @@
         "C": "$M^1 L^3 T^{-3} A^{-1}$",
         "D": "$M^{-1} L^3 T^{-3} A^{-1}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Electric flux ($\\Phi_E$) is the product of the electric field ($E$) and the area ($A$) through which it passes. Using the dimensions of electric field ($M^1L^1T^{-3}A^{-1}$) and area ($L^2$), the resulting dimensional formula is $M^1L^3T^{-3}A^{-1}$."
     },
     {
       "year": 2024,
@@ -61,7 +69,9 @@
         "C": "Moment of Inertia",
         "D": "Rydberg constant"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The unit Joule-second ($J \\cdot s$) represents the product of energy and time, which has dimensions $M^1L^2T^{-1}$. This matches the dimensions of angular momentum ($L = r \\times p$), which is also the unit used for Planck's constant ($h$)."
     }
   ]
 }

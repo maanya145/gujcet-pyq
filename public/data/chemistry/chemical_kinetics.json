@@ -13,7 +13,9 @@
         "C": "$(\\frac{\\text{Litre}}{\\text{Mole}})^{-1} \\cdot \\text{sec}^{-1}$",
         "D": "$(\\frac{\\text{Mole}}{\\text{Litre}})^{-2} \\cdot \\text{sec}^{-1}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The general unit for the rate constant of an $n^{th}$ order reaction is $(\\text{mol/L})^{1-n} \\cdot \\text{s}^{-1}$. For a third-order reaction ($n=3$), the unit becomes $(\\text{mol/L})^{-2} \\cdot \\text{s}^{-1}$, which is equivalent to $(\\text{L/mol})^2 \\cdot \\text{s}^{-1}$."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "2 times",
         "D": "8 times"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The rate law for the reaction is given by $R = k[A]^1[B]^2$. If the concentrations of both $A$ and $B$ are doubled, the new rate becomes $R' = k[2A]^1[2B]^2 = 8k[A][B]^2$, which is 8 times the original rate."
     },
     {
       "year": 2008,
@@ -37,7 +41,9 @@
         "C": "Pseudo First order",
         "D": "Second order"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Acid-catalyzed hydrolysis of an ester is a pseudo-first-order reaction because water is present in such large excess that its concentration remains constant. Therefore, the rate depends only on the concentration of the ester, making the overall order appear as one."
     },
     {
       "year": 2008,
@@ -49,7 +55,9 @@
         "C": "$\\log_{10} 2 = \\frac{E_a}{2.303 R} \\left[ \\frac{1}{T_1} - \\frac{1}{T_2} \\right]$",
         "D": "$\\log_{10} \\frac{1}{2} = \\frac{E_a}{2.303} \\left[ \\frac{1}{T_2} - \\frac{1}{T_1} \\right]$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The Arrhenius equation in logarithmic form is $\\log_{10} \\frac{k_2}{k_1} = \\frac{E_a}{2.303 R} [ \\frac{1}{T_1} - \\frac{1}{T_2} ]$. Since the rate doubles, the ratio $\\frac{k_2}{k_1}$ is 2, leading to the expression $\\log_{10} 2 = \\frac{E_a}{2.303 R} [ \\frac{1}{T_1} - \\frac{1}{T_2} ]$."
     },
     {
       "year": 2008,
@@ -61,7 +69,9 @@
         "C": "$- \\frac{E_a}{2.303 R}$",
         "D": "- K"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "For a zero-order reaction, the integrated rate equation is $[R] = -kt + [R]_0$. Comparing this to the straight-line equation $y = mx + c$, a plot of concentration $[R]$ versus time $t$ yields a slope equal to $-k$."
     },
     {
       "year": 2009,
@@ -73,7 +83,9 @@
         "C": "$(\\text{mol} / \\text{litre})^{+3} \\text{ second}^{-1}$",
         "D": "$(\\text{mole} / \\text{litre})^{-3} \\text{ second}^{-1}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Using the general formula for the unit of the rate constant $k$, which is $(\\text{mol/L})^{1-n} \\cdot \\text{s}^{-1}$, we substitute $n=4$ for a fourth-order reaction. This results in the unit $(\\text{mol/L})^{-3} \\cdot \\text{s}^{-1}$."
     },
     {
       "year": 2009,
@@ -85,7 +97,9 @@
         "C": "$\\frac{2K}{[R]_0}$",
         "D": "$\\frac{K}{[R]_0}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "For a zero-order reaction, the half-life $t_{1/2}$ is the time required for the concentration to reach half of its initial value $[R]_0$. From the integrated rate law $[R] = [R]_0 - kt$, setting $[R] = \\frac{[R]_0}{2}$ gives $t_{1/2} = \\frac{[R]_0}{2k}$."
     },
     {
       "year": 2011,
@@ -97,7 +111,9 @@
         "C": "$78.72\\text{ min.}$",
         "D": "$77.20\\text{ min.}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "First, calculate $k$ using $k = \\frac{2.303}{t} \\log \\frac{[R]_0}{[R]_t}$, where $[R]_t = 0.05 - 0.015 = 0.035 \\text{ M}$. After finding $k \\approx 0.00793 \\text{ min}^{-1}$, the half-life is calculated using $t_{1/2} = \\frac{0.693}{k}$, which results in approximately $87.42 \\text{ minutes}$."
     },
     {
       "year": 2011,
@@ -109,7 +125,9 @@
         "C": "$t_{1/2} \\propto [\\text{R}]_0^{n+1}$",
         "D": "$t_{1/2} \\propto [\\text{R}]_0^{n-2}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The general relationship for half-life is $t_{1/2} \\propto [R]_0^{1-\\text{order}}$. For a reaction of order $(n-1)$, the relationship becomes $t_{1/2} \\propto [R]_0^{1-(n-1)}$, which simplifies to $t_{1/2} \\propto [R]_0^{2-n}$."
     },
     {
       "year": 2014,
@@ -121,7 +139,9 @@
         "C": "Inversely proportional to concentration",
         "D": "Inversely proportional to the square of the concentration"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The half-life of a first-order reaction is given by the formula $t_{1/2} = \\frac{0.693}{k}$. Since this expression does not contain the initial concentration term $[R]_0$, the half-life is independent of the initial concentration of the reactant."
     },
     {
       "year": 2014,
@@ -133,7 +153,9 @@
         "C": "$\\frac{-\\text{Ea}}{2.303\\text{RT}}$",
         "D": "$\\frac{\\text{Ea}}{2.303\\text{RT}}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The logarithmic form of the Arrhenius equation is $\\log k = \\log A - \\frac{E_a}{2.303 RT}$. When $\\log k$ is plotted against $\\frac{1}{T}$, the equation represents a straight line with a slope of $-\\frac{E_a}{2.303 R}$."
     },
     {
       "year": 2014,
@@ -145,7 +167,9 @@
         "C": "$2303 \\text{ second}$",
         "D": "$230.3 \\text{ second}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "For a first-order reaction, the time is calculated using $t = \\frac{2.303}{k} \\log \\frac{[R]_0}{[R]_t}$. Substituting $[R]_t = \\frac{[R]_0}{10}$ and the given $k$, we get $t = \\frac{2.303}{2.303 \\times 10^{-2}} \\log(10) = 100 \\text{ seconds}$."
     },
     {
       "year": 2015,
@@ -157,7 +181,9 @@
         "C": "-\\frac{d[X]}{dt} = K[X]^2[Y]",
         "D": "-\\frac{d[X]}{dt} = K[X][Y]^2"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The rate of reaction is proportional to the product of the concentrations of reactants raised to their respective orders. Given the total order is 3 and the order with respect to $X$ is 2, the order with respect to $Y$ must be $3 - 2 = 1$, leading to the rate equation $-\\frac{d[X]}{dt} = k[X]^2[Y]$."
     },
     {
       "year": 2015,
@@ -169,7 +195,9 @@
         "C": "3",
         "D": "4"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "In a complex reaction, the slowest step is the rate-determining step, and its molecularity typically matches the overall order of the reaction. Since the total order is 2 and Step-II is the slow step, the molecularity of Step-II is 2."
     },
     {
       "year": 2015,
@@ -181,7 +209,9 @@
         "C": "K_2[\\text{ClO}_2^-][\\text{ClO}^-]",
         "D": "K_2[\\text{ClO}^-]^3"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The rate of a multi-step reaction is determined by the slowest step, known as the rate-determining step. For the given mechanism, Step (i) is the slow step, so the rate law is derived directly from its stoichiometry: $\\text{Rate} = k_1[\\text{ClO}^-]^2$."
     },
     {
       "year": 2017,
@@ -193,7 +223,9 @@
         "C": "– 5 kJ",
         "D": "– 35 kJ"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The enthalpy change of the reaction is $\\Delta H = -20$ kJ (exothermic). Using the relation $\\Delta H = E_{a, \\text{forward}} - E_{a, \\text{backward}}$, we get $-20 = 15 - E_{a, \\text{backward}}$. Solving this gives $E_{a, \\text{backward}} = 35$ kJ."
     },
     {
       "year": 2017,
@@ -205,7 +237,9 @@
         "C": "43.75",
         "D": "46.875"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The number of half-lives in one hour (60 minutes) is $n = 60 / 15 = 4$. The amount remaining is $N = N_0 / 2^n = 50 / 2^4 = 3.125$ g. Therefore, the amount decayed is $50 - 3.125 = 46.875$ g."
     },
     {
       "year": 2017,
@@ -217,7 +251,9 @@
         "C": "$[R_0]^2$",
         "D": "$[R_0]$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The unit $\\text{L}^2 \\text{ mol}^{-2} \\text{ sec}^{-1}$ corresponds to a third-order reaction ($n=3$). For an $n$-th order reaction, the half-life is proportional to $[R_0]^{1-n}$. Thus, $t_{1/2} \\propto [R_0]^{1-3}$, which simplifies to $t_{1/2} \\propto [R_0]^{-2}$."
     },
     {
       "year": 2018,
@@ -229,7 +265,9 @@
         "C": "Second",
         "D": "Third"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The rate of reaction is given by $\\text{Rate} = k[R]^n$. If the units of the rate constant $k$ and the rate are the same, the concentration term $[R]^n$ must be dimensionless, which occurs when $n=0$. Thus, it is a zero-order reaction."
     },
     {
       "year": 2018,
@@ -241,7 +279,9 @@
         "C": "$0.693\\text{ sec}^{-1}\\text{ mole}^{-1}\\text{ lt}$",
         "D": "$0.0693\\text{ sec}^{-1}\\text{ mole}^{-1}\\text{ lt}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "For a first-order reaction, $75\\%$ completion occurs in two half-lives ($t_{75\\%} = 2 \\times t_{1/2}$). Given $t_{75\\%} = 20$ s, the half-life $t_{1/2}$ is $10$ s. The rate constant is calculated as $k = 0.693 / t_{1/2} = 0.693 / 10 = 0.0693 \\text{ sec}^{-1}$."
     },
     {
       "year": 2018,
@@ -253,7 +293,9 @@
         "C": "It does not affect the equilibrium constant",
         "D": "It increases the free energy change for the reaction"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "A catalyst provides an alternative pathway with lower activation energy but does not change the thermodynamic state functions of the reactants and products. Therefore, it does not affect the free energy change ($\\Delta G$) or the equilibrium constant of the reaction."
     },
     {
       "year": 2019,
@@ -265,7 +307,9 @@
         "C": "$-\\frac{1}{3} \\frac{d[A]}{dt} = -\\frac{1}{2} \\frac{d[B]}{dt} = +\\frac{1}{5} \\frac{d[C]}{dt}$",
         "D": "$+\\frac{1}{3} \\frac{d[A]}{dt} = -\\frac{1}{2} \\frac{d[B]}{dt} = +\\frac{1}{5} \\frac{d[C]}{dt}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The instantaneous rate is expressed by dividing the rate of change of concentration by the respective stoichiometric coefficients, using a negative sign for reactants and a positive sign for products. For $3A + 2B \\rightarrow 5C$, the expression is $-\\frac{1}{3} \\frac{d[A]}{dt} = -\\frac{1}{2} \\frac{d[B]}{dt} = +\\frac{1}{5} \\frac{d[C]}{dt}$."
     },
     {
       "year": 2019,
@@ -277,7 +321,9 @@
         "C": "3",
         "D": "2"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "According to the rate law, $\\text{Rate} \\propto [\\text{Concentration}]^n$. Given that $3 = 9^n$, we can write $3^1 = (3^2)^n$, which implies $1 = 2n$. Solving for $n$ gives the order of reaction as $1/2$."
     },
     {
       "year": 2019,
@@ -289,7 +335,9 @@
         "C": "The collision of the reactant molecules should be from any direction",
         "D": "The collision between in the reacting molecules is essential"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Collision theory states that for a reaction to occur, molecules must collide with sufficient energy (threshold energy) and proper orientation. The statement that collisions can occur from any direction is incorrect because specific orientation is required for fruitful collisions."
     },
     {
       "year": 2020,
@@ -301,7 +349,9 @@
         "C": "May decrease or increases",
         "D": "Remains unchanged"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The heat evolved or absorbed during a reaction ($\\Delta H$) depends only on the energy difference between reactants and products. Since a catalyst only changes the reaction path and activation energy without altering the initial or final states, $\\Delta H$ remains unchanged."
     },
     {
       "year": 2020,
@@ -313,7 +363,9 @@
         "C": "$\\log K \\to \\frac{1}{T}$",
         "D": "$[R] \\to t$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The integrated rate law for a first-order reaction can be written as $\\log \\frac{[R]_0}{[R]} = \\frac{kt}{2.303}$. This equation follows the form $y = mx$, where the intercept is zero. Other options like $\\log[R]$ vs $t$ have an intercept of $\\log[R]_0$."
     },
     {
       "year": 2020,
@@ -325,7 +377,9 @@
         "C": "$2.88 \\times 10^{-4}\\text{ s}^{-1}$",
         "D": "$1.73 \\times 10^{-4}\\text{ s}^{-1}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The half-life $t_{1/2}$ is given as $40$ minutes, which is $2400$ seconds. For a first-order reaction, the rate constant $k = 0.693 / t_{1/2}$. Substituting the value, $k = 0.693 / 2400 = 2.88 \\times 10^{-4} \\text{ s}^{-1}$."
     },
     {
       "year": 2021,
@@ -337,7 +391,9 @@
         "C": "First",
         "D": "Third"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The units of the rate constant $k$ are given as $\\text{L mol}^{-1} \\text{ s}^{-1}$, which is equivalent to $\\text{M}^{-1} \\text{ s}^{-1}$. This unit corresponds to a second-order reaction, as the general unit for $k$ is $\\text{M}^{1-n} \\text{ s}^{-1}$."
     },
     {
       "year": 2021,
@@ -349,7 +405,9 @@
         "C": "-K",
         "D": "$-\\frac{K}{2.303}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The first-order rate equation is $\\log \\frac{[R]_0}{[R]} = \\frac{kt}{2.303}$. When plotting $\\log \\frac{[R]_0}{[R]}$ on the y-axis and $t$ on the x-axis, the equation matches $y = mx$. Thus, the slope $m$ is equal to $\\frac{K}{2.303}$."
     },
     {
       "year": 2021,
@@ -361,7 +419,9 @@
         "C": "$4.6 \\times 10^{-2}$",
         "D": "$6.9 \\times 10^{-2}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Reducing the concentration to $1/16$th ($1/2^4$) of its initial value requires exactly 4 half-lives. The half-life is $t_{1/2} = 0.693 / k = 0.693 / 60 \\approx 0.01155$ s. Multiplying by 4 gives the total time $t \\approx 0.0462$ s, or $4.6 \\times 10^{-2}$ s."
     },
     {
       "year": 2022,
@@ -373,7 +433,9 @@
         "C": "$-K$",
         "D": "$\\frac{2.303}{K}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "For a first-order reaction, the integrated rate law is $\\log \\frac{[R]_0}{[R]} = \\frac{k}{2.303} t$. Comparing this to the straight-line equation $y = mx$, the slope $m$ is $\\frac{k}{2.303}$ (Option B)."
     },
     {
       "year": 2022,
@@ -385,7 +447,9 @@
         "C": "Doubled",
         "D": "Sixteen times"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The rate law is $\\text{Rate} = k[A]^1[B]^2$. If the concentrations of both $A$ and $B$ are doubled, the new rate is $k(2[A])(2[B])^2 = 8k[A][B]^2$, which is 8 times the original rate (Option A)."
     },
     {
       "year": 2023,
@@ -397,7 +461,9 @@
         "C": "$\\ln \\frac{[\\text{R}]_0}{[\\text{R}]} \\rightarrow t \\text{ (Time)}$",
         "D": "$\\ln \\frac{[\\text{R}]}{[\\text{R}]_0} \\rightarrow t \\text{ (Time)}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The integrated rate law for a first-order reaction is $\\log \\frac{[R]_0}{[R]} = \\frac{k}{2.303} t$. A plot of $\\log \\frac{[R]_0}{[R]}$ versus time $t$ results in a straight line with a slope equal to $\\frac{k}{2.303}$ (Option A)."
     },
     {
       "year": 2023,
@@ -409,7 +475,9 @@
         "C": "$\\text{Mol}^{-1}\\text{.lit.Sec}^{-1}$",
         "D": "$(\\text{Mol/lit})^2\\text{.Sec}^{-1}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The overall order of the reaction is $n = 1/2 + 3/2 = 2$. The unit of the rate constant $k$ for a second-order reaction is $(\\text{mol L}^{-1})^{1-n} \\text{s}^{-1}$, which results in $\\text{mol}^{-1} \\text{L s}^{-1}$ (Option C)."
     },
     {
       "year": 2023,
@@ -421,7 +489,9 @@
         "C": "8-Times",
         "D": "16-Times"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The rate law is $\\text{Rate} = k[A]^1[B]^2$. If the concentration of $B$ is doubled while $A$ remains constant, the rate becomes $k[A](2[B])^2 = 4k[A][B]^2$, which is 4 times the original rate (Option A)."
     },
     {
       "year": 2024,
@@ -433,7 +503,9 @@
         "C": "0.5",
         "D": "2.5"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The unit of the rate constant $k$ is $(\\text{mol L}^{-1})^{1-n} \\text{s}^{-1}$. By equating the power of concentration $1-n$ to $-3/2$ (from $\\text{mol}^{-3/2} \\text{L}^{3/2}$), we find $n = 1 + 3/2 = 2.5$ (Option D)."
     },
     {
       "year": 2024,
@@ -445,7 +517,9 @@
         "C": "There is no change in Gibbs energy of the reaction",
         "D": "The activation energy of the reaction decreases"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "A catalyst lowers the activation energy ($E_a$) by providing an alternative pathway but does not change the potential energy of the reactants or products, making statement A incorrect. It also does not affect the Gibbs free energy ($\\Delta G$) or the equilibrium constant ($K_{eq}$)."
     },
     {
       "year": 2024,
@@ -457,7 +531,9 @@
         "C": "molar conc. [P] vs Time (exponential decay)",
         "D": "$t_{1/2}$ vs $[\text{R}]_0$ (linear increasing)"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "For a first-order reaction, the integrated rate law is $\\log \\frac{[R]_0}{[R]} = \\frac{k}{2.303} t$, which represents a linear relationship between $\\log \\frac{[R]_0}{[R]}$ and time (Option A). Other options are incorrect because the half-life $t_{1/2}$ is independent of the initial concentration for first-order reactions."
     },
     {
       "year": 2024,
@@ -469,7 +545,9 @@
         "C": "$3.5 \times 10^{-4} \text{ mol L}^{-1} \text{ S}^{-1}$",
         "D": "$7.0 \times 10^{-4} \text{ mol L}^{-1} \text{ S}^{-1}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "For a zero-order reaction, the rate is equal to the rate constant $k$. Given the stoichiometry $2A \\rightarrow B + 3C$, the rate of production of $C$ is $3 \\times \\text{Rate} = 3 \\times 3.5 \\times 10^{-4} = 10.5 \\times 10^{-4} \\text{ mol L}^{-1} \\text{ s}^{-1}$ (Option B)."
     },
     {
       "year": 2025,
@@ -481,7 +559,9 @@
         "C": "$60\\text{ min}$.",
         "D": "$40\\text{ min}$."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "In a zero-order reaction, the rate of reaction is constant, so the time required for $100\\%$ completion is twice the half-life. Given $t_{1/2} = 10 \\text{ min}$, the total time for the reaction to complete is $2 \\times 10 = 20 \\text{ min}$ (Option A)."
     },
     {
       "year": 2025,
@@ -493,7 +573,9 @@
         "C": "$t = \\frac{0.3}{5730} \\log \\frac{100}{20}$",
         "D": "$t = \\frac{5730}{0.3} \\log \\frac{80}{100}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Radioactive decay is a first-order process where $k = \\frac{0.693}{t_{1/2}} \\approx \\frac{2.303 \\times 0.3}{5730}$. Using the first-order integrated rate law $t = \\frac{2.303}{k} \\log \\frac{[R]_0}{[R]}$ with $[R]_0 = 100$ and $[R] = 80$, we get $t = \\frac{5730}{0.3} \\log \\frac{100}{80}$ (Option B)."
     },
     {
       "year": 2025,
@@ -505,7 +587,9 @@
         "C": "Increase in temperature or decrease in Activation Energy will increase rate of reaction.",
         "D": "Decrease in temperature and decrease in Activation Energy will increase rate of reaction."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "According to the Arrhenius equation $k = A e^{-E_a/RT}$, the rate constant $k$ increases with an increase in temperature $T$ or a decrease in activation energy $E_a$. Therefore, both factors lead to an increase in the rate of reaction (Option C)."
     },
     {
       "year": 2025,
@@ -517,7 +601,9 @@
         "C": "$3A + 2B \\rightarrow 3C + 4D$",
         "D": "$3A + 2B \\rightarrow 4C + 3D$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The rate of reaction is defined as $\\text{Rate} = -\\frac{1}{n_R}\\frac{d[R]}{dt} = \\frac{1}{n_P}\\frac{d[P]}{dt}$. Dividing the given equation by 12 yields $-\\frac{1}{2}\\frac{d[A]}{dt} = -\\frac{1}{3}\\frac{d[B]}{dt} = \\frac{1}{4}\\frac{d[C]}{dt} = \\frac{1}{3}\\frac{d[D]}{dt}$, which corresponds to the reaction $2A + 3B \\rightarrow 4C + 3D$ (Option A)."
     }
   ]
 }

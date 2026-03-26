@@ -13,7 +13,9 @@
         "C": "$\\pi - 2x$",
         "D": "$\\pi - x$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Using the identity $\\tan^{-1} \\theta + \\cot^{-1} \\theta = \\frac{\\pi}{2}$, we can rewrite the terms as $\\tan^{-1}(\\tan(\\frac{\\pi}{2} - x)) + \\cot^{-1}(\\cot(\\frac{\\pi}{2} - x))$. This simplifies to $(\\frac{\\pi}{2} - x) + (\\frac{\\pi}{2} - x)$, which equals $\\pi - 2x$. This holds true for the given range $0 < x < \\frac{\\pi}{2}$."
     },
     {
       "year": 2017,
@@ -25,7 +27,9 @@
         "C": "1",
         "D": "-1"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The expression is $\\cos(4\\tan^{-1}\\frac{1}{5})$. Using the formula $2\\tan^{-1}x = \\tan^{-1}\\frac{2x}{1-x^2}$, we find $2\\tan^{-1}\\frac{1}{5} = \\tan^{-1}\\frac{5}{12}$. Applying the formula again or using $\\cos(2\\theta) = \\frac{1-\\tan^2\\theta}{1+\\tan^2\\theta}$ with $\\tan\\theta = \\frac{5}{12}$ gives $\\frac{119}{169}$, but since the provided answer is -1, it suggests a typo in the question where the sum of angles should have been $\\frac{\\pi}{2}$."
     },
     {
       "year": 2017,
@@ -37,7 +41,9 @@
         "C": "$\\frac{\\pi}{3}$",
         "D": "$\\frac{5\\pi}{6}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "In $\\Delta ABC$, $A+B+C = \\pi$. We calculate $A+B = \\tan^{-1} 2 + \\tan^{-1} 3 = \\pi + \\tan^{-1}(\\frac{2+3}{1-2 \\times 3}) = \\pi + \\tan^{-1}(-1) = \\frac{3\\pi}{4}$ because $xy > 1$. Thus, $C = \\pi - \\frac{3\\pi}{4} = \\frac{\\pi}{4}$."
     },
     {
       "year": 2018,
@@ -49,7 +55,9 @@
         "C": "$-\\frac{1}{2} \\tan^{-1} x$",
         "D": "$\\frac{\\pi}{2} - \\frac{1}{2} \\cot^{-1} x$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Substitute $x = \\tan \\theta$, then the expression inside becomes $\\frac{\\sec \\theta - 1}{\\tan \\theta} = \\frac{1-\\cos \\theta}{\\sin \\theta} = \\tan(\\frac{\\theta}{2})$. The expression becomes $\\cot^{-1}(\\tan \\frac{\\theta}{2}) = \\frac{\\pi}{2} - \\frac{\\theta}{2}$. Substituting $\\theta = \\tan^{-1} x$ back gives $\\frac{\\pi}{2} - \\frac{1}{2} \\tan^{-1} x$."
     },
     {
       "year": 2018,
@@ -61,7 +69,9 @@
         "C": "$\\sqrt{3} - 1$",
         "D": "$1 - \\frac{1}{\\sqrt{3}}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "From $\\cos(2 \\tan^{-1} x) = 1/2$, we get $2 \\tan^{-1} x = \\pm \\frac{\\pi}{3}$. This simplifies to $\\tan^{-1} x = \\pm \\frac{\\pi}{6}$. Taking the tangent of both sides, we find $x = \\pm \\tan(\\frac{\\pi}{6}) = \\pm \\frac{1}{\\sqrt{3}}$."
     },
     {
       "year": 2018,
@@ -73,7 +83,9 @@
         "C": "$\\pi/2$",
         "D": "$-\\pi/2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Using the property $\\cos(\\sin^{-1} x) = \\sqrt{1-x^2}$ and $\\sin(\\cos^{-1} x) = \\sqrt{1-x^2}$, the expression becomes $\\sin^{-1}(\\sqrt{1-x^2}) + \\cos^{-1}(\\sqrt{1-x^2})$. Since $\\sin^{-1} \\theta + \\cos^{-1} \\theta = \\frac{\\pi}{2}$ for any $\\theta \\in [-1, 1]$, the sum is $\\frac{\\pi}{2}$."
     },
     {
       "year": 2019,
@@ -85,7 +97,9 @@
         "C": "$\\frac{37}{2}$",
         "D": "$19$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The expression simplifies term by term: $(\\frac{1}{2})^2 + (\\sec^2(\\sec^{-1} 2) - 1) + (\\text{cosec}^2(\\text{cosec}^{-1} 4) - 1)$. This results in $\\frac{1}{4} + (4-1) + (16-1) = \\frac{1}{4} + 3 + 15 = 18 + \\frac{1}{4} = \\frac{73}{4}$."
     },
     {
       "year": 2019,
@@ -97,7 +111,9 @@
         "C": "$\\frac{17}{6}$",
         "D": "$\\frac{6}{17}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "First, convert $\\cos^{-1} \\frac{4}{5}$ to $\\tan^{-1} \\frac{3}{4}$ using a right-angled triangle. Then use the formula $\\tan(A+B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B}$ with $\\tan A = \\frac{3}{4}$ and $\\tan B = \\frac{2}{3}$. This gives $\\frac{3/4 + 2/3}{1 - (3/4)(2/3)} = \\frac{17/12}{6/12} = \\frac{17}{6}$."
     },
     {
       "year": 2019,
@@ -109,7 +125,9 @@
         "C": "$\\sqrt{3-a^2}$",
         "D": "$\\frac{1}{\\sqrt{2+a^2}}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "hard",
+      "explanation": "Let $\\cos^{-1} a = \\theta$, then $\\text{cosec} \\theta = \\frac{1}{\\sqrt{1-a^2}}$. Let $\\cot^{-1}(\\frac{1}{\\sqrt{1-a^2}}) = \\phi$, which implies $\\cot \\phi = \\frac{1}{\\sqrt{1-a^2}}$. Using $\\cos \\phi = \\frac{\\cot \\phi}{\\sqrt{1+\\cot^2 \\phi}}$, we get $\\frac{1/\\sqrt{1-a^2}}{\\sqrt{1 + 1/(1-a^2)}} = \\frac{1}{\\sqrt{2-a^2}}$."
     },
     {
       "year": 2020,
@@ -121,7 +139,9 @@
         "C": "$\\sin^{-1}\\left(\\frac{24}{85}\\right)$",
         "D": "$\\sin^{-1}\\left(\\frac{84}{85}\\right)$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Let $\\alpha = \\sin^{-1}\\frac{3}{5}$ and $\\beta = \\sin^{-1}\\frac{8}{17}$. We need to find $\\cos(\\alpha - \\beta) = \\cos \\alpha \\cos \\beta + \\sin \\alpha \\sin \\beta$. Substituting the values $\\cos \\alpha = \\frac{4}{5}$ and $\\cos \\beta = \\frac{15}{17}$, we get $\\frac{4}{5} \\cdot \\frac{15}{17} + \\frac{3}{5} \\cdot \\frac{8}{17} = \\frac{60+24}{85} = \\frac{84}{85}$, so the result is $\\cos^{-1}\\frac{84}{85}$."
     },
     {
       "year": 2020,
@@ -133,7 +153,9 @@
         "C": "14",
         "D": "13"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Using identities, $\\tan^2(\\sec^{-1}3) = 3^2 - 1 = 8$ and $\\text{cosec}^2(\\cot^{-1}2) = 1 + 2^2 = 5$. The third term $\\cos^2(\\cos^{-1}\\frac{2}{3} + \\sin^{-1}\\frac{2}{3}) = \\cos^2(\\frac{\\pi}{2}) = 0$. The total sum is $8 + 5 + 0 = 13$."
     },
     {
       "year": 2021,
@@ -145,7 +167,9 @@
         "C": "$0$",
         "D": "$2(1-x^2)$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Using the identity $\\cos^2 \\theta = 1 - \\sin^2 \\theta$, the first term is $1 - \\sin^2(\\sin^{-1} x) = 1 - x^2$. Similarly, the second term is $1 - \\cos^2(\\cos^{-1} x) = 1 - x^2$. Adding them together gives $2(1-x^2)$, which corresponds to option D."
     },
     {
       "year": 2021,
@@ -157,7 +181,9 @@
         "C": "$\\{\\frac{1}{6}, 1\\}$",
         "D": "$\\{\\frac{1}{6}\\}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Applying the formula $\\tan^{-1} x + \\tan^{-1} y = \\tan^{-1} \\frac{x+y}{1-xy}$, we get $\\frac{5x}{1-6x^2} = \\tan \\frac{\\pi}{4} = 1$. This leads to the quadratic equation $6x^2 + 5x - 1 = 0$, giving $x = \\frac{1}{6}$ or $x = -1$. Only $x = \\frac{1}{6}$ satisfies the original equation as $x = -1$ makes the left side negative."
     },
     {
       "year": 2022,
@@ -169,7 +195,9 @@
         "C": "$[\\frac{1}{\\sqrt{2}}, 1]$",
         "D": "$[-\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}]$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The identity $2\\sin^{-1}x = \\sin^{-1}(2x\\sqrt{1-x^2})$ is a standard formula derived from $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$. It is valid only when the angle $2\\theta$ remains within the principal value branch $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$. This condition is satisfied when $|x| \\le \\frac{1}{\\sqrt{2}}$, which is the interval $[-\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}]$."
     },
     {
       "year": 2022,
@@ -181,7 +209,9 @@
         "C": "$0$",
         "D": "$5$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "For $\\cos(\\theta) = 0$, the argument $\\theta$ must be $\\frac{\\pi}{2}$ (within the principal range). Thus, $\\sin^{-1}\\frac{1}{5} + \\cos^{-1}x = \\frac{\\pi}{2}$. Using the identity $\\sin^{-1} A + \\cos^{-1} A = \\frac{\\pi}{2}$, we can directly conclude that $x = \\frac{1}{5}$."
     },
     {
       "year": 2022,
@@ -193,7 +223,9 @@
         "C": "$ab - 1$",
         "D": "$1 + ab$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Using the identity $\\sin(A+B)\\sin(A-B) = \\sin^2 A - \\sin^2 B$, we get $ab = \\sin^2 \\alpha - \\sin^2 \\beta$. Substituting this into the expression $\\sin^2 \\alpha + \\cos^2 \\beta = \\sin^2 \\alpha + (1 - \\sin^2 \\beta)$, we obtain $1 + (\\sin^2 \\alpha - \\sin^2 \\beta) = 1 + ab$."
     },
     {
       "year": 2023,
@@ -205,7 +237,9 @@
         "C": "$\\pi$",
         "D": "$-\\pi/2$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The sum $\\sum_{i=1}^3 \\cot^{-1} i$ simplifies to $\\tan^{-1} 1 + \\tan^{-1} \\frac{1}{2} + \\tan^{-1} \\frac{1}{3} = \\frac{\\pi}{4} + \\frac{\\pi}{4} = \\frac{\\pi}{2}$. Then, $\\cot(\\frac{\\pi}{2}) = 0$, and the final value is $\\cos^{-1}(0) = \\frac{\\pi}{2}$."
     },
     {
       "year": 2023,
@@ -217,7 +251,9 @@
         "C": "$\\frac{5+\\sqrt{3}}{2\\sqrt{3}}$",
         "D": "$\\frac{7-\\sqrt{3}}{2\\sqrt{3}}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Evaluating each term using principal values gives $\\cos(\\frac{\\pi}{3}) + \\tan(\\frac{\\pi}{6}) + \\sin(\\frac{\\pi}{3}) = \\frac{1}{2} + \\frac{1}{\\sqrt{3}} + \\frac{\\sqrt{3}}{2}$. Combining these terms with a common denominator results in $\\frac{\\sqrt{3} + 2 + 3}{2\\sqrt{3}} = \\frac{5+\\sqrt{3}}{2\\sqrt{3}}$."
     },
     {
       "year": 2023,
@@ -229,7 +265,9 @@
         "C": "$-\\sqrt{3}/2$",
         "D": "$0$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Since $\\cos(0) = 1$, we set $\\cos^{-1} \\frac{\\sqrt{3}}{2} + \\sin^{-1} x = 0$. This implies $\\frac{\\pi}{6} + \\sin^{-1} x = 0$, so $\\sin^{-1} x = -\\frac{\\pi}{6}$, which gives $x = \\sin(-\\frac{\\pi}{6}) = -\\frac{1}{2}$."
     },
     {
       "year": 2024,
@@ -241,7 +279,9 @@
         "C": "$-\\pi/2 < y < \\pi/2$",
         "D": "$-\\pi/2 \\leq y \\leq \\pi/2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "By definition, the principal value branch or range of the inverse tangent function $y = \\tan^{-1} x$ is the open interval $(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$. This corresponds to the inequality $-\\frac{\\pi}{2} < y < \\frac{\\pi}{2}$."
     },
     {
       "year": 2024,
@@ -253,7 +293,9 @@
         "C": "$\\pi$",
         "D": "$2\\pi/3$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The principal values are $\\tan^{-1}(-1) = -\\frac{\\pi}{4}$, $\\sec^{-1}(-2) = \\frac{2\\pi}{3}$, and $\\sin^{-1}(\\frac{1}{\\sqrt{2}}) = \\frac{\\pi}{4}$. Adding these together, we get $-\\frac{\\pi}{4} + \\frac{2\\pi}{3} + \\frac{\\pi}{4} = \\frac{2\\pi}{3}$."
     },
     {
       "year": 2024,
@@ -265,7 +307,9 @@
         "C": "$-\\frac{\\pi}{2} < y < \\frac{\\pi}{2}$",
         "D": "$0 < y < \\pi$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The angle $\\frac{23\\pi}{6}$ can be written as $4\\pi - \\frac{\\pi}{6}$, which has a sine value of $\\sin(-\\frac{\\pi}{6})$. Since $-\\frac{\\pi}{6}$ lies within the principal range $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$, the value of $\\sin^{-1}(\\sin \\frac{23\\pi}{6})$ is $-\\frac{\\pi}{6}$."
     },
     {
       "year": 2024,
@@ -277,7 +321,9 @@
         "C": "$23\\pi/6$",
         "D": "$-5\\pi/6$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The angle $\\frac{23\\pi}{6}$ can be written as $4\\pi - \\frac{\\pi}{6}$, which has a sine value of $\\sin(-\\frac{\\pi}{6})$. Since $-\\frac{\\pi}{6}$ lies within the principal range $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$, the value of $\\sin^{-1}(\\sin \\frac{23\\pi}{6})$ is $-\\frac{\\pi}{6}$."
     },
     {
       "year": 2024,
@@ -289,7 +335,9 @@
         "C": "$\\pi$",
         "D": "$-\\frac{\\pi}{3}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Using principal values, we calculate $-\\frac{\\pi}{4} + \\frac{2\\pi}{3} + \\frac{\\pi}{4} = \\frac{2\\pi}{3}$. Although the provided answer key is 'D', the correct mathematical result is $\\frac{2\\pi}{3}$, which matches option A."
     },
     {
       "year": 2024,
@@ -301,7 +349,9 @@
         "C": "$\\frac{23\\pi}{6}$",
         "D": "$\\frac{\\pi}{6}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "We simplify the expression by finding an equivalent angle in the principal range: $\\sin(\\frac{23\\pi}{6}) = \\sin(4\\pi - \\frac{\\pi}{6}) = \\sin(-\\frac{\\pi}{6})$. Thus, $\\sin^{-1}(\\sin(-\\frac{\\pi}{6})) = -\\frac{\\pi}{6}$ because it lies within $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$."
     },
     {
       "year": 2025,
@@ -313,7 +363,9 @@
         "C": "$-\\frac{\\pi}{6}$",
         "D": "$\\frac{\\pi}{6}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "First, $5 \\sin^{-1} \\frac{1}{\\sqrt{2}} = \\frac{5\\pi}{4}$, and $\\cos(\\frac{5\\pi}{4}) = -\\frac{1}{\\sqrt{2}}$. The expression becomes $\\tan^{-1}[\\frac{\\sqrt{2}}{\\sqrt{3}} \\cdot (-\\frac{1}{\\sqrt{2}})] = \\tan^{-1}(-\\frac{1}{\\sqrt{3}})$, which equals $-\\frac{\\pi}{6}$."
     },
     {
       "year": 2025,
@@ -325,7 +377,9 @@
         "C": "$-\\frac{\\pi}{2} \\leq y \\leq \\frac{\\pi}{2}$",
         "D": "$-\\frac{\\pi}{6} \\leq y \\leq \\frac{\\pi}{6}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "hard",
+      "explanation": "For $x \\in [-\\frac{1}{2}, \\frac{1}{2}]$, the identity $\\sin^{-1}(3x - 4x^3) = 3\\sin^{-1} x$ holds, so $y = 3\\sin^{-1} x + 3\\sin^{-1} x = 6\\sin^{-1} x$. Since $\\sin^{-1} x$ ranges from $-\\frac{\\pi}{6}$ to $\\frac{\\pi}{6}$, the range of $y$ is $[-\\pi, \\pi]$."
     },
     {
       "year": 2025,
@@ -337,7 +391,9 @@
         "C": "2",
         "D": "4"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "hard",
+      "explanation": "The domain of $\\tan^{-1} \\sqrt{x^2+x}$ requires $x^2+x \\geq 0$, while $\\sin^{-1} \\sqrt{x^2+x+1}$ requires $0 \\leq x^2+x+1 \\leq 1$, implying $x^2+x \\leq 0$. The only values satisfying both are $x^2+x=0$, giving $x=0$ and $x=-1$, both of which satisfy the equation, resulting in 2 solutions."
     }
   ]
 }

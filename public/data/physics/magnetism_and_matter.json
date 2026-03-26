@@ -13,7 +13,9 @@
         "C": "paramagnetism",
         "D": "diamagnetism"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Ferromagnetic materials are characterized by the presence of small regions called domains where all atomic magnetic moments are aligned in the same direction. This domain structure is responsible for the strong magnetic properties and hysteresis observed in these materials. Paramagnetic and diamagnetic materials do not exhibit such domain formation."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "$-\\vec{M} \\cdot \\vec{B}$",
         "D": "$\\vec{M} \\cdot \\vec{B}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The torque $\\vec{\\tau}$ acting on a magnetic dipole with magnetic moment $\\vec{M}$ placed in a uniform magnetic field $\\vec{B}$ is given by the vector cross product $\\vec{\\tau} = \\vec{M} \\times \\vec{B}$. This torque acts to rotate the magnet so that its magnetic moment aligns with the direction of the external magnetic field."
     },
     {
       "year": 2008,
@@ -37,7 +41,9 @@
         "C": "Magnetic longitude",
         "D": "Magnetic declination"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Magnetic declination is defined as the angle between the geographic meridian (the plane containing the Earth's axis of rotation) and the magnetic meridian (the plane containing the magnetic axis). It varies from place to place on the Earth's surface and is one of the three elements required to specify the Earth's magnetic field at a location."
     },
     {
       "year": 2008,
@@ -49,7 +55,9 @@
         "C": "200 $\\text{Am}^2$",
         "D": "50 $\\text{Am}^2$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Maximum or saturation magnetization occurs when all the individual molecular dipoles are perfectly aligned in the same direction. It is calculated by multiplying the total number of dipoles $N$ by the magnetic moment $m$ of each dipole: $M_{max} = N \\times m = (2.0 \\times 10^{24}) \\times (1.5 \\times 10^{-23}) = 30 \\text{ Am}^2$."
     },
     {
       "year": 2009,
@@ -61,7 +69,9 @@
         "C": "Permeability",
         "D": "Heat energy lost per unit volume in the sample."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The area enclosed by the $B-H$ hysteresis loop represents the energy dissipated as heat per unit volume of the ferromagnetic material during one complete cycle of magnetization. This energy loss is due to the internal friction encountered when magnetic domains reorient themselves, and it is a critical factor in designing transformer cores and motors."
     },
     {
       "year": 2009,
@@ -73,7 +83,9 @@
         "C": "In the perpendicular direction of the magnetic moment ($\\vec{M}$) of the magnet.",
         "D": "Its direction depends on the magnitude of the magnetic moment ($\\vec{M}$) of the magnet."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The magnetic field $\\vec{B}$ at any point on the axial line of a bar magnet is always in the same direction as its magnetic dipole moment $\\vec{M}$. By convention, $\\vec{M}$ points from the South pole to the North pole, and the axial field lines also point away from the North pole along the axis, maintaining the same orientation."
     },
     {
       "year": 2011,
@@ -85,7 +97,9 @@
         "C": "$4\\text{ Am}^2$",
         "D": "None of these"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Initial moment is $M = q_m L = 4\\pi$. When bent into a semi-circle of radius $R$, the length $L = \\pi R$, so the new distance between poles is $2R = 2L/\\pi$. The new magnetic moment is $M' = q_m (2L/\\pi) = (2/\\pi)M = (2/\\pi)(4\\pi) = 8 \\text{ Am}^2$, which is not listed in options A, B, or C."
     },
     {
       "year": 2011,
@@ -97,7 +111,9 @@
         "C": "$\\frac{4\\pi M}{\\mu_0 z^3}\\hat{M}$",
         "D": "$\\frac{\\mu_0M}{2\\pi z^3}\\hat{M}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "For a short bar magnet where the distance $z$ is much larger than the magnet's length $l$ ($z \\gg l$), the magnetic field on the axis is given by $\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{2\\vec{M}}{z^3}$. This formula is analogous to the electric field on the axis of an electric dipole, where the field strength decreases with the cube of the distance."
     },
     {
       "year": 2011,
@@ -109,7 +125,9 @@
         "C": "perpendicular to the magnetic field.",
         "D": "in the direction making $60^{\\circ}$ to the magnetic field."
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Diamagnetic materials develop a weak induced magnetic moment in a direction opposite to the applied magnetic field. Because they are feebly repelled by magnetic fields, they experience a net force that tends to move them from regions of stronger magnetic field to regions of weaker magnetic field."
     },
     {
       "year": 2011,
@@ -121,7 +139,9 @@
         "C": "$\\frac{\\text{MB}}{2}$",
         "D": "Zero"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The potential energy of a magnet in a magnetic field is $U = -MB \\cos \\theta$. In stable equilibrium, $\\theta = 0^\\circ$ and $U_1 = -MB$; after rotating $180^\\circ$, $\\theta = 180^\\circ$ and $U_2 = -MB \\cos 180^\\circ = +MB$. The work done is the change in potential energy: $W = U_2 - U_1 = MB - (-MB) = 2MB$."
     },
     {
       "year": 2014,
@@ -133,7 +153,9 @@
         "C": "$-73^\\circ \\text{ C}$",
         "D": "$-18^\\circ \\text{ C}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "According to Curie's Law, $\\chi \\propto 1/T$, which implies $\\chi_1 T_1 = \\chi_2 T_2$ where $T$ is in Kelvin. Given $T_1 = 27 + 273 = 300 \\text{ K}$, we calculate $T_2 = (1.0 \\times 10^{-5} \\times 300) / (1.5 \\times 10^{-5}) = 200 \\text{ K}$. Converting back to Celsius, $T_2 = 200 - 273 = -73^\\circ \\text{ C}$."
     },
     {
       "year": 2014,
@@ -145,7 +167,9 @@
         "C": "$1.15 \\times 10^{23}$",
         "D": "$1.62 \\times 10^{23}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "At the magnetic equator, the Earth's magnetic field is given by $B = \\frac{\\mu_0 M}{4\\pi R^3}$. Rearranging for the dipole moment $M = \\frac{B \\cdot 4\\pi R^3}{\\mu_0}$, and substituting $B = 0.5 \\times 10^{-4} \\text{ T}$ and $R = 6.4 \\times 10^6 \\text{ m}$, we get $M \\approx 1.31 \\times 10^{23} \\text{ Am}^2$."
     },
     {
       "year": 2015,
@@ -157,7 +181,9 @@
         "C": "0.16",
         "D": "0.12"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The original magnetic moment is $M = q_m L = 0.8 \\times 0.314 = 0.2512 \\text{ Am}^2$. When bent into a semi-circle, the new distance between the poles is the diameter $d = 2R = 2L/\\pi$. The new magnetic moment is $M' = q_m (2L/\\pi) = 2M/\\pi = (2 \\times 0.2512) / 3.14 = 0.16 \\text{ Am}^2$."
     },
     {
       "year": 2015,
@@ -169,7 +195,9 @@
         "C": "45^{\\circ}",
         "D": "0^{\\circ}"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The angle of dip $\\phi$ is the angle whose tangent is the ratio of the vertical component $B_V$ to the horizontal component $B_H$ of the Earth's magnetic field. Given $B_V = \\sqrt{3} B_H$, we have $\\tan \\phi = B_V / B_H = \\sqrt{3}$. This corresponds to an angle of $\\phi = 60^\\circ$."
     },
     {
       "year": 2017,
@@ -181,7 +209,9 @@
         "C": "$\\mu = \\mu_0(1 - \\chi_m)$",
         "D": "$\\mu = \\mu_0(1 + \\chi_m)$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The relative permeability $\\mu_r$ of a material is related to its magnetic susceptibility $\\chi_m$ by the equation $\\mu_r = 1 + \\chi_m$. Since the absolute permeability $\\mu$ is the product of the permeability of free space $\\mu_0$ and the relative permeability $\\mu_r$, the correct relation is $\\mu = \\mu_0(1 + \\chi_m)$."
     },
     {
       "year": 2018,
@@ -193,7 +223,9 @@
         "C": "Paramagnetic",
         "D": "None of these"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Paramagnetic substances have a small, positive magnetic susceptibility and are weakly attracted towards the region of stronger magnetic field. In contrast, diamagnetic substances are repelled, and ferromagnetic substances are strongly attracted."
     },
     {
       "year": 2018,
@@ -205,7 +237,9 @@
         "C": "$B^2 = B_h^2 + B_v^2$",
         "D": "$\\frac{B_h}{B_v} = B$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The total magnetic field $B$ of the earth is the vector sum of its horizontal component $B_h$ and vertical component $B_v$. Since these components are perpendicular to each other, the magnitude is given by the Pythagorean relation $B^2 = B_h^2 + B_v^2$."
     },
     {
       "year": 2019,
@@ -217,7 +251,9 @@
         "C": "2",
         "D": "1"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The gyromagnetic ratio of an electron is defined as $\\frac{e}{2m}$, whereas the specific charge is the ratio $\\frac{e}{m}$. By comparison, the gyromagnetic ratio is exactly $\\frac{1}{2}$ times the specific charge of the electron."
     },
     {
       "year": 2019,
@@ -229,7 +265,9 @@
         "C": "Al, Ni, Cu, Co",
         "D": "Al, Ni, Cu, P"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Alnico is a high-coercivity alloy used for making permanent magnets. Its name is an acronym derived from its primary metallic constituents: Aluminum (Al), Nickel (Ni), and Cobalt (Co), often including Copper (Cu)."
     },
     {
       "year": 2020,
@@ -241,7 +279,9 @@
         "C": "$0^\\circ 58\\text{ E}$",
         "D": "$0^\\circ 58\\text{ W}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Magnetic declination is the angle between the geographic meridian and the magnetic meridian. For Delhi, this value is approximately $0^\\circ 41' \\text{ E}$, while for Mumbai it is approximately $0^\\circ 58' \\text{ W}$."
     },
     {
       "year": 2020,
@@ -253,7 +293,9 @@
         "C": "$2.5 \\times 10^3$",
         "D": "$2 \\times 10^{-3}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The magnetic intensity $H$ inside a solenoid is given by the formula $H = nI$, where $n$ is the number of turns per unit length and $I$ is the current. Substituting the values, $H = 1000 \\times 2 = 2000 \\text{ A/m}$, which is $2 \\times 10^3 \\text{ A/m}$."
     },
     {
       "year": 2021,
@@ -265,7 +307,9 @@
         "C": "$45^\\circ$",
         "D": "$90^\\circ$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The angle of dip $\\phi$ is related to the earth's magnetic field components by $\\tan \\phi = \\frac{B_v}{B_h}$. If $B_h = B_v$, then $\\tan \\phi = 1$, which corresponds to an angle of $\\phi = 45^\\circ$."
     },
     {
       "year": 2021,
@@ -277,7 +321,9 @@
         "C": "$6.4 \\times 10^{-7}\\text{ T}$",
         "D": "$3.56 \\times 10^{-7}\\text{ T}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "For a short bar magnet, the equatorial magnetic field is $B = \\frac{\\mu_0}{4\\pi} \\frac{m}{r^3}$. Substituting the given values, $B = 10^{-7} \\times \\frac{0.75}{(0.75)^3} = \\frac{10^{-7}}{(0.75)^2} \\approx 1.78 \\times 10^{-7} \\text{ T}$."
     },
     {
       "year": 2022,
@@ -289,7 +335,9 @@
         "C": "$16\\pi \\times 10^{-2}$",
         "D": "$0.16\\pi \\times 10^{-2}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The magnetic field inside a solenoid with a core is $B = \\mu_r \\mu_0 n I$. Substituting the values, $B = 400 \\times 4\\pi \\times 10^{-7} \\times 1000 \\times 1 = 16\\pi \\times 10^{-2} \\text{ T}$."
     },
     {
       "year": 2022,
@@ -301,7 +349,9 @@
         "C": "$3.6\\text{ J T}^{-1}$",
         "D": "$36\\text{ J T}^{-1}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The torque on a magnet is given by $\\tau = m B \\sin \\theta$. Rearranging for the magnetic moment, $m = \\frac{\\tau}{B \\sin \\theta} = \\frac{4.5 \\times 10^{-2}}{0.25 \\times \\sin 30^\\circ} = \\frac{4.5 \\times 10^{-2}}{0.25 \\times 0.5} = 0.36 \\text{ J T}^{-1}$."
     },
     {
       "year": 2023,
@@ -313,7 +363,9 @@
         "C": "$\\frac{q_m}{2}, \\frac{m}{2}$",
         "D": "$q_m, m$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "When a magnet is cut into two equal parts perpendicular to its length (transverse cut), the pole strength $q_m$ remains unchanged. However, the length of each piece becomes half, so the new magnetic moment $m' = q_m \\times \\frac{2l}{2} = \\frac{m}{2}$."
     },
     {
       "year": 2023,
@@ -325,7 +377,9 @@
         "C": "1.8",
         "D": "2.0"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The magnetic field is calculated using $B = \\mu_r \\mu_0 n I$. Using $\\mu_r = 400$, $\\mu_0 = 4\\pi \\times 10^{-7}$, $n = 1000$, and $I = 2$, we get $B = 400 \\times 4\\pi \\times 10^{-7} \\times 1000 \\times 2 \\approx 1.0 \\text{ T}$."
     },
     {
       "year": 2024,
@@ -337,7 +391,9 @@
         "C": "$\\chi_e$",
         "D": "$\\epsilon_0$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The unit $\\text{Vs}$ is equivalent to Weber ($\\text{Wb}$), the unit of magnetic flux. Since $\\mu_0$ is measured in $\\text{T}\\cdot\\text{m/A}$ and $1 \\text{ T} = 1 \\text{ Wb/m}^2$, the unit $\\text{Wb/Am}$ or $\\text{Vs/Am}$ represents the magnetic permeability $\\mu_0$."
     },
     {
       "year": 2024,
@@ -349,7 +405,9 @@
         "C": "$2 \\times 10^{-3}\\text{ Am}^{-1}$",
         "D": "$8 \\times 10^5\\text{ Am}^{-1}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Magnetic intensity $H$ inside a solenoid is given by $H = nI$ and is independent of the core material. Calculating with $n = 1000 \\text{ m}^{-1}$ and $I = 2 \\text{ A}$, we get $H = 2000 \\text{ A/m} = 2 \\times 10^3 \\text{ A/m}$."
     },
     {
       "year": 2024,
@@ -361,7 +419,9 @@
         "C": "$1.8 \\times 10^2\\text{ JT}^{-1}$",
         "D": "$3.6 \\times 10^2\\text{ JT}^{-1}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Using the torque formula $\\tau = m B \\sin \\theta$, we solve for $m = \\frac{\\tau}{B \\sin \\theta}$. Substituting the given values, $m = \\frac{4.5 \\times 10^{-2}}{0.5 \\times \\sin 30^\\circ} = \\frac{4.5 \\times 10^{-2}}{0.25} = 18 \\times 10^{-2} \\text{ JT}^{-1}$."
     },
     {
       "year": 2025,
@@ -373,7 +433,9 @@
         "C": "remain stationary",
         "D": "to move from a region of strong magnetic field to weak magnetic field"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Paramagnetic substances have a small, positive magnetic susceptibility $\\chi$, meaning they develop a weak induced magnetization in the direction of the external field. In a non-uniform magnetic field, these substances experience a net force that pulls them from a region of weak magnetic field to a region of strong magnetic field. This behavior occurs because the dipoles within the material tend to align with the field and move towards the area of maximum flux density."
     }
   ]
 }

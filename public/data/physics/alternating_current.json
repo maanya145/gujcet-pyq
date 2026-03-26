@@ -13,7 +13,9 @@
         "C": "$[R^2 + (\\omega L)^2 + (\\frac{1}{\\omega C})^2]^{1/2}$",
         "D": "$[R^2 + (\\omega L - \\frac{1}{\\omega C})^2]^{1/2}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "At resonance in a series LCR circuit, the inductive reactance $X_L$ and capacitive reactance $X_C$ are equal and cancel each other out ($X_L = X_C$). The impedance formula $Z = \\sqrt{R^2 + (X_L - X_C)^2}$ thus simplifies to $Z = R$. This represents the minimum impedance of the circuit, where it behaves as a purely resistive circuit."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "$f_0$",
         "D": "$\\frac{f_0}{2}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The resonance frequency of a series LCR circuit is given by $f_0 = \\frac{1}{2\\pi\\sqrt{LC}}$. If the capacitance $C$ is increased to $4C$, the new frequency becomes $f' = \\frac{1}{2\\pi\\sqrt{L(4C)}} = \\frac{1}{2} \\cdot \\frac{1}{2\\pi\\sqrt{LC}}$. Therefore, the new resonance frequency is $f_0/2$."
     },
     {
       "year": 2007,
@@ -37,7 +41,9 @@
         "C": "$LR$",
         "D": "$L/R$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The product $RC$ represents the time constant of a capacitive circuit, which has the dimensions of time $[T]$. Similarly, the ratio $L/R$ represents the time constant of an inductive circuit, which also has the dimensions of time. Therefore, $RC$ and $L/R$ share the same dimensional formula."
     },
     {
       "year": 2008,
@@ -49,7 +55,9 @@
         "C": "R",
         "D": "$\\frac{R}{8}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "In an LR series circuit, the phase angle $\\phi$ between voltage and current is given by $\\tan \\phi = \\frac{X_L}{R}$. Given $\\phi = 45^{\\circ}$, we have $\\tan 45^{\\circ} = 1$, which leads to $\\frac{X_L}{R} = 1$. Thus, the inductive reactance $X_L$ must be equal to the resistance $R$."
     },
     {
       "year": 2008,
@@ -61,7 +69,9 @@
         "C": "2 Hz",
         "D": "5 Hz"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The instantaneous voltage is $V = V_m \\sin(\\omega t)$, where $V_m = 100\\text{ V}$. Substituting the given values, $2 = 100 \\sin(\\omega \\cdot \\frac{1}{100\\pi})$, which implies $\\sin(\\frac{\\omega}{100\\pi}) = 0.02$. Using the small angle approximation $\\sin \\theta \\approx \\theta$, we get $\\frac{\\omega}{100\\pi} \\approx 0.02$, so $2\\pi f \\approx 2\\pi$, resulting in $f = 1\\text{ Hz}$."
     },
     {
       "year": 2009,
@@ -73,7 +83,9 @@
         "C": "$10 \\text{ V}$",
         "D": "$5 \\text{ V}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The total applied voltage in a series LCR circuit is $V = \\sqrt{V_R^2 + (V_L - V_C)^2}$. Given $V_R = 5\\text{ V}$, $V_L = 10\\text{ V}$, and $V_C = 10\\text{ V}$, the reactive components cancel out because $V_L = V_C$. Thus, $V = \\sqrt{5^2 + (10 - 10)^2} = 5\\text{ V}$."
     },
     {
       "year": 2009,
@@ -85,7 +97,9 @@
         "C": "$2CV^2$",
         "D": "Zero"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "In an ideal capacitor, the phase difference between the voltage and the current is $\\pi/2$ or $90^{\\circ}$. The average power dissipation is given by $P_{avg} = V_{rms} I_{rms} \\cos \\phi$. Since $\\cos 90^{\\circ} = 0$, the average power dissipation in an ideal capacitor is zero."
     },
     {
       "year": 2009,
@@ -97,7 +111,9 @@
         "C": "$11.7 \\text{ A}$",
         "D": "$10.7 \\text{ A}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "First, calculate inductive reactance $X_L = 2\\pi f L = 2 \\cdot \\pi \\cdot 50 \\cdot 0.04 \\approx 12.57\\text{ }\\Omega$. The impedance is $Z = \\sqrt{R^2 + X_L^2} = \\sqrt{12^2 + 12.57^2} \\approx 17.38\\text{ }\\Omega$. The current is $I = V/Z = 220 / 17.38 \\approx 12.66\\text{ A}$, which is closest to $12.7\\text{ A}$."
     },
     {
       "year": 2009,
@@ -109,7 +125,9 @@
         "C": "$10.0 \\text{ ms}$",
         "D": "$15.0 \\text{ ms}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The current equation is $i = I_m \\sin(\\omega t)$, and the rms value is $I_m/\\sqrt{2}$. Setting $I_m \\sin(\\omega t) = I_m/\\sqrt{2}$ gives $\\sin(\\omega t) = 1/\\sqrt{2}$, so $\\omega t = \\pi/4$. Substituting $\\omega = 2\\pi f$, we get $t = 1/(8f) = 1/(8 \\cdot 50) = 0.0025\\text{ s}$, which is $2.5\\text{ ms}$."
     },
     {
       "year": 2011,
@@ -121,7 +139,9 @@
         "C": "$1.1\\text{ H}$",
         "D": "$5\\text{ H}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The maximum current is $I_m = V_m / X_L$, where $V_m = 220\\sqrt{2}\\text{ V}$. Thus, $X_L = (220\\sqrt{2}) / 0.9 \\approx 345.7\\text{ }\\Omega$. Using $X_L = 2\\pi f L$, we find $L = 345.7 / (2 \\cdot \\pi \\cdot 50) \\approx 1.1\\text{ H}$."
     },
     {
       "year": 2011,
@@ -133,7 +153,9 @@
         "C": "$6.07\\text{ A ; } 10\\text{ ms}$",
         "D": "$2.536\\text{ A ; } 4.167\\text{ ms}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The rms current is $I_{rms} = I_m / \\sqrt{2} = 5 / 1.414 \\approx 3.536\\text{ A}$. The time to reach peak value from zero is one-fourth of the time period, $t = T/4 = 1/(4f)$. With $f = 60\\text{ Hz}$, $t = 1/240 \\approx 0.004167\\text{ s}$ or $4.167\\text{ ms}$."
     },
     {
       "year": 2014,
@@ -145,7 +167,9 @@
         "C": "Less than the input power",
         "D": "None of these"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "In any practical transformer, there are always energy losses due to resistance in windings (copper loss), eddy currents, and magnetic flux leakage. Because of these losses, the output power is always less than the input power ($P_{out} < P_{in}$). An ideal transformer with $100\\%$ efficiency does not exist in practice."
     },
     {
       "year": 2014,
@@ -157,7 +181,9 @@
         "C": "$\\pi/4 \\text{ rad}$",
         "D": "$\\pi/2 \\text{ rad}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The power in an AC circuit is $P = V_{rms} I_{rms} \\cos \\phi$, where $P_{max} = V_{rms} I_{rms}$. Given $P = 0.5 P_{max}$, we have $\\cos \\phi = 0.5$. This corresponds to a phase difference of $\\phi = 60^{\\circ}$ or $\\pi/3\\text{ rad}$."
     },
     {
       "year": 2014,
@@ -169,7 +195,9 @@
         "C": "$11.58 \\text{ A}$",
         "D": "$13.58 \\text{ A}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "For a current with both DC and AC components, the resultant RMS value is $I_{rms} = \\sqrt{I_{dc}^2 + I_{ac,rms}^2}$. Here, $I_{dc} = 8\\text{ A}$ and $I_{ac,rms} = 6/\\sqrt{2}\\text{ A}$. Calculating gives $I_{rms} = \\sqrt{8^2 + (6/\\sqrt{2})^2} = \\sqrt{64 + 18} = \\sqrt{82} \\approx 9.05\\text{ A}$."
     },
     {
       "year": 2015,
@@ -181,7 +209,9 @@
         "C": "30^{\\circ}",
         "D": "45^{\\circ}"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The inductive reactance is $X_L = 2\\pi f L = 2\\pi \\cdot (25/\\pi) \\cdot 2 = 100\\text{ }\\Omega$. The phase difference $\\phi$ is found using $\\tan \\phi = X_L / R = 100 / 100 = 1$. Therefore, $\\phi = \\tan^{-1}(1) = 45^{\\circ}$."
     },
     {
       "year": 2015,
@@ -193,7 +223,9 @@
         "C": "leads the voltage by \\pi in phase",
         "D": "lags behind the voltage by \\pi in phase"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "In a purely capacitive AC circuit, the current leads the voltage by a phase angle of $90^\\circ$ or $\\frac{\\pi}{2}$ radians. This occurs because the capacitor opposes changes in voltage, causing the current to reach its peak value before the voltage does."
     },
     {
       "year": 2015,
@@ -205,7 +237,9 @@
         "C": "40",
         "D": "80"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The RMS voltage is $V_{rms} = \\frac{V_m}{\\sqrt{2}} = 100\\text{ V}$ and the capacitive reactance is $X_C = \\frac{1}{\\omega C} = \\frac{1}{100 \\times 10^{-6}} = 10^4\\text{ }\\Omega$. The ammeter reads the RMS current, which is $I_{rms} = \\frac{V_{rms}}{X_C} = \\frac{100}{10^4} = 0.01\\text{ A}$, or $10\\text{ mA}$."
     },
     {
       "year": 2017,
@@ -217,7 +251,9 @@
         "C": "0.08",
         "D": "0.10"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The average power in an AC circuit is given by $P = V_{rms} I_{rms} \\cos \\phi$, where $\\cos \\phi$ is the power factor. Substituting the given values, $\\cos \\phi = \\frac{P}{VI} = \\frac{63}{210 \\times 3} = \\frac{63}{630} = 0.10$."
     },
     {
       "year": 2017,
@@ -229,7 +265,9 @@
         "C": "25",
         "D": "$25\\sqrt{2}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "For a sinusoidal current given by $I = I_m \\cos(\\omega t + \\phi)$, the RMS value is $I_{rms} = \\frac{I_m}{\\sqrt{2}}$. Given the peak current $I_m = 50\\text{ A}$, the RMS current is $I_{rms} = \\frac{50}{\\sqrt{2}} = 25\\sqrt{2}\\text{ A}$."
     },
     {
       "year": 2017,
@@ -241,7 +279,9 @@
         "C": "5/7",
         "D": "5/\\sqrt{7}"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The inductive reactance is $X_L = \\omega L = 1000 \\times 3 \\times 10^{-3} = 3\\text{ }\\Omega$, so the impedance is $Z = \\sqrt{R^2 + X_L^2} = \\sqrt{4^2 + 3^2} = 5\\text{ }\\Omega$. The maximum current is calculated as $I_m = \\frac{V_m}{Z} = \\frac{5}{5} = 1.0\\text{ A}$."
     },
     {
       "year": 2018,
@@ -253,7 +293,9 @@
         "C": "$\\frac{\\pi}{4}$",
         "D": "$\\frac{\\pi}{2}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Power is given by $P = P_{max} \\cos \\phi$, where $\\cos \\phi$ is the power factor. Since $P = 0.5 P_{max}$, we have $\\cos \\phi = 0.5$, which means the phase difference $\\phi = \\cos^{-1}(0.5) = 60^\\circ$ or $\\frac{\\pi}{3}$ radians."
     },
     {
       "year": 2018,
@@ -265,7 +307,9 @@
         "C": "ZERO",
         "D": "INFINITE"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Capacitive reactance is defined as $X_C = \\frac{1}{2\\pi f C}$. For a DC source, the frequency $f$ is zero, which makes the denominator zero and the reactance $X_C$ infinite, effectively blocking the current."
     },
     {
       "year": 2018,
@@ -277,7 +321,9 @@
         "C": "$30$",
         "D": "$40$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The power dissipated in a resistor is $P = I_{rms}^2 R$. Using the peak current $I_m = 2\\text{ A}$, we find $P = \\frac{I_m^2 R}{2} = \\frac{2^2 \\times 10}{2} = 20\\text{ W}$."
     },
     {
       "year": 2019,
@@ -289,7 +335,9 @@
         "C": "Leads the current by $\\pi$ in phase",
         "D": "Lags behind the current by $\\frac{\\pi}{2}$ in phase"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "In a series L-C circuit, if $X_C > X_L$, the circuit is predominantly capacitive. In such a circuit, the current leads the voltage by $\\frac{\\pi}{2}$, which is equivalent to saying the potential lags behind the current by $\\frac{\\pi}{2}$ in phase."
     },
     {
       "year": 2019,
@@ -301,7 +349,9 @@
         "C": "45",
         "D": "25"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The Q-factor of a series LCR circuit is given by $Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}}$. Substituting the values $L = 9\\text{ H}$, $R = 10\\text{ }\\Omega$, and $C = 100 \\times 10^{-6}\\text{ F}$, we get $Q = \\frac{1}{10}\\sqrt{\\frac{9}{10^{-4}}} = \\frac{300}{10} = 30$."
     },
     {
       "year": 2020,
@@ -313,7 +363,9 @@
         "C": "$2.2\\text{ }\\Omega$",
         "D": "$2.2 \\times 10^{-3}\\text{ m}^{-1}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The resistance of the bulb can be calculated using the power formula $P = \\frac{V^2}{R}$. Rearranging for $R$, we get $R = \\frac{V^2}{P} = \\frac{220^2}{100} = \\frac{48400}{100} = 484\\text{ }\\Omega$."
     },
     {
       "year": 2020,
@@ -325,7 +377,9 @@
         "C": "$3$",
         "D": "$4$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Calculating the reactances at $50\\text{ Hz}$ gives $X_L = 2\\pi f L \\approx 8\\text{ }\\Omega$ and $X_C = \\frac{1}{2\\pi f C} \\approx 4\\text{ }\\Omega$. The impedance is $Z = \\sqrt{R^2 + (X_L - X_C)^2} = \\sqrt{3^2 + (8 - 4)^2} = 5\\text{ }\\Omega$."
     },
     {
       "year": 2020,
@@ -337,7 +391,9 @@
         "C": "$P_i = P_0$",
         "D": "All are correct"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "In any real-world transformer, there are energy losses due to resistance (heat), eddy currents, and magnetic hysteresis. Because of these losses, the output power $P_o$ is always less than the input power $P_i$, so $P_i > P_o$."
     },
     {
       "year": 2021,
@@ -349,7 +405,9 @@
         "C": "100 Hz",
         "D": "21 Hz"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Resonance occurs when the inductive and capacitive reactances are equal, at frequency $f = \\frac{1}{2\\pi\\sqrt{LC}}$. Plugging in $L = 25 \\times 10^{-3}\\text{ H}$ and $C = 62.5 \\times 10^{-6}\\text{ F}$ results in $f \\approx 127.39\\text{ Hz}$."
     },
     {
       "year": 2021,
@@ -361,7 +419,9 @@
         "C": "44.44",
         "D": "33.33"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The Q-factor is a dimensionless parameter that describes how underdamped an oscillator is, calculated as $Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}}$. For the given values, $Q = \\frac{1}{10}\\sqrt{\\frac{2}{18 \\times 10^{-6}}} = \\frac{1}{10} \\times \\frac{1000}{3} = 33.33$."
     },
     {
       "year": 2021,
@@ -373,7 +433,9 @@
         "C": "3.8 A",
         "D": "2.1 A"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The capacitive reactance is given by $X_C = \\frac{1}{2\\pi f C}$. The rms current is then $I_{rms} = \\frac{V_{rms}}{X_C} = V_{rms}(2\\pi f C)$. Substituting the values, $I_{rms} = 110 \\times 2\\pi \\times 60 \\times 50 \\times 10^{-6} \\approx 2.07 \\text{ A}$, which rounds to $2.1 \\text{ A}$."
     },
     {
       "year": 2022,
@@ -385,7 +447,9 @@
         "C": "$V_s = V_p$",
         "D": "None of these"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "In an ideal transformer, the voltage ratio is equal to the turns ratio, $\\frac{V_s}{V_p} = \\frac{N_s}{N_p}$. If the number of secondary turns $N_s$ is greater than the primary turns $N_p$, the secondary voltage $V_s$ will be greater than the primary voltage $V_p$."
     },
     {
       "year": 2022,
@@ -397,7 +461,9 @@
         "C": "$1111\\text{ rad s}^{-1}$",
         "D": "$2500\\text{ rad s}^{-1}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The angular frequency of free oscillations in an LC circuit is $\\omega = \\frac{1}{\\sqrt{LC}}$. Substituting $L = 16 \\times 10^{-3} \\text{ H}$ and $C = 10 \\times 10^{-6} \\text{ F}$, we get $\\omega = \\frac{1}{\\sqrt{16 \\times 10^{-8}}} = \\frac{10^4}{4} = 2500 \\text{ rad s}^{-1}$."
     },
     {
       "year": 2023,
@@ -409,7 +475,9 @@
         "C": "$60^{\\circ}$",
         "D": "$90^{\\circ}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The inductive reactance is $X_L = 2\\pi f L = 2\\pi(50)(25.48 \\times 10^{-3}) \\approx 8 \\, \\Omega$. The phase difference $\\phi$ is found using $\\tan \\phi = \\frac{X_L}{R} = \\frac{8}{8} = 1$, which corresponds to an angle of $45^{\\circ}$."
     },
     {
       "year": 2023,
@@ -421,7 +489,9 @@
         "C": "$\\frac{Q_0}{\\sqrt{3}}$",
         "D": "$\\frac{Q_0}{\\sqrt{2}}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The total energy is $U = \\frac{Q_0^2}{2C}$. When the energy is shared equally between the inductor and capacitor, $U_C = \\frac{1}{2} U$, so $\\frac{q^2}{2C} = \\frac{Q_0^2}{4C}$. Solving for $q$ gives $q = \\frac{Q_0}{\\sqrt{2}}$."
     },
     {
       "year": 2023,
@@ -433,7 +503,9 @@
         "C": "2",
         "D": "2.83"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The rms current is $I_{rms} = \\frac{P}{V_{rms}} = \\frac{12}{24} = 0.5 \\text{ A}$. The peak current $I_m$ is related to the rms current by $I_m = I_{rms} \\sqrt{2} = 0.5 \\times 1.414 \\approx 0.71 \\text{ A}$."
     },
     {
       "year": 2024,
@@ -445,7 +517,9 @@
         "C": "$14\\text{ A}$",
         "D": "$28\\text{ A}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The inductive reactance is $X_L = 2\\pi f L = 2\\pi(50)(50 \\times 10^{-3}) \\approx 15.7 \\, \\Omega$. The rms current is $I_{rms} = \\frac{V_{rms}}{X_L} = \\frac{220}{15.7} \\approx 14 \\text{ A}$. (Note: The provided answer D suggests a different parameter value in the source)."
     },
     {
       "year": 2024,
@@ -457,7 +531,9 @@
         "C": "$-1$",
         "D": "$0$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "At resonance in a series LCR circuit, $X_L = X_C$, so the impedance $Z$ equals the resistance $R$. The power factor is $\\cos \\phi = \\frac{R}{Z} = \\frac{R}{R} = 1$."
     },
     {
       "year": 2024,
@@ -469,7 +545,9 @@
         "C": "$0.5\\text{ A}$",
         "D": "$0.05\\text{ A}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "For an ideal transformer, the current is inversely proportional to the turns ratio, $I_s = I_p \\left(\\frac{N_p}{N_s}\\right)$. Given $I_p = 10 \\text{ A}$, $N_p = 100$, and $N_s = 200$, the output current $I_s = 10 \\times \\frac{100}{200} = 5 \\text{ A}$."
     },
     {
       "year": 2024,
@@ -481,7 +559,9 @@
         "C": "Only L",
         "D": "$R - C$ in series"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Wattless current occurs when the phase difference between voltage and current is $90^{\\circ}$, meaning no power is dissipated. This happens in purely inductive or purely capacitive circuits where the power factor $\\cos \\phi = 0$."
     },
     {
       "year": 2025,
@@ -493,7 +573,9 @@
         "C": "50%",
         "D": "141.4%"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "In an AC circuit, the maximum (peak) voltage $V_m$ is related to the rms voltage $V_{rms}$ by $V_m = \\sqrt{2} V_{rms}$. The ratio $\\frac{V_m}{V_{rms}} = \\sqrt{2} \\approx 1.414$, which is $141.4\\%$."
     },
     {
       "year": 2025,
@@ -505,7 +587,9 @@
         "C": "Only inductor (L) circuit",
         "D": "LR series circuit"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The power factor is $1$ when the circuit is purely resistive, meaning the phase difference $\\phi = 0$. This occurs in a series LCR circuit at resonance when the inductive and capacitive reactances cancel out."
     },
     {
       "year": 2025,
@@ -517,7 +601,9 @@
         "C": "2 \\text{ A}",
         "D": "\\frac{1}{\\sqrt{2}} \\text{ A}"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The rms current is $I_{rms} = \\frac{P}{V_{rms}} = \\frac{12}{24} = 0.5 \\text{ A}$. The peak current is $I_m = I_{rms} \\sqrt{2} = 0.5 \\sqrt{2} = \\frac{1}{\\sqrt{2}} \\text{ A}$."
     },
     {
       "year": 2025,
@@ -529,7 +615,9 @@
         "C": "maximum at time $\\frac{2\\pi}{\\omega}$",
         "D": "maximum at time $\\frac{\\pi}{2\\omega}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The induced emf is $\\epsilon = \\epsilon_0 \\sin(\\omega t)$. If $\\epsilon = 0$ at $t = 0$, it reaches its maximum value $\\epsilon_0$ when the phase $\\omega t = \\frac{\\pi}{2}$, which gives $t = \\frac{\\pi}{2\\omega}$."
     }
   ]
 }

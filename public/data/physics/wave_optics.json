@@ -13,7 +13,9 @@
         "C": "polarization",
         "D": "interference"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The limit of resolution of an optical instrument is primarily due to the diffraction of light waves as they pass through the aperture. According to the Rayleigh criterion, the diffraction pattern of one point source overlaps with another, setting a fundamental limit on the instrument's ability to distinguish them."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "$9 : 4$",
         "D": "$5 : 1$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Given the ratio $\\frac{I_{max}}{I_{min}} = 25$, we use the relation $\\frac{\\sqrt{I_1} + \\sqrt{I_2}}{\\sqrt{I_1} - \\sqrt{I_2}} = \\sqrt{25} = 5$. Solving for the ratio of amplitudes $\\frac{a_1}{a_2} = \\frac{\\sqrt{I_1}}{\\sqrt{I_2}}$, we get $\\frac{3}{2}$. Squaring this gives the intensity ratio $\\frac{I_1}{I_2} = \\frac{9}{4}$."
     },
     {
       "year": 2008,
@@ -37,7 +41,9 @@
         "C": "90°",
         "D": "0°"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "According to Brewster's Law, when light is incident at the polarizing angle $i_p$, the reflected and refracted rays are perpendicular to each other. Therefore, $i_p + r = 90^\\circ$, which gives $i_p = 90^\\circ - 33.6^\\circ = 56.4^\\circ$."
     },
     {
       "year": 2008,
@@ -49,7 +55,9 @@
         "C": "1.33",
         "D": "1.805"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Using Brewster's Law for light traveling from water to glass, $\\tan i_p = \\frac{n_g}{n_w}$. Substituting the given values, $1.235 = \\frac{n_g}{1.3}$, which leads to $n_g = 1.235 \\times 1.3 = 1.6055$."
     },
     {
       "year": 2008,
@@ -61,7 +69,9 @@
         "C": "8000 $\\text{\\AA}$",
         "D": "2000 $\\text{\\AA}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "For the first-order minimum, the condition is $a \\sin \\theta = \\lambda$, and for the first-order maximum, it is $a \\sin \\theta = \\frac{3}{2} \\lambda'$. Equating the two positions gives $\\lambda = \\frac{3}{2} \\lambda'$, so $\\lambda' = \\frac{2}{3} \\times 9000 = 6000 \\text{ \\AA}$."
     },
     {
       "year": 2008,
@@ -73,7 +83,9 @@
         "C": "becomes half.",
         "D": "remains the same."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The fringe width in Young's double slit experiment is given by $\\beta = \\frac{\\lambda D}{d}$. If the distance between slits $d$ is halved and the distance to the screen $D$ is tripled, the new width becomes $\\beta' = \\frac{\\lambda (3D)}{(d/2)} = 6\\beta$, which is 6 times the original."
     },
     {
       "year": 2008,
@@ -85,7 +97,9 @@
         "C": "9 : 1",
         "D": "1 : 9"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The intensity of a wave is directly proportional to the square of its amplitude ($I \\propto a^2$). Given the intensity ratio $\\frac{I_1}{I_2} = \\frac{9}{1}$, the ratio of their amplitudes is $\\frac{a_1}{a_2} = \\sqrt{\\frac{9}{1}} = 3 : 1$."
     },
     {
       "year": 2008,
@@ -97,7 +111,9 @@
         "C": "Infra-red light",
         "D": "Radio waves"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Diffraction is most prominent when the wavelength of the wave is comparable to the size of the obstacle or aperture. Since radio waves have the longest wavelength among the given electromagnetic waves, they undergo the largest diffraction."
     },
     {
       "year": 2009,
@@ -109,7 +125,9 @@
         "C": "$4000 \\text{ \\AA}$",
         "D": "$3000 \\text{ \\AA}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Using the formula for the position of the $n^{\\text{th}}$ bright fringe, $y_n = \\frac{n\\lambda D}{d}$, we substitute $n=3$, $y_3 = 0.9 \\times 10^{-2} \\text{ m}$, $D = 1.4 \\text{ m}$, and $d = 0.28 \\times 10^{-3} \\text{ m}$. Solving for $\\lambda$ gives $\\lambda = \\frac{y_3 d}{3D} = 6 \\times 10^{-7} \\text{ m}$, which is $6000 \\text{ \\AA}$."
     },
     {
       "year": 2009,
@@ -121,7 +139,9 @@
         "C": "Ultra-violet rays",
         "D": "X-rays"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Polarization is a property exclusive to transverse waves. Since ultrasonic waves are longitudinal sound waves, they cannot be polarized, whereas the other options are electromagnetic waves which are transverse."
     },
     {
       "year": 2011,
@@ -133,7 +153,9 @@
         "C": "Increases",
         "D": "Remain unchanged"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "When the Young's double slit setup is moved from air to water, the wavelength of light decreases ($\\lambda' = \\frac{\\lambda}{n}$). Since the fringe width $\\beta = \\frac{\\lambda D}{d}$ is directly proportional to the wavelength, the fringe width also decreases."
     },
     {
       "year": 2014,
@@ -145,7 +167,9 @@
         "C": "high, high",
         "D": "high, low"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "In Raman scattering, Anti-Stokes lines occur when the scattered photon gains energy from the molecule, resulting in a higher frequency than the incident light. Since frequency and wavelength are inversely proportional ($c = f\\lambda$), these lines have a higher frequency and a lower wavelength."
     },
     {
       "year": 2014,
@@ -157,7 +181,9 @@
         "C": "$2 \\times 10^{-2}$",
         "D": "$1.5 \\times 10^{-2}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "In Young's double slit experiment, the width of all bright and dark fringes is constant and equal to $\\beta = \\frac{\\lambda D}{d}$. Therefore, if the $4^{\\text{th}}$ bright fringe has a width of $2 \\times 10^{-2} \\text{ cm}$, the $6^{\\text{th}}$ bright fringe will have the exact same width."
     },
     {
       "year": 2014,
@@ -169,7 +195,9 @@
         "C": "$0^\\circ$",
         "D": "$60^\\circ$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "When unpolarized light of intensity $I_0$ passes through a polarizer, its intensity becomes $I_1 = I_0/2$. According to Malus' Law, the intensity after the analyzer is $I = I_1 \\cos^2 \\theta = \\frac{I_0}{2} \\cos^2 \\theta$. Setting $I = I_0/8$ gives $\\cos^2 \\theta = 1/4$, so $\\cos \\theta = 1/2$ and $\\theta = 60^\\circ$."
     },
     {
       "year": 2014,
@@ -181,7 +209,9 @@
         "C": "$1.5 \\times 10^{-3} \\text{ m}$",
         "D": "$1.6 \\times 10^{-3} \\text{ m}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The minimum resolvable distance $x$ at a distance $L$ is given by the formula $x = \\frac{1.22 \\lambda L}{D}$, where $D$ is the diameter of the pupil. Substituting the values $\\lambda = 5 \\times 10^{-7} \\text{ m}$, $L = 5 \\text{ m}$, and $D = 2.5 \\times 10^{-3} \\text{ m}$, we calculate $x = 1.22 \\times 10^{-3} \\text{ m}$."
     },
     {
       "year": 2015,
@@ -193,7 +223,9 @@
         "C": "amplitude",
         "D": "phase"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "When light enters a denser medium, its frequency remains constant because it depends only on the source. Since the velocity $v$ decreases and $v = f \times \text{wavelength}$, the wavelength must decrease to satisfy the equation."
     },
     {
       "year": 2015,
@@ -205,7 +237,9 @@
         "C": "75%",
         "D": "90%"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "According to Malus' Law, the transmitted intensity is $I = I_0 \times \text{cos}^2 \theta$. For $\theta = 60^{\\circ}$, $I = I_0 \times (1/2)^2 = I_0/4$, which means the intensity decreases by $75\\%$ from its initial value."
     },
     {
       "year": 2015,
@@ -217,7 +251,9 @@
         "C": "\\frac{d}{\\lambda}",
         "D": "\\frac{2\\lambda}{d}"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The linear width of the central maximum in single-slit diffraction is $W = \\frac{2\\lambda D}{d}$. Setting $W = d$, we get $d = \\frac{2\\lambda D}{d}$, which simplifies to $D = \\frac{d^2}{2\\lambda}$."
     },
     {
       "year": 2017,
@@ -229,7 +265,9 @@
         "C": "Cylindrical",
         "D": "Plane"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "As the distance from a point or line source increases, the curvature of the wavefront decreases. At a very large distance, the wavefront becomes effectively flat and is known as a plane wavefront."
     },
     {
       "year": 2017,
@@ -241,7 +279,9 @@
         "C": "High, Low",
         "D": "Low, Low"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "In Raman scattering, Stokes lines correspond to scattered photons with lower energy (higher wavelength) than the incident light. Antistokes lines correspond to photons that have gained energy, resulting in a lower wavelength."
     },
     {
       "year": 2017,
@@ -253,7 +293,9 @@
         "C": "7",
         "D": "5"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The condition for bright fringes is $d \\sin \\theta = n \\lambda$. Given $d = \\lambda$, we have $\\sin \\theta = n$; since $|\\sin \\theta| \\le 1$, the possible values for $n$ are $-1, 0, 1$, resulting in a total of $3$ bright fringes."
     },
     {
       "year": 2017,
@@ -265,7 +307,9 @@
         "C": "$6.55 \\times 10^{-6}$",
         "D": "$7.32 \\times 10^{-6}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The angular resolution of a telescope is given by $\\Delta \\theta = \\frac{1.22 \\lambda}{D}$. Substituting $\\lambda = 6 \\times 10^{-7} \\text{ m}$ and $D = 0.1 \\text{ m}$, we get $\\Delta \\theta = \\frac{1.22 \\times 6 \\times 10^{-7}}{0.1} = 7.32 \\times 10^{-6} \\text{ rad}$."
     },
     {
       "year": 2018,
@@ -277,7 +321,9 @@
         "C": "$2$",
         "D": "$8$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Rayleigh scattering intensity is inversely proportional to the fourth power of the wavelength ($I \\propto 1/\\lambda^4$). When the wavelength is halved from $8000 \\text{ \\AA}$ to $4000 \\text{ \\AA}$, the intensity increases by a factor of $2^4 = 16$."
     },
     {
       "year": 2018,
@@ -289,7 +335,9 @@
         "C": "Fringes are due to limited portion of wave front",
         "D": "Fringes are due to the use of coherent sources"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Interference fringes are produced by the superposition of two entire wavefronts from coherent sources. The statement that fringes are due to a limited portion of a wavefront actually describes the phenomenon of diffraction."
     },
     {
       "year": 2018,
@@ -301,7 +349,9 @@
         "C": "$1.64$",
         "D": "$1.73$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Using Brewster's Law, $\\tan i_p = \\frac{n_2}{n_1}$, where $i_p$ is the polarizing angle. Substituting the values, $n_2 = 1.4 \\times \\tan 51^{\\circ} = 1.4 \\times 1.235 = 1.729$, which is approximately $1.73$."
     },
     {
       "year": 2019,
@@ -313,7 +363,9 @@
         "C": "Width of slit",
         "D": "The distance between the slit and source"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The angular spread of the central maximum is $2\\theta = \\frac{2\\lambda}{d}$. This depends on the wavelength (and thus frequency) and the slit width, but it is independent of the distance between the source and the slit."
     },
     {
       "year": 2019,
@@ -325,7 +377,9 @@
         "C": "6000",
         "D": "4000"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "For the fringes to superpose, their positions must be equal: $n_1 \\lambda_1 = n_2 \\lambda_2$. Substituting the given values, $4 \\times 5000 = 5 \\times \\lambda_x$, which gives $\\lambda_x = 4000 \\text{ \\AA}$."
     },
     {
       "year": 2020,
@@ -337,7 +391,9 @@
         "C": "$0.5\\text{ mm}$",
         "D": "$0.4\\text{ mm}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The fringe width is calculated using $\\beta = \\frac{\\lambda D}{d}$. Substituting $\\lambda = 500 \\times 10^{-9} \\text{ m}$, $D = 2 \\text{ m}$, and $d = 3 \\times 10^{-3} \\text{ m}$, we get $\\beta = 0.33 \\times 10^{-3} \\text{ m}$ or $0.33 \\text{ mm}$."
     },
     {
       "year": 2021,
@@ -349,7 +405,9 @@
         "C": "50 m",
         "D": "20 m"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Ray optics is a valid approximation up to the Fresnel distance, $Z_F = \\frac{a^2}{\\lambda}$. Using $a = 5 \\times 10^{-3} \\text{ m}$ and $\\lambda = 5 \\times 10^{-7} \\text{ m}$, we find $Z_F = \\frac{25 \\times 10^{-6}}{5 \\times 10^{-7}} = 50 \\text{ m}$."
     },
     {
       "year": 2021,
@@ -361,7 +419,9 @@
         "C": "2 mm",
         "D": "4 mm"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The distance between the $5^{\\text{th}}$ and $3^{\\text{rd}}$ bright fringes is $2\\beta$, where $\\beta = \\frac{\\lambda D}{d}$. Calculating $2 \\times \\frac{500 \\times 10^{-9} \\times 1}{1 \\times 10^{-3}}$ results in $1000 \\times 10^{-6} \\text{ m}$, which is $1 \\text{ mm}$."
     },
     {
       "year": 2022,
@@ -373,7 +433,9 @@
         "C": "$58^\\circ$",
         "D": "$59^\\circ$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "According to Brewster's Law, the reflected and refracted rays are perpendicular when the angle of incidence is the Brewster angle ($i_p$), where $\\tan(i_p) = n$. For a typical glass surface with $n \\approx 1.5$, the angle is calculated as $i_p = \\tan^{-1}(1.5) \\approx 56.3^\\circ$, which is closest to $56^\\circ$."
     },
     {
       "year": 2022,
@@ -385,7 +447,9 @@
         "C": "$0.5\\text{ mm}$",
         "D": "$0.7\\text{ mm}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The fringe separation (fringe width) is given by the formula $\\beta = \\frac{\\lambda D}{d}$. Substituting the values $\\lambda = 600 \\times 10^{-9}\\text{ m}$, $D = 2\\text{ m}$, and $d = 3 \\times 10^{-3}\\text{ m}$, we get $\\beta = \\frac{600 \\times 10^{-9} \\times 2}{3 \\times 10^{-3}} = 0.4 \\times 10^{-3}\\text{ m} = 0.4\\text{ mm}$."
     },
     {
       "year": 2022,
@@ -397,7 +461,9 @@
         "C": "$40\\text{ m}$",
         "D": "$60\\text{ m}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The distance for which ray optics is a good approximation is known as the Fresnel distance, given by $Z_F = \\frac{a^2}{\\lambda}$. Using the given values $a = 5 \\times 10^{-3}\\text{ m}$ and $\\lambda = 500 \\times 10^{-9}\\text{ m}$, we calculate $Z_F = \\frac{25 \\times 10^{-6}}{500 \\times 10^{-9}} = 50\\text{ m}$."
     },
     {
       "year": 2023,
@@ -409,7 +475,9 @@
         "C": "$10.5 \\text{μm}$",
         "D": "$0.105 \\text{μm}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The fringe separation is calculated using the formula $\\beta = \\frac{\\lambda D}{d}$. By substituting $\\lambda = 7 \\times 10^{-7}\\text{ m}$, $D = 1.5\\text{ m}$, and $d = 10^{-2}\\text{ m}$, we find $\\beta = 1.05 \\times 10^{-4}\\text{ m}$, which is equivalent to $105 \\times 10^{-6}\\text{ m}$ or $105\\text{ \\mu m}$."
     },
     {
       "year": 2024,
@@ -421,7 +489,9 @@
         "C": "$\\pi/2$",
         "D": "$\\pi$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "A wavefront is defined as a surface of constant phase, meaning all points on the wavefront vibrate in the same phase at any given instant. Therefore, the phase difference between any two particles on the same wavefront is always $0\\text{ rad}$."
     },
     {
       "year": 2024,
@@ -433,7 +503,9 @@
         "C": "$600\\text{ nm}$",
         "D": "$550\\text{ nm}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The position of the $n^{th}$ bright fringe is given by $y_n = \\frac{n \\lambda D}{d}$. Rearranging for wavelength, $\\lambda = \\frac{y_n d}{n D} = \\frac{1.2 \\times 10^{-2} \\times 0.28 \\times 10^{-3}}{4 \\times 1.4} = 600 \\times 10^{-9}\\text{ m} = 600\\text{ nm}$."
     },
     {
       "year": 2025,
@@ -445,7 +517,9 @@
         "C": "$\\cos^2(\\frac{\\phi}{2})$",
         "D": "$\\cos^2 \\phi$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The resultant intensity of two superimposing waves of equal intensity $I_0$ is given by $I = 4I_0 \\cos^2(\\frac{\\phi}{2})$, where $\\phi$ is the phase difference. This formula shows that the intensity is directly proportional to $\\cos^2(\\frac{\\phi}{2})$."
     },
     {
       "year": 2025,
@@ -457,7 +531,9 @@
         "C": "the wavefront is parabolic",
         "D": "the wavefront is spherical"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "For a point source, light travels outwards in all directions with the same speed, so the locus of points having the same phase at any time is a sphere. Thus, the wavefront originating from a point source is spherical in shape."
     },
     {
       "year": 2025,
@@ -469,7 +545,9 @@
         "C": "8000 nm",
         "D": "800 nm"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Using the formula for the position of the $n^{th}$ bright fringe, $y_n = \\frac{n \\lambda D}{d}$, we can solve for wavelength as $\\lambda = \\frac{y_n d}{n D}$. Substituting $y_6 = 1.2 \\times 10^{-2}\\text{ m}$, $d = 0.54 \\times 10^{-3}\\text{ m}$, $n = 6$, and $D = 1.8\\text{ m}$, we get $\\lambda = 600 \\times 10^{-9}\\text{ m} = 600\\text{ nm}$."
     }
   ]
 }

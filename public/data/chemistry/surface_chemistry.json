@@ -13,7 +13,9 @@
         "C": "Liquid, gas",
         "D": "Liquid, solid"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Pesticide spray is an aerosol where the dispersed phase is a liquid and the dispersion medium is a gas. This classification is based on the physical states of the components in the colloidal system."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "Colloid particles gets settled as precipitates.",
         "D": "Precipitates are converted into colloid."
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Peptisation is the process of converting a freshly prepared precipitate into a colloidal sol by adding a suitable electrolyte. The electrolyte provides ions that are adsorbed on the surface of the precipitate, causing them to break into colloidal-sized particles."
     },
     {
       "year": 2007,
@@ -37,7 +41,9 @@
         "C": "$\\text{PO}_4^{3-} > \\text{Cl}^- > \\text{SO}_4^{2-}$",
         "D": "$\\text{Na}^+ > \\text{Al}^{3+} > \\text{Ba}^{2+}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Arsenious sulphide ($As_2S_3$) is a negatively charged sol, so its coagulation is caused by cations. According to the Hardy-Schulze rule, the coagulating power increases with the valency of the active ion, leading to the order $Al^{3+} > Ba^{2+} > Na^+$."
     },
     {
       "year": 2008,
@@ -49,7 +55,9 @@
         "C": "Absorption and Adsorption both.",
         "D": "None of these."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The removal of coloured impurities from sugar solution by charcoal is an example of adsorption. The dye molecules (adsorbate) accumulate on the surface of the charcoal (adsorbent) due to surface forces."
     },
     {
       "year": 2008,
@@ -61,7 +69,9 @@
         "C": "$\\log_{10} \\frac{x}{m} \\rightarrow p$",
         "D": "$\\log_{10} \\frac{x}{m} \\rightarrow \\frac{1}{p}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "hard",
+      "explanation": "The Langmuir adsorption isotherm equation is $\\frac{x}{m} = \\frac{ap}{1+bp}$. Rearranging this into the linear form $y = mx + c$ gives $\\frac{m}{x} = \\frac{1}{ap} + \\frac{b}{a}$, so a plot of $\\frac{m}{x}$ against $\\frac{1}{p}$ yields a straight line."
     },
     {
       "year": 2009,
@@ -73,7 +83,9 @@
         "C": "Crystallisation.",
         "D": "Corrosion."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "While corrosion, heterogeneous catalysis, and crystallisation occur primarily at the interface, the equilibrium between water and its vapour in a closed vessel involves the entire bulk of the phases. Surface phenomena are specifically those that occur at the boundary between two phases."
     },
     {
       "year": 2009,
@@ -85,7 +97,9 @@
         "C": "Milk",
         "D": "Agar"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Emulsifiers are substances added to stabilize an emulsion, such as soaps, gums, or proteins. Milk is itself a natural emulsion (fat in water) and not a substance used as an emulsifying agent for other systems."
     },
     {
       "year": 2011,
@@ -97,7 +111,9 @@
         "C": "$\\text{K}_3[\\text{Fe(CN)}_6]$",
         "D": "$\\text{K}_4[\\text{Fe(CN)}_6]$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Ferric hydroxide is a positively charged sol, so its coagulation is induced by anions. According to the Hardy-Schulze rule, the ion with the highest negative charge, $[Fe(CN)_6]^{4-}$, will have the maximum coagulating power."
     },
     {
       "year": 2014,
@@ -109,7 +125,9 @@
         "C": "Less activation energy is required for it",
         "D": "Generally it results at low temperature and adsorption decreases with increase in temperature"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Physical adsorption (physisorption) is characterized by the formation of multimolecular layers on the adsorbent surface due to weak van der Waals forces. In contrast, chemical adsorption (chemisorption) results in a monomolecular layer because it involves the formation of chemical bonds."
     },
     {
       "year": 2014,
@@ -121,7 +139,9 @@
         "C": "$\\text{Cu} / \\text{ZnO}$",
         "D": "$\\text{Cu} / \\text{Cr}_2\\text{O}_3$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The reaction of carbon monoxide and hydrogen is highly selective based on the catalyst used. Using copper ($Cu$) as a catalyst specifically yields formaldehyde ($HCHO$), whereas other catalysts like $Ni$ or $Cu/ZnO$ would produce methane or methanol respectively."
     },
     {
       "year": 2015,
@@ -133,7 +153,9 @@
         "C": "Ammonia $\\text{NH}_3$",
         "D": "Di nitrogen $\\text{N}_2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The extent of gas adsorption on a solid depends on the ease of liquefaction of the gas, which is directly related to its critical temperature ($T_c$). Ammonia ($NH_3$) has a higher critical temperature compared to $H_2$, $N_2$, and $O_2$, making it the most easily adsorbed gas among the choices."
     },
     {
       "year": 2015,
@@ -145,7 +167,9 @@
         "C": "Multimolecular colloid",
         "D": "Macromolecular colloid"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Sulphur sol consists of particles containing thousands of $S_8$ molecules held together by van der Waals forces. Since these particles are formed by the aggregation of many smaller molecules, it is classified as a multimolecular colloid."
     },
     {
       "year": 2015,
@@ -157,7 +181,9 @@
         "C": "\\Delta H = -ve, \\Delta S = -ve",
         "D": "\\Delta H = +ve, \\Delta S = +ve"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Adsorption is an exothermic process ($\\Delta H < 0$) because energy is released when adsorbate molecules bond to the surface. Additionally, the entropy decreases ($\\Delta S < 0$) because the gas molecules lose their translational freedom upon being restricted to the adsorbent surface."
     },
     {
       "year": 2017,
@@ -169,7 +195,9 @@
         "C": "24",
         "D": "3"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Using the Freundlich equation $\\log(x/m) = \\log k + \\frac{1}{n} \\log P$, the intercept $\\log k = 0.4771$ gives $k = 3$ and the slope $\\frac{1}{n} = 0.5$. Substituting these into $x/m = k \\cdot P^{1/n}$ with $P = 4$ bar, we get $x/m = 3 \\times 4^{0.5} = 3 \\times 2 = 6$."
     },
     {
       "year": 2017,
@@ -181,7 +209,9 @@
         "C": "Hair cream",
         "D": "Milk"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "In an oil-in-water (O/W) emulsion like milk, the dispersed phase is oil. When an oil-soluble dye is added, it dissolves in the oil droplets, making them appear coloured against a colorless background, which confirms the emulsion type."
     },
     {
       "year": 2018,
@@ -193,7 +223,9 @@
         "C": "Move towards anode and cathode both",
         "D": "Do not move"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Ferric hydroxide $\\text{Fe(OH)}_3$ is a positively charged colloidal sol. During electrophoresis, these positively charged particles migrate towards the negatively charged electrode, which is the cathode."
     },
     {
       "year": 2018,
@@ -205,7 +237,9 @@
         "C": "$\\text{Fe}$",
         "D": "$\\text{V}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "In the Contact process for manufacturing sulphuric acid, platinum is used as a catalyst. Impurities like arsenic compounds or certain metal ions like $\\text{Cu}$ can occupy the active sites of the catalyst, reducing its efficiency and acting as catalytic poisons."
     },
     {
       "year": 2019,
@@ -217,7 +251,9 @@
         "C": "Emulsification",
         "D": "Flocculation"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The process of aggregating colloidal particles by adding an electrolyte to form an insoluble precipitate is known as coagulation. This occurs because the electrolyte neutralizes the charge on the colloidal particles, allowing them to clump together."
     },
     {
       "year": 2019,
@@ -229,7 +265,9 @@
         "C": "2AuCl3 + 3HCHO + 3H2O $\\rightarrow$ 2Au + 3HCOOH + 6HCl",
         "D": "As2O3 + 3H2S $\\rightarrow$ As2S + 3H2O"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The preparation of arsenic sulphide sol from arsenic oxide and hydrogen sulphide involves the exchange of ions between the two reactants. This chemical method is classified as a double decomposition reaction: $\\text{As}_2\\text{O}_3 + 3\\text{H}_2\\text{S} \\rightarrow \\text{As}_2\\text{S}_3 + 3\\text{H}_2\\text{O}$."
     },
     {
       "year": 2020,
@@ -241,7 +279,9 @@
         "C": "$\\text{Fe(OH)}_3$ sol",
         "D": "Gold sol"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Lyophilic sols, such as gelatin, are known as reversible sols because they can be easily reconstituted by adding the dispersion medium back to the residue. Lyophobic sols like gold or $\\text{Fe(OH)}_3$ are irreversible and cannot be easily recovered once precipitated."
     },
     {
       "year": 2021,
@@ -253,7 +293,9 @@
         "C": "[Diagram C]",
         "D": "[Diagram D]"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The Freundlich adsorption isotherm is mathematically expressed as $\\frac{x}{m} = kp^{1/n}$. The corresponding graph (Diagram C) shows the relationship between the extent of adsorption $\\frac{x}{m}$ and pressure $P$, where the curve eventually levels off at high pressures."
     },
     {
       "year": 2021,
@@ -265,7 +307,9 @@
         "C": "Reduction",
         "D": "Double decomposition"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "This reaction involves the mutual exchange of radicals between $\\text{As}_2\\text{O}_3$ and $\\text{H}_2\\text{S}$ to form the sol. Such a process, where two compounds react by exchanging components to form new products, is called double decomposition."
     },
     {
       "year": 2021,
@@ -277,7 +321,9 @@
         "C": "$\\text{Mg}^{2+}$",
         "D": "$\\text{Ba}^{2+}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "According to the Hardy-Schulze rule, the flocculating power of an ion increases with its valence. Since $\\text{As}_2\\text{S}_3$ is a negatively charged sol, the cation with the highest charge, $\\text{Al}^{3+}$, will be the most effective at causing coagulation."
     },
     {
       "year": 2022,
@@ -289,7 +335,9 @@
         "C": "$\\text{AgI/Ag}^+$",
         "D": "$\\text{AgI/I}^-$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "When $\\text{AgNO}_3$ is added to an excess of $\\text{KI}$, silver iodide ($\\text{AgI}$) precipitates and adsorbs the common iodide ions ($\\text{I}^-$) from the solution. This results in a negatively charged colloidal sol represented as $\\text{AgI/I}^-$."
     },
     {
       "year": 2022,
@@ -301,7 +349,9 @@
         "C": "(i) $\\rightarrow$ (r), (ii) $\\rightarrow$ (s), (iii) $\\rightarrow$ (q), (iv) $\\rightarrow$ (p)",
         "D": "(i) $\\rightarrow$ (p), (ii) $\\rightarrow$ (q), (iii) $\\rightarrow$ (r), (iv) $\\rightarrow$ (s)"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Colloidal systems are named based on the states of the dispersed phase and medium. A solid in liquid is a sol, liquid in solid is a gel, liquid in gas is an aerosol, and gas in liquid is a foam."
     },
     {
       "year": 2022,
@@ -313,7 +363,9 @@
         "C": "Rubber sol",
         "D": "Sol of $\\text{As}_2\\text{S}_3$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Micelles are associated colloids formed by surfactant molecules like soap. These molecules contain a lyophilic (hydrophilic) polar head and a lyophobic (hydrophobic) non-polar hydrocarbon tail, which aggregate in solution above a specific concentration."
     },
     {
       "year": 2023,
@@ -325,7 +377,9 @@
         "C": "It is not specific in nature",
         "D": "High temperature is favourable for adsorption. It increases with increase in temperature"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Physisorption is an exothermic process, meaning heat is evolved during the process. According to Le Chatelier's principle, the extent of physisorption decreases with an increase in temperature, making high temperature unfavorable."
     },
     {
       "year": 2023,
@@ -337,7 +391,9 @@
         "C": "$\\text{Al}^{3+} < \\text{Ba}^{2+} < \\text{Na}^+$",
         "D": "$\\text{PO}_4^{3-} < \\text{SO}_4^{2-} < \\text{Cl}^-$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Arsenic sulphide ($\\text{As}_2\\text{S}_3$) is a negatively charged sol, so it requires cations for coagulation. Based on the Hardy-Schulze rule, the flocculating power increases with the charge of the cation, resulting in the order $\\text{Al}^{3+} > \\text{Ba}^{2+} > \\text{Na}^+$."
     }
   ]
 }

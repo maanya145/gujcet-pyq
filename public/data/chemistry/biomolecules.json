@@ -13,7 +13,9 @@
         "C": "Organic solvents",
         "D": "Water"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Cellulose is a complex polysaccharide with extensive hydrogen bonding, making it insoluble in water and common organic solvents. It dissolves in Schweizer's reagent, which is an ammoniacal cupric hydroxide solution $[Cu(NH_3)_4](OH)_2$, as it forms a soluble complex with the cellulose chains."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "it contains one $-\\text{CH}_2\\text{OH}$ group",
         "D": "it contains one $-\\text{CHO}$ group"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Glucose is an aldohexose, meaning it contains one aldehyde group ($-\\text{CHO}$), one primary alcohol group ($-\\text{CH}_2\\text{OH}$), and four secondary alcohol groups ($-\\text{CHOH}$). It does not contain a ketone group; fructose is the functional isomer of glucose that contains a ketone group."
     },
     {
       "year": 2007,
@@ -37,7 +41,9 @@
         "C": "Burning of eyes",
         "D": "Anaemia"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Vitamin H, also known as Biotin, is a water-soluble vitamin essential for the health of skin, hair, and nails. Its deficiency typically leads to skin diseases like dermatitis, hair loss, and loss of muscular control."
     },
     {
       "year": 2008,
@@ -49,7 +55,9 @@
         "C": "It gives aspartame when it is heated at 210°C.",
         "D": "On hydrolysis, it gives equal quantities of D-glucose and D-fructose."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Sucrose is a non-reducing disaccharide that hydrolyzes into equal parts of D-glucose and D-fructose. While it forms caramel when heated to $210^\\circ\\text{C}$ ($483\\text{ K}$), it does not produce aspartame, which is a synthetic dipeptide used as an artificial sweetener."
     },
     {
       "year": 2008,
@@ -61,7 +69,9 @@
         "C": "Pyridoxin",
         "D": "Cyanocobalamine"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Vitamin $\\text{B}_{12}$ is a complex coordination compound containing cobalt as the central metal atom. Its chemical name is Cyanocobalamine, whereas Thiamin is $\\text{B}_1$, Riboflavin is $\\text{B}_2$, and Pyridoxine is $\\text{B}_6$."
     },
     {
       "year": 2008,
@@ -73,7 +83,9 @@
         "C": "Neucleotide",
         "D": "None of these"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "A nucleotide is the fundamental building block of nucleic acids, consisting of three components: a nitrogenous base, a pentose sugar, and a phosphate group. A nucleoside differs from a nucleotide as it lacks the phosphate group."
     },
     {
       "year": 2009,
@@ -85,7 +97,9 @@
         "C": "Gluconic acid",
         "D": "Glucosazone"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "When glucose reacts with an excess of phenylhydrazine ($\\text{C}_6\\text{H}_5\\text{NHNH}_2$), the first two carbon atoms are involved in the reaction to form a yellow crystalline compound known as glucosazone. This reaction is a standard test for identifying reducing sugars."
     },
     {
       "year": 2009,
@@ -97,7 +111,9 @@
         "C": "Neutral fats",
         "D": "Cholesterols"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "hard",
+      "explanation": "Neutral fats (triglycerides) are classified as simple lipids themselves, rather than being products obtained from the hydrolysis of other lipids. In contrast, substances like cholesterol are derived lipids, while terpenes and carotenoids are specialized lipid-like molecules not typically formed by the hydrolysis of simple or compound lipids."
     },
     {
       "year": 2011,
@@ -109,7 +125,9 @@
         "C": "Silicones",
         "D": "Sucrase"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Cellulose is the primary structural component of plant cell walls (found in paper and cloth). Ruminant animals like cows and buffaloes possess the enzyme cellulase in their digestive systems, which allows them to break down cellulose into glucose units for energy."
     },
     {
       "year": 2011,
@@ -121,7 +139,9 @@
         "C": "Position isomerism",
         "D": "Geometrical isomerism"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Glucose and fructose share the same molecular formula $\\text{C}_6\\text{H}_{12}\\text{O}_6$ but differ in their functional groups. Glucose contains an aldehyde group (aldohexose), while fructose contains a ketone group (ketohexose), making them functional group isomers."
     },
     {
       "year": 2011,
@@ -133,7 +153,9 @@
         "C": "Glucose fails to react with Sodium hydrogen sulphite.",
         "D": "Glucose reacts with Nitric acid."
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The cyclic structure of glucose is confirmed by its failure to undergo certain reactions typical of free aldehydes, such as forming an addition product with sodium hydrogen sulphite ($\\text{NaHSO}_3$). This indicates that the $-\\text{CHO}$ group is involved in a hemiacetal linkage within the ring."
     },
     {
       "year": 2011,
@@ -145,7 +167,9 @@
         "C": "Adrenal",
         "D": "Testes"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Progesterone is a steroid hormone primarily secreted by the corpus luteum in the ovaries. It is essential for regulating the menstrual cycle and preparing the uterine lining for the implantation of a fertilized egg."
     },
     {
       "year": 2014,
@@ -157,7 +181,9 @@
         "C": "Pyridoxine",
         "D": "$\\alpha$ - Tocopherol"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Vitamin $\\text{B}_{12}$ (Cyanocobalamine) is not synthesized by plants; it is produced by bacteria and is found almost exclusively in animal-based foods like meat, eggs, and dairy. Other vitamins like Thiamine and Tocopherol are widely available in various plant sources."
     },
     {
       "year": 2014,
@@ -169,7 +195,9 @@
         "C": "Alitame",
         "D": "Sucrolose"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "When sucrose is heated to its melting point and beyond (around $483\\text{ K}$), it loses water and undergoes a complex series of chemical reactions to form a brown, amorphous, and flavorful substance called caramel. This process is known as caramelization."
     },
     {
       "year": 2014,
@@ -181,7 +209,9 @@
         "C": "Lysine",
         "D": "Arginine"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Glycine is the simplest neutral amino acid because its side chain is a hydrogen atom, resulting in one amino group ($-\\text{NH}_2$) and one carboxyl group ($-\\text{COOH}$) that neutralize each other. Aspartic acid is acidic, while Lysine and Arginine are basic amino acids."
     },
     {
       "year": 2015,
@@ -193,7 +223,9 @@
         "C": "Vitamin - B_{12}",
         "D": "Vitamin - H"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Vitamin $B_1$ (Thiamine) is primarily found in yeast, milk, green vegetables, and cereals. While the liver is a rich source for vitamins like $B_2$, $B_{12}$, and $H$, it is not the primary source for $B_1$ according to standard biological sources."
     },
     {
       "year": 2015,
@@ -205,7 +237,9 @@
         "C": "Cellulose",
         "D": "Amylopectin"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Amylopectin is a branched polymer of $\\alpha$-D-glucose where the main chain has $C_1-O-C_4$ glycosidic linkages, but branching occurs via $C_1-O-C_6$ linkages. In contrast, lactose, maltose, and cellulose consist exclusively of $C_1-O-C_4$ linkages in their primary structures."
     },
     {
       "year": 2017,
@@ -217,7 +251,9 @@
         "C": "Alanine",
         "D": "Lysine"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Proline is unique among the standard amino acids because its side chain cycles back onto the nitrogen atom, forming a secondary amine (specifically an imino group). Other amino acids like glycine, alanine, and lysine contain primary amino groups ($-NH_2$)."
     },
     {
       "year": 2017,
@@ -229,7 +265,9 @@
         "C": "Albumin",
         "D": "Myosin"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Keratin is a fibrous protein that is the key structural material making up hair, nails, and silk. It is characterized by being insoluble in water and providing structural strength to biological tissues."
     },
     {
       "year": 2018,
@@ -241,7 +279,9 @@
         "C": "Uracil",
         "D": "Guanine"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Nitrogenous bases in nucleic acids are classified into purines and pyrimidines. Adenine ($A$) and Guanine ($G$) are purines, while Cytosine ($C$), Thymine ($T$), and Uracil ($U$) are pyrimidines."
     },
     {
       "year": 2018,
@@ -253,7 +293,9 @@
         "C": "Glutamic acid",
         "D": "Alanine"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Lysine is a basic amino acid because it contains an additional amino group in its side chain, resulting in an isoelectric point ($pI$) and $pH$ greater than $7$. Glycine and Alanine are neutral, while Glutamic acid is acidic."
     },
     {
       "year": 2019,
@@ -265,7 +307,9 @@
         "C": "Glucose is a cyclic compound containing five carbon atoms and one oxygen atom",
         "D": "Glucose is aldohexose"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The term \"pyranose\" refers to the six-membered cyclic structure of a sugar, which resembles the heterocyclic compound pyran. Glucose forms this ring by connecting the $C_1$ aldehyde group to the $C_5$ hydroxyl group, resulting in a ring with five carbon atoms and one oxygen atom."
     },
     {
       "year": 2019,
@@ -277,7 +321,9 @@
         "C": "Insulin",
         "D": "Carotene"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Myosin is a fibrous protein found in muscles that is responsible for muscle contraction. Fibrous proteins like myosin and keratin are generally insoluble in water, unlike globular proteins like albumin and insulin."
     },
     {
       "year": 2019,
@@ -289,7 +335,9 @@
         "C": "FFFT",
         "D": "TFFT"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Statement (i) is true as cytosine is a pyrimidine, and (iv) is true as DNA is the hereditary material. Statement (ii) is false because DNA contains $\\beta$-D-2-deoxyribose, and (iii) is false because the primary genetic message is stored in DNA, not RNA."
     },
     {
       "year": 2020,
@@ -301,7 +349,9 @@
         "C": "TTFT",
         "D": "FTTF"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Naturally occurring amino acids mostly have the $L$-configuration, and RNA contains $\\beta$-D-ribose sugar. Amylose is actually the water-soluble component of starch, and all monosaccharides are reducing sugars because they have free aldehydic or ketonic groups."
     },
     {
       "year": 2020,
@@ -313,7 +363,9 @@
         "C": "Ascorbic acid",
         "D": "Pyriodoxine"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Scurvy is a disease caused by a deficiency of Vitamin $C$, also known as ascorbic acid. It leads to symptoms like bleeding gums and skin spots due to the breakdown of collagen in the body."
     },
     {
       "year": 2021,
@@ -325,7 +377,9 @@
         "C": "Reaction with $\\text{NH}_2\\text{OH}$",
         "D": "Reaction with HCN"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "When glucose is heated with hydrogen iodide ($HI$) and red phosphorus, it is reduced to n-hexane. This reaction confirms that all six carbon atoms in glucose are linked in a straight chain."
     },
     {
       "year": 2021,
@@ -337,7 +391,9 @@
         "C": "Lysine",
         "D": "Leucine"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Glycine ($H_2N-CH_2-COOH$) is the only $\\alpha$-amino acid that is not optically active. This is because its $\\alpha$-carbon is attached to two hydrogen atoms, making it achiral and lacking an optical isomer."
     },
     {
       "year": 2021,
@@ -349,7 +405,9 @@
         "C": "Uracil",
         "D": "Adenine"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "DNA contains four nitrogenous bases: Adenine ($A$), Guanine ($G$), Cytosine ($C$), and Thymine ($T$). Uracil ($U$) is found in RNA instead of Thymine, so it is not present in DNA."
     },
     {
       "year": 2022,
@@ -361,7 +419,9 @@
         "C": "FFTT",
         "D": "TTTT"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "A nucleoside is formed by a sugar and a base, while a nucleotide includes a phosphate group; thus statements (I) and (II) are reversed. Statements (III) and (IV) correctly identify the nitrogenous bases present in DNA ($A, G, C, T$) and RNA ($A, G, C, U$)."
     },
     {
       "year": 2022,
@@ -373,7 +433,9 @@
         "C": "$C_1-C_2$ and $C_1-C_6$",
         "D": "$C_2-C_4$ and $C_4-C_6$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Amylopectin is a branched-chain polymer of $\\alpha$-D-glucose. It consists of linear chains formed by $C_1-C_4$ glycosidic linkages, while branching occurs through $C_1-C_6$ glycosidic linkages."
     },
     {
       "year": 2023,
@@ -385,7 +447,9 @@
         "C": "It react with Hydroxyl amine",
         "D": "It contain furanose structure"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Glucose is an aldohexose that naturally exists in a six-membered ring form known as the pyranose structure. Furanose structures are five-membered rings, which are characteristic of fructose rather than glucose."
     },
     {
       "year": 2023,
@@ -397,7 +461,9 @@
         "C": "Guanine",
         "D": "Cytosine"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "DNA contains four nitrogenous bases: Adenine (A), Guanine (G), Cytosine (C), and Thymine (T). Uracil (U) is a base found specifically in RNA, where it replaces Thymine."
     },
     {
       "year": 2024,
@@ -409,7 +475,9 @@
         "C": "$\text{b-D-Galactose}$ and $\text{b-D-Glucose}$",
         "D": "$\text{a-D-Glucose}$ and $\text{b-D-Galactose}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Lactose, commonly known as milk sugar, is a disaccharide composed of $\\beta$-D-galactose and $\\beta$-D-glucose. These units are linked together by a $\\beta$-glycosidic bond between $C_1$ of galactose and $C_4$ of glucose."
     },
     {
       "year": 2024,
@@ -421,7 +489,9 @@
         "C": "$\text{NH}_2-\text{CH}_2-\text{CH}_2-\text{NH}_2$",
         "D": "$\text{CH}_3\text{CH}_2\text{NH}_2$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Glycine ($\\text{NH}_2-\\text{CH}_2-\\text{COOH}$) is an amino acid containing both an acidic carboxyl group and a basic amino group. In aqueous solution, it exists as a Zwitter ion where the proton from the $-\\text{COOH}$ group is transferred to the $-\\text{NH}_2$ group."
     },
     {
       "year": 2024,
@@ -433,7 +503,9 @@
         "C": "Vitamin $\text{B}_2$",
         "D": "Vitamin $\text{B}_1$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Vitamin $\\text{B}_{12}$ (Cyanocobalamin) is essential for the proper formation and maturation of red blood cells. Its deficiency leads to pernicious anaemia, a condition where RBCs are deficient in haemoglobin."
     },
     {
       "year": 2024,
@@ -445,7 +517,9 @@
         "C": "A unit formed by the attachment of a base 1' position of sugar is known as nucleoside",
         "D": "RNA contains four bases adenine, guanine, cytosine and thymine"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "RNA contains the four nitrogenous bases Adenine, Guanine, Cytosine, and Uracil. Thymine is a base found exclusively in DNA, making the statement that RNA contains thymine incorrect."
     },
     {
       "year": 2025,
@@ -457,7 +531,9 @@
         "C": "Invertase",
         "D": "Zymase"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Zymase is the enzyme complex, typically obtained from yeast, that catalyzes the fermentation of glucose into ethanol and carbon dioxide. Other enzymes like invertase are used to hydrolyze sucrose into glucose and fructose."
     },
     {
       "year": 2025,
@@ -469,7 +545,9 @@
         "C": "Cytosine containing",
         "D": "Thymine containing"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Nucleotides in RNA contain the sugar ribose and one of four bases: Adenine, Guanine, Cytosine, or Uracil. Thymine-containing nucleotides are characteristic of DNA and are not present in RNA."
     },
     {
       "year": 2025,
@@ -481,7 +559,9 @@
         "C": "Primary structure",
         "D": "Secondary structure"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The primary structure of a protein refers to the specific linear sequence of amino acids linked by peptide bonds in a polypeptide chain. This sequence is fundamental as it determines the higher-order folding and function of the protein."
     },
     {
       "year": 2025,
@@ -493,7 +573,9 @@
         "C": "Riboflavin",
         "D": "Thiamine"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Scurvy is a deficiency disease caused by the lack of Vitamin C, also known as ascorbic acid. It results in symptoms like bleeding gums and delayed wound healing due to impaired collagen synthesis."
     },
     {
       "year": 2025,
@@ -505,7 +587,9 @@
         "C": "$\\text{NH}_4\\text{OH}$",
         "D": "$\\text{NH}_2\\text{NH}_2$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Glucose reacts with hydroxylamine ($\\text{NH}_2\\text{OH}$) to form an oxime through the condensation of the aldehyde group. This reaction is a standard test used to confirm the presence of a carbonyl group in the glucose molecule."
     }
   ]
 }

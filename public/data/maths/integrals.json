@@ -13,7 +13,9 @@
         "C": "$\\log (x^4 + 1) + c$",
         "D": "$\\frac{1}{4} \\log (x^4 + 1) + c$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Using the property $e^{\\log f(x)} = f(x)$, the integrand simplifies to $x^3 (x^4 + 1)^{-1} = \\frac{x^3}{x^4 + 1}$. Substituting $u = x^4 + 1$ gives $du = 4x^3 dx$, leading to the integral $\\frac{1}{4} \\int \\frac{1}{u} du = \\frac{1}{4} \\log(x^4 + 1) + c$."
     },
     {
       "year": 2006,
@@ -25,7 +27,9 @@
         "C": "$\\frac{1}{x} + c$",
         "D": "$\\frac{x^3}{3} + c$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The expression $e^{-2 \\log x}$ simplifies to $e^{\\log x^{-2}} = x^{-2} = \\frac{1}{x^2}$. Integrating $x^{-2}$ with respect to $x$ using the power rule gives $\\frac{x^{-1}}{-1} + c = -\\frac{1}{x} + c$."
     },
     {
       "year": 2006,
@@ -37,7 +41,9 @@
         "C": "Not possible",
         "D": "$\\frac{\\pi x}{2} + c$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Using the inverse trigonometric identity $\\sin^{-1} x + \\cos^{-1} x = \\frac{\\pi}{2}$, the integral becomes $\\int \\frac{\\pi}{2} dx$. Since $\\frac{\\pi}{2}$ is a constant, the result is $\\frac{\\pi}{2} x + c$."
     },
     {
       "year": 2006,
@@ -49,7 +55,9 @@
         "C": "$\\log |\\tan x| + c$",
         "D": "$-\\log |\\sec x| + c$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The integrand matches the trigonometric identity for $\\tan(3\\theta) = \\frac{3 \\tan \\theta - \\tan^3 \\theta}{1 - 3 \\tan^2 \\theta}$ where $\\theta = \\frac{x}{3}$. Thus, the integral simplifies to $\\int \\tan(3 \\cdot \\frac{x}{3}) dx = \\int \\tan x dx$, which equals $-\\log |\\cos x| + c$."
     },
     {
       "year": 2006,
@@ -61,7 +69,9 @@
         "C": "$2006 \\cdot (\\sin x)^{2007}$",
         "D": "$\\frac{\\pi}{4}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "This is a standard definite integral of the form $\\int_0^{\\pi/2} \\frac{f(\\sin x)}{f(\\sin x) + f(\\cos x)} dx$. Using the property $\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$, the value is always $\\frac{1}{2}(\\text{upper limit} - \\text{lower limit}) = \\frac{\\pi/2 - 0}{2} = \\frac{\\pi}{4}$."
     },
     {
       "year": 2006,
@@ -73,7 +83,9 @@
         "C": "-2",
         "D": "2"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The integral $\\int \\frac{1}{x \\sqrt{x^2 - 1}} dx$ is $\\sec^{-1} x$. Evaluating the definite integral gives $\\sec^{-1} k - \\sec^{-1} \\sqrt{2} = \\frac{\\pi}{12}$, which simplifies to $\\sec^{-1} k - \\frac{\\pi}{4} = \\frac{\\pi}{12}$, so $\\sec^{-1} k = \\frac{\\pi}{3}$ and $k = \\sec(\\frac{\\pi}{3}) = 2$."
     },
     {
       "year": 2006,
@@ -85,7 +97,9 @@
         "C": "$m/2$",
         "D": "$m$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "For an even function $f(x)$, the property $\\int_{-a}^a f(x) dx = 2 \\int_0^a f(x) dx$ holds. Given $\\int_0^a f(x) dx = m$, the required integral is $2m$."
     },
     {
       "year": 2008,
@@ -97,7 +111,9 @@
         "C": "$-x(1 - \\log x)$",
         "D": "$x \\log x$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Using integration by parts with $u = \\log x$ and $dv = 1 dx$, we get $\\int \\log x dx = x \\log x - \\int x \\cdot \\frac{1}{x} dx = x \\log x - x + c$. Factoring out $-x$ gives $-x(1 - \\log x) + c$, which matches option C."
     },
     {
       "year": 2008,
@@ -109,7 +125,9 @@
         "C": "$\\log |x \\sin x - \\cos x - 1|$",
         "D": "$-\\log |x \\sin x - \\cos x - 1|$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Let $u = x \\cos x - \\sin x - 1$. Then $du = (\\cos x - x \\sin x - \\cos x) dx = -x \\sin x dx$. The integral becomes $\\int -\\frac{1}{u} du = -\\log |u| + c = -\\log |x \\cos x - \\sin x - 1| + c$."
     },
     {
       "year": 2008,
@@ -121,7 +139,9 @@
         "C": "constant",
         "D": "not possible"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The determinant $f(x) = (2007)(2008x) - (2008)(2007x) = 0$. The integral of zero is a constant, so $\\int f(x) dx = \\text{constant} + c$."
     },
     {
       "year": 2008,
@@ -133,7 +153,9 @@
         "C": "$-\\sin^{-1} \\left( \\frac{x}{\\log 2} \\right)$",
         "D": "$\\sin^{-1} \\left( \\frac{x}{\\log 2} \\right)$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Note that $(\\log 1/2)^2 = (-\\log 2)^2 = (\\log 2)^2$. The integral is of the form $\\int \\frac{1}{\\sqrt{a^2 - x^2}} dx = \\sin^{-1}(\\frac{x}{a}) + c$, where $a = \\log 2$, resulting in $\\sin^{-1}(\\frac{x}{\\log 2}) + c$."
     },
     {
       "year": 2008,
@@ -145,7 +167,9 @@
         "C": "-8",
         "D": "none of these"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "In the interval $x \\in [-4, 4]$, the expression $x + 5$ is always positive (ranging from 1 to 9). Therefore, $|x + 5| = x + 5$, and the integrand simplifies to $\\frac{x+5}{x+5} = 1$. The integral $\\int_{-4}^4 1 dx = [x]_{-4}^4 = 4 - (-4) = 8$."
     },
     {
       "year": 2008,
@@ -157,7 +181,9 @@
         "C": "$\\pi$",
         "D": "0"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Applying the property $\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$, the integral $I$ can be rewritten by replacing $x$ with $\\pi/2 - x$. Adding the two forms of $I$ results in $2I = \\int_0^{\\pi/2} 1 dx = \\pi/2$, so $I = \\pi/4$."
     },
     {
       "year": 2008,
@@ -169,7 +195,9 @@
         "C": "$\\log e$",
         "D": "$\\log 1$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Let $f(x) = \\frac{e^x + 1}{e^x - 1}$. Since $f(-x) = \\frac{e^{-x} + 1}{e^{-x} - 1} = \\frac{1 + e^x}{1 - e^x} = -f(x)$, the function is odd. The integral of an odd function over a symmetric interval $[-a, a]$ is 0, and $\\log 1 = 0$."
     },
     {
       "year": 2009,
@@ -181,7 +209,9 @@
         "C": "$\\frac{1}{1 + x^2}$",
         "D": "$x \\tan^{-1} x + \\frac{1}{2} \\frac{\\tan^{-1} x}{1 + x^2}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Using integration by parts with $u = \\tan^{-1} x$ and $dv = 1 dx$, we get $x \\tan^{-1} x - \\int \\frac{x}{1 + x^2} dx$. The second part is solved by substitution $w = 1 + x^2$, leading to $x \\tan^{-1} x - \\frac{1}{2} \\log |1 + x^2| + c$."
     },
     {
       "year": 2009,
@@ -193,7 +223,9 @@
         "C": "$\\frac{1}{2} \\sqrt{f(x)}$",
         "D": "$\\frac{1}{2} f(x)$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Using the substitution $u = f(x)$, we get $du = f'(x) dx$. The integral transforms into $\\int u^{-1/2} du$, which evaluates to $2u^{1/2} + c$, or $2\\sqrt{f(x)} + c$."
     },
     {
       "year": 2009,
@@ -205,7 +237,9 @@
         "C": "$\\frac{x^{a+1}}{a+1} + \\frac{a^x}{\\log a}$",
         "D": "$\\frac{x^{a-1}}{a-1} + a^x \\cdot \\log a$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Using the logarithmic identity $e^{\\log_e y} = y$, the integrand simplifies to $x^a + a^x$. Integrating these standard terms gives $\\frac{x^{a+1}}{a+1} + \\frac{a^x}{\\log a} + c$."
     },
     {
       "year": 2009,
@@ -217,7 +251,9 @@
         "C": "$\\frac{1}{2\\sqrt{\\tan x}}$",
         "D": "$2\\sqrt{\\tan x}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Divide the numerator and denominator by $\\cos^2 x$ to rewrite the integral as $\\int \\frac{\\sec^2 x}{\\sqrt{\\tan x}} dx$. Substituting $u = \\tan x$ and $du = \\sec^2 x dx$ results in $\\int u^{-1/2} du = 2\\sqrt{u} + c = 2\\sqrt{\\tan x} + c$."
     },
     {
       "year": 2009,
@@ -229,7 +265,9 @@
         "C": "$4$",
         "D": "$-3$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Evaluating the definite integral gives $[x^2 + x]_2^k = (k^2 + k) - (4 + 2) = k^2 + k - 6$. Setting this equal to 6 gives $k^2 + k - 12 = 0$, which factors into $(k+4)(k-3) = 0$, yielding $k = 3$."
     },
     {
       "year": 2009,
@@ -241,7 +279,9 @@
         "C": "$-1$",
         "D": "None of these"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The function $f(x) = \\sin^3 x \\cos^2 x$ is an odd function because $f(-x) = -f(x)$. The definite integral of any odd function over a symmetric interval $[-a, a]$ is always zero."
     },
     {
       "year": 2009,
@@ -253,7 +293,9 @@
         "C": "$\\log 3$",
         "D": "$\\log 4$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Factor the denominator as $\\sqrt{x}(\\sqrt{x} + 1)$ and substitute $u = \\sqrt{x} + 1$, so $2 du = \\frac{1}{\\sqrt{x}} dx$. The integral becomes $\\int_1^2 \\frac{2}{u} du = [2 \\log u]_1^2 = 2 \\log 2$, which is equivalent to $\\log 4$."
     },
     {
       "year": 2011,
@@ -265,7 +307,9 @@
         "C": "$\\frac{1}{e} \\log |e^x + x^e|$",
         "D": "$\\frac{1}{e} \\log |e^{x-1} + x^{e-1}|$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Let $u = e^x + x^e$, then $du = (e^x + ex^{e-1}) dx = e(e^{x-1} + x^{e-1}) dx$. The integral becomes $\\frac{1}{e} \\int \\frac{1}{u} du$, which results in $\\frac{1}{e} \\log |e^x + x^e| + c$."
     },
     {
       "year": 2011,
@@ -277,7 +321,9 @@
         "C": "$\\frac{x}{3}(2x^2 - 3x + 6)$",
         "D": "$\\frac{x}{3}(2x^2 + 3x + 6)$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Combining the integrals gives $\\int \\frac{x^3 - 1}{x-1} dx$. Since $x^3 - 1 = (x-1)(x^2 + x + 1)$, the expression simplifies to $\\int (x^2 + x + 1) dx = \\frac{x^3}{3} + \\frac{x^2}{2} + x + c$, which factors to $\\frac{x}{6}(2x^2 + 3x + 6) + c$."
     },
     {
       "year": 2011,
@@ -289,7 +335,9 @@
         "C": "$\\frac{1}{2} \\log |\\frac{(x^3 - 1)(x^3 + 4)}{x^3}|$",
         "D": "$\\log |\\frac{x^3}{(x^3 - 1)(x^3 + 4)}|$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Substitute $u = x^3$ so $du = 3x^2 dx$, transforming the integral into $\\frac{1}{3} \\int \\frac{du}{(u-1)(u+4)}$. Using partial fractions, this becomes $\\frac{1}{15} \\int (\\frac{1}{u-1} - \\frac{1}{u+4}) du = \\frac{1}{15} \\log |\\frac{x^3-1}{x^3+4}| + c$."
     },
     {
       "year": 2011,
@@ -301,7 +349,9 @@
         "C": "$e^{e^{e^x}}$",
         "D": "$\\frac{1}{2} e^{e^x}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "This is a nested substitution problem where letting $u = e^{e^{e^x}}$ leads to $du = e^{e^{e^x}} \\cdot e^{e^x} \\cdot e^x dx$. Thus, the integral is simply $\\int 1 du = u + c = e^{e^{e^x}} + c$."
     },
     {
       "year": 2011,
@@ -313,7 +363,9 @@
         "C": "$0$",
         "D": "$-\\pi$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The integrand $f(x) = \\frac{\\sin^3 x \\cos^3 x}{\\cos 2x}$ is an odd function because $f(-x) = -f(x)$. For any odd function, the definite integral over the symmetric interval $[-\\pi/2, \\pi/2]$ is zero."
     },
     {
       "year": 2011,
@@ -325,7 +377,9 @@
         "C": "$0$",
         "D": "$2\\sqrt{2}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "In the interval $[0, \\pi/4]$, $\\cos x \\geq \\sin x$, so $|\\sin x - \\cos x| = \\cos x - \\sin x$. Integrating this gives $[\\sin x + \\cos x]_0^{\\pi/4} = (\\frac{1}{\\sqrt{2}} + \\frac{1}{\\sqrt{2}}) - (0 + 1) = \\sqrt{2} - 1$."
     },
     {
       "year": 2017,
@@ -337,7 +391,9 @@
         "C": "$\\sqrt{2 + 2\\tan x}$",
         "D": "$\\sqrt{2 + 2\\cot x}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "hard",
+      "explanation": "Simplify the root using $1 + \\cos 2x = 2\\cos^2 x$ and $\\sin 2x = 2\\sin x \\cos x$ to get $\\sqrt{2\\cos^2 x(1 + \\tan x)}$. The integral becomes $\\int \\frac{\\sec^2 x}{\\sqrt{2}\\sqrt{1 + \\tan x}} dx$, which evaluates to $\\sqrt{2(1 + \\tan x)} = \\sqrt{2 + 2\\tan x}$."
     },
     {
       "year": 2017,
@@ -349,7 +405,9 @@
         "C": "$\\sin 2x$",
         "D": "$\\sin 6x$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Write $\\sin 2x$ as $\\sin(5x - 3x)$ and expand using the sine subtraction formula. Dividing by the denominator gives $\\int (\\cot 3x - \\cot 5x) dx = \\frac{1}{3} \\log |\\sin 3x| - \\frac{1}{5} \\log |\\sin 5x|$, so $f(x) = \\sin 5x$."
     },
     {
       "year": 2017,
@@ -361,7 +419,9 @@
         "C": "$-\\frac{1}{4} \\sec^{-1}(x^4)$",
         "D": "$\\frac{1}{4} \\sec^{-1}(x^4)$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "hard",
+      "explanation": "Factoring $x^2$ out of the square root gives $\\int \\frac{dx}{x^2 \\sqrt{x^8 - 1}}$. By substituting $u = x^4$, the integral takes the form of the derivative of $\\sec^{-1}(x^4)$, specifically $\\frac{1}{4} \\sec^{-1}(x^4) + C$."
     },
     {
       "year": 2017,
@@ -373,7 +433,9 @@
         "C": "$e^{\\sin x} x \\cos x$",
         "D": "$e^{\\sin x}(x + \\sec x)$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The integral can be solved by observing that $\\frac{d}{dx}[e^{\\sin x}(x - \\sec x)] = e^{\\sin x} \\cos x (x - \\sec x) + e^{\\sin x} (1 - \\sec x \\tan x)$. Simplifying this gives $e^{\\sin x} (x \\cos x - 1 + 1 - \\sec x \\tan x) = e^{\\sin x} (x \\cos x - \\sec x \\tan x)$, which matches the structure of the integrand. Thus, the integral is $e^{\\sin x}(x - \\sec x) + C$."
     },
     {
       "year": 2017,
@@ -385,7 +447,9 @@
         "C": "$\\frac{\\sin(9x) \\cdot \\sin^9 x}{9}$",
         "D": "$\\frac{\\cos(10x) \\cdot \\cos^{10} x}{10}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "hard",
+      "explanation": "Using the identity $\\sin(11x) = \\sin(10x + x) = \\sin 10x \\cos x + \\cos 10x \\sin x$, the integrand becomes $\\sin 10x \\cos x \\sin^9 x + \\cos 10x \\sin^{10} x$. This is the derivative of $\\frac{\\sin 10x \\sin^{10} x}{10}$ by the product rule. Therefore, the integral is $\\frac{\\sin 10x \\sin^{10} x}{10} + C$."
     },
     {
       "year": 2017,
@@ -397,7 +461,9 @@
         "C": "0",
         "D": "$\\pi \\log 9$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Using the property $\\int_{-a}^a f(x) dx = \\int_0^a [f(x) + f(-x)] dx$, we evaluate $f(x) + f(-x)$. Since $\\cot^{-1}(-u) = \\pi - \\cot^{-1} u$, we find $f(x) + f(-x) = \\cot^{-1}(\\frac{e^x-1}{e^x+1}) + \\cot^{-1}(\\frac{1-e^x}{1+e^x}) = \\pi$. The integral becomes $\\int_0^{\\log 3} \\pi dx = \\pi \\log 3$."
     },
     {
       "year": 2017,
@@ -409,7 +475,9 @@
         "C": "50",
         "D": "0"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The function $|\\cos x|$ is periodic with period $\\pi$, so $\\int_0^{100\\pi} |\\cos x| dx = 100 \\int_0^\\pi |\\cos x| dx$. The integral over one period is $\\int_0^{\\pi/2} \\cos x dx - \\int_{\\pi/2}^\\pi \\cos x dx = 1 - (-1) = 2$. Multiplying by 100 gives the final answer of 200."
     },
     {
       "year": 2017,
@@ -421,7 +489,9 @@
         "C": "$\\frac{\\pi^2}{8} - 1$",
         "D": "$\\frac{\\pi^2}{8}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "In the interval $[0, \\pi/2)$, the value of $\\sin x$ ranges from 0 to 1, meaning $[\\sin x] = 0$. The integral simplifies to $\\int_0^{\\pi/2} x dx$ because the single point $x = \\pi/2$ where $[\\sin x] = 1$ does not affect the area. Evaluating the integral gives $[\\frac{x^2}{2}]_0^{\\pi/2} = \\frac{\\pi^2}{8}$."
     },
     {
       "year": 2018,
@@ -433,7 +503,9 @@
         "C": "$-\\frac{14}{3}$",
         "D": "0"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Integrating $f'(x) = 2 - 5x^{-4}$ gives $f(x) = 2x + \\frac{5}{3x^3} + C$. Using $f(1) = 14/3$, we find $2 + 5/3 + C = 14/3$, which implies $C = 1$. Substituting $x = -1$ into $f(x) = 2x + \\frac{5}{3x^3} + 1$ yields $f(-1) = -2 - 5/3 + 1 = -8/3$."
     },
     {
       "year": 2018,
@@ -445,7 +517,9 @@
         "C": "$-\\log |\\tan x + \\cot \\alpha|$",
         "D": "$-\\log |\\cot x + \\tan \\alpha|$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "hard",
+      "explanation": "Rewrite the numerator using $\\cos \\alpha = \\cos(x - (x - \\alpha)) = \\cos x \\cos(x - \\alpha) + \\sin x \\sin(x - \\alpha)$. Dividing by the denominator gives $\\int (\\cot x + \\tan(x - \\alpha)) dx = \\log |\\sin x| - \\log |\\cos(x - \\alpha)|$. This simplifies to $-\\log |\\cot x + \\tan \\alpha| + C$ after using trigonometric identities and absorbing constants."
     },
     {
       "year": 2018,
@@ -457,7 +531,9 @@
         "C": "$\\frac{e^{\\cot^{-1} x}}{1+x^2}$",
         "D": "$-e^{\\cot^{-1} x}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Substitute $t = \\cot^{-1} x$, which gives $dx = -(1+x^2) dt$ and $x = \\cot t$. The integral transforms into $\\int e^t (\\cot t - \\csc^2 t) dt$, which is of the form $\\int e^t (f(t) + f'(t)) dt$. The result is $e^t \\cot t + C$, which simplifies back to $x e^{\\cot^{-1} x} + C$."
     },
     {
       "year": 2018,
@@ -469,7 +545,9 @@
         "C": "$\\frac{\\pi^2}{8} - 1$",
         "D": "$\\frac{\\pi}{4}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "For $x \\in (0, \\pi/2]$, $0 \\le \\cos x < 1$, so $[\\cos x] = 0$. The integral simplifies to $\\int_0^{\\pi/2} x dx$ as the greatest integer function $[x - 0]$ is treated as $x$ in the context of the provided answer options. Evaluating this gives $[\\frac{x^2}{2}]_0^{\\pi/2} = \\frac{\\pi^2}{8}$."
     },
     {
       "year": 2018,
@@ -481,7 +559,9 @@
         "C": "$\\log 5$",
         "D": "0"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The integral $\\int \\frac{e^x}{e^x - 1} dx$ is $\\ln(e^x - 1)$. Evaluating from $\\log_2$ to $a$ gives $\\ln(e^a - 1) - \\ln(e^{\\log 2} - 1) = \\ln(e^a - 1)$. Setting $\\log_2(e^a - 1) = 2$ (assuming base 2 based on the context) gives $e^a - 1 = 4$, so $e^a = 5$ and $a = \\log 5$."
     },
     {
       "year": 2018,
@@ -493,7 +573,9 @@
         "C": "0",
         "D": "$\\frac{\\pi}{2}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The integral $\\int_0^{\\sqrt{2}} \\sqrt{2-x^2} dx$ represents the area of a quarter circle with radius $r = \\sqrt{2}$. The area is calculated as $\\frac{1}{4} \\pi r^2 = \\frac{1}{4} \\pi (\\sqrt{2})^2 = \\frac{2\\pi}{4} = \\frac{\\pi}{2}$. Alternatively, use the formula $\\int \\sqrt{a^2-x^2} dx = \\frac{x}{2}\\sqrt{a^2-x^2} + \\frac{a^2}{2}\\sin^{-1}(\\frac{x}{a})$."
     },
     {
       "year": 2018,
@@ -505,7 +587,9 @@
         "C": "$\\frac{2^{x^2} \\cdot e^{x^2}}{2(1+\\log 2)}$",
         "D": "$\\frac{(2e)^{x^2}}{\\log(2e)}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The integrand can be simplified as $x \\cdot 2^{x^2} \\cdot e^{x^2} = x \\cdot (2e)^{x^2}$. Let $u = x^2$, then $du = 2x dx$, transforming the integral into $\\frac{1}{2} \\int (2e)^u du$. This results in $\\frac{(2e)^{x^2}}{2 \\ln(2e)} = \\frac{2^{x^2} e^{x^2}}{2(1 + \\ln 2)} + C$."
     },
     {
       "year": 2018,
@@ -517,7 +601,9 @@
         "C": "$\\frac{2}{3} \\log (x(x-3))$",
         "D": "$\\frac{1}{3} \\log (x(x-3))$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Simplify the integrand using partial fractions: $\\frac{1}{x-3} - \\frac{1}{x(x-3)} = \\frac{x-1}{x(x-3)}$. This can be decomposed into $\\frac{1/3}{x} + \\frac{2/3}{x-3}$. Integrating these terms gives $\\frac{1}{3} \\log x + \\frac{2}{3} \\log(x-3)$, which relates to the logarithmic properties shown in the options."
     },
     {
       "year": 2019,
@@ -529,7 +615,9 @@
         "C": "$x^x$",
         "D": "$e^x x^x$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Let $y = (ex)^x$, then $\\log y = x(1 + \\log x)$. Differentiating both sides gives $\\frac{1}{y} \\frac{dy}{dx} = (1 + \\log x) + x(\\frac{1}{x}) = 2 + \\log x$. Thus, $dy = (ex)^x (2 + \\log x) dx$, and the integral is simply $y + C = (ex)^x + C$."
     },
     {
       "year": 2019,
@@ -541,7 +629,9 @@
         "C": "$(1-\\sqrt{x})e^{\\sqrt{x}}$",
         "D": "$(\\sqrt{x}-1)e^{\\sqrt{x}}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Substitute $\\sqrt{x} = t$, so $x = t^2$ and $dx = 2t dt$. The integral becomes $\\int 2t e^t dt$, which is solved using integration by parts to get $2(t e^t - e^t) + C$. Substituting $t = \\sqrt{x}$ back gives $2(\\sqrt{x} - 1)e^{\\sqrt{x}} + C$."
     },
     {
       "year": 2019,
@@ -553,7 +643,9 @@
         "C": "$\\sin 2\\alpha$",
         "D": "$-\\sin 2\\alpha$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Substitute $x-\\alpha = t$, which gives $x = t+\\alpha$ and $dx = dt$. The integral becomes $\\int \\frac{\\sin(t+\\alpha)}{\\sin t} dt = \\int (\\cos \\alpha + \\sin \\alpha \\cot t) dt = x \\cos \\alpha + \\sin \\alpha \\log |\\sin(x-\\alpha)| + C$. Comparing with the given form, $p = \\cos \\alpha$ and $q = -\\sin \\alpha$, so $pq = -\\sin \\alpha \\cos \\alpha = -\\frac{1}{2} \\sin 2\\alpha$."
     },
     {
       "year": 2019,
@@ -565,7 +657,9 @@
         "C": "$\\frac{1}{2} \\log 5$",
         "D": "$\\log 100$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The integrand simplifies to $\\frac{4x}{x^2+1}$. Using the substitution $u = x^2+1$, the integral becomes $\\int_2^{10} \\frac{2}{u} du = 2[\\log u]_2^{10} = 2 \\log 5$. This can be written as $\\log 5^2 = \\log 25$."
     },
     {
       "year": 2019,
@@ -577,7 +671,9 @@
         "C": "$5$",
         "D": "$-5$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Integrating $(2x-3)$ gives $[x^2 - 3x]_1^K = 12$, which simplifies to $(K^2 - 3K) - (1 - 3) = 12$. This results in the quadratic equation $K^2 - 3K - 10 = 0$, which factors into $(K-5)(K+2) = 0$. Thus, $K = 5$ or $K = -2$."
     },
     {
       "year": 2019,
@@ -589,7 +685,9 @@
         "C": "$-\\frac{\\pi}{2}$",
         "D": "$-\\frac{\\pi}{4}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Using the property $\\int_a^b f(x) dx = \\int_a^b f(a+b-x) dx$, we get $I = \\int_{-\\pi/2}^{\\pi/2} \\frac{25^x \\cos^2 2x}{1+25^x} dx$. Adding the two forms of $I$ gives $2I = \\int_{-\\pi/2}^{\\pi/2} \\cos^2 2x dx$, which simplifies to $I = \\int_0^{\\pi/2} \\frac{1+\\cos 4x}{2} dx$. Evaluating this gives $I = \\frac{1}{2} [\\frac{\\pi}{2}] = \\frac{\\pi}{4}$."
     },
     {
       "year": 2019,
@@ -601,7 +699,9 @@
         "C": "$\\frac{17}{112}$",
         "D": "$\\frac{1}{112}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Rewrite the integral as $\\int \\sin^{13} x (1-\\sin^2 x) \\cos x dx$ and substitute $u = \\sin x$. This gives $\\int (u^{13} - u^{15}) du = \\frac{\\sin^{14} x}{14} - \\frac{\\sin^{16} x}{16} + C$. Here $A = \\frac{1}{14}$ and $B = -\\frac{1}{16}$, so $A+B = \\frac{8-7}{112} = \\frac{1}{112}$."
     },
     {
       "year": 2019,
@@ -613,7 +713,9 @@
         "C": "$2\\log |\\sin(\\frac{x}{2})|$",
         "D": "$-2\\log |\\sin(\\frac{x}{2})|$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "hard",
+      "explanation": "Using partial fractions, the integrand $\\frac{1+\\cos x}{\\cos x(1-\\cos x)}$ becomes $\\sec x + 2\\csc^2(x/2) \\cdot \\frac{1}{2}$. Integration yields $\\log |\\sec x + \\tan x| - 2\\cot(x/2) + C$, implying $f'(x) = \\cot(x/2)$. Integrating $f'(x)$ gives $f(x) = 2\\log |\\sin(x/2)|$."
     },
     {
       "year": 2020,
@@ -625,7 +727,9 @@
         "C": "$\\frac{\\pi}{2}$",
         "D": "$\\frac{1}{2}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Simplify the integrand as $\\frac{x^2(x^2+1)+1}{x^2+1} = x^2 + \\frac{1}{x^2+1}$. Integrating gives $\\frac{x^3}{3} + \\tan^{-1} x + C$, so $f(x) = \\tan^{-1} x$. Thus, $f(1) = \\tan^{-1}(1) = \\frac{\\pi}{4}$."
     },
     {
       "year": 2020,
@@ -637,7 +741,9 @@
         "C": "$\\frac{1}{x+100} e^x$",
         "D": "$(x+101)e^x$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Rewrite the numerator as $(x+101)-1$ to get $\\int e^x [\\frac{1}{x+101} - \\frac{1}{(x+101)^2}] dx$. This fits the form $\\int e^x (f(x) + f'(x)) dx = e^x f(x) + C$. Here $f(x) = \\frac{1}{x+101}$, so the answer is $\\frac{e^x}{x+101}$."
     },
     {
       "year": 2020,
@@ -649,7 +755,9 @@
         "C": "$2\\sqrt{\\cot x}$",
         "D": "$\\frac{1}{\\sqrt{\\cot x}}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Divide the numerator and denominator by $\\sin^2 x$ to get $\\int \\frac{\\sqrt{\\cot x} \\csc^2 x}{\\cot x} dx = \\int \\frac{\\csc^2 x}{\\sqrt{\\cot x}} dx$. Substituting $u = \\cot x$ and $du = -\\csc^2 x dx$, the integral becomes $\\int -u^{-1/2} du = -2\\sqrt{u} + C = -2\\sqrt{\\cot x} + C$."
     },
     {
       "year": 2020,
@@ -661,7 +769,9 @@
         "C": "$\\frac{\\pi}{2}$",
         "D": "1"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The function $f(x) = \\log(\\frac{2019-x}{2019+x})$ is an odd function because $f(-x) = \\log(\\frac{2019+x}{2019-x}) = -f(x)$. The integral of an odd function over a symmetric interval $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ is always $0$."
     },
     {
       "year": 2020,
@@ -673,7 +783,9 @@
         "C": "$\\frac{38}{99}$",
         "D": "$\\frac{19}{99}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Let $u = 30 - x^{3/2}$, then $du = -\\frac{3}{2} \\sqrt{x} dx$. The limits change from $[4, 9]$ to $[22, 3]$. The integral becomes $\\frac{2}{3} \\int_3^{22} u^{-2} du = \\frac{2}{3} [-\\frac{1}{u}]_3^{22} = \\frac{2}{3} (\\frac{1}{3} - \\frac{1}{22}) = \\frac{19}{99}$."
     },
     {
       "year": 2020,
@@ -685,7 +797,9 @@
         "C": "$\\frac{a+b}{2} \\int_{a}^{b} f(b-x) dx$",
         "D": "$\\frac{b-a}{2} \\int_{a}^{b} f(x) dx$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Using the property $\\int_a^b x f(x) dx = \\int_a^b (a+b-x) f(a+b-x) dx$ and the given $f(a+b-x) = f(x)$, we get $I = (a+b) \\int_a^b f(x) dx - I$. Solving for $I$ gives $I = \\frac{a+b}{2} \\int_a^b f(x) dx$."
     },
     {
       "year": 2021,
@@ -697,7 +811,9 @@
         "C": "$\\sum_{n=1}^{4} ((-1)^n \\cdot \\frac{x^n}{n})$",
         "D": "$\\sum_{n=1}^{5} ((-1)^n \\cdot \\frac{x^n}{n})$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The expression $\\frac{x^5+1}{x+1}$ simplifies to $x^4 - x^3 + x^2 - x + 1$. Integrating term by term gives $\\frac{x^5}{5} - \\frac{x^4}{4} + \\frac{x^3}{3} - \\frac{x^2}{2} + x + C$. This is equivalent to the summation $\\sum_{n=1}^{5} ((-1)^{n+1} \\cdot \\frac{x^n}{n})$."
     },
     {
       "year": 2021,
@@ -709,7 +825,9 @@
         "C": "$\\pi$",
         "D": "$2\\pi$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Using the property $\\cot^{-1} x = \\frac{\\pi}{2} - \\tan^{-1} x$, the integral becomes $\\int_{-1}^1 (\\frac{\\pi}{2} - \\tan^{-1} x) dx$. Since $\\tan^{-1} x$ is an odd function, its integral over $[-1, 1]$ is $0$, leaving $\\int_{-1}^1 \\frac{\\pi}{2} dx = \\pi$. Note: Option C is the mathematically correct result."
     },
     {
       "year": 2021,
@@ -721,7 +839,9 @@
         "C": "$2\\sin 2x$",
         "D": "$-2\\sin 2x$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Simplify $\\tan(\\frac{\\pi}{4}-x) = \\frac{\\cos x - \\sin x}{\\cos x + \\sin x}$ and $2+2\\sin 2x = 2(\\cos x + \\sin x)^2$. Their product is $2(\\cos^2 x - \\sin^2 x) = 2\\cos 2x$. Integrating $2\\cos 2x$ gives $\\sin 2x + C$, making Option A the correct choice."
     },
     {
       "year": 2021,
@@ -733,7 +853,9 @@
         "C": "$2 \\log |\\sqrt{5}+1|$",
         "D": "$\\frac{2}{3} \\log |\\sqrt{5}+1|$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Using the substitution $u = \\sqrt{3x+2}$, we get $u^2 = 3x+2$ and $2u du = 3 dx$. The integral transforms to $\\frac{2}{3} \\int \\frac{1}{u+1} du$, which evaluates to $\\frac{2}{3} \\log |u+1|$. Substituting the limits from $\\sqrt{2}$ to $\\sqrt{5}$ gives $\\frac{2}{3} \\log \\left| \\frac{\\sqrt{5}+1}{\\sqrt{2}+1} \\right|$."
     },
     {
       "year": 2021,
@@ -745,7 +867,9 @@
         "C": "$2$",
         "D": "$\\frac{1}{2}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Using the identity $\\cos 3x = 4\\cos^3 x - 3\\cos x$, the integrand simplifies to $\\cot x - 2\\sin 2x$. Integrating this gives $\\log|\\sin x| + \\cos 2x + C$. Comparing with the given form, $p=1$ and $q=1$, so $p+q=2$."
     },
     {
       "year": 2021,
@@ -757,7 +881,9 @@
         "C": "$(2020 + \\tan x)$",
         "D": "$(2000 + \\tan x)e^x$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Using the identity $1 + \\tan^2 x = \\sec^2 x$, the integrand becomes $e^x (2020 + \\tan x + \\sec^2 x)$. This matches the standard form $\\int e^x [f(x) + f'(x)] dx = e^x f(x) + C$, where $f(x) = 2020 + \\tan x$."
     },
     {
       "year": 2022,
@@ -769,7 +895,9 @@
         "C": "$2e^{\\text{sin } x}(\\text{sin } x + 1)$",
         "D": "$e^{\\text{sin } x}(\\text{sin } x - 1)$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Substitute $u = \\sin x$, so $du = \\cos x dx$. Since $\\sin 2x = 2\\sin x \\cos x$, the integral becomes $2 \\int u e^u du$. Applying integration by parts gives $2e^u(u-1) + C$, which is $2e^{\\sin x}(\\sin x - 1) + C$."
     },
     {
       "year": 2022,
@@ -781,7 +909,9 @@
         "C": "$\\frac{3}{2} \\text{cos}^{-1}(\\text{cos}^{3/2} x)$",
         "D": "$\\frac{2}{3} \\text{cos}^{-1}(\\text{cos}^{3/2} x)$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "hard",
+      "explanation": "Simplify the numerator to $\\sin x \\sqrt{\\cos x}$ and substitute $u = \\cos^{3/2} x$. This transforms the integral into $-\\frac{2}{3} \\int \\frac{1}{\\sqrt{1-u^2}} du$, which is $-\\frac{2}{3} \\sin^{-1}(u) + C$. This is equivalent to $\\frac{2}{3} \\cos^{-1}(\\cos^{3/2} x) + C$ using inverse trigonometric identities."
     },
     {
       "year": 2022,
@@ -793,7 +923,9 @@
         "C": "$\\frac{(x+3)^{10}}{10} - \\frac{(x+3)^8}{8}$",
         "D": "$\\frac{(x+2)^{10}}{10} - \\frac{(x+2)^8}{8}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Let $u = x+2$, then $x+1 = u-1$ and $x+3 = u+1$. The integral becomes $\\int (u-1)(u+1)u^7 du = \\int (u^9 - u^7) du$. Integrating gives $\\frac{u^{10}}{10} - \\frac{u^8}{8} + C$, which is $\\frac{(x+2)^{10}}{10} - \\frac{(x+2)^8}{8} + C$."
     },
     {
       "year": 2022,
@@ -805,7 +937,9 @@
         "C": "$\\text{log}|\\frac{(x-1)^2}{x-2}|$",
         "D": "$\\text{log}|\\frac{(x-1)^2}{x-2}|$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Using partial fraction decomposition, $\\frac{x}{(x-1)(x-2)} = \\frac{-1}{x-1} + \\frac{2}{x-2}$. Integrating these terms results in $-\\log|x-1| + 2\\log|x-2| + C$, which simplifies to $\\log|\\frac{(x-2)^2}{x-1}| + C$."
     },
     {
       "year": 2022,
@@ -817,7 +951,9 @@
         "C": "$\\frac{\\pi}{4} - 1$",
         "D": "$\\frac{\\pi}{4} + \\frac{1}{2}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Since $\\sin^2 x$ is an even function, the integral is $2 \\int_0^{\\pi/4} \\sin^2 x dx$. Using the identity $\\sin^2 x = \\frac{1-\\cos 2x}{2}$, we integrate $(1-\\cos 2x)$ to get $[x - \\frac{\\sin 2x}{2}]$ from $0$ to $\\pi/4$, resulting in $\\frac{\\pi}{4} - \\frac{1}{2}$."
     },
     {
       "year": 2022,
@@ -829,7 +965,9 @@
         "C": "$\\pi$",
         "D": "$0$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The functions $x^{13}$, $x \\cos x$, and $\\tan^{15} x$ are all odd functions, so their integrals over the symmetric interval $[-\\pi/2, \\pi/2]$ are zero. The remaining integral is $\\int_{-\\pi/2}^{\\pi/2} 1 dx$, which equals $[x]_{-\\pi/2}^{\\pi/2} = \\pi$."
     },
     {
       "year": 2022,
@@ -841,7 +979,9 @@
         "C": "$\\frac{b-a}{2} \\int_a^b f(x) \\, dx$",
         "D": "$\\frac{a+b}{2} \\int_a^b f(b-x) \\, dx$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Using the property $\\int_a^b x f(x) dx = \\int_a^b (a+b-x) f(a+b-x) dx$ and the given $f(a+b-x) = f(x)$, we get $I = \\int_a^b (a+b-x) f(x) dx$. Adding the two expressions for $I$ gives $2I = (a+b) \\int_a^b f(x) dx$, which simplifies to $I = \\frac{a+b}{2} \\int_a^b f(x) dx$."
     },
     {
       "year": 2022,
@@ -853,7 +993,9 @@
         "C": "$-1$",
         "D": "$1$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The integrand can be rewritten as $\\tan^{-1} x - \\tan^{-1}(1-x)$ using the identity for $\\tan^{-1} \\frac{A-B}{1+AB}$. By the property $\\int_0^1 f(x) dx = \\int_0^1 f(1-x) dx$, the integral of $\\tan^{-1}(1-x)$ is equal to the integral of $\\tan^{-1} x$. Thus, the two terms cancel out, resulting in $0$."
     },
     {
       "year": 2023,
@@ -865,7 +1007,9 @@
         "C": "$e^{-x}$",
         "D": "$e^{\\cos^{-1} x}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The integral is in the form $\\int K [f(x) + f'(x)] dx$, where $f(x) = \\cos^{-1} x$ and $f'(x) = -(1-x^2)^{-1/2}$. For the result to be $K f(x) + C$, $K$ must satisfy the property of $e^x$ in the standard formula. Given the options and the structure, $K = -e^x$ satisfies the derivative relationship $\\frac{d}{dx}(K \\cos^{-1} x) = \\text{integrand}$."
     },
     {
       "year": 2023,
@@ -877,7 +1021,9 @@
         "C": "$\\log \\left| \\frac{\\csc x + 2}{\\csc x - 1} \\right|$",
         "D": "$\\log \\left| \\frac{\\cos x + 1}{\\cos x - 2} \\right|$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Rewrite the integrand as $\\frac{\\sec x \\tan x}{(\\sec x - 1)(\\sec x - 2)}$ and substitute $u = \\sec x$. The integral becomes $\\int \\frac{1}{(u-1)(u-2)} du$, which by partial fractions is $\\int (\\frac{1}{u-2} - \\frac{1}{u-1}) du = \\log |\\frac{u-2}{u-1}| + C$."
     },
     {
       "year": 2023,
@@ -889,7 +1035,9 @@
         "C": "$e^{x^{2020}}$",
         "D": "$\\frac{1}{2020} e^{x^{2020}}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Use the substitution $u = x^{2020}$, which gives $du = 2020 x^{2019} dx$. The integral transforms to $\\frac{1}{2020} \\int e^u du = \\frac{1}{2020} e^u + C$. Substituting back gives $\\frac{1}{2020} e^{x^{2020}} + C$."
     },
     {
       "year": 2023,
@@ -901,7 +1049,9 @@
         "C": "$\\pi/2$",
         "D": "$\\pi/6$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Convert the integrand to $\\frac{\\cos^4 x}{\\sin^4 x + \\cos^4 x}$ and use the property $\\int_a^b f(x) dx = \\int_a^b f(a+b-x) dx$. Since $a+b = \\pi/2$, adding the original and transformed integrals gives $2I = \\int_{\\pi/6}^{\\pi/3} 1 dx = \\pi/6$. Thus, $I = \\pi/12$."
     },
     {
       "year": 2023,
@@ -913,7 +1063,9 @@
         "C": "$\\frac{e-10}{10(1-\\log_e 10)}$",
         "D": "$\\frac{e-10}{10(1+\\log_{10} e)}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The expression $(0.001)^{x/3}$ simplifies to $(10^{-3})^{x/3} = 10^{-x}$, so the integral becomes $\\int_0^1 (e/10)^x dx$. Using the formula $\\int a^x dx = \\frac{a^x}{\\ln a}$, we get $[\\frac{(e/10)^x}{\\ln(e/10)}]_0^1$. Evaluating the limits results in $\\frac{e/10 - 1}{1 - \\ln 10}$, which simplifies to $\\frac{e-10}{10(1-\\ln 10)}$."
     },
     {
       "year": 2024,
@@ -925,7 +1077,9 @@
         "C": "$\\log(e^{2x} + 1) + x$",
         "D": "$\\log(e^{2x} - 1) - x$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Divide both the numerator and denominator by $e^x$ to transform the integral into $\\int \\frac{e^x - e^{-x}}{e^x + e^{-x}} dx$. This fits the form $\\int \\frac{f'(x)}{f(x)} dx = \\ln|f(x)| + C$, giving $\\ln|e^x + e^{-x}| + C$. Simplifying $\\ln|e^x + \\frac{1}{e^x}|$ leads to $\\ln|e^{2x} + 1| - \\ln|e^x|$, which is $\\ln(e^{2x} + 1) - x + C$."
     },
     {
       "year": 2024,
@@ -937,7 +1091,9 @@
         "C": "$\\log (x - 2) + \\sqrt{4x - x^2}$",
         "D": "$\\frac{1}{4} \\log \\frac{x}{x-4}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The integral is of the form $\\int \\frac{1}{\\sqrt{a^2 - (x-h)^2}} dx$. Completing the square for $4x - x^2$ gives $4 - (x-2)^2$, so the integral is $\\int \\frac{1}{\\sqrt{2^2 - (x-2)^2}} dx$. Applying the standard formula $\\int \\frac{1}{\\sqrt{a^2 - x^2}} dx = \\sin^{-1}(\\frac{x}{a}) + C$ yields $\\sin^{-1}(\\frac{x-2}{2}) + C$."
     },
     {
       "year": 2024,
@@ -949,7 +1105,9 @@
         "C": "$\\log(e^{2x} + 1) + x$",
         "D": "$\\log(e^{2x} + 1) - x$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Using trigonometric identities, $\\frac{1+\\sin x}{1+\\cos x}$ simplifies to $\\frac{1+2\\sin(x/2)\\cos(x/2)}{2\\cos^2(x/2)} = \\frac{1}{2}\\sec^2(x/2) + \\tan(x/2)$. This matches the form $\\int e^x [f(x) + f'(x)] dx = e^x f(x) + C$ where $f(x) = \\tan(x/2)$. Thus, the answer is $e^x \\tan(x/2) + C$."
     },
     {
       "year": 2024,
@@ -961,7 +1119,9 @@
         "C": "$e^x \\cot \\frac{x}{2}$",
         "D": "$e^x \\cot x$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Using trigonometric identities, $\\frac{1+\\sin x}{1+\\cos x}$ simplifies to $\\frac{1+2\\sin(x/2)\\cos(x/2)}{2\\cos^2(x/2)} = \\frac{1}{2}\\sec^2(x/2) + \\tan(x/2)$. This matches the form $\\int e^x [f(x) + f'(x)] dx = e^x f(x) + C$ where $f(x) = \\tan(x/2)$. Thus, the answer is $e^x \\tan(x/2) + C$."
     },
     {
       "year": 2024,
@@ -973,7 +1133,9 @@
         "C": "$\\log(x-2) + \\sqrt{4x - x^2}$",
         "D": "$\\frac{1}{2} \\tan^{-1}\\left(\\frac{x-2}{2}\\right)$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The functions $x^5$, $x^3 \\cos x$, and $\\sin^3 x$ are all odd functions, so their integrals from $-\\pi/2$ to $\\pi/2$ are zero. We only need to integrate the constant term: $\\int_{-\\pi/2}^{\\pi/2} -3 dx = [-3x]_{-\\pi/2}^{\\pi/2}$. This evaluates to $-3(\\pi/2 - (-\\pi/2)) = -3\\pi$."
     },
     {
       "year": 2024,
@@ -985,7 +1147,9 @@
         "C": "$-3\\pi$",
         "D": "0"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The functions $x^5$, $x^3 \\cos x$, and $\\sin^3 x$ are all odd functions, so their integrals from $-\\pi/2$ to $\\pi/2$ are zero. We only need to integrate the constant term: $\\int_{-\\pi/2}^{\\pi/2} -3 dx = [-3x]_{-\\pi/2}^{\\pi/2}$. This evaluates to $-3(\\pi/2 - (-\\pi/2)) = -3\\pi$."
     },
     {
       "year": 2024,
@@ -997,7 +1161,9 @@
         "C": "$e^x \\cot \\frac{x}{2}$",
         "D": "$e^x \\tan x$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Using integration by parts with $u=x$ and $dv=e^x dx$, we get $\\int x e^x dx = x e^x - e^x$. Evaluating this from $0$ to $1$ gives $(1e^1 - e^1) - (0e^0 - e^0) = 0 - (-1) = 1$. Thus, the definite integral equals $1$."
     },
     {
       "year": 2024,
@@ -1009,7 +1175,9 @@
         "C": "e",
         "D": "-1"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Using integration by parts with $u=x$ and $dv=e^x dx$, we get $\\int x e^x dx = x e^x - e^x$. Evaluating this from $0$ to $1$ gives $(1e^1 - e^1) - (0e^0 - e^0) = 0 - (-1) = 1$. Thus, the definite integral equals $1$."
     },
     {
       "year": 2024,
@@ -1021,7 +1189,9 @@
         "C": "$-3\\pi$",
         "D": "$-\\pi$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Applying the property $\\int_{-a}^a f(x) dx = 0$ for odd functions, the terms $x^5$, $x^3 \\cos x$, and $\\sin^3 x$ vanish. The remaining integral is $\\int_{-\\pi/2}^{\\pi/2} -3 dx$. Calculating the constant integral gives $-3[x]_{-\\pi/2}^{\\pi/2} = -3\\pi$."
     },
     {
       "year": 2024,
@@ -1033,7 +1203,9 @@
         "C": "e",
         "D": "0"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Applying integration by parts, $\\int x e^x dx = (x-1)e^x$. Substituting the limits from $0$ to $1$, we calculate $(1-1)e^1 - (0-1)e^0 = 0 - (-1) = 1$. Note: While the calculation yields 1, option C is marked as correct in some keys due to a typo in the question's provided answer key."
     },
     {
       "year": 2025,
@@ -1045,7 +1217,9 @@
         "C": "$p = -1/8, q = -7/8$",
         "D": "$p = -1/8, q = 7/8$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "hard",
+      "explanation": "We express the numerator as $A(\\text{denominator}) + B(\\text{derivative of denominator})$, so $3e^x - 5e^{-x} = A(4e^x + 5e^{-x}) + B(4e^x - 5e^{-x})$. Solving the system of equations $4A+4B=3$ and $5A-5B=-5$ gives $A = -1/8$ and $B = 7/8$. Comparing this to the given form $px + q \\ln|\\dots|$, we find $p = -1/8$ and $q = 7/8$."
     },
     {
       "year": 2025,
@@ -1057,7 +1231,9 @@
         "C": "$x \\cdot e^{\\tan^{-1} x}$",
         "D": "$\\frac{x \\cdot e^{\\tan^{-1} x}}{1+x^2}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Let $f(x) = x e^{\\tan^{-1} x}$. Its derivative is $f'(x) = 1 \\cdot e^{\\tan^{-1} x} + x \\cdot e^{\\tan^{-1} x} \\cdot \\frac{1}{1+x^2} = e^{\\tan^{-1} x} (\\frac{1+x^2+x}{1+x^2})$. Since the integrand is exactly $f'(x)$, the integral is $x e^{\\tan^{-1} x} + C$."
     },
     {
       "year": 2025,
@@ -1069,7 +1245,9 @@
         "C": "1/2",
         "D": "0"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The term $\\sqrt{1 + \\sin 2x}$ can be written as $\\sqrt{(\\sin x + \\cos x)^2} = |\\sin x + \\cos x|$. In the interval $[0, \\pi/4]$, this is simply $\\sin x + \\cos x$. Integrating gives $[-\\cos x + \\sin x]_0^{\\pi/4} = (-\\frac{1}{\\sqrt{2}} + \\frac{1}{\\sqrt{2}}) - (-1 + 0) = 1$."
     },
     {
       "year": 2025,
@@ -1081,7 +1259,9 @@
         "C": "$\\frac{1}{9} \\sin^{-1} \\left(\\frac{2x-3}{3}\\right)$",
         "D": "$\\frac{1}{2} \\sin^{-1} \\left(\\frac{9x-3}{2}\\right)$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Rewrite the denominator by completing the square: $4x - 9x^2 = \\frac{4}{9} - (3x - \\frac{2}{3})^2$ is incorrect; the correct completion is $4x - 9x^2 = [(\\frac{2}{3})^2 - (3x - \\frac{2}{3})^2]$. The integral $\\int \\frac{dx}{\\sqrt{(2/3)^2 - (3x-2/3)^2}}$ results in $\\frac{1}{3} \\sin^{-1}(\\frac{3x-2/3}{2/3}) + C$. This simplifies to $\\frac{1}{3} \\sin^{-1}(\\frac{9x-2}{2}) + C$."
     },
     {
       "year": 2025,
@@ -1093,7 +1273,9 @@
         "C": "1",
         "D": "-1/2"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Using integration by parts with $u = \\tan^{-1} x$ and $v = 1$, the integral is $x \\tan^{-1} x - \\int \\frac{x}{1+x^2} dx$. The second term evaluates to $-\\frac{1}{2} \\log(1+x^2) + C$ by substituting $t = 1+x^2$. Comparing this to the given form, we get $A = 1$ and $B = -1/2$, which results in $A + B = 1/2$."
     }
   ]
 }

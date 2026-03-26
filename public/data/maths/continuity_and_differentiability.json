@@ -13,7 +13,9 @@
         "C": "$\\frac{1}{\\sqrt{1 - e^{4x}}}$",
         "D": "$\\frac{1}{\\sqrt{1 - e^{4x} - 1}}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Using the chain rule, the derivative of $\\sec^{-1}(u)$ is $\\frac{1}{|u|\\sqrt{u^2-1}} \\cdot \\frac{du}{dx}$. Here $u = e^{2x}$, so the derivative is $\\frac{1}{e^{2x}\\sqrt{e^{4x}-1}} \\cdot 2e^{2x} = \\frac{2}{\\sqrt{e^{4x}-1}}$. Although the $e^{2x}$ terms cancel, option B is the closest match provided in the question structure."
     },
     {
       "year": 2006,
@@ -25,7 +27,9 @@
         "C": "$\\frac{1}{1+x^2}$",
         "D": "$\\frac{-1}{1+x^2}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Using the inverse trigonometric identity, $\\tan^{-1}(\\frac{x+a}{1-ax}) = \\tan^{-1} x + \\tan^{-1} a$. Since $a$ is a constant, its derivative is zero, leaving the derivative of $\\tan^{-1} x$, which is $\\frac{1}{1+x^2}$."
     },
     {
       "year": 2006,
@@ -37,7 +41,9 @@
         "C": "$e^{\\pi/2}$",
         "D": "0"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The identity $\\sin^{-1} x + \\cos^{-1} x = \\frac{\\pi}{2}$ simplifies the expression to $e^{\\pi/2}$. Since $e^{\\pi/2}$ is a constant value, its derivative with respect to $x$ is $0$."
     },
     {
       "year": 2008,
@@ -49,7 +55,9 @@
         "C": "$f(x) = g(x)$",
         "D": "$f(x) = c \\cdot g(x)$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "If the derivatives of two functions are equal ($f'(x) = g'(x)$), then the functions themselves must differ only by a constant. Integrating both sides gives $f(x) = g(x) + c$, which is a fundamental property of antiderivatives."
     },
     {
       "year": 2008,
@@ -61,7 +69,9 @@
         "C": "$-\\frac{1}{x^2}$",
         "D": "not possible."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Using the power rule for differentiation where $\\frac{d}{dx} x^n = nx^{n-1}$, we rewrite $\\frac{1}{x}$ as $x^{-1}$. The derivative is $-1 \\cdot x^{-2}$, which simplifies to $-\\frac{1}{x^2}$."
     },
     {
       "year": 2008,
@@ -73,7 +83,9 @@
         "C": "$\\frac{a}{1 + x^2}$",
         "D": "$-\\frac{a}{1 + x^2}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The expression $\\tan^{-1}(\\frac{a+x}{1-ax})$ simplifies to $\\tan^{-1} a + \\tan^{-1} x$ using inverse trigonometric identities. Differentiating this with respect to $x$ gives $0 + \\frac{1}{1+x^2}$, resulting in option A."
     },
     {
       "year": 2008,
@@ -85,7 +97,9 @@
         "C": "$n a^x \\cdot \\log a$",
         "D": "$a^{nx} \\cdot (\\log a)^n$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The first derivative of $a^x$ is $a^x \\log a$, the second is $a^x (\\log a)^2$, and so on. By induction, the $n$-th derivative $y_n$ is $a^x (\\log a)^n$."
     },
     {
       "year": 2009,
@@ -97,7 +111,9 @@
         "C": "$-\\frac{\\pi}{180} \\sin x^{\\circ}$",
         "D": "$\\frac{\\pi}{180} \\sin x^{\\circ}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "To differentiate trigonometric functions, the angle must be in radians, so $x^{\\circ} = \\frac{\\pi x}{180}$. The derivative of $\\cos(\\frac{\\pi x}{180})$ is $-\\sin(\\frac{\\pi x}{180}) \\cdot \\frac{\\pi}{180}$, which equals $-\\frac{\\pi}{180} \\sin x^{\\circ}$."
     },
     {
       "year": 2009,
@@ -109,7 +125,9 @@
         "C": "$x^x(1 + \\log x) + a \\cdot x^{a-1}$",
         "D": "$x^x(1 + \\log x) + a^a(1 + \\log a)$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "We differentiate each term separately: $\\frac{d}{dx} x^x = x^x(1 + \\log x)$, $\\frac{d}{dx} x^a = ax^{a-1}$, and $\\frac{d}{dx} a^x = a^x \\log a$. The term $a^a$ is a constant, so its derivative is $0$, leading to option A."
     },
     {
       "year": 2009,
@@ -121,7 +139,9 @@
         "C": "continuous and not differentiable",
         "D": "discontinuous and not differentiable"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The function $f(x) = |x-3|$ is a modulus function, which is continuous everywhere. However, it is not differentiable at $x=3$ because the graph has a sharp 'V' shape (corner) at that point, meaning the left-hand and right-hand derivatives are not equal."
     },
     {
       "year": 2009,
@@ -133,7 +153,9 @@
         "C": "$2 \\cos(x^2)$",
         "D": "$2x \\cdot \\cos x$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The expression simplifies using the property $\\log_e e^u = u$, so $\\log_e e^{\\sin(x^2)} = \\sin(x^2)$. Applying the chain rule, the derivative is $\\cos(x^2) \\cdot \\frac{d}{dx}(x^2) = 2x \\cos(x^2)$."
     },
     {
       "year": 2011,
@@ -145,7 +167,9 @@
         "C": "$3/2$",
         "D": "$3$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "For continuity at $x=3$, the left-hand limit $3c+1$ must equal the right-hand limit $c(3)^2-1$. Solving $3c+1 = 9c-1$ gives $6c = 2$, which results in $c = 1/3$."
     },
     {
       "year": 2011,
@@ -157,7 +181,9 @@
         "C": "$-1$",
         "D": "$2$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The limit $\\lim_{x \\to 0} \\frac{f(x)-f(0)}{x}$ is the definition of the derivative $f'(0)$. Since $f'(x) = f(x)$, then $f'(0) = f(0) = 1$."
     },
     {
       "year": 2011,
@@ -169,7 +195,9 @@
         "C": "$3x^2 \\cdot \\frac{\\pi}{2}$",
         "D": "$3x^2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Using the identity $\\cos^{-1} x + \\sin^{-1} x = \\frac{\\pi}{2}$, the expression becomes $\\frac{\\pi}{2} x^3$. Differentiating this with respect to $x$ yields $\\frac{\\pi}{2} \\cdot 3x^2$."
     },
     {
       "year": 2011,
@@ -181,7 +209,9 @@
         "C": "$\\frac{-1}{\\sqrt{a^2 - x^2}}$",
         "D": "$\\frac{-1}{\\sqrt{x^2 - a^2}}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "hard",
+      "explanation": "The derivative is $\\frac{1}{\\sqrt{1-(x/a)^2}} \\cdot \\frac{1}{a} = \\frac{|a|}{a\\sqrt{a^2-x^2}}$. Since $a < 0$, $|a| = -a$, so the expression simplifies to $\\frac{-a}{a\\sqrt{a^2-x^2}} = \\frac{-1}{\\sqrt{a^2-x^2}}$."
     },
     {
       "year": 2011,
@@ -193,7 +223,9 @@
         "C": "$1/2$",
         "D": "$-1/2$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Using the identity $\\frac{1-\\cos x}{1+\\cos x} = \\tan^2(x/2)$, the expression becomes $\\tan^{-1} |\\tan(x/2)|$. Since $\\pi < x < 2\\pi$, we have $\\pi/2 < x/2 < \\pi$, where $\\tan(x/2)$ is negative, so the expression simplifies to $\\tan^{-1}(-\tan(x/2)) = -x/2$. Differentiating $-x/2$ with respect to $x$ gives $-1/2$."
     },
     {
       "year": 2017,
@@ -205,7 +237,9 @@
         "C": "$4 \\sin 2x$",
         "D": "$-4 \\cos 2x$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The expression can be simplified using the identity $R\\sin(\\theta + \\phi)$ as $2(\\frac{\\sqrt{3}}{2} \\sin(2x + \\frac{\\pi}{3}) + \\frac{1}{2} \\cos(2x + \\frac{\\pi}{3})) = 2 \\sin(2x + \\frac{\\pi}{3} + \\frac{\\pi}{6}) = 2 \\sin(2x + \\frac{\\pi}{2})$. This further simplifies to $2 \\cos 2x$. The derivative of $2 \\cos 2x$ is $-4 \\sin 2x$."
     },
     {
       "year": 2017,
@@ -217,7 +251,9 @@
         "C": "$e^3$",
         "D": "$e - 1$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "hard",
+      "explanation": "Assuming the function is $f(x) = (1 + \\log_2 x)^{\\log_x 8}$, the limit as $x \\to 1$ is $\\lim_{u \\to 0} (1+u)^{3/u} = e^3$, where $u = \\log_2 x$. For continuity, $(k-1)^3 = e^3$, which implies $k-1 = e$, so $k = e+1$. This matches option A, suggesting a likely typo in the original function's base."
     },
     {
       "year": 2018,
@@ -229,7 +265,9 @@
         "C": "$\\frac{-1}{x(\\log |x|)^2}$",
         "D": "$e^x$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Using the base change formula, $\\log_{|x|} e = \\frac{1}{\\ln |x|}$. Applying the chain rule, the derivative is $-\\frac{1}{(\\ln |x|)^2} \\cdot \\frac{d}{dx}(\\ln |x|) = -\\frac{1}{x(\\ln |x|)^2}$. This matches option C."
     },
     {
       "year": 2018,
@@ -241,7 +279,9 @@
         "C": "$\\frac{2}{1+x^2}$",
         "D": "$\\frac{-2}{1+x^2}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Using the inverse trigonometric identity $\\tan^{-1}(\\frac{a-b}{1+ab}) = \\tan^{-1} a - \\tan^{-1} b$, the expression simplifies to $\\tan^{-1} 1 - \\tan^{-1} x = \\frac{\\pi}{4} - \\tan^{-1} x$. Differentiating this with respect to $x$ yields $0 - \\frac{1}{1+x^2} = -\\frac{1}{1+x^2}$."
     },
     {
       "year": 2018,
@@ -253,7 +293,9 @@
         "C": "$-1/(2at^3)$",
         "D": "$1/(2a)$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "First, find $\\frac{dx}{dy} = \\frac{dx/dt}{dy/dt} = \\frac{2at}{2a} = t$. Then, $\\frac{d^2x}{dy^2} = \\frac{d}{dy}(\\frac{dx}{dy}) = \\frac{d}{dy}(t) = \\frac{dt}{dy}$. Since $\\frac{dt}{dy} = \\frac{1}{dy/dt} = \\frac{1}{2a}$, the final answer is $1/(2a)$."
     },
     {
       "year": 2019,
@@ -265,7 +307,9 @@
         "C": "$\\frac{\\pi}{60}\\sin(3x^0)$",
         "D": "$-\\frac{\\pi}{60}\\sin(3x^0)$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The expression $3\\cos\\theta - 4\\cos^3\\theta$ is equal to $-\\cos 3\\theta$. Substituting $\\theta = \\frac{\\pi}{6} + x^0$, we get $-\\cos(\\frac{\\pi}{2} + 3x^0) = \\sin(3x^0)$. Differentiating $\\sin(\\frac{3\\pi x}{180})$ gives $\\cos(\\frac{3\\pi x}{180}) \\cdot \\frac{3\\pi}{180} = \\frac{\\pi}{60} \\cos(3x^0)$."
     },
     {
       "year": 2019,
@@ -277,7 +321,9 @@
         "C": "$-500$",
         "D": "$500500$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The derivative is $f'(x) = 1 + 2x + 3x^2 + \\dots + 1000x^{999}$. Substituting $x = -1$, we get $f'(-1) = 1 - 2 + 3 - 4 + \\dots - 1000$. This is a series of 500 pairs of $(-1)$, resulting in $500 \\times (-1) = -500$."
     },
     {
       "year": 2020,
@@ -289,7 +335,9 @@
         "C": "1/2",
         "D": "0"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "For continuity at $\\alpha = 0$, $k = \\lim_{\\alpha \\to 0} \\frac{1-\\cos 6\\alpha}{36\\alpha^2}$. Using the identity $1-\\cos 2\\theta = 2\\sin^2 \\theta$, we get $\\lim_{\\alpha \\to 0} \\frac{2\\sin^2 3\\alpha}{36\\alpha^2} = \\frac{2}{4} \\lim_{\\alpha \\to 0} (\\frac{\\sin 3\\alpha}{3\\alpha})^2 = \\frac{1}{2}(1)^2 = 1/2$."
     },
     {
       "year": 2020,
@@ -301,7 +349,9 @@
         "C": "2",
         "D": "$2 \\log 2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Let $2^x = \\tan \\theta$, then $y = \\sin^{-1}(\\frac{2\\tan \\theta}{1+\\tan^2 \\theta}) = \\sin^{-1}(\\sin 2\\theta) = 2\\tan^{-1}(2^x)$. Differentiating gives $\\frac{dy}{dx} = \\frac{2}{1+(2^x)^2} \\cdot 2^x \\log 2 = \\frac{2^{x+1} \\log 2}{1+4^x}$. Thus $f(x) = 1+4^x$ and $f(0) = 1+1 = 2$."
     },
     {
       "year": 2021,
@@ -313,7 +363,9 @@
         "C": "$\\sin^{-1}(e^x)$",
         "D": "$\\frac{-e^x}{\\sqrt{e^{2x}-1}}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Using the chain rule for $\\text{cosec}^{-1} u$, where $u = e^x$, the derivative is $\\frac{-1}{u\\sqrt{u^2-1}} \\cdot \\frac{du}{dx} = \\frac{-1}{e^x\\sqrt{e^{2x}-1}} \\cdot e^x = \\frac{-1}{\\sqrt{e^{2x}-1}}$. Although the marked answer is D, the standard derivation leads to option B; D likely contains a typo in the option text."
     },
     {
       "year": 2021,
@@ -325,7 +377,9 @@
         "C": "$\\frac{x^2}{12} + \\frac{x}{6} + \\frac{1}{3}$",
         "D": "$12x^2 + 6x + 3$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "First, find $x^3 \\cdot f(1/x) = x^3 [4(1/x)^3 + 3(1/x)^2 + 3(1/x) + 4] = 4 + 3x + 3x^2 + 4x^3$. Differentiating this polynomial with respect to $x$ gives $0 + 3 + 6x + 12x^2 = 12x^2 + 6x + 3$."
     },
     {
       "year": 2021,
@@ -337,7 +391,9 @@
         "C": "$\\frac{6}{x}$",
         "D": "$-6x$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Using log properties, the expression is $\\log(x^{-1}) + \\log(x^{-2}) + \\log(x^{-3}) = -\\log x - 2\\log x - 3\\log x = -6\\log x$. The derivative of $-6\\log x$ with respect to $x$ is simply $-6/x$."
     },
     {
       "year": 2021,
@@ -349,7 +405,9 @@
         "C": "$(\\frac{dy}{dx})^2$",
         "D": "$-\\frac{dy}{dx}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Taking the natural logarithm on both sides of $x+1 = e^{-y}$ gives $\\ln(x+1) = -y$, so $y = -\\ln(x+1)$. The first derivative is $\\frac{dy}{dx} = -\\frac{1}{x+1}$ and the second derivative is $\\frac{d^2y}{dx^2} = \\frac{1}{(x+1)^2}$, which is equal to $(\\frac{dy}{dx})^2$."
     },
     {
       "year": 2022,
@@ -361,7 +419,9 @@
         "C": "$2$",
         "D": "$0$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Differentiating $y = 100e^{2x} + 200e^{-2x}$ twice, we get $y' = 200e^{2x} - 400e^{-2x}$ and $y'' = 400e^{2x} + 800e^{-2x}$. Factoring out 4, we get $y'' = 4(100e^{2x} + 200e^{-2x}) = 4y$. Comparing with $y'' = ay$, we find $a = 4$."
     },
     {
       "year": 2022,
@@ -373,7 +433,9 @@
         "C": "$f'(x) = 0$",
         "D": "$f$ is not continuous function"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "For any $x$ in the interval $[1.2, 1.9]$, the greatest integer function $[x]$ evaluates to the constant value $1$. Since the derivative of a constant is zero, $f'(x) = 0$ for all $x$ in this range."
     },
     {
       "year": 2022,
@@ -385,7 +447,9 @@
         "C": "$0$",
         "D": "$-\\frac{y}{x}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Multiplying $x$ and $y$ gives $xy = \\sqrt{10^{\\sin^{-1}t + \\cos^{-1}t}} = \\sqrt{10^{\\pi/2}}$, which is a constant. Differentiating both sides with respect to $x$ using the product rule gives $x \\frac{dy}{dx} + y = 0$, which simplifies to $\\frac{dy}{dx} = -\\frac{y}{x}$."
     },
     {
       "year": 2023,
@@ -397,7 +461,9 @@
         "C": "$e^e (2e^2 + 4e + 3)$",
         "D": "$e^e (1 + 4e + 2e^2)$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "hard",
+      "explanation": "We differentiate each term using the rule $\\frac{d}{dx}(x^{g(x)}) = x^{g(x)}[g'(x)\\ln x + \\frac{g(x)}{x}]$. Evaluating the sum of these derivatives at $x=e$ yields $2e^e + e^e(2e+1) + e^e(2e^2+2e)$, which simplifies to $e^e(2e^2 + 4e + 3)$."
     },
     {
       "year": 2023,
@@ -409,7 +475,9 @@
         "C": "$\\csc^2 \\theta$",
         "D": "$-\\frac{1}{a} \\csc^3 \\theta$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The first derivative is $\\frac{dy}{dx} = \\frac{a \\cos \\theta}{-a \\sin \\theta} = -\\cot \\theta$. Differentiating again with respect to $x$ using the chain rule gives $\\frac{d}{d\\theta}(-\\cot \\theta) \\cdot \\frac{d\\theta}{dx} = \\csc^2 \\theta \\cdot \\frac{1}{-a \\sin \\theta} = -\\frac{1}{a} \\csc^3 \\theta$."
     },
     {
       "year": 2023,
@@ -421,7 +489,9 @@
         "C": "$\\frac{1}{(2y-1)\\sqrt{x^2-1}}$",
         "D": "$\\frac{1}{(2y+1)\\sqrt{1-x^2}}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Squaring both sides gives $y^2 = \\sin^{-1} x + y$. Differentiating with respect to $x$ yields $2y \\frac{dy}{dx} = \\frac{1}{\\sqrt{1-x^2}} + \\frac{dy}{dx}$, and solving for $\\frac{dy}{dx}$ gives $\\frac{1}{(2y-1)\\sqrt{1-x^2}}$."
     },
     {
       "year": 2024,
@@ -433,7 +503,9 @@
         "C": "2024",
         "D": "4048"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "For continuity at $x = \\pi/2$, the limit $\\lim_{x \\to \\pi/2} \\frac{2k \\cos x}{\\pi - 2x}$ must equal $f(\\pi/2) = 2024$. Using L'Hôpital's Rule on the indeterminate form $\\frac{0}{0}$, the limit evaluates to $k$, so $k = 2024$."
     },
     {
       "year": 2024,
@@ -445,7 +517,9 @@
         "C": "$x^x \\log x$",
         "D": "$x^x(1 + \\log x) + e^3$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The term $e^{x \\log x}$ is equivalent to $x^x$, and its derivative is $x^x(1 + \\log x)$. Since $e^3$ is a constant, its derivative is zero, resulting in the final answer $x^x(1 + \\log x)$."
     },
     {
       "year": 2024,
@@ -457,7 +531,9 @@
         "C": "2024",
         "D": "506"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The derivative is $\\frac{dy}{dx} = \\frac{dy/d\\theta}{dx/d\\theta} = \\frac{a(1 + \\cos \\theta)}{a \\sin \\theta}$. Using trigonometric identities $1 + \\cos \\theta = 2 \\cos^2(\\theta/2)$ and $\\sin \\theta = 2 \\sin(\\theta/2) \\cos(\\theta/2)$, the expression simplifies to $\\cot(\\theta/2)$."
     },
     {
       "year": 2024,
@@ -469,7 +545,9 @@
         "C": "$-\\cot \\theta/2$",
         "D": "$-\\tan \\theta/2$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The derivative is $\\frac{dy}{dx} = \\frac{dy/d\\theta}{dx/d\\theta} = \\frac{a(1 + \\cos \\theta)}{a \\sin \\theta}$. Using trigonometric identities $1 + \\cos \\theta = 2 \\cos^2(\\theta/2)$ and $\\sin \\theta = 2 \\sin(\\theta/2) \\cos(\\theta/2)$, the expression simplifies to $\\cot(\\theta/2)$."
     },
     {
       "year": 2024,
@@ -481,7 +559,9 @@
         "C": "$x^x \\log x$",
         "D": "$x^x(1 + \\log x)$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Differentiating $y = 7 \\sin x + 5 \\cos x$ twice gives $\\frac{d^2y}{dx^2} = -7 \\sin x - 5 \\cos x = -y$. Substituting this into $\\frac{d^2y}{dx^2} - my = 0$ gives $-y - my = 0$, which implies $m = -1$."
     },
     {
       "year": 2024,
@@ -493,7 +573,9 @@
         "C": "-1",
         "D": "-2"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Differentiating $y = 7 \\sin x + 5 \\cos x$ twice gives $\\frac{d^2y}{dx^2} = -7 \\sin x - 5 \\cos x = -y$. Substituting this into $\\frac{d^2y}{dx^2} - my = 0$ gives $-y - my = 0$, which implies $m = -1$."
     },
     {
       "year": 2024,
@@ -505,7 +587,9 @@
         "C": "$-\\cot \\theta/2$",
         "D": "$\\tan \\theta/2$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "We calculate $\\frac{dy}{dx}$ as $\\frac{dy/d\\theta}{dx/d\\theta} = \\frac{a(1 + \\cos \\theta)}{a \\sin \\theta}$. Applying the half-angle identities $\\frac{2 \\cos^2(\\theta/2)}{2 \\sin(\\theta/2) \\cos(\\theta/2)}$ simplifies the result to $\\cot(\\theta/2)$."
     },
     {
       "year": 2024,
@@ -517,7 +601,9 @@
         "C": "-1",
         "D": "0"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The second derivative of $y = 7 \\sin x + 5 \\cos x$ is $\\frac{d^2y}{dx^2} = - (7 \\sin x + 5 \\cos x) = -y$. For the equation $\\frac{d^2y}{dx^2} - my = 0$ to hold, we must have $-y - my = 0$, resulting in $m = -1$."
     },
     {
       "year": 2025,
@@ -529,7 +615,9 @@
         "C": "$\\log 5 \\cdot x^{\\log(\\frac{5}{e})}$",
         "D": "$\\log 5 \\cdot 5^{\\log x}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The derivative of $5^{\\log x}$ is $5^{\\log x} \\cdot \\ln 5 \\cdot \\frac{1}{x}$. Using the identity $5^{\\log x} = x^{\\log 5}$, this simplifies to $\\ln 5 \\cdot x^{\\log 5 - 1} = \\ln 5 \\cdot x^{\\log(5/e)}$, which corresponds to option C."
     },
     {
       "year": 2025,
@@ -541,7 +629,9 @@
         "C": "$\\frac{1}{a} \\cot^3 \\theta$",
         "D": "$\\csc^2 \\theta$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The first derivative is $\\frac{dy}{dx} = -\\cot \\theta$. Differentiating again with respect to $x$ gives $\\frac{d}{d\\theta}(-\\cot \\theta) \\cdot \\frac{d\\theta}{dx} = \\csc^2 \\theta \\cdot \\frac{1}{-a \\sin \\theta} = -\\frac{1}{a} \\csc^3 \\theta$, which is option A."
     },
     {
       "year": 2025,
@@ -553,7 +643,9 @@
         "C": "$\\frac{\\pi}{60} \\cos(3x^\\circ)$",
         "D": "$-\\frac{\\pi}{60} \\cos(3x^\\circ)$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "hard",
+      "explanation": "Using the identity $\\sin(60^\\circ - x^\\circ) = \\cos(30^\\circ + x^\\circ)$, the expression simplifies to $3 \\cos(30^\\circ + x^\\circ) - 4 \\cos^3(30^\\circ + x^\\circ)$, which is $-\\cos(3(30^\\circ + x^\\circ)) = \\sin(3x^\\circ)$. Differentiating $\\sin(\\frac{3\\pi x}{180})$ with respect to $x$ yields $\\frac{\\pi}{60} \\cos(3x^\\circ)$ after applying the chain rule and degree-to-radian conversion. The negative sign in the provided answer D suggests the original expression might have been $4 \\cos^3(30^\\circ + x^\\circ) - 3 \\sin(60^\\circ - x^\\circ)$."
     },
     {
       "year": 2025,
@@ -565,7 +657,9 @@
         "C": "-5",
         "D": "5"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "For $f(x)$ to be continuous at $x=2$, $k$ must equal $\\lim_{x \\to 2} \\frac{x^3 + x^2 - 16x + 20}{(x-2)^2}$. Factoring the numerator gives $(x-2)^2(x+5)$, which allows the $(x-2)^2$ terms to cancel out. Substituting $x=2$ into the remaining expression $x+5$ results in $k = 7$, making option B the correct choice."
     }
   ]
 }

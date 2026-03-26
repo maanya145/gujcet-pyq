@@ -13,7 +13,9 @@
         "C": "0.8",
         "D": "4.0"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Normality is calculated using the formula $N = \\frac{W \\times 1000}{E \\times V(ml)}$, where $E$ is the equivalent weight. For $\\text{H}_2\\text{SO}_4$, the equivalent weight is $\\text{Molar Mass}/2 = 98/2 = 49$. Substituting the values, $N = \\frac{9.8 \\times 1000}{49 \\times 500} = 0.4 \\text{ N}$."
     },
     {
       "year": 2009,
@@ -25,7 +27,9 @@
         "C": "$50 \\text{ grams}$",
         "D": "$100 \\text{ grams}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The percentage weight by weight ($\\% \\text{ w/w}$) is defined as the mass of solute in grams present in $100 \\text{ g}$ of solution. For a $10\\% \\text{ w/w}$ solution, $100 \\text{ g}$ of solution contains $10 \\text{ g}$ of $\\text{NaOH}$. Therefore, $500 \\text{ g}$ of solution will contain $\\frac{10 \\times 500}{100} = 50 \\text{ g}$ of $\\text{NaOH}$."
     },
     {
       "year": 2011,
@@ -37,7 +41,9 @@
         "C": "$9.8\\text{ gram}$",
         "D": "$0.98\\text{ gram}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Since $\\text{H}_2\\text{SO}_4$ is a diprotic acid, it releases two $\\text{H}_3\\text{O}^+$ ions per molecule, meaning the molarity of the acid is half the concentration of $\\text{H}_3\\text{O}^+$ ions, which is $0.5 \\text{ M}$. The mass required is calculated as $\\text{Mass} = \\text{Molarity} \\times \\text{Molar Mass} \\times \\text{Volume (L)}$. Thus, $\\text{Mass} = 0.5 \\times 98 \\times 0.2 = 9.8 \\text{ g}$."
     },
     {
       "year": 2018,
@@ -49,7 +55,9 @@
         "C": "$1\\text{ N}$",
         "D": "$0.5\\text{ N}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The $\\text{pH}$ of a solution is given by $-\\log[\\text{H}_3\\text{O}^+]$, so a $\\text{pH}$ of $1$ corresponds to $[\\text{H}_3\\text{O}^+] = 10^{-1} = 0.1 \\text{ M}$. In an aqueous solution of an acid, the normality is equal to the molar concentration of $\\text{H}_3\\text{O}^+$ ions. Therefore, the normality of the $\\text{H}_2\\text{SO}_4$ solution is $0.1 \\text{ N}$."
     },
     {
       "year": 2020,
@@ -61,7 +69,9 @@
         "C": "$2$",
         "D": "$1$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The reaction of a metal $\\text{M}$ with alcohol can be represented as $\\text{M} + n\\text{ROH} \\rightarrow \\text{M(OR)}_n + \\frac{n}{2}\\text{H}_2$, where $n$ is the valency of the metal. Given that $1 \\text{ mole}$ of metal produces $1.5 \\text{ moles}$ of $\\text{H}_2$, we set $\\frac{n}{2} = 1.5$. Solving for $n$ gives a valency of $3$."
     }
   ]
 }

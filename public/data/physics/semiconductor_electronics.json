@@ -13,7 +13,9 @@
         "C": "$Y = A + B$",
         "D": "$Y = \\bar{A}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The OR gate performs a logical addition of its inputs. Therefore, the Boolean expression for an OR gate with inputs $A$ and $B$ and output $Y$ is $Y = A + B$."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "Loud speaker",
         "D": "Radio"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "A full-duplex device allows for simultaneous two-way communication where both parties can transmit and receive data at the same time. Mobile phones are full-duplex, whereas walkie-talkies are half-duplex."
     },
     {
       "year": 2007,
@@ -37,7 +41,9 @@
         "C": "Aluminium",
         "D": "phosphorus"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "N-type semiconductors are created by doping an intrinsic semiconductor with pentavalent impurities. Phosphorus has five valence electrons, providing the extra free electrons needed to make the material N-type."
     },
     {
       "year": 2007,
@@ -49,7 +55,9 @@
         "C": "a missing electron",
         "D": "an excess electron"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "In a P-type semiconductor, trivalent impurities like Boron are added, which create a vacancy in the covalent bond structure. This vacancy or absence of an electron is known as a hole."
     },
     {
       "year": 2007,
@@ -61,7 +69,9 @@
         "C": "low dissipation of energy",
         "D": "low cost"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "N-P-N transistors are preferred because their majority charge carriers are electrons, while P-N-P transistors rely on holes. Electrons have significantly higher mobility than holes, allowing N-P-N transistors to operate at higher speeds."
     },
     {
       "year": 2008,
@@ -73,7 +83,9 @@
         "C": "30.98 km",
         "D": "38.98 km"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The maximum transmission distance is calculated using the formula $d = \\sqrt{2Rh}$. Substituting $R = 6.4 \\times 10^6 \\text{ m}$ and $h = 75 \\text{ m}$, we get $d = \\sqrt{2 \\times 6.4 \\times 10^6 \\times 75} \\approx 30.98 \\text{ km}$."
     },
     {
       "year": 2008,
@@ -85,7 +97,9 @@
         "C": "3",
         "D": "4"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "To identify the correct entry, one must analyze the specific logic gate configuration shown in the circuit diagram. By applying the inputs to the Boolean expression of the combined gates, the output $Y$ can be verified against the truth table."
     },
     {
       "year": 2008,
@@ -97,7 +111,9 @@
         "C": "20 kHz to 20 MHz",
         "D": "12 Hz to 20 MHz"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Audio signals are electrical representations of sounds that humans can hear. The standard audible frequency range for the human ear is $20 \\text{ Hz}$ to $20 \\text{ kHz}$."
     },
     {
       "year": 2008,
@@ -109,7 +125,9 @@
         "C": "low band width, low transmission loss.",
         "D": "high band width, high transmission loss."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Optical fibers utilize total internal reflection to transmit data as light pulses. This technology provides much higher bandwidth and significantly lower signal attenuation (transmission loss) compared to traditional copper cables."
     },
     {
       "year": 2008,
@@ -121,7 +139,9 @@
         "C": "$10^4 \\text{ m}^{-3}$",
         "D": "$10^2 \\text{ m}^{-3}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "According to the mass action law, $n_i^2 = n_e \\cdot n_h$. Given $n_i = 10^{19} \\text{ m}^{-3}$ and $n_h \\approx N_a = 10^{21} \\text{ m}^{-3}$, the electron density is $n_e = (10^{19})^2 / 10^{21} = 10^{17} \\text{ m}^{-3}$."
     },
     {
       "year": 2008,
@@ -133,7 +153,9 @@
         "C": "$\\overline{A + B}$",
         "D": "$\\overline{A \\cdot B}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "An AND gate followed by a NOT gate forms a NAND gate. The AND gate produces $A \\cdot B$, and the NOT gate inverts this result to give the final Boolean expression $Y = \\overline{A \\cdot B}$."
     },
     {
       "year": 2009,
@@ -145,7 +167,9 @@
         "C": "Neutral.",
         "D": "None of the given."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Even though a P-type semiconductor has holes as majority carriers, the total number of positive charges in the nuclei is exactly balanced by the total number of electrons. Thus, the bulk material remains electrically neutral."
     },
     {
       "year": 2009,
@@ -157,7 +181,9 @@
         "C": "Equal to one.",
         "D": "None of these."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "In a common base configuration, the current gain $\\alpha_{dc}$ is the ratio $I_C / I_E$. Since $I_E = I_C + I_B$, the collector current $I_C$ is always slightly less than the emitter current $I_E$, making $\\alpha_{dc} < 1$."
     },
     {
       "year": 2009,
@@ -169,7 +195,9 @@
         "C": "NAND",
         "D": "NOT"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The Boolean expression $y = \\overline{A \\cdot B}$ represents the logical negation of an AND operation. This is the standard definition for a NAND (NOT-AND) gate."
     },
     {
       "year": 2009,
@@ -181,7 +209,9 @@
         "C": "$5.0 \\text{ m}$",
         "D": "$2.0 \\text{ m}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The minimum antenna length is typically $\\lambda/4$. For a frequency $f = 20 \\text{ MHz}$, the wavelength $\\lambda = c/f = (3 \\times 10^8) / (20 \\times 10^6) = 15 \\text{ m}$, so the minimum length is $15 / 4 = 3.75 \\text{ m}$."
     },
     {
       "year": 2009,
@@ -193,7 +223,9 @@
         "C": "$1.23 \\times 10^{11} \\text{ m}^{-3}$",
         "D": "$12.3 \\times 10^{10} \\text{ m}^{-3}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The critical frequency $f_c$ is related to the maximum electron density $N_{max}$ by the formula $f_c = 9 \\sqrt{N_{max}}$. Rearranging for $N_{max}$, we get $N_{max} = (f_c/9)^2$. Substituting $f_c = 10 \\times 10^6 \\text{ Hz}$, we find $N_{max} \\approx 1.23 \\times 10^{12} \\text{ m}^{-3}$."
     },
     {
       "year": 2009,
@@ -205,7 +237,9 @@
         "C": "$2.00$",
         "D": "$4.00$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The critical frequency $f_c$ is proportional to the square root of the maximum electron density, $f_c \\propto \\sqrt{N_{max}}$. Therefore, the ratio of the frequencies is $\\frac{f_{noon}}{f_{morning}} = \\sqrt{\\frac{N_{noon}}{N_{morning}}} = \\sqrt{\\frac{2 \\times 10^{10}}{10^{10}}} = \\sqrt{2} \\approx 1.414$."
     },
     {
       "year": 2009,
@@ -217,7 +251,9 @@
         "C": "Silver",
         "D": "Aluminium"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Insulators have the largest energy gap ($E_g > 3 \\text{ eV}$), while semiconductors have smaller gaps and conductors have overlapping bands. Diamond is an insulator with a very high energy gap of approximately $5.5 \\text{ eV}$, which is much larger than that of Germanium ($0.7 \\text{ eV}$) or metals like Silver and Aluminium."
     },
     {
       "year": 2011,
@@ -229,7 +265,9 @@
         "C": "raises the potential barrier.",
         "D": "change the mass of P-N junction diode."
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "In reverse bias, the external battery's polarity supports the built-in potential of the junction. This increases the width of the depletion layer and raises the height of the potential barrier, making it harder for majority carriers to cross."
     },
     {
       "year": 2011,
@@ -241,7 +279,9 @@
         "C": "$19.6\\text{ mA}$",
         "D": "$24\\text{ mA}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "In a common base configuration, the current gain $\\alpha$ is the ratio $\\frac{\\Delta I_C}{\\Delta I_E}$. First, calculate $\\Delta I_C = 0.96 \\times 10 \\text{ mA} = 9.6 \\text{ mA}$. Then, using the relation $\\Delta I_E = \\Delta I_B + \\Delta I_C$, we find $\\Delta I_B = 10 \\text{ mA} - 9.6 \\text{ mA} = 0.4 \\text{ mA}$."
     },
     {
       "year": 2011,
@@ -253,7 +293,9 @@
         "C": "$\\lambda/4$",
         "D": "$\\lambda/5$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "For efficient radiation and reception of electromagnetic waves, the antenna length should be comparable to the wavelength of the signal. The minimum length required for an effective antenna is typically $\\lambda/4$, known as a quarter-wave monopole."
     },
     {
       "year": 2011,
@@ -265,7 +307,9 @@
         "C": "$1/4$",
         "D": "$1/8$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "A single geostationary satellite can cover approximately $120^\\circ$ of longitude, which corresponds to about $1/3$ of the Earth's surface area. Therefore, three such satellites placed $120^\\circ$ apart are sufficient to provide global coverage."
     },
     {
       "year": 2011,
@@ -277,7 +321,9 @@
         "C": "[Diagram C]",
         "D": "[Diagram D]"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "A NOR gate is a combination of an OR gate followed by a NOT gate. Its symbolic representation consists of the standard OR gate symbol with a small circle (bubble) at the output to indicate inversion."
     },
     {
       "year": 2011,
@@ -289,7 +335,9 @@
         "C": "$100\\text{ lakhs}$",
         "D": "$20.228\\text{ lakhs}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The coverage area is $A = 2\\pi Rh = 2 \\times 3.14 \\times 6400 \\text{ km} \\times 0.15 \\text{ km} \\approx 6028.8 \\text{ km}^2$. Multiplying this area by the population density ($10^3 \\text{ km}^{-2}$) gives a total population of $60.288 \\times 10^5$, which is $60.288 \\text{ lakhs}$."
     },
     {
       "year": 2014,
@@ -301,7 +349,9 @@
         "C": "$1/2$",
         "D": "$2$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The frequency of an LC oscillator is given by $f = \\frac{1}{2\\pi\\sqrt{LC}}$. Since the frequency is inversely proportional to the square root of the capacitance ($f \\propto \\frac{1}{\\sqrt{C}}$), doubling the capacitance results in the frequency becoming $1/\\sqrt{2}$ times its original value."
     },
     {
       "year": 2014,
@@ -313,7 +363,9 @@
         "C": "$10^8$",
         "D": "$10^{-2}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The electric field intensity $E$ in the depletion region is calculated using $E = V/d$. Given $V = 3 \\text{ V}$ and $d = 300 \\times 10^{-8} \\text{ cm}$, the field is $E = \\frac{3}{3 \\times 10^{-6}} = 10^6 \\text{ V/cm}$."
     },
     {
       "year": 2014,
@@ -325,7 +377,9 @@
         "C": "$3 \\text{ K } \\Omega$",
         "D": "$4 \\text{ K } \\Omega$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "First, find the collector current using $I_C = \\beta I_B = 200 \\times 10 \\mu\\text{A} = 2 \\text{ mA}$. Then, apply Kirchhoff's voltage law to the output loop: $V_{CC} = V_{CE} + I_C R_L$. Substituting the values $10 \\text{ V} = 4 \\text{ V} + (2 \\text{ mA}) \\times R_L$ gives $R_L = \\frac{6 \\text{ V}}{2 \\text{ mA}} = 3 \\text{ k}\\Omega$."
     },
     {
       "year": 2014,
@@ -337,7 +391,9 @@
         "C": "$20 \\text{ Hz to } 20 \\text{ KHz}$",
         "D": "$20 \\text{ KHz to } 200 \\text{ KHz}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The human ear is sensitive to sound frequencies in the range of $20 \\text{ Hz}$ to $20,000 \\text{ Hz}$ (or $20 \\text{ kHz}$). This range is known as the audio frequency spectrum used in communication systems for transmitting sound."
     },
     {
       "year": 2014,
@@ -349,7 +405,9 @@
         "C": "$75$",
         "D": "$20$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The modulation index $m$ for an amplitude modulated wave is calculated as $m = \\frac{A_{max} - A_{min}}{A_{max} + A_{min}}$. Substituting the given values, $m = \\frac{12 - 4}{12 + 4} = \\frac{8}{16} = 0.5$, which is $50\\%$."
     },
     {
       "year": 2015,
@@ -361,7 +419,9 @@
         "C": "2\\text{ k}\\Omega, 200",
         "D": "1\\text{ k}\\Omega, 200"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The input resistance is $R_{in} = \\frac{\\Delta V_{BE}}{\\Delta I_B} = \\frac{0.04 \\text{ V}}{20 \\mu\\text{A}} = 2 \\text{ k}\\Omega$. The A.C. current gain $\\beta_{ac}$ is the ratio of change in collector current to change in base current, $\\beta_{ac} = \\frac{\\Delta I_C}{\\Delta I_B} = \\frac{2 \\text{ mA}}{20 \\mu\\text{A}} = 100$."
     },
     {
       "year": 2015,
@@ -373,7 +433,9 @@
         "C": "800",
         "D": "1600"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The emitter current $I_E$ is calculated using the formula $I = \\frac{Q}{t} = \\frac{ne}{t}$. Substituting $n = 10^{10}$, $e = 1.6 \\times 10^{-19} \\text{ C}$, and $t = 2 \\times 10^{-6} \\text{ s}$, we get $I_E = 8 \\times 10^{-4} \\text{ A}$, which is $800 \\mu \\text{A}$."
     },
     {
       "year": 2015,
@@ -385,7 +447,9 @@
         "C": "AND",
         "D": "NAND"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "A NOR gate has the output $Y = \\overline{A + B}$. When both inputs are shorted ($A = B$), the output becomes $Y = \\overline{A + A} = \\overline{A}$, which is the operation of a NOT gate."
     },
     {
       "year": 2015,
@@ -397,7 +461,9 @@
         "C": "750 MHz",
         "D": "250 MHz"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Optical fibers operate at extremely high frequencies in the terahertz range, allowing them to provide a very high bandwidth. Standard textbook values for optical fiber bandwidth are typically around $100 \\text{ GHz}$ or more."
     },
     {
       "year": 2015,
@@ -409,7 +475,9 @@
         "C": "50",
         "D": "75"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The minimum length of an antenna is typically $\\lambda/4$. Given $f = 3 \\text{ kHz}$, the wavelength $\\lambda = \\frac{c}{f} = \\frac{3 \\times 10^8}{3 \\times 10^3} = 10^5 \\text{ m}$, so $L = \\frac{10^5}{4} = 25,000 \\text{ m} = 25 \\text{ km}$."
     },
     {
       "year": 2017,
@@ -421,7 +489,9 @@
         "C": "AND",
         "D": "OR"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The circuit consists of a NAND gate followed by a NOT gate (formed by shorting the inputs of another NAND gate). The output of the first gate is $\\overline{A \\cdot B}$, and the second gate inverts it to $\\overline{\\overline{A \\cdot B}} = A \\cdot B$, which represents an AND gate."
     },
     {
       "year": 2017,
@@ -433,7 +503,9 @@
         "C": "49",
         "D": "0.95"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "First, calculate the emitter current $I_E = \\frac{ne}{t} = 1.6 \\text{ mA}$. Since $5\\%$ of electrons recombine in the base, the base current $I_B = 0.05 I_E$ and the collector current $I_C = 0.95 I_E$. The current gain $\\beta = \\frac{I_C}{I_B} = \\frac{0.95}{0.05} = 19$."
     },
     {
       "year": 2017,
@@ -445,7 +517,9 @@
         "C": "$\\infty$, 25",
         "D": "25, 25"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "When $V_A > V_B$, diode $D_1$ is forward biased and $D_2$ is reverse biased, allowing current through the $25 \\Omega$ resistor. When $V_B > V_A$, both diodes (or the relevant path) become reverse biased, acting as an open circuit with infinite resistance."
     },
     {
       "year": 2017,
@@ -457,7 +531,9 @@
         "C": "12",
         "D": "9"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The modulation index $m$ is defined as the ratio of the amplitude of the modulating signal $A_m$ to the amplitude of the carrier wave $A_c$. Using $A_m = m \\times A_c$, we get $A_m = 0.5 \\times 12 \\text{ V} = 6 \\text{ V}$."
     },
     {
       "year": 2017,
@@ -469,7 +545,9 @@
         "C": "$h_T^{1/3}$",
         "D": "$h_T$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The distance of transmission for a T.V. tower is given by $d = \\sqrt{2Rh_T}$, where $R$ is the radius of the Earth. The area covered is $A = \\pi d^2 = 2\\pi Rh_T$, which shows that the area is directly proportional to the height $h_T$."
     },
     {
       "year": 2018,
@@ -481,7 +559,9 @@
         "C": "reverse, reverse",
         "D": "forward, reverse"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "For a transistor to operate in the active region (as an amplifier), the emitter-base junction must be forward biased to allow carrier injection. Conversely, the collector-base junction must be reverse biased to efficiently collect those carriers."
     },
     {
       "year": 2018,
@@ -493,7 +573,9 @@
         "C": "$30\\%$",
         "D": "$40\\%$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The modulation index $m$ for an AM wave is calculated using the formula $m = \\frac{A_{max} - A_{min}}{A_{max} + A_{min}}$. Substituting the given values, $m = \\frac{15 - 10}{15 + 10} = \\frac{5}{25} = 0.2$, which corresponds to $20\\%$."
     },
     {
       "year": 2018,
@@ -505,7 +587,9 @@
         "C": "Diagram C",
         "D": "Diagram D"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "By analyzing the truth tables for the given logic gates, we find that the configuration in Diagram B results in a high output ($1$). For example, a NAND gate with inputs $1$ and $0$ will yield an output of $1$."
     },
     {
       "year": 2018,
@@ -517,7 +601,9 @@
         "C": "$0.93$",
         "D": "$0.95$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The relationship between the common-emitter current gain $\\beta$ and the common-base current gain $\\alpha$ is given by $\\alpha = \\frac{\\beta}{1 + \\beta}$. Substituting $\\beta = 19$, we get $\\alpha = \\frac{19}{1 + 19} = \\frac{19}{20} = 0.95$."
     },
     {
       "year": 2018,
@@ -529,7 +615,9 @@
         "C": "$E_{g1} > E_{g2} < E_{g3}$",
         "D": "$E_{g1} < E_{g2} < E_{g3}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Insulators have the largest energy band gap ($E_{g1} > 3 \\text{ eV}$), semiconductors have a smaller gap ($E_{g3} \\approx 1 \\text{ eV}$), and conductors have nearly zero gap ($E_{g2} \\approx 0$). Thus, the correct relation is $E_{g1} > E_{g3} > E_{g2}$."
     },
     {
       "year": 2019,
@@ -541,7 +629,9 @@
         "C": "0.005",
         "D": "0.05"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The potential barrier $V$ is related to the electric field $E$ and the width of the depletion region $d$ by the formula $V = E \\times d$. Substituting $E = 1 \\times 10^6 \\text{ V/m}$ and $d = 5000 \\times 10^{-10} \\text{ m}$, we calculate $V = 0.5 \\text{ V}$."
     },
     {
       "year": 2019,
@@ -553,7 +643,9 @@
         "C": "OR",
         "D": "NOR"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The diagram shows a NAND gate with its inputs shorted together. In this configuration, the output is always the inverse of the input ($Y = \\overline{A \\cdot A} = \\overline{A}$), which is the characteristic of a NOT gate."
     },
     {
       "year": 2019,
@@ -565,7 +657,9 @@
         "C": "6",
         "D": "0.5"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The depletion layer or space charge region in a typical p-n junction diode has a thickness of the order of $10^{-6} \\text{ m}$. Among the given options, $0.5 \\mu\\text{m}$ is the most accurate representation of this width."
     },
     {
       "year": 2019,
@@ -577,7 +671,9 @@
         "C": "4",
         "D": "3"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The amplitude of the Upper Side Band (USB) in amplitude modulation is given by $\\frac{A_m}{2}$, where $A_m$ is the peak voltage of the modulating signal. Given $A_m = 8 \\text{ V}$, the amplitude of the USB is $\\frac{8}{2} = 4 \\text{ V}$."
     },
     {
       "year": 2019,
@@ -589,7 +685,9 @@
         "C": "Optical fibre",
         "D": "Space wave"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Radio waves in the frequency range of $2 \\text{ MHz}$ to $30 \\text{ MHz}$ are reflected back to Earth by the ionosphere. This specific mode of long-distance communication is known as sky wave propagation."
     },
     {
       "year": 2020,
@@ -601,7 +699,9 @@
         "C": "Semiconductor",
         "D": "Superconductor"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "In insulators, the valence band is completely filled and the conduction band is empty, separated by a large energy gap ($E_g > 3 \\text{ eV}$). Metals have overlapping bands, while semiconductors have a much smaller gap compared to insulators."
     },
     {
       "year": 2020,
@@ -613,7 +713,9 @@
         "C": "NOR",
         "D": "NAND"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The truth table shows that the output is '0' only when both inputs are '1', and '1' for all other input combinations. This represents the logical operation $\\overline{A \\cdot B}$, which is the definition of a NAND gate."
     },
     {
       "year": 2020,
@@ -625,7 +727,9 @@
         "C": "$4.5 \\times 10^{-9}\\text{ m}^{-3}$",
         "D": "$5.4 \\times 10^{-9}\\text{ m}^{-3}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The electron concentration is $n_e \\approx N_D = 10^{-6} \\times 5 \\times 10^{28} = 5 \\times 10^{22} \\text{ m}^{-3}$. Using the mass action law $n_h = \\frac{n_i^2}{n_e} = \\frac{(1.5 \\times 10^{16})^2}{5 \\times 10^{22}}$, we get $n_h = 4.5 \\times 10^9 \\text{ m}^{-3}$."
     },
     {
       "year": 2020,
@@ -637,7 +741,9 @@
         "C": "Decreases",
         "D": "Cannot be decided"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "In forward bias, the applied external voltage opposes the built-in potential of the depletion region. This results in a reduction of the effective potential barrier and a decrease in the thickness of the depletion layer."
     },
     {
       "year": 2021,
@@ -649,7 +755,9 @@
         "C": "1.8 eV",
         "D": "1.4 eV"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The energy of the emitted photon must be approximately equal to the band gap $E_g$. For red light with a wavelength of about $650 \\text{ nm}$, the energy calculated using $E = \\frac{hc}{\\lambda}$ is approximately $1.9 \\text{ eV}$."
     },
     {
       "year": 2021,
@@ -661,7 +769,9 @@
         "C": "60 Hz",
         "D": "120 Hz"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "In a full-wave rectifier, both the positive and negative halves of the input AC cycle are converted into output pulses in the same direction. Consequently, the output ripple frequency is exactly twice the input frequency, $2 \\times 60 \\text{ Hz} = 120 \\text{ Hz}$."
     },
     {
       "year": 2021,
@@ -673,7 +783,9 @@
         "C": "OR gate",
         "D": "NAND gate"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The circuit uses two NAND gates as NOT gates followed by a third NAND gate. According to De Morgan's theorem, the output is $Y = \\overline{\\overline{A} \\cdot \\overline{B}} = A + B$, which corresponds to an OR gate."
     },
     {
       "year": 2022,
@@ -685,7 +797,9 @@
         "C": "AND gate",
         "D": "NOR gate"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The circuit consists of a NAND gate followed by a NOT gate (a NAND gate with shorted inputs). The final output is the double negation of the AND operation, $\\overline{\\overline{A \\cdot B}} = A \\cdot B$, which is an AND gate."
     },
     {
       "year": 2022,
@@ -697,7 +811,9 @@
         "C": "lowers the potential barrier",
         "D": "none of the above"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Applying a forward bias means the external field is opposite to the internal barrier field. This reduces the net electric field at the junction, thereby lowering the potential barrier and allowing current to flow."
     },
     {
       "year": 2022,
@@ -709,7 +825,9 @@
         "C": "$5.5 \\times 10^9\\text{ m}^{-3}$",
         "D": "$5.5 \\times 10^{-9}\\text{ m}^{-3}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The donor concentration is $n_e = 5 \\times 10^{22} \\text{ m}^{-3}$ from $1 \\text{ ppm}$ doping. Applying the mass action law $n_i^2 = n_e n_h$, the hole concentration is $n_h = \\frac{2.25 \\times 10^{32}}{5 \\times 10^{22}} = 4.5 \\times 10^9 \\text{ m}^{-3}$."
     },
     {
       "year": 2023,
@@ -721,7 +839,9 @@
         "C": "NOT",
         "D": "OR"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The logic circuit consists of an OR gate followed by a NOT gate. The combined operation is the negation of the OR sum, $Y = \\overline{A + B}$, which is the Boolean expression for a NOR gate."
     },
     {
       "year": 2023,
@@ -733,7 +853,9 @@
         "C": "30",
         "D": "0.3"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "In a standard p-n junction solar cell, the p-Si wafer acts as the base and is approximately $300 \\mu\\text{m}$ thick. The n-Si layer is made extremely thin, around $0.3 \\mu\\text{m}$, to ensure that incident light photons can reach the depletion region. The ratio of these thicknesses is $\\frac{300}{0.3} = 1000$."
     },
     {
       "year": 2023,
@@ -745,7 +867,9 @@
         "C": "2.3",
         "D": "3.0"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "For a semiconductor to emit visible light through recombination, the energy of the emitted photon ($E = h\\nu$) must be at least $1.8 \\text{ eV}$, which corresponds to the red end of the visible spectrum. Therefore, the band gap $E_g$ of the material must be at least $1.8 \\text{ eV}$ to produce visible light."
     },
     {
       "year": 2024,
@@ -757,7 +881,9 @@
         "C": "Indium",
         "D": "Arsenic"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "A p-type semiconductor is created by doping a pure semiconductor with trivalent impurities from Group 13, such as Indium ($In$), Boron, or Aluminum. These impurities create 'holes' as majority charge carriers. Phosphorous, Antimony, and Arsenic are pentavalent impurities used to create n-type semiconductors."
     },
     {
       "year": 2024,
@@ -769,7 +895,9 @@
         "C": "$5.4$",
         "D": "$1.1$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The forbidden energy band gap ($E_g$) represents the minimum energy required for an electron to transition from the valence band to the conduction band. For Germanium ($Ge$), this specific energy value is approximately $0.72 \\text{ eV}$ at room temperature. In comparison, Silicon ($Si$) has a higher band gap of about $1.1 \\text{ eV}$."
     },
     {
       "year": 2025,
@@ -781,7 +909,9 @@
         "C": "50 mA",
         "D": "10 mA"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "An ideal diode in forward bias acts as a conductor with zero resistance, while in reverse bias it acts as an open circuit. Assuming a standard circuit configuration where the diode is forward-biased with a $5 \\text{ V}$ source and $50 \\text{ } \\Omega$ resistor, the current is $I = \\frac{V}{R} = \\frac{5}{50} = 0.1 \\text{ A}$, which is $100 \\text{ mA}$."
     },
     {
       "year": 2025,
@@ -793,7 +923,9 @@
         "C": "lowers the potential barrier",
         "D": "raises the potential barrier"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "When a reverse bias is applied, the external potential is in the same direction as the internal barrier potential of the p-n junction. This increases the effective height of the potential barrier and widens the depletion layer. Consequently, it becomes much more difficult for majority charge carriers to diffuse across the junction."
     },
     {
       "year": 2025,
@@ -805,7 +937,9 @@
         "C": "7.5 ms",
         "D": "0.3 $\\mu\\text{s}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The time constant ($\\tau$) of an RC circuit used in a rectifier filter is calculated using the formula $\\tau = R \\times C$. Given $R = 200 \\text{ } \\Omega$ and $C = 15 \\mu\\text{F}$, the calculation is $200 \\times 15 \\times 10^{-6} = 3000 \\times 10^{-6} \\text{ s}$, which simplifies to $3 \\text{ ms}$."
     }
   ]
 }

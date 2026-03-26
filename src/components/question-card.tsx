@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Latex } from "@/components/latex";
 import type { Question } from "@/lib/types";
 import { cn } from "@/lib/utils";
-import { Bookmark, RotateCcw } from "lucide-react";
+import { Bookmark, RotateCcw, Lightbulb, ChevronDown, ChevronUp } from "lucide-react";
 
 interface QuestionCardProps {
   question: Question;
@@ -35,6 +35,7 @@ export function QuestionCard({
   onRetry,
 }: QuestionCardProps) {
   const [selected, setSelected] = useState<string | null>(null);
+  const [showExplanation, setShowExplanation] = useState(false);
   const optionKeys = ["A", "B", "C", "D"] as const;
 
   useEffect(() => {
@@ -81,6 +82,19 @@ export function QuestionCard({
             <Badge variant="outline" className="text-xs">
               {question.year}
             </Badge>
+            {question.difficulty && (
+              <Badge
+                variant="outline"
+                className={cn(
+                  "text-xs capitalize",
+                  question.difficulty === "easy" && "text-green-600 border-green-300 dark:text-green-400 dark:border-green-700",
+                  question.difficulty === "medium" && "text-amber-600 border-amber-300 dark:text-amber-400 dark:border-amber-700",
+                  question.difficulty === "hard" && "text-red-600 border-red-300 dark:text-red-400 dark:border-red-700"
+                )}
+              >
+                {question.difficulty}
+              </Badge>
+            )}
             {question.chapter && (
               <Badge variant="secondary" className="text-xs capitalize">
                 {question.chapter.replace(/_/g, " ")}
@@ -167,6 +181,24 @@ export function QuestionCard({
             <RotateCcw className="size-3.5" />
             Try Again
           </Button>
+        )}
+
+        {showAnswer && question.explanation && (
+          <div>
+            <button
+              onClick={() => setShowExplanation(!showExplanation)}
+              className="flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
+            >
+              <Lightbulb className="size-3.5" />
+              {showExplanation ? "Hide Explanation" : "Show Explanation"}
+              {showExplanation ? <ChevronUp className="size-3.5" /> : <ChevronDown className="size-3.5" />}
+            </button>
+            {showExplanation && (
+              <div className="mt-2 rounded-lg border border-primary/20 bg-primary/5 p-3 text-sm leading-relaxed">
+                <Latex text={question.explanation} />
+              </div>
+            )}
+          </div>
         )}
       </CardContent>
     </Card>

@@ -13,7 +13,9 @@
         "C": "$E_{\\text{cell}} = 0.80\\text{V}$",
         "D": "$E_{\\text{cell}} = 0.0296\\text{V}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "For a concentration cell, the potential is given by $E_{\\text{cell}} = \\frac{0.0592}{n} \\log \\frac{C_{\\text{cathode}}}{C_{\\text{anode}}}$. For $\\text{Ag}/\\text{Ag}^+$, $n=1$, so $E_{\\text{cell}} = 0.0592 \\log \\frac{0.1}{0.01} = 0.0592 \\text{ V}$. Option B is logically correct, though D is sometimes cited if $n=2$ is incorrectly assumed."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "$x > 0.01\\text{M}$",
         "D": "$x < 0.01\\text{M}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The standard cell potential is $E^0_{\\text{cell}} = E^0_{\\text{cathode}} - E^0_{\\text{anode}} = 0.34 - (-0.44) = 0.78 \\text{ V}$. Since the measured $E_{\\text{cell}}$ is also $0.78 \\text{ V}$, the Nernst equation $E_{\\text{cell}} = E^0_{\\text{cell}} - \\frac{0.0592}{2} \\log \\frac{[\\text{Fe}^{2+}]}{[\\text{Cu}^{2+}]}$ implies the log term is zero, so $x = 0.01 \\text{ M}$."
     },
     {
       "year": 2007,
@@ -37,7 +41,9 @@
         "C": "6",
         "D": "3"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The reduction of dichromate is $\\text{Cr}_2\\text{O}_7^{2-} + 14\\text{H}^+ + 6e^- \\rightarrow 2\\text{Cr}^{3+} + 7\\text{H}_2\\text{O}$. Since $1 \\text{ mole}$ of $\\text{Cr}_2\\text{O}_7^{2-}$ requires $6 \\text{ Faradays}$ of charge, $2.5 \\text{ moles}$ will require $2.5 \\times 6 = 15 \\text{ Faradays}$."
     },
     {
       "year": 2007,
@@ -49,7 +55,9 @@
         "C": "$E_{\\text{cell}} = E^0_{\\text{cell}} - \\frac{0.0592}{n} \\times \\log [\\text{Mg}^{2+}][\\text{Cl}^-]^2$",
         "D": "$E_{\\text{cell}} = E^0_{\\text{cell}} - \\frac{0.0592}{n} \\times \\log \\frac{[\\text{Mg}^{2+}]}{[\\text{Cl}^-]^2}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The net cell reaction is $\\text{Mg} + \\text{Cl}_2 \\rightarrow \\text{Mg}^{2+} + 2\\text{Cl}^-$. The reaction quotient is $Q = [\\text{Mg}^{2+}][\\text{Cl}^-]^2$, so the Nernst equation is $E_{\\text{cell}} = E^0_{\\text{cell}} - \\frac{0.0592}{2} \\log([\\text{Mg}^{2+}][\\text{Cl}^-]^2)$, which corresponds to option C."
     },
     {
       "year": 2008,
@@ -61,7 +69,9 @@
         "C": "1 : 1 : 2",
         "D": "1 : 2 : 2"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "According to Faraday's second law, the number of moles deposited by the same charge is inversely proportional to the valency ($n \\propto 1/z$). For $\\text{Cu}^{2+}$, $\\text{Ni}^{2+}$, and $\\text{Ag}^+$, the mole ratio is $1/2 : 1/2 : 1$, which simplifies to $1 : 1 : 2$ (Option C)."
     },
     {
       "year": 2008,
@@ -73,7 +83,9 @@
         "C": "$E_{\\text{cell}} = E^0_{\\text{cell}} - \\frac{0.0592}{nF} \\log_{10} \\frac{[\\text{Fe}^{2+}] [\\text{I}^-]^2}{[\\text{Fe}] [\\text{I}_2]}$",
         "D": "$E_{\\text{cell}} = E^0_{\\text{cell}} - \\frac{0.0592}{n} \\log_{10} [\\text{Fe}^{2+}] [\\text{I}^-]$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The net cell reaction is $\\text{Fe} + \\text{I}_2 \\rightarrow \\text{Fe}^{2+} + 2\\text{I}^-$. The reaction quotient is $Q = [\\text{Fe}^{2+}][\\text{I}^-]^2$, so the correct Nernst equation is $E_{\\text{cell}} = E^0_{\\text{cell}} - \\frac{0.0592}{n} \\log_{10} ([\\text{Fe}^{2+}] [\\text{I}^-]^2)$, which is option A."
     },
     {
       "year": 2009,
@@ -85,7 +97,9 @@
         "C": "$8 \\times 10^{19}$",
         "D": "$6.2 \\times 10^{19}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Total charge $Q = I \\times t = 10 \\text{ C}$. The number of atoms deposited is $\\frac{Q \\times N_A}{n \\times F} = \\frac{10 \\times 6.022 \\times 10^{23}}{2 \\times 96500} \\approx 3.12 \\times 10^{19}$, which matches option A."
     },
     {
       "year": 2009,
@@ -97,7 +111,9 @@
         "C": "$+ 3.4 \\text{ volt}$",
         "D": "$- 3.4 \\text{ volt}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The cell uses a Standard Hydrogen Electrode as the anode ($E^0 = 0 \\text{ V}$). Since all concentrations are $1\\text{M}$, $E_{\\text{cell}} = E^0_{\\text{cell}} = E^0_{\\text{cathode}} - E^0_{\\text{anode}} = E^0_{\\text{Cu}^{2+}/\\text{Cu}} - 0 = 0.34 \\text{ V}$, so $E^0_{\\text{Cu}^{2+}/\\text{Cu}} = +0.34 \\text{ V}$ (Option A)."
     },
     {
       "year": 2009,
@@ -109,7 +125,9 @@
         "C": "$\\text{H}_2\\text{SO}_4$",
         "D": "$\\text{H}_2\\text{O}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "During electrolysis of aqueous $\\text{CuSO}_4$ with graphite electrodes, water is oxidized at the anode to produce $\\text{O}_2$ and $\\text{H}^+$ ions. These $\\text{H}^+$ ions remain in the solution with $\\text{SO}_4^{2-}$ ions, forming $\\text{H}_2\\text{SO}_4$ (Option C)."
     },
     {
       "year": 2009,
@@ -121,7 +139,9 @@
         "C": "Production of Water.",
         "D": "Production of $\\text{Na}$."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Electrolysis is used for the industrial production of reactive metals like $\\text{Na}$, chemicals like $\\text{KOH}$, and for the purification of metals. It is not used for the production of water, which is a spontaneous process (Option C)."
     },
     {
       "year": 2011,
@@ -133,7 +153,9 @@
         "C": "$63.5\\text{ gram}$",
         "D": "$31.75\\text{ gram}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "For cells in series, $\\frac{W_1}{E_1} = \\frac{W_2}{E_2}$. Using equivalent weights $E_{\\text{Al}} = 27/3 = 9$ and $E_{\\text{Cu}} = 63.5/2 = 31.75$, we get $\\frac{2.7}{9} = \\frac{W_{\\text{Cu}}}{31.75}$, which gives $W_{\\text{Cu}} = 9.525 \\text{ g}$."
     },
     {
       "year": 2011,
@@ -145,7 +167,9 @@
         "C": "$\\text{Br}_{2(g)} + \\text{Cl}_{2(g)} \\rightarrow 2\\text{Br}^-_{(aq)} + 2\\text{Cl}^-_{(aq)}$",
         "D": "$2\\text{Br}^-_{(aq)} + 2\\text{Cl}^-_{(aq)} \\rightarrow \\text{Br}_{2(g)} + \\text{Cl}_{2(g)}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "In the cell notation, the left side is the anode (oxidation: $2\\text{Br}^- \\rightarrow \\text{Br}_2 + 2e^-$) and the right side is the cathode (reduction: $\\text{Cl}_2 + 2e^- \\rightarrow 2\\text{Cl}^-$). The net reaction is $2\\text{Br}^- + \\text{Cl}_2 \\rightarrow \\text{Br}_2 + 2\\text{Cl}^-$."
     },
     {
       "year": 2011,
@@ -157,7 +181,9 @@
         "C": "$\\text{pH} < 7.0$",
         "D": "$\\text{pH} = 7.0$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "At the anode, water is oxidized: $2\\text{H}_2\\text{O} \\rightarrow \\text{O}_2 + 4\\text{H}^+ + 4e^-$. The production of $\\text{H}^+$ ions increases the acidity of the solution, which means the $\\text{pH}$ will be less than $7.0$."
     },
     {
       "year": 2014,
@@ -169,7 +195,9 @@
         "C": "dilute aq. solution of $\\text{NaCl}$",
         "D": "solid $\\text{NaCl}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "In dilute $\\text{NaCl}$ solution, water is more easily reduced than $\\text{Na}^+$ at the cathode (producing $\\text{H}_2$) and more easily oxidized than $\\text{Cl}^-$ at the anode (producing $\\text{O}_2$)."
     },
     {
       "year": 2014,
@@ -181,7 +209,9 @@
         "C": "The electrical conductivity of metal increases with increase in temperature",
         "D": "There is no change in the structure of metal during electrical conduction"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Metallic conductivity is due to the flow of electrons. As temperature increases, the positive metal ions (kernels) vibrate more, which increases resistance and decreases conductivity; therefore, statement C is incorrect."
     },
     {
       "year": 2014,
@@ -193,7 +223,9 @@
         "C": "$\\text{Zn}_{(s)} / \\text{Zn}^{2+}_{(aq, 0.5M)} // \\text{Cu}^{2+}_{(aq, 0.1M)} / \\text{Cu}_{(s)}$",
         "D": "$\\text{Pt} / \\text{H}_{2(g, 1bar)} / \\text{HCl}_{(aq, 0.002M)} // \\text{HCl}_{(aq, 0.005M)} / \\text{H}_{2(g, 1bar)} / \\text{Pt}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "A concentration cell is an electrochemical cell where both half-cells have the same electrodes and electrolytes but differ in concentration. In option D, both sides use hydrogen electrodes with different concentrations of $HCl$ ($0.002M$ and $0.005M$), which fits this definition."
     },
     {
       "year": 2015,
@@ -205,7 +237,9 @@
         "C": "remains colourless with phenolphthalein",
         "D": "the colour of red or blue litmus does not change"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "During the electrolysis of concentrated aqueous $NaCl$, $H_2$ gas is released at the cathode and $Cl_2$ gas at the anode, leaving $NaOH$ in the solution. Since $NaOH$ is a strong base, the resulting solution becomes basic and turns red litmus paper blue."
     },
     {
       "year": 2015,
@@ -217,7 +251,9 @@
         "C": "B > C > A",
         "D": "C > A > B"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The ability of a substance to act as a reducing agent is inversely proportional to its standard reduction potential ($E^0_{red}$). Comparing the values, $B (-0.80V) < C (-0.46V) < A (0.34V)$, so the order of reducing strength is $B > C > A$."
     },
     {
       "year": 2015,
@@ -229,7 +265,9 @@
         "C": "29.25 gm",
         "D": "5.85 gm"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "According to Faraday's second law, $W_1/E_1 = W_2/E_2$ for cells in series. Given $E_{Al} = 27/3 = 9$ and $E_{Ni} = 58.5/2 = 29.25$, we calculate $W_{Ni} = (18/9) \\times 29.25 = 58.5\\text{ g}$."
     },
     {
       "year": 2017,
@@ -241,7 +279,9 @@
         "C": "NaCl",
         "D": "HCN"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Strong electrolytes like $HCl$, $NaCl$, and $NaCN$ follow the Debye-Hückel-Onsager equation, which yields a straight line for $\\Lambda_m$ vs $\\sqrt{C}$. $HCN$ is a weak electrolyte, so its molar conductivity increases steeply upon dilution, resulting in a curve rather than a straight line."
     },
     {
       "year": 2017,
@@ -253,7 +293,9 @@
         "C": "$E^\\circ_{\\text{cell}} = 0$",
         "D": "$C_1 > C_2$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "hard",
+      "explanation": "For a concentration cell to be a 'working' (spontaneous) cell, the cell potential $E_{cell}$ must be positive. Based on the Nernst equation for this specific electrode arrangement, the condition $C_1 > C_2$ is required for spontaneity, making $C_2 > C_1$ the incorrect statement."
     },
     {
       "year": 2017,
@@ -265,7 +307,9 @@
         "C": "Remains constant",
         "D": "Increases"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "During the electrolysis of aqueous $CuSO_4$ with inert electrodes, water is oxidized at the anode to produce $O_2$ gas and $H^+$ ions. The continuous production of $H^+$ ions increases the acidity of the solution, which causes the pH to decrease."
     },
     {
       "year": 2018,
@@ -277,7 +321,9 @@
         "C": "$\\text{Ag}$",
         "D": "$\\text{Al}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "A metal solution can be stored in a container if the container metal is less reactive (has a higher reduction potential) than the metal in the solution. Silver ($Ag$) is less reactive than Copper ($Cu$), so it will not undergo a displacement reaction with $CuSO_4$."
     },
     {
       "year": 2018,
@@ -289,7 +335,9 @@
         "C": "$965\\text{ sec.}$",
         "D": "$9650\\text{ sec.}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Using Faraday's first law, $W = \\frac{M \\cdot I \\cdot t}{n \\cdot F}$, where $n=2$ for $Ni^{2+}$. Rearranging for time gives $t = \\frac{5.85 \\times 2 \\times 96500}{58.5 \\times 10}$, which results in $1930\\text{ seconds}$."
     },
     {
       "year": 2018,
@@ -301,7 +349,9 @@
         "C": "$0.059\\text{ V}$",
         "D": "$0.000\\text{ V}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The oxidation potential of a hydrogen electrode at $25^\\circ C$ is calculated using the formula $E_{ox} = 0.059 \\times pH$. Given $pH = 3$, the oxidation potential is $0.059 \\times 3 = 0.177\\text{ V}$."
     },
     {
       "year": 2019,
@@ -313,7 +363,9 @@
         "C": "Voltaic cell",
         "D": "Electrochemical cell"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The term 'Daniel cell' specifically refers to the electrochemical cell consisting of Zinc and Copper electrodes. While the $Zn-Ni$ cell is a valid Galvanic, Voltaic, and Electrochemical cell, it cannot be called a Daniel cell."
     },
     {
       "year": 2019,
@@ -325,7 +377,9 @@
         "C": "2 : 6 : 3",
         "D": "3 : 6 : 2"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The moles of metal deposited by 1 mole of electrons is $1/n$, where $n$ is the valency. For $Al^{3+}$, $Ag^+$, and $Mg^{2+}$, the molar ratio is $1/3 : 1/1 : 1/2$, which simplifies to $2 : 6 : 3$ when multiplied by 6."
     },
     {
       "year": 2020,
@@ -337,7 +391,9 @@
         "C": "$\\text{Br}^-$",
         "D": "$\\text{Zn}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The strongest reducing agent is the species with the lowest (most negative) standard reduction potential. Among the options, $Zn$ has the lowest $E^0$ value ($-0.76V$), indicating it has the highest tendency to lose electrons."
     },
     {
       "year": 2020,
@@ -349,7 +405,9 @@
         "C": "Ammonium hydroxide",
         "D": "Water"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "A linear graph of $\\lambda_m$ vs $\\sqrt{C}$ with a negative slope is a characteristic of strong electrolytes as per the Debye-Hückel-Onsager equation. Sodium acetate is a strong electrolyte, whereas the other options are weak electrolytes or pure water."
     },
     {
       "year": 2020,
@@ -361,7 +419,9 @@
         "C": "$\\text{MCl}$",
         "D": "$\\text{MCl}_4$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Using $n = \\frac{M \\cdot I \\cdot t}{W \\cdot F}$, we calculate $n = \\frac{63 \\times 1.5 \\times 600}{0.2938 \\times 96500} \\approx 2$. A valency of 2 for metal $M$ indicates that the formula of its chloride is $MCl_2$."
     },
     {
       "year": 2021,
@@ -373,7 +433,9 @@
         "C": "NaOH, $\\text{Cl}_2$ and $\\text{H}_2$",
         "D": "Na, $\\text{Cl}_2$ and $\\text{H}_2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "During the electrolysis of aqueous $NaCl$, $Cl^-$ ions are oxidized at the anode to produce $Cl_2$ gas, while $H_2O$ is reduced at the cathode to produce $H_2$ gas and $OH^-$ ions. The remaining $Na^+$ and $OH^-$ ions in the solution combine to form $NaOH$."
     },
     {
       "year": 2021,
@@ -385,7 +447,9 @@
         "C": "Cr",
         "D": "$\\text{Mn}^{2+}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The strongest reducing agent is the species with the lowest (most negative) standard reduction potential. Comparing the given values, $E^0_{Cr^{3+}/Cr} = -0.74 V$ is the lowest, which identifies $Cr$ (Option C) as the strongest reducing agent, although the provided answer B ($Cr^{3+}$) is often incorrectly cited in some keys."
     },
     {
       "year": 2021,
@@ -397,7 +461,9 @@
         "C": "$\\text{Mg} | \\text{Mg}^{2+}_{(aq)} (1\\text{M}) || \\text{Cl}_{2(g)} (1\\text{bar}) | \\text{Cl}^-_{(aq)} (1\\text{M}) | \\text{Pt}$",
         "D": "$\\text{Pt} | \\text{Cl}_{2(g)} (1\\text{bar}) | \\text{Cl}^-_{(aq)} (1\\text{M}) || \\text{Mg}^{2+}_{(aq)} (1\\text{M}) | \\text{Mg}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "In the cell reaction, $Mg$ is oxidized at the anode ($Mg | Mg^{2+}$) and $Cl_2$ is reduced at the cathode ($Cl_2 | Cl^-$) on a $Pt$ electrode. Following the convention $Anode || Cathode$, and placing the inert electrode $Pt$ at the end of the gas electrode, the representation is $Mg | Mg^{2+} || Cl^- | Cl_2 | Pt$."
     },
     {
       "year": 2022,
@@ -409,7 +475,9 @@
         "C": "6 F",
         "D": "9 F"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The reduction of dichromate in acidic medium is $Cr_2O_7^{2-} + 14H^+ + 6e^- \\rightarrow 2Cr^{3+} + 7H_2O$, requiring $6 F$ per mole of $Cr_2O_7^{2-}$. For $2$ moles of $Cr_2O_7^{2-}$, the total electricity required is $2 \\times 6 F = 12 F$."
     },
     {
       "year": 2022,
@@ -421,7 +489,9 @@
         "C": "$x > 0.02\\text{ M}$",
         "D": "$x \\ge 0.02\\text{ M}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The Nernst equation for the cell is $E_{cell} = E^0_{cell} - \\frac{0.059}{2} \\log \\frac{[Zn^{2+}]}{[Cu^{2+}]}$. To increase the cell potential, the ratio $\\frac{[Zn^{2+}]}{[Cu^{2+}]}$ must be less than $1$, meaning $[Zn^{2+}] < [Cu^{2+}]$, so $x < 0.02 M$."
     },
     {
       "year": 2022,
@@ -433,7 +503,9 @@
         "C": "Ni",
         "D": "CdO"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "In a nickel-cadmium cell, $Cd$ is the anode (reducing agent) and $NiO_2$ or $Ni(OH)_3$ acts as the cathode (oxidizing agent). During discharge, $Ni(OH)_3$ is reduced to $Ni(OH)_2$ by accepting electrons."
     },
     {
       "year": 2023,
@@ -445,7 +517,9 @@
         "C": "$1.24 \\text{ cm}^{-1}$",
         "D": "$0.248 \\text{ m}^{-1}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The cell constant $G^*$ is calculated as $G^* = \\kappa \\times R$. Given $\\kappa = 1.29 S/m$ and $R = 100 \\Omega$, $G^* = 129 m^{-1}$, which is equivalent to $1.29 cm^{-1}$ (Option A); the provided answer B ($1.29 m^{-1}$) appears to be a decimal error in the key."
     },
     {
       "year": 2023,
@@ -457,7 +531,9 @@
         "C": "$E_{\\text{cell}} = E^{\\circ}_{\\text{cell}} - \\frac{0.059}{2} \\log \\frac{1}{[\\text{Mg}^{2+}][\\text{Cl}^-]^2}$",
         "D": "$E_{\\text{cell}} = E^{\\circ}_{\\text{cell}} - \\frac{0.059}{2} \\log [\\text{Mg}^{2+}][\\text{Cl}^-]^2$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The net cell reaction is $Mg(s) + Cl_2(g) \\rightarrow Mg^{2+}(aq) + 2Cl^-(aq)$, where $n=2$. The Nernst equation is $E_{cell} = E^0_{cell} - \\frac{0.059}{2} \\log ([Mg^{2+}][Cl^-]^2)$, which corresponds to Option D, though Option B is provided in the key."
     },
     {
       "year": 2023,
@@ -469,7 +545,9 @@
         "C": "$\\text{H}_2\\text{O}_{\\text{(l)}} + \\text{e}^- \\rightarrow \\frac{1}{2}\\text{H}_{2\\text{(g)}} + 2\\text{OH}^-_{\\text{(aq)}}$",
         "D": "$\\text{S}_2\\text{O}_8^{2-}_{\\text{(aq)}} + 2\\text{e}^- \\rightarrow 2\\text{SO}_4^{2-}_{\\text{(aq)}}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "During the electrolysis of highly concentrated $H_2SO_4$, the oxidation of $SO_4^{2-}$ ions is kinetically preferred over the oxidation of water. The reaction at the anode is $2SO_4^{2-} \\rightarrow S_2O_8^{2-} + 2e^-$, producing peroxodisulphate ions."
     },
     {
       "year": 2024,
@@ -481,7 +559,9 @@
         "C": "+ 0.59 V",
         "D": "- 0.59 V"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The potential of a hydrogen electrode at $298 K$ is given by $E = -0.059 \\times pH$. For a solution with $pH = 10$, the potential is $E = -0.059 \\times 10 = -0.59 V$."
     },
     {
       "year": 2024,
@@ -493,7 +573,9 @@
         "C": "Conductivity of solution does not depend upon temperature",
         "D": "Conductivity of solution depends on the nature of solvent and its viscosity"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The conductivity of an electrolytic solution depends on the concentration and nature of the electrolyte, the nature of the solvent, and the temperature. Conductivity increases with temperature due to increased ionic mobility, making statement C incorrect."
     },
     {
       "year": 2024,
@@ -505,7 +587,9 @@
         "C": "$\text{SO}_{2(g)}$",
         "D": "$\text{SO}_{3(aq)}^{2-}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "In the electrolysis of concentrated $H_2SO_4$, the $SO_4^{2-}$ ions are oxidized at the anode to form peroxodisulphate ions ($S_2O_8^{2-}$). The reaction is $2SO_4^{2-} \\rightarrow S_2O_8^{2-} + 2e^-$, making Option B the correct product."
     },
     {
       "year": 2024,
@@ -517,7 +601,9 @@
         "C": "6.0 F",
         "D": "3.0 F"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "In basic or neutral medium, $KMnO_4$ is reduced to $MnO_2$ with a change in oxidation state of $Mn$ from $+7$ to $+4$ ($n=3$). For $1.5$ moles of $KMnO_4$, the electricity required is $1.5 \\times 3 = 4.5 F$."
     },
     {
       "year": 2025,
@@ -529,7 +615,9 @@
         "C": "$\\Lambda^0_{m(\\text{HNO}_3)} + \\Lambda^0_{m(\\text{NaNO}_3)} - \\Lambda^0_{m(\\text{NaOH})}$",
         "D": "$\\Lambda^0_{m(\\text{HNO}_3)} + \\Lambda^0_{m(\\text{Ba(OH)}_2)} - \\Lambda^0_{m(\\text{Ba(NO}_3)_2)}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "According to Kohlrausch's law, $\\Lambda^0_{m(H_2O)} = \\lambda^0_{H^+} + \\lambda^0_{OH^-}$. This can be obtained by the combination $\\Lambda^0_{m(HCl)} + \\Lambda^0_{m(NaOH)} - \\Lambda^0_{m(NaCl)}$, which cancels out the $Na^+$ and $Cl^-$ contributions."
     },
     {
       "year": 2025,
@@ -541,7 +629,9 @@
         "C": "$K_c = 10^{-2.2/0.059}$",
         "D": "$K_c = 10^{0.059/1.1}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The relationship between standard cell potential and the equilibrium constant is $E^0_{cell} = \\frac{0.059}{n} \\log K_c$. For the Daniell cell ($n=2$), $1.1 = \\frac{0.059}{2} \\log K_c$, which simplifies to $\\log K_c = \\frac{2.2}{0.059}$ or $K_c = 10^{2.2/0.059}$."
     },
     {
       "year": 2025,
@@ -553,7 +643,9 @@
         "C": "$3 \\times 96500 \\text{ C}$",
         "D": "$4 \\times 96500 \\text{ C}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The number of electrons transferred ($n$) is determined by the change in oxidation state of aluminum from $+3$ to $0$. For the production of $\\frac{4}{3}$ moles of $\\text{Al}$, the total electrons required are $n = \\frac{4}{3} \\times 3 = 4$. Thus, the quantity of electricity is $Q = nF = 4 \\times 96500 \\text{ C}$, which corresponds to the stoichiometry of the given reaction."
     },
     {
       "year": 2025,
@@ -565,7 +657,9 @@
         "C": "$\\Delta G$ is extensive and $E_{\\text{cell}}$ is intensive property.",
         "D": "Both $\\Delta G$ and $E_{\\text{cell}}$ are extensive properties."
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Gibbs free energy ($\\Delta G$) is an extensive property because its value depends on the amount of substance ($n$) involved in the reaction, as shown by $\\Delta G = -nFE_{\\text{cell}}$. Cell potential ($E_{\\text{cell}}$) is an intensive property because it is a potential difference that remains constant regardless of the size of the system or the quantity of matter."
     }
   ]
 }

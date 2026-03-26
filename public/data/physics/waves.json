@@ -13,7 +13,9 @@
         "C": "250",
         "D": "25000"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The number of waves in a given length is calculated using the formula $n = \\frac{L}{\\lambda}$. Given $L = 1\\text{ mm} = 10^{-3}\\text{ m}$ and $\\lambda = 4000\\text{ \\AA} = 4 \\times 10^{-7}\\text{ m}$, we substitute these values into the equation. This yields $n = \\frac{10^{-3}}{4 \\times 10^{-7}} = 2500$ waves."
     }
   ]
 }

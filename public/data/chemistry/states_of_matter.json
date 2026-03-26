@@ -13,7 +13,9 @@
         "C": "R",
         "D": "S"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "According to the ideal gas equation $PV = nRT$, pressure is directly proportional to the number of moles ($n$) when volume ($V$) and temperature ($T$) are constant ($P \\propto n$). Since vessel P contains the highest number of gas molecules as shown in the diagram, it results in a higher frequency of collisions with the vessel walls. Consequently, vessel P exhibits the highest pressure among the four vessels."
     }
   ]
 }

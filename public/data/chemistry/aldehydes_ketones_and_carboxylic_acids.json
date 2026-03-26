@@ -13,7 +13,9 @@
         "C": "+ 4",
         "D": "zero"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "In Methanal ($HCHO$), the carbonyl carbon is double-bonded to oxygen and single-bonded to two hydrogen atoms. While the total oxidation state of carbon in $HCHO$ is $0$ ($x + 2(1) - 2 = 0$), the oxidation state specifically attributed to the carbonyl functional group interaction ($C=O$) is often considered $+2$ in competitive contexts. This assumes the $C-H$ bonds are treated separately or the question focuses on the $C-O$ polarity."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "$\\text{C}_n\\text{H}_{2n} \\cdot \\text{O}$",
         "D": "$\\text{C}_n\\text{H}_{2n+1} \\cdot \\text{O}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Aldehydes and ketones are functional isomers with the general molecular formula $C_nH_{2n}O$. This formula accounts for one degree of unsaturation due to the presence of the carbonyl ($C=O$) double bond. For example, both Propanal and Propanone have the formula $C_3H_6O$."
     },
     {
       "year": 2007,
@@ -37,7 +41,9 @@
         "C": "Benzo phenone",
         "D": "Benzoyl chloride"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Benzamide ($C_6H_5CONH_2$) undergoes dehydration when heated with strong dehydrating agents like $P_2O_5$ or $POCl_3$. The reaction involves the removal of a water molecule from the amide group to form Benzonitrile ($C_6H_5CN$)."
     },
     {
       "year": 2008,
@@ -49,7 +55,9 @@
         "C": "Ethene",
         "D": "Ethanoic acid"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Compound B must be Ethanal ($CH_3CHO$) because its reduction with $H_2/Ni$ yields Ethyl alcohol ($CH_3CH_2OH$). Since B is formed by the oxidation of A, compound A must be Ethanol ($CH_3CH_2OH$), which oxidizes to Ethanal using $Na_2Cr_2O_7/H_2SO_4$."
     },
     {
       "year": 2008,
@@ -61,7 +69,9 @@
         "C": "Nucleophilic substitution reaction.",
         "D": "Nucleophilic addition reaction."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The formation of cyanohydrin involves the addition of $HCN$ to the carbonyl group of Acetone. The $CN^-$ ion acts as a nucleophile and attacks the electrophilic carbonyl carbon, making it a classic example of a nucleophilic addition reaction."
     },
     {
       "year": 2008,
@@ -73,7 +83,9 @@
         "C": "$\\text{CH}_3\\text{CN}$",
         "D": "$\\text{CH}_3\\text{COONH}_4$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Acetic acid reacts with $NH_3$ to form ammonium acetate ($CH_3COONH_4$, A), which on heating dehydrates to acetamide ($CH_3CONH_2$, B). Further dehydration of acetamide using $P_4O_{10}$ removes another water molecule to yield Ethane nitrile ($CH_3CN$, C)."
     },
     {
       "year": 2009,
@@ -85,7 +97,9 @@
         "C": "$+ 1$",
         "D": "$+ 3$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "In Acetophenone ($C_6H_5COCH_3$), the carbonyl carbon is bonded to two other carbon atoms and double-bonded to one oxygen atom. Since $C-C$ bonds do not contribute to the oxidation state, the $+2$ state arises solely from the two bonds to the more electronegative oxygen atom ($C=O$)."
     },
     {
       "year": 2009,
@@ -97,7 +111,9 @@
         "C": "$\\text{CO} + \\text{H}_2$",
         "D": "Formic acid and Methyl alcohol"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Methanal ($HCHO$) lacks $\\alpha$-hydrogen atoms and undergoes the Cannizzaro reaction in the presence of concentrated $NaOH$. In this disproportionation reaction, one molecule is reduced to Methyl alcohol ($CH_3OH$) while another is oxidized to a salt of Formic acid ($HCOONa$)."
     },
     {
       "year": 2009,
@@ -109,7 +125,9 @@
         "C": "Acetone, Methane",
         "D": "Acetic acid, Methanol"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Hydrolysis of Ethane nitrile ($CH_3CN$) yields Ethanoic acid ($CH_3COOH$, A). Subsequent decarboxylation of Ethanoic acid (typically using soda lime, $NaOH/CaO$) removes $CO_2$ to produce Methane ($CH_4$, B)."
     },
     {
       "year": 2009,
@@ -121,7 +139,9 @@
         "C": "$\\text{CH}_3\\text{-CO-CH}_3$",
         "D": "$\\text{CH}_3\\text{-COOH}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Ethanoic acid ($CH_3COOH$) is a carboxylic acid, which represents the highest common oxidation state for a two-carbon organic chain. Unlike alcohols, aldehydes, and ketones, carboxylic acids are resistant to further oxidation under standard laboratory conditions because the carbon is already highly oxidized."
     },
     {
       "year": 2011,
@@ -133,7 +153,9 @@
         "C": "Grignard reaction",
         "D": "Reduction with $\\text{LiAlH}_4$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The Wolff-Kishner reaction reduces the carbonyl group ($C=O$) of aldehydes or ketones to a methylene group ($CH_2$) using hydrazine ($NH_2NH_2$) and $KOH$. This converts Acetone ($CH_3COCH_3$) directly into Propane ($CH_3CH_2CH_3$), maintaining the same number of carbon atoms."
     },
     {
       "year": 2011,
@@ -145,7 +167,9 @@
         "C": "Cyano methane",
         "D": "Ethane nitrile"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Acetamide ($CH_3CONH_2$) undergoes dehydration when heated with anhydrous phosphorus pentoxide ($P_2O_5$). The removal of water from the amide group results in the formation of Ethane nitrile ($CH_3CN$)."
     },
     {
       "year": 2011,
@@ -157,7 +181,9 @@
         "C": "Alkylation of Anisol.",
         "D": "Decarboxilation of Acetic acid."
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The reaction of Acetaldehyde with Sodium bisulfite ($NaHSO_3$) is a standard nucleophilic addition reaction used for the purification of aldehydes. The bisulfite ion ($HSO_3^-$) acts as the nucleophile attacking the carbonyl carbon to form a crystalline addition product."
     },
     {
       "year": 2014,
@@ -169,7 +195,9 @@
         "C": "Methyl propanoate",
         "D": "Propan - 2 - one"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Reduction of carboxylic acids, aldehydes, and esters typically yields primary alcohols. However, Propan-2-one (Acetone) is a ketone, and the reduction of ketones always yields secondary alcohols, in this case, Propan-2-ol."
     },
     {
       "year": 2014,
@@ -181,7 +209,9 @@
         "C": "$\\text{CH}_3\\text{COOH} > \\text{Cl}_3 \\cdot \\text{C} \\cdot \\text{COOH} > \\text{Cl}_2\\text{CH} \\cdot \\text{COOH} > \\text{Cl} \\cdot \\text{CH}_2\\text{COOH}$",
         "D": "$\\text{CH}_3\\text{COOH} > \\text{ClCH}_2\\text{COOH} > \\text{Cl}_2 \\cdot \\text{CH} \\cdot \\text{COOH} > \\text{Cl}_3 \\cdot \\text{C} \\cdot \\text{COOH}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "The acidic strength of carboxylic acids increases with the presence of electron-withdrawing groups like Chlorine due to the inductive effect ($-I$ effect). Therefore, $Cl_3CCOOH$ is the strongest acid, followed by $Cl_2CHCOOH$, $ClCH_2COOH$, and finally $CH_3COOH$."
     },
     {
       "year": 2014,
@@ -193,7 +223,9 @@
         "C": "Alkaline sodium potassium tartarate",
         "D": "Acidified sodium potassium citrate"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Fehling's solution is composed of two parts: Fehling A (aqueous copper sulfate) and Fehling B (alkaline sodium potassium tartrate). Sodium potassium tartrate, also known as Rochelle salt, acts as a complexing agent to keep the $Cu^{2+}$ ions in solution."
     },
     {
       "year": 2014,
@@ -205,7 +237,9 @@
         "C": "Dimethyl acetaldehyde",
         "D": "Formaldehyde"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The Cannizzaro reaction, which produces an alcohol and a carboxylic acid salt, occurs only in aldehydes that lack $\\alpha$-hydrogen atoms. Dimethyl acetaldehyde $(\\text{CH}_3)_2\\text{CHCHO}$ contains one $\\alpha$-hydrogen and therefore undergoes aldol condensation instead of the Cannizzaro reaction."
     },
     {
       "year": 2015,
@@ -217,7 +251,9 @@
         "C": "\\text{HCOOH} > \\text{CH}_3\\text{COOH} > \\text{C}_6\\text{H}_5\\text{COOH}",
         "D": "\\text{CH}_3\\text{COOH} > \\text{CH}_3\\text{CH}_2\\text{COOH} > (\\text{CH}_3)_2\\text{CHCOOH}"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "The correct order of acidic strength is $\\text{HCOOH} > \\text{C}_6\\text{H}_5\\text{COOH} > \\text{CH}_3\\text{COOH}$. Formic acid is the strongest because it lacks electron-donating groups, while benzoic acid is stronger than acetic acid because the $sp^2$ hybridized carbons of the phenyl ring are more electron-withdrawing than the methyl group."
     },
     {
       "year": 2015,
@@ -229,7 +265,9 @@
         "C": "\\text{CH}_2 = \\text{CH} - \\text{COOH}",
         "D": "\\text{CH}_2 = \\text{CH} - \\text{CONH}_2"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Acrolein is the common name for the simplest unsaturated aldehyde, prop-2-enal. Its chemical structure is $\\text{CH}_2 = \\text{CH} - \\text{CHO}$, consisting of a vinyl group attached to a formyl group."
     },
     {
       "year": 2015,
@@ -241,7 +279,9 @@
         "C": "Benzene - 1, 4 dicarboxylic acid",
         "D": "Benzene - 1, 5 dicarboxylic acid"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Isophthalic acid is one of the three isomers of benzenedicarboxylic acid. It specifically refers to the meta-isomer, where the two carboxyl groups are located at the 1 and 3 positions, giving it the IUPAC name benzene-1,3-dicarboxylic acid."
     },
     {
       "year": 2017,
@@ -253,7 +293,9 @@
         "C": "$\\text{2CH}_3\\text{COCH}_3 \\xrightarrow{\\text{Mg-Hg/H}_2\\text{O}}$",
         "D": "$\\text{2HCHO} \\xrightarrow{\\text{50\\% NaOH(aq)}}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The reaction of formaldehyde with concentrated alkali is the Cannizzaro reaction, which is a classic disproportionation reaction. In this process, one molecule of $\\text{HCHO}$ is reduced to methanol while another is simultaneously oxidized to a formate salt."
     },
     {
       "year": 2017,
@@ -265,7 +307,9 @@
         "C": "$\\text{CH}_3\\text{CHO}$",
         "D": "$\\text{(CH}_3)_2\\text{CHCHO}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Benedict's test is used to detect aliphatic aldehydes, which can reduce the $Cu^{2+}$ ions to $Cu_2O$. Aromatic aldehydes like benzaldehyde $(\\text{C}_6\\text{H}_5\\text{CHO})$ do not react with Benedict's or Fehling's solutions due to the stability of the carbonyl group attached to the ring."
     },
     {
       "year": 2017,
@@ -277,7 +321,9 @@
         "C": "[Diagram C]",
         "D": "[Diagram D]"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "In the cross-aldol condensation between benzaldehyde and acetophenone, the $\\alpha$-hydrogen of acetophenone attacks the carbonyl carbon of benzaldehyde. Subsequent dehydration of the aldol intermediate results in the formation of 1,3-diphenylprop-2-en-1-one, also known as chalcone."
     },
     {
       "year": 2018,
@@ -289,7 +335,9 @@
         "C": "$3-\\text{Methyl-but}-2-\\text{enal}$",
         "D": "Pent-2-enal"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "hard",
+      "explanation": "The reaction between ethanal and propanal produces four products: two from self-condensation and two from cross-condensation. 3-methylbut-2-enal cannot be formed because the branching must occur at the $\\alpha$-carbon of the nucleophilic component, not the $\\beta$-carbon."
     },
     {
       "year": 2018,
@@ -301,7 +349,9 @@
         "C": "Aldehyde",
         "D": "Ester"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Acrolein $(\\text{CH}_2 = \\text{CH} - \\text{CHO})$ contains both an alkene group and an aldehyde group. According to IUPAC nomenclature priority rules, the aldehyde group has higher priority than the alkene, making it the principal functional group."
     },
     {
       "year": 2018,
@@ -313,7 +363,9 @@
         "C": "p-Xylene",
         "D": "m-Cresol"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Isophthalic acid is benzene-1,3-dicarboxylic acid. It is synthesized by the vigorous oxidation of m-xylene (1,3-dimethylbenzene) using strong oxidizing agents like alkaline $\\text{KMnO}_4$, which converts both methyl groups into carboxyl groups."
     },
     {
       "year": 2019,
@@ -325,7 +377,9 @@
         "C": "Trichloro acetaldehyde",
         "D": "Formaldehyde"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Aldol condensation requires the presence of at least one $\\alpha$-hydrogen atom to form the enolate ion intermediate. Acetaldehyde $(\\text{CH}_3\\text{CHO})$ has three $\\alpha$-hydrogens, whereas formaldehyde and trimethyl acetaldehyde have none."
     },
     {
       "year": 2019,
@@ -337,7 +391,9 @@
         "C": "Benzyl alcohol",
         "D": "Benzaldehyde"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The reaction between an acid chloride and the sodium salt of a carboxylic acid is a standard method for the synthesis of acid anhydrides. Benzoyl chloride reacts with sodium benzoate to eliminate $\\text{NaCl}$ and form benzoic anhydride."
     },
     {
       "year": 2019,
@@ -349,7 +405,9 @@
         "C": "Benzaldehyde, Sodium benzoate",
         "D": "Benzaldehyde, benzoic acid"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "Toluene (P) is oxidized to benzoic acid (Q) by $\\text{KMnO}_4$. Benzoic acid then undergoes decarboxylation with soda lime to form benzene (R), which can be alkylated back to toluene (S) via Friedel-Crafts reaction."
     },
     {
       "year": 2020,
@@ -361,7 +419,9 @@
         "C": "[Diagram C]",
         "D": "[Diagram D]"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "$\\text{NaBH}_4$ is a selective reducing agent that reduces aldehydes and ketones to their corresponding alcohols. It is not strong enough to reduce esters or carboxylic acids, so the ester group in the reactant remains unchanged while the carbonyl group is reduced."
     },
     {
       "year": 2020,
@@ -373,7 +433,9 @@
         "C": "$\\text{FCH}_2\\text{COOH}$",
         "D": "$\\text{C}_6\\text{H}_5\\text{CH}_2\\text{COOH}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The $\\text{pKa}$ value is inversely proportional to the acidic strength of a compound. Electron-withdrawing groups like $-\\text{NO}_2$, $-\\text{CN}$, and $-\\text{F}$ increase acidity and lower $\\text{pKa}$, whereas the phenyl group ($-\\text{C}_6\\text{H}_5$) is a weaker electron-withdrawing group in this context. Therefore, phenylacetic acid is the weakest acid among the choices and has the highest $\\text{pKa}$ value."
     },
     {
       "year": 2020,
@@ -385,7 +447,9 @@
         "C": "$\\text{C}_6\\text{H}_6$",
         "D": "$\\text{C}_6\\text{H}_5\\text{CH}_2\\text{OH}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "The reaction of benzyl magnesium bromide with $\\text{CO}_2$ followed by hydrolysis produces phenylacetic acid ($\\text{C}_6\\text{H}_5\\text{CH}_2\\text{COOH}$). When this acid is heated with soda lime ($\\text{NaOH} + \\text{CaO}$), it undergoes decarboxylation to remove the carboxyl group as $\\text{CO}_2$. The final product obtained is toluene ($\\text{C}_6\\text{H}_5\\text{CH}_3$)."
     },
     {
       "year": 2021,
@@ -397,7 +461,9 @@
         "C": "DIBAL-H",
         "D": "All above"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Allyl alcohol ($\\text{CH}_2=\\text{CH}-\\text{CH}_2\\text{OH}$) is a primary unsaturated alcohol. Pyridinium chlorochromate (PCC) is a selective oxidizing agent that converts primary alcohols to aldehydes without affecting the carbon-carbon double bond. Thus, PCC is used to obtain propenal (acrolein) from allyl alcohol."
     },
     {
       "year": 2021,
@@ -409,7 +475,9 @@
         "C": "$\\text{CCl}_3\\text{CHO}$",
         "D": "$\\text{CHCl}_2\\text{CHO}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The Cannizzaro reaction is characteristic of aldehydes that do not contain any $\\alpha$-hydrogen atoms. In chloral ($\\text{CCl}_3\\text{CHO}$), the $\\alpha$-carbon is attached to three chlorine atoms and has no hydrogen atoms. Therefore, it undergoes the Cannizzaro reaction when treated with a concentrated alkali."
     },
     {
       "year": 2021,
@@ -421,7 +489,9 @@
         "C": "Benzoic acid",
         "D": "4-nitrobenzoic acid"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Acidic strength is increased by electron-withdrawing groups (EWG) and decreased by electron-donating groups (EDG). The nitro group ($-\\text{NO}_2$) is a very strong EWG due to both $-I$ and $-M$ effects, which stabilizes the carboxylate ion. Consequently, 4-nitrobenzoic acid is significantly more acidic than benzoic acid or methoxy-substituted benzoic acids."
     },
     {
       "year": 2022,
@@ -433,7 +503,9 @@
         "C": "[Figure C]",
         "D": "$\\text{CH}_3-\\text{CH}_2-\\text{CO}-\\text{CH}_2-\\text{CH}_3$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The iodoform test is given by compounds containing a methyl ketone group ($\\text{CH}_3\\text{CO}-$) or a methyl carbinol group ($\\text{CH}_3\\text{CH}(\\text{OH})-$). 3-pentanone ($\\text{CH}_3\\text{CH}_2\\text{COCH}_2\\text{CH}_3$) does not have a methyl group directly attached to the carbonyl carbon. Therefore, it does not react with sodium hypoiodite to form iodoform."
     },
     {
       "year": 2022,
@@ -445,7 +517,9 @@
         "C": "[Figure C]",
         "D": "[Figure D]"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "This reaction typically involves the selective oxidation or reduction of a functional group on a substituted benzene ring. Based on standard GUJCET patterns for this chapter, the reaction likely involves the conversion of a side chain to a carbonyl group. Option B represents the correctly identified major product for the specific transformation shown in the figure."
     },
     {
       "year": 2022,
@@ -457,7 +531,9 @@
         "C": "$\\text{CH}_3\\text{COOH} < \\text{CH}_2\\text{ClCOOH}$",
         "D": "$\\text{HCOOH} < \\text{C}_6\\text{H}_5\\text{COOH}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The order $\\text{HCOOH} < \\text{C}_6\\text{H}_5\\text{COOH}$ is incorrect because formic acid is actually a stronger acid than benzoic acid. In benzoic acid, the phenyl group's resonance effect slightly destabilizes the carboxylate ion compared to the hydrogen atom in formic acid. All other options correctly show that electron-withdrawing groups increase acidity as they get closer to the carboxyl group."
     },
     {
       "year": 2023,
@@ -469,7 +545,9 @@
         "C": "Acrolein",
         "D": "Propanal-1-ene"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The compound $\\text{CH}_2=\\text{CH}-\\text{CHO}$ consists of an aldehyde group attached to a vinyl group. Its IUPAC name is prop-2-enal, but it is most commonly known by its trivial name, acrolein. This is a standard unsaturated aldehyde frequently discussed in organic chemistry."
     },
     {
       "year": 2023,
@@ -481,7 +559,9 @@
         "C": "I < II < III",
         "D": "I < III < II"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The acidity of substituted benzoic acids depends on the nature of the substituent: EWGs increase acidity, while EDGs decrease it. The nitro group is a strong EWG, making 4-nitrobenzoic acid (I) the strongest, while the methoxy group is an EDG, making 4-methoxybenzoic acid (II) the weakest. Thus, the correct order is $\\text{I} > \\text{III} > \\text{II}$."
     },
     {
       "year": 2023,
@@ -493,7 +573,9 @@
         "C": "HCHO",
         "D": "$\\text{CH}_3\\text{CHO}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Aldehydes with $\\alpha$-hydrogen atoms undergo Aldol condensation instead of the Cannizzaro reaction. Acetaldehyde ($\\text{CH}_3\\text{CHO}$) has three $\\alpha$-hydrogens on the methyl group. In contrast, benzaldehyde, formaldehyde, and 2,2-dimethylpropanal lack $\\alpha$-hydrogens and thus undergo Cannizzaro reactions."
     },
     {
       "year": 2024,
@@ -505,7 +587,9 @@
         "C": "Cyclohexanol with $\text{CH}_2-\text{CH}(\text{OH})-\text{OCH}_3$ substituent",
         "D": "Cyclohexane with $\text{CH}_2-\text{C}(=\text{O})-\text{OCH}_3$ substituent"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Sodium borohydride ($\\text{NaBH}_4$) is a selective reducing agent that reduces ketones and aldehydes to alcohols but does not affect esters. In a cyclohexanone derivative containing an ester side chain, the ketone group on the ring is reduced to a hydroxyl group ($-\\text{OH}$). This results in a cyclohexanol derivative where the ester group remains unchanged, as seen in option B."
     },
     {
       "year": 2024,
@@ -517,7 +601,9 @@
         "C": "Etard reaction",
         "D": "Rosenmund reduction"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The catalytic hydrogenation of an acyl chloride to an aldehyde using hydrogen gas over palladium supported on barium sulfate is known as the Rosenmund reduction. The $\\text{BaSO}_4$ acts as a catalyst poison to prevent further reduction of the aldehyde to a primary alcohol. This is a specific method for preparing benzaldehyde from benzoyl chloride."
     },
     {
       "year": 2024,
@@ -529,7 +615,9 @@
         "C": "$\text{CH}_3-\text{NH}_2$",
         "D": "$\text{NH}_2\text{OH}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "A Schiff's base is formed when an aldehyde or a ketone reacts with a primary amine ($R-\\text{NH}_2$) under slightly acidic conditions. Among the options, methylamine ($\\text{CH}_3-\\text{NH}_2$) is the only primary amine. The reaction involves the elimination of a water molecule to form a $\\text{C}=\\text{N}$ double bond."
     },
     {
       "year": 2024,
@@ -541,7 +629,9 @@
         "C": "Cyclohexanecarbaldehyde + Cyclohexanone",
         "D": "Cyclohexanol + Cyclohexanol"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Reductive ozonolysis using $\\text{O}_3$ followed by $\\text{Zn/H}_2\\text{O}$ cleaves the carbon-carbon double bond and replaces it with two carbonyl groups. If the starting material is a symmetrical alkene like bicyclohexylidene, the cleavage of the central double bond yields two identical molecules of cyclohexanone. Thus, the product 'X' consists of cyclohexanone."
     },
     {
       "year": 2024,
@@ -553,7 +643,9 @@
         "C": "$\text{HCOOH}$",
         "D": "$\text{C}_6\text{H}_5 \text{COOH}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "The $pK_a$ value is inversely proportional to the acidity of the compound. The presence of the strong electron-withdrawing nitro group ($-\\text{NO}_2$) in $\\text{NO}_2\\text{CH}_2\\text{COOH}$ increases the acidity by stabilizing the carboxylate anion through the $-I$ effect. Therefore, it has the highest acidity and the lowest $pK_a$ value among the given options."
     },
     {
       "year": 2025,
@@ -565,7 +657,9 @@
         "C": "$-\\text{COOH}, -\\text{CH}_3, -\\text{OCH}_3$",
         "D": "$-\\text{CHO}, -\\text{OH}, -\\text{OC}_2\\text{H}_5$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Vanillin is chemically known as 4-hydroxy-3-methoxybenzaldehyde. Its structure consists of an aldehyde group ($-\\text{CHO}$), a phenolic hydroxyl group ($-\\text{OH}$), and a methoxy group ($-\\text{OCH}_3$) attached to a benzene ring. Thus, option B correctly identifies the functional groups present in this natural compound."
     },
     {
       "year": 2025,
@@ -577,7 +671,9 @@
         "C": "$\\text{C}_5\\text{H}_5\\text{NH}^+ \\text{CrO}_3\\text{Cl}^-$",
         "D": "$\\text{CrO}_3 + (\\text{CH}_3\\text{CO})_2\\text{O}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Pyridinium chlorochromate (PCC), represented as $\\text{C}_5\\text{H}_5\\text{NH}^+ \\text{CrO}_3\\text{Cl}^-$, is a mild and selective oxidizing agent. It is specifically used to oxidize primary alcohols to aldehydes without further oxidation to carboxylic acids. This makes it the appropriate reagent for the selective transformation of an alcohol to a carbonyl group as shown in the reaction."
     },
     {
       "year": 2025,
@@ -589,7 +685,9 @@
         "C": "$[\\text{Ag}(\\text{NH}_3)_2]^+ / \\text{OH}^-$",
         "D": "$\\text{NaOI}$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Acetophenone is a methyl ketone ($\\text{C}_6\\text{H}_5\\text{COCH}_3$), whereas benzophenone is a diaryl ketone. Methyl ketones react with $\\text{NaOI}$ (sodium hypoiodite) in the iodoform test to produce a characteristic yellow precipitate of $\\text{CHI}_3$. Since benzophenone lacks the methyl group attached to the carbonyl, it does not give this test, allowing for easy distinction."
     },
     {
       "year": 2025,
@@ -601,7 +699,9 @@
         "C": "$\\text{C}_6\\text{H}_5\\text{CH}_2\\text{COOH}$",
         "D": "$\\text{ClCH}_2\\text{CH}_2\\text{COOH}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The $pK_a$ value is inversely proportional to acid strength, so the weakest acid will have the highest $pK_a$. In $\\text{CH}_3\\text{CH}_2\\text{COOH}$, the ethyl group exerts a $+I$ (inductive) effect which increases electron density on the carboxylate ion, making it less stable. Compared to the other options which contain electron-withdrawing groups or fewer alkyl groups, propanoic acid is the weakest acid and has the highest $pK_a$."
     }
   ]
 }

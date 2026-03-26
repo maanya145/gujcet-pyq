@@ -13,7 +13,9 @@
         "C": "2",
         "D": "1"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Beryl is a cyclic silicate with the formula $\\text{Be}_3\\text{Al}_2\\text{Si}_6\\text{O}_{18}$. In cyclic silicates, each $\\text{SiO}_4^{4-}$ tetrahedron shares two of its oxygen atoms with adjacent tetrahedra to form a ring structure. This sharing results in a ratio of two oxygen atoms per silicon atom within the ring."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "$\\text{NaH}_2\\text{PO}_2$",
         "D": "$\\text{Na}_2\\text{HPO}_2$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Hypophosphorous acid ($\\text{H}_3\\text{PO}_2$) is a monobasic acid because only one hydrogen atom is bonded to oxygen ($\\text{P-OH}$), while the other two are bonded directly to phosphorus. Neutralization with $\\text{NaOH}$ replaces only the acidic hydrogen, forming the salt $\\text{NaH}_2\\text{PO}_2$."
     },
     {
       "year": 2007,
@@ -37,7 +41,9 @@
         "C": "$\\text{HClO}_2$",
         "D": "$\\text{HClO}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Among the oxoacids of chlorine, perchloric acid ($\\text{HClO}_4$) is the most stable and is the only one that can be isolated in its pure, anhydrous form. The other oxoacids like $\\text{HClO}$, $\\text{HClO}_2$, and $\\text{HClO}_3$ are unstable and exist only in aqueous solutions or as salts."
     },
     {
       "year": 2007,
@@ -49,7 +55,9 @@
         "C": "Phosphine ($\\text{PH}_3$)",
         "D": "Ammonia ($\\text{NH}_3$)"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Proton affinity depends on the availability of the lone pair of electrons on the central atom. Ammonia ($\\text{NH}_3$) has the highest proton affinity because nitrogen is the smallest atom in the group with the highest electron density, making its lone pair most available for donation to a proton."
     },
     {
       "year": 2008,
@@ -61,7 +69,9 @@
         "C": "Planar silicate",
         "D": "Di-silicate"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Beryl ($\\text{Be}_3\\text{Al}_2\\text{Si}_6\\text{O}_{18}$) is a classic example of a cyclic silicate. It contains $\\text{Si}_6\\text{O}_{18}^{12-}$ units where six $\\text{SiO}_4$ tetrahedra are linked together in a hexagonal ring by sharing two oxygen atoms each."
     },
     {
       "year": 2008,
@@ -73,7 +83,9 @@
         "C": "Po",
         "D": "Sr"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Strontium ($\\text{Sr}$) is an alkaline earth metal located in Group 2 of the periodic table, which makes it an s-block element. Gallium ($\\text{Ga}$), Arsenic ($\\text{As}$), and Polonium ($\\text{Po}$) are located in groups 13, 15, and 16 respectively, all of which belong to the p-block."
     },
     {
       "year": 2008,
@@ -85,7 +97,9 @@
         "C": "10",
         "D": "2"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Monoclinic sulfur ($\\beta$-sulfur) is an allotrope that consists of $S_8$ molecules. These 8 sulfur atoms are arranged in a puckered ring (cyclic) structure, similar to rhombic sulfur, but they are packed differently within the crystal lattice."
     },
     {
       "year": 2008,
@@ -97,7 +111,9 @@
         "C": "With one 'O' and five 'OH' group.",
         "D": "With two 'O' and three 'OH' group."
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "hard",
+      "explanation": "The question refers to orthoperiodic acid ($\\text{H}_5\\text{IO}_6$), which has an octahedral geometry. In this structure, the central iodine atom is bonded to five hydroxyl ($-\\text{OH}$) groups and one oxygen atom via a double bond ($I=O$), giving it a coordination number of six."
     },
     {
       "year": 2009,
@@ -109,7 +125,9 @@
         "C": "Hydroxide ion",
         "D": "Oxide ion"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Feldspar and zeolites are three-dimensional aluminosilicates. In these structures, some of the $\\text{Si}^{4+}$ ions in the silicate framework are replaced by $\\text{Al}^{3+}$ ions, and the resulting charge imbalance is neutralized by cations like $\\text{Na}^+$ or $\\text{K}^+$."
     },
     {
       "year": 2009,
@@ -121,7 +139,9 @@
         "C": "Bismuth",
         "D": "Arsenic"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Arsenic ($\\text{As}$) compounds have historically been used as potent pesticides and insecticides, such as lead arsenate. While their use is now restricted due to toxicity, they are the primary p-block elements associated with this application in textbook contexts."
     },
     {
       "year": 2009,
@@ -133,7 +153,9 @@
         "C": "Oxygen",
         "D": "Selenium"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "The elements of Group 16 (O, S, Se, Te, Po) are known as chalcogens. However, in some contexts, Polonium ($\\text{Po}$) is excluded because it is a radioactive metal, whereas the term 'chalcogen' (ore-former) typically refers to the non-metallic and metalloid members like Oxygen and Sulfur."
     },
     {
       "year": 2011,
@@ -145,7 +167,9 @@
         "C": "$1 : 1$",
         "D": "$2 : 3$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "hard",
+      "explanation": "Sodium tripolyphosphate ($\\text{Na}_5\\text{P}_3\\text{O}_{10}$) is produced by heating a mixture of $\\text{NaH}_2\\text{PO}_4$ and $\\text{Na}_2\\text{HPO}_4$ in a $1:2$ molar ratio. The ratio $1.5:3$ provided in option A is mathematically equivalent to $1:2$, which satisfies the stoichiometry of the condensation reaction."
     },
     {
       "year": 2011,
@@ -157,7 +181,9 @@
         "C": "$3, 2, 1$",
         "D": "$0, 3, 2$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Using VSEPR theory, Xenon has 8 valence electrons. In $\\text{XeF}_6$, 6 electrons form bonds leaving 1 lone pair; in $\\text{XeF}_4$, 4 electrons form bonds leaving 2 lone pairs; and in $\\text{XeF}_2$, 2 electrons form bonds leaving 3 lone pairs, resulting in the sequence $1, 2, 3$."
     },
     {
       "year": 2014,
@@ -169,7 +195,9 @@
         "C": "$\\text{N}_2\\text{O}_4$",
         "D": "$\\text{N}_2\\text{O}_5$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Nitrous oxide ($\\text{N}_2\\text{O}$) is a neutral oxide of nitrogen that is colourless and relatively unreactive. While some other oxides like $\\text{N}_2\\text{O}_4$ are colourless, they are acidic, making $\\text{N}_2\\text{O}$ the correct choice for a neutral, colourless oxide."
     },
     {
       "year": 2014,
@@ -181,7 +209,9 @@
         "C": "Square planar",
         "D": "Tetrahydral"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "In $\\text{XeO}_3$, the central Xenon atom has 8 valence electrons. It uses 6 electrons to form three double bonds with oxygen atoms, leaving one lone pair. This $sp^3$ hybridized arrangement with one lone pair results in a trigonal pyramidal geometry."
     },
     {
       "year": 2014,
@@ -193,7 +223,9 @@
         "C": "$\\text{HCl}$",
         "D": "$\\text{HBr}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Hydrofluoric acid ($HF$) cannot be stored in glass bottles because it reacts with the silica ($SiO_2$) present in glass to form soluble silicates like $H_2SiF_6$. This process is known as etching of glass."
     },
     {
       "year": 2015,
@@ -205,7 +237,9 @@
         "C": "2\\text{PH}_{3(g)} + 3\\text{Na}_2\\text{HPO}_{3(aq)}",
         "D": "2\\text{PH}_{3(g)} + 3\\text{NaH}_2\\text{PO}_{2(aq)}"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "White phosphorus ($P_4$) reacts with boiling $NaOH$ solution in an inert atmosphere to undergo disproportionation. The reaction produces phosphine ($PH_3$) and sodium hypophosphite ($NaH_2PO_2$) as shown: $P_4 + 3NaOH + 3H_2O \\rightarrow PH_3 + 3NaH_2PO_2$."
     },
     {
       "year": 2015,
@@ -217,7 +251,9 @@
         "C": "\\text{COCl}_2 \\text{ and } \\text{CCl}_3\\text{NO}_2",
         "D": "\\text{SOCl}_2 \\text{ and } \\text{CCl}_3\\text{NO}_2"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Phosgene is carbonyl chloride ($COCl_2$), which is a highly toxic gas. Tear gas is chloropicrin ($CCl_3NO_2$), commonly used for riot control."
     },
     {
       "year": 2015,
@@ -229,7 +265,9 @@
         "C": "Three parts of conc. $\\text{HCl}$ and 1 part of dil. $\\text{HNO}_3$",
         "D": "Three parts of conc. $\\text{HCl}$ and 1 part of conc. $\\text{HNO}_3$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "Aqua regia is a powerful oxidizing mixture used to dissolve noble metals like gold and platinum. It is prepared by mixing 3 parts of concentrated $HCl$ and 1 part of concentrated $HNO_3$ by volume."
     },
     {
       "year": 2017,
@@ -241,7 +279,9 @@
         "C": "Pyrophosphoric acid",
         "D": "Phosphonic acid"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Phosphonic acid (hypophosphorous acid, $H_3PO_2$) has two $P-H$ bonds directly attached to the phosphorus atom. In comparison, phosphorous acid ($H_3PO_3$) has one $P-H$ bond, and phosphoric acid ($H_3PO_4$) has none."
     },
     {
       "year": 2018,
@@ -253,7 +293,9 @@
         "C": "$71$",
         "D": "$142$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "hard",
+      "explanation": "The balanced reaction is $2KMnO_4 + 16HCl \\rightarrow 2KCl + 2MnCl_2 + 8H_2O + 5Cl_2$. Given $31.6\\text{ g}$ of $KMnO_4$ ($0.1\\text{ mol}$), the moles of $Cl_2$ produced is $0.25\\text{ mol}$ ($0.1 \\times 5/2$), which corresponds to $0.25 \\times 71 = 17.75\\text{ g}$."
     },
     {
       "year": 2018,
@@ -265,7 +307,9 @@
         "C": "Square pyramidal",
         "D": "Square bipyramidal"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "In $XeOF_4$, Xenon undergoes $sp^3d^2$ hybridization with one lone pair and five bond pairs (4 with $F$ and 1 double bond with $O$). According to VSEPR theory, this arrangement results in a square pyramidal geometry."
     },
     {
       "year": 2019,
@@ -277,7 +321,9 @@
         "C": "SbH3",
         "D": "PH3"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Thermal stability of Group 15 hydrides decreases down the group as the $M-H$ bond length increases and bond dissociation enthalpy decreases. Thus, $NH_3$ is the most stable hydride in the group."
     },
     {
       "year": 2019,
@@ -289,7 +335,9 @@
         "C": "H3PO4 and H5P3O10",
         "D": "H3PO4 and H4P2O7"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "In $H_4P_2O_7$ (pyrophosphoric acid), the oxidation state of $P$ is $+5$, whereas in $H_3PO_3$ (phosphorous acid), it is $+3$. In all other given pairs, both compounds contain $P$ in the $+5$ oxidation state."
     },
     {
       "year": 2019,
@@ -301,7 +349,9 @@
         "C": "HClO4 > HClO2 > HClO3 > HClO",
         "D": "HClO > HClO2 > HClO3 > HClO4"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "For oxoacids of the same halogen, the acidic strength increases as the oxidation state of the halogen increases. The oxidation states of $Cl$ in $HClO_4, HClO_3, HClO_2,$ and $HClO$ are $+7, +5, +3,$ and $+1$ respectively."
     },
     {
       "year": 2020,
@@ -313,7 +363,9 @@
         "C": "Ionic character: $\\text{MF} < \\text{MCl} < \\text{MBr} < \\text{MI}$",
         "D": "Electron gain enthalpy: $\\text{I} < \\text{Br} < \\text{Cl} < \\text{F}$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "Thermal stability of hydrogen halides decreases down the group ($HF > HCl > HBr > HI$) because the $H-X$ bond becomes longer and weaker. The other options are incorrect trends for acidity, ionic character, and electron gain enthalpy."
     },
     {
       "year": 2020,
@@ -325,7 +377,9 @@
         "C": "$\\text{H}_2\\text{S}_2\\text{O}_4$",
         "D": "$\\text{H}_2\\text{S}_2\\text{O}_3$"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Peroxodisulphuric acid ($H_2S_2O_8$), also known as Marshall's acid, contains a peroxide linkage ($-O-O-$) between the two sulfur atoms. Pyrosulphuric acid ($H_2S_2O_7$) contains an $S-O-S$ linkage instead."
     },
     {
       "year": 2020,
@@ -337,7 +391,9 @@
         "C": "$\\text{H}_3\\text{PO}_4$",
         "D": "$\\text{H}_3\\text{PO}_3$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Concentrated nitric acid ($HNO_3$) is a strong oxidizing agent that oxidizes non-metals to their highest oxoacids. White phosphorus ($P_4$) is oxidized to orthophosphoric acid ($H_3PO_4$) while $HNO_3$ is reduced to $NO_2$."
     },
     {
       "year": 2021,
@@ -349,7 +405,9 @@
         "C": "Cl",
         "D": "I"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Chlorine is the only halogen that forms a stable halous acid, which is chlorous acid ($HClO_2$). Fluorine only forms $HOF$, while bromine and iodine do not form stable oxoacids in the $+3$ oxidation state."
     },
     {
       "year": 2021,
@@ -361,7 +419,9 @@
         "C": "Dioxygen",
         "D": "Dichlorine"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Dinitrogen ($N_2$) is used in the iron and steel industry to provide an inert atmosphere during processing. It is also used in nitriding to increase the surface hardness of steel."
     },
     {
       "year": 2021,
@@ -373,7 +433,9 @@
         "C": "Ammonium nitrite",
         "D": "Barium nitrite"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "easy",
+      "explanation": "Very pure dinitrogen gas is obtained by the thermal decomposition of sodium azide ($NaN_3$) or barium azide ($Ba(N_3)_2$). The reaction for sodium azide is $2NaN_3 \\rightarrow 2Na + 3N_2$, which leaves behind pure metal and releases nitrogen gas."
     },
     {
       "year": 2022,
@@ -385,7 +447,9 @@
         "C": "$sp$ and $sp^3$",
         "D": "$sp^3d$ and $sp^3$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "In $XeF_2$, Xenon has 2 bond pairs and 3 lone pairs (steric number 5), resulting in $sp^3d$ hybridisation. In $XeF_4$, Xenon has 4 bond pairs and 2 lone pairs (steric number 6), resulting in $sp^3d^2$ hybridisation."
     },
     {
       "year": 2022,
@@ -397,7 +461,9 @@
         "C": "Two P-OH, Four P = O, Two P-O-P",
         "D": "Four P-OH, Two P = O, One P-O-P"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Pyrophosphoric acid ($H_4P_2O_7$) is formed by the condensation of two molecules of $H_3PO_4$. Its structure consists of four $P-OH$ groups, two $P=O$ double bonds, and one $P-O-P$ linkage connecting the two phosphorus atoms."
     },
     {
       "year": 2022,
@@ -409,7 +475,9 @@
         "C": "$\\text{NaCl} + \\text{NaClO}_3 + \\text{H}_2\\text{O}$",
         "D": "$\\text{NaCl} + \\text{NaOCl} + \\text{H}_2\\text{O}$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "medium",
+      "explanation": "Chlorine undergoes a disproportionation reaction with hot and concentrated $NaOH$ to form sodium chloride and sodium chlorate. The balanced chemical equation is $3Cl_2 + 6NaOH \\rightarrow 5NaCl + NaClO_3 + 3H_2O$."
     },
     {
       "year": 2023,
@@ -421,7 +489,9 @@
         "C": "Sodium Azide",
         "D": "Barium Nitrate"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "Thermal decomposition of metal azides like sodium azide ($NaN_3$) is the standard laboratory method to produce very pure dinitrogen. The reaction $2NaN_3 \\rightarrow 2Na + 3N_2$ ensures that no other gaseous byproducts are formed."
     },
     {
       "year": 2023,
@@ -433,7 +503,9 @@
         "C": "$\\text{H}_2\\text{S}_2\\text{O}_7 \\text{ and } \\text{H}_2\\text{S}_2\\text{O}_8$",
         "D": "$\\text{H}_2\\text{S}_2\\text{O}_6 \\text{ and } \\text{H}_2\\text{S}_2\\text{O}_7$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "easy",
+      "explanation": "Peroxo acids of sulphur contain the $-O-O-$ linkage. $H_2SO_5$ (peroxomonosulphuric acid or Caro's acid) and $H_2S_2O_8$ (peroxodisulphuric acid or Marshall's acid) are the two primary examples."
     },
     {
       "year": 2025,
@@ -445,7 +517,9 @@
         "C": "Atomic volume of oxygen is less than fluorine.",
         "D": "Oxygen forms multiple bonds and fluorine form single bond."
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Oxygen can stabilize higher oxidation states of metals because it has the ability to form multiple bonds ($p\\pi-d\\pi$ bonding). While fluorine is more electronegative, it only forms single bonds, limiting its ability to stabilize the $+7$ state in Manganese compared to oxygen in $Mn_2O_7$."
     }
   ]
 }

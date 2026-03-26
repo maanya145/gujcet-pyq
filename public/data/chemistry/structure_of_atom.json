@@ -13,7 +13,9 @@
         "C": "Goudsmit and Uhlenbeck",
         "D": "Davison and Germer"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "easy",
+      "explanation": "The wave nature of moving electrons was experimentally confirmed by Davisson and Germer in 1927. They demonstrated that electrons could be diffracted by a nickel crystal, behaving similarly to X-rays."
     },
     {
       "year": 2007,
@@ -25,7 +27,9 @@
         "C": "6",
         "D": "5"
       },
-      "answer": "A"
+      "answer": "A",
+      "difficulty": "medium",
+      "explanation": "The number of $\\alpha$ particles emitted is determined by the change in mass number: $n_{\\alpha} = \\frac{238 - 206}{4} = 8$. Each $\\alpha$ emission reduces the mass number by 4, while $\\beta$ emissions do not affect the mass number."
     },
     {
       "year": 2007,
@@ -37,7 +41,9 @@
         "C": "12.5 %",
         "D": "10 %"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "The number of half-lives elapsed is $n = \\frac{45}{15} = 3$. The percentage of radioactivity remaining is calculated as $(\\frac{1}{2})^n \\times 100\\%$, which is $(\\frac{1}{2})^3 \\times 100 = 12.5\\%$."
     },
     {
       "year": 2008,
@@ -49,7 +55,9 @@
         "C": "Heisenberg's principle",
         "D": "Hund's rule"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "Hund's rule of maximum multiplicity states that for a given electron configuration, the lowest energy term is the one with the greatest value of spin multiplicity. In Phosphorus ($Z=15$), the three $3p$ electrons occupy separate orbitals with parallel spins to minimize repulsion."
     },
     {
       "year": 2008,
@@ -61,7 +69,9 @@
         "C": "$1.104 \\times 10^{-33} \\text{ cm}$",
         "D": "$1.104 \\times 10^{-27} \\text{ cm}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Using the de Broglie wavelength formula $\\lambda = \\frac{h}{mv}$, we substitute $h = 6.626 \\times 10^{-27} \\text{ erg}\\cdot\\text{s}$, $m = 200 \\text{ g}$, and $v = 3 \\times 10^3 \\text{ cm/sec}$. This gives $\\lambda = \\frac{6.626 \\times 10^{-27}}{6 \\times 10^5} = 1.104 \\times 10^{-32} \\text{ cm}$."
     },
     {
       "year": 2008,
@@ -73,7 +83,9 @@
         "C": "148",
         "D": "150"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "medium",
+      "explanation": "Emission of $2\\alpha$ particles reduces the mass number by 8 and atomic number by 4, while $1\\beta$ emission increases the atomic number by 1. The new mass number is $244 - 8 = 236$ and the new atomic number is $94 - 4 + 1 = 91$, so the number of neutrons is $236 - 91 = 145$."
     },
     {
       "year": 2008,
@@ -85,7 +97,9 @@
         "C": "5730 years",
         "D": "5780 years"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The relationship between the half-life ($t_{1/2}$) and the decay constant ($\\lambda$) is $t_{1/2} = \\frac{0.693}{\\lambda}$. Substituting $\\lambda = 2.25 \\times 10^{-4} \\text{ year}^{-1}$ yields $t_{1/2} = \\frac{0.693}{2.25 \\times 10^{-4}} = 3080 \\text{ years}$."
     },
     {
       "year": 2009,
@@ -97,7 +111,9 @@
         "C": "$\\frac{\\partial^2\\psi}{\\partial x^2} + \\frac{\\partial^2\\psi}{\\partial y^2} + \\frac{\\partial^2\\psi}{\\partial z^2} + \\frac{8\\pi^2m}{h^2}(E-V) = 0$",
         "D": "$\\frac{\\partial^2\\psi}{\\partial x^2} + \\frac{\\partial^2\\psi}{\\partial y^2} + \\frac{\\partial^2\\psi}{\\partial z^2} + \\frac{8\\pi^2}{h^2}(E-V)\\psi = 0$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "easy",
+      "explanation": "The Schrodinger wave equation is a fundamental equation in quantum mechanics represented as $\\frac{\\partial^2\\psi}{\\partial x^2} + \\frac{\\partial^2\\psi}{\\partial y^2} + \\frac{\\partial^2\\psi}{\\partial z^2} + \\frac{8\\pi^2m}{h^2}(E-V)\\psi = 0$. It describes the wave function $\\psi$ of a particle in terms of its total energy $E$ and potential energy $V$."
     },
     {
       "year": 2011,
@@ -109,7 +125,9 @@
         "C": "$2.062 \\times 10^{-10}\\text{ cm. sec.}^{-1}$",
         "D": "$2.062 \\times 10^{-9}\\text{ cm. sec.}^{-1}$"
       },
-      "answer": null
+      "answer": null,
+      "difficulty": "hard",
+      "explanation": "The velocity is calculated using $v = \\frac{h}{m\\lambda}$. Substituting $h = 6.626 \\times 10^{-27} \\text{ erg}\\cdot\\text{s}$, $m = 9.109 \\times 10^{-28} \\text{ g}$, and $\\lambda = 0.15 \\text{ nm} = 1.5 \\times 10^{-8} \\text{ cm}$ gives $v \\approx 4.85 \\times 10^8 \\text{ cm/s}$, though the provided options suggest a discrepancy in the source constants."
     },
     {
       "year": 2011,
@@ -121,7 +139,9 @@
         "C": "$32, 16\\text{ and } 4$",
         "D": "$4, 16\\text{ and } 32$"
       },
-      "answer": "C"
+      "answer": "C",
+      "difficulty": "easy",
+      "explanation": "For the N shell ($n=4$), the number of electrons is $2n^2 = 32$, the number of orbitals is $n^2 = 16$, and the types of orbitals are 4 ($s, p, d, f$ corresponding to $l=0, 1, 2, 3$)."
     },
     {
       "year": 2011,
@@ -133,7 +153,9 @@
         "C": "$\\frac{N-1}{Z-1}$",
         "D": "$\\frac{N+1}{Z-1}$"
       },
-      "answer": "B"
+      "answer": "B",
+      "difficulty": "medium",
+      "explanation": "A nucleus with an excess of neutrons ($N > Z$) achieves stability through $\\beta^-$ decay, where a neutron converts into a proton ($n \\rightarrow p + e^-$). This results in the neutron count decreasing by 1 and the proton count increasing by 1, leading to the ratio $\\frac{N-1}{Z+1}$."
     },
     {
       "year": 2011,
@@ -145,7 +167,9 @@
         "C": "$(n, \\alpha)$",
         "D": "$(P, \\alpha)$"
       },
-      "answer": "D"
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "The reaction is $^7_3\\text{Li} + ^1_1\\text{H} \\rightarrow ^4_2\\text{He} + ^4_2\\text{He}$. Here, $A$ is a proton ($P$) and $B$ is an alpha particle ($\\alpha$), as the total mass and atomic numbers must be conserved on both sides of the equation."
     }
   ]
 }
