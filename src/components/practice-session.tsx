@@ -39,6 +39,7 @@ import {
   Play,
   Bookmark,
   ArrowUpDown,
+  Info,
 } from "lucide-react";
 
 interface PracticeSessionProps {
@@ -81,6 +82,7 @@ export function PracticeSession({
   const [sortBy, setSortBy] = useState<"default" | "difficulty" | "difficulty-desc" | "newest">("default");
   const [excludedYears, setExcludedYears] = useState<Set<number>>(new Set());
   const [difficultyFilter, setDifficultyFilter] = useState<"all" | "easy" | "medium" | "hard">("all");
+  const [showSortHelp, setShowSortHelp] = useState(false);
   const gridRef = useRef<HTMLDivElement>(null);
   const activeBtnRef = useRef<HTMLButtonElement>(null);
   const timerSecondsRef = useRef(0);
@@ -500,8 +502,24 @@ export function PracticeSession({
         </div>
       )}
 
+      {/* Sort/filter help */}
+      {showSortHelp && (
+        <div className="rounded-lg border bg-muted/50 px-3 py-2 text-xs text-muted-foreground space-y-1">
+          <p><strong>Year:</strong> Click a year to select it. In &quot;All&quot; mode, click to exclude years (strikethrough). Double-click to select only that year.</p>
+          <p><strong>Sort:</strong> Reorder questions by default order, newest year first, or difficulty level.</p>
+          <p><strong>Difficulty:</strong> Filter to only show Easy, Medium, or Hard questions.</p>
+        </div>
+      )}
+
       {/* Year filter */}
       <div className="flex flex-wrap items-center gap-1.5">
+        <button
+          onClick={() => setShowSortHelp(!showSortHelp)}
+          className="rounded-full p-0.5 text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+          aria-label="Sorting & filtering help"
+        >
+          <Info className="size-3.5" />
+        </button>
         <span className="text-xs text-muted-foreground mr-1">Year:</span>
         <Button
           size="xs"
