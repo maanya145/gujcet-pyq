@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { QuestionCard } from "@/components/question-card";
 import { Timer } from "@/components/timer";
+import { useSwipe } from "@/lib/use-swipe";
 import type { Question } from "@/lib/types";
 import {
   saveSession,
@@ -336,6 +337,8 @@ export function PracticeSession({
     }
   }, [keyboardSelection]);
 
+  const swipeHandlers = useSwipe(next, prev);
+
   const getGridButtonStyle = (i: number) => {
     const fi = mapToFilteredIndex(i);
     if (i === currentIndex) return "bg-primary text-primary-foreground";
@@ -541,19 +544,21 @@ export function PracticeSession({
       )}
 
       {/* Question */}
-      <QuestionCard
-        key={`${filteredIndex}-${current.year}-${current.number}`}
-        question={current}
-        index={currentIndex}
-        total={total}
-        showAnswer={showAllAnswers || !!answeredMap[filteredIndex]}
-        onAnswer={handleAnswer}
-        externalSelection={keyboardSelection}
-        bookmarkKey={getKeyForQuestion(current)}
-        isBookmarked={bookmarkedKeys.has(getKeyForQuestion(current))}
-        onToggleBookmark={() => handleToggleBookmark(current)}
-        onRetry={reviewMode ? handleRetry : undefined}
-      />
+      <div {...swipeHandlers}>
+        <QuestionCard
+          key={`${filteredIndex}-${current.year}-${current.number}`}
+          question={current}
+          index={currentIndex}
+          total={total}
+          showAnswer={showAllAnswers || !!answeredMap[filteredIndex]}
+          onAnswer={handleAnswer}
+          externalSelection={keyboardSelection}
+          bookmarkKey={getKeyForQuestion(current)}
+          isBookmarked={bookmarkedKeys.has(getKeyForQuestion(current))}
+          onToggleBookmark={() => handleToggleBookmark(current)}
+          onRetry={reviewMode ? handleRetry : undefined}
+        />
+      </div>
 
       {/* Navigation */}
       <div className="flex items-center justify-between">
@@ -617,14 +622,17 @@ export function PracticeSession({
 
       {/* Keyboard hint */}
       <p className="text-center text-xs text-muted-foreground">
-        Use <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">←</kbd>{" "}
-        <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">→</kbd> arrow
-        keys to navigate &middot; Press{" "}
-        <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">A</kbd>{" "}
-        <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">B</kbd>{" "}
-        <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">C</kbd>{" "}
-        <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">D</kbd> to
-        select answer
+        <span className="hidden sm:inline">
+          Use <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">←</kbd>{" "}
+          <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">→</kbd> arrow
+          keys to navigate &middot; Press{" "}
+          <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">A</kbd>{" "}
+          <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">B</kbd>{" "}
+          <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">C</kbd>{" "}
+          <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">D</kbd> to
+          select answer
+        </span>
+        <span className="sm:hidden">Swipe left/right to navigate</span>
       </p>
 
       <KeyboardNav

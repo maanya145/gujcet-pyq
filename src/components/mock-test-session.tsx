@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Latex } from "@/components/latex";
 import { SessionSummary } from "@/components/session-summary";
+import { useSwipe } from "@/lib/use-swipe";
 import type { MockQuestion, Subject } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import {
@@ -140,6 +141,8 @@ export function MockTestSession({
     return () => window.removeEventListener("keydown", handler);
   }, [submitted, prev, next, handleAnswer]);
 
+  const swipeHandlers = useSwipe(next, prev);
+
   const getGridButtonStyle = (i: number) => {
     if (i === currentIndex) return "ring-2 ring-primary bg-primary text-primary-foreground";
     if (answeredMap[i]) return "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400";
@@ -256,6 +259,7 @@ export function MockTestSession({
       </div>
 
       {/* Question card - NO answer reveal */}
+      <div {...swipeHandlers}>
       <Card className="w-full">
         <CardHeader className="pb-3">
           <div className="flex items-center justify-between">
@@ -311,6 +315,7 @@ export function MockTestSession({
           </div>
         </CardContent>
       </Card>
+      </div>
 
       {/* Navigation */}
       <div className="flex items-center justify-between">
@@ -366,13 +371,16 @@ export function MockTestSession({
 
       {/* Keyboard hint */}
       <p className="text-center text-xs text-muted-foreground">
-        Use <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">&#8592;</kbd>{" "}
-        <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">&#8594;</kbd> to
-        navigate &middot; Press{" "}
-        <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">A</kbd>{" "}
-        <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">B</kbd>{" "}
-        <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">C</kbd>{" "}
-        <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">D</kbd> to select
+        <span className="hidden sm:inline">
+          Use <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">&#8592;</kbd>{" "}
+          <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">&#8594;</kbd> to
+          navigate &middot; Press{" "}
+          <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">A</kbd>{" "}
+          <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">B</kbd>{" "}
+          <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">C</kbd>{" "}
+          <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">D</kbd> to select
+        </span>
+        <span className="sm:hidden">Swipe left/right to navigate</span>
       </p>
 
       {/* Confirmation dialog */}

@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { MockTestSession } from "@/components/mock-test-session";
-import type { Subject, SubjectIndex, ChapterData, MockQuestion } from "@/lib/types";
+import type { Subject, MockQuestion } from "@/lib/types";
 import { ArrowLeft, Loader2, ClipboardList, Clock, Atom, FlaskConical, Calculator } from "lucide-react";
 
 type LoadingState = "idle" | "loading" | "ready" | "error";
@@ -71,46 +71,10 @@ export default function MockTestPage() {
     setErrorMsg("");
 
     try {
-      const allQuestions: Record<Subject, { chapter: string; questions: MockQuestion[] }[]> = {
-        physics: [],
-        chemistry: [],
-        maths: [],
-      };
-
-      // Load all subject indexes first
-      const indexes: Record<Subject, SubjectIndex> = {} as Record<Subject, SubjectIndex>;
-      for (const subj of subjects) {
-        const res = await fetch(`/data/${subj}/_index.json`);
-        if (!res.ok) throw new Error(`Failed to load ${subj} index`);
-        indexes[subj] = await res.json();
-      }
-
-      // Load all chapter files
-      const fetchPromises: Promise<void>[] = [];
-      for (const subj of subjects) {
-        for (const ch of indexes[subj].chapters) {
-          fetchPromises.push(
-            fetch(`/data/${subj}/${ch.file}`)
-              .then((res) => {
-                if (!res.ok) throw new Error(`Failed to load ${subj}/${ch.file}`);
-                return res.json();
-              })
-              .then((data: ChapterData) => {
-                const mockQuestions: MockQuestion[] = data.questions.map((q) => ({
-                  ...q,
-                  subject: subj,
-                  chapter: data.chapter,
-                }));
-                allQuestions[subj].push({
-                  chapter: data.chapter,
-                  questions: mockQuestions,
-                });
-              })
-          );
-        }
-      }
-
-      await Promise.all(fetchPromises);
+      // Fetch pre-built merged question data (generated at build time)
+      const res = await fetch("/data/all-questions.json");
+      if (!res.ok) throw new Error("Failed to load question data");
+      const allQuestions: Record<Subject, { chapter: string; questions: MockQuestion[] }[]> = await res.json();
 
       // Select questions proportionally per subject
       const selected: MockQuestion[] = [];

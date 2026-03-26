@@ -116,3 +116,30 @@ export function getLastResult(
   if (history.length === 0) return null;
   return history[history.length - 1];
 }
+
+// Returns all history entries across all subjects/chapters
+export function getAllHistory(): { subject: string; chapter: string; results: SessionResult[] }[] {
+  if (!isClient()) return [];
+  try {
+    const all: { subject: string; chapter: string; results: SessionResult[] }[] = [];
+    const prefix = "gujcet:history:";
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (key && key.startsWith(prefix)) {
+        const rest = key.slice(prefix.length);
+        const firstColon = rest.indexOf(":");
+        if (firstColon === -1) continue;
+        const subject = rest.slice(0, firstColon);
+        const chapter = rest.slice(firstColon + 1);
+        const raw = localStorage.getItem(key);
+        if (raw) {
+          const results = JSON.parse(raw) as SessionResult[];
+          all.push({ subject, chapter, results });
+        }
+      }
+    }
+    return all;
+  } catch {
+    return [];
+  }
+}

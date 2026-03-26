@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import type { SubjectIndex, Subject } from "@/lib/types";
-import { Atom, FlaskConical, Calculator, ClipboardList, ArrowRight, Bookmark } from "lucide-react";
+import { Atom, FlaskConical, Calculator, ClipboardList, ArrowRight, Bookmark, BarChart3 } from "lucide-react";
 import fs from "fs";
 import path from "path";
 
@@ -133,8 +133,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Bookmarks link */}
-        <div className="mt-8 flex justify-center">
+        {/* Bookmarks & Analytics links */}
+        <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Link href="/bookmarks">
             <Card className="transition-shadow hover:shadow-md cursor-pointer">
               <CardContent className="flex items-center gap-3 py-4 px-6">
@@ -143,6 +143,19 @@ export default function Home() {
                   <h3 className="font-medium">Bookmarked Questions</h3>
                   <p className="text-sm text-muted-foreground">
                     Review your saved questions
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+          </Link>
+          <Link href="/analytics">
+            <Card className="transition-shadow hover:shadow-md cursor-pointer">
+              <CardContent className="flex items-center gap-3 py-4 px-6">
+                <BarChart3 className="size-5 text-blue-500" />
+                <div>
+                  <h3 className="font-medium">View Analytics</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Track your performance over time
                   </p>
                 </div>
               </CardContent>
