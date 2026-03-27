@@ -2,66 +2,129 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "./theme-toggle";
-import { ClipboardList, Bookmark, BarChart3 } from "lucide-react";
+import { Home, ClipboardList, Bookmark, BarChart3 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const navItems = [
+const desktopNavItems = [
   { href: "/mock-test", icon: ClipboardList, label: "Mock Test" },
-  { href: "/bookmarks", icon: Bookmark, label: "Bookmarks" },
-  { href: "/analytics", icon: BarChart3, label: "Analytics" },
+  { href: "/bookmarks", icon: Bookmark, label: "Saved" },
+  { href: "/analytics", icon: BarChart3, label: "Progress" },
 ] as const;
+
+const mobileNavItems = [
+  { href: "/", icon: Home, label: "Home", exact: true },
+  ...desktopNavItems.map((item) => ({ ...item, exact: false })),
+] as const;
+
+function isActive(pathname: string, href: string, exact?: boolean) {
+  if (exact) return pathname === href;
+  return pathname === href || pathname.startsWith(href + "/");
+}
 
 export function NavHeader() {
   const pathname = usePathname();
 
+  // Home tab is active when no other tab matches
+  const isOnHomeSection = !desktopNavItems.some((item) =>
+    isActive(pathname, item.href)
+  );
+
   return (
-    <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="mx-auto flex h-14 max-w-4xl items-center justify-between gap-4 px-4">
-        <Link
-          href="/"
-          className="flex items-center gap-1 shrink-0 font-bold hover:opacity-80 transition-opacity"
-        >
-          GUJCET{" "}
-          <span className="font-normal text-muted-foreground text-sm">PYQ</span>
-        </Link>
+    <>
+      {/* Skip to content */}
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-primary-foreground"
+      >
+        Skip to content
+      </a>
 
-        {/* Desktop nav */}
-        <nav className="hidden sm:flex items-center gap-0.5">
-          {navItems.map(({ href, icon: Icon, label }) => (
-            <Link key={href} href={href}>
-              <Button
-                variant="ghost"
-                size="sm"
-                className={cn("gap-1.5", pathname === href && "bg-muted font-semibold")}
-              >
-                <Icon data-icon="inline-start" />
-                {label}
-              </Button>
-            </Link>
-          ))}
-        </nav>
+      {/* Top header */}
+      <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+        <div className="mx-auto flex h-14 max-w-4xl items-center justify-between px-4">
+          <Link
+            href="/"
+            className="flex items-center shrink-0 rounded-sm transition-colors hover:text-foreground/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+          >
+            <span className="font-bold tracking-wide">GUJCET</span>
+            <span
+              className="mx-1.5 flex h-3.5 w-[3px] flex-col overflow-hidden rounded-full"
+              aria-hidden="true"
+            >
+              <span className="flex-1 bg-blue-500" />
+              <span className="flex-1 bg-green-500" />
+              <span className="flex-1 bg-purple-500" />
+            </span>
+            <span className="text-sm font-medium text-muted-foreground">
+              PYQ
+            </span>
+          </Link>
 
-        <div className="flex items-center gap-1">
-          {/* Mobile icon-only nav */}
-          <div className="flex sm:hidden">
-            {navItems.map(({ href, icon: Icon, label }) => (
-              <Link key={href} href={href}>
-                <Button
-                  variant="ghost"
-                  size="icon-sm"
-                  aria-label={label}
-                  className={cn(pathname === href && "bg-muted")}
+          {/* Desktop nav */}
+          <nav className="hidden sm:flex items-center gap-1" aria-label="Main navigation">
+            {desktopNavItems.map(({ href, icon: Icon, label }) => {
+              const active = isActive(pathname, href);
+              return (
+                <Link
+                  key={href}
+                  href={href}
+                  aria-current={active ? "page" : undefined}
+                  className={cn(
+                    "inline-flex items-center gap-1.5 rounded-md px-3 h-9 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
+                    active && "bg-muted font-semibold"
+                  )}
                 >
-                  <Icon />
-                </Button>
-              </Link>
-            ))}
-          </div>
+                  <Icon className="size-4 shrink-0" />
+                  {label}
+                </Link>
+              );
+            })}
+          </nav>
+
           <ThemeToggle />
         </div>
-      </div>
-    </header>
+      </header>
+
+      {/* Mobile bottom tab bar */}
+      <nav
+        className="fixed bottom-0 left-0 right-0 z-40 border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 pb-[env(safe-area-inset-bottom)] sm:hidden"
+        aria-label="Main navigation"
+      >
+        <div className="mx-auto flex max-w-lg items-stretch justify-around">
+          {mobileNavItems.map(({ href, icon: Icon, label, exact }) => {
+            const active = exact ? isOnHomeSection : isActive(pathname, href);
+            return (
+              <Link
+                key={href}
+                href={href}
+                aria-current={active ? "page" : undefined}
+                className={cn(
+                  "flex flex-1 flex-col items-center justify-center gap-0.5 py-2 min-h-[48px] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset",
+                  active
+                    ? "text-foreground"
+                    : "text-muted-foreground active:text-foreground"
+                )}
+              >
+                <Icon
+                  className={cn(
+                    "size-5 shrink-0",
+                    active && "text-primary"
+                  )}
+                />
+                <span
+                  className={cn(
+                    "text-[11px] leading-tight",
+                    active ? "font-semibold" : "font-medium"
+                  )}
+                >
+                  {label}
+                </span>
+              </Link>
+            );
+          })}
+        </div>
+      </nav>
+    </>
   );
 }

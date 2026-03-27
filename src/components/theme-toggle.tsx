@@ -29,14 +29,14 @@ export function ThemeToggle() {
 
   if (!mounted) {
     return (
-      <Button variant="ghost" size="icon-sm" aria-label="Toggle theme" disabled>
+      <Button variant="ghost" size="icon-sm" aria-label="Switch to light mode" disabled>
         <span className="size-4" />
       </Button>
     );
   }
 
   return (
-    <Button variant="ghost" size="icon-sm" onClick={toggle} aria-label="Toggle theme">
+    <Button variant="ghost" size="icon-sm" onClick={toggle} aria-label={dark ? "Switch to light mode" : "Switch to dark mode"}>
       {dark ? <Sun className="size-4" /> : <Moon className="size-4" />}
     </Button>
   );

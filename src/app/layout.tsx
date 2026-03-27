@@ -29,10 +29,12 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={cn("min-h-screen bg-background antialiased", inter.className)}>
+      <body className={cn("min-h-screen bg-background antialiased pb-14 sm:pb-0", inter.className)}>
         <NavHeader />
         <TooltipProvider>
-          {children}
+          <div id="main-content">
+            {children}
+          </div>
         </TooltipProvider>
         <Analytics />
       </body>
