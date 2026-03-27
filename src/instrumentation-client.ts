@@ -1,6 +1,6 @@
 import posthog from 'posthog-js'
 
-posthog.init(process.env.NEXT_PUBLIC_POSTHOG_TOKEN!, {
-    api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST,
+posthog.init('phc_H07Gl2hHTlAX0Par3pAgpaICfAKQtLkCmJvV7RcnZXQ', {
+    api_host: 'https://t.hero154.com',
     defaults: '2026-01-30'
 })
