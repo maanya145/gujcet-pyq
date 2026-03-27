@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback, useMemo, useEffect, useRef } from "react";
+import { useAuth } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
@@ -87,12 +88,20 @@ export function PracticeSession({
   const activeBtnRef = useRef<HTMLButtonElement>(null);
   const timerSecondsRef = useRef(0);
   const saveTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const { isSignedIn } = useAuth();
 
-  // Load bookmarks from localStorage on mount
+  // Load bookmarks — from DB for authenticated users, localStorage for guests
   useEffect(() => {
-    const allKeys = new Set(getAllBookmarks());
-    setBookmarkedKeys(allKeys);
-  }, []);
+    if (isSignedIn === undefined) return; // wait for Clerk to resolve
+    if (isSignedIn) {
+      fetch("/api/bookmarks")
+        .then((r) => r.json())
+        .then((data) => setBookmarkedKeys(new Set(data.bookmarks ?? [])))
+        .catch(() => setBookmarkedKeys(new Set(getAllBookmarks())));
+    } else {
+      setBookmarkedKeys(new Set(getAllBookmarks()));
+    }
+  }, [isSignedIn]);
 
   // Check for saved session on mount
   useEffect(() => {
@@ -179,7 +188,7 @@ export function PracticeSession({
   }, [originalQuestions]);
 
   const getKeyForQuestion = useCallback(
-    (q: Question) => getBookmarkKey(subjectName, chapterName, q.year, q.number),
+    (q: Question) => getBookmarkKey(subjectName, q.chapter || chapterName, q.year, q.number),
     [subjectName, chapterName]
   );
 
@@ -292,7 +301,7 @@ export function PracticeSession({
       const incorrect = entries.filter((e) => e.correct === false).length;
       const ungraded = entries.filter((e) => e.correct === null).length;
       const gradedTotal = correct + incorrect;
-      saveResult(subject, chapterSlug, {
+      const resultObj = {
         date: new Date().toISOString(),
         correct,
         incorrect,
@@ -300,7 +309,15 @@ export function PracticeSession({
         total: entries.length,
         accuracy: gradedTotal > 0 ? Math.round((correct / gradedTotal) * 100) : 0,
         timeSpent: timerSecondsRef.current,
-      });
+      };
+      saveResult(subject, chapterSlug, resultObj);
+      if (isSignedIn) {
+        fetch("/api/results", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ subject, chapter: chapterSlug, result: resultObj }),
+        }).catch(() => {});
+      }
     }
     setQuestions(originalQuestions);
     setShuffled(false);
@@ -310,7 +327,7 @@ export function PracticeSession({
     setShowAllAnswers(false);
     setReviewMode(false);
     clearSession(subject, chapterSlug);
-  }, [originalQuestions, answeredMap, subject, chapterSlug]);
+  }, [originalQuestions, answeredMap, subject, chapterSlug, isSignedIn]);
 
   const handleAnswer = useCallback((selected: string, isCorrect: boolean | null) => {
     setAnsweredMap((prev) => ({ ...prev, [filteredIndex]: { selected, correct: isCorrect } }));
@@ -336,7 +353,7 @@ export function PracticeSession({
   const handleToggleBookmark = useCallback(
     (q: Question) => {
       const key = getKeyForQuestion(q);
-      const newState = toggleBookmark(key);
+      const newState = toggleBookmark(key); // always write to localStorage
       setBookmarkedKeys((prev) => {
         const next = new Set(prev);
         if (newState) {
@@ -346,8 +363,15 @@ export function PracticeSession({
         }
         return next;
       });
+      if (isSignedIn) {
+        fetch("/api/bookmarks", {
+          method: newState ? "POST" : "DELETE",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ key }),
+        }).catch(() => {});
+      }
     },
-    [getKeyForQuestion]
+    [getKeyForQuestion, isSignedIn]
   );
 
   // Auto-scroll the active grid button into view

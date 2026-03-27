@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
+import { useAuth } from "@clerk/nextjs";
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -76,11 +77,26 @@ export default function AnalyticsPage() {
     { subject: string; chapter: string; results: SessionResult[] }[]
   >([]);
   const [loaded, setLoaded] = useState(false);
+  const { isSignedIn } = useAuth();
 
   useEffect(() => {
-    setAllHistory(getAllHistory());
-    setLoaded(true);
-  }, []);
+    if (isSignedIn === undefined) return; // wait for Clerk to resolve
+    if (isSignedIn) {
+      fetch("/api/results")
+        .then((r) => r.json())
+        .then((data) => {
+          setAllHistory(data.results ?? []);
+          setLoaded(true);
+        })
+        .catch(() => {
+          setAllHistory(getAllHistory());
+          setLoaded(true);
+        });
+    } else {
+      setAllHistory(getAllHistory());
+      setLoaded(true);
+    }
+  }, [isSignedIn]);
 
   // Flatten all sessions
   const flatSessions = useMemo<FlatSession[]>(() => {

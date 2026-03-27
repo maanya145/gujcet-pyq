@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { ThemeToggle } from "./theme-toggle";
 import { Home, ClipboardList, Bookmark, BarChart3 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useAuth, UserButton } from "@clerk/nextjs";
 
 const desktopNavItems = [
   { href: "/mock-test", icon: ClipboardList, label: "Mock Test" },
@@ -27,6 +28,7 @@ export function NavHeader() {
   const pathname = usePathname();
   const [hidden, setHidden] = useState(false);
   const lastY = useRef(0);
+  const { isSignedIn, isLoaded } = useAuth();
 
   useEffect(() => {
     const onScroll = () => {
@@ -101,8 +103,29 @@ export function NavHeader() {
             })}
           </nav>
 
-          <div className="flex flex-1 items-center justify-end">
+          <div className="flex flex-1 items-center justify-end gap-2">
             <ThemeToggle />
+            {/* Auth */}
+            {isLoaded && (
+              isSignedIn ? (
+                <UserButton
+                  appearance={{
+                    elements: {
+                      avatarBox: "size-8",
+                      userButtonPopoverCard: "border border-border shadow-md",
+                      userButtonPopoverActionButton: "hover:bg-muted",
+                    },
+                  }}
+                />
+              ) : (
+                <Link
+                  href="/sign-in"
+                  className="inline-flex h-8 items-center rounded-md border border-border bg-background px-3 text-xs font-medium transition-colors hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                >
+                  Sign in
+                </Link>
+              )
+            )}
           </div>
         </div>
       </header>

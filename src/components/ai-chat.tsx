@@ -84,7 +84,11 @@ export function AIChat({ question, selectedAnswer, onClose }: AIChatProps) {
 
       if (!res.ok) {
         const data = await res.json().catch(() => ({}));
-        throw new Error(data.error || "Failed to get response");
+        throw new Error(
+          res.status === 401
+            ? "Please sign in to use the AI Tutor."
+            : data.error || "Failed to get response"
+        );
       }
 
       const data = await res.json();

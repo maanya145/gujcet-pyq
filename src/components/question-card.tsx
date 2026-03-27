@@ -8,6 +8,8 @@ import { Latex } from "@/components/latex";
 import type { Question } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { Bookmark, RotateCcw, Lightbulb, ChevronDown, ChevronUp, Sparkles, Copy, CheckCheck } from "lucide-react";
+import { useAuth } from "@clerk/nextjs";
+import Link from "next/link";
 
 interface QuestionCardProps {
   question: Question;
@@ -43,6 +45,7 @@ export function QuestionCard({
   const [selected, setSelected] = useState<string | null>(savedSelection ?? null);
   const [showExplanation, setShowExplanation] = useState(false);
   const [copied, setCopied] = useState(false);
+  const { isSignedIn } = useAuth();
   const optionKeys = ["A", "B", "C", "D"] as const;
 
   useEffect(() => {
@@ -244,15 +247,27 @@ export function QuestionCard({
         )}
 
         {showAnswer && !showChat && onOpenChat && (
-          <Button
-            size="sm"
-            variant="outline"
-            onClick={onOpenChat}
-            className="border-primary/30 text-primary hover:bg-primary/5"
-          >
-            <Sparkles className="size-3.5" />
-            Ask AI Tutor
-          </Button>
+          isSignedIn ? (
+            <Button
+              size="sm"
+              variant="outline"
+              onClick={onOpenChat}
+              className="border-primary/30 text-primary hover:bg-primary/5"
+            >
+              <Sparkles className="size-3.5" />
+              Ask AI Tutor
+            </Button>
+          ) : (
+            <div className="flex items-center gap-2 rounded-lg border border-dashed border-border px-3 py-2">
+              <Sparkles className="size-3.5 shrink-0 text-muted-foreground" />
+              <span className="text-xs text-muted-foreground">
+                <Link href="/sign-in" className="font-medium text-foreground underline-offset-2 hover:underline">
+                  Sign in
+                </Link>{" "}
+                to use AI Tutor
+              </span>
+            </div>
+          )
         )}
       </CardContent>
     </Card>

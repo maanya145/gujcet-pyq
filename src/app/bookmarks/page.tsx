@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useAuth } from "@clerk/nextjs";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -16,14 +17,25 @@ interface ParsedBookmark {
   number: number;
 }
 
-interface LoadedBookmark extends ParsedBookmark {
+interface LoadedBookmark {
+  subject: string;
+  chapter: string; // display name from index (proper casing)
+  slug: string; // file slug for Practice link
+  year: number;
+  number: number;
   question: Question;
+}
+
+type GroupedBookmarks = Record<string, Record<string, LoadedBookmark[]>>;
+
+interface ChapterIndexEntry {
+  chapter: string; // proper cased name e.g. "The p-Block Elements"
+  slug: string; // file slug e.g. "the_p-block_elements"
 }
 
 function parseBookmarkKey(key: string): ParsedBookmark | null {
   const parts = key.split(":");
   if (parts.length < 4) return null;
-  // subject:chapter:year:number — chapter name may contain colons, so join middle parts
   const subject = parts[0];
   const number = parseInt(parts[parts.length - 1], 10);
   const year = parseInt(parts[parts.length - 2], 10);
@@ -32,25 +44,28 @@ function parseBookmarkKey(key: string): ParsedBookmark | null {
   return { subject, chapter, year, number };
 }
 
-function chapterToSlug(chapter: string): string {
-  return chapter
-    .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, "")
-    .replace(/\s+/g, "_")
-    .replace(/_+/g, "_")
-    .replace(/^_|_$/g, "");
-}
-
-type GroupedBookmarks = Record<string, Record<string, LoadedBookmark[]>>;
-
 export default function BookmarksPage() {
   const [grouped, setGrouped] = useState<GroupedBookmarks>({});
   const [totalCount, setTotalCount] = useState(0);
   const [loading, setLoading] = useState(true);
+  const { isSignedIn } = useAuth();
 
   const loadBookmarks = async () => {
     setLoading(true);
-    const keys = getAllBookmarks();
+
+    let keys: string[];
+    if (isSignedIn) {
+      try {
+        const res = await fetch("/api/bookmarks");
+        const data = await res.json();
+        keys = data.bookmarks ?? [];
+      } catch {
+        keys = getAllBookmarks();
+      }
+    } else {
+      keys = getAllBookmarks();
+    }
+
     setTotalCount(keys.length);
 
     if (keys.length === 0) {
@@ -59,53 +74,114 @@ export default function BookmarksPage() {
       return;
     }
 
-    // Parse and group by subject+chapter
     const parsedBookmarks = keys
       .map((k) => ({ key: k, parsed: parseBookmarkKey(k) }))
       .filter((x): x is { key: string; parsed: ParsedBookmark } => x.parsed !== null);
 
-    // Determine unique subject+chapter combos to fetch
-    const chaptersToFetch = new Map<string, Set<string>>();
+    // Load _index.json for each unique subject to get authoritative chapter name → slug map
+    const uniqueSubjects = Array.from(new Set(parsedBookmarks.map((x) => x.parsed.subject)));
+    // subject → (chapterName.toLowerCase() → ChapterIndexEntry)
+    const subjectIndexMap = new Map<string, Map<string, ChapterIndexEntry>>();
+    await Promise.all(
+      uniqueSubjects.map(async (subject) => {
+        try {
+          const res = await fetch(`/data/${subject}/_index.json`);
+          if (!res.ok) return;
+          const idx = await res.json();
+          const chMap = new Map<string, ChapterIndexEntry>();
+          for (const ch of idx.chapters as Array<{ chapter: string; file: string }>) {
+            const slug = ch.file.replace(".json", "");
+            chMap.set(ch.chapter.toLowerCase(), { chapter: ch.chapter, slug });
+          }
+          subjectIndexMap.set(subject, chMap);
+        } catch {
+          // ignore
+        }
+      })
+    );
+
+    // Determine which chapter files to fetch
+    // "All Chapters" bookmarks need every chapter file for the subject
+    const fetchKeys = new Set<string>(); // "subject/slug"
     for (const { parsed } of parsedBookmarks) {
-      const slug = chapterToSlug(parsed.chapter);
-      const fetchKey = `${parsed.subject}/${slug}`;
-      if (!chaptersToFetch.has(fetchKey)) {
-        chaptersToFetch.set(fetchKey, new Set());
+      const chMap = subjectIndexMap.get(parsed.subject);
+      if (!chMap) continue;
+      if (parsed.chapter.toLowerCase() === "all chapters") {
+        for (const { slug } of Array.from(chMap.values())) {
+          fetchKeys.add(`${parsed.subject}/${slug}`);
+        }
+      } else {
+        const entry = chMap.get(parsed.chapter.toLowerCase());
+        if (entry) fetchKeys.add(`${parsed.subject}/${entry.slug}`);
       }
     }
 
-    // Fetch all needed chapter JSONs
+    // Fetch all needed chapter JSONs in parallel
+    // Cache: "subject/slug" → questions
     const chapterDataCache = new Map<string, Question[]>();
-    const fetchPromises = Array.from(chaptersToFetch.keys()).map(async (fetchKey) => {
-      try {
-        const res = await fetch(`/data/${fetchKey}.json`);
-        if (res.ok) {
-          const data = await res.json();
-          chapterDataCache.set(fetchKey, data.questions || []);
+    await Promise.all(
+      Array.from(fetchKeys).map(async (fetchKey) => {
+        try {
+          const res = await fetch(`/data/${fetchKey}.json`);
+          if (res.ok) {
+            const data = await res.json();
+            chapterDataCache.set(fetchKey, data.questions || []);
+          }
+        } catch {
+          // skip
         }
-      } catch {
-        // Skip chapters that fail to load
-      }
-    });
-    await Promise.all(fetchPromises);
+      })
+    );
 
-    // Match bookmarks to loaded questions
+    // Build lookup: subject → "year:number" → { question, chapter, slug }
+    const questionLookup = new Map<
+      string,
+      Map<string, { question: Question; chapter: string; slug: string }>
+    >();
+    for (const [fetchKey, questions] of Array.from(chapterDataCache.entries())) {
+      const slashIdx = fetchKey.indexOf("/");
+      const subject = fetchKey.slice(0, slashIdx);
+      const slug = fetchKey.slice(slashIdx + 1);
+      if (!questionLookup.has(subject)) {
+        questionLookup.set(subject, new Map());
+      }
+      const subjectMap = questionLookup.get(subject)!;
+      // Resolve proper chapter name from index
+      const chMap = subjectIndexMap.get(subject);
+      let chapterName = slug.replace(/_/g, " "); // fallback
+      if (chMap) {
+        for (const entry of Array.from(chMap.values())) {
+          if (entry.slug === slug) {
+            chapterName = entry.chapter;
+            break;
+          }
+        }
+      }
+      for (const q of questions) {
+        subjectMap.set(`${q.year}:${q.number}`, { question: q, chapter: chapterName, slug });
+      }
+    }
+
+    // Match bookmarks to questions and group
     const result: GroupedBookmarks = {};
     for (const { parsed } of parsedBookmarks) {
-      const slug = chapterToSlug(parsed.chapter);
-      const fetchKey = `${parsed.subject}/${slug}`;
-      const questions = chapterDataCache.get(fetchKey);
-      if (!questions) continue;
+      const subjectMap = questionLookup.get(parsed.subject);
+      if (!subjectMap) continue;
+      const entry = subjectMap.get(`${parsed.year}:${parsed.number}`);
+      if (!entry) continue;
 
-      const question = questions.find(
-        (q) => q.year === parsed.year && q.number === parsed.number
-      );
-      if (!question) continue;
-
-      const subjectLabel = parsed.subject.charAt(0).toUpperCase() + parsed.subject.slice(1);
+      const subjectLabel =
+        parsed.subject.charAt(0).toUpperCase() + parsed.subject.slice(1);
       if (!result[subjectLabel]) result[subjectLabel] = {};
-      if (!result[subjectLabel][parsed.chapter]) result[subjectLabel][parsed.chapter] = [];
-      result[subjectLabel][parsed.chapter].push({ ...parsed, question });
+      if (!result[subjectLabel][entry.chapter]) result[subjectLabel][entry.chapter] = [];
+      result[subjectLabel][entry.chapter].push({
+        subject: parsed.subject,
+        chapter: entry.chapter,
+        slug: entry.slug,
+        year: parsed.year,
+        number: parsed.number,
+        question: entry.question,
+      });
     }
 
     // Sort within each group by year then number
@@ -120,12 +196,21 @@ export default function BookmarksPage() {
   };
 
   useEffect(() => {
+    if (isSignedIn === undefined) return; // wait for Clerk to resolve
     loadBookmarks();
-  }, []);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isSignedIn]);
 
   const handleClearAll = () => {
     if (window.confirm("Remove all bookmarks? This cannot be undone.")) {
       clearAllBookmarks();
+      if (isSignedIn) {
+        fetch("/api/bookmarks", {
+          method: "DELETE",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ all: true }),
+        }).catch(() => {});
+      }
       setGrouped({});
       setTotalCount(0);
     }
@@ -195,14 +280,14 @@ export default function BookmarksPage() {
                   <div className="space-y-4">
                     {chapterKeys.map((chapter) => {
                       const bookmarks = chapters[chapter];
-                      const slug = chapterToSlug(chapter);
+                      const slug = bookmarks[0].slug;
                       const subjectLower = subject.toLowerCase();
                       return (
                         <Card key={chapter}>
                           <CardContent className="py-4">
                             <div className="flex items-center justify-between mb-3">
-                              <h3 className="font-medium capitalize">
-                                {chapter.replace(/_/g, " ")}
+                              <h3 className="font-medium">
+                                {chapter}
                               </h3>
                               <Link href={`/${subjectLower}/${slug}`}>
                                 <Button variant="outline" size="xs" className="text-xs">

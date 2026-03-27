@@ -1,5 +1,6 @@
 import { generateText, convertToModelMessages, type UIMessage } from "ai";
 import { getNextProvider, getProviderCount } from "@/lib/gemini";
+import { auth } from "@clerk/nextjs/server";
 
 export const maxDuration = 30;
 
@@ -14,6 +15,14 @@ Rules:
 - Be encouraging`;
 
 export async function POST(req: Request) {
+  const { userId } = await auth();
+  if (!userId) {
+    return Response.json(
+      { error: "Sign in to use the AI Tutor." },
+      { status: 401 }
+    );
+  }
+
   const { messages: uiMessages }: { messages: UIMessage[] } = await req.json();
   const messages = await convertToModelMessages(uiMessages);
 

@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { NavHeader } from "@/components/nav-header";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Analytics } from "@vercel/analytics/next";
+import { ClerkProvider } from "@clerk/nextjs";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -21,23 +22,25 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className="bg-background">
-      <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `try{if(localStorage.getItem('gujcet:theme')!=='light')document.documentElement.classList.add('dark')}catch(e){document.documentElement.classList.add('dark')}`,
-          }}
-        />
-      </head>
-      <body className={cn("min-h-screen bg-background antialiased pb-14 sm:pb-0", inter.className)}>
-        <NavHeader />
-        <TooltipProvider>
-          <div id="main-content">
-            {children}
-          </div>
-        </TooltipProvider>
-        <Analytics />
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en" suppressHydrationWarning className="bg-background">
+        <head>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `try{if(localStorage.getItem('gujcet:theme')!=='light')document.documentElement.classList.add('dark')}catch(e){document.documentElement.classList.add('dark')}`,
+            }}
+          />
+        </head>
+        <body className={cn("min-h-screen bg-background antialiased pb-14 sm:pb-0", inter.className)}>
+          <NavHeader />
+          <TooltipProvider>
+            <div id="main-content">
+              {children}
+            </div>
+          </TooltipProvider>
+          <Analytics />
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
