@@ -1,12 +1,12 @@
-import { SignIn } from "@clerk/nextjs";
+import { SignUp } from "@clerk/nextjs";
 import Link from "next/link";
 
-export default function SignInPage() {
+export default function SignUpPage() {
   return (
-    <section className="h-screen bg-muted">
+    <main className="min-h-svh bg-muted" aria-label="Sign up">
       <div className="flex h-full items-center justify-center">
         <div className="flex flex-col items-center gap-6">
-          <Link href="/" className="inline-flex items-center gap-1.5">
+          <Link href="/" className="inline-flex items-center gap-1.5" aria-label="GUJCET PYQ — Go to home page">
             <span className="text-lg font-bold tracking-wide">GUJCET</span>
             <span
               className="mx-0.5 flex h-4 w-[3px] flex-col overflow-hidden rounded-full"
@@ -19,9 +19,9 @@ export default function SignInPage() {
             <span className="text-sm font-medium text-muted-foreground">PYQ</span>
           </Link>
 
-          <SignIn appearance={{ elements: { rootBox: "w-full" } }} />
+          <SignUp appearance={{ elements: { rootBox: "w-full" } }} />
         </div>
       </div>
-    </section>
+    </main>
   );
 }
