@@ -1,13 +1,15 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useAuth } from "@clerk/nextjs";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Bookmark, Trash2 } from "lucide-react";
-import { getAllBookmarks, clearAllBookmarks } from "@/lib/bookmarks";
+import { Latex } from "@/components/latex";
+import { Bookmark, Trash2, X, ChevronRight } from "lucide-react";
+import { getAllBookmarks, clearAllBookmarks, toggleBookmark } from "@/lib/bookmarks";
+import { cn } from "@/lib/utils";
 import type { Question } from "@/lib/types";
 
 interface ParsedBookmark {
@@ -216,6 +218,39 @@ export default function BookmarksPage() {
     }
   };
 
+  const handleRemoveBookmark = useCallback(
+    (bm: LoadedBookmark) => {
+      const key = `${bm.subject}:${bm.chapter}:${bm.year}:${bm.number}`;
+      toggleBookmark(key); // remove from localStorage
+      if (isSignedIn) {
+        fetch("/api/bookmarks", {
+          method: "DELETE",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ key }),
+        }).catch(() => {});
+      }
+      setGrouped((prev) => {
+        const next = { ...prev };
+        const subjectLabel =
+          bm.subject.charAt(0).toUpperCase() + bm.subject.slice(1);
+        if (!next[subjectLabel]?.[bm.chapter]) return next;
+        next[subjectLabel] = { ...next[subjectLabel] };
+        next[subjectLabel][bm.chapter] = next[subjectLabel][bm.chapter].filter(
+          (b) => !(b.year === bm.year && b.number === bm.number)
+        );
+        if (next[subjectLabel][bm.chapter].length === 0) {
+          delete next[subjectLabel][bm.chapter];
+        }
+        if (Object.keys(next[subjectLabel]).length === 0) {
+          delete next[subjectLabel];
+        }
+        return next;
+      });
+      setTotalCount((c) => c - 1);
+    },
+    [isSignedIn]
+  );
+
   const subjectKeys = Object.keys(grouped).sort();
 
   return (
@@ -248,16 +283,8 @@ export default function BookmarksPage() {
             {[1, 2].map((i) => (
               <div key={i} className="space-y-3">
                 <Skeleton className="h-5 w-24" />
-                <div className="rounded-lg border p-4 space-y-3">
-                  <div className="flex items-center justify-between">
-                    <Skeleton className="h-4 w-40" />
-                    <Skeleton className="h-7 w-16 rounded-md" />
-                  </div>
-                  <div className="space-y-2">
-                    <Skeleton className="h-3.5 w-28" />
-                    <Skeleton className="h-3.5 w-32" />
-                  </div>
-                </div>
+                <Skeleton className="h-16 w-full rounded-lg" />
+                <Skeleton className="h-16 w-full rounded-lg" />
               </div>
             ))}
           </div>
@@ -280,36 +307,61 @@ export default function BookmarksPage() {
                   <div className="space-y-4">
                     {chapterKeys.map((chapter) => {
                       const bookmarks = chapters[chapter];
-                      const slug = bookmarks[0].slug;
-                      const subjectLower = subject.toLowerCase();
                       return (
-                        <Card key={chapter}>
-                          <CardContent className="py-4">
-                            <div className="flex items-center justify-between mb-3">
-                              <h3 className="font-medium">
-                                {chapter}
-                              </h3>
-                              <Link href={`/${subjectLower}/${slug}`}>
-                                <Button variant="outline" size="xs" className="text-xs">
-                                  Practice
-                                </Button>
-                              </Link>
-                            </div>
-                            <div className="space-y-1.5">
-                              {bookmarks.map((bm, i) => (
-                                <div
-                                  key={i}
-                                  className="flex items-center gap-2 text-sm text-muted-foreground"
+                        <div key={chapter} className="space-y-2">
+                          <h3 className="text-sm font-medium text-muted-foreground">
+                            {chapter}
+                          </h3>
+                          <div className="space-y-2">
+                            {bookmarks.map((bm) => (
+                              <div
+                                key={`${bm.year}-${bm.number}`}
+                                className="group flex items-start gap-2 rounded-lg border bg-card transition-colors hover:bg-muted/50"
+                              >
+                                <Link
+                                  href={`/${bm.subject}/${bm.slug}?q=${bm.year}-${bm.number}`}
+                                  className="flex-1 flex items-start gap-3 p-3 min-w-0"
                                 >
-                                  <Bookmark className="size-3 text-yellow-500 fill-yellow-500 shrink-0" />
-                                  <span>
-                                    Q{bm.number} ({bm.year})
-                                  </span>
-                                </div>
-                              ))}
-                            </div>
-                          </CardContent>
-                        </Card>
+                                  <Bookmark className="size-4 text-yellow-500 fill-yellow-500 shrink-0 mt-0.5" />
+                                  <div className="flex-1 min-w-0">
+                                    <div className="flex items-center gap-1.5 mb-1">
+                                      <Badge variant="outline" className="text-[10px] px-1.5 py-0">
+                                        {bm.year}
+                                      </Badge>
+                                      <span className="text-xs text-muted-foreground">
+                                        Q{bm.number}
+                                      </span>
+                                      {bm.question.difficulty && (
+                                        <Badge
+                                          variant="outline"
+                                          className={cn(
+                                            "text-[10px] px-1.5 py-0 capitalize",
+                                            bm.question.difficulty === "easy" && "text-green-600 border-green-300 dark:text-green-400 dark:border-green-700",
+                                            bm.question.difficulty === "medium" && "text-amber-600 border-amber-300 dark:text-amber-400 dark:border-amber-700",
+                                            bm.question.difficulty === "hard" && "text-red-600 border-red-300 dark:text-red-400 dark:border-red-700"
+                                          )}
+                                        >
+                                          {bm.question.difficulty}
+                                        </Badge>
+                                      )}
+                                    </div>
+                                    <p className="text-sm leading-relaxed line-clamp-2">
+                                      <Latex text={bm.question.question} />
+                                    </p>
+                                  </div>
+                                  <ChevronRight className="size-4 text-muted-foreground/50 group-hover:text-muted-foreground shrink-0 mt-0.5 transition-colors" />
+                                </Link>
+                                <button
+                                  onClick={() => handleRemoveBookmark(bm)}
+                                  className="inline-flex items-center justify-center size-8 rounded-md text-muted-foreground/50 hover:text-foreground hover:bg-muted transition-colors shrink-0 mr-1 mt-1"
+                                  aria-label="Remove bookmark"
+                                >
+                                  <X className="size-3.5" />
+                                </button>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
                       );
                     })}
                   </div>

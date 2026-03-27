@@ -90,6 +90,24 @@ export function PracticeSession({
   const saveTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const { isSignedIn } = useAuth();
 
+  // Jump to a specific question via ?q=YEAR-NUMBER (e.g. from bookmarks page)
+  useEffect(() => {
+    if (!sessionChecked) return;
+    const params = new URLSearchParams(window.location.search);
+    const qParam = params.get("q");
+    if (!qParam) return;
+    const [yearStr, numStr] = qParam.split("-");
+    const year = parseInt(yearStr, 10);
+    const num = parseInt(numStr, 10);
+    if (isNaN(year) || isNaN(num)) return;
+    const idx = filteredQuestions.findIndex(
+      (q) => q.year === year && q.number === num
+    );
+    if (idx >= 0) setCurrentIndex(idx);
+  // Run once when session is ready
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [sessionChecked]);
+
   // Load bookmarks — from DB for authenticated users, localStorage for guests
   useEffect(() => {
     if (isSignedIn === undefined) return; // wait for Clerk to resolve
