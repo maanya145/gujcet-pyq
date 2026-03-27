@@ -580,57 +580,63 @@ export function PracticeSession({
       </div>
 
       {/* Quick actions + filters toggle */}
-      <div className="flex flex-wrap items-center gap-2">
-        <Button size="sm" variant="outline" className="min-h-[44px] sm:min-h-0" onClick={handleShuffle} aria-pressed={shuffled}>
-          <Shuffle />
-          {shuffled ? "Re-shuffle" : "Shuffle"}
-        </Button>
-        <Button
-          size="sm"
-          variant="outline"
-          className="min-h-[44px] sm:min-h-0"
-          onClick={() => setShowAllAnswers(!showAllAnswers)}
-          aria-pressed={showAllAnswers}
-        >
-          {showAllAnswers ? <EyeOff /> : <Eye />}
-          {showAllAnswers ? "Hide Answers" : "Show Answers"}
-        </Button>
-        <Button size="sm" variant="outline" className="min-h-[44px] sm:min-h-0" onClick={handleReset}>
-          <RotateCcw />
-          Reset
-        </Button>
-        {incorrectCount > 0 && (
+      <div className="space-y-2">
+        {/* Action buttons — scrollable on mobile, wrapping on desktop */}
+        <div className="-mx-4 flex items-center gap-2 overflow-x-auto px-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
+          <Button size="sm" variant="outline" className="shrink-0 min-h-[44px] sm:min-h-0" onClick={handleShuffle} aria-pressed={shuffled}>
+            <Shuffle />
+            {shuffled ? "Re-shuffle" : "Shuffle"}
+          </Button>
           <Button
             size="sm"
-            variant={reviewMode ? "destructive" : "outline"}
-            className="min-h-[44px] sm:min-h-0"
-            onClick={handleToggleReviewMode}
-            aria-pressed={reviewMode}
+            variant="outline"
+            className="shrink-0 min-h-[44px] sm:min-h-0"
+            onClick={() => setShowAllAnswers(!showAllAnswers)}
+            aria-pressed={showAllAnswers}
           >
-            {reviewMode ? "Exit Review" : `Review Mistakes (${incorrectCount})`}
+            {showAllAnswers ? <EyeOff /> : <Eye />}
+            {showAllAnswers ? "Hide Answers" : "Show Answers"}
           </Button>
-        )}
-        <label className="flex items-center gap-2 text-sm cursor-pointer select-none min-h-[44px] sm:min-h-0">
-          <Switch
+          <Button size="sm" variant="outline" className="shrink-0 min-h-[44px] sm:min-h-0" onClick={handleReset}>
+            <RotateCcw />
+            Reset
+          </Button>
+          {incorrectCount > 0 && (
+            <Button
+              size="sm"
+              variant={reviewMode ? "destructive" : "outline"}
+              className="shrink-0 min-h-[44px] sm:min-h-0"
+              onClick={handleToggleReviewMode}
+              aria-pressed={reviewMode}
+            >
+              {reviewMode ? "Exit Review" : `Review Mistakes (${incorrectCount})`}
+            </Button>
+          )}
+        </div>
+        {/* Swipe toggle + Filters — always pinned to opposite ends */}
+        <div className="flex items-center justify-between">
+          <label className="flex items-center gap-2 text-sm cursor-pointer select-none min-h-[44px] sm:min-h-0">
+            <Switch
+              size="sm"
+              checked={swipeEnabled}
+              onCheckedChange={setSwipeEnabled}
+              aria-label="Toggle swipe navigation"
+            />
+            Swipe
+          </label>
+          <Button
             size="sm"
-            checked={swipeEnabled}
-            onCheckedChange={setSwipeEnabled}
-            aria-label="Toggle swipe navigation"
-          />
-          Swipe
-        </label>
-        <Button
-          size="sm"
-          variant={showFilters ? "secondary" : "outline"}
-          onClick={() => setShowFilters(!showFilters)}
-          className="ml-auto min-h-[44px] sm:min-h-0"
-          aria-expanded={showFilters}
-          aria-controls="filters-panel"
-        >
-          <SlidersHorizontal />
-          Filters
-          <ChevronDown className={`transition-transform duration-200 ${showFilters ? "rotate-180" : ""}`} />
-        </Button>
+            variant={showFilters ? "secondary" : "outline"}
+            onClick={() => setShowFilters(!showFilters)}
+            className="min-h-[44px] sm:min-h-0"
+            aria-expanded={showFilters}
+            aria-controls="filters-panel"
+          >
+            <SlidersHorizontal />
+            Filters
+            <ChevronDown className={`transition-transform duration-200 ${showFilters ? "rotate-180" : ""}`} />
+          </Button>
+        </div>
       </div>
 
       {/* Collapsible filters panel */}

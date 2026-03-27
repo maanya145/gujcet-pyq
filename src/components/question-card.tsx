@@ -181,7 +181,7 @@ export function QuestionCard({
               aria-disabled={showAnswer || undefined}
               onClick={() => handleSelect(key)}
               className={cn(
-                "flex items-start gap-3 rounded-lg border p-3 text-left transition-colors",
+                "flex items-start gap-3 rounded-lg border p-3 text-left transition-colors ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
                 getOptionStyle(key)
               )}
             >
