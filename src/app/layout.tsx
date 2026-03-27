@@ -7,6 +7,8 @@ import { NavHeader } from "@/components/nav-header";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Analytics } from "@vercel/analytics/next";
 import { ClerkProvider } from "@clerk/nextjs";
+import { Suspense } from "react";
+import { PostHogPageView } from "@/components/posthog-pageview";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -32,6 +34,9 @@ export default function RootLayout({
           />
         </head>
         <body className={cn("min-h-screen bg-background antialiased pb-14 sm:pb-0", inter.className)}>
+          <Suspense fallback={null}>
+            <PostHogPageView />
+          </Suspense>
           <NavHeader />
           <TooltipProvider>
             <div id="main-content">
