@@ -63,6 +63,9 @@ export default function Home() {
 
   const totalQuestions = indexes.reduce((sum, i) => sum + i.data.total_questions, 0);
   const totalChapters = indexes.reduce((sum, i) => sum + i.data.total_chapters, 0);
+  const allYears = indexes.flatMap((i) => i.data.chapters.flatMap((ch) => ch.years));
+  const minYear = Math.min(...allYears);
+  const maxYear = Math.max(...allYears);
 
   return (
     <main className="min-h-screen">
@@ -73,7 +76,7 @@ export default function Home() {
             GUJCET Past Year Questions
           </h1>
           <p className="mt-3 text-muted-foreground">
-            {totalQuestions.toLocaleString()} questions &middot; {totalChapters} chapters &middot; 2006&ndash;2025
+            {totalQuestions.toLocaleString()} questions &middot; {totalChapters} chapters &middot; {minYear}&ndash;{maxYear}
           </p>
           <p className="mt-1 text-sm text-muted-foreground">
             Physics, Chemistry &amp; Maths — all in one place

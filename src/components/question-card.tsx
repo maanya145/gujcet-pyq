@@ -16,6 +16,7 @@ interface QuestionCardProps {
   showAnswer: boolean;
   onAnswer: (selected: string, isCorrect: boolean | null) => void;
   externalSelection?: string | null;
+  savedSelection?: string | null;
   bookmarkKey?: string;
   onToggleBookmark?: () => void;
   isBookmarked?: boolean;
@@ -31,6 +32,7 @@ export function QuestionCard({
   showAnswer,
   onAnswer,
   externalSelection,
+  savedSelection,
   bookmarkKey,
   onToggleBookmark,
   isBookmarked: bookmarked,
@@ -38,7 +40,7 @@ export function QuestionCard({
   showChat,
   onOpenChat,
 }: QuestionCardProps) {
-  const [selected, setSelected] = useState<string | null>(null);
+  const [selected, setSelected] = useState<string | null>(savedSelection ?? null);
   const [showExplanation, setShowExplanation] = useState(false);
   const [copied, setCopied] = useState(false);
   const optionKeys = ["A", "B", "C", "D"] as const;
@@ -119,7 +121,7 @@ export function QuestionCard({
                 setCopied(true);
                 setTimeout(() => setCopied(false), 1500);
               }}
-              className="p-1 rounded-md hover:bg-muted/80 transition-colors"
+              className="inline-flex items-center justify-center size-9 min-w-[44px] min-h-[44px] rounded-md hover:bg-muted/80 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
               aria-label="Copy question"
             >
               {copied ? (
@@ -132,7 +134,7 @@ export function QuestionCard({
               href={`https://www.google.com/search?q=${encodeURIComponent(question.question)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-1 rounded-md hover:bg-muted/80 transition-colors"
+              className="inline-flex items-center justify-center size-9 min-w-[44px] min-h-[44px] rounded-md hover:bg-muted/80 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
               aria-label="Search on Google"
             >
               <svg className="size-4" viewBox="0 0 24 24">
@@ -148,7 +150,7 @@ export function QuestionCard({
                   e.stopPropagation();
                   onToggleBookmark();
                 }}
-                className="p-1 rounded-md hover:bg-muted/80 transition-colors"
+                className="inline-flex items-center justify-center size-9 min-w-[44px] min-h-[44px] rounded-md hover:bg-muted/80 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                 aria-label={bookmarked ? "Remove bookmark" : "Add bookmark"}
               >
                 <Bookmark

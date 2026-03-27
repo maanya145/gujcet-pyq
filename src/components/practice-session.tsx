@@ -4,7 +4,7 @@ import { useState, useCallback, useMemo, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
-import { Tooltip, TooltipTrigger, TooltipContent } from "@/components/ui/tooltip";
+import { Toggle } from "@/components/ui/toggle";
 import { QuestionCard } from "@/components/question-card";
 import { AIChat } from "@/components/ai-chat";
 import { Timer } from "@/components/timer";
@@ -32,14 +32,13 @@ import {
   Shuffle,
   Eye,
   EyeOff,
-  Check,
-  X,
   Grid3X3,
   AlertTriangle,
   RotateCcw,
   Play,
   Bookmark,
-  Info,
+  SlidersHorizontal,
+  ChevronDown,
 } from "lucide-react";
 
 interface PracticeSessionProps {
@@ -80,9 +79,9 @@ export function PracticeSession({
   const [bookmarkedKeys, setBookmarkedKeys] = useState<Set<string>>(new Set());
   const [showChat, setShowChat] = useState(false);
   const [sortBy, setSortBy] = useState<"default" | "difficulty" | "difficulty-desc" | "newest">("default");
-  const [excludedYears, setExcludedYears] = useState<Set<number>>(new Set());
   const [difficultyFilter, setDifficultyFilter] = useState<"all" | "easy" | "medium" | "hard">("all");
-  const [showSortHelp, setShowSortHelp] = useState(false);
+  const [showFilters, setShowFilters] = useState(false);
+  const [swipeEnabled, setSwipeEnabled] = useState(true);
   const gridRef = useRef<HTMLDivElement>(null);
   const activeBtnRef = useRef<HTMLButtonElement>(null);
   const timerSecondsRef = useRef(0);
@@ -187,8 +186,6 @@ export function PracticeSession({
     let result = questions;
     if (yearFilter !== null) {
       result = result.filter((q) => q.year === yearFilter);
-    } else if (excludedYears.size > 0) {
-      result = result.filter((q) => !excludedYears.has(q.year));
     }
     if (hideNullAnswers) result = result.filter((q) => q.answer !== null);
     if (difficultyFilter !== "all") result = result.filter((q) => q.difficulty === difficultyFilter);
@@ -206,7 +203,7 @@ export function PracticeSession({
     }
 
     return result;
-  }, [questions, yearFilter, excludedYears, hideNullAnswers, difficultyFilter, bookmarkFilter, bookmarkedKeys, getKeyForQuestion, sortBy]);
+  }, [questions, yearFilter, hideNullAnswers, difficultyFilter, bookmarkFilter, bookmarkedKeys, getKeyForQuestion, sortBy]);
 
   // In review mode, further filter to only wrong answers.
   // reviewIndexMap maps displayQuestions index -> filteredQuestions index
@@ -425,21 +422,34 @@ export function PracticeSession({
 
   if (!current) {
     return (
-      <div className="text-center py-12 text-muted-foreground">
-        No questions found for this filter.
+      <div className="text-center py-12 space-y-3">
+        <p className="text-muted-foreground">No questions match the current filters.</p>
+        <Button
+          variant="outline"
+          size="sm"
+          onClick={() => {
+            setYearFilter(null);
+            setDifficultyFilter("all");
+            setBookmarkFilter(false);
+            setHideNullAnswers(false);
+            setCurrentIndex(0);
+          }}
+        >
+          Clear all filters
+        </Button>
       </div>
     );
   }
 
   return (
     <div className="space-y-6">
-      {/* Header Row 1 */}
+      {/* Header */}
       <div className="flex items-center justify-between gap-2">
         <div className="flex items-center gap-2 min-w-0">
           {backHref && (
             <Link href={backHref}>
               <Button variant="ghost" size="icon-sm" className="shrink-0">
-                <ArrowLeft className="size-4" />
+                <ArrowLeft />
               </Button>
             </Link>
           )}
@@ -450,208 +460,88 @@ export function PracticeSession({
             </p>
           </div>
         </div>
-        <div className="flex items-center gap-3 shrink-0">
-          {/* Stat pills - desktop only */}
+        <Timer initialSeconds={initialTimerSeconds} onTick={handleTimerTick} variant="compact" />
+      </div>
+
+      {/* Progress bar with inline stats */}
+      <div className="space-y-1">
+        <div className="flex items-center justify-between text-xs text-muted-foreground">
+          <span>Q {currentIndex + 1} of {total}</span>
           {answered > 0 && (
-            <div className="hidden sm:flex items-center gap-2">
-              <span className="flex items-center gap-1 text-sm text-green-600 dark:text-green-500">
-                <Check className="size-3.5" />
-                {correctCount}
-              </span>
-              <span className="flex items-center gap-1 text-sm text-red-600 dark:text-red-500">
-                <X className="size-3.5" />
-                {incorrectCount}
-              </span>
-              {ungradedCount > 0 && (
-                <span className="text-sm text-amber-500">
-                  ? {ungradedCount}
-                </span>
-              )}
+            <div className="flex items-center gap-2">
+              <span className="text-green-600 dark:text-green-500">{correctCount} correct</span>
+              <span className="text-red-600 dark:text-red-500">{incorrectCount} wrong</span>
+              {ungradedCount > 0 && <span className="text-amber-500">{ungradedCount} ungraded</span>}
               {(correctCount + incorrectCount) > 0 && (
-                <span className="text-xs font-medium rounded-full bg-muted px-2 py-0.5 text-muted-foreground">
-                  {accuracy}%
-                </span>
+                <span className="font-medium text-foreground">{accuracy}%</span>
               )}
             </div>
           )}
-          <Timer initialSeconds={initialTimerSeconds} onTick={handleTimerTick} variant="compact" />
         </div>
+        {total > 0 && (
+          <div className="relative h-1.5 w-full overflow-hidden rounded-full bg-muted">
+            {correctCount > 0 && (
+              <div
+                className="absolute left-0 top-0 h-full bg-green-500 transition-all duration-300"
+                style={{ width: `${(correctCount / total) * 100}%` }}
+              />
+            )}
+            {incorrectCount > 0 && (
+              <div
+                className="absolute top-0 h-full bg-red-400 transition-all duration-300"
+                style={{
+                  left: `${(correctCount / total) * 100}%`,
+                  width: `${(incorrectCount / total) * 100}%`,
+                }}
+              />
+            )}
+            {ungradedCount > 0 && (
+              <div
+                className="absolute top-0 h-full bg-amber-400 transition-all duration-300"
+                style={{
+                  left: `${((correctCount + incorrectCount) / total) * 100}%`,
+                  width: `${(ungradedCount / total) * 100}%`,
+                }}
+              />
+            )}
+          </div>
+        )}
       </div>
 
-      {/* Header Row 2 - mobile stat pills */}
-      {answered > 0 && (
-        <div className="flex items-center gap-2 sm:hidden">
-          <span className="flex items-center gap-1 text-sm text-green-600 dark:text-green-500">
-            <Check className="size-3.5" />
-            {correctCount}
-          </span>
-          <span className="flex items-center gap-1 text-sm text-red-600 dark:text-red-500">
-            <X className="size-3.5" />
-            {incorrectCount}
-          </span>
-          {ungradedCount > 0 && (
-            <span className="text-sm text-amber-500">
-              ? {ungradedCount}
-            </span>
-          )}
-          {(correctCount + incorrectCount) > 0 && (
-            <span className="text-xs font-medium rounded-full bg-muted px-2 py-0.5 text-muted-foreground">
-              {accuracy}%
-            </span>
-          )}
-        </div>
-      )}
-
-      {/* Answer progress bar */}
-      {total > 0 && (
-        <div className="relative h-1.5 w-full overflow-hidden rounded-full bg-muted">
-          {correctCount > 0 && (
-            <div
-              className="absolute left-0 top-0 h-full bg-green-500 transition-all duration-300"
-              style={{ width: `${(correctCount / total) * 100}%` }}
-            />
-          )}
-          {incorrectCount > 0 && (
-            <div
-              className="absolute top-0 h-full bg-red-400 transition-all duration-300"
-              style={{
-                left: `${(correctCount / total) * 100}%`,
-                width: `${(incorrectCount / total) * 100}%`,
-              }}
-            />
-          )}
-          {ungradedCount > 0 && (
-            <div
-              className="absolute top-0 h-full bg-amber-400 transition-all duration-300"
-              style={{
-                left: `${((correctCount + incorrectCount) / total) * 100}%`,
-                width: `${(ungradedCount / total) * 100}%`,
-              }}
-            />
-          )}
-        </div>
-      )}
-
-      {/* Sort/filter help */}
-      {showSortHelp && (
-        <div className="rounded-lg border bg-muted/50 px-3 py-2 text-xs text-muted-foreground space-y-1">
-          <p><strong>Year:</strong> Click a year to select it. In &quot;All&quot; mode, click to exclude years (strikethrough). Double-click to select only that year.</p>
-          <p><strong>Sort:</strong> Reorder questions by default order, newest year first, or difficulty level.</p>
-          <p><strong>Difficulty:</strong> Filter to only show Easy, Medium, or Hard questions.</p>
-        </div>
-      )}
-
-      {/* Year filter */}
+      {/* Year filter — simple click-to-select */}
       <div className="flex flex-wrap items-center gap-1.5">
-        <Tooltip>
-          <TooltipTrigger
-            render={
-              <button
-                onClick={() => setShowSortHelp(!showSortHelp)}
-                className="rounded-full p-0.5 text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
-                aria-label="Sorting & filtering help"
-              />
-            }
-          >
-            <Info className="size-3.5" />
-          </TooltipTrigger>
-          <TooltipContent side="right">Filter &amp; sort help</TooltipContent>
-        </Tooltip>
         <span className="text-xs text-muted-foreground mr-1">Year:</span>
         <Button
           size="xs"
-          variant={yearFilter === null && excludedYears.size === 0 ? "default" : "outline"}
+          variant={yearFilter === null ? "default" : "outline"}
           onClick={() => {
             setYearFilter(null);
-            setExcludedYears(new Set());
             setCurrentIndex(0);
           }}
           className="text-xs"
         >
           All
         </Button>
-        {years.map((y) => {
-          const isSelected = yearFilter === y;
-          const isExcluded = yearFilter === null && excludedYears.has(y);
-          return (
-            <Button
-              key={y}
-              size="xs"
-              variant={isSelected ? "default" : isExcluded ? "secondary" : "outline"}
-              onClick={() => {
-                if (yearFilter !== null) {
-                  // In single-year mode, clicking selects that year
-                  setYearFilter(y === yearFilter ? null : y);
-                } else {
-                  // In "All" mode, clicking toggles year exclusion
-                  setExcludedYears((prev) => {
-                    const next = new Set(prev);
-                    if (next.has(y)) next.delete(y);
-                    else next.add(y);
-                    return next;
-                  });
-                }
-                setCurrentIndex(0);
-              }}
-              onDoubleClick={() => {
-                // Double-click always selects single year
-                setYearFilter(y);
-                setExcludedYears(new Set());
-                setCurrentIndex(0);
-              }}
-              className={`text-xs ${isExcluded ? "line-through opacity-50" : ""}`}
-            >
-              {y}
-            </Button>
-          );
-        })}
-        {excludedYears.size > 0 && (
-          <span className="text-xs text-muted-foreground">
-            ({excludedYears.size} excluded)
-          </span>
-        )}
+        {years.map((y) => (
+          <Button
+            key={y}
+            size="xs"
+            variant={yearFilter === y ? "default" : "outline"}
+            onClick={() => {
+              setYearFilter(yearFilter === y ? null : y);
+              setCurrentIndex(0);
+            }}
+            className="text-xs"
+          >
+            {y}
+          </Button>
+        ))}
       </div>
 
-      {/* Sort & Difficulty filter */}
-      <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
-        <div className="flex items-center gap-1.5">
-          <span className="text-xs text-muted-foreground shrink-0">Sort:</span>
-          <ToggleGroup
-            variant="outline"
-            size="sm"
-            value={[sortBy]}
-            onValueChange={(v) => {
-              if (v.length > 0) { setSortBy(v[0] as typeof sortBy); setCurrentIndex(0); }
-            }}
-          >
-            <ToggleGroupItem value="default">Default</ToggleGroupItem>
-            <ToggleGroupItem value="newest">Newest</ToggleGroupItem>
-            <ToggleGroupItem value="difficulty">Easy → Hard</ToggleGroupItem>
-            <ToggleGroupItem value="difficulty-desc">Hard → Easy</ToggleGroupItem>
-          </ToggleGroup>
-        </div>
-        <div className="flex items-center gap-1.5">
-          <span className="text-xs text-muted-foreground shrink-0">Difficulty:</span>
-          <ToggleGroup
-            variant="outline"
-            size="sm"
-            value={[difficultyFilter]}
-            onValueChange={(v) => {
-              if (v.length > 0) { setDifficultyFilter(v[0] as typeof difficultyFilter); setCurrentIndex(0); }
-            }}
-          >
-            <ToggleGroupItem value="all">All</ToggleGroupItem>
-            <ToggleGroupItem value="easy" className="aria-pressed:bg-green-600 aria-pressed:text-white aria-pressed:border-green-600">Easy</ToggleGroupItem>
-            <ToggleGroupItem value="medium" className="aria-pressed:bg-amber-600 aria-pressed:text-white aria-pressed:border-amber-600">Medium</ToggleGroupItem>
-            <ToggleGroupItem value="hard" className="aria-pressed:bg-red-600 aria-pressed:text-white aria-pressed:border-red-600">Hard</ToggleGroupItem>
-          </ToggleGroup>
-        </div>
-      </div>
-
-      {/* Controls */}
+      {/* Quick actions + filters toggle */}
       <div className="flex flex-wrap items-center gap-2">
         <Button size="sm" variant="outline" onClick={handleShuffle}>
-          <Shuffle className="size-4" />
+          <Shuffle />
           {shuffled ? "Re-shuffle" : "Shuffle"}
         </Button>
         <Button
@@ -659,40 +549,12 @@ export function PracticeSession({
           variant="outline"
           onClick={() => setShowAllAnswers(!showAllAnswers)}
         >
-          {showAllAnswers ? <EyeOff className="size-4" /> : <Eye className="size-4" />}
-          {showAllAnswers ? "Hide Answers" : "Show Answer"}
+          {showAllAnswers ? <EyeOff /> : <Eye />}
+          {showAllAnswers ? "Hide Answers" : "Show Answers"}
         </Button>
         <Button size="sm" variant="outline" onClick={handleReset}>
+          <RotateCcw />
           Reset
-        </Button>
-        {nullAnswerCount > 0 && (
-          <Button
-            size="sm"
-            variant="outline"
-            onClick={() => {
-              setHideNullAnswers(!hideNullAnswers);
-              setCurrentIndex(0);
-            }}
-          >
-            <AlertTriangle className="size-4" />
-            {hideNullAnswers ? "Show All" : "Hide Ungraded"}
-          </Button>
-        )}
-        {hideNullAnswers && nullAnswerCount > 0 && (
-          <span className="text-xs text-amber-600">
-            ({nullAnswerCount} ungraded hidden)
-          </span>
-        )}
-        <Button
-          size="sm"
-          variant={bookmarkFilter ? "default" : "outline"}
-          onClick={() => {
-            setBookmarkFilter(!bookmarkFilter);
-            setCurrentIndex(0);
-          }}
-        >
-          <Bookmark className={`size-4 ${bookmarkFilter ? "fill-current" : ""}`} />
-          Bookmarked ({bookmarkedCount})
         </Button>
         {incorrectCount > 0 && (
           <Button
@@ -700,10 +562,103 @@ export function PracticeSession({
             variant={reviewMode ? "destructive" : "outline"}
             onClick={handleToggleReviewMode}
           >
-            <RotateCcw className="size-4" />
             {reviewMode ? "Exit Review" : `Review Mistakes (${incorrectCount})`}
           </Button>
         )}
+        <Button
+          size="sm"
+          variant={showFilters ? "secondary" : "outline"}
+          onClick={() => setShowFilters(!showFilters)}
+          className="ml-auto"
+        >
+          <SlidersHorizontal />
+          Filters
+          <ChevronDown className={`transition-transform duration-200 ${showFilters ? "rotate-180" : ""}`} />
+        </Button>
+      </div>
+
+      {/* Collapsible filters panel */}
+      <div
+        className="grid transition-[grid-template-rows] duration-200 ease-out"
+        style={{ gridTemplateRows: showFilters ? "1fr" : "0fr" }}
+      >
+        <div className="overflow-hidden">
+          <div className="rounded-lg border bg-muted/30 p-3 space-y-3">
+          <div className="flex flex-wrap items-center gap-1.5">
+            <span className="text-xs text-muted-foreground shrink-0">Sort:</span>
+            <ToggleGroup
+              variant="outline"
+              size="sm"
+              value={[sortBy]}
+              onValueChange={(v) => {
+                if (v.length > 0) { setSortBy(v[0] as typeof sortBy); setCurrentIndex(0); }
+              }}
+            >
+              <ToggleGroupItem value="default">Default</ToggleGroupItem>
+              <ToggleGroupItem value="newest">Newest</ToggleGroupItem>
+              <ToggleGroupItem value="difficulty">Easy first</ToggleGroupItem>
+              <ToggleGroupItem value="difficulty-desc">Hard first</ToggleGroupItem>
+            </ToggleGroup>
+          </div>
+          <div className="flex flex-wrap items-center gap-1.5">
+            <span className="text-xs text-muted-foreground shrink-0">Difficulty:</span>
+            <ToggleGroup
+              variant="outline"
+              size="sm"
+              value={[difficultyFilter]}
+              onValueChange={(v) => {
+                if (v.length > 0) { setDifficultyFilter(v[0] as typeof difficultyFilter); setCurrentIndex(0); }
+              }}
+            >
+              <ToggleGroupItem value="all">All</ToggleGroupItem>
+              <ToggleGroupItem value="easy" className="aria-pressed:bg-green-600 aria-pressed:text-white aria-pressed:border-green-600">Easy</ToggleGroupItem>
+              <ToggleGroupItem value="medium" className="aria-pressed:bg-amber-600 aria-pressed:text-white aria-pressed:border-amber-600">Medium</ToggleGroupItem>
+              <ToggleGroupItem value="hard" className="aria-pressed:bg-red-600 aria-pressed:text-white aria-pressed:border-red-600">Hard</ToggleGroupItem>
+            </ToggleGroup>
+          </div>
+          <div className="flex flex-wrap items-center gap-2">
+            <Button
+              size="sm"
+              variant={bookmarkFilter ? "default" : "outline"}
+              onClick={() => {
+                setBookmarkFilter(!bookmarkFilter);
+                setCurrentIndex(0);
+              }}
+            >
+              <Bookmark className={bookmarkFilter ? "fill-current" : ""} />
+              Bookmarked ({bookmarkedCount})
+            </Button>
+            {nullAnswerCount > 0 && (
+              <Button
+                size="sm"
+                variant="outline"
+                onClick={() => {
+                  setHideNullAnswers(!hideNullAnswers);
+                  setCurrentIndex(0);
+                }}
+              >
+                <AlertTriangle />
+                {hideNullAnswers ? "Show All" : "Hide Ungraded"}
+              </Button>
+            )}
+            {hideNullAnswers && nullAnswerCount > 0 && (
+              <span className="text-xs text-amber-600">
+                ({nullAnswerCount} ungraded hidden)
+              </span>
+            )}
+            <Toggle
+              variant="outline"
+              size="sm"
+              pressed={swipeEnabled}
+              onPressedChange={setSwipeEnabled}
+              className="sm:hidden"
+              aria-label="Toggle swipe navigation"
+            >
+              {swipeEnabled ? "Swipe On" : "Swipe Off"}
+            </Toggle>
+          </div>
+        </div>
+        </div>
       </div>
 
       {/* Review mode banner */}
@@ -724,7 +679,7 @@ export function PracticeSession({
       )}
 
       {/* Question */}
-      <div {...swipeHandlers}>
+      <div {...(swipeEnabled ? swipeHandlers : {})}>
         <QuestionCard
           key={`${filteredIndex}-${current.year}-${current.number}`}
           question={current}
@@ -732,6 +687,7 @@ export function PracticeSession({
           total={total}
           showAnswer={showAllAnswers || !!answeredMap[filteredIndex]}
           onAnswer={handleAnswer}
+          savedSelection={answeredMap[filteredIndex]?.selected ?? null}
           externalSelection={keyboardSelection}
           bookmarkKey={getKeyForQuestion(current)}
           isBookmarked={bookmarkedKeys.has(getKeyForQuestion(current))}
@@ -763,35 +719,41 @@ export function PracticeSession({
         </div>
 
         <div className="flex flex-col items-center gap-1 px-2">
-          {total > 20 && (
-            <div className="flex items-center gap-2">
-              <span className="text-sm text-muted-foreground">
-                Question {currentIndex + 1} of {total}
-              </span>
-              <button
-                onClick={() => setShowGrid((v) => !v)}
-                className="inline-flex items-center justify-center size-9 min-w-[44px] min-h-[44px] rounded-md text-muted-foreground hover:bg-muted/80 transition-colors"
-                aria-label={showGrid ? "Hide question grid" : "Show question grid"}
-              >
-                <Grid3X3 className="size-4" />
-              </button>
-            </div>
+          {total > 20 && !showGrid && (
+            <button
+              onClick={() => setShowGrid(true)}
+              className="inline-flex items-center justify-center gap-1.5 h-8 px-2 rounded-md text-xs text-muted-foreground hover:bg-muted/80 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              aria-label="Show question grid"
+            >
+              <Grid3X3 className="size-3.5" />
+              Grid
+            </button>
           )}
           {(total <= 20 || showGrid) && (
-            <div
-              ref={gridRef}
-              className="flex flex-wrap justify-center gap-1 overflow-x-hidden overflow-y-auto max-h-40 sm:max-h-48 w-full"
-            >
-              {displayQuestions.map((_, i) => (
+            <div className="space-y-1">
+              <div
+                ref={gridRef}
+                className="flex flex-wrap justify-center gap-1 overflow-x-hidden overflow-y-auto max-h-40 sm:max-h-48 w-full"
+              >
+                {displayQuestions.map((_, i) => (
+                  <button
+                    key={i}
+                    ref={i === currentIndex ? activeBtnRef : undefined}
+                    onClick={() => goTo(i)}
+                    className={`size-8 shrink-0 rounded-md text-xs font-medium transition-colors ${getGridButtonStyle(i)}`}
+                  >
+                    {i + 1}
+                  </button>
+                ))}
+              </div>
+              {total > 20 && showGrid && (
                 <button
-                  key={i}
-                  ref={i === currentIndex ? activeBtnRef : undefined}
-                  onClick={() => goTo(i)}
-                  className={`size-8 shrink-0 rounded-md text-xs font-medium transition-colors ${getGridButtonStyle(i)}`}
+                  onClick={() => setShowGrid(false)}
+                  className="text-xs text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  {i + 1}
+                  Hide grid
                 </button>
-              ))}
+              )}
             </div>
           )}
         </div>
@@ -823,7 +785,7 @@ export function PracticeSession({
           <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">D</kbd> to
           select answer
         </span>
-        <span className="sm:hidden">Swipe left/right to navigate</span>
+        <span className="sm:hidden">{swipeEnabled ? "Swipe left/right to navigate" : "Swipe navigation disabled"}</span>
       </p>
 
       <KeyboardNav

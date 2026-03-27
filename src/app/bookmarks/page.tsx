@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { Skeleton } from "@/components/ui/skeleton";
 import { Bookmark, Trash2 } from "lucide-react";
 import { getAllBookmarks, clearAllBookmarks } from "@/lib/bookmarks";
 import type { Question } from "@/lib/types";
@@ -159,7 +159,23 @@ export default function BookmarksPage() {
 
       <div className="mx-auto max-w-4xl px-4 py-6">
         {loading ? (
-          <p className="text-center text-muted-foreground py-12">Loading bookmarks...</p>
+          <div className="space-y-6">
+            {[1, 2].map((i) => (
+              <div key={i} className="space-y-3">
+                <Skeleton className="h-5 w-24" />
+                <div className="rounded-lg border p-4 space-y-3">
+                  <div className="flex items-center justify-between">
+                    <Skeleton className="h-4 w-40" />
+                    <Skeleton className="h-7 w-16 rounded-md" />
+                  </div>
+                  <div className="space-y-2">
+                    <Skeleton className="h-3.5 w-28" />
+                    <Skeleton className="h-3.5 w-32" />
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         ) : subjectKeys.length === 0 ? (
           <div className="text-center py-12">
             <Bookmark className="size-10 mx-auto text-muted-foreground/40 mb-3" />
@@ -204,9 +220,6 @@ export default function BookmarksPage() {
                                   <span>
                                     Q{bm.number} ({bm.year})
                                   </span>
-                                  <Badge variant="outline" className="text-[10px] ml-auto">
-                                    {bm.year}
-                                  </Badge>
                                 </div>
                               ))}
                             </div>
