@@ -569,6 +569,16 @@ export function PracticeSession({
             {reviewMode ? "Exit Review" : `Review Mistakes (${incorrectCount})`}
           </Button>
         )}
+        <Toggle
+          variant="outline"
+          size="sm"
+          pressed={swipeEnabled}
+          onPressedChange={setSwipeEnabled}
+          className="sm:hidden"
+          aria-label="Toggle swipe navigation"
+        >
+          {swipeEnabled ? "Swipe On" : "Swipe Off"}
+        </Toggle>
         <Button
           size="sm"
           variant={showFilters ? "secondary" : "outline"}
@@ -650,16 +660,6 @@ export function PracticeSession({
                 ({nullAnswerCount} ungraded hidden)
               </span>
             )}
-            <Toggle
-              variant="outline"
-              size="sm"
-              pressed={swipeEnabled}
-              onPressedChange={setSwipeEnabled}
-              className="sm:hidden"
-              aria-label="Toggle swipe navigation"
-            >
-              {swipeEnabled ? "Swipe On" : "Swipe Off"}
-            </Toggle>
           </div>
         </div>
         </div>
