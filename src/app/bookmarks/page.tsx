@@ -5,12 +5,19 @@ import { useAuth } from "@clerk/nextjs";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Card, CardContent } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Latex } from "@/components/latex";
 import { Bookmark, Trash2, X, ChevronRight } from "lucide-react";
 import { getAllBookmarks, clearAllBookmarks, toggleBookmark } from "@/lib/bookmarks";
 import { cn } from "@/lib/utils";
 import type { Question } from "@/lib/types";
+
+const subjectConfig: Record<string, { color: string }> = {
+  physics: { color: "text-blue-600 dark:text-blue-400" },
+  chemistry: { color: "text-green-600 dark:text-green-400" },
+  maths: { color: "text-purple-600 dark:text-purple-400" },
+};
 
 interface ParsedBookmark {
   subject: string;
@@ -259,8 +266,7 @@ export default function BookmarksPage() {
         <div className="mx-auto max-w-4xl px-4 py-6">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold flex items-center gap-2">
-                <Bookmark className="size-5 text-yellow-500 fill-yellow-500" />
+              <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
                 Bookmarked Questions
               </h1>
               <p className="mt-1 text-sm text-muted-foreground">
@@ -289,40 +295,54 @@ export default function BookmarksPage() {
             ))}
           </div>
         ) : subjectKeys.length === 0 ? (
-          <div className="text-center py-12">
-            <Bookmark className="size-10 mx-auto text-muted-foreground/40 mb-3" />
-            <p className="text-muted-foreground">No bookmarked questions yet.</p>
-            <p className="text-sm text-muted-foreground mt-1">
-              Tap the bookmark icon on any question to save it here.
-            </p>
-          </div>
+          <Card>
+            <CardContent className="py-16 text-center">
+              <Bookmark className="mx-auto mb-4 size-12 text-muted-foreground/40" />
+              <h2 className="text-xl font-semibold">No Bookmarked Questions</h2>
+              <p className="mt-2 text-muted-foreground">
+                Tap the bookmark icon on any question to save it here.
+              </p>
+              <Link href="/">
+                <Button className="mt-6">Start Practicing</Button>
+              </Link>
+            </CardContent>
+          </Card>
         ) : (
           <div className="space-y-8">
             {subjectKeys.map((subject) => {
               const chapters = grouped[subject];
               const chapterKeys = Object.keys(chapters).sort();
+              const config = subjectConfig[subject.toLowerCase()];
+              const subjectTotal = chapterKeys.reduce((sum, ch) => sum + chapters[ch].length, 0);
               return (
                 <div key={subject}>
-                  <h2 className="text-lg font-semibold mb-3">{subject}</h2>
+                  <div className="flex items-baseline gap-2 mb-3">
+                    <h2 className={cn("text-lg font-semibold", config?.color)}>
+                      {subject}
+                    </h2>
+                    <span className="text-sm text-muted-foreground">
+                      {subjectTotal} {subjectTotal === 1 ? "question" : "questions"}
+                    </span>
+                  </div>
                   <div className="space-y-4">
                     {chapterKeys.map((chapter) => {
                       const bookmarks = chapters[chapter];
                       return (
                         <div key={chapter} className="space-y-2">
                           <h3 className="text-sm font-medium text-muted-foreground">
-                            {chapter}
+                            {chapter} &middot; {bookmarks.length}{" "}
+                            {bookmarks.length === 1 ? "question" : "questions"}
                           </h3>
                           <div className="space-y-2">
                             {bookmarks.map((bm) => (
                               <div
                                 key={`${bm.year}-${bm.number}`}
-                                className="group flex items-start gap-2 rounded-lg border bg-card transition-colors hover:bg-muted/50"
+                                className="group flex items-start gap-2 rounded-lg border transition-colors hover:bg-muted/50"
                               >
                                 <Link
                                   href={`/${bm.subject}/${bm.slug}?q=${bm.year}-${bm.number}`}
                                   className="flex-1 flex items-start gap-3 p-3 min-w-0"
                                 >
-                                  <Bookmark className="size-4 text-yellow-500 fill-yellow-500 shrink-0 mt-0.5" />
                                   <div className="flex-1 min-w-0">
                                     <div className="flex items-center gap-1.5 mb-1">
                                       <Badge variant="outline" className="text-[10px] px-1.5 py-0">
