@@ -508,30 +508,34 @@ export function PracticeSession({
         )}
       </div>
 
-      {/* Year filter — simple click-to-select */}
-      <div className="flex flex-wrap items-center gap-1.5">
-        <span className="text-xs text-muted-foreground mr-1">Year:</span>
+      {/* Year filter */}
+      <div
+        role="group"
+        aria-label="Filter by year"
+        className="flex flex-wrap items-center gap-1.5"
+      >
+        <span className="text-xs text-muted-foreground mr-1" aria-hidden="true">Year:</span>
         <Button
-          size="xs"
+          size="sm"
           variant={yearFilter === null ? "default" : "outline"}
+          aria-pressed={yearFilter === null}
           onClick={() => {
             setYearFilter(null);
             setCurrentIndex(0);
           }}
-          className="text-xs"
         >
           All
         </Button>
         {years.map((y) => (
           <Button
             key={y}
-            size="xs"
+            size="sm"
             variant={yearFilter === y ? "default" : "outline"}
+            aria-pressed={yearFilter === y}
             onClick={() => {
               setYearFilter(yearFilter === y ? null : y);
               setCurrentIndex(0);
             }}
-            className="text-xs"
           >
             {y}
           </Button>
