@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator";
 import type { SubjectIndex, Subject } from "@/lib/types";
 import {
   Atom,
@@ -71,20 +70,20 @@ export default function Home() {
     <main className="min-h-screen">
       {/* Hero */}
       <div className="border-b bg-gradient-to-b from-muted/40 to-background">
-        <div className="mx-auto max-w-4xl px-4 py-10 text-center sm:py-14">
+        <div className="mx-auto max-w-4xl px-4 py-12 text-center sm:py-16">
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
             GUJCET Past Year Questions
           </h1>
           <p className="mt-3 text-muted-foreground">
             {totalQuestions.toLocaleString()} questions &middot; {totalChapters} chapters &middot; {minYear}&ndash;{maxYear}
           </p>
-          <p className="mt-1 text-sm text-muted-foreground">
+          <p className="mt-2 text-sm text-muted-foreground">
             Physics, Chemistry &amp; Maths — all in one place
           </p>
         </div>
       </div>
 
-      <div className="mx-auto max-w-4xl px-4 py-8 space-y-8">
+      <div className="mx-auto max-w-4xl px-4 py-10">
         {/* Subject cards */}
         <div className="grid gap-4 sm:grid-cols-3">
           {indexes.map(({ subject, data }) => {
@@ -133,10 +132,8 @@ export default function Home() {
           })}
         </div>
 
-        <Separator />
-
         {/* Mock Test CTA */}
-        <Link href="/mock-test">
+        <Link href="/mock-test" className="mt-10 block">
           <div className="relative overflow-hidden rounded-xl border bg-gradient-to-br from-primary/10 via-primary/5 to-background p-6 transition-shadow hover:shadow-lg cursor-pointer">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4">
@@ -162,7 +159,7 @@ export default function Home() {
         </Link>
 
         {/* Secondary links */}
-        <div className="grid gap-3 sm:grid-cols-2">
+        <div className="mt-6 grid gap-3 sm:grid-cols-2">
           <Link href="/bookmarks">
             <Card className="transition-shadow hover:shadow-md cursor-pointer">
               <CardContent className="flex items-center gap-3 py-4 px-5">

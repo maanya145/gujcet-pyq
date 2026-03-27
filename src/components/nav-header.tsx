@@ -59,24 +59,26 @@ export function NavHeader() {
         "sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 transition-transform duration-300",
         hidden && "-translate-y-full"
       )}>
-        <div className="mx-auto flex h-14 max-w-4xl items-center justify-between px-4">
-          <Link
-            href="/"
-            className="flex items-center shrink-0 rounded-sm transition-colors hover:text-foreground/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-          >
-            <span className="text-[15px] font-bold leading-none tracking-wide">GUJCET</span>
-            <span
-              className="mx-1.5 flex h-3.5 w-[3px] flex-col overflow-hidden rounded-full"
-              aria-hidden="true"
+        <div className="mx-auto flex h-14 max-w-4xl items-center px-4">
+          <div className="flex flex-1 items-center">
+            <Link
+              href="/"
+              className="flex items-center shrink-0 rounded-sm transition-colors hover:text-foreground/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
             >
-              <span className="flex-1 bg-blue-500" />
-              <span className="flex-1 bg-green-500" />
-              <span className="flex-1 bg-purple-500" />
-            </span>
-            <span className="text-xs font-medium leading-none text-muted-foreground">
-              PYQ
-            </span>
-          </Link>
+              <span className="text-[15px] font-bold leading-none tracking-wide">GUJCET</span>
+              <span
+                className="mx-1.5 flex h-3.5 w-[3px] flex-col overflow-hidden rounded-full"
+                aria-hidden="true"
+              >
+                <span className="flex-1 bg-blue-500" />
+                <span className="flex-1 bg-green-500" />
+                <span className="flex-1 bg-purple-500" />
+              </span>
+              <span className="text-xs font-medium leading-none text-muted-foreground">
+                PYQ
+              </span>
+            </Link>
+          </div>
 
           {/* Desktop nav */}
           <nav className="hidden sm:flex items-center gap-1" aria-label="Main navigation">
@@ -99,7 +101,9 @@ export function NavHeader() {
             })}
           </nav>
 
-          <ThemeToggle />
+          <div className="flex flex-1 items-center justify-end">
+            <ThemeToggle />
+          </div>
         </div>
       </header>
 
