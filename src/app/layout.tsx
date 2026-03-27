@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import "katex/dist/katex.min.css";
@@ -7,6 +8,7 @@ import { NavHeader } from "@/components/nav-header";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Analytics } from "@vercel/analytics/next";
 import { ClerkProvider } from "@clerk/nextjs";
+import { PostHogProvider, PostHogPageView } from "@posthog/next";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -32,12 +34,17 @@ export default function RootLayout({
           />
         </head>
         <body className={cn("min-h-screen bg-background antialiased pb-14 sm:pb-0", inter.className)}>
-          <NavHeader />
-          <TooltipProvider>
-            <div id="main-content">
-              {children}
-            </div>
-          </TooltipProvider>
+          <PostHogProvider>
+            <Suspense fallback={null}>
+              <PostHogPageView />
+            </Suspense>
+            <NavHeader />
+            <TooltipProvider>
+              <div id="main-content">
+                {children}
+              </div>
+            </TooltipProvider>
+          </PostHogProvider>
           <Analytics />
         </body>
       </html>
