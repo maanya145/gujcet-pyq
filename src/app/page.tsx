@@ -21,6 +21,7 @@ import {
   BookOpen,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { AnimatedNumber } from "@/components/animated-number";
 import fs from "fs";
 import path from "path";
 
@@ -69,18 +70,16 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero */}
-      <div className="border-b bg-gradient-to-b from-muted/40 to-background">
-        <div className="mx-auto max-w-4xl px-4 py-12 text-center sm:py-16">
-          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
+      <div>
+        <div className="mx-auto max-w-4xl px-4 py-14 text-center sm:py-20">
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
             GUJCET Past Year Questions
           </h1>
-          <p className="mt-3 text-muted-foreground">
-            {totalQuestions.toLocaleString()} questions &middot; {totalChapters} chapters &middot; {minYear}&ndash;{maxYear}
-          </p>
-          <p className="mt-2 text-sm text-muted-foreground">
-            Physics, Chemistry &amp; Maths — all in one place
+          <p className="mt-4 text-muted-foreground">
+            <span className="font-semibold text-foreground"><AnimatedNumber value={totalQuestions} /></span> questions &middot; <span className="font-semibold text-foreground"><AnimatedNumber value={totalChapters} delay={150} /></span> chapters &middot; {minYear}&ndash;{maxYear}
           </p>
         </div>
+        <div className="h-0.5 bg-gradient-to-r from-blue-500 via-green-500 to-purple-500" aria-hidden="true" />
       </div>
 
       <div className="mx-auto max-w-4xl px-4 py-10">
@@ -89,16 +88,13 @@ export default function Home() {
           {indexes.map(({ subject, data }) => {
             const config = subjectConfig[subject];
             const Icon = config.icon;
-            const allYears = data.chapters.flatMap((ch) => ch.years);
-            const minYear = Math.min(...allYears);
-            const maxYear = Math.max(...allYears);
 
             return (
               <Card
                 key={subject}
                 className={cn("flex flex-col border-l-4", config.borderColor)}
               >
-                <CardHeader className="pb-2">
+                <CardHeader className="flex-1">
                   <div className="flex items-center gap-2">
                     <div className={cn("flex size-8 items-center justify-center rounded-md", config.bgColor)}>
                       <Icon className={cn("size-4", config.color)} />
@@ -109,11 +105,6 @@ export default function Home() {
                     {data.total_chapters} chapters &middot; {data.total_questions} questions
                   </CardDescription>
                 </CardHeader>
-                <CardContent className="pb-3 flex-1">
-                  <p className="text-xs text-muted-foreground">
-                    Years {minYear}&ndash;{maxYear}
-                  </p>
-                </CardContent>
                 <CardFooter className="gap-2 pt-0">
                   <Link href={`/${subject}`} className="flex-1">
                     <Button variant="outline" size="sm" className="w-full">
