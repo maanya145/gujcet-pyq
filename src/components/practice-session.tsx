@@ -613,17 +613,8 @@ export function PracticeSession({
             </Button>
           )}
         </div>
-        {/* Swipe toggle + Filters — always pinned to opposite ends */}
+        {/* Filters + Swipe toggle — always pinned to opposite ends */}
         <div className="flex items-center justify-between">
-          <label className="flex items-center gap-2 text-sm cursor-pointer select-none min-h-[44px] sm:min-h-0">
-            <Switch
-              size="sm"
-              checked={swipeEnabled}
-              onCheckedChange={setSwipeEnabled}
-              aria-label="Toggle swipe navigation"
-            />
-            Swipe
-          </label>
           <Button
             size="sm"
             variant={showFilters ? "secondary" : "outline"}
@@ -636,6 +627,15 @@ export function PracticeSession({
             Filters
             <ChevronDown className={`transition-transform duration-200 ${showFilters ? "rotate-180" : ""}`} />
           </Button>
+          <label className="flex items-center gap-2 text-sm cursor-pointer select-none min-h-[44px] sm:min-h-0">
+            Swipe
+            <Switch
+              size="sm"
+              checked={swipeEnabled}
+              onCheckedChange={setSwipeEnabled}
+              aria-label="Toggle swipe navigation"
+            />
+          </label>
         </div>
       </div>
 
