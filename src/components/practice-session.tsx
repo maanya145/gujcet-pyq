@@ -81,6 +81,7 @@ export function PracticeSession({
   const [sortBy, setSortBy] = useState<"default" | "difficulty" | "difficulty-desc" | "newest">("default");
   const [difficultyFilter, setDifficultyFilter] = useState<"all" | "easy" | "medium" | "hard">("all");
   const [showFilters, setShowFilters] = useState(false);
+  const [showYearFilter, setShowYearFilter] = useState(true);
   const [swipeEnabled, setSwipeEnabled] = useState(true);
   const gridRef = useRef<HTMLDivElement>(null);
   const activeBtnRef = useRef<HTMLButtonElement>(null);
@@ -509,39 +510,57 @@ export function PracticeSession({
       </div>
 
       {/* Year filter */}
-      <div
-        role="group"
-        aria-label="Filter by year"
-        className="-mx-4 flex items-center gap-1.5 overflow-x-auto px-4 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0"
-      >
-        <span className="shrink-0 text-xs text-muted-foreground mr-1" aria-hidden="true">Year:</span>
-        <Button
-          size="sm"
-          variant={yearFilter === null ? "default" : "outline"}
-          aria-pressed={yearFilter === null}
-          className="shrink-0"
-          onClick={() => {
-            setYearFilter(null);
-            setCurrentIndex(0);
-          }}
+      <div>
+        <button
+          onClick={() => setShowYearFilter((v) => !v)}
+          className="flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground transition-colors"
+          aria-expanded={showYearFilter}
+          aria-controls="year-filter-panel"
         >
-          All
-        </Button>
-        {years.map((y) => (
-          <Button
-            key={y}
-            size="sm"
-            variant={yearFilter === y ? "default" : "outline"}
-            aria-pressed={yearFilter === y}
-            className="shrink-0"
-            onClick={() => {
-              setYearFilter(yearFilter === y ? null : y);
-              setCurrentIndex(0);
-            }}
-          >
-            {y}
-          </Button>
-        ))}
+          <span>Year{yearFilter !== null ? `: ${yearFilter}` : ""}</span>
+          <ChevronDown className={`size-3 transition-transform duration-200 ${showYearFilter ? "rotate-180" : ""}`} />
+        </button>
+        <div
+          id="year-filter-panel"
+          className="grid transition-[grid-template-rows] duration-200 ease-out"
+          style={{ gridTemplateRows: showYearFilter ? "1fr" : "0fr" }}
+        >
+          <div className="overflow-hidden">
+            <div
+              role="group"
+              aria-label="Filter by year"
+              className="-mx-4 flex items-center gap-1.5 overflow-x-auto px-4 pt-2 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0"
+            >
+              <Button
+                size="sm"
+                variant={yearFilter === null ? "default" : "outline"}
+                aria-pressed={yearFilter === null}
+                className="shrink-0"
+                onClick={() => {
+                  setYearFilter(null);
+                  setCurrentIndex(0);
+                }}
+              >
+                All
+              </Button>
+              {years.map((y) => (
+                <Button
+                  key={y}
+                  size="sm"
+                  variant={yearFilter === y ? "default" : "outline"}
+                  aria-pressed={yearFilter === y}
+                  className="shrink-0"
+                  onClick={() => {
+                    setYearFilter(yearFilter === y ? null : y);
+                    setCurrentIndex(0);
+                  }}
+                >
+                  {y}
+                </Button>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Quick actions + filters toggle */}
