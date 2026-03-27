@@ -34,15 +34,16 @@ export function generateStaticParams() {
   return params;
 }
 
-export default function ChapterPage({
+export default async function ChapterPage({
   params,
 }: {
-  params: { subject: string; chapter: string };
+  params: Promise<{ subject: string; chapter: string }>;
 }) {
-  const subject = params.subject as Subject;
+  const { subject: rawSubject, chapter } = await params;
+  const subject = rawSubject as Subject;
   if (!validSubjects.includes(subject)) return notFound();
 
-  const data = loadChapter(subject, params.chapter);
+  const data = loadChapter(subject, chapter);
   if (!data) return notFound();
 
   return (
@@ -51,7 +52,7 @@ export default function ChapterPage({
         <PracticeSession
           questions={data.questions}
           chapterName={data.chapter}
-          chapterSlug={params.chapter}
+          chapterSlug={chapter}
           subjectName={data.subject}
           subject={subject}
           backHref={`/${subject}`}

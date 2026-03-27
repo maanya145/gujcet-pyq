@@ -40,12 +40,13 @@ export function generateStaticParams() {
   return validSubjects.map((subject) => ({ subject }));
 }
 
-export default function SubjectPage({
+export default async function SubjectPage({
   params,
 }: {
-  params: { subject: string };
+  params: Promise<{ subject: string }>;
 }) {
-  const subject = params.subject as Subject;
+  const { subject: rawSubject } = await params;
+  const subject = rawSubject as Subject;
   if (!validSubjects.includes(subject)) return notFound();
 
   const data = loadIndex(subject);

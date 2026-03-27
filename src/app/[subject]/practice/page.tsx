@@ -51,12 +51,13 @@ export function generateStaticParams() {
   return validSubjects.map((subject) => ({ subject }));
 }
 
-export default function SubjectPracticePage({
+export default async function SubjectPracticePage({
   params,
 }: {
-  params: { subject: string };
+  params: Promise<{ subject: string }>;
 }) {
-  const subject = params.subject as Subject;
+  const { subject: rawSubject } = await params;
+  const subject = rawSubject as Subject;
   if (!validSubjects.includes(subject)) return notFound();
 
   const questions = loadAllQuestions(subject);
