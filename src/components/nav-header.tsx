@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ThemeToggle } from "./theme-toggle";
@@ -24,6 +25,19 @@ function isActive(pathname: string, href: string, exact?: boolean) {
 
 export function NavHeader() {
   const pathname = usePathname();
+  const [hidden, setHidden] = useState(false);
+  const lastY = useRef(0);
+
+  useEffect(() => {
+    const onScroll = () => {
+      const y = window.scrollY;
+      if (Math.abs(y - lastY.current) < 10) return;
+      setHidden(y > lastY.current && y > 56);
+      lastY.current = y;
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   // Home tab is active when no other tab matches
   const isOnHomeSection = !desktopNavItems.some((item) =>
@@ -41,13 +55,16 @@ export function NavHeader() {
       </a>
 
       {/* Top header */}
-      <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <header className={cn(
+        "sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 transition-transform duration-300",
+        hidden && "-translate-y-full"
+      )}>
         <div className="mx-auto flex h-14 max-w-4xl items-center justify-between px-4">
           <Link
             href="/"
             className="flex items-center shrink-0 rounded-sm transition-colors hover:text-foreground/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
           >
-            <span className="font-bold tracking-wide">GUJCET</span>
+            <span className="text-[15px] font-bold leading-none tracking-wide">GUJCET</span>
             <span
               className="mx-1.5 flex h-3.5 w-[3px] flex-col overflow-hidden rounded-full"
               aria-hidden="true"
@@ -56,7 +73,7 @@ export function NavHeader() {
               <span className="flex-1 bg-green-500" />
               <span className="flex-1 bg-purple-500" />
             </span>
-            <span className="text-sm font-medium text-muted-foreground">
+            <span className="text-xs font-medium leading-none text-muted-foreground">
               PYQ
             </span>
           </Link>
@@ -88,7 +105,10 @@ export function NavHeader() {
 
       {/* Mobile bottom tab bar */}
       <nav
-        className="fixed bottom-0 left-0 right-0 z-40 border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 pb-[env(safe-area-inset-bottom)] sm:hidden"
+        className={cn(
+          "fixed bottom-0 left-0 right-0 z-40 border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 pb-[env(safe-area-inset-bottom)] sm:hidden transition-transform duration-300",
+          hidden && "translate-y-full"
+        )}
         aria-label="Main navigation"
       >
         <div className="mx-auto flex max-w-lg items-stretch justify-around">
