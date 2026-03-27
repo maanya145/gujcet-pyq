@@ -70,24 +70,13 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero */}
-      <div className="relative overflow-hidden">
-        {/* Background Pattern */}
-        <div
-          className="absolute inset-0 z-0"
-          style={{
-            background:
-              "radial-gradient(125% 125% at 50% 10%, hsl(var(--background)) 40%, hsl(var(--primary)) 100%)",
-          }}
-        />
-        <div className="relative z-10 mx-auto max-w-4xl px-4 py-14 text-center sm:py-20">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-            GUJCET Past Year Questions
-          </h1>
-          <p className="mt-4 text-muted-foreground">
-            <span className="font-semibold text-foreground"><AnimatedNumber value={totalQuestions} /></span> questions &middot; <span className="font-semibold text-foreground"><AnimatedNumber value={totalChapters} delay={150} /></span> chapters &middot; {minYear}&ndash;{maxYear}
-          </p>
-        </div>
-        <div className="relative z-10 h-0.5 bg-gradient-to-r from-blue-500 via-green-500 to-purple-500" aria-hidden="true" />
+      <div className="mx-auto max-w-4xl px-4 py-14 text-center sm:py-20">
+        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+          GUJCET Past Year Questions
+        </h1>
+        <p className="mt-4 text-muted-foreground">
+          <span className="font-semibold text-foreground"><AnimatedNumber value={totalQuestions} /></span> questions &middot; <span className="font-semibold text-foreground"><AnimatedNumber value={totalChapters} delay={150} /></span> chapters &middot; {minYear}&ndash;{maxYear}
+        </p>
       </div>
 
       <div className="mx-auto max-w-4xl px-4 py-10">
