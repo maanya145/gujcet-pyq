@@ -34,17 +34,28 @@ export default function RootLayout({
           />
         </head>
         <body className={cn("min-h-screen bg-background antialiased pb-14 sm:pb-0", inter.className)}>
-          <PostHogProvider>
-            <Suspense fallback={null}>
-              <PostHogPageView />
-            </Suspense>
-            <NavHeader />
-            <TooltipProvider>
-              <div id="main-content">
-                {children}
-              </div>
-            </TooltipProvider>
-          </PostHogProvider>
+          {process.env.NEXT_PUBLIC_POSTHOG_KEY ? (
+            <PostHogProvider>
+              <Suspense fallback={null}>
+                <PostHogPageView />
+              </Suspense>
+              <NavHeader />
+              <TooltipProvider>
+                <div id="main-content">
+                  {children}
+                </div>
+              </TooltipProvider>
+            </PostHogProvider>
+          ) : (
+            <>
+              <NavHeader />
+              <TooltipProvider>
+                <div id="main-content">
+                  {children}
+                </div>
+              </TooltipProvider>
+            </>
+          )}
           <Analytics />
         </body>
       </html>
