@@ -3,11 +3,12 @@
 import { useState, useCallback, useMemo, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
+import { Tooltip, TooltipTrigger, TooltipContent } from "@/components/ui/tooltip";
 import { QuestionCard } from "@/components/question-card";
 import { AIChat } from "@/components/ai-chat";
 import { Timer } from "@/components/timer";
 import { useSwipe } from "@/lib/use-swipe";
-import { cn } from "@/lib/utils";
 import type { Question } from "@/lib/types";
 import {
   saveSession,
@@ -38,7 +39,6 @@ import {
   RotateCcw,
   Play,
   Bookmark,
-  ArrowUpDown,
   Info,
 } from "lucide-react";
 
@@ -502,6 +502,36 @@ export function PracticeSession({
         </div>
       )}
 
+      {/* Answer progress bar */}
+      {total > 0 && (
+        <div className="relative h-1.5 w-full overflow-hidden rounded-full bg-muted">
+          {correctCount > 0 && (
+            <div
+              className="absolute left-0 top-0 h-full bg-green-500 transition-all duration-300"
+              style={{ width: `${(correctCount / total) * 100}%` }}
+            />
+          )}
+          {incorrectCount > 0 && (
+            <div
+              className="absolute top-0 h-full bg-red-400 transition-all duration-300"
+              style={{
+                left: `${(correctCount / total) * 100}%`,
+                width: `${(incorrectCount / total) * 100}%`,
+              }}
+            />
+          )}
+          {ungradedCount > 0 && (
+            <div
+              className="absolute top-0 h-full bg-amber-400 transition-all duration-300"
+              style={{
+                left: `${((correctCount + incorrectCount) / total) * 100}%`,
+                width: `${(ungradedCount / total) * 100}%`,
+              }}
+            />
+          )}
+        </div>
+      )}
+
       {/* Sort/filter help */}
       {showSortHelp && (
         <div className="rounded-lg border bg-muted/50 px-3 py-2 text-xs text-muted-foreground space-y-1">
@@ -513,13 +543,20 @@ export function PracticeSession({
 
       {/* Year filter */}
       <div className="flex flex-wrap items-center gap-1.5">
-        <button
-          onClick={() => setShowSortHelp(!showSortHelp)}
-          className="rounded-full p-0.5 text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
-          aria-label="Sorting & filtering help"
-        >
-          <Info className="size-3.5" />
-        </button>
+        <Tooltip>
+          <TooltipTrigger
+            render={
+              <button
+                onClick={() => setShowSortHelp(!showSortHelp)}
+                className="rounded-full p-0.5 text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+                aria-label="Sorting & filtering help"
+              />
+            }
+          >
+            <Info className="size-3.5" />
+          </TooltipTrigger>
+          <TooltipContent side="right">Filter &amp; sort help</TooltipContent>
+        </Tooltip>
         <span className="text-xs text-muted-foreground mr-1">Year:</span>
         <Button
           size="xs"
@@ -576,53 +613,39 @@ export function PracticeSession({
       </div>
 
       {/* Sort & Difficulty filter */}
-      <div className="flex flex-wrap items-center gap-1.5">
-        <ArrowUpDown className="size-3.5 text-muted-foreground" />
-        <span className="text-xs text-muted-foreground mr-0.5">Sort:</span>
-        {([
-          ["default", "Default"],
-          ["newest", "Newest First"],
-          ["difficulty", "Easy → Hard"],
-          ["difficulty-desc", "Hard → Easy"],
-        ] as const).map(([value, label]) => (
-          <Button
-            key={value}
-            size="xs"
-            variant={sortBy === value ? "default" : "outline"}
-            onClick={() => {
-              setSortBy(value);
-              setCurrentIndex(0);
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+        <div className="flex items-center gap-1.5">
+          <span className="text-xs text-muted-foreground shrink-0">Sort:</span>
+          <ToggleGroup
+            variant="outline"
+            size="sm"
+            value={[sortBy]}
+            onValueChange={(v) => {
+              if (v.length > 0) { setSortBy(v[0] as typeof sortBy); setCurrentIndex(0); }
             }}
-            className="text-xs"
           >
-            {label}
-          </Button>
-        ))}
-        <span className="text-xs text-muted-foreground ml-2 mr-0.5">Difficulty:</span>
-        {([
-          ["all", "All"],
-          ["easy", "Easy"],
-          ["medium", "Medium"],
-          ["hard", "Hard"],
-        ] as const).map(([value, label]) => (
-          <Button
-            key={value}
-            size="xs"
-            variant={difficultyFilter === value ? "default" : "outline"}
-            onClick={() => {
-              setDifficultyFilter(value);
-              setCurrentIndex(0);
+            <ToggleGroupItem value="default">Default</ToggleGroupItem>
+            <ToggleGroupItem value="newest">Newest</ToggleGroupItem>
+            <ToggleGroupItem value="difficulty">Easy → Hard</ToggleGroupItem>
+            <ToggleGroupItem value="difficulty-desc">Hard → Easy</ToggleGroupItem>
+          </ToggleGroup>
+        </div>
+        <div className="flex items-center gap-1.5">
+          <span className="text-xs text-muted-foreground shrink-0">Difficulty:</span>
+          <ToggleGroup
+            variant="outline"
+            size="sm"
+            value={[difficultyFilter]}
+            onValueChange={(v) => {
+              if (v.length > 0) { setDifficultyFilter(v[0] as typeof difficultyFilter); setCurrentIndex(0); }
             }}
-            className={cn(
-              "text-xs",
-              difficultyFilter === value && value === "easy" && "bg-green-600 hover:bg-green-700 border-green-600",
-              difficultyFilter === value && value === "medium" && "bg-amber-600 hover:bg-amber-700 border-amber-600",
-              difficultyFilter === value && value === "hard" && "bg-red-600 hover:bg-red-700 border-red-600",
-            )}
           >
-            {label}
-          </Button>
-        ))}
+            <ToggleGroupItem value="all">All</ToggleGroupItem>
+            <ToggleGroupItem value="easy" className="aria-pressed:bg-green-600 aria-pressed:text-white aria-pressed:border-green-600">Easy</ToggleGroupItem>
+            <ToggleGroupItem value="medium" className="aria-pressed:bg-amber-600 aria-pressed:text-white aria-pressed:border-amber-600">Medium</ToggleGroupItem>
+            <ToggleGroupItem value="hard" className="aria-pressed:bg-red-600 aria-pressed:text-white aria-pressed:border-red-600">Hard</ToggleGroupItem>
+          </ToggleGroup>
+        </div>
       </div>
 
       {/* Controls */}

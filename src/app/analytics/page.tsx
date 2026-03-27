@@ -7,7 +7,6 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { getAllHistory, type SessionResult } from "@/lib/storage";
 import {
-  ArrowLeft,
   Target,
   Clock,
   Hash,
@@ -187,12 +186,6 @@ export default function AnalyticsPage() {
     return (
       <main className="min-h-screen">
         <div className="mx-auto max-w-4xl px-4 py-8">
-          <Link href="/">
-            <Button variant="ghost" size="sm" className="mb-6">
-              <ArrowLeft className="mr-2 size-4" />
-              Back to Home
-            </Button>
-          </Link>
           <Card>
             <CardContent className="py-16 text-center">
               <Target className="mx-auto mb-4 size-12 text-muted-foreground/50" />
@@ -213,14 +206,6 @@ export default function AnalyticsPage() {
   return (
     <main className="min-h-screen">
       <div className="mx-auto max-w-4xl px-4 py-8">
-        {/* Back button */}
-        <Link href="/">
-          <Button variant="ghost" size="sm" className="mb-6">
-            <ArrowLeft className="mr-2 size-4" />
-            Back to Home
-          </Button>
-        </Link>
-
         <h1 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
           Performance Analytics
         </h1>

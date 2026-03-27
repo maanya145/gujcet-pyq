@@ -3,7 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "katex/dist/katex.min.css";
 import { cn } from "@/lib/utils";
-import { ThemeToggle } from "@/components/theme-toggle";
+import { NavHeader } from "@/components/nav-header";
+import { TooltipProvider } from "@/components/ui/tooltip";
 import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
@@ -29,10 +30,10 @@ export default function RootLayout({
         />
       </head>
       <body className={cn("min-h-screen bg-background antialiased", inter.className)}>
-        <div className="fixed top-3 right-3 z-50">
-          <ThemeToggle />
-        </div>
-        {children}
+        <NavHeader />
+        <TooltipProvider>
+          {children}
+        </TooltipProvider>
         <Analytics />
       </body>
     </html>

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowLeft, Bookmark, Trash2 } from "lucide-react";
+import { Bookmark, Trash2 } from "lucide-react";
 import { getAllBookmarks, clearAllBookmarks } from "@/lib/bookmarks";
 import type { Question } from "@/lib/types";
 
@@ -137,12 +137,6 @@ export default function BookmarksPage() {
     <main className="min-h-screen">
       <div className="border-b">
         <div className="mx-auto max-w-4xl px-4 py-6">
-          <Link href="/">
-            <Button variant="ghost" size="sm" className="mb-4">
-              <ArrowLeft className="size-4" />
-              Back
-            </Button>
-          </Link>
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold flex items-center gap-2">
