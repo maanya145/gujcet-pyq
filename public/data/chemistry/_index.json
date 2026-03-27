@@ -1,7 +1,7 @@
 {
   "subject": "chemistry",
-  "total_chapters": 25,
-  "total_questions": 598,
+  "total_chapters": 11,
+  "total_questions": 445,
   "chapters": [
     {
       "chapter": "Aldehydes, Ketones and Carboxylic Acids",
@@ -182,7 +182,7 @@
     {
       "chapter": "The p-Block Elements",
       "file": "the_p-block_elements.json",
-      "total_questions": 37,
+      "total_questions": 36,
       "years": [
         2007,
         2008,
@@ -196,14 +196,13 @@
         2020,
         2021,
         2022,
-        2023,
-        2025
+        2023
       ]
     },
     {
       "chapter": "The d and f Block Elements",
       "file": "the_d_and_f_block_elements.json",
-      "total_questions": 36,
+      "total_questions": 37,
       "years": [
         2007,
         2008,
@@ -239,188 +238,6 @@
         2023,
         2024,
         2025
-      ]
-    },
-    {
-      "chapter": "Surface Chemistry",
-      "file": "surface_chemistry.json",
-      "total_questions": 28,
-      "years": [
-        2007,
-        2008,
-        2009,
-        2011,
-        2014,
-        2015,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023
-      ]
-    },
-    {
-      "chapter": "The Solid State",
-      "file": "the_solid_state.json",
-      "total_questions": 26,
-      "years": [
-        2007,
-        2008,
-        2009,
-        2011,
-        2014,
-        2015,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023
-      ]
-    },
-    {
-      "chapter": "Polymers",
-      "file": "polymers.json",
-      "total_questions": 24,
-      "years": [
-        2007,
-        2008,
-        2009,
-        2011,
-        2014,
-        2015,
-        2017,
-        2018,
-        2019,
-        2020,
-        2022,
-        2023
-      ]
-    },
-    {
-      "chapter": "Chemistry in Everyday Life",
-      "file": "chemistry_in_everyday_life.json",
-      "total_questions": 21,
-      "years": [
-        2007,
-        2008,
-        2009,
-        2011,
-        2014,
-        2015,
-        2017,
-        2018,
-        2020,
-        2022,
-        2023
-      ]
-    },
-    {
-      "chapter": "General Principles of Isolation of Elements",
-      "file": "general_principles_of_isolation_of_elements.json",
-      "total_questions": 17,
-      "years": [
-        2007,
-        2011,
-        2014,
-        2015,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023
-      ]
-    },
-    {
-      "chapter": "Structure of Atom",
-      "file": "structure_of_atom.json",
-      "total_questions": 12,
-      "years": [
-        2007,
-        2008,
-        2009,
-        2011
-      ]
-    },
-    {
-      "chapter": "Organic Chemistry - Basic Principles",
-      "file": "organic_chemistry_-_basic_principles.json",
-      "total_questions": 7,
-      "years": [
-        2007,
-        2008,
-        2009,
-        2011
-      ]
-    },
-    {
-      "chapter": "Chemical Thermodynamics",
-      "file": "chemical_thermodynamics.json",
-      "total_questions": 6,
-      "years": [
-        2007,
-        2008,
-        2009,
-        2011
-      ]
-    },
-    {
-      "chapter": "Some Basic Concepts of Chemistry",
-      "file": "some_basic_concepts_of_chemistry.json",
-      "total_questions": 5,
-      "years": [
-        2008,
-        2009,
-        2011,
-        2018,
-        2020
-      ]
-    },
-    {
-      "chapter": "Hydrocarbons",
-      "file": "hydrocarbons.json",
-      "total_questions": 3,
-      "years": [
-        2011,
-        2022,
-        2024
-      ]
-    },
-    {
-      "chapter": "Chemical Bonding and Molecular Structure",
-      "file": "chemical_bonding_and_molecular_structure.json",
-      "total_questions": 1,
-      "years": [
-        2007
-      ]
-    },
-    {
-      "chapter": "Equilibrium",
-      "file": "equilibrium.json",
-      "total_questions": 1,
-      "years": [
-        2011
-      ]
-    },
-    {
-      "chapter": "Redox Reactions",
-      "file": "redox_reactions.json",
-      "total_questions": 1,
-      "years": [
-        2017
-      ]
-    },
-    {
-      "chapter": "States of Matter",
-      "file": "states_of_matter.json",
-      "total_questions": 1,
-      "years": [
-        2020
       ]
     }
   ]

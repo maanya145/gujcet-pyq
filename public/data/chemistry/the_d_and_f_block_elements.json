@@ -1,7 +1,7 @@
 {
   "subject": "chemistry",
   "chapter": "The d and f Block Elements",
-  "total_questions": 36,
+  "total_questions": 37,
   "questions": [
     {
       "year": 2007,
@@ -464,6 +464,20 @@
       "answer": "A",
       "difficulty": "easy",
       "explanation": "Cerium ($Z=58$) is the most well-known lanthanide to exhibit a $+4$ oxidation state. It achieves a stable noble gas configuration ($[\\text{Xe}]$) by losing four electrons from its $4f^1 5d^1 6s^2$ valence shell. Although $\\text{Ce}^{4+}$ is a strong oxidizing agent, it is favored due to the extra stability of the empty $f$-orbital."
+    },
+    {
+      "year": 2025,
+      "number": 45,
+      "question": "The highest Mn fluoride is $\\text{MnF}_4$ whereas the highest oxide is $\\text{Mn}_2\\text{O}_7$ because ____.",
+      "options": {
+        "A": "Fluorine does not have d-orbital.",
+        "B": "Electronegativity of oxygen is more than fluorine.",
+        "C": "Atomic volume of oxygen is less than fluorine.",
+        "D": "Oxygen forms multiple bonds and fluorine form single bond."
+      },
+      "answer": "D",
+      "difficulty": "medium",
+      "explanation": "Oxygen can stabilize higher oxidation states of metals because it has the ability to form multiple bonds ($p\\pi-d\\pi$ bonding). While fluorine is more electronegative, it only forms single bonds, limiting its ability to stabilize the $+7$ state in Manganese compared to oxygen in $Mn_2O_7$."
     },
     {
       "year": 2025,

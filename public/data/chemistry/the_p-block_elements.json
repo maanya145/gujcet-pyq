@@ -1,7 +1,7 @@
 {
   "subject": "chemistry",
   "chapter": "The p-Block Elements",
-  "total_questions": 37,
+  "total_questions": 36,
   "questions": [
     {
       "year": 2007,
@@ -507,19 +507,5 @@
       "difficulty": "easy",
       "explanation": "Peroxo acids of sulphur contain the $-O-O-$ linkage. $H_2SO_5$ (peroxomonosulphuric acid or Caro's acid) and $H_2S_2O_8$ (peroxodisulphuric acid or Marshall's acid) are the two primary examples."
     },
-    {
-      "year": 2025,
-      "number": 45,
-      "question": "The highest Mn fluoride is $\\text{MnF}_4$ whereas the highest oxide is $\\text{Mn}_2\\text{O}_7$ because ____.",
-      "options": {
-        "A": "Fluorine does not have d-orbital.",
-        "B": "Electronegativity of oxygen is more than fluorine.",
-        "C": "Atomic volume of oxygen is less than fluorine.",
-        "D": "Oxygen forms multiple bonds and fluorine form single bond."
-      },
-      "answer": "D",
-      "difficulty": "medium",
-      "explanation": "Oxygen can stabilize higher oxidation states of metals because it has the ability to form multiple bonds ($p\\pi-d\\pi$ bonding). While fluorine is more electronegative, it only forms single bonds, limiting its ability to stabilize the $+7$ state in Manganese compared to oxygen in $Mn_2O_7$."
-    }
   ]
 }
