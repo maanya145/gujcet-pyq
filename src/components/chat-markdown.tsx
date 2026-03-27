@@ -1,13 +1,12 @@
 "use client";
 
-import { marked } from "marked";
-import { memo, useMemo } from "react";
+import { memo } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 
-const MarkdownBlock = memo(
-  ({ content }: { content: string }) => {
+export const ChatMarkdown = memo(
+  ({ content }: { content: string; id?: string }) => {
     return (
       <ReactMarkdown
         remarkPlugins={[remarkMath]}
@@ -38,27 +37,6 @@ const MarkdownBlock = memo(
     );
   },
   (prev, next) => prev.content === next.content
-);
-
-MarkdownBlock.displayName = "MarkdownBlock";
-
-function parseMarkdownIntoBlocks(markdown: string): string[] {
-  const tokens = marked.lexer(markdown);
-  return tokens.map((token) => token.raw);
-}
-
-export const ChatMarkdown = memo(
-  ({ content, id }: { content: string; id?: string }) => {
-    const blocks = useMemo(() => parseMarkdownIntoBlocks(content), [content]);
-
-    return (
-      <>
-        {blocks.map((block, index) => (
-          <MarkdownBlock content={block} key={`${id ?? "cm"}-${index}`} />
-        ))}
-      </>
-    );
-  }
 );
 
 ChatMarkdown.displayName = "ChatMarkdown";
