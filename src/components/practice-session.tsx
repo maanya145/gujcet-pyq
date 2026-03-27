@@ -4,7 +4,7 @@ import { useState, useCallback, useMemo, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
-import { Toggle } from "@/components/ui/toggle";
+import { Switch } from "@/components/ui/switch";
 import { QuestionCard } from "@/components/question-card";
 import { AIChat } from "@/components/ai-chat";
 import { Timer } from "@/components/timer";
@@ -468,7 +468,7 @@ export function PracticeSession({
         <div className="flex items-center justify-between text-xs text-muted-foreground">
           <span>Q {currentIndex + 1} of {total}</span>
           {answered > 0 && (
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center justify-end gap-x-2 gap-y-0.5">
               <span className="text-green-600 dark:text-green-500">{correctCount} correct</span>
               <span className="text-red-600 dark:text-red-500">{incorrectCount} wrong</span>
               {ungradedCount > 0 && <span className="text-amber-500">{ungradedCount} ungraded</span>}
@@ -512,13 +512,14 @@ export function PracticeSession({
       <div
         role="group"
         aria-label="Filter by year"
-        className="flex flex-wrap items-center gap-1.5"
+        className="-mx-4 flex items-center gap-1.5 overflow-x-auto px-4 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0"
       >
-        <span className="text-xs text-muted-foreground mr-1" aria-hidden="true">Year:</span>
+        <span className="shrink-0 text-xs text-muted-foreground mr-1" aria-hidden="true">Year:</span>
         <Button
           size="sm"
           variant={yearFilter === null ? "default" : "outline"}
           aria-pressed={yearFilter === null}
+          className="shrink-0"
           onClick={() => {
             setYearFilter(null);
             setCurrentIndex(0);
@@ -532,6 +533,7 @@ export function PracticeSession({
             size="sm"
             variant={yearFilter === y ? "default" : "outline"}
             aria-pressed={yearFilter === y}
+            className="shrink-0"
             onClick={() => {
               setYearFilter(yearFilter === y ? null : y);
               setCurrentIndex(0);
@@ -569,16 +571,15 @@ export function PracticeSession({
             {reviewMode ? "Exit Review" : `Review Mistakes (${incorrectCount})`}
           </Button>
         )}
-        <Toggle
-          variant="outline"
-          size="sm"
-          pressed={swipeEnabled}
-          onPressedChange={setSwipeEnabled}
-          className="sm:hidden"
-          aria-label="Toggle swipe navigation"
-        >
-          {swipeEnabled ? "Swipe On" : "Swipe Off"}
-        </Toggle>
+        <label className="flex items-center gap-2 text-sm cursor-pointer select-none">
+          <Switch
+            size="sm"
+            checked={swipeEnabled}
+            onCheckedChange={setSwipeEnabled}
+            aria-label="Toggle swipe navigation"
+          />
+          Swipe
+        </label>
         <Button
           size="sm"
           variant={showFilters ? "secondary" : "outline"}
@@ -607,6 +608,7 @@ export function PracticeSession({
               onValueChange={(v) => {
                 if (v.length > 0) { setSortBy(v[0] as typeof sortBy); setCurrentIndex(0); }
               }}
+              className="flex-wrap"
             >
               <ToggleGroupItem value="default">Default</ToggleGroupItem>
               <ToggleGroupItem value="newest">Newest</ToggleGroupItem>
@@ -623,6 +625,7 @@ export function PracticeSession({
               onValueChange={(v) => {
                 if (v.length > 0) { setDifficultyFilter(v[0] as typeof difficultyFilter); setCurrentIndex(0); }
               }}
+              className="flex-wrap"
             >
               <ToggleGroupItem value="all">All</ToggleGroupItem>
               <ToggleGroupItem value="easy" className="aria-pressed:bg-green-600 aria-pressed:text-white aria-pressed:border-green-600">Easy</ToggleGroupItem>
@@ -714,10 +717,10 @@ export function PracticeSession({
       {/* Navigation */}
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-1">
-          <Button size="icon-sm" variant="outline" onClick={() => goTo(0)} disabled={currentIndex === 0}>
+          <Button size="icon-sm" variant="outline" className="min-h-[44px] min-w-[44px] sm:min-h-0 sm:min-w-0" onClick={() => goTo(0)} disabled={currentIndex === 0}>
             <ChevronsLeft className="size-4" />
           </Button>
-          <Button size="icon-sm" variant="outline" onClick={prev} disabled={currentIndex === 0}>
+          <Button size="icon-sm" variant="outline" className="min-h-[44px] min-w-[44px] sm:min-h-0 sm:min-w-0" onClick={prev} disabled={currentIndex === 0}>
             <ChevronLeft className="size-4" />
           </Button>
         </div>
@@ -763,12 +766,13 @@ export function PracticeSession({
         </div>
 
         <div className="flex items-center gap-1">
-          <Button size="icon-sm" variant="outline" onClick={next} disabled={currentIndex === total - 1}>
+          <Button size="icon-sm" variant="outline" className="min-h-[44px] min-w-[44px] sm:min-h-0 sm:min-w-0" onClick={next} disabled={currentIndex === total - 1}>
             <ChevronRight className="size-4" />
           </Button>
           <Button
             size="icon-sm"
             variant="outline"
+            className="min-h-[44px] min-w-[44px] sm:min-h-0 sm:min-w-0"
             onClick={() => goTo(total - 1)}
             disabled={currentIndex === total - 1}
           >
