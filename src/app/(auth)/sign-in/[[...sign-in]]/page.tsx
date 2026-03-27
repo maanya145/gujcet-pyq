@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function SignInPage() {
   return (
-    <main className="flex min-h-svh items-center justify-center bg-muted" aria-label="Sign in">
+    <main className="flex min-h-svh items-center justify-center bg-background" aria-label="Sign in">
       <div className="flex flex-col items-center gap-6">
           <Link href="/" className="inline-flex items-center gap-1.5" aria-label="GUJCET PYQ — Go to home page">
             <span className="text-lg font-bold tracking-wide">GUJCET</span>
