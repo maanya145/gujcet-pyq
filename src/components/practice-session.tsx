@@ -418,7 +418,16 @@ export function PracticeSession({
   }
 
   if (!sessionChecked) {
-    return null;
+    return (
+      <div className="space-y-6 animate-pulse" aria-busy="true" aria-label="Loading session">
+        <div className="flex items-center justify-between gap-2">
+          <div className="h-5 w-40 rounded bg-muted" />
+          <div className="h-7 w-20 rounded bg-muted" />
+        </div>
+        <div className="h-1.5 w-full rounded-full bg-muted" />
+        <div className="h-64 rounded-xl bg-muted" />
+      </div>
+    );
   }
 
   if (!current) {
@@ -467,7 +476,7 @@ export function PracticeSession({
       {/* Progress bar with inline stats */}
       <div className="space-y-1">
         <div className="flex items-center justify-between text-xs text-muted-foreground">
-          <span>Q {currentIndex + 1} of {total}</span>
+          <span aria-live="polite" aria-atomic="true">Q {currentIndex + 1} of {total}</span>
           {answered > 0 && (
             <div className="flex flex-wrap items-center justify-end gap-x-2 gap-y-0.5">
               <span className="text-green-600 dark:text-green-500">{correctCount} correct</span>
@@ -480,7 +489,14 @@ export function PracticeSession({
           )}
         </div>
         {total > 0 && (
-          <div className="relative h-1.5 w-full overflow-hidden rounded-full bg-muted">
+          <div
+            role="progressbar"
+            aria-valuenow={answered}
+            aria-valuemin={0}
+            aria-valuemax={total}
+            aria-label={`${answered} of ${total} questions answered`}
+            className="relative h-1.5 w-full overflow-hidden rounded-full bg-muted"
+          >
             {correctCount > 0 && (
               <div
                 className="absolute left-0 top-0 h-full bg-green-500 transition-all duration-300"
@@ -535,7 +551,7 @@ export function PracticeSession({
                 size="sm"
                 variant={yearFilter === null ? "default" : "outline"}
                 aria-pressed={yearFilter === null}
-                className="shrink-0"
+                className="shrink-0 min-h-[44px] sm:min-h-0"
                 onClick={() => {
                   setYearFilter(null);
                   setCurrentIndex(0);
@@ -549,7 +565,7 @@ export function PracticeSession({
                   size="sm"
                   variant={yearFilter === y ? "default" : "outline"}
                   aria-pressed={yearFilter === y}
-                  className="shrink-0"
+                  className="shrink-0 min-h-[44px] sm:min-h-0"
                   onClick={() => {
                     setYearFilter(yearFilter === y ? null : y);
                     setCurrentIndex(0);
@@ -565,19 +581,21 @@ export function PracticeSession({
 
       {/* Quick actions + filters toggle */}
       <div className="flex flex-wrap items-center gap-2">
-        <Button size="sm" variant="outline" onClick={handleShuffle}>
+        <Button size="sm" variant="outline" className="min-h-[44px] sm:min-h-0" onClick={handleShuffle} aria-pressed={shuffled}>
           <Shuffle />
           {shuffled ? "Re-shuffle" : "Shuffle"}
         </Button>
         <Button
           size="sm"
           variant="outline"
+          className="min-h-[44px] sm:min-h-0"
           onClick={() => setShowAllAnswers(!showAllAnswers)}
+          aria-pressed={showAllAnswers}
         >
           {showAllAnswers ? <EyeOff /> : <Eye />}
           {showAllAnswers ? "Hide Answers" : "Show Answers"}
         </Button>
-        <Button size="sm" variant="outline" onClick={handleReset}>
+        <Button size="sm" variant="outline" className="min-h-[44px] sm:min-h-0" onClick={handleReset}>
           <RotateCcw />
           Reset
         </Button>
@@ -585,12 +603,14 @@ export function PracticeSession({
           <Button
             size="sm"
             variant={reviewMode ? "destructive" : "outline"}
+            className="min-h-[44px] sm:min-h-0"
             onClick={handleToggleReviewMode}
+            aria-pressed={reviewMode}
           >
             {reviewMode ? "Exit Review" : `Review Mistakes (${incorrectCount})`}
           </Button>
         )}
-        <label className="flex items-center gap-2 text-sm cursor-pointer select-none">
+        <label className="flex items-center gap-2 text-sm cursor-pointer select-none min-h-[44px] sm:min-h-0">
           <Switch
             size="sm"
             checked={swipeEnabled}
@@ -603,7 +623,9 @@ export function PracticeSession({
           size="sm"
           variant={showFilters ? "secondary" : "outline"}
           onClick={() => setShowFilters(!showFilters)}
-          className="ml-auto"
+          className="ml-auto min-h-[44px] sm:min-h-0"
+          aria-expanded={showFilters}
+          aria-controls="filters-panel"
         >
           <SlidersHorizontal />
           Filters
@@ -613,6 +635,7 @@ export function PracticeSession({
 
       {/* Collapsible filters panel */}
       <div
+        id="filters-panel"
         className="grid transition-[grid-template-rows] duration-200 ease-out"
         style={{ gridTemplateRows: showFilters ? "1fr" : "0fr" }}
       >
@@ -678,7 +701,7 @@ export function PracticeSession({
               </Button>
             )}
             {hideNullAnswers && nullAnswerCount > 0 && (
-              <span className="text-xs text-amber-600">
+              <span className="text-xs text-amber-600 dark:text-amber-400">
                 ({nullAnswerCount} ungraded hidden)
               </span>
             )}
@@ -689,7 +712,7 @@ export function PracticeSession({
 
       {/* Review mode banner */}
       {reviewMode && (
-        <div className="flex items-center justify-between rounded-lg border border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-950/30 px-4 py-2">
+        <div role="status" className="flex items-center justify-between rounded-lg border border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-950/30 px-4 py-2">
           <span className="text-sm font-medium text-red-700 dark:text-red-400">
             Reviewing {total} incorrect answer{total !== 1 ? "s" : ""}
           </span>
@@ -745,37 +768,42 @@ export function PracticeSession({
         </div>
 
         <div className="flex flex-col items-center gap-1 px-2">
-          {total > 20 && !showGrid && (
+          {total > 30 && !showGrid && (
             <button
               onClick={() => setShowGrid(true)}
-              className="inline-flex items-center justify-center gap-1.5 h-8 px-2 rounded-md text-xs text-muted-foreground hover:bg-muted/80 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              className="inline-flex items-center justify-center gap-1.5 min-h-[44px] sm:min-h-0 sm:h-8 px-2 rounded-md text-xs text-muted-foreground hover:bg-muted/80 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
               aria-label="Show question grid"
             >
               <Grid3X3 className="size-3.5" />
               Grid
             </button>
           )}
-          {(total <= 20 || showGrid) && (
+          {(total <= 30 || showGrid) && (
             <div className="space-y-1">
               <div
                 ref={gridRef}
                 className="flex flex-wrap justify-center gap-1 overflow-x-hidden overflow-y-auto max-h-40 sm:max-h-48 w-full"
               >
-                {displayQuestions.map((_, i) => (
+                {displayQuestions.slice(0, 150).map((_, i) => (
                   <button
                     key={i}
                     ref={i === currentIndex ? activeBtnRef : undefined}
                     onClick={() => goTo(i)}
-                    className={`size-8 shrink-0 rounded-md text-xs font-medium transition-colors ${getGridButtonStyle(i)}`}
+                    aria-current={i === currentIndex ? "true" : undefined}
+                    aria-label={`Question ${i + 1}`}
+                    className={`size-8 min-h-[44px] min-w-[44px] sm:min-h-0 sm:min-w-0 shrink-0 rounded-md text-xs font-medium transition-colors ${getGridButtonStyle(i)}`}
                   >
                     {i + 1}
                   </button>
                 ))}
+                {total > 150 && (
+                  <span className="text-xs text-muted-foreground self-center px-1">+{total - 150} more</span>
+                )}
               </div>
-              {total > 20 && showGrid && (
+              {total > 30 && showGrid && (
                 <button
                   onClick={() => setShowGrid(false)}
-                  className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+                  className="min-h-[44px] sm:min-h-0 px-2 text-xs text-muted-foreground hover:text-foreground transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-md"
                 >
                   Hide grid
                 </button>
@@ -805,12 +833,16 @@ export function PracticeSession({
         <span className="hidden sm:inline">
           Use <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">←</kbd>{" "}
           <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">→</kbd> arrow
-          keys to navigate &middot; Press{" "}
-          <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">A</kbd>{" "}
-          <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">B</kbd>{" "}
-          <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">C</kbd>{" "}
-          <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">D</kbd> to
-          select answer
+          keys to navigate
+          {!(showAllAnswers || !!answeredMap[filteredIndex]) && (
+            <> &middot; Press{" "}
+              <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">A</kbd>{" "}
+              <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">B</kbd>{" "}
+              <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">C</kbd>{" "}
+              <kbd className="rounded border bg-muted px-1.5 py-0.5 text-[10px] font-mono">D</kbd> to
+              select answer
+            </>
+          )}
         </span>
         <span className="sm:hidden">{swipeEnabled ? "Swipe left/right to navigate" : "Swipe navigation disabled"}</span>
       </p>

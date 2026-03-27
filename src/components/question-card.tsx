@@ -110,16 +110,17 @@ export function QuestionCard({
           </div>
           <div className="flex items-center gap-1">
             {question.answer === null && (
-              <Badge variant="outline" className="text-xs text-amber-600 mr-1">
+              <Badge variant="outline" className="text-xs text-amber-600 dark:text-amber-400 mr-1">
                 No answer key
               </Badge>
             )}
             <button
               onClick={() => {
                 const text = `Q: ${question.question}\nA: ${question.options.A}\nB: ${question.options.B}\nC: ${question.options.C}\nD: ${question.options.D}${question.answer ? `\nAnswer: ${question.answer}` : ""}`;
-                navigator.clipboard.writeText(text);
-                setCopied(true);
-                setTimeout(() => setCopied(false), 1500);
+                navigator.clipboard?.writeText(text).then(() => {
+                  setCopied(true);
+                  setTimeout(() => setCopied(false), 1500);
+                }).catch(() => {/* clipboard unavailable */});
               }}
               className="inline-flex items-center justify-center size-9 min-w-[44px] min-h-[44px] rounded-md hover:bg-muted/80 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
               aria-label="Copy question"
@@ -171,10 +172,13 @@ export function QuestionCard({
           <Latex text={question.question} />
         </div>
 
-        <div className="grid gap-2">
+        <div role="radiogroup" aria-label="Answer options" className="grid gap-2">
           {optionKeys.map((key) => (
             <button
               key={key}
+              role="radio"
+              aria-checked={selected === key}
+              aria-disabled={showAnswer || undefined}
               onClick={() => handleSelect(key)}
               className={cn(
                 "flex items-start gap-3 rounded-lg border p-3 text-left transition-colors",
@@ -203,7 +207,7 @@ export function QuestionCard({
         </div>
 
         {showAnswer && question.answer === null && (
-          <p className="text-xs text-amber-600">
+          <p className="text-xs text-amber-600 dark:text-amber-400">
             Answer key not available for this question
           </p>
         )}
@@ -225,6 +229,7 @@ export function QuestionCard({
             <button
               onClick={() => setShowExplanation(!showExplanation)}
               className="flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
+              aria-expanded={showExplanation}
             >
               <Lightbulb className="size-3.5" />
               {showExplanation ? "Hide Explanation" : "Show Explanation"}
