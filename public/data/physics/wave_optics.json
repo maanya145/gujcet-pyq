@@ -225,7 +225,7 @@
       },
       "answer": "A",
       "difficulty": "easy",
-      "explanation": "When light enters a denser medium, its frequency remains constant because it depends only on the source. Since the velocity $v$ decreases and $v = f \times \text{wavelength}$, the wavelength must decrease to satisfy the equation."
+      "explanation": "When light enters a denser medium, its frequency remains constant because it depends only on the source. Since the velocity $v$ decreases and $v = f \\times \\text{wavelength}$, the wavelength must decrease to satisfy the equation."
     },
     {
       "year": 2015,
@@ -239,7 +239,7 @@
       },
       "answer": "C",
       "difficulty": "medium",
-      "explanation": "According to Malus' Law, the transmitted intensity is $I = I_0 \times \text{cos}^2 \theta$. For $\theta = 60^{\\circ}$, $I = I_0 \times (1/2)^2 = I_0/4$, which means the intensity decreases by $75\\%$ from its initial value."
+      "explanation": "According to Malus' Law, the transmitted intensity is $I = I_0 \\times \\text{cos}^2 \\theta$. For $\\theta = 60^{\\circ}$, $I = I_0 \\times (1/2)^2 = I_0/4$, which means the intensity decreases by $75\\%$ from its initial value."
     },
     {
       "year": 2015,

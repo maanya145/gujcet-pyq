@@ -470,10 +470,10 @@
       "number": 56,
       "question": "Lactose is composed of which units?",
       "options": {
-        "A": "$\text{a-D-Glucose}$ and $\text{a-D-Glucose}$",
-        "B": "$\text{a-D-Glucose}$ and $\text{b-D-Fructose}$",
-        "C": "$\text{b-D-Galactose}$ and $\text{b-D-Glucose}$",
-        "D": "$\text{a-D-Glucose}$ and $\text{b-D-Galactose}$"
+        "A": "$\\text{a-D-Glucose}$ and $\\text{a-D-Glucose}$",
+        "B": "$\\text{a-D-Glucose}$ and $\\text{b-D-Fructose}$",
+        "C": "$\\text{b-D-Galactose}$ and $\\text{b-D-Glucose}$",
+        "D": "$\\text{a-D-Glucose}$ and $\\text{b-D-Galactose}$"
       },
       "answer": "C",
       "difficulty": "medium",
@@ -484,10 +484,10 @@
       "number": 57,
       "question": "Which of the following gives Zwitter ion in its aqueous solution?",
       "options": {
-        "A": "$\text{COOH}-\text{CH}_2-\text{COOH}$",
-        "B": "$\text{NH}_2-\text{CH}_2-\text{COOH}$",
-        "C": "$\text{NH}_2-\text{CH}_2-\text{CH}_2-\text{NH}_2$",
-        "D": "$\text{CH}_3\text{CH}_2\text{NH}_2$"
+        "A": "$\\text{COOH}-\\text{CH}_2-\\text{COOH}$",
+        "B": "$\\text{NH}_2-\\text{CH}_2-\\text{COOH}$",
+        "C": "$\\text{NH}_2-\\text{CH}_2-\\text{CH}_2-\\text{NH}_2$",
+        "D": "$\\text{CH}_3\\text{CH}_2\\text{NH}_2$"
       },
       "answer": "B",
       "difficulty": "easy",
@@ -498,10 +498,10 @@
       "number": 58,
       "question": "Deficiency of which vitamin is responsible for RBC deficient in haemoglobin?",
       "options": {
-        "A": "Vitamin $\text{B}_{12}$",
-        "B": "Vitamin $\text{B}_6$",
-        "C": "Vitamin $\text{B}_2$",
-        "D": "Vitamin $\text{B}_1$"
+        "A": "Vitamin $\\text{B}_{12}$",
+        "B": "Vitamin $\\text{B}_6$",
+        "C": "Vitamin $\\text{B}_2$",
+        "D": "Vitamin $\\text{B}_1$"
       },
       "answer": "A",
       "difficulty": "easy",
@@ -513,7 +513,7 @@
       "question": "Which of the following statement is incorrect for the structure of Nucleic acid?",
       "options": {
         "A": "Nucleotides are joined together by phosphodiester linkage",
-        "B": "In DNA molecule, the sugar moiety is $\text{b-D-2-deoxyribose}$",
+        "B": "In DNA molecule, the sugar moiety is $\\text{b-D-2-deoxyribose}$",
         "C": "A unit formed by the attachment of a base 1' position of sugar is known as nucleoside",
         "D": "RNA contains four bases adenine, guanine, cytosine and thymine"
       },

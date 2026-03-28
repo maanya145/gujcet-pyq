@@ -225,7 +225,7 @@
       },
       "answer": "D",
       "difficulty": "medium",
-      "explanation": "Using the identity $\\frac{1-\\cos x}{1+\\cos x} = \\tan^2(x/2)$, the expression becomes $\\tan^{-1} |\\tan(x/2)|$. Since $\\pi < x < 2\\pi$, we have $\\pi/2 < x/2 < \\pi$, where $\\tan(x/2)$ is negative, so the expression simplifies to $\\tan^{-1}(-\tan(x/2)) = -x/2$. Differentiating $-x/2$ with respect to $x$ gives $-1/2$."
+      "explanation": "Using the identity $\\frac{1-\\cos x}{1+\\cos x} = \\tan^2(x/2)$, the expression becomes $\\tan^{-1} |\\tan(x/2)|$. Since $\\pi < x < 2\\pi$, we have $\\pi/2 < x/2 < \\pi$, where $\\tan(x/2)$ is negative, so the expression simplifies to $\\tan^{-1}(-\\tan(x/2)) = -x/2$. Differentiating $-x/2$ with respect to $x$ gives $-1/2$."
     },
     {
       "year": 2017,

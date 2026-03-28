@@ -440,7 +440,7 @@
     {
       "year": 2024,
       "number": 60,
-      "question": "Calculate the mass of Glucose ($\text{C}_6\text{H}_{12}\text{O}_6$) required in making 2.5 kg of 0.25 molal aqueous solution. [Atomic wt : H = 1, O = 16, C = 12 amu]",
+      "question": "Calculate the mass of Glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) required in making 2.5 kg of 0.25 molal aqueous solution. [Atomic wt : H = 1, O = 16, C = 12 amu]",
       "options": {
         "A": "135.0 g",
         "B": "107.65 g",
@@ -468,7 +468,7 @@
     {
       "year": 2024,
       "number": 62,
-      "question": "The freezing point depression of 645 g of aqueous solution of ethylene glycol ($\text{C}_2\text{H}_6\text{O}_2$) is 2.25 K. Find weight of ethylene glycol in the solution. [$\text{K}_f = 1.86 \text{ K kg mol}^{-1}$; H = 1, C = 12, O = 16 amu]",
+      "question": "The freezing point depression of 645 g of aqueous solution of ethylene glycol ($\\text{C}_2\\text{H}_6\\text{O}_2$) is 2.25 K. Find weight of ethylene glycol in the solution. [$\\text{K}_f = 1.86 \\text{ K kg mol}^{-1}$; H = 1, C = 12, O = 16 amu]",
       "options": {
         "A": "45.0 g",
         "B": "42.50 g",
@@ -482,7 +482,7 @@
     {
       "year": 2024,
       "number": 63,
-      "question": "Van't Hoff factor (i) for dilute aqueous solution of $\text{K}_4[\text{Fe}(\text{CN})_6]$, $\text{Fe}_4[\text{Fe}(\text{CN})_6]_3$ and $[\text{CoCl}_2(\text{en})_2]\text{Cl}$ are respectively ______, ______, ______.",
+      "question": "Van't Hoff factor (i) for dilute aqueous solution of $\\text{K}_4[\\text{Fe}(\\text{CN})_6]$, $\\text{Fe}_4[\\text{Fe}(\\text{CN})_6]_3$ and $[\\text{CoCl}_2(\\text{en})_2]\\text{Cl}$ are respectively ______, ______, ______.",
       "options": {
         "A": "2, 7, 5",
         "B": "2, 5, 7",

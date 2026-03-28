@@ -34,12 +34,12 @@
     {
       "year": 2024,
       "number": 41,
-      "question": "What is the major product in the following reaction? [Diagram] $\text{CH}_3 - \text{C}(\text{H}) - \text{CH} = \text{CH}_2 \rightarrow \text{HX} \rightarrow ?$",
+      "question": "What is the major product in the following reaction? [Diagram] $\\text{CH}_3 - \\text{C}(\\text{H}) - \\text{CH} = \\text{CH}_2 \rightarrow \\text{HX} \rightarrow ?$",
       "options": {
-        "A": "$\text{CH}_2 - \text{C}(\text{H})(\text{CH}_3) - \text{CH}_2 - \text{CH}_3$ (with X on first C)",
-        "B": "$\text{CH}_3 - \text{C}(\text{CH}_3)(\text{X}) - \text{CH}_2 - \text{CH}_3$",
-        "C": "$\text{CH}_3 - \text{C}(\text{H})(\text{CH}_3) - \text{CH}_2 - \text{CH}_2\text{X}$",
-        "D": "$\text{CH}_3 - \text{C}(\text{CH}_3)(\text{H}) - \text{CH}(\text{X}) - \text{CH}_3$"
+        "A": "$\\text{CH}_2 - \\text{C}(\\text{H})(\\text{CH}_3) - \\text{CH}_2 - \\text{CH}_3$ (with X on first C)",
+        "B": "$\\text{CH}_3 - \\text{C}(\\text{CH}_3)(\\text{X}) - \\text{CH}_2 - \\text{CH}_3$",
+        "C": "$\\text{CH}_3 - \\text{C}(\\text{H})(\\text{CH}_3) - \\text{CH}_2 - \\text{CH}_2\\text{X}$",
+        "D": "$\\text{CH}_3 - \\text{C}(\\text{CH}_3)(\\text{H}) - \\text{CH}(\\text{X}) - \\text{CH}_3$"
       },
       "answer": "D",
       "difficulty": "medium",

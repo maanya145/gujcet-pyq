@@ -328,7 +328,7 @@
     {
       "year": 2021,
       "number": 17,
-      "question": "How many neutrons will produced for a given following nuclear fission reaction? $^1_0n + ^{235}_{92}\text{U} \\rightarrow ^{236}_{92}\text{U} \\rightarrow ^{144}_{56}\text{Ba} + ^{89}_{36}\text{Kr} + (?)^1_0n$",
+      "question": "How many neutrons will produced for a given following nuclear fission reaction? $^1_0n + ^{235}_{92}\\text{U} \\rightarrow ^{236}_{92}\\text{U} \\rightarrow ^{144}_{56}\\text{Ba} + ^{89}_{36}\\text{Kr} + (?)^1_0n$",
       "options": {
         "A": "1",
         "B": "3",
@@ -468,7 +468,7 @@
     {
       "year": 2024,
       "number": 17,
-      "question": "Find the value of $x$ and $y$ from below given nuclear reaction $^{235}_{92}\text{U} + ^1_0\text{n} \\rightarrow ^{133}_{51}\text{Sb} + ^x_y\text{Nb} + 4^1_0\text{n}$",
+      "question": "Find the value of $x$ and $y$ from below given nuclear reaction $^{235}_{92}\\text{U} + ^1_0\\text{n} \\rightarrow ^{133}_{51}\\text{Sb} + ^x_y\\text{Nb} + 4^1_0\\text{n}$",
       "options": {
         "A": "$(133, 41)$",
         "B": "$(51, 95)$",
@@ -482,7 +482,7 @@
     {
       "year": 2024,
       "number": 18,
-      "question": "The ratio of the nuclear radii of the $^1_1\text{H}$ and $^{27}_{13}\text{Al}$ is ________.",
+      "question": "The ratio of the nuclear radii of the $^1_1\\text{H}$ and $^{27}_{13}\\text{Al}$ is ________.",
       "options": {
         "A": "$3:5$",
         "B": "$1:2$",

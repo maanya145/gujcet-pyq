@@ -580,12 +580,12 @@
     {
       "year": 2024,
       "number": 44,
-      "question": "Which product will be obtained in the following reaction? [Diagram] $\text{Cyclohexanone-derivative} \rightarrow \text{NaBH}_4 \rightarrow ?$",
+      "question": "Which product will be obtained in the following reaction? [Diagram] $\\text{Cyclohexanone-derivative} \rightarrow \\text{NaBH}_4 \rightarrow ?$",
       "options": {
-        "A": "Cyclohexane with $\text{CH}_2-\text{CH}_2-\text{OCH}_3$ substituent",
-        "B": "Cyclohexanol with $\text{CH}_2-\text{C}(=\text{O})-\text{OCH}_3$ substituent",
-        "C": "Cyclohexanol with $\text{CH}_2-\text{CH}(\text{OH})-\text{OCH}_3$ substituent",
-        "D": "Cyclohexane with $\text{CH}_2-\text{C}(=\text{O})-\text{OCH}_3$ substituent"
+        "A": "Cyclohexane with $\\text{CH}_2-\\text{CH}_2-\\text{OCH}_3$ substituent",
+        "B": "Cyclohexanol with $\\text{CH}_2-\\text{C}(=\\text{O})-\\text{OCH}_3$ substituent",
+        "C": "Cyclohexanol with $\\text{CH}_2-\\text{CH}(\\text{OH})-\\text{OCH}_3$ substituent",
+        "D": "Cyclohexane with $\\text{CH}_2-\\text{C}(=\\text{O})-\\text{OCH}_3$ substituent"
       },
       "answer": null,
       "difficulty": "medium",
@@ -594,7 +594,7 @@
     {
       "year": 2024,
       "number": 48,
-      "question": "Name the following reaction. [Diagram] Benzoyl chloride $\rightarrow \text{H}_2, \text{Pd-BaSO}_4 \rightarrow$ Benzaldehyde",
+      "question": "Name the following reaction. [Diagram] Benzoyl chloride $\rightarrow \\text{H}_2, \\text{Pd-BaSO}_4 \rightarrow$ Benzaldehyde",
       "options": {
         "A": "Clemmensen reduction",
         "B": "Stephen reaction",
@@ -608,12 +608,12 @@
     {
       "year": 2024,
       "number": 49,
-      "question": "'R' + $\text{CH}_3 - \text{CO} - \text{CH}_3 \rightarrow \text{H}^+ \rightarrow$ Schiff's base what is 'R' in this reaction?",
+      "question": "'R' + $\\text{CH}_3 - \\text{CO} - \\text{CH}_3 \rightarrow \\text{H}^+ \rightarrow$ Schiff's base what is 'R' in this reaction?",
       "options": {
-        "A": "$\text{C}_6\text{H}_5-\text{NH}-\text{NH}_2$",
-        "B": "$\text{NH}_2-\text{NH}_2$",
-        "C": "$\text{CH}_3-\text{NH}_2$",
-        "D": "$\text{NH}_2\text{OH}$"
+        "A": "$\\text{C}_6\\text{H}_5-\\text{NH}-\\text{NH}_2$",
+        "B": "$\\text{NH}_2-\\text{NH}_2$",
+        "C": "$\\text{CH}_3-\\text{NH}_2$",
+        "D": "$\\text{NH}_2\\text{OH}$"
       },
       "answer": null,
       "difficulty": "easy",
@@ -622,7 +622,7 @@
     {
       "year": 2024,
       "number": 50,
-      "question": "[Diagram] $\rightarrow \text{(i) O}_3, \text{(ii) Zn-H}_2\text{O} \rightarrow$ 'X'. What is X in this reaction?",
+      "question": "[Diagram] $\rightarrow \\text{(i) O}_3, \\text{(ii) Zn-H}_2\\text{O} \rightarrow$ 'X'. What is X in this reaction?",
       "options": {
         "A": "Cyclohexanone + Cyclohexanol",
         "B": "Cyclohexanone + Cyclohexanone",
@@ -638,10 +638,10 @@
       "number": 51,
       "question": "Which of the following carboxylic acid has least pKa value among all?",
       "options": {
-        "A": "$\text{NO}_2 \text{CH}_2 \text{COOH}$",
-        "B": "$\text{CH}_3 \text{COOH}$",
-        "C": "$\text{HCOOH}$",
-        "D": "$\text{C}_6\text{H}_5 \text{COOH}$"
+        "A": "$\\text{NO}_2 \\text{CH}_2 \\text{COOH}$",
+        "B": "$\\text{CH}_3 \\text{COOH}$",
+        "C": "$\\text{HCOOH}$",
+        "D": "$\\text{C}_6\\text{H}_5 \\text{COOH}$"
       },
       "answer": "A",
       "difficulty": "easy",

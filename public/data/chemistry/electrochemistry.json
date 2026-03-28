@@ -580,12 +580,12 @@
     {
       "year": 2024,
       "number": 66,
-      "question": "During the electrolysis of higher concentration of $\text{H}_2\text{SO}_4$, the product obtained at anode is ______.",
+      "question": "During the electrolysis of higher concentration of $\\text{H}_2\\text{SO}_4$, the product obtained at anode is ______.",
       "options": {
-        "A": "$\text{O}_{2(g)}$",
-        "B": "$\text{S}_2\text{O}_{8(aq)}^{2-}$",
-        "C": "$\text{SO}_{2(g)}$",
-        "D": "$\text{SO}_{3(aq)}^{2-}$"
+        "A": "$\\text{O}_{2(g)}$",
+        "B": "$\\text{S}_2\\text{O}_{8(aq)}^{2-}$",
+        "C": "$\\text{SO}_{2(g)}$",
+        "D": "$\\text{SO}_{3(aq)}^{2-}$"
       },
       "answer": "C",
       "difficulty": "easy",
@@ -594,7 +594,7 @@
     {
       "year": 2024,
       "number": 67,
-      "question": "How much Faraday of electricity is required to reduce 1.5 mole $\text{KMnO}_4$ into $\text{MnO}_2$ in basic medium?",
+      "question": "How much Faraday of electricity is required to reduce 1.5 mole $\\text{KMnO}_4$ into $\\text{MnO}_2$ in basic medium?",
       "options": {
         "A": "4.5 F",
         "B": "7.5 F",

@@ -412,7 +412,7 @@
     {
       "year": 2024,
       "number": 72,
-      "question": "$\text{KMnO}_4$ acts as oxidising agent in acidic medium. The number of moles of $\text{KMnO}_4$ that will be needed to react with one mole of sulphide ion in acidic solution is ______.",
+      "question": "$\\text{KMnO}_4$ acts as oxidising agent in acidic medium. The number of moles of $\\text{KMnO}_4$ that will be needed to react with one mole of sulphide ion in acidic solution is ______.",
       "options": {
         "A": "1/5",
         "B": "3/5",
@@ -428,10 +428,10 @@
       "number": 73,
       "question": "Which one of the following is amphoteric oxide?",
       "options": {
-        "A": "$\text{V}_2\text{O}_3$",
-        "B": "$\text{CrO}$",
-        "C": "$\text{Cr}_2\text{O}_3$",
-        "D": "$\text{CrO}_3$"
+        "A": "$\\text{V}_2\\text{O}_3$",
+        "B": "$\\text{CrO}$",
+        "C": "$\\text{Cr}_2\\text{O}_3$",
+        "D": "$\\text{CrO}_3$"
       },
       "answer": "C",
       "difficulty": "easy",
@@ -442,10 +442,10 @@
       "number": 74,
       "question": "Which of the following ion show highest spin only magnetic moment value?",
       "options": {
-        "A": "$\text{Co}^{2+}$",
-        "B": "$\text{Mn}^{2+}$",
-        "C": "$\text{Ti}^{2+}$",
-        "D": "$\text{Fe}^{2+}$"
+        "A": "$\\text{Co}^{2+}$",
+        "B": "$\\text{Mn}^{2+}$",
+        "C": "$\\text{Ti}^{2+}$",
+        "D": "$\\text{Fe}^{2+}$"
       },
       "answer": "B",
       "difficulty": "easy",
@@ -519,7 +519,7 @@
       },
       "answer": "C",
       "difficulty": "easy",
-      "explanation": "The Ziegler-Natta catalyst is a combination of titanium tetrachloride ($\\text{TiCl}_4$) and triethylaluminium ($\\text{Al(C}_2\\text{H}_5)_3$). In the $\\text{TiCl}_4$ component, titanium is bonded to four chlorine atoms, each having a $-1$ charge. Therefore, the oxidation state of Titanium ($\text{Ti}$) in this catalyst is $+4$."
+      "explanation": "The Ziegler-Natta catalyst is a combination of titanium tetrachloride ($\\text{TiCl}_4$) and triethylaluminium ($\\text{Al(C}_2\\text{H}_5)_3$). In the $\\text{TiCl}_4$ component, titanium is bonded to four chlorine atoms, each having a $-1$ charge. Therefore, the oxidation state of Titanium ($\\text{Ti}$) in this catalyst is $+4$."
     }
   ]
 }

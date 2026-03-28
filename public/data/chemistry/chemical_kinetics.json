@@ -496,7 +496,7 @@
     {
       "year": 2024,
       "number": 68,
-      "question": "For any reaction the rate constant $\text{K} = 2.3 \times 10^{-5} \text{ mol}^{-3/2} \text{ L}^{3/2} \text{S}^{-1}$; then the order of reaction will be ______.",
+      "question": "For any reaction the rate constant $\\text{K} = 2.3 \\times 10^{-5} \\text{ mol}^{-3/2} \\text{ L}^{3/2} \\text{S}^{-1}$; then the order of reaction will be ______.",
       "options": {
         "A": "0.0 (zero)",
         "B": "1.5",
@@ -524,12 +524,12 @@
     {
       "year": 2024,
       "number": 70,
-      "question": "Which of the following graphs is correct for a first order reaction $\text{R} \rightarrow \text{P}$?",
+      "question": "Which of the following graphs is correct for a first order reaction $\\text{R} \rightarrow \\text{P}$?",
       "options": {
-        "A": "$\text{log}[\text{R}]_0/[\text{R}]$ vs Time (linear)",
-        "B": "$t_{1/2}$ vs $[\text{R}]_0$ (linear decreasing)",
+        "A": "$\\text{log}[\\text{R}]_0/[\\text{R}]$ vs Time (linear)",
+        "B": "$t_{1/2}$ vs $[\\text{R}]_0$ (linear decreasing)",
         "C": "molar conc. [P] vs Time (exponential decay)",
-        "D": "$t_{1/2}$ vs $[\text{R}]_0$ (linear increasing)"
+        "D": "$t_{1/2}$ vs $[\\text{R}]_0$ (linear increasing)"
       },
       "answer": "A",
       "difficulty": "easy",
@@ -538,12 +538,12 @@
     {
       "year": 2024,
       "number": 71,
-      "question": "Reaction $2\text{A} \rightarrow \text{B} + 3\text{C}$ is zero order reaction. If $\text{K} = 3.5 \times 10^{-4} \text{ mol L}^{-1} \text{ S}^{-1}$; What will be the rate of production of 'C'?",
+      "question": "Reaction $2\\text{A} \rightarrow \\text{B} + 3\\text{C}$ is zero order reaction. If $\\text{K} = 3.5 \\times 10^{-4} \\text{ mol L}^{-1} \\text{ S}^{-1}$; What will be the rate of production of 'C'?",
       "options": {
-        "A": "$1.167 \times 10^{-4} \text{ mol L}^{-1} \text{ S}^{-1}$",
-        "B": "$10.5 \times 10^{-4} \text{ mol L}^{-1} \text{ S}^{-1}$",
-        "C": "$3.5 \times 10^{-4} \text{ mol L}^{-1} \text{ S}^{-1}$",
-        "D": "$7.0 \times 10^{-4} \text{ mol L}^{-1} \text{ S}^{-1}$"
+        "A": "$1.167 \\times 10^{-4} \\text{ mol L}^{-1} \\text{ S}^{-1}$",
+        "B": "$10.5 \\times 10^{-4} \\text{ mol L}^{-1} \\text{ S}^{-1}$",
+        "C": "$3.5 \\times 10^{-4} \\text{ mol L}^{-1} \\text{ S}^{-1}$",
+        "D": "$7.0 \\times 10^{-4} \\text{ mol L}^{-1} \\text{ S}^{-1}$"
       },
       "answer": "B",
       "difficulty": "medium",

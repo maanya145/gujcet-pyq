@@ -15,7 +15,7 @@
       },
       "answer": "C",
       "difficulty": "medium",
-      "explanation": "The given compound is neopentyl alcohol, which is a primary alcohol. Primary alcohols do not react with Lucas reagent ($\text{ZnCl}_2 + \text{HCl}$) at room temperature to show any visible change. Therefore, the reaction does not take place under standard conditions."
+      "explanation": "The given compound is neopentyl alcohol, which is a primary alcohol. Primary alcohols do not react with Lucas reagent ($\\text{ZnCl}_2 + \\text{HCl}$) at room temperature to show any visible change. Therefore, the reaction does not take place under standard conditions."
     },
     {
       "year": 2007,
@@ -29,7 +29,7 @@
       },
       "answer": "A",
       "difficulty": "easy",
-      "explanation": "In alcohols, both the carbon and oxygen atoms are $sp^3$ hybridized. While the actual bond angle in methanol is approximately $108.9^\text{o}$ due to lone pair repulsions, the theoretical tetrahedral bond angle associated with $sp^3$ hybridization is $109^\text{o} 28'$."
+      "explanation": "In alcohols, both the carbon and oxygen atoms are $sp^3$ hybridized. While the actual bond angle in methanol is approximately $108.9^\\text{o}$ due to lone pair repulsions, the theoretical tetrahedral bond angle associated with $sp^3$ hybridization is $109^\\text{o} 28'$."
     },
     {
       "year": 2008,
@@ -43,7 +43,7 @@
       },
       "answer": null,
       "difficulty": "medium",
-      "explanation": "Statement (1) is correct because the phenoxide ion is resonance stabilized, making phenol more acidic than alcohols. Statement (3) is also correct as phenols react with neutral $\text{FeCl}_3$ to form a characteristic violet-colored complex. Statements (2) and (4) are incorrect as phenol is used for Bakelite, not melamine, and its reaction with acetyl chloride yields an ester."
+      "explanation": "Statement (1) is correct because the phenoxide ion is resonance stabilized, making phenol more acidic than alcohols. Statement (3) is also correct as phenols react with neutral $\\text{FeCl}_3$ to form a characteristic violet-colored complex. Statements (2) and (4) are incorrect as phenol is used for Bakelite, not melamine, and its reaction with acetyl chloride yields an ester."
     },
     {
       "year": 2008,
@@ -57,7 +57,7 @@
       },
       "answer": null,
       "difficulty": "easy",
-      "explanation": "Formaldehyde ($\text{HCHO}$) reacts with Grignard reagents to produce primary alcohols. The reaction of $\text{HCHO}$ with ethyl magnesium iodide ($\text{CH}_3\text{CH}_2\text{MgI}$) followed by hydrolysis yields 1-propanol ($\text{CH}_3\text{CH}_2\text{CH}_2\text{OH}$)."
+      "explanation": "Formaldehyde ($\\text{HCHO}$) reacts with Grignard reagents to produce primary alcohols. The reaction of $\\text{HCHO}$ with ethyl magnesium iodide ($\\text{CH}_3\\text{CH}_2\\text{MgI}$) followed by hydrolysis yields 1-propanol ($\\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{OH}$)."
     },
     {
       "year": 2009,
@@ -71,7 +71,7 @@
       },
       "answer": null,
       "difficulty": "easy",
-      "explanation": "Tertiary butyl alcohol consists of a central carbon atom bonded to three methyl groups and one hydroxyl group. The structural formula is $(\text{CH}_3)_3\text{C-OH}$, which corresponds to option A."
+      "explanation": "Tertiary butyl alcohol consists of a central carbon atom bonded to three methyl groups and one hydroxyl group. The structural formula is $(\\text{CH}_3)_3\\text{C-OH}$, which corresponds to option A."
     },
     {
       "year": 2009,
@@ -85,7 +85,7 @@
       },
       "answer": null,
       "difficulty": "easy",
-      "explanation": "The reaction of phenol with chloroform ($\text{CHCl}_3$) in the presence of aqueous sodium hydroxide to form salicylaldehyde is known as the Reimer-Tiemann reaction. This is a classic electrophilic aromatic substitution reaction used to introduce an aldehyde group."
+      "explanation": "The reaction of phenol with chloroform ($\\text{CHCl}_3$) in the presence of aqueous sodium hydroxide to form salicylaldehyde is known as the Reimer-Tiemann reaction. This is a classic electrophilic aromatic substitution reaction used to introduce an aldehyde group."
     },
     {
       "year": 2009,
@@ -99,7 +99,7 @@
       },
       "answer": null,
       "difficulty": "easy",
-      "explanation": "In ethers ($R-\text{O}-R$), the oxygen atom forms two sigma bonds and has two lone pairs, resulting in $sp^3$ hybridization. The alkyl carbon atoms attached to the oxygen are also $sp^3$ hybridized in simple saturated ethers."
+      "explanation": "In ethers ($R-\\text{O}-R$), the oxygen atom forms two sigma bonds and has two lone pairs, resulting in $sp^3$ hybridization. The alkyl carbon atoms attached to the oxygen are also $sp^3$ hybridized in simple saturated ethers."
     },
     {
       "year": 2011,
@@ -113,7 +113,7 @@
       },
       "answer": "D",
       "difficulty": "medium",
-      "explanation": "In phenol, the carbon atom attached to the $-\text{OH}$ group is part of the aromatic ring and is $sp^2$ hybridized. The oxygen atom of the hydroxyl group has two lone pairs and two sigma bonds, making it $sp^3$ hybridized."
+      "explanation": "In phenol, the carbon atom attached to the $-\\text{OH}$ group is part of the aromatic ring and is $sp^2$ hybridized. The oxygen atom of the hydroxyl group has two lone pairs and two sigma bonds, making it $sp^3$ hybridized."
     },
     {
       "year": 2011,
@@ -141,7 +141,7 @@
       },
       "answer": "D",
       "difficulty": "easy",
-      "explanation": "Solubility of alcohols in water increases with the number of hydroxyl ($-\text{OH}$) groups because they can form more hydrogen bonds with water molecules. Glycerol, having three $-\text{OH}$ groups, is more soluble than ethylene glycol (two) or butyl alcohols (one)."
+      "explanation": "Solubility of alcohols in water increases with the number of hydroxyl ($-\\text{OH}$) groups because they can form more hydrogen bonds with water molecules. Glycerol, having three $-\\text{OH}$ groups, is more soluble than ethylene glycol (two) or butyl alcohols (one)."
     },
     {
       "year": 2014,
@@ -155,7 +155,7 @@
       },
       "answer": "A",
       "difficulty": "medium",
-      "explanation": "During the oxidation of alcohols to aldehydes or ketones, the $\text{O}-\text{H}$ and $\text{C}-\text{H}$ bonds are broken to form a $\text{C}=\text{O}$ double bond. The original $\text{C}-\text{O}$ single bond remains intact, unlike in dehydration or substitution reactions where the $\text{C}-\text{O}$ bond is cleaved."
+      "explanation": "During the oxidation of alcohols to aldehydes or ketones, the $\\text{O}-\\text{H}$ and $\\text{C}-\\text{H}$ bonds are broken to form a $\\text{C}=\\text{O}$ double bond. The original $\\text{C}-\\text{O}$ single bond remains intact, unlike in dehydration or substitution reactions where the $\\text{C}-\\text{O}$ bond is cleaved."
     },
     {
       "year": 2015,
@@ -169,7 +169,7 @@
       },
       "answer": "A",
       "difficulty": "easy",
-      "explanation": "Bromination of anisole (methyl phenyl ether) occurs readily with bromine in ethanoic acid ($\text{Br}_2 / \text{CH}_3\text{COOH}$). The methoxy group is a strong activating group, so a Lewis acid catalyst like $\text{FeBr}_3$ is not strictly required for the reaction."
+      "explanation": "Bromination of anisole (methyl phenyl ether) occurs readily with bromine in ethanoic acid ($\\text{Br}_2 / \\text{CH}_3\\text{COOH}$). The methoxy group is a strong activating group, so a Lewis acid catalyst like $\\text{FeBr}_3$ is not strictly required for the reaction."
     },
     {
       "year": 2015,
@@ -183,7 +183,7 @@
       },
       "answer": "A",
       "difficulty": "easy",
-      "explanation": "Picric acid is the common name for 2,4,6-trinitrophenol. Despite its name, it does not contain a carboxylic acid group ($-\text{COOH}$); it is called an acid because the three nitro groups make the phenolic hydrogen very acidic."
+      "explanation": "Picric acid is the common name for 2,4,6-trinitrophenol. Despite its name, it does not contain a carboxylic acid group ($-\\text{COOH}$); it is called an acid because the three nitro groups make the phenolic hydrogen very acidic."
     },
     {
       "year": 2015,
@@ -197,7 +197,7 @@
       },
       "answer": "A",
       "difficulty": "medium",
-      "explanation": "Phenol is a very weak acid, weaker than carbonic acid, and therefore it does not react with sodium carbonate ($\text{Na}_2\text{CO}_3$) to release $\text{CO}_2$. It only reacts with stronger bases like sodium hydroxide ($\text{NaOH}$) to form phenoxide salts."
+      "explanation": "Phenol is a very weak acid, weaker than carbonic acid, and therefore it does not react with sodium carbonate ($\\text{Na}_2\\text{CO}_3$) to release $\\text{CO}_2$. It only reacts with stronger bases like sodium hydroxide ($\\text{NaOH}$) to form phenoxide salts."
     },
     {
       "year": 2017,
@@ -211,7 +211,7 @@
       },
       "answer": "B",
       "difficulty": "hard",
-      "explanation": "This reaction is the Fries rearrangement, where a phenolic ester is converted into ortho and para-hydroxy ketones in the presence of a Lewis acid like anhydrous $\text{AlCl}_3$. Phenyl ethanoate rearranges to form o-hydroxy acetophenone and p-hydroxy acetophenone."
+      "explanation": "This reaction is the Fries rearrangement, where a phenolic ester is converted into ortho and para-hydroxy ketones in the presence of a Lewis acid like anhydrous $\\text{AlCl}_3$. Phenyl ethanoate rearranges to form o-hydroxy acetophenone and p-hydroxy acetophenone."
     },
     {
       "year": 2017,
@@ -442,10 +442,10 @@
       "number": 45,
       "question": "Predict the major product of acid catalysed dehydration of butan-1-ol.",
       "options": {
-        "A": "$2\text{CH}_2 = \text{CH}_2$",
-        "B": "$\text{CH}_3 - \text{C}(\text{CH}_3) = \text{CH}_2$",
-        "C": "$\text{CH}_3 - \text{CH} = \text{CH} - \text{CH}_3$",
-        "D": "$\text{CH}_3 - \text{CH}_2 - \text{CH} = \text{CH}_2$"
+        "A": "$2\\text{CH}_2 = \\text{CH}_2$",
+        "B": "$\\text{CH}_3 - \\text{C}(\\text{CH}_3) = \\text{CH}_2$",
+        "C": "$\\text{CH}_3 - \\text{CH} = \\text{CH} - \\text{CH}_3$",
+        "D": "$\\text{CH}_3 - \\text{CH}_2 - \\text{CH} = \\text{CH}_2$"
       },
       "answer": null,
       "difficulty": "medium",
@@ -454,12 +454,12 @@
     {
       "year": 2024,
       "number": 46,
-      "question": "Give the major product formed by heating $\text{CH}_3 - \text{CH}_2 - \text{CH}_2 - \text{O} - \text{C}(\text{CH}_3)_2 - \text{CH}_2 - \text{CH}_3$ with HI.",
+      "question": "Give the major product formed by heating $\\text{CH}_3 - \\text{CH}_2 - \\text{CH}_2 - \\text{O} - \\text{C}(\\text{CH}_3)_2 - \\text{CH}_2 - \\text{CH}_3$ with HI.",
       "options": {
-        "A": "$\text{CH}_3 - \text{CH}_2 - \text{CH}_2 - \text{OH} + \text{CH}_3 - \text{CH}_2 - \text{C}(\text{CH}_3)_2 - \text{I}$",
-        "B": "$\text{CH}_3 - \text{CH}_2 - \text{CH}_2 - \text{OI} + \text{CH}_3 - \text{CH}_2 - \text{CH}(\text{CH}_3)_2$",
-        "C": "$\text{CH}_3 - \text{CH}_3 + \text{I} - \text{CH}_2 - \text{O} - \text{C}(\text{CH}_3)_2 - \text{CH}_2 - \text{CH}_3$",
-        "D": "$\text{CH}_3\text{CH}_2\text{CH}_2\text{I} + \text{CH}_3 - \text{CH}_2 - \text{C}(\text{CH}_3)_2 - \text{OH}$"
+        "A": "$\\text{CH}_3 - \\text{CH}_2 - \\text{CH}_2 - \\text{OH} + \\text{CH}_3 - \\text{CH}_2 - \\text{C}(\\text{CH}_3)_2 - \\text{I}$",
+        "B": "$\\text{CH}_3 - \\text{CH}_2 - \\text{CH}_2 - \\text{OI} + \\text{CH}_3 - \\text{CH}_2 - \\text{CH}(\\text{CH}_3)_2$",
+        "C": "$\\text{CH}_3 - \\text{CH}_3 + \\text{I} - \\text{CH}_2 - \\text{O} - \\text{C}(\\text{CH}_3)_2 - \\text{CH}_2 - \\text{CH}_3$",
+        "D": "$\\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{I} + \\text{CH}_3 - \\text{CH}_2 - \\text{C}(\\text{CH}_3)_2 - \\text{OH}$"
       },
       "answer": null,
       "difficulty": "hard",

@@ -188,7 +188,7 @@
     {
       "year": 2022,
       "number": 1,
-      "question": "If $2\text{sin}^{-1}x = \text{sin}^{-1}2x\text{sqrt}{1-x^2}$ then $x \\in$ ________.",
+      "question": "If $2\\text{sin}^{-1}x = \\text{sin}^{-1}2x\\text{sqrt}{1-x^2}$ then $x \\in$ ________.",
       "options": {
         "A": "$[-\\frac{1}{\\sqrt{2}}, 1]$",
         "B": "$[0, 1]$",

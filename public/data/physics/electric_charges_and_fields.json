@@ -552,7 +552,7 @@
     {
       "year": 2024,
       "number": 23,
-      "question": "An infinite line charge produces an electric field of $9 \\times 10^4\\text{ N/C}$ at a distance of $2\\text{cm}$. Then the linear charge density will be ________. ($K = 9 \\times 10^9\\text{ Nm}^2/\text{C}^2$)",
+      "question": "An infinite line charge produces an electric field of $9 \\times 10^4\\text{ N/C}$ at a distance of $2\\text{cm}$. Then the linear charge density will be ________. ($K = 9 \\times 10^9\\text{ Nm}^2/\\text{C}^2$)",
       "options": {
         "A": "$0.1\\mu\\text{C/m}$",
         "B": "$10\\mu\\text{C/m}$",

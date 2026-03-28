@@ -370,7 +370,7 @@
     {
       "year": 2024,
       "number": 42,
-      "question": "Predict the order of reactivity of the following compounds in $\text{S}_\text{N}1$ reaction. (i) $\text{C}_6\text{H}_5 \text{CH}_2\text{Br}$ (ii) $\text{C}_6\text{H}_5 \text{CH}(\text{C}_6\text{H}_5)\text{Br}$ (iii) $\text{C}_6\text{H}_5 \text{CH}(\text{CH}_3)\text{Br}$ (iv) $\text{C}_6\text{H}_5 \text{C}(\text{CH}_3)(\text{C}_6\text{H}_5)\text{Br}$",
+      "question": "Predict the order of reactivity of the following compounds in $\\text{S}_\\text{N}1$ reaction. (i) $\\text{C}_6\\text{H}_5 \\text{CH}_2\\text{Br}$ (ii) $\\text{C}_6\\text{H}_5 \\text{CH}(\\text{C}_6\\text{H}_5)\\text{Br}$ (iii) $\\text{C}_6\\text{H}_5 \\text{CH}(\\text{CH}_3)\\text{Br}$ (iv) $\\text{C}_6\\text{H}_5 \\text{C}(\\text{CH}_3)(\\text{C}_6\\text{H}_5)\\text{Br}$",
       "options": {
         "A": "(ii) > (iii) > (iv) > (i)",
         "B": "(ii) > (iv) > (iii) > (i)",
@@ -384,7 +384,7 @@
     {
       "year": 2024,
       "number": 43,
-      "question": "Match the reactions given in column - I with the names given in column - II. [Table] Column - I: i) $\text{R}-\text{Cl} + \text{NaI} \rightarrow \text{R}-\text{I} + \text{NaCl}$, ii) $\text{CH}_3 - \text{Br} + \text{AgF} \rightarrow \text{CH}_3 - \text{F} + \text{AgBr}$, iii) $\text{R}-\text{X} + \text{Mg} \rightarrow \text{R}-\text{Mg}-\text{X} \rightarrow \text{RH} + \text{Mg}(\text{OH})\text{X}$. Column - II: a) Swarts reaction, b) Wurtz reaction, c) Finkelstein reaction, d) Grignard reaction",
+      "question": "Match the reactions given in column - I with the names given in column - II. [Table] Column - I: i) $\\text{R}-\\text{Cl} + \\text{NaI} \rightarrow \\text{R}-\\text{I} + \\text{NaCl}$, ii) $\\text{CH}_3 - \\text{Br} + \\text{AgF} \rightarrow \\text{CH}_3 - \\text{F} + \\text{AgBr}$, iii) $\\text{R}-\\text{X} + \\text{Mg} \rightarrow \\text{R}-\\text{Mg}-\\text{X} \rightarrow \\text{RH} + \\text{Mg}(\\text{OH})\\text{X}$. Column - II: a) Swarts reaction, b) Wurtz reaction, c) Finkelstein reaction, d) Grignard reaction",
       "options": {
         "A": "(i) $\rightarrow$ (c); (ii) $\rightarrow$ (a); (iii) $\rightarrow$ (d)",
         "B": "(i) $\rightarrow$ (d); (ii) $\rightarrow$ (c); (iii) $\rightarrow$ (b)",
@@ -398,12 +398,12 @@
     {
       "year": 2024,
       "number": 80,
-      "question": "Which reagent will be used for the following reaction? $\text{CH}_3\text{CH}_2\text{CH}_2\text{CH}_3 \rightarrow \text{CH}_3 - \text{CH}_2 - \text{CH}_2\text{CH}_2\text{Cl} + \text{CH}_3 - \text{CH}_2 - \text{CH}(\text{Cl}) - \text{CH}_3$",
+      "question": "Which reagent will be used for the following reaction? $\\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{CH}_3 \rightarrow \\text{CH}_3 - \\text{CH}_2 - \\text{CH}_2\\text{CH}_2\\text{Cl} + \\text{CH}_3 - \\text{CH}_2 - \\text{CH}(\\text{Cl}) - \\text{CH}_3$",
       "options": {
-        "A": "$\text{Cl}_2$, air, Fe/dark",
-        "B": "$\text{NaCl} + \text{H}_2\text{SO}_4$",
-        "C": "$\text{Cl}_2$/UV light",
-        "D": "$\text{Cl}_2$, air/dark"
+        "A": "$\\text{Cl}_2$, air, Fe/dark",
+        "B": "$\\text{NaCl} + \\text{H}_2\\text{SO}_4$",
+        "C": "$\\text{Cl}_2$/UV light",
+        "D": "$\\text{Cl}_2$, air/dark"
       },
       "answer": "C",
       "difficulty": "easy",

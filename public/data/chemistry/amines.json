@@ -412,7 +412,7 @@
     {
       "year": 2024,
       "number": 52,
-      "question": "Identify 'C' in the following reaction. $\text{C}_6\text{H}_5\text{NO}_2 \rightarrow \text{Fe/HCl} \rightarrow \text{'A'} \rightarrow \text{NaNO}_2+\text{HCl} \rightarrow \text{'B'} \rightarrow \text{H}_2\text{O} \rightarrow \text{'C'}$",
+      "question": "Identify 'C' in the following reaction. $\\text{C}_6\\text{H}_5\\text{NO}_2 \rightarrow \\text{Fe/HCl} \rightarrow \\text{'A'} \rightarrow \\text{NaNO}_2+\\text{HCl} \rightarrow \\text{'B'} \rightarrow \\text{H}_2\\text{O} \rightarrow \\text{'C'}$",
       "options": {
         "A": "Benzene",
         "B": "Chlorobenzene",
@@ -428,10 +428,10 @@
       "number": 53,
       "question": "Which amine is prepared by Gabriel phthalimide synthesis?",
       "options": {
-        "A": "$\text{Ar}-\text{NH}_2$",
-        "B": "$\text{R}-\text{NH}-\text{R}$",
-        "C": "$\text{R}-\text{N}(\text{R})_2$",
-        "D": "$\text{R}-\text{NH}_2$"
+        "A": "$\\text{Ar}-\\text{NH}_2$",
+        "B": "$\\text{R}-\\text{NH}-\\text{R}$",
+        "C": "$\\text{R}-\\text{N}(\\text{R})_2$",
+        "D": "$\\text{R}-\\text{NH}_2$"
       },
       "answer": "D",
       "difficulty": "easy",
@@ -442,10 +442,10 @@
       "number": 54,
       "question": "Which is the correct order of the basic strength of given amines?",
       "options": {
-        "A": "$(\text{C}_2\text{H}_5)_2\text{NH} > \text{C}_2\text{H}_5\text{NH}_2 > \text{C}_6\text{H}_5\text{NH}_2 > \text{NH}_3$",
-        "B": "$(\text{C}_2\text{H}_5)_2\text{NH} > \text{C}_2\text{H}_5\text{NH}_2 > \text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2$",
-        "C": "$\text{NH}_3 > \text{C}_6\text{H}_5\text{NH}_2 > (\text{C}_2\text{H}_5)_2\text{NH} > \text{C}_2\text{H}_5\text{NH}_2$",
-        "D": "$\text{C}_6\text{H}_5\text{NH}_2 > (\text{C}_2\text{H}_5)_2\text{NH} > \text{C}_2\text{H}_5\text{NH}_2 > \text{NH}_3$"
+        "A": "$(\\text{C}_2\\text{H}_5)_2\\text{NH} > \\text{C}_2\\text{H}_5\\text{NH}_2 > \\text{C}_6\\text{H}_5\\text{NH}_2 > \\text{NH}_3$",
+        "B": "$(\\text{C}_2\\text{H}_5)_2\\text{NH} > \\text{C}_2\\text{H}_5\\text{NH}_2 > \\text{NH}_3 > \\text{C}_6\\text{H}_5\\text{NH}_2$",
+        "C": "$\\text{NH}_3 > \\text{C}_6\\text{H}_5\\text{NH}_2 > (\\text{C}_2\\text{H}_5)_2\\text{NH} > \\text{C}_2\\text{H}_5\\text{NH}_2$",
+        "D": "$\\text{C}_6\\text{H}_5\\text{NH}_2 > (\\text{C}_2\\text{H}_5)_2\\text{NH} > \\text{C}_2\\text{H}_5\\text{NH}_2 > \\text{NH}_3$"
       },
       "answer": "A",
       "difficulty": "medium",
@@ -456,10 +456,10 @@
       "number": 55,
       "question": "Which diazonium salt is water insoluble and stable at room temperature?",
       "options": {
-        "A": "$\text{C}_6\text{H}_5\text{N}_2^+\text{BF}_4^-$",
-        "B": "$\text{C}_6\text{H}_5\text{N}_2^+\text{Br}^-$",
-        "C": "$\text{C}_6\text{H}_5\text{N}_2^+\text{HSO}_4^-$",
-        "D": "$\text{C}_6\text{H}_5\text{N}_2^+\text{Cl}^-$"
+        "A": "$\\text{C}_6\\text{H}_5\\text{N}_2^+\\text{BF}_4^-$",
+        "B": "$\\text{C}_6\\text{H}_5\\text{N}_2^+\\text{Br}^-$",
+        "C": "$\\text{C}_6\\text{H}_5\\text{N}_2^+\\text{HSO}_4^-$",
+        "D": "$\\text{C}_6\\text{H}_5\\text{N}_2^+\\text{Cl}^-$"
       },
       "answer": "A",
       "difficulty": "easy",

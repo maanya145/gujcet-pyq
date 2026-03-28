@@ -512,10 +512,10 @@
       "number": 76,
       "question": "Which one is the correct formula for coordination compound tris [ethane-1, 2-diamine] cobalt (III) sulphate",
       "options": {
-        "A": "$[\text{Co}(\text{en})_3]_3(\text{SO}_4)_2$",
-        "B": "$[\text{Co}(\text{en})_3]_2(\text{SO}_4)_3$",
-        "C": "$[\text{Co}(\text{en})_3](\text{SO}_4)_2$",
-        "D": "$[\text{Co}(\text{en})_3]\text{SO}_4$"
+        "A": "$[\\text{Co}(\\text{en})_3]_3(\\text{SO}_4)_2$",
+        "B": "$[\\text{Co}(\\text{en})_3]_2(\\text{SO}_4)_3$",
+        "C": "$[\\text{Co}(\\text{en})_3](\\text{SO}_4)_2$",
+        "D": "$[\\text{Co}(\\text{en})_3]\\text{SO}_4$"
       },
       "answer": "B",
       "difficulty": "easy",
@@ -524,12 +524,12 @@
     {
       "year": 2024,
       "number": 77,
-      "question": "Hybridizations in $[\text{Ni}(\text{CO})_4]$ and $[\text{Ni}(\text{CN})_4]^{-2}$ are respectively ______.",
+      "question": "Hybridizations in $[\\text{Ni}(\\text{CO})_4]$ and $[\\text{Ni}(\\text{CN})_4]^{-2}$ are respectively ______.",
       "options": {
-        "A": "$\text{sp}^3$ and $\text{dsp}^2$",
-        "B": "$\text{sp}^3$ and $\text{sp}^3$",
-        "C": "$\text{dsp}^2$ and $\text{sp}^3$",
-        "D": "$\text{dsp}^2$ and $\text{dsp}^2$"
+        "A": "$\\text{sp}^3$ and $\\text{dsp}^2$",
+        "B": "$\\text{sp}^3$ and $\\text{sp}^3$",
+        "C": "$\\text{dsp}^2$ and $\\text{sp}^3$",
+        "D": "$\\text{dsp}^2$ and $\\text{dsp}^2$"
       },
       "answer": "A",
       "difficulty": "medium",
@@ -540,10 +540,10 @@
       "number": 78,
       "question": "Identify the optically active compound from the following.",
       "options": {
-        "A": "$[\text{Pt}(\text{NH}_3)_2\text{Cl}_2]$",
-        "B": "$[\text{Co}(\text{NH}_3)_6]\text{Cl}_2$",
-        "C": "$[\text{Co}(\text{en})_3]\text{Cl}_3$",
-        "D": "$[\text{Co}(\text{NH}_3)_5\text{Cl}]\text{Cl}$"
+        "A": "$[\\text{Pt}(\\text{NH}_3)_2\\text{Cl}_2]$",
+        "B": "$[\\text{Co}(\\text{NH}_3)_6]\\text{Cl}_2$",
+        "C": "$[\\text{Co}(\\text{en})_3]\\text{Cl}_3$",
+        "D": "$[\\text{Co}(\\text{NH}_3)_5\\text{Cl}]\\text{Cl}$"
       },
       "answer": "D",
       "difficulty": "medium",
@@ -552,7 +552,7 @@
     {
       "year": 2024,
       "number": 79,
-      "question": "In the complex $\text{K}[\text{Cr}(\text{H}_2\text{O})_2(\text{C}_2\text{O}_4)_2].3\text{H}_2\text{O}$, oxidation state and co-ordination number of the central metal ion is ______ and ______.",
+      "question": "In the complex $\\text{K}[\\text{Cr}(\\text{H}_2\\text{O})_2(\\text{C}_2\\text{O}_4)_2].3\\text{H}_2\\text{O}$, oxidation state and co-ordination number of the central metal ion is ______ and ______.",
       "options": {
         "A": "+ 4, 4",
         "B": "+ 3, 4",
